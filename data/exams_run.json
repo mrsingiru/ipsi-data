@@ -1,0 +1,12 @@
+{
+ "date": "2026-10-18",
+ "mode": "all",
+ "planned": 5728,
+ "fetched": 5728,
+ "errors": 0,
+ "with_exams_today": 4122,
+ "schools_total": 5728,
+ "schools_with_exams": 4122,
+ "limit_hit": false,
+ "error_samples": []
+}
