@@ -22,21 +22,36 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 300
     steps:
+      - name: 인증키가 있는지 보기(없으면 오늘은 쉬기)
+        id: key
+        env:
+          NEIS_KEY: ${{ secrets.NEIS_KEY }}
+        run: |
+          if [ -z "$NEIS_KEY" ]; then
+            echo "::notice::비밀 값 NEIS_KEY가 아직 없어 오늘은 건너뜁니다(README '처음 한 번 설정' 참고)."
+            echo "ready=no" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=yes" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/checkout@v4
+        if: steps.key.outputs.ready == 'yes'
       - uses: actions/setup-python@v5
+        if: steps.key.outputs.ready == 'yes'
         with:
           python-version: '3.12'
       - name: 학교 목록 받기
+        if: steps.key.outputs.ready == 'yes'
         env:
           NEIS_KEY: ${{ secrets.NEIS_KEY }}
         run: python scripts/fetch_schools.py
       - name: 시험 날짜 받기(중·고등학교 학사일정)
+        if: steps.key.outputs.ready == 'yes'
         env:
           NEIS_KEY: ${{ secrets.NEIS_KEY }}
           MODE: ${{ github.event.inputs.mode || 'rotate' }}
         run: python scripts/fetch_exams.py
       - name: 바뀐 것이 있으면 저장
-        if: always()
+        if: always() && steps.key.outputs.ready == 'yes'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
