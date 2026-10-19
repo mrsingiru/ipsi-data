@@ -2,7 +2,7 @@
  "id": "n09",
  "org": "인천 융합영재교육원",
  "what": "일정 단계 날짜",
- "checkedAt": "2026-10-19T20:09:39+09:00",
+ "checkedAt": "2026-10-19T20:15:19+09:00",
  "opened": [
   {
    "url": "https://www.geig.ac.kr/bbs_shop/read.htm?idx=132365",
@@ -26,6 +26,17 @@
   }
  ],
  "files": [],
- "lines": [],
- "status": "found-no-dates"
+ "lines": [
+  {
+   "text": "[서해구·검단구] 2027학년도 서해구·검단구 영재교육대상자 선발 관련 사전 안내 | 2026-08-21 10:03:00",
+   "dates": [
+    "2026-08-21"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://www.geig.ac.kr/bbs_shop/read.htm?idx=132375"
+  }
+ ],
+ "status": "dates"
 }

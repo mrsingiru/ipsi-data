@@ -1,20 +1,20 @@
 {
- "at": "2026-10-19T20:10:42+09:00",
+ "at": "2026-10-19T20:16:04+09:00",
  "targets": 12,
- "withDates": 4,
+ "withDates": 6,
  "items": [
   {
    "id": "n93",
    "org": "대구대 글로벌브릿지 영재원",
-   "status": "found-no-dates",
-   "lines": 0,
+   "status": "dates",
+   "lines": 18,
    "files": 6,
    "opened": 8
   },
   {
    "id": "n27",
    "org": "한양대 ERICA 영재원",
-   "status": "error",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
    "opened": 3
@@ -22,7 +22,7 @@
   {
    "id": "n16",
    "org": "동두천양주 영재교육원",
-   "status": "error",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
    "opened": 1
@@ -30,7 +30,7 @@
   {
    "id": "n75",
    "org": "대구 교육청 영재원",
-   "status": "error",
+   "status": "not-found",
    "lines": 0,
    "files": 0,
    "opened": 2
@@ -46,8 +46,8 @@
   {
    "id": "n09",
    "org": "인천 융합영재교육원",
-   "status": "found-no-dates",
-   "lines": 0,
+   "status": "dates",
+   "lines": 1,
    "files": 0,
    "opened": 2
   },
@@ -55,7 +55,7 @@
    "id": "n26",
    "org": "경인교대 영재원",
    "status": "dates",
-   "lines": 2,
+   "lines": 15,
    "files": 5,
    "opened": 1
   },
@@ -63,7 +63,7 @@
    "id": "n78",
    "org": "대구교대 영재원",
    "status": "dates",
-   "lines": 1,
+   "lines": 7,
    "files": 4,
    "opened": 2
   },
@@ -71,7 +71,7 @@
    "id": "n79",
    "org": "경북대 영재원",
    "status": "dates",
-   "lines": 9,
+   "lines": 29,
    "files": 4,
    "opened": 2
   },
@@ -87,7 +87,7 @@
    "id": "n44",
    "org": "공주대 영재원",
    "status": "dates",
-   "lines": 3,
+   "lines": 16,
    "files": 4,
    "opened": 2
   },

@@ -2,7 +2,7 @@
  "id": "n26",
  "org": "경인교대 영재원",
  "what": "일정 단계 날짜",
- "checkedAt": "2026-10-19T20:09:42+09:00",
+ "checkedAt": "2026-10-19T20:15:22+09:00",
  "opened": [
   {
    "url": "https://edu.ginue.ac.kr/sciencegifted/CMS/Board/Board.do?mCode=MN036&mode=view&mgr_seq=82&board_seq=8841",
@@ -61,9 +61,53 @@
  ],
  "lines": [
   {
+   "text": "선발\u0000 공고 | \u0000 8.21.(금)",
+   "dates": [
+    "2026-08-21"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
+   "text": "(온라인\u0000 및\u0000 우편\u0000 접수)\u0000 | \u0000 9.21.(월)\u0000 10:00\u0000 ~\u0000 9.30.(수)\u0000 18:00",
+   "dates": [
+    "2026-09-21",
+    "2026-09-30"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
+   "text": "추천서\u0000 접수 | \u0000 9.21.(월)\u0000 10:00\u0000 ~\u0000 10.1.(목)\u0000 18:00",
+   "dates": [
+    "2026-09-21",
+    "2026-10-01"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
+   "text": "원서접수\u0000 수수료\u0000 납부 | \u0000 9.21.(월)\u0000 10:00\u0000 ~\u0000 9.30.(수)\u0000 18:00",
+   "dates": [
+    "2026-09-21",
+    "2026-09-30"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
    "text": "1차\u0000 전형\u0000 합격자\u0000 발표 \u0000 10.23.(금)\u0000 17:00",
    "dates": [
-    "2027-10-23"
+    "2026-10-23"
    ],
    "words": [
     "발표"
@@ -71,13 +115,110 @@
    "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
   },
   {
-   "text": "\u0000 11.5.(목)\u0000 17:00\u0000 ~\u0000 11.11.(수)\u0000 18:00 \u0000 선발\u0000 홈페이지-공지사항\u0000 공지",
+   "text": "\u0000 선발\u0000 홈페이지-마이존\u0000 확인 | \u0000 10.23.(금)\u0000 17:00\u0000 ~\u0000 10.29.(목)\u0000 23:00",
    "dates": [
-    "2027-11-05",
-    "2027-11-11"
+    "2026-10-23",
+    "2026-10-29"
    ],
    "words": [
     "선발"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
+   "text": "심층\u0000 면접 | \u0000 10.31.(토)",
+   "dates": [
+    "2026-10-31"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
+   "text": "최종합격자\u0000 발표 | \u0000 11.5.(목)\u0000 17:00",
+   "dates": [
+    "2026-11-05"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
+   "text": "\u0000 선발\u0000 홈페이지-마이존\u0000 확인 | \u0000 11.5.(목)\u0000 17:00\u0000 ~\u0000 11.11.(수)\u0000 18:00",
+   "dates": [
+    "2026-11-05",
+    "2026-11-11"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
+   "text": "지원\u0000 서류\u0000 접수 | \u0000 9.21.(월)\u0000 10:00\u0000 ~\u0000 9.30.(수)\u0000 18:00",
+   "dates": [
+    "2026-09-21",
+    "2026-09-30"
+   ],
+   "words": [
+    "접수",
+    "지원"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
+   "text": "\u0000 11.5.(목)\u0000 17:00\u0000 ~\u0000 11.11.(수)\u0000 18:00 \u0000 선발\u0000 홈페이지-공지사항\u0000 공지",
+   "dates": [
+    "2026-11-05",
+    "2026-11-11"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
+   "text": "\u0000 \u0000 2)\u0000 접수증\u0000 :\u0000 추천인\u0000 전달용 | 9.30.(수)",
+   "dates": [
+    "2026-09-30"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
+   "text": "- 지원자가\u0000 소속학교\u0000 행정실에서\u0000 발급받아\u0000 등기우편으로\u0000 접 | 수해야\u0000 하며,\u0000 9.30.(수)\u0000 소인까지\u0000 유효합니다.",
+   "dates": [
+    "2026-09-30"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
+   "text": "- 추천인은\u0000 지원자의\u0000 접수번호\u0000 및\u0000 교육부\u0000 전자서명(GPKI)\u0000 | 9.30.(수)",
+   "dates": [
+    "2026-09-30"
+   ],
+   "words": [
+    "접수",
+    "지원"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
+   "text": "원서접수\u0000 대행\u0000 수수료 | 9.21.(월)\u0000 10:00\u0000 ~\u0000 9.30.(수)\u0000 18:00",
+   "dates": [
+    "2026-09-21",
+    "2026-09-30"
+   ],
+   "words": [
+    "원서",
+    "접수"
    ],
    "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
   }

@@ -2,7 +2,7 @@
  "id": "n78",
  "org": "대구교대 영재원",
  "what": "일정 단계 날짜",
- "checkedAt": "2026-10-19T20:09:53+09:00",
+ "checkedAt": "2026-10-19T20:15:32+09:00",
  "opened": [
   {
    "url": "https://gifted.dnue.ac.kr/gifted/CMS/Board/Board.do?mCode=MN039&mode=view&mgr_seq=3&board_seq=18963",
@@ -61,6 +61,16 @@
  ],
  "lines": [
   {
+   "text": "➀ 사회통합전형 지원 학부모확인서(대구), 사회통합전형 대상자 지원신청서(경북) 1부 | ➂ 제출기한 및 방법 : 2026. 11. 11.(수) 18:00까지 방문 또는 등기우편",
+   "dates": [
+    "2026-11-11"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gifted.dnue.ac.kr/gifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMjM0NTYsWQ=="
+  },
+  {
    "text": "* 온라인 지원기간 : 2026. 11. 5.(목) 09:00 ~ 11. 11.(수) 18:00",
    "dates": [
     "2026-11-05",
@@ -68,6 +78,57 @@
    ],
    "words": [
     "지원"
+   ],
+   "src": "https://gifted.dnue.ac.kr/gifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMjM0NTYsWQ=="
+  },
+  {
+   "text": "※ 마감시간 이후 지원 불가 | * 전형료 납부기간 : 2026. 11. 5.(목) 09:00 ~ 11.11.(수) 18:00",
+   "dates": [
+    "2026-11-05",
+    "2026-11-11"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gifted.dnue.ac.kr/gifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMjM0NTYsWQ=="
+  },
+  {
+   "text": "수학과정 지원자: | 2026. 11. 21.(토)",
+   "dates": [
+    "2026-11-21"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gifted.dnue.ac.kr/gifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMjM0NTYsWQ=="
+  },
+  {
+   "text": "1차 합격자 발표 | 2026. 12. 1.(화)",
+   "dates": [
+    "2026-12-01"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://gifted.dnue.ac.kr/gifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMjM0NTYsWQ=="
+  },
+  {
+   "text": "창의인성 심층면접 | 2026. 12. 5.(토)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://gifted.dnue.ac.kr/gifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMjM0NTYsWQ=="
+  },
+  {
+   "text": "최종 합격자 발표 | 2026. 12. 28.(월)",
+   "dates": [
+    "2026-12-28"
+   ],
+   "words": [
+    "발표"
    ],
    "src": "https://gifted.dnue.ac.kr/gifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMjM0NTYsWQ=="
   }
