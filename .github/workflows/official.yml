@@ -31,7 +31,7 @@ jobs:
         with:
           name: official-debug
           path: debug/
-          retention-days: 7
+          retention-days: 3
           if-no-files-found: ignore
       - name: 바뀐 것이 있으면 저장
         if: always()

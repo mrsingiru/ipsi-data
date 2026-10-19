@@ -33,6 +33,7 @@ UA = 'ipsi-data-bot/1.0 (+https://github.com/mrsingiru/ipsi-data; public admissi
 TIMEOUT = 30
 MAX_BYTES = 20 * 1024 * 1024
 PER_HOST = 15
+HOST_LIMIT = {'https://ged.kedi.re.kr': 32}   # the GED notice list is 25 pages
 PAUSE = 1.2
 DENY = ('명단', '합격자', '로그인', 'login')
 FILE_EXT = ('.pdf', '.hwp', '.hwpx')
@@ -80,7 +81,7 @@ class Fetcher:
         if not self.allowed(url):
             return 'robots', None, url, ''
         host = self._host(url)
-        if self.count.get(host, 0) >= PER_HOST:
+        if self.count.get(host, 0) >= HOST_LIMIT.get(host, PER_HOST):
             return 'limit', None, url, ''
         wait = PAUSE - (time.time() - self.last.get(host, 0))
         if wait > 0:
@@ -192,24 +193,58 @@ def file_text(data, name, ctype):
 
 # ---------- dates ----------
 FULL = re.compile(r'(20\d\d)\s*[.\-/년]\s*(\d{1,2})\s*[.\-/월]\s*(\d{1,2})\s*일?')
-MD_KO = re.compile(r'(?<!\d)(\d{1,2})\s*월\s*(\d{1,2})\s*일')
-MD_DOT = re.compile(r'(?<![\d.])(\d{1,2})\s*\.\s*(\d{1,2})\s*\.?\s*\(\s*[월화수목금토일]\s*\)')
+MD_KO = re.compile(r'(?<!\d)(\d{1,2})\s*월\s*(\d{1,2})\s*일(?:\s*\(\s*([월화수목금토일])\s*\))?')
+MD_DOT = re.compile(r'(?<![\d.])(\d{1,2})\s*\.\s*(\d{1,2})\s*\.?\s*\(\s*([월화수목금토일])\s*\)')
+WD = '월화수목금토일'
 
 
-def dates_in(line, year):
+def pick_year(mo, d, wd, today, after=None):
+    """No year written. 1) an earlier full date on the same line sets the year ('2026. 12. 28. ~ 1. 3.' → next year);
+    2) the weekday in brackets decides between years within 270 days of today; 3) else the year nearest to today."""
+    if after:
+        try:
+            c = datetime.date(after.year, mo, d)
+            return after.year if c >= after else after.year + 1
+        except ValueError:
+            pass
+    cands = []
+    for y in (today.year - 1, today.year, today.year + 1):
+        try:
+            cands.append(datetime.date(y, mo, d))
+        except ValueError:
+            pass
+    if wd:
+        ok = [c for c in cands if WD[c.weekday()] == wd and abs((c - today).days) <= 270]
+        if len(ok) == 1:
+            return ok[0].year
+    if not cands:
+        return today.year
+    return min(cands, key=lambda c: abs((c - today).days)).year
+
+
+def dates_in(line, today):
     found, spans = [], []
     for m in FULL.finditer(line):
         y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
         spans.append(m.span())
-        found.append((m.start(), y, mo, d))
+        try:
+            datetime.date(y, mo, d)
+            found.append((m.start(), y, mo, d, True))
+        except ValueError:
+            pass
     for rx in (MD_KO, MD_DOT):
         for m in rx.finditer(line):
             if any(a <= m.start() < b for a, b in spans):
                 continue
             mo, d = int(m.group(1)), int(m.group(2))
-            found.append((m.start(), year, mo, d))
+            before = [x for x in found if x[0] < m.start() and x[4]]
+            after = datetime.date(before[-1][1], before[-1][2], before[-1][3]) if before else None
+            try:
+                found.append((m.start(), pick_year(mo, d, m.group(3), today, after), mo, d, False))
+            except ValueError:
+                pass
     out = []
-    for _, y, mo, d in sorted(found):
+    for _, y, mo, d, _full in sorted(found):
         try:
             out.append(datetime.date(y, mo, d).isoformat())
         except ValueError:
@@ -217,25 +252,24 @@ def dates_in(line, year):
     return out
 
 
-def guess_year(text, today):
-    """A '2027학년도' notice is mostly about autumn of the year before; plain 'M월 D일' gets the year that keeps the date near today."""
-    ys = [int(y) for y in re.findall(r'(20\d\d)\s*[.\-/년]\s*\d{1,2}\s*[.\-/월]', text)]
-    if ys:
-        return max(set(ys), key=ys.count)
-    return today.year
-
-
 def date_lines(text, near, today, src, limit=40):
-    year = guess_year(text, today)
-    out, seen = [], set()
+    out, seen, prev = [], set(), []
     for raw in re.split(r'[\r\n]+', text):
         line = re.sub(r'\s+', ' ', raw).strip()
-        if len(line) < 6:
+        if not line:
             continue
-        ds = dates_in(line, year)
+        ds = dates_in(line, today) if len(line) >= 5 else []
         if not ds:
+            prev = (prev + [line])[-2:]
             continue
+        orig = line
         hit = [w for w in near if w in line]
+        if near and not hit:   # a table cell with only the dates: take the label from the cell(s) just before
+            ctx = [p for p in prev if any(w in p for w in near) and len(p) <= 60 and not dates_in(p, today)]
+            if ctx:
+                line = ctx[-1] + ' | ' + line
+                hit = [w for w in near if w in line]
+        prev = (prev + [orig])[-2:]
         if near and not hit:
             continue
         short = line if len(line) <= 160 else line[:157] + '…'
@@ -272,12 +306,25 @@ def link_items(soup, base):
         if href and not href.startswith(('javascript', '#', 'mailto:', 'tel:')):
             url = urllib.parse.urljoin(base, href)
         else:
-            m = re.search(r"\(\s*'?(\d{5,})'?", on + ' ' + href)
+            m = re.search(r"['\"](\d{5,})['\"]", on + ' ' + href) or re.search(r"\(\s*(\d{5,})\s*[,)]", on + ' ' + href)
             if m and 'selectNttList.do' in base:
                 q = dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(base).query))
                 url = urllib.parse.urljoin(base, 'selectNttInfo.do?' + urllib.parse.urlencode({'mi': q.get('mi', ''), 'bbsId': q.get('bbsId', ''), 'nttSn': m.group(1)}))
         if url:
             out.append((t, url))
+    return out
+
+
+def anchor_dump(soup, words):
+    """For the debug artifact only: links that look like what we were after, with their raw href/onclick."""
+    out = []
+    for a in soup.find_all('a'):
+        t = re.sub(r'\s+', ' ', a.get_text(' ', strip=True))
+        raw = (a.get('href') or '') + ' ' + (a.get('onclick') or '')
+        if any(w in t or w in raw for w in words):
+            out.append({'text': t[:60], 'href': (a.get('href') or '')[:160], 'onclick': (a.get('onclick') or '')[:120]})
+        if len(out) >= 15:
+            break
     return out
 
 
@@ -296,6 +343,7 @@ def read_post(F, url, tgt, today, res, depth_files=True):
     res['lines'] += date_lines(visible_text(soup), tgt.get('near', []), today, final)
     if not depth_files:
         return
+    n_files = len(res['files'])
     for t, u in links:
         low = (t + ' ' + u).lower()
         is_file = any(e in low for e in FILE_EXT) or re.search(r'(download|filedown|fileDown|atchFile|file_down|attach)', u, re.I)
@@ -309,12 +357,17 @@ def read_post(F, url, tgt, today, res, depth_files=True):
             try:
                 kind, text = file_text(data, t, ctype)
                 rec.update({'type': kind, 'bytes': len(data), 'sha1': hashlib.sha1(data).hexdigest()[:12]})
-                res['lines'] += date_lines(text, tgt.get('near', []), today, u)
+                got = date_lines(text, tgt.get('near', []), today, u)
+                res['lines'] += got
+                if not got:
+                    F.debug.append({'id': tgt['id'], 'what': 'file-no-lines', 'url': u, 'name': t[:80], 'type': kind, 'chars': len(text), 'sample': re.sub(r'\s+', ' ', text)[:700]})
             except Exception as e:  # a broken file should not stop the others
                 rec.update({'status': 'parse-error', 'error': str(e)[:120]})
         res['files'].append(rec)
         if len(res['files']) >= 6:
             break
+    if len(res['files']) == n_files:
+        F.debug.append({'id': tgt['id'], 'what': 'post-no-files', 'url': final, 'anchors': anchor_dump(soup_of(html), ['첨부', '다운', 'down', 'Down', 'hwp', 'pdf', 'file', 'File'])})
     if title:
         res['titles'].append({'url': final, 'title': title})
 
@@ -339,8 +392,11 @@ def read_board(F, url, tgt, today, res, from_site=False):
     res['opened'].append({'url': url, 'status': st})
     if st != 'ok':
         return False
-    links = link_items(soup_of(html), final)
+    soup = soup_of(html)
+    links = link_items(soup, final)
     picks = pick_notices(links, tgt.get('title', []))
+    if not picks:
+        F.debug.append({'id': tgt['id'], 'what': 'board-no-pick', 'url': final, 'anchors': anchor_dump(soup, (tgt.get('title') or []) + ['모집', '선발', '공지'])})
     if not picks and from_site:   # front page: follow the notice board link once
         boards = [(t, u) for t, u in links if any(w in t for w in ('공지사항', '공지', '모집안내', '입학안내', '알림'))][:2]
         for t, u in boards:
@@ -385,9 +441,14 @@ def read_ged(F, find, tgt, today, res):
     rows = ged_rows(F)
     res['opened'].append({'url': GED_LIST.format('1..%d' % GED_PAGES), 'status': GED_CACHE.get('status', 'ok'), 'rows': len(rows)})
     hits = [r for r in rows if all(w in r['text'] for w in find) and all(w in r['text'] for w in tgt.get('title', []))]
+    if not GED_CACHE.get('sampled'):
+        GED_CACHE['sampled'] = True
+        F.debug.append({'id': 'ged', 'what': 'ged-sample', 'rows': [r['html'] for r in rows[:2]], 'n': len(rows)})
+    if not hits:
+        F.debug.append({'id': tgt['id'], 'what': 'ged-no-hit', 'find': find, 'near': [r['text'] for r in rows if any(w in r['text'] for w in find)][:5]})
     for r in hits[:3]:
         res['ged'].append({'row': r['text'], 'page': r['page'], 'url': GED_LIST.format(r['page'])})
-        F.debug.append({'id': tgt['id'], 'find': find, 'html': r['html']})
+        F.debug.append({'id': tgt['id'], 'what': 'ged-hit', 'find': find, 'html': r['html']})
         res['lines'] += date_lines(r['text'], [], today, GED_LIST.format(r['page']))
         for t, u in r['links'][:2]:
             if 'ged.kedi.re.kr' in u and u.rstrip('#') != GED_LIST.format(r['page']).rstrip('#'):
@@ -435,7 +496,7 @@ def run(targets_path, out_dir):
                 'withDates': sum(1 for s in summary if s['status'] == 'dates'), 'items': summary}
     json.dump(run_info, open(os.path.join(os.path.dirname(out_dir.rstrip('/')) or '.', 'official_run.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     os.makedirs('debug', exist_ok=True)
-    json.dump(F.debug, open('debug/ged_rows.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    json.dump(F.debug, open('debug/debug.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     return run_info
 
 
