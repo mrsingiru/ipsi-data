@@ -2,7 +2,7 @@
  "id": "n27",
  "org": "한양대 ERICA 영재원",
  "what": "원서 접수(GED 온라인)",
- "checkedAt": "2026-10-19T20:34:15+09:00",
+ "checkedAt": "2026-10-19T20:38:52+09:00",
  "opened": [
   {
    "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=1..25",
@@ -58,7 +58,8 @@
    "status": "ok",
    "type": "pdf",
    "bytes": 958073,
-   "sha1": "88ded601d8a5"
+   "sha1": "88ded601d8a5",
+   "reader": "pdftotext"
   },
   {
    "url": "https://ged.kedi.re.kr/inno/fileDownload.do?file=GED%20%EC%98%81%EC%9E%AC%20%EC%A7%80%EC%9B%90%20%EB%B0%A9%EB%B2%95%20%EC%95%88%EB%82%B4.pdf%281%20MB%29",
@@ -90,7 +91,8 @@
    "status": "ok",
    "type": "pdf",
    "bytes": 958073,
-   "sha1": "88ded601d8a5"
+   "sha1": "88ded601d8a5",
+   "reader": "pdftotext"
   },
   {
    "url": "https://ged.kedi.re.kr/inno/fileDownload.do?file=GED%20%EC%98%81%EC%9E%AC%20%EC%A7%80%EC%9B%90%20%EB%B0%A9%EB%B2%95%20%EC%95%88%EB%82%B4.pdf%281%20MB%29",
@@ -101,7 +103,92 @@
    "sha1": "85982ebc4cf4"
   }
  ],
- "lines": [],
+ "lines": [
+  {
+   "text": "- 입학지원서(사진 등록) | 2026년 10월 16일(금) ~ - 개인정보 수집 및 이용 제공 동의서",
+   "dates": [
+    "2026-10-16"
+   ],
+   "words": [
+    "원서"
+   ],
+   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
+  },
+  {
+   "text": "원서 접수 | 학생 10월 25일(일) 23:59까지 - 학생 보고서(자기소개서)",
+   "dates": [
+    "2026-10-25"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
+  },
+  {
+   "text": "*합격자발표 11월 11일(수) GED확인",
+   "dates": [
+    "2026-11-11"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
+  },
+  {
+   "text": "4) 도서벽지 중학교 졸업예정자(2026년 2월 28일 이전부터 원서접수일 현재 재학 중인 졸업예정자)",
+   "dates": [
+    "2026-02-28"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
+  },
+  {
+   "text": "- 입학지원서(사진 등록) | 2026년 10월 16일(금) ~ - 개인정보 수집 및 이용 제공 동의서",
+   "dates": [
+    "2026-10-16"
+   ],
+   "words": [
+    "원서"
+   ],
+   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
+  },
+  {
+   "text": "원서 접수 | 학생 10월 25일(일) 23:59까지 - 학생 보고서(자기소개서)",
+   "dates": [
+    "2026-10-25"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
+  },
+  {
+   "text": "*합격자발표 11월 11일(수) GED확인",
+   "dates": [
+    "2026-11-11"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
+  },
+  {
+   "text": "4) 도서벽지 중학교 졸업예정자(2026년 2월 28일 이전부터 원서접수일 현재 재학 중인 졸업예정자)",
+   "dates": [
+    "2026-02-28"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
+  }
+ ],
  "srcPage": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16",
- "status": "found-no-dates"
+ "status": "dates"
 }

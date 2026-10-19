@@ -1,7 +1,7 @@
 {
- "at": "2026-10-19T20:36:35+09:00",
+ "at": "2026-10-19T20:40:52+09:00",
  "targets": 12,
- "withDates": 9,
+ "withDates": 10,
  "items": [
   {
    "id": "n93",
@@ -14,8 +14,8 @@
   {
    "id": "n27",
    "org": "한양대 ERICA 영재원",
-   "status": "found-no-dates",
-   "lines": 0,
+   "status": "dates",
+   "lines": 8,
    "files": 6,
    "opened": 5
   },
