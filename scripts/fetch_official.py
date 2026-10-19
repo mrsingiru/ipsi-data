@@ -360,7 +360,7 @@ def read_post(F, url, tgt, today, res, depth_files=True):
                 got = date_lines(text, tgt.get('near', []), today, u)
                 res['lines'] += got
                 if not got:
-                    F.debug.append({'id': tgt['id'], 'what': 'file-no-lines', 'url': u, 'name': t[:80], 'type': kind, 'chars': len(text), 'sample': re.sub(r'\s+', ' ', text)[:700]})
+                    F.debug.append({'id': tgt['id'], 'what': 'file-no-lines', 'url': u, 'name': t[:80], 'type': kind, 'chars': len(text), 'sample': re.sub(r'\s+', ' ', text)[:300]})
             except Exception as e:  # a broken file should not stop the others
                 rec.update({'status': 'parse-error', 'error': str(e)[:120]})
         res['files'].append(rec)
