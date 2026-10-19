@@ -76,7 +76,7 @@ class Fetcher:
         rp = self.robots[host]
         return bool(rp) and rp.can_fetch(UA, url)
 
-    def post(self, url, data):
+    def post(self, url, data, binary=False):
         """A form the site's own button sends (GED '다운로드' opens its file list this way). Same robots and pace rules."""
         if not self.allowed(url):
             return 'robots', None, url, ''
@@ -92,6 +92,10 @@ class Fetcher:
             self.last[host] = time.time()
             if r.status_code >= 400:
                 return 'http-%d' % r.status_code, None, r.url, ''
+            if len(r.content) > MAX_BYTES:
+                return 'too-big', None, r.url, ''
+            if binary:
+                return 'ok', r.content, r.url, r.headers.get('Content-Type', '')
             return 'ok', decode_html(r.content, r), r.url, r.headers.get('Content-Type', '')
         except requests.RequestException as e:
             return 'error', str(e)[:200], url, ''
@@ -330,15 +334,21 @@ def link_items(soup, base):
         on = a.get('onclick') or ''
         url = ''
         if href and not href.startswith(('javascript', '#', 'mailto:', 'tel:')):
-            url = urllib.parse.urljoin(base, href)
+            url = urllib.parse.urljoin(base.replace('post:', ''), href)
         else:
             m = re.search(r"['\"](\d{5,})['\"]", on + ' ' + href) or re.search(r"\(\s*(\d{5,})\s*[,)]", on + ' ' + href)
             if not m and re.fullmatch(r'\d{5,}', a.get('data-id') or ''):
                 m = re.match(r'(\d+)', a.get('data-id'))
+            gd = re.search(r"fn_down\('(FB_[A-Za-z0-9_.]+)'\s*,\s*'([^']*)'\)", on)
+            if gd and 'ged.kedi.re.kr' in base:
+                out.append((t, 'post:https://ged.kedi.re.kr/inno/fileDownload.do?' + urllib.parse.urlencode({'FilePath': 'dataFiles', 'PhysFileNm': gd.group(1), 'LogiFileNm': gd.group(2)})))
+                continue
             fd = re.search(r'file_download\((\d+)', href + ' ' + on)
             if fd and '/bbs_shop/read.htm' in base:   # geig.ac.kr: the page's own download address
                 q = dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(base).query))
                 url = urllib.parse.urljoin(base, '/bbs_shop/file_download.php?' + urllib.parse.urlencode({'board_code': q.get('board_code', 'notice'), 'board_idx': q.get('idx', ''), 'sel_no': fd.group(1)}))
+            elif re.search(r"fncDetailView\('(\d+)'\)", href) and 'list0010v.do' in base:
+                url = 'post:' + base.replace('list0010v.do', 'view0010v.do').split('?')[0] + '?' + urllib.parse.urlencode({'board_seq': re.search(r"fncDetailView\('(\d+)'\)", href).group(1)})
             elif m and 'selectNttList.do' in base:
                 q = dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(base).query))
                 url = urllib.parse.urljoin(base, 'selectNttInfo.do?' + urllib.parse.urlencode({'mi': q.get('mi', ''), 'bbsId': q.get('bbsId', ''), 'nttSn': m.group(1)}))
@@ -375,7 +385,12 @@ def denied(text):
 
 
 def read_post(F, url, tgt, today, res, depth_files=True):
-    st, html, final, _ = F.get(url)
+    if url.startswith('post:'):
+        pu, _, qs = url[5:].partition('?')
+        st, html, final, _ = F.post(pu, dict(urllib.parse.parse_qsl(qs)))
+        final = pu + '?' + qs
+    else:
+        st, html, final, _ = F.get(url)
     res['opened'].append({'url': url, 'status': st})
     if st != 'ok':
         return
@@ -400,13 +415,17 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
             continue
         if not any(w in t for w in ('모집', '요강', '선발', '공고', '안내', '일정', '계획')) and not any(e in t.lower() for e in FILE_EXT):
             continue
-        st2, data, f2, ctype = F.get(u, binary=True)
-        rec = {'url': u, 'name': t[:80], 'status': st2}
+        if u.startswith('post:'):   # a download the site's own form sends (GED)
+            pu, _, qs = u[5:].partition('?')
+            st2, data, f2, ctype = F.post(pu, dict(urllib.parse.parse_qsl(qs)), binary=True)
+        else:
+            st2, data, f2, ctype = F.get(u, binary=True)
+        rec = {'url': u if not u.startswith('post:') else u[5:].partition('?')[0] + '?' + 'file=' + urllib.parse.quote(t[:60]), 'name': t[:80], 'status': st2}
         if st2 == 'ok':
             try:
                 kind, text = file_text(data, t, ctype)
                 rec.update({'type': kind, 'bytes': len(data), 'sha1': hashlib.sha1(data).hexdigest()[:12]})
-                got = date_lines(text, tgt.get('near', []), today, u)
+                got = date_lines(text, tgt.get('near', []), today, rec['url'] if not u.startswith('post:') else (res.get('srcPage') or rec['url']))
                 res['lines'] += got
                 if not got:
                     F.debug.append({'id': tgt['id'], 'what': 'file-no-lines', 'url': u, 'name': t[:80], 'type': kind, 'chars': len(text), 'sample': re.sub(r'\s+', ' ', text)[:300]})
@@ -417,7 +436,7 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
             break
     if len(res['files']) == n_files:
         F.debug.append({'id': tgt['id'], 'what': 'post-no-files', 'url': final, 'anchors': anchor_dump(soup_of(html), ['첨부', '다운', 'down', 'Down', 'hwp', 'pdf', 'file', 'File']),
-                        'scripts': script_dump(html, ['file_download', 'fileDownload', 'fn_download', 'fn_fileDown', 'download', 'fn_down', 'fnDown', 'fileDown']),
+                        'scripts': script_dump(html, ['fn_fileDownload', 'file_download', 'fn_download', 'fn_fileDown', 'download', 'fnDown', 'fileDown']),
                         'html': re.sub(r'\s+', ' ', html)[:1500] if 'ged.kedi.re.kr' in final else ''})
     if title:
         res['titles'].append({'url': final, 'title': title})
@@ -512,7 +531,8 @@ def read_ged(F, find, tgt, today, res):
             st, html, final, _ = F.post(pop, {'stndYear': m.group(1), 'orgId': m.group(2), 'seq': m.group(3)})
             res['opened'].append({'url': pop + '&orgId=' + m.group(2) + '&seq=' + m.group(3), 'status': st})
             if st == 'ok':
-                read_post_html(F, html, final, tgt, today, res)
+                res['srcPage'] = GED_LIST.format(r['page'])
+                read_post_html(F, html, GED_LIST.format(r['page']), tgt, today, res)
     return bool(hits)
 
 
