@@ -1,0 +1,86 @@
+{
+ "id": "n26",
+ "org": "경인교대 영재원",
+ "what": "일정 단계 날짜",
+ "checkedAt": "2026-10-19T20:09:42+09:00",
+ "opened": [
+  {
+   "url": "https://edu.ginue.ac.kr/sciencegifted/CMS/Board/Board.do?mCode=MN036&mode=view&mgr_seq=82&board_seq=8841",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://edu.ginue.ac.kr/sciencegifted/CMS/Board/Board.do?mCode=MN036&mode=view&mgr_seq=82&board_seq=8841",
+   "title": "공지사항 < 커뮤니티 > 경인교육대학교 과학영재교육원"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxNzUsWQ==",
+   "name": "붙임_2. 초등사사,중등사사, SWAI사사(B전형) 지원서 양식.hwp (103KB)",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 105472,
+   "sha1": "e4ab691d02a2"
+  },
+  {
+   "url": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxNzQsWQ==",
+   "name": "붙임_1. 다산, 초등심화, 중등심화, SWAI, SWAI사사(A전형) 지원서 양식.hwp (114KB)",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 117248,
+   "sha1": "a7f72d8f1e93"
+  },
+  {
+   "url": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxNzcsWQ==",
+   "name": "붙임_사회통합대상자 확인서 양식.hwp (90KB)",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 92160,
+   "sha1": "e246eedb25d6"
+  },
+  {
+   "url": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxNzYsWQ==",
+   "name": "붙임_3. 추천서 양식.hwp (102KB)",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 104960,
+   "sha1": "2701749d45dc"
+  },
+  {
+   "url": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ==",
+   "name": "2027학년도 신입생 모집요강.pdf (200KB)",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 204967,
+   "sha1": "10b54ad77a63"
+  }
+ ],
+ "lines": [
+  {
+   "text": "1차\u0000 전형\u0000 합격자\u0000 발표 \u0000 10.23.(금)\u0000 17:00",
+   "dates": [
+    "2027-10-23"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  },
+  {
+   "text": "\u0000 11.5.(목)\u0000 17:00\u0000 ~\u0000 11.11.(수)\u0000 18:00 \u0000 선발\u0000 홈페이지-공지사항\u0000 공지",
+   "dates": [
+    "2027-11-05",
+    "2027-11-11"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://edu.ginue.ac.kr/sciencegifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMTgxMjYsWQ=="
+  }
+ ],
+ "status": "dates"
+}

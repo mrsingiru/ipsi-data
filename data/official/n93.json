@@ -1,0 +1,122 @@
+{
+ "id": "n93",
+ "org": "대구대 글로벌브릿지 영재원",
+ "what": "GED 원서 접수",
+ "checkedAt": "2026-10-19T20:08:56+09:00",
+ "opened": [
+  {
+   "url": "http://gbit.daegu.ac.kr/",
+   "status": "ok"
+  },
+  {
+   "url": "http://gbit.daegu.ac.kr/board/view/notice1/451",
+   "status": "ok"
+  },
+  {
+   "url": "http://gbit.daegu.ac.kr/board/view/notice2/450",
+   "status": "ok"
+  },
+  {
+   "url": "http://gbit.daegu.ac.kr/board/view/notice3/449",
+   "status": "ok"
+  },
+  {
+   "url": "http://gbgt.daegu.ac.kr/index",
+   "status": "ok"
+  },
+  {
+   "url": "http://gbgt.daegu.ac.kr/content/65",
+   "status": "ok"
+  },
+  {
+   "url": "http://gbgt.daegu.ac.kr/content/68",
+   "status": "ok"
+  },
+  {
+   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=1..25",
+   "status": "limit",
+   "rows": 225
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 AI 영재교육원 대상자 선발 안내 2027학년도 AI 기초, AI 심화, AI +X 과정 학생을 모집합니다.학생 모집요강을 첨부파일과 함께 안내하오니 많은 지원바랍니다. 감사합니다.전화 연결이 잘 되지",
+   "url": "http://gbit.daegu.ac.kr/board/view/notice1/451"
+  },
+  {
+   "title": "2027학년도 융합 영재교육원 대상자 선발 안내 2027학년도 융합 분야 초등, 중등, 고등 과정 학생을 모집합니다. 학생 모집요강을 첨부파일과 함께 안내하오니 많은 지원바랍니다. 감사합니다. 전화 연결이 잘 되지 ",
+   "url": "http://gbit.daegu.ac.kr/board/view/notice2/450"
+  },
+  {
+   "title": "2027학년도 외국어 영재교육원 대상자 선발 안내 2027학년도 외국어 분야 초등, 중등 과정 학생을 모집합니다.학생 모집요강을 첨부파일과 함께 안내하오니 많은 지원바랍니다. 감사합니다.전화 연결이 잘 되지 않을 때",
+   "url": "http://gbit.daegu.ac.kr/board/view/notice3/449"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "http://gbit.daegu.ac.kr/board/view/notice1/451",
+   "title": "정보 영재교육원 과정 소개 > 공지사항 - 2027학년도 AI 영재교육원 대상자 선발 안내"
+  },
+  {
+   "url": "http://gbit.daegu.ac.kr/board/view/notice2/450",
+   "title": "융합 영재교육원 과정 소개 > 공지사항 - 2027학년도 융합 영재교육원 대상자 선발 안내"
+  },
+  {
+   "url": "http://gbit.daegu.ac.kr/board/view/notice3/449",
+   "title": "외국어 영재교육원 과정 소개 > 공지사항 - 2027학년도 외국어 영재교육원 대상자 선발 안내"
+  }
+ ],
+ "files": [
+  {
+   "url": "http://gbit.daegu.ac.kr/board/download/notice1/451/file/1/492/073ef2c543bffcfbe76328534a776b9f6810e917/2027_%EB%8C%80%EA%B5%AC%EB%8C%80_AI_%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90_%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.hwp",
+   "name": "2027_대구대_AI_영재교육원_모집요강.hwp (179.0KB), Download:102",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 183296,
+   "sha1": "35b753ecc09e"
+  },
+  {
+   "url": "http://gbit.daegu.ac.kr/board/download/notice1/451/file/2/493/073ef2c543bffcfbe76328534a776b9f6810e917/%EC%82%AC%ED%9A%8C%ED%86%B5%ED%95%A9%EC%A0%84%ED%98%95_%EC%9C%A0%ED%98%95_%EB%B0%8F_%EC%A7%80%EC%9B%90%EC%9E%90%EA%B2%A9.hwp",
+   "name": "사회통합전형_유형_및_지원자격.hwp (1.4MB), Download:42",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 1442304,
+   "sha1": "82a3e6bf5f11"
+  },
+  {
+   "url": "http://gbit.daegu.ac.kr/board/download/notice2/450/file/1/490/073ef2c543bffcfbe76328534a776b9f6810e917/2027_%EB%8C%80%EA%B5%AC%EB%8C%80_%EC%9C%B5%ED%95%A9_%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90_%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.hwp",
+   "name": "2027_대구대_융합_영재교육원_모집요강.hwp (292.0KB), Download:44",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 299008,
+   "sha1": "c5d3b764e440"
+  },
+  {
+   "url": "http://gbit.daegu.ac.kr/board/download/notice2/450/file/2/491/073ef2c543bffcfbe76328534a776b9f6810e917/%EC%82%AC%ED%9A%8C%ED%86%B5%ED%95%A9%EC%A0%84%ED%98%95_%EC%9C%A0%ED%98%95_%EB%B0%8F_%EC%A7%80%EC%9B%90%EC%9E%90%EA%B2%A9.hwp",
+   "name": "사회통합전형_유형_및_지원자격.hwp (1.4MB), Download:19",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 1442304,
+   "sha1": "82a3e6bf5f11"
+  },
+  {
+   "url": "http://gbit.daegu.ac.kr/board/download/notice3/449/file/1/488/073ef2c543bffcfbe76328534a776b9f6810e917/2027_%EB%8C%80%EA%B5%AC%EB%8C%80_%EC%99%B8%EA%B5%AD%EC%96%B4_%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90_%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.hwp",
+   "name": "2027_대구대_외국어_영재교육원_모집요강.hwp (292.5KB), Download:118",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 299520,
+   "sha1": "c808a45decfd"
+  },
+  {
+   "url": "http://gbit.daegu.ac.kr/board/download/notice3/449/file/2/489/073ef2c543bffcfbe76328534a776b9f6810e917/%EC%82%AC%ED%9A%8C%ED%86%B5%ED%95%A9%EC%A0%84%ED%98%95_%EC%9C%A0%ED%98%95_%EB%B0%8F_%EC%A7%80%EC%9B%90%EC%9E%90%EA%B2%A9.hwp",
+   "name": "사회통합전형_유형_및_지원자격.hwp (1.4MB), Download:48",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 1442304,
+   "sha1": "82a3e6bf5f11"
+  }
+ ],
+ "lines": [],
+ "status": "found-no-dates"
+}

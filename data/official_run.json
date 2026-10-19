@@ -1,0 +1,103 @@
+{
+ "at": "2026-10-19T20:10:42+09:00",
+ "targets": 12,
+ "withDates": 4,
+ "items": [
+  {
+   "id": "n93",
+   "org": "대구대 글로벌브릿지 영재원",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 6,
+   "opened": 8
+  },
+  {
+   "id": "n27",
+   "org": "한양대 ERICA 영재원",
+   "status": "error",
+   "lines": 0,
+   "files": 0,
+   "opened": 3
+  },
+  {
+   "id": "n16",
+   "org": "동두천양주 영재교육원",
+   "status": "error",
+   "lines": 0,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n75",
+   "org": "대구 교육청 영재원",
+   "status": "error",
+   "lines": 0,
+   "files": 0,
+   "opened": 2
+  },
+  {
+   "id": "n00",
+   "org": "서울 교육청 영재원",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n09",
+   "org": "인천 융합영재교육원",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 2
+  },
+  {
+   "id": "n26",
+   "org": "경인교대 영재원",
+   "status": "dates",
+   "lines": 2,
+   "files": 5,
+   "opened": 1
+  },
+  {
+   "id": "n78",
+   "org": "대구교대 영재원",
+   "status": "dates",
+   "lines": 1,
+   "files": 4,
+   "opened": 2
+  },
+  {
+   "id": "n79",
+   "org": "경북대 영재원",
+   "status": "dates",
+   "lines": 9,
+   "files": 4,
+   "opened": 2
+  },
+  {
+   "id": "n92",
+   "org": "경국대 영재원",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n44",
+   "org": "공주대 영재원",
+   "status": "dates",
+   "lines": 3,
+   "files": 4,
+   "opened": 2
+  },
+  {
+   "id": "n68",
+   "org": "제주과학고",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 1
+  }
+ ]
+}

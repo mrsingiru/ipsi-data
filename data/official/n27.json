@@ -1,0 +1,29 @@
+{
+ "id": "n27",
+ "org": "한양대 ERICA 영재원",
+ "what": "원서 접수(GED 온라인)",
+ "checkedAt": "2026-10-19T20:09:37+09:00",
+ "opened": [
+  {
+   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=1..25",
+   "status": "limit",
+   "rows": 225
+  },
+  {
+   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=1..25",
+   "status": "limit",
+   "rows": 225
+  },
+  {
+   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=1..25",
+   "status": "limit",
+   "rows": 225
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "error"
+}
