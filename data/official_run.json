@@ -1,7 +1,7 @@
 {
- "at": "2026-10-19T20:19:19+09:00",
+ "at": "2026-10-19T20:22:12+09:00",
  "targets": 12,
- "withDates": 6,
+ "withDates": 7,
  "items": [
   {
    "id": "n93",
@@ -78,10 +78,10 @@
   {
    "id": "n92",
    "org": "경국대 영재원",
-   "status": "not-found",
-   "lines": 0,
+   "status": "dates",
+   "lines": 4,
    "files": 0,
-   "opened": 1
+   "opened": 2
   },
   {
    "id": "n44",

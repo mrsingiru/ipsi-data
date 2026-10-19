@@ -2,17 +2,75 @@
  "id": "n92",
  "org": "경국대 영재원",
  "what": "일정 단계 날짜",
- "checkedAt": "2026-10-19T20:19:05+09:00",
+ "checkedAt": "2026-10-19T20:21:59+09:00",
  "opened": [
   {
-   "url": "https://gifted.gknu.ac.kr/module/bbs/list.php?mid=/admission/recruitment",
+   "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172552",
+   "status": "ok"
+  },
+  {
+   "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=170555",
    "status": "ok"
   }
  ],
  "notices": [],
  "ged": [],
- "titles": [],
+ "titles": [
+  {
+   "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172552",
+   "title": "입학정보 > 학생선발 게시물 상세보기 | 국립경국대학교 과학영재교육원"
+  },
+  {
+   "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=170555",
+   "title": "입학정보 > 학생선발 게시물 상세보기 | 국립경국대학교 과학영재교육원"
+  }
+ ],
  "files": [],
- "lines": [],
- "status": "not-found"
+ "lines": [
+  {
+   "text": "학생선발 | 등록인과학영재교육원글번호172552작성일2026-10-06조회117",
+   "dates": [
+    "2026-10-06"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172552"
+  },
+  {
+   "text": "★ GED 온라인 원서접수, 전형료 납부 기간: 2026년 11월 5일(목) ~ 11월 11일(수) 17시",
+   "dates": [
+    "2026-11-05",
+    "2026-11-11"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172552"
+  },
+  {
+   "text": "[모집공고] 2027학년도 신입생(선교육·후선발 전형) 모집 공고 | 등록인과학영재교육원글번호170555작성일2026-09-03조회601",
+   "dates": [
+    "2026-09-03"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=170555"
+  },
+  {
+   "text": "* GED 온라인 원서접수, 전형료 납부 기간: 2026년 9월 21일(월) ~9월 28일(월) 17시",
+   "dates": [
+    "2026-09-21",
+    "2026-09-28"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=170555"
+  }
+ ],
+ "status": "dates"
 }
