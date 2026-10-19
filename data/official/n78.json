@@ -2,7 +2,7 @@
  "id": "n78",
  "org": "대구교대 영재원",
  "what": "일정 단계 날짜",
- "checkedAt": "2026-10-19T20:27:44+09:00",
+ "checkedAt": "2026-10-19T20:31:37+09:00",
  "opened": [
   {
    "url": "https://gifted.dnue.ac.kr/gifted/CMS/Board/Board.do?mCode=MN039&mode=view&mgr_seq=3&board_seq=18963",
@@ -45,7 +45,10 @@
   {
    "url": "https://gifted.dnue.ac.kr/gifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMjM0NTUsWQ==",
    "name": "2027학년도 대구 사회통합전형지원자 제출 서식.hwp (52KB)",
-   "status": "error"
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 53760,
+   "sha1": "3b3ba96714b6"
   },
   {
    "url": "https://gifted.dnue.ac.kr/gifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMjM0NTQsWQ==",

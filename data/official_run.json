@@ -1,7 +1,7 @@
 {
- "at": "2026-10-19T20:28:26+09:00",
+ "at": "2026-10-19T20:32:23+09:00",
  "targets": 12,
- "withDates": 7,
+ "withDates": 9,
  "items": [
   {
    "id": "n93",
@@ -16,15 +16,15 @@
    "org": "한양대 ERICA 영재원",
    "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
+   "files": 6,
    "opened": 5
   },
   {
    "id": "n16",
    "org": "동두천양주 영재교육원",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 0,
+   "status": "dates",
+   "lines": 11,
+   "files": 1,
    "opened": 2
   },
   {
@@ -38,10 +38,10 @@
   {
    "id": "n00",
    "org": "서울 교육청 영재원",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 1
+   "status": "dates",
+   "lines": 58,
+   "files": 6,
+   "opened": 4
   },
   {
    "id": "n09",
