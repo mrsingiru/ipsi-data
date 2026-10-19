@@ -1,5 +1,5 @@
 {
- "at": "2026-10-19T20:22:12+09:00",
+ "at": "2026-10-19T20:25:19+09:00",
  "targets": 12,
  "withDates": 7,
  "items": [
@@ -17,7 +17,7 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 3
+   "opened": 5
   },
   {
    "id": "n16",
@@ -25,7 +25,7 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 1
+   "opened": 2
   },
   {
    "id": "n75",
@@ -47,8 +47,8 @@
    "id": "n09",
    "org": "인천 융합영재교육원",
    "status": "dates",
-   "lines": 1,
-   "files": 0,
+   "lines": 9,
+   "files": 5,
    "opened": 2
   },
   {
@@ -94,10 +94,10 @@
   {
    "id": "n68",
    "org": "제주과학고",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 1
+   "opened": 2
   }
  ]
 }

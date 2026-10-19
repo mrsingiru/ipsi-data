@@ -2,7 +2,7 @@
  "id": "n09",
  "org": "인천 융합영재교육원",
  "what": "일정 단계 날짜",
- "checkedAt": "2026-10-19T20:21:27+09:00",
+ "checkedAt": "2026-10-19T20:24:24+09:00",
  "opened": [
   {
    "url": "https://www.geig.ac.kr/bbs_shop/read.htm?idx=132365",
@@ -25,8 +25,135 @@
    "title": "[서해구·검단구] 2027학년도 서해구·검단구 영재교육대상자 선발 관련 사전 안내"
   }
  ],
- "files": [],
+ "files": [
+  {
+   "url": "https://www.geig.ac.kr/bbs_shop/file_download.php?board_code=notice&board_idx=132365&sel_no=0",
+   "name": "2027경인교대계양영재교육원(초,중등)선발공고문.hwp (178,688byte)",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 178688,
+   "sha1": "efcb3a4e1751"
+  },
+  {
+   "url": "https://www.geig.ac.kr/bbs_shop/file_download.php?board_code=notice&board_idx=132365&sel_no=1",
+   "name": "붙임1-2027학년도사회통합대상자확인서양식.hwp (79,360byte)",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 79360,
+   "sha1": "39cc795136f9"
+  },
+  {
+   "url": "https://www.geig.ac.kr/bbs_shop/file_download.php?board_code=notice&board_idx=132365&sel_no=2",
+   "name": "붙임2-2027학년도사사과정입학원서양식(계양영재).hwp (76,800byte)",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 76800,
+   "sha1": "861738412343"
+  },
+  {
+   "url": "https://www.geig.ac.kr/bbs_shop/file_download.php?board_code=notice&board_idx=132365&sel_no=3",
+   "name": "붙임3-2027학년도사사과정자기학업계획서양식(계양영재).hwp (29,184byte)",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 29184,
+   "sha1": "884480242b8c"
+  },
+  {
+   "url": "https://www.geig.ac.kr/bbs_shop/file_download.php?board_code=notice&board_idx=132365&sel_no=4",
+   "name": "붙임4-2027학년도개인정보활용동의서(계양영재).hwp (113,152byte)",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 113152,
+   "sha1": "c1565d87a0be"
+  }
+ ],
  "lines": [
+  {
+   "text": "온라인 원서 접수 | 9.28.(월) 10:00 ~ 10.2.(금) 23:59",
+   "dates": [
+    "2026-09-28",
+    "2026-10-02"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.geig.ac.kr/bbs_shop/file_download.php?board_code=notice&board_idx=132365&sel_no=0"
+  },
+  {
+   "text": "1단계 합격자 발표 | 10.26.(월) 17:00",
+   "dates": [
+    "2026-10-26"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.geig.ac.kr/bbs_shop/file_download.php?board_code=notice&board_idx=132365&sel_no=0"
+  },
+  {
+   "text": "2단계 심층 면접 | 11.7.(토)",
+   "dates": [
+    "2026-11-07"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.geig.ac.kr/bbs_shop/file_download.php?board_code=notice&board_idx=132365&sel_no=0"
+  },
+  {
+   "text": "최종 합격자 발표 | 11.16.(월) 17:00",
+   "dates": [
+    "2026-11-16"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.geig.ac.kr/bbs_shop/file_download.php?board_code=notice&board_idx=132365&sel_no=0"
+  },
+  {
+   "text": "온라인 원서 접수 | 11.14.(토) 10:00 ~ 11.21.(토) 23:59",
+   "dates": [
+    "2026-11-14",
+    "2026-11-21"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.geig.ac.kr/bbs_shop/file_download.php?board_code=notice&board_idx=132365&sel_no=0"
+  },
+  {
+   "text": "최종 합격자 발표 | 12.15.(화) 17:00",
+   "dates": [
+    "2026-12-15"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.geig.ac.kr/bbs_shop/file_download.php?board_code=notice&board_idx=132365&sel_no=0"
+  },
+  {
+   "text": "❍ 접수기간: 2026년 9월 28일(월) 10:00 ~ 10월 2일(금) 23:59",
+   "dates": [
+    "2026-09-28",
+    "2026-10-02"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://www.geig.ac.kr/bbs_shop/file_download.php?board_code=notice&board_idx=132365&sel_no=0"
+  },
+  {
+   "text": "❍ 접수기간: 2026년 11월 14일(토) 10:00 ~ 11월 21일(토) 23:59",
+   "dates": [
+    "2026-11-14",
+    "2026-11-21"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://www.geig.ac.kr/bbs_shop/file_download.php?board_code=notice&board_idx=132365&sel_no=0"
+  },
   {
    "text": "[서해구·검단구] 2027학년도 서해구·검단구 영재교육대상자 선발 관련 사전 안내 | 2026-08-21 10:03:00",
    "dates": [

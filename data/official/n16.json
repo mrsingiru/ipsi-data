@@ -2,12 +2,16 @@
  "id": "n16",
  "org": "동두천양주 영재교육원",
  "what": "GED 온라인 지원",
- "checkedAt": "2026-10-19T20:21:25+09:00",
+ "checkedAt": "2026-10-19T20:24:21+09:00",
  "opened": [
   {
    "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=1..25",
    "status": "ok",
    "rows": 375
+  },
+  {
+   "url": "https://ged.kedi.re.kr/inno/slctNotiInnoPop.do?pop1=Y&orgId=10808083002&seq=25726",
+   "status": "ok"
   }
  ],
  "notices": [],
@@ -18,7 +22,12 @@
    "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
   }
  ],
- "titles": [],
+ "titles": [
+  {
+   "url": "https://ged.kedi.re.kr/inno/slctNotiInnoPop.do?pop1=Y",
+   "title": "GED"
+  }
+ ],
  "files": [],
  "lines": [],
  "status": "found-no-dates"
