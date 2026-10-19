@@ -22,7 +22,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: 읽기 도구 설치(PDF·HWP)
-        run: pip install requests beautifulsoup4 lxml pdfminer.six olefile
+        run: |
+          pip install requests beautifulsoup4 lxml pdfminer.six olefile
+          sudo apt-get install -y -qq poppler-utils >/dev/null || true
       - name: 공식 공고에서 날짜 줄 뽑기
         run: python scripts/fetch_official.py watch/targets.json data/official
       - name: 점검용 기록을 debug 가지에 잠깐 두기(main에는 넣지 않음, 고치기가 끝나면 지움)

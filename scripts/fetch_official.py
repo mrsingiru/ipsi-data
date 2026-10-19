@@ -149,6 +149,20 @@ def text_pdf(data):
     return extract_text(io.BytesIO(data))
 
 
+def text_pdf_layout(data):
+    """Second reader for PDFs whose tables come out scrambled: poppler's pdftotext keeps each table row on one line."""
+    import shutil
+    import subprocess
+    import tempfile
+    if not shutil.which('pdftotext'):
+        return ''
+    with tempfile.NamedTemporaryFile(suffix='.pdf') as tf:
+        tf.write(data)
+        tf.flush()
+        r = subprocess.run(['pdftotext', '-layout', '-enc', 'UTF-8', tf.name, '-'], capture_output=True, timeout=60)
+        return r.stdout.decode('utf-8', 'ignore')
+
+
 def text_hwp(data):
     """HWP 5 (OLE): BodyText/Section* streams, raw-deflate records, PARA_TEXT (tag 67) as UTF-16LE."""
     import olefile
@@ -449,7 +463,12 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
             try:
                 kind, text = file_text(data, t, ctype)
                 rec.update({'type': kind, 'bytes': len(data), 'sha1': hashlib.sha1(data).hexdigest()[:12]})
-                got = date_lines(text, tgt.get('near', []), today, rec['url'] if not u.startswith('post:') else (res.get('srcPage') or rec['url']))
+                src_url = rec['url'] if not u.startswith('post:') else (res.get('srcPage') or rec['url'])
+                got = date_lines(text, tgt.get('near', []), today, src_url)
+                if not got and kind == 'pdf':
+                    got = date_lines(text_pdf_layout(data), tgt.get('near', []), today, src_url)
+                    if got:
+                        rec['reader'] = 'pdftotext'
                 res['lines'] += got
                 if not got:
                     flat = re.sub(r'\s+', ' ', text)
