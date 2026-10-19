@@ -33,7 +33,7 @@ UA = 'ipsi-data-bot/1.0 (+https://github.com/mrsingiru/ipsi-data; public admissi
 TIMEOUT = 30
 MAX_BYTES = 20 * 1024 * 1024
 PER_HOST = 15
-HOST_LIMIT = {'https://ged.kedi.re.kr': 32}   # the GED notice list is 25 pages
+HOST_LIMIT = {'https://ged.kedi.re.kr': 45}   # the GED notice list is 25 pages
 PAUSE = 1.2
 DENY = ('명단', '합격자', '로그인', 'login')
 FILE_EXT = ('.pdf', '.hwp', '.hwpx')
@@ -75,6 +75,26 @@ class Fetcher:
             self.robots[host] = rp
         rp = self.robots[host]
         return bool(rp) and rp.can_fetch(UA, url)
+
+    def post(self, url, data):
+        """A form the site's own button sends (GED '다운로드' opens its file list this way). Same robots and pace rules."""
+        if not self.allowed(url):
+            return 'robots', None, url, ''
+        host = self._host(url)
+        if self.count.get(host, 0) >= HOST_LIMIT.get(host, PER_HOST):
+            return 'limit', None, url, ''
+        wait = PAUSE - (time.time() - self.last.get(host, 0))
+        if wait > 0:
+            time.sleep(wait)
+        self.count[host] = self.count.get(host, 0) + 1
+        try:
+            r = self.s.post(url, data=data, timeout=TIMEOUT)
+            self.last[host] = time.time()
+            if r.status_code >= 400:
+                return 'http-%d' % r.status_code, None, r.url, ''
+            return 'ok', decode_html(r.content, r), r.url, r.headers.get('Content-Type', '')
+        except requests.RequestException as e:
+            return 'error', str(e)[:200], url, ''
 
     def get(self, url, binary=False):
         """Returns (status, text_or_bytes, final_url, content_type). status: ok | robots | limit | http-NNN | error"""
@@ -307,7 +327,13 @@ def link_items(soup, base):
             url = urllib.parse.urljoin(base, href)
         else:
             m = re.search(r"['\"](\d{5,})['\"]", on + ' ' + href) or re.search(r"\(\s*(\d{5,})\s*[,)]", on + ' ' + href)
-            if m and 'selectNttList.do' in base:
+            if not m and re.fullmatch(r'\d{5,}', a.get('data-id') or ''):
+                m = re.match(r'(\d+)', a.get('data-id'))
+            fd = re.search(r'file_download\((\d+)', href + ' ' + on)
+            if fd and '/bbs_shop/read.htm' in base:   # geig.ac.kr: the page's own download address
+                q = dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(base).query))
+                url = urllib.parse.urljoin(base, '/bbs_shop/file_download.php?' + urllib.parse.urlencode({'board_code': q.get('board_code', 'notice'), 'board_idx': q.get('idx', ''), 'sel_no': fd.group(1)}))
+            elif m and 'selectNttList.do' in base:
                 q = dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(base).query))
                 url = urllib.parse.urljoin(base, 'selectNttInfo.do?' + urllib.parse.urlencode({'mi': q.get('mi', ''), 'bbsId': q.get('bbsId', ''), 'nttSn': m.group(1)}))
         if url:
@@ -347,6 +373,10 @@ def read_post(F, url, tgt, today, res, depth_files=True):
     res['opened'].append({'url': url, 'status': st})
     if st != 'ok':
         return
+    read_post_html(F, html, final, tgt, today, res, depth_files)
+
+
+def read_post_html(F, html, final, tgt, today, res, depth_files=True):
     soup = soup_of(html)
     title = re.sub(r'\s+', ' ', (soup.title.get_text() if soup.title else '')).strip()[:120]
     links = link_items(soup, final)
@@ -354,7 +384,10 @@ def read_post(F, url, tgt, today, res, depth_files=True):
     if not depth_files:
         return
     n_files = len(res['files'])
+    consent = re.search(r'function\s+file_download\s*\([^)]*\)\s*\{[^}]*file_download_popup\(', html or '')
     for t, u in links:
+        if consent and 'file_download.php' in u:
+            continue   # the site asks people to agree before downloading: do not skip that step automatically
         low = (t + ' ' + u).lower()
         is_file = any(e in low for e in FILE_EXT) or re.search(r'(download|filedown|fileDown|atchFile|file_down|attach)', u, re.I)
         if not is_file or denied(t):
@@ -378,7 +411,8 @@ def read_post(F, url, tgt, today, res, depth_files=True):
             break
     if len(res['files']) == n_files:
         F.debug.append({'id': tgt['id'], 'what': 'post-no-files', 'url': final, 'anchors': anchor_dump(soup_of(html), ['첨부', '다운', 'down', 'Down', 'hwp', 'pdf', 'file', 'File']),
-                        'scripts': script_dump(html, ['file_download', 'fileDownload', 'fn_download', 'fn_fileDown', 'download'])})
+                        'scripts': script_dump(html, ['file_download', 'fileDownload', 'fn_download', 'fn_fileDown', 'download', 'fn_down', 'fnDown', 'fileDown']),
+                        'html': re.sub(r'\s+', ' ', html)[:1500] if 'ged.kedi.re.kr' in final else ''})
     if title:
         res['titles'].append({'url': final, 'title': title})
 
@@ -409,7 +443,7 @@ def read_board(F, url, tgt, today, res, from_site=False):
     if not picks:
         F.debug.append({'id': tgt['id'], 'what': 'board-no-pick', 'url': final, 'anchors': anchor_dump(soup, (tgt.get('title') or []) + ['모집', '선발', '공지']),
                         'raw2027': [str(a)[:400] for a in soup.find_all('a') if '2027' in a.get_text()][:3],
-                        'scripts': script_dump(html, ['fn_view', 'fnView', 'goView', 'fn_egov_inqire_notice', 'view'])})
+                        'scripts': script_dump(html, ['fncDetailView', 'fn_view', 'fnView', 'goView', 'fn_egov_inqire_notice', 'view'])})
     if not picks and from_site:   # front page: follow the notice board link once
         boards = [(t, u) for t, u in links if any(w in t for w in ('공지사항', '공지', '모집안내', '입학안내', '알림'))][:2]
         for t, u in boards:
@@ -466,9 +500,13 @@ def read_ged(F, find, tgt, today, res):
         res['ged'].append({'row': r['text'], 'page': r['page'], 'url': GED_LIST.format(r['page'])})
         F.debug.append({'id': tgt['id'], 'what': 'ged-hit', 'find': find, 'html': r['html']})
         res['lines'] += date_lines(r['text'], [], today, GED_LIST.format(r['page']))
-        for t, u in r['links'][:2]:
-            if 'ged.kedi.re.kr' in u and u.rstrip('#') != GED_LIST.format(r['page']).rstrip('#'):
-                read_post(F, u, tgt, today, res, depth_files=True)
+        m = re.search(r"fn_down\('(\d+)'\s*,\s*'(\d+)'\s*,\s*'(\d+)'\)", r['html'])
+        if m:
+            pop = 'https://ged.kedi.re.kr/inno/slctNotiInnoPop.do?pop1=Y'
+            st, html, final, _ = F.post(pop, {'stndYear': m.group(1), 'orgId': m.group(2), 'seq': m.group(3)})
+            res['opened'].append({'url': pop + '&orgId=' + m.group(2) + '&seq=' + m.group(3), 'status': st})
+            if st == 'ok':
+                read_post_html(F, html, final, tgt, today, res)
     return bool(hits)
 
 
