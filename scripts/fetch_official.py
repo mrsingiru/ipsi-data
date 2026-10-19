@@ -252,7 +252,16 @@ def pick_year(mo, d, wd, today, after=None):
     return min(cands, key=lambda c: abs((c - today).days)).year
 
 
+RANGE_END = re.compile(r'~\s*(\d{1,2})\s*\.\s*(\d{1,2})\s*\.?(?!\d)')
+
+
+def tidy(line):
+    """PDF text often moves the weekday out of its brackets: '2026.9.16.( ) 수' → '2026.9.16.(수)'."""
+    return re.sub(r'\(\s*\)\s*([월화수목금토일])(?![가-힣])', r'(\1)', line)
+
+
 def dates_in(line, today):
+    line = tidy(line)
     found, spans = [], []
     for m in FULL.finditer(line):
         y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
@@ -262,6 +271,17 @@ def dates_in(line, today):
             found.append((m.start(), y, mo, d, True))
         except ValueError:
             pass
+    for m in RANGE_END.finditer(line):   # '2026. 10. 16. ~ 10. 25.' (end of a range, no weekday)
+        if any(a <= m.start(1) < b for a, b in spans):
+            continue
+        before = [x for x in found if x[0] < m.start() and x[4]]
+        if before:
+            mo, d = int(m.group(1)), int(m.group(2))
+            try:
+                found.append((m.start(1), pick_year(mo, d, None, today, datetime.date(before[-1][1], before[-1][2], before[-1][3])), mo, d, False))
+                spans.append(m.span())
+            except ValueError:
+                pass
     for rx in (MD_KO, MD_DOT):
         for m in rx.finditer(line):
             if any(a <= m.start() < b for a, b in spans):
@@ -339,6 +359,10 @@ def link_items(soup, base):
             m = re.search(r"['\"](\d{5,})['\"]", on + ' ' + href) or re.search(r"\(\s*(\d{5,})\s*[,)]", on + ' ' + href)
             if not m and re.fullmatch(r'\d{5,}', a.get('data-id') or ''):
                 m = re.match(r'(\d+)', a.get('data-id'))
+            fk = re.search(r"fn_fileDownload\('([0-9a-f]{16,})'\)", on + ' ' + href)
+            if fk and '/na/ntt/' in base:
+                out.append((t, urllib.parse.urljoin(base, '/common/nttFileDownload.do?fileKey=' + fk.group(1))))
+                continue
             gd = re.search(r"fn_down\('(FB_[A-Za-z0-9_.]+)'\s*,\s*'([^']*)'\)", on)
             if gd and 'ged.kedi.re.kr' in base:
                 out.append((t, 'post:https://ged.kedi.re.kr/inno/fileDownload.do?' + urllib.parse.urlencode({'FilePath': 'dataFiles', 'PhysFileNm': gd.group(1), 'LogiFileNm': gd.group(2)})))
@@ -428,7 +452,9 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
                 got = date_lines(text, tgt.get('near', []), today, rec['url'] if not u.startswith('post:') else (res.get('srcPage') or rec['url']))
                 res['lines'] += got
                 if not got:
-                    F.debug.append({'id': tgt['id'], 'what': 'file-no-lines', 'url': u, 'name': t[:80], 'type': kind, 'chars': len(text), 'sample': re.sub(r'\s+', ' ', text)[:300]})
+                    flat = re.sub(r'\s+', ' ', text)
+                    near_at = [flat[max(0, m.start() - 60):m.start() + 120] for m in re.finditer('|'.join(map(re.escape, tgt.get('near', [])[:3])) or 'x^', flat)][:3]
+                    F.debug.append({'id': tgt['id'], 'what': 'file-no-lines', 'url': u[:120], 'name': t[:80], 'type': kind, 'chars': len(text), 'sample': flat[:200], 'near': near_at})
             except Exception as e:  # a broken file should not stop the others
                 rec.update({'status': 'parse-error', 'error': str(e)[:120]})
         res['files'].append(rec)
