@@ -27,23 +27,6 @@ jobs:
           sudo apt-get install -y -qq poppler-utils >/dev/null || true
       - name: 공식 공고에서 날짜 줄 뽑기
         run: python scripts/fetch_official.py watch/targets.json data/official
-      - name: 점검용 기록을 debug 가지에 잠깐 두기(main에는 넣지 않음, 고치기가 끝나면 지움)
-        if: always() && github.event_name == 'workflow_dispatch'
-        run: |
-          if [ -f debug/debug.json ]; then
-            cp debug/debug.json /tmp/debug.json
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git stash -u -q || true
-            git checkout -q --orphan debug-tmp
-            git rm -rq --cached . >/dev/null 2>&1 || true
-            mkdir -p d && cp /tmp/debug.json d/debug.json
-            git add d/debug.json
-            git commit -q -m "점검용 기록(임시)"
-            git push -q -f origin debug-tmp:debug
-            git checkout -q -f main
-            git stash pop -q || true
-          fi
       - name: 점검용 기록 올리기(저장소에는 넣지 않음)
         if: always()
         uses: actions/upload-artifact@v4
