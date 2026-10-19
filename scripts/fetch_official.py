@@ -186,7 +186,8 @@ def hwp_para(b):
             continue
         chars.append(chr(c))
         i += 2
-    return ''.join(chars)
+    # pairs of UTF-16 halves → one character; a lone half (broken file) is dropped so the JSON can be written
+    return ''.join(chars).encode('utf-16-le', 'surrogatepass').decode('utf-16-le', 'ignore')
 
 
 def text_hwpx(data):
@@ -201,6 +202,11 @@ def text_hwpx(data):
 
 
 def file_text(data, name, ctype):
+    kind, text = _file_text(data, name, ctype)
+    return kind, text.encode('utf-8', 'ignore').decode('utf-8')
+
+
+def _file_text(data, name, ctype):
     low = (name or '').lower()
     if data[:4] == b'%PDF' or low.endswith('.pdf') or 'pdf' in ctype:
         return 'pdf', text_pdf(data)
@@ -550,7 +556,7 @@ def run(targets_path, out_dir):
                 'withDates': sum(1 for s in summary if s['status'] == 'dates'), 'items': summary}
     json.dump(run_info, open(os.path.join(os.path.dirname(out_dir.rstrip('/')) or '.', 'official_run.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     os.makedirs('debug', exist_ok=True)
-    json.dump(F.debug, open('debug/debug.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    json.dump(F.debug, open('debug/debug.json', 'w', encoding='utf-8', errors='replace'), ensure_ascii=False, indent=1)
     return run_info
 
 
