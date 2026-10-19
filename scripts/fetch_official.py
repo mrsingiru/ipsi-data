@@ -328,6 +328,16 @@ def anchor_dump(soup, words):
     return out
 
 
+def script_dump(html, names):
+    """For the debug artifact only: the page's own JS functions that open posts or files (fn_down, file_download …)."""
+    out = []
+    for nm in names:
+        for m in re.finditer(r'function\s+' + re.escape(nm) + r'\s*\([^)]*\)\s*\{', html):
+            out.append(html[m.start():m.start() + 900])
+            break
+    return out
+
+
 def denied(text):
     return any(w in text for w in DENY)
 
@@ -367,7 +377,8 @@ def read_post(F, url, tgt, today, res, depth_files=True):
         if len(res['files']) >= 6:
             break
     if len(res['files']) == n_files:
-        F.debug.append({'id': tgt['id'], 'what': 'post-no-files', 'url': final, 'anchors': anchor_dump(soup_of(html), ['첨부', '다운', 'down', 'Down', 'hwp', 'pdf', 'file', 'File'])})
+        F.debug.append({'id': tgt['id'], 'what': 'post-no-files', 'url': final, 'anchors': anchor_dump(soup_of(html), ['첨부', '다운', 'down', 'Down', 'hwp', 'pdf', 'file', 'File']),
+                        'scripts': script_dump(html, ['file_download', 'fileDownload', 'fn_download', 'fn_fileDown', 'download'])})
     if title:
         res['titles'].append({'url': final, 'title': title})
 
@@ -396,7 +407,9 @@ def read_board(F, url, tgt, today, res, from_site=False):
     links = link_items(soup, final)
     picks = pick_notices(links, tgt.get('title', []))
     if not picks:
-        F.debug.append({'id': tgt['id'], 'what': 'board-no-pick', 'url': final, 'anchors': anchor_dump(soup, (tgt.get('title') or []) + ['모집', '선발', '공지'])})
+        F.debug.append({'id': tgt['id'], 'what': 'board-no-pick', 'url': final, 'anchors': anchor_dump(soup, (tgt.get('title') or []) + ['모집', '선발', '공지']),
+                        'raw2027': [str(a)[:400] for a in soup.find_all('a') if '2027' in a.get_text()][:3],
+                        'scripts': script_dump(html, ['fn_view', 'fnView', 'goView', 'fn_egov_inqire_notice', 'view'])})
     if not picks and from_site:   # front page: follow the notice board link once
         boards = [(t, u) for t, u in links if any(w in t for w in ('공지사항', '공지', '모집안내', '입학안내', '알림'))][:2]
         for t, u in boards:
@@ -425,6 +438,9 @@ def ged_rows(F):
         if st != 'ok':
             GED_CACHE['status'] = st
             break
+        if p == 1:
+            F.debug.append({'id': 'ged', 'what': 'ged-script', 'scripts': script_dump(html, ['fn_down', 'fn_search', 'fn_link_page']),
+                            'forms': [str(fm)[:600] for fm in soup_of(html).find_all('form')][:3]})
         soup = soup_of(html)
         trs = soup.select('table tbody tr') or soup.find_all('tr')
         for tr in trs:
