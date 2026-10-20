@@ -2,193 +2,28 @@
  "id": "n27",
  "org": "한양대 ERICA 영재원",
  "what": "원서 접수(GED 온라인)",
- "checkedAt": "2026-10-20T06:05:17+09:00",
+ "checkedAt": "2026-10-21T06:06:14+09:00",
  "opened": [
   {
-   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=1..25",
-   "status": "ok",
-   "rows": 375
+   "url": "ged",
+   "status": "paused",
+   "error": "GED 자동 읽기 멈춤(이용 조건 확인 중)"
   },
   {
-   "url": "https://ged.kedi.re.kr/inno/slctNotiInnoPop.do?pop1=Y&orgId=10808094001&seq=25755",
-   "status": "ok"
+   "url": "ged",
+   "status": "paused",
+   "error": "GED 자동 읽기 멈춤(이용 조건 확인 중)"
   },
   {
-   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=1..25",
-   "status": "ok",
-   "rows": 375
-  },
-  {
-   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=1..25",
-   "status": "ok",
-   "rows": 375
-  },
-  {
-   "url": "https://ged.kedi.re.kr/inno/slctNotiInnoPop.do?pop1=Y&orgId=10808094001&seq=25755",
-   "status": "ok"
+   "url": "ged",
+   "status": "paused",
+   "error": "GED 자동 읽기 멈춤(이용 조건 확인 중)"
   }
  ],
  "notices": [],
- "ged": [
-  {
-   "row": "312 2027 2027학년도 한양대학교ERICA 영재교육원 (기초과학, 로봇 AI) 신입생 모집 공고 경기 안산 한양대학교 ERICA 영재교육원 031 - 400 - 5499 다운로드",
-   "page": 16,
-   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "row": "312 2027 2027학년도 한양대학교ERICA 영재교육원 (기초과학, 로봇 AI) 신입생 모집 공고 경기 안산 한양대학교 ERICA 영재교육원 031 - 400 - 5499 다운로드",
-   "page": 16,
-   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  }
- ],
- "titles": [
-  {
-   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16",
-   "title": "GED"
-  },
-  {
-   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16",
-   "title": "GED"
-  }
- ],
- "files": [
-  {
-   "url": "https://ged.kedi.re.kr/inno/fileDownload.do?file=2027%ED%95%99%EB%85%84%EB%8F%84%20%ED%95%9C%EC%96%91%EB%8C%80%ED%95%99%EA%B5%90ERICA%20%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90%28%EA%B8%B0%EC%B4%88%EA%B3%BC%ED%95%99%2C%20%EB%A1%9C%EB%B4%87AI%29%20%EC%8B%A0%EC%9E%85%EC%83%9D%20%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf%28935.62%20KB%29",
-   "name": "2027학년도 한양대학교ERICA 영재교육원(기초과학, 로봇AI) 신입생 모집요강.pdf(935.62 KB)",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 958073,
-   "sha1": "88ded601d8a5",
-   "reader": "pdftotext"
-  },
-  {
-   "url": "https://ged.kedi.re.kr/inno/fileDownload.do?file=GED%20%EC%98%81%EC%9E%AC%20%EC%A7%80%EC%9B%90%20%EB%B0%A9%EB%B2%95%20%EC%95%88%EB%82%B4.pdf%281%20MB%29",
-   "name": "GED 영재 지원 방법 안내.pdf(1 MB)",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 1053623,
-   "sha1": "85982ebc4cf4"
-  },
-  {
-   "url": "https://ged.kedi.re.kr/inno/fileDownload.do?file=%ED%95%99%EC%83%9D%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C%EC%84%9C%29%20%EC%95%88%EB%82%B4.pdf%2832.71%20KB%29",
-   "name": "학생보고서(자기소개서) 안내.pdf(32.71 KB)",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 33500,
-   "sha1": "7531a2508a18"
-  },
-  {
-   "url": "https://ged.kedi.re.kr/inno/fileDownload.do?file=2027%ED%95%99%EB%85%84%EB%8F%84%20%EA%B5%90%EC%9C%A1%EA%B3%BC%EC%A0%95%20%EC%9D%BC%EC%A0%95%28%EC%95%88%29-%EC%88%98%EC%A0%95.pdf%2891.99%20KB%29",
-   "name": "2027학년도 교육과정 일정(안)-수정.pdf(91.99 KB)",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 94193,
-   "sha1": "7cdf5ee61e1f"
-  },
-  {
-   "url": "https://ged.kedi.re.kr/inno/fileDownload.do?file=2027%ED%95%99%EB%85%84%EB%8F%84%20%ED%95%9C%EC%96%91%EB%8C%80%ED%95%99%EA%B5%90ERICA%20%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90%28%EA%B8%B0%EC%B4%88%EA%B3%BC%ED%95%99%2C%20%EB%A1%9C%EB%B4%87AI%29%20%EC%8B%A0%EC%9E%85%EC%83%9D%20%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf%28935.62%20KB%29",
-   "name": "2027학년도 한양대학교ERICA 영재교육원(기초과학, 로봇AI) 신입생 모집요강.pdf(935.62 KB)",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 958073,
-   "sha1": "88ded601d8a5",
-   "reader": "pdftotext"
-  },
-  {
-   "url": "https://ged.kedi.re.kr/inno/fileDownload.do?file=GED%20%EC%98%81%EC%9E%AC%20%EC%A7%80%EC%9B%90%20%EB%B0%A9%EB%B2%95%20%EC%95%88%EB%82%B4.pdf%281%20MB%29",
-   "name": "GED 영재 지원 방법 안내.pdf(1 MB)",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 1053623,
-   "sha1": "85982ebc4cf4"
-  }
- ],
- "lines": [
-  {
-   "text": "- 입학지원서(사진 등록) | 2026년 10월 16일(금) ~ - 개인정보 수집 및 이용 제공 동의서",
-   "dates": [
-    "2026-10-16"
-   ],
-   "words": [
-    "원서"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "원서 접수 | 학생 10월 25일(일) 23:59까지 - 학생 보고서(자기소개서)",
-   "dates": [
-    "2026-10-25"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "*합격자발표 11월 11일(수) GED확인",
-   "dates": [
-    "2026-11-11"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "4) 도서벽지 중학교 졸업예정자(2026년 2월 28일 이전부터 원서접수일 현재 재학 중인 졸업예정자)",
-   "dates": [
-    "2026-02-28"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "- 입학지원서(사진 등록) | 2026년 10월 16일(금) ~ - 개인정보 수집 및 이용 제공 동의서",
-   "dates": [
-    "2026-10-16"
-   ],
-   "words": [
-    "원서"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "원서 접수 | 학생 10월 25일(일) 23:59까지 - 학생 보고서(자기소개서)",
-   "dates": [
-    "2026-10-25"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "*합격자발표 11월 11일(수) GED확인",
-   "dates": [
-    "2026-11-11"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "4) 도서벽지 중학교 졸업예정자(2026년 2월 28일 이전부터 원서접수일 현재 재학 중인 졸업예정자)",
-   "dates": [
-    "2026-02-28"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  }
- ],
- "srcPage": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16",
- "status": "dates"
+ "ged": [],
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "error"
 }

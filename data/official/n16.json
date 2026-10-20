@@ -2,161 +2,18 @@
  "id": "n16",
  "org": "동두천양주 영재교육원",
  "what": "GED 온라인 지원",
- "checkedAt": "2026-10-20T06:05:44+09:00",
+ "checkedAt": "2026-10-21T06:06:14+09:00",
  "opened": [
   {
-   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=1..25",
-   "status": "ok",
-   "rows": 375
-  },
-  {
-   "url": "https://ged.kedi.re.kr/inno/slctNotiInnoPop.do?pop1=Y&orgId=10808083002&seq=25726",
-   "status": "ok"
+   "url": "ged",
+   "status": "paused",
+   "error": "GED 자동 읽기 멈춤(이용 조건 확인 중)"
   }
  ],
  "notices": [],
- "ged": [
-  {
-   "row": "314 2027 2027 동두천양주교육지원청부설 영재교육원 영재교육대상자 선발 공고문 경기 동두천양주 경기도동두천양주교육지원청부설영재교육원 031 - 860 - 4367 다운로드",
-   "page": 16,
-   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  }
- ],
- "titles": [
-  {
-   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16",
-   "title": "GED"
-  }
- ],
- "files": [
-  {
-   "url": "https://ged.kedi.re.kr/inno/fileDownload.do?file=%EB%B6%99%EC%9E%84-2027%20%EB%8F%99%EB%91%90%EC%B2%9C%EC%96%91%EC%A3%BC%EA%B5%90%EC%9C%A1%EC%A7%80%EC%9B%90%EC%B2%AD%EB%B6%80%EC%84%A4%20%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90%20%EA%B5%90%EC%9C%A1%EB%8C%80%EC%83%81%EC%9E%90%20%EC%84%A0%EB%B0%9C%20%EA%B3%B5%EA%B3%A0%EB%AC%B8%28%EA%B2%8C%EC%8B%9C%EC%9A%A9%29.pdf%28479.3%20KB%29",
-   "name": "붙임-2027 동두천양주교육지원청부설 영재교육원 교육대상자 선발 공고문(게시용).pdf(479.3 KB)",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 490806,
-   "sha1": "3101ae46c36b"
-  }
- ],
- "lines": [
-  {
-   "text": "온라인 지원 | 2026. 10. 12.(월) ~ 10. 21.(수)",
-   "dates": [
-    "2026-10-12",
-    "2026-10-21"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "최종합격자 발표 | 2026. 12. 10.(목) 18시 이후",
-   "dates": [
-    "2026-12-10"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "1. 학생 지원 기간: 2026. 10. 12.(월) ~ 10. 21.(수) 까지",
-   "dates": [
-    "2026-10-12",
-    "2026-10-21"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "⑤ GED 온라인 지원 시 「GED 학생 온라인 지원 매뉴얼」(별도 첨부파일) 안내에 따라 지원 | 1. 담임교사 온라인 추천 기간: 2026. 10. 12.(월) ~ 10. 22.(목) 까지",
-   "dates": [
-    "2026-10-12",
-    "2026-10-22"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "1. 「선교육•후선발」 프로그램 과정평가 기간: 2026. 10. 26.(월) ~ 11. 25.(수) 까지",
-   "dates": [
-    "2026-10-26",
-    "2026-11-25"
-   ],
-   "words": [
-    "선발"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "초3,4학년 융합반 정보반 지원자 대상 | ∎2026.11.24(화) 16:00~ :",
-   "dates": [
-    "2026-11-24"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "초5,6학년 융합반 정보반 지원자 대상 | ∎2026.11.25(수) 16:00~ :",
-   "dates": [
-    "2026-11-25"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "5 최종합격자 발표 | 1. 일시: 2026. 12. 10.(목) 18시 이후",
-   "dates": [
-    "2026-12-10"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "4) 도서벽지 중학교 졸업예정자(2026년 2월 28일 이전부터 원서접수일 현재 재학 중인 졸업예정자)",
-   "dates": [
-    "2026-02-28"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "○○교육지원청 교육장 귀하 | 1. 교사 GED 추천기간(2026.10.12.월~10.22.목)에 학교 담임교사가 증빙서류(12쪽)를 확인 후 학교장",
-   "dates": [
-    "2026-10-12",
-    "2026-10-22"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  },
-  {
-   "text": "•https://ged.kedi.re.kr 온라인 지원 | 2026. 10. 12.(월) ~ 10. 21.(수)",
-   "dates": [
-    "2026-10-12",
-    "2026-10-21"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16"
-  }
- ],
- "srcPage": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=16",
- "status": "dates"
+ "ged": [],
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "error"
 }

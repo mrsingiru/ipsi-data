@@ -2,17 +2,17 @@
  "id": "n75",
  "org": "대구 교육청 영재원",
  "what": "GED 원서 접수",
- "checkedAt": "2026-10-20T06:05:52+09:00",
+ "checkedAt": "2026-10-21T06:06:14+09:00",
  "opened": [
   {
-   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=1..25",
-   "status": "ok",
-   "rows": 375
+   "url": "ged",
+   "status": "paused",
+   "error": "GED 자동 읽기 멈춤(이용 조건 확인 중)"
   },
   {
-   "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=1..25",
-   "status": "ok",
-   "rows": 375
+   "url": "ged",
+   "status": "paused",
+   "error": "GED 자동 읽기 멈춤(이용 조건 확인 중)"
   }
  ],
  "notices": [],
@@ -20,5 +20,5 @@
  "titles": [],
  "files": [],
  "lines": [],
- "status": "not-found"
+ "status": "error"
 }
