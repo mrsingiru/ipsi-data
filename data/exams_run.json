@@ -2,11 +2,13 @@
  "date": "2026-10-20",
  "mode": "rotate",
  "planned": 825,
- "fetched": 825,
- "errors": 0,
- "with_exams_today": 593,
+ "fetched": 824,
+ "errors": 1,
+ "with_exams_today": 592,
  "schools_total": 5728,
  "schools_with_exams": 4122,
  "limit_hit": false,
- "error_samples": []
+ "error_samples": [
+  "8392082 운주중학교: The read operation timed out"
+ ]
 }
