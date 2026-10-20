@@ -1,5 +1,5 @@
 """
-나이스 학사일정(Open API) → 중·고등학교 시험(중간·기말·지필평가) 날짜만 골라 data/exams.json에 모읍니다.
+나이스 학사일정(Open API) → 초·중·고등학교 시험(중간·기말·지필평가)과 주요 행사 날짜만 골라 data/exams.json에 모읍니다.
 
 - 나이스 학사일정은 시도교육청 코드와 학교 코드가 필수라서, 학교마다 한 번씩 부릅니다.
 - 매일 학교의 1/7씩 돌아가며 받아, 모든 학교를 1주일에 한 번 새로 받습니다(MODE=rotate).
@@ -31,7 +31,8 @@ OUT = os.environ.get('OUT_DIR', 'data')
 MODE = os.environ.get('MODE', 'rotate').strip() or 'rotate'
 DAYS_BACK, DAYS_AHEAD, KEEP_PAST = 14, 210, 30
 PAUSE = float(os.environ.get('PAUSE', '0.3'))
-MAX_PER_RUN = int(os.environ.get('MAX_PER_RUN', '1500'))
+MAX_PER_RUN = int(os.environ.get('MAX_PER_RUN', '2500'))   # 2026-10-21: 하루 5,728+843번 불러도 한도에 안 걸림 → 초등학교를 4일 안에 채움
+LEVELS = tuple(x for x in os.environ.get('LEVELS', 'e,m,h').split(',') if x in ('e', 'm', 'h'))
 
 INCLUDE = re.compile(r'(중간|기말|지필|정기)\s*(고사|평가|시험)|[1-4]\s*(차|회)\s*(지필|정기)?\s*(고사|평가|시험)|학기\s*(고사|시험)')
 EXCLUDE = re.compile(r'모의|학력평가|연합|수능|수학능력|진단|기초학력|학업성취|체력|듣기|면접|실기|수행|입학|입시|결과|답안|확인|대비|성적|원서|응시|재시험|추가시험|채점|이의|감독|출제|협의')
@@ -144,7 +145,7 @@ def main(fetch_school=None, now=None):
     frm = (today - datetime.timedelta(days=DAYS_BACK)).strftime('%Y%m%d')
     to = (today + datetime.timedelta(days=DAYS_AHEAD)).strftime('%Y%m%d')
     with open(os.path.join(OUT, 'schools.csv'), encoding='utf-8-sig', newline='') as f:
-        schools = [s for s in csv.DictReader(f) if s.get('level') in ('m', 'h') and s.get('code') and s.get('atpt')]
+        schools = [s for s in csv.DictReader(f) if s.get('level') in LEVELS and s.get('code') and s.get('atpt')]
     if fetch_school is None:
         key = get_key()
         def fetch_school(s):
@@ -155,9 +156,13 @@ def main(fetch_school=None, now=None):
     keep = {s['code'] for s in schools}
     data['schools'] = {c: v for c, v in data.get('schools', {}).items() if c in keep}
     # never-fetched schools first (so a run stopped by the daily limit is finished on the next days), then today's share
+    # v3 (2026-10-21): 초등학교도 받는다(방학·재량휴업·영재 행사). Order: never-fetched 중·고 → today's share → never-fetched 초,
+    # so adding 6천여 초등학교 never holds back the weekly 중·고 refresh; they fill in over a few days under MAX_PER_RUN.
     never = [s for s in schools if s['code'] not in data['schools']]
+    never_mh = [s for s in never if s['level'] != 'e']
+    never_e = [s for s in never if s['level'] == 'e']
     seen = {s['code'] for s in never}
-    todo = never + [s for s in pick_today(schools, MODE, today) if s['code'] not in seen]
+    todo = never_mh + [s for s in pick_today(schools, MODE, today) if s['code'] not in seen] + never_e
     if MODE != 'all':
         todo = todo[:MAX_PER_RUN]
     stats = collections.Counter()
