@@ -1,5 +1,5 @@
 {
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "registry": {
 "ver": "v28.16",
 "generated": "2026-10-21",
@@ -7,19 +7,22 @@
 },
 "run": {
 "checked": 281,
-"ok": 248,
+"ok": 246,
 "robots": 28,
 "failed": 5,
 "changed": 0,
 "skipped": 150,
-"limit": 0
+"limit": 0,
+"login": 2
 },
 "summary": {
 "broken": 0,
 "changedOfficial": 0,
-"moved": 1,
+"moved": 0,
 "robots": 28,
-"neverOk": 33
+"neverOk": 35,
+"login": 2,
+"skipTerms": 150
 },
 "items": {
 "ae3c3b4bb1": {
@@ -33,7 +36,7 @@
 "q-refund"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -41,7 +44,7 @@
 "title": "",
 "final": "",
 "ctype": "application/xml",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "9a77a8d2d1": {
@@ -52,7 +55,7 @@
 "n37"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -60,7 +63,7 @@
 "title": "고입시",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "05a071e0ab": {
@@ -71,7 +74,7 @@
 "q-dir-free"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -79,7 +82,7 @@
 "title": "경상북도교육청 고교학점제지원센터-자유학기제 소개",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "4a0742cfee": {
@@ -90,7 +93,7 @@
 "n00"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -98,7 +101,7 @@
 "title": "서울특별시교육청 학교 밖 청소년 도움센터 친구랑",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "3f5dee7504": {
@@ -109,7 +112,7 @@
 "n86"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -117,7 +120,7 @@
 "title": "경상북도교육청-공지사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "f9318325fb": {
@@ -128,7 +131,7 @@
 "n50"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -136,7 +139,7 @@
 "title": "[공고] 2027학년도 전남광주통합특별시교육청 광주 영재교육원 교육대상자 선발 계획 | 안내사항 | 영재선발 | 영재교육 : 전남광주통합특별시교육청광주창의융합교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "c9e173bb1e": {
@@ -148,7 +151,7 @@
 "n53"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -156,7 +159,7 @@
 "title": "영재선발 소개 | 영재선발 | 영재교육 : 전남광주통합특별시교육청광주창의융합교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "c75eddd2b8": {
@@ -168,7 +171,7 @@
 "q-refund"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -176,7 +179,7 @@
 "title": "경남교육청 : HOME > 교육정보 > 학원/교습소/개인과외/평생교육시설 > 학원교습소개인과외 > 교습비등 반환기준",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "13c7bd2412": {
@@ -191,7 +194,7 @@
 "n22"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -199,7 +202,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "2f462df1ff": {
@@ -210,7 +213,7 @@
 "q-dir-free"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -218,7 +221,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "2db6f2fa67": {
@@ -229,7 +232,7 @@
 "q-dir-free"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -237,7 +240,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "24227c450d": {
@@ -248,7 +251,7 @@
 "r-record"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -256,7 +259,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "6d9935d65c": {
@@ -267,7 +270,7 @@
 "n17"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -275,7 +278,7 @@
 "title": "공지사항 < 영재교육원 | 광명교육지원청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "1f6309dcac": {
@@ -286,7 +289,7 @@
 "n17"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -294,7 +297,7 @@
 "title": "영재교육원 소개 < 영재교육원 | 경기도성남교육지원청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "9ccbc15e68": {
@@ -305,7 +308,7 @@
 "n45"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -313,7 +316,7 @@
 "title": "강원특별자치도춘천교육지원청 누리집",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "6d0ab173c0": {
@@ -324,7 +327,7 @@
 "n47"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -332,7 +335,7 @@
 "title": "강원특별자치도교육청  - 고입자료실",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "6e9bdf78e1": {
@@ -343,7 +346,7 @@
 "n47"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -351,7 +354,7 @@
 "title": "강원특별자치도교육청  - 고입자료실",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "21e9cee4c0": {
@@ -362,7 +365,7 @@
 "n46"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -370,7 +373,7 @@
 "title": "강원특별자치도교육청  - 특수목적고",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "d87f7c1e70": {
@@ -382,7 +385,7 @@
 "n48"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -390,7 +393,7 @@
 "title": "강원특별자치도교육청  - 일반고",
 "final": "https://www.gwe.go.kr/main/content.do?key=bTIzMDkxODI5OTg2OTc=",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "49ce3d4360": {
@@ -401,7 +404,7 @@
 "n45"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -409,7 +412,7 @@
 "title": "강원특별자치도강릉교육지원청 홈페이지",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "21f93f5955": {
@@ -420,7 +423,7 @@
 "q-sch-assign"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -428,7 +431,7 @@
 "title": "부산광역시 해운대교육지원청 - 전자민원 - 부서별민원안내 - 중학교 배정/전입학 - 중입 배정 공지사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "4b9a92788a": {
@@ -441,7 +444,7 @@
 "n74"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -449,7 +452,7 @@
 "title": "부산광역시교육청 고입포털 - 고교입학 - 입학전형일정",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "6b547020e6": {
@@ -460,7 +463,7 @@
 "q-sch-grade"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -468,7 +471,7 @@
 "title": "부산광역시교육청 고입포털 - 고교입학 - 고교입학 안내 - 공통사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "08494f1fef": {
@@ -480,7 +483,7 @@
 "q-sch-grade"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -488,7 +491,7 @@
 "title": "부산광역시교육청 고입포털",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "612338c45c": {
@@ -499,7 +502,7 @@
 "n74"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -507,7 +510,7 @@
 "title": "부산광역시교육청 고입포털 - 자료실 - 고입전형",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "a819065bef": {
@@ -518,7 +521,7 @@
 "q-sch-assign"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -526,7 +529,7 @@
 "title": "부산광역시 남부교육지원청 - 전자민원 - 부서별 민원안내 - 중학교 배정/전입학 - 중학교 배정 공지사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "727b4fd92b": {
@@ -538,7 +541,7 @@
 "q-eo-sw"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -546,7 +549,7 @@
 "title": "부산광역시교육청AI정보영재교육원 - 교육안내 - 선발안내 - 중학교 1학년",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "4fd1668e1d": {
@@ -560,7 +563,7 @@
 "r-one-center"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -568,7 +571,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "0ea68d0eda": {
@@ -579,7 +582,7 @@
 "q-sch-assign"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -587,7 +590,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "848974ae6d": {
@@ -607,7 +610,7 @@
 "r-once"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -615,7 +618,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "06c88e77f3": {
@@ -626,7 +629,7 @@
 "n12"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "http-404",
 "failStreak": 1,
 "error": "http-404"
@@ -639,7 +642,7 @@
 "n56"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -647,7 +650,7 @@
 "title": "알림마당 > 고시/공고  > 상세 화면| 전북특별자치도교육청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "4f6f6e422f": {
@@ -658,7 +661,7 @@
 "n56"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -666,7 +669,7 @@
 "title": "전북특별자치도교육청 진로진학센터",
 "final": "https://www.jbe.go.kr/jinro/board/view.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "c40679f9c5": {
@@ -677,7 +680,7 @@
 "n56"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -685,7 +688,7 @@
 "title": "전북특별자치도교육청 진로진학센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "100d68d77d": {
@@ -696,7 +699,7 @@
 "n01"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -704,7 +707,7 @@
 "title": "서울진로진학정보센터 - 고등학교 입학 안내(전기고등학교 전형)",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "92105776d5": {
@@ -716,7 +719,7 @@
 "n04"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -724,7 +727,7 @@
 "title": "서울진로진학정보센터 - 고등학교 입학 안내(후기고등학교 전형)",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "98bb7381de": {
@@ -738,7 +741,7 @@
 "n04"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -746,7 +749,7 @@
 "title": "서울진로진학정보센터 - 고등학교 입학 안내(주요일정)",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "bb18beafd9": {
@@ -757,7 +760,7 @@
 "n69"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -769,7 +772,7 @@
 "n69"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -782,7 +785,7 @@
 "n49"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -790,7 +793,7 @@
 "title": "강원특별자치도동해교육지원청 홈페이지",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "2de6bc244e": {
@@ -801,7 +804,7 @@
 "n08"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -809,7 +812,7 @@
 "title": "공지사항 < 알림마당 | 마정초등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "c9be99aafd": {
@@ -820,7 +823,7 @@
 "n54"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -828,7 +831,7 @@
 "title": "공지사항<영재교육원<전북특별자치도고창교육지원청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "91b9d9ddac": {
@@ -839,7 +842,7 @@
 "n54"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -847,7 +850,7 @@
 "title": "공지사항<열린마당<전북특별자치도군산교육지원청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "77d70310b1": {
@@ -861,7 +864,7 @@
 "q-eo-class"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -869,7 +872,7 @@
 "title": "공지사항 \n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t 목록\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<\n\t\t\t\t\t\t\n",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "9c8d2f805d": {
@@ -881,7 +884,7 @@
 "q-sch-grade"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -889,7 +892,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "0ad3b3b444": {
@@ -907,7 +910,7 @@
 "sh"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -915,7 +918,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "afd46aefc1": {
@@ -926,7 +929,7 @@
 "n73"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -934,7 +937,7 @@
 "title": "부산일과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "7df18877ca": {
@@ -946,7 +949,7 @@
 "n73"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -954,7 +957,7 @@
 "title": "부산일과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "090349c04b": {
@@ -969,7 +972,7 @@
 "r-refund"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -977,7 +980,7 @@
 "title": "부산과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "7993780592": {
@@ -988,7 +991,7 @@
 "n72"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -996,7 +999,7 @@
 "title": "부산과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "e15f0d2056": {
@@ -1007,15 +1010,13 @@
 "q-sch-grade"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
-"status": "ok",
+"checkedAt": "2026-10-21T05:28+09:00",
+"status": "login",
 "changeStreak": 0,
 "noisy": null,
-"hash": "7eff0c5e033d2e51",
 "title": "시스템안내",
 "final": "https://school.busanedu.net/mora-m/common/combLogin.do",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
 "failStreak": 0
 },
 "ad257703c6": {
@@ -1026,7 +1027,7 @@
 "n36"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1034,7 +1035,7 @@
 "title": "전형요강<입학안내<충북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "90feaf1502": {
@@ -1045,7 +1046,7 @@
 "n36"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1053,7 +1054,7 @@
 "title": "입학자료<입학안내<충북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "60aea5d261": {
@@ -1064,7 +1065,7 @@
 "n36"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1072,7 +1073,7 @@
 "title": "입학자료<입학안내<충북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "88440e3c84": {
@@ -1083,7 +1084,7 @@
 "n36"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1091,7 +1092,7 @@
 "title": "입학자료<입학안내<충북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "5babbb7943": {
@@ -1102,7 +1103,7 @@
 "n36"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1110,7 +1111,7 @@
 "title": "입학자료<입학안내<충북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "b58ec6775f": {
@@ -1122,7 +1123,7 @@
 "n37"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1130,7 +1131,7 @@
 "title": "2027학년도 고입전형<진학안내<알림마당<대제중학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "b3a59eef51": {
@@ -1141,7 +1142,7 @@
 "n39"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1149,7 +1150,7 @@
 "title": "공지사항<학교소식<동성중학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "da91e06a44": {
@@ -1160,7 +1161,7 @@
 "n35"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1168,7 +1169,7 @@
 "title": "공지사항<학교소식<상진초등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "82cff98801": {
@@ -1179,7 +1180,7 @@
 "n55"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1187,7 +1188,7 @@
 "title": "입학안내<입학안내<전북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "651345b269": {
@@ -1198,7 +1199,7 @@
 "n55"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1206,7 +1207,7 @@
 "title": "입학안내<입학안내<전북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "990b287fc0": {
@@ -1217,7 +1218,7 @@
 "n55"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1225,7 +1226,7 @@
 "title": "입학안내<입학안내<전북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "def89d666a": {
@@ -1236,7 +1237,7 @@
 "n55"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1244,7 +1245,7 @@
 "title": "입학안내<입학안내<전북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "05be89e902": {
@@ -1255,7 +1256,7 @@
 "n55"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1263,7 +1264,7 @@
 "title": "입학안내<입학안내<전북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "c7198f5055": {
@@ -1274,7 +1275,7 @@
 "n54"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1282,7 +1283,7 @@
 "title": "알림마당<영재교육원<전주교육<전북특별자치도전주교육지원청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "57a15c2050": {
@@ -1293,7 +1294,7 @@
 "n68"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1301,7 +1302,7 @@
 "title": "제주과학고등학교\n\t\n\t\t\n\t\t\t\n\t\t\t > 입학정보 > 모집요강\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t 목록",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "072c776e17": {
@@ -1312,7 +1313,7 @@
 "n68"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1320,7 +1321,7 @@
 "title": "제주과학고등학교\n\t\n\t\t\n\t\t\t\n\t\t\t > 입학정보 > 입학게시판\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t 목록",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "dec4a7ddfd": {
@@ -1331,7 +1332,7 @@
 "n67"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1339,7 +1340,7 @@
 "title": "제주과학고등학교\n\t\n\t\t\n\t\t\t\n\t\t\t > 영재교육원 > 공지사항\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t 목록",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "f8e7892c9f": {
@@ -1350,7 +1351,7 @@
 "n49"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1358,7 +1359,7 @@
 "title": "전국 대학부설 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "662a26f1d4": {
@@ -1371,7 +1372,7 @@
 "n39"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1379,7 +1380,7 @@
 "title": "전국 대학부설 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "4bc26dc8fc": {
@@ -1390,7 +1391,7 @@
 "n03"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1398,7 +1399,7 @@
 "title": "서울특별시교육청 : 서울특별시교육청 > 교육정보 > 진학안내 > 고입자료실",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "b3faa81ca3": {
@@ -1409,7 +1410,7 @@
 "n03"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1417,7 +1418,7 @@
 "title": "서울특별시교육청 : 서울특별시교육청 > 교육정보 > 진학안내 > 고입자료실",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "8d08d4079f": {
@@ -1429,7 +1430,7 @@
 "sen-hak"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1437,7 +1438,7 @@
 "title": "서울특별시교육청 : 서울특별시교육청 > 교육정보 > 학력평가자료 > 학력평가자료실",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "1179c975d3": {
@@ -1448,7 +1449,7 @@
 "n00"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1456,7 +1457,7 @@
 "title": "서울영재교육",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "2e437d93b9": {
@@ -1467,7 +1468,7 @@
 "n00"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1475,7 +1476,7 @@
 "title": "서울영재교육",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "a3fb5ec9b3": {
@@ -1491,7 +1492,7 @@
 "n24"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1499,7 +1500,7 @@
 "title": "서울영재교육",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "f1ba9ea3e9": {
@@ -1510,7 +1511,7 @@
 "n00"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1518,7 +1519,7 @@
 "title": "서울영재교육",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "6e5899faa2": {
@@ -1529,7 +1530,7 @@
 "n45"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1537,7 +1538,7 @@
 "title": "강원특별자치도원주교육지원청 영재교육원 홈페이지",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "04add9051b": {
@@ -1549,7 +1550,7 @@
 "q-kp"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1557,7 +1558,7 @@
 "title": "",
 "final": "https://adm-u.postech.ac.kr/wp-content/uploads/2026/03/2028%ED%95%99%EB%85%84%EB%8F%84_POSTECH_%EB%8C%80%ED%95%99%EC%9E%85%ED%95%99%EC%A0%84%ED%98%95_%EC%8B%9C%ED%96%89%EA%B3%84%ED%9A%8D_%ED%86%B5%ED%95%A9.pdf",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "3ebe1d828d": {
@@ -1570,7 +1571,7 @@
 "q-kp"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1578,7 +1579,7 @@
 "title": "",
 "final": "https://adm-u.postech.ac.kr/wp-content/uploads/2026/05/2027%ED%95%99%EB%85%84%EB%8F%84-POSTECH-%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "c3958c19ad": {
@@ -1590,7 +1591,7 @@
 "q-med"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -1603,7 +1604,7 @@
 "q-kp"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -1619,7 +1620,7 @@
 "snu28"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1627,7 +1628,7 @@
 "title": "2028학년도 대학 신입학생 입학전형 시행계획 - 공지사항 - 대학 - 입학 - 서울대학교 입학본부",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "94c389ced8": {
@@ -1640,7 +1641,7 @@
 "snu27j"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1648,7 +1649,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "c17d8024be": {
@@ -1660,7 +1661,7 @@
 "snu27s"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1668,7 +1669,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "96575af88a": {
@@ -1680,7 +1681,7 @@
 "ys27"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1688,7 +1689,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "fdc239cac0": {
@@ -1699,7 +1700,7 @@
 "n38"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1707,7 +1708,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "92f35d16f0": {
@@ -1719,7 +1720,7 @@
 "n38"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1727,7 +1728,7 @@
 "title": "목록 | 공지사항 | 커뮤니티 | 청주교육대학교부설 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "98f1776b0c": {
@@ -1738,7 +1739,7 @@
 "n38"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1746,7 +1747,7 @@
 "title": "전형요강 | 선발안내 | 청주교육대학교부설 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "10dd274591": {
@@ -1757,7 +1758,7 @@
 "n08"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1765,7 +1766,7 @@
 "title": "동국대학교 - 동국소식\n                    - 뉴스 \n                    -  학교소식",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "cca4c1aa8e": {
@@ -1776,7 +1777,7 @@
 "n26"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1784,7 +1785,7 @@
 "title": "공지사항 < 커뮤니티 >  경인교육대학교 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "06c59dc01a": {
@@ -1795,7 +1796,7 @@
 "n14"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1803,7 +1804,7 @@
 "title": "2027학년도 인천대학교 과학영재교육원 추천 신청 안내",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "bc9e7f592b": {
@@ -1814,7 +1815,7 @@
 "n09"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1822,7 +1823,7 @@
 "title": "[계양영재] 2027학년도 계양영재교육원 과학영재(초등·중등) 선발 안내",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "d051ab3d6d": {
@@ -1833,7 +1834,7 @@
 "n09"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1841,7 +1842,7 @@
 "title": "[서해구·검단구] 2027학년도 서해구·검단구 영재교육대상자 선발 관련 사전 안내",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "b5f9ed78ed": {
@@ -1852,7 +1853,7 @@
 "n98"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1860,7 +1861,7 @@
 "title": "입학관련 공지사항<영재입학전형 | \n\t\t\t\n\t\t\t과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "72bcd6c215": {
@@ -1871,7 +1872,7 @@
 "n98"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1879,7 +1880,7 @@
 "title": "입학관련 공지사항<영재입학전형 | \n\t\t\t\n\t\t\t과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "1c0046ba9d": {
@@ -1890,7 +1891,7 @@
 "n58"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1898,7 +1899,7 @@
 "title": "과학영재교육원, 2026학년도 초·중등 심화과정 신입생 모집",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "5bf438a306": {
@@ -1910,7 +1911,7 @@
 "q-yk"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1918,7 +1919,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "125121e6e5": {
@@ -1931,7 +1932,7 @@
 "q-yk"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1939,7 +1940,7 @@
 "title": "고려대학교 입학처 입학도우미 > 통합 공지사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "9524c913a7": {
@@ -1950,7 +1951,7 @@
 "n66"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1958,7 +1959,7 @@
 "title": "공지사항 - 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "01ea1bef8e": {
@@ -1969,7 +1970,7 @@
 "n66"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1977,7 +1978,7 @@
 "title": "공지사항 - 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "c1a61026b9": {
@@ -1988,7 +1989,7 @@
 "n66"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -1996,7 +1997,7 @@
 "title": "공지사항 - 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "817bfe3c0f": {
@@ -2007,7 +2008,7 @@
 "n66"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2015,7 +2016,7 @@
 "title": "공지사항 - 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "2536b11bc8": {
@@ -2027,7 +2028,7 @@
 "snu26guide"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2035,7 +2036,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "6ab2df24d6": {
@@ -2048,7 +2049,7 @@
 "ysCourse"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2056,7 +2057,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "69030fdb49": {
@@ -2069,7 +2070,7 @@
 "ys28"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2077,7 +2078,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "298db92e2a": {
@@ -2090,7 +2091,7 @@
 "q-suneung"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2098,7 +2099,7 @@
 "title": "2028 입시부터 국어·수학·사회·과학 선택과목 없는 통합형 수능, 내신 5등급 체제 확정 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "fff0997ce0": {
@@ -2111,7 +2112,7 @@
 "q-retake"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2119,7 +2120,7 @@
 "title": "2027학년도 대학수학능력시험은 2026년 11월 19일(목)에 시행됩니다 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "8bb353a50c": {
@@ -2131,7 +2132,7 @@
 "r-csat5"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2139,7 +2140,7 @@
 "title": "2028학년도 대학수학능력시험은 2027년 11월 18일(목)에 시행됩니다 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "ad629bb7c0": {
@@ -2151,7 +2152,7 @@
 "q-info-month"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2159,7 +2160,7 @@
 "title": "2029학년도 대학수학능력시험은 2028년 11월 16일(목)에 시행됩니다 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "01787d92b3": {
@@ -2172,7 +2173,7 @@
 "q-retake"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2180,7 +2181,7 @@
 "title": "2027학년도 대학수학능력시험 9월 모의평가 실시 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "8fc0854404": {
@@ -2194,7 +2195,7 @@
 "q-med-quota"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2202,7 +2203,7 @@
 "title": "2027학년도 지역의사 첫 선발, 지원자격부터 의무복무까지 궁금증 한눈에 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "5e5f3afd95": {
@@ -2213,7 +2214,7 @@
 "q-free"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2221,7 +2222,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "71ad9f3c08": {
@@ -2232,7 +2233,7 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2240,7 +2241,7 @@
 "title": "학교폭력 근절 종합대책 - 부처 브리핑 | 브리핑룸 | 대한민국 정책브리핑",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "8e2d4d98a0": {
@@ -2251,7 +2252,7 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2259,7 +2260,7 @@
 "title": "‘학교폭력 근절 종합대책’…학교폭력 전학기록 4년까지 보존, 대입정시에도 반영 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "41a9436098": {
@@ -2270,7 +2271,7 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2278,7 +2279,7 @@
 "title": "학교폭력 가해 기록 ‘졸업 후 4년간’ 보존된다 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "8de29b7267": {
@@ -2289,7 +2290,7 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2297,7 +2298,7 @@
 "title": "2024년 1학기부터 학교폭력 제도 이렇게 달라집니다 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "88d35eb06f": {
@@ -2309,7 +2310,7 @@
 "q-hs-prep"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2317,7 +2318,7 @@
 "title": "영재교육진흥법 시행령 개정안 입법예고",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "614d88a3a0": {
@@ -2328,7 +2329,7 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2336,7 +2337,7 @@
 "title": "교육부 > 교육부 소식 > 보도·설명·반박 > 보도자료",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "e51c44fa7e": {
@@ -2347,7 +2348,7 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2355,7 +2356,7 @@
 "title": "초ㆍ중등교육법 시행규칙 [시행 2024. 3. 1.] [교육부령 제323호, 2024. 2. 28., 일부개정] | 초·중등교육법 시행규칙 | 법령·규정 | 학교생활기록부 | 학교생활기록부 종합지원포털",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "fc87dad6dd": {
@@ -2367,7 +2368,7 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2375,7 +2376,7 @@
 "title": "학교생활기록 작성 및 관리지침 [시행 2026. 3. 1.] [교육부훈령 제555호, 2026. 2. 12., 일부개정] | 학교생활기록 작성 및 관리지침 | 법령·규정 | 학교생활기록부 | 학교생활기록부 종합지원포",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "b97952d448": {
@@ -2386,7 +2387,7 @@
 "q-sch-prestudy"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2394,7 +2395,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "c52fdd2278": {
@@ -2405,7 +2406,7 @@
 "q-sch-prestudy"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2413,7 +2414,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "422ec90f8f": {
@@ -2424,7 +2425,7 @@
 "q-sch-prestudy"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2432,7 +2433,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "c29d9824f5": {
@@ -2443,7 +2444,7 @@
 "q-sch-prestudy"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2451,7 +2452,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "b93f0bc297": {
@@ -2462,7 +2463,7 @@
 "q-sch-prestudy"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2470,7 +2471,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "a76ef42d3b": {
@@ -2481,7 +2482,7 @@
 "q-eo-class"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2489,7 +2490,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "cbef60cecd": {
@@ -2500,7 +2501,7 @@
 "q-eo-class"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2508,7 +2509,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "1879c55e89": {
@@ -2519,7 +2520,7 @@
 "q-sch-prestudy"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2527,7 +2528,7 @@
 "title": "법령 > 본문 > 공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 | 국가법령정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "70c9ac79b3": {
@@ -2538,7 +2539,7 @@
 "q-eo-class"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2546,7 +2547,7 @@
 "title": "조문정보 | 국가법령정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "bd9e110e68": {
@@ -2567,7 +2568,7 @@
 "n25"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -2579,7 +2580,7 @@
 "n29"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2587,7 +2588,7 @@
 "title": "대전동신과학고등학교 홈페이지",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "f64291271c": {
@@ -2729,7 +2730,7 @@
 "n39"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -2741,7 +2742,7 @@
 "n78"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2749,7 +2750,7 @@
 "title": "영재교육원 > 열린마당 > 공지사항 > 상세",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "b1758429aa": {
@@ -2760,7 +2761,7 @@
 "n78"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2768,7 +2769,7 @@
 "title": "영재교육원 > 열린마당 > 공지사항 > 상세",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "ae89c8fb79": {
@@ -2779,7 +2780,7 @@
 "n78"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2787,7 +2788,7 @@
 "title": "영재교육원 > 입학안내 > 접수방법",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "6b7f99fd92": {
@@ -2798,7 +2799,7 @@
 "n92"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2806,7 +2807,7 @@
 "title": "국립경국대학교 과학영재교육원[학생선발]",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "c6d2845b37": {
@@ -2817,7 +2818,7 @@
 "n92"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2825,7 +2826,7 @@
 "title": "입학정보 > 학생선발 게시물 상세보기 | 국립경국대학교 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "cbe1243b00": {
@@ -2836,7 +2837,7 @@
 "n92"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2844,7 +2845,7 @@
 "title": "입학정보 > 학생선발 게시물 상세보기 | 국립경국대학교 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "986f07832f": {
@@ -2855,7 +2856,7 @@
 "n92"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2863,7 +2864,7 @@
 "title": "입학정보 > 학생선발 게시물 상세보기 | 국립경국대학교 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "f18b4ac6a4": {
@@ -2874,7 +2875,7 @@
 "n70"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -2887,7 +2888,7 @@
 "n44"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2895,7 +2896,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "95cb985a58": {
@@ -2906,7 +2907,7 @@
 "n44"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2914,7 +2915,7 @@
 "title": "목록 | 공지사항  | 커뮤니티 | 국립공주대학교 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "9d558f2787": {
@@ -2925,7 +2926,7 @@
 "n44"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2933,7 +2934,7 @@
 "title": "모집요강 | 선발안내 | 국립공주대학교 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "d24a01ccb3": {
@@ -2950,7 +2951,7 @@
 "un"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2958,7 +2959,7 @@
 "title": "부산대학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "bf4d6a8fc0": {
@@ -2971,7 +2972,7 @@
 "un"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2979,7 +2980,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "d6b11fb2fe": {
@@ -2990,7 +2991,7 @@
 "n85"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -2998,7 +2999,7 @@
 "title": "울산대학교 | 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "f969f4d57a": {
@@ -3009,7 +3010,7 @@
 "n15"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3017,7 +3018,7 @@
 "title": "부설영재교육원 안내 < 부설영재교육원 | 경기도교육청미래과학교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "a293a71c24": {
@@ -3028,7 +3029,7 @@
 "n15"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3036,7 +3037,7 @@
 "title": "공지사항 < 정보공개 | 경기도교육청미래과학교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "a2ed1d1034": {
@@ -3047,7 +3048,7 @@
 "n79"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3055,7 +3056,7 @@
 "title": "학생선발  페이지 | 경북대학교과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "f2601b4d24": {
@@ -3066,7 +3067,7 @@
 "n79"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3074,7 +3075,7 @@
 "title": "2026학년도 신입생 선발 입학 전형 1단계 평가 안내 > 학생선발 | 경북대학교과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "b13beda953": {
@@ -3085,7 +3086,7 @@
 "n79"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3093,7 +3094,7 @@
 "title": "♦ 2026학년도 경북대학교 과학영재교육원 신입생 선발 1단계 전형 합격자 발표 및 2단계 전형 안내 ♦ > 학생선발 | 경북대학교과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "bb95450736": {
@@ -3104,7 +3105,7 @@
 "n79"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3112,7 +3113,7 @@
 "title": "★★2026학년도 경북대학교 과학영재교육원 신입생 선발 최종 합격자 발표★★ > 학생선발 | 경북대학교과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "339ddc14ee": {
@@ -3123,7 +3124,7 @@
 "n79"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3131,7 +3132,7 @@
 "title": "[공고] 2027학년도 경북대학교 과학영재교육원 중등과정 (중학심화과정-현재 초6학년 대상, 중학사사연구과정-현재 중1~2학년 대상) 신입생 선발 모집 요강 > 학생선발 | 경북대학교과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "7edcda7c12": {
@@ -3142,7 +3143,7 @@
 "n79"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3150,7 +3151,7 @@
 "title": "[공고]2027학년도 경북대학교 과학영재교육원 초등기초과정(경북지역 소재 초등학교 4학년 대상) 신입생 선발 모집 요강 > 학생선발 | 경북대학교과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "31b136af72": {
@@ -3164,7 +3165,7 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -3177,7 +3178,7 @@
 "q-past"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3185,7 +3186,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "b0158e97e7": {
@@ -3198,7 +3199,7 @@
 "q-retake"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3206,7 +3207,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "601177918e": {
@@ -3219,7 +3220,7 @@
 "q-med-quota"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3227,7 +3228,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "9b6c9c5829": {
@@ -3240,7 +3241,7 @@
 "r-tuition"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3248,7 +3249,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "2fca734a2e": {
@@ -3260,7 +3261,7 @@
 "q-local-univ"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3268,7 +3269,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "b106edfc43": {
@@ -3281,7 +3282,7 @@
 "q-gana"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3289,7 +3290,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "8f38a38d79": {
@@ -3304,7 +3305,7 @@
 "q-susi-reg"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3312,7 +3313,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "972e766141": {
@@ -3328,7 +3329,7 @@
 "six"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3336,7 +3337,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "6102633a70": {
@@ -3348,7 +3349,7 @@
 "q-info-month"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3356,7 +3357,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "18e47ae18b": {
@@ -3368,7 +3369,7 @@
 "q-free-help"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3376,7 +3377,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "ceda96bda7": {
@@ -3389,7 +3390,7 @@
 "q-susi"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3397,7 +3398,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "2f2b01f843": {
@@ -3411,7 +3412,7 @@
 "q-med-quota"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3419,7 +3420,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "142d9f90f2": {
@@ -3431,7 +3432,7 @@
 "q-free-help"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3439,7 +3440,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "4fe4959353": {
@@ -3451,7 +3452,7 @@
 "q-free-help"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3459,7 +3460,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "802c3724a4": {
@@ -3471,7 +3472,7 @@
 "q-info-month"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3479,7 +3480,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "7cc6a4bbc9": {
@@ -3490,7 +3491,7 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3498,7 +3499,7 @@
 "title": "한국대학교육협의회",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "a589d5148a": {
@@ -3510,7 +3511,7 @@
 "q-past"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -3523,7 +3524,7 @@
 "q-retake"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -3538,7 +3539,7 @@
 "q-hs-prep"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3546,7 +3547,7 @@
 "title": "",
 "final": "https://admission.ksa.hs.kr/",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "502dcdc4ad": {
@@ -3559,7 +3560,7 @@
 "r-gifted-ksa"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3567,7 +3568,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "78d041e705": {
@@ -3584,7 +3585,7 @@
 "r-contest"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3592,7 +3593,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "345025bf80": {
@@ -3603,7 +3604,7 @@
 "r-ksa-multi"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3611,7 +3612,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "3db8f310ba": {
@@ -3622,7 +3623,7 @@
 "n43"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3630,7 +3631,7 @@
 "title": "입학요강 | 북일고등학교 | 북일고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "da988dad57": {
@@ -3641,7 +3642,7 @@
 "n43"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3649,7 +3650,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "3e7fcdb636": {
@@ -3660,7 +3661,7 @@
 "n42"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -3672,7 +3673,7 @@
 "n42"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3680,7 +3681,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "51da36d64c": {
@@ -3691,7 +3692,7 @@
 "n47"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3699,7 +3700,7 @@
 "title": "강원외국어고등학교 홈페이지",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "6a91ce3f5f": {
@@ -3710,7 +3711,7 @@
 "n46"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3718,7 +3719,7 @@
 "title": "강원과학고등학교 홈페이지",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "f15a1ad844": {
@@ -3729,7 +3730,7 @@
 "n51"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3737,7 +3738,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "300ec34c8e": {
@@ -3748,7 +3749,7 @@
 "OFFICIAL_LINKS"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -3760,7 +3761,7 @@
 "gshs"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3768,7 +3769,7 @@
 "title": "기출문항 < 입학자료실 | 경기과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "fe61b08117": {
@@ -3779,7 +3780,7 @@
 "gwe-gj"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3787,7 +3788,7 @@
 "title": "강원특별자치도교육청  - 기출문제",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "0d866a1696": {
@@ -3798,7 +3799,7 @@
 "eo"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3806,7 +3807,7 @@
 "title": "부산광역시교육청AI정보영재교육원 - 알림공간 - 공지사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "2837cbcbe6": {
@@ -3817,7 +3818,7 @@
 "fl"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3825,7 +3826,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "477895944c": {
@@ -3836,7 +3837,7 @@
 "ice-hak"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3844,7 +3845,7 @@
 "title": "학력평가자료 < 학생지원 < 교육 | 인천광역시교육청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "57732b08c9": {
@@ -3855,7 +3856,7 @@
 "n63"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3863,7 +3864,7 @@
 "title": "전남교육청, 2027학년도 고등학교 입학전형 기본계획 공고 < 본청 < 기사본문 - 전남광주교육통",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "26312eef4b": {
@@ -3874,7 +3875,7 @@
 "sen-hak"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3882,7 +3883,7 @@
 "title": "",
 "final": "",
 "ctype": "",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "ce7c7c5605": {
@@ -3893,7 +3894,7 @@
 "sen-hak"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3901,7 +3902,7 @@
 "title": "",
 "final": "",
 "ctype": "",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "a292618964": {
@@ -3912,7 +3913,7 @@
 "sen-hak"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3920,7 +3921,7 @@
 "title": "",
 "final": "",
 "ctype": "",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "934153f8a8": {
@@ -3931,7 +3932,7 @@
 "q-dir-test"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3939,7 +3940,7 @@
 "title": "‎커리어넷 App - App Store",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "f338e50de2": {
@@ -3950,7 +3951,7 @@
 "q-dir-test"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3958,7 +3959,7 @@
 "title": "커리어넷 - Google Play 앱",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "32efed6031": {
@@ -3969,7 +3970,7 @@
 "postech"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3977,7 +3978,7 @@
 "title": "공지사항 – 포스텍 학부 입학팀 | POSTECH Undergraduate Admissions",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "88c8f48ed1": {
@@ -3988,7 +3989,7 @@
 "postech"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "error",
 "failStreak": 1,
 "error": "HTTPSConnectionPool(host='adm-u.postech.ac.kr', port=443): Max retries exceeded with url: /wp-content/uploads/2026/03/POSTECH-2026%ED%95%99%EB%85%84%EB%8F%84-%E"
@@ -4001,7 +4002,7 @@
 "cau"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -4013,7 +4014,7 @@
 "ewha"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4021,7 +4022,7 @@
 "title": "이화여자대학교 입학처 | 입학정보 | 발간자료",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "f304b9d1d5": {
@@ -4032,7 +4033,7 @@
 "ewha"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4040,7 +4041,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "a15c12508a": {
@@ -4051,7 +4052,7 @@
 "kaist"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -4063,7 +4064,7 @@
 "skku"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4071,7 +4072,7 @@
 "title": "성균관대학교 입학처 | 수시 | 기출문제",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "a2d8d66493": {
@@ -4082,7 +4083,7 @@
 "snu"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4090,7 +4091,7 @@
 "title": "기출문제 및 예시문항 - 입학자료실 - 입학도우미 - 입학 - 서울대학교 입학본부",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "faa8cedf50": {
@@ -4101,7 +4102,7 @@
 "snu"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "http-404",
 "failStreak": 1,
 "error": "http-404"
@@ -4114,7 +4115,7 @@
 "snu"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "http-404",
 "failStreak": 1,
 "error": "http-404"
@@ -4127,7 +4128,7 @@
 "snu"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "http-404",
 "failStreak": 1,
 "error": "http-404"
@@ -4140,7 +4141,7 @@
 "sogang"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -4152,7 +4153,7 @@
 "yonsei-m"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4160,7 +4161,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "29ec2bcbc2": {
@@ -4171,7 +4172,7 @@
 "yonsei"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4179,7 +4180,7 @@
 "title": "연세대학교 입학처 | 입학도우미 | 통합자료실",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "0a0d852453": {
@@ -4190,7 +4191,7 @@
 "yonsei"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4198,7 +4199,7 @@
 "title": "연세대학교 입학처 | 입학도우미 | 통합자료실",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "80c9e644d9": {
@@ -4209,7 +4210,7 @@
 "hufs"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -4221,7 +4222,7 @@
 "bnue"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4229,7 +4230,7 @@
 "title": "입학기출문제",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "0ccdb7cc44": {
@@ -4240,7 +4241,7 @@
 "hanyang"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4248,7 +4249,7 @@
 "title": "공지사항 | 한양대학교입학처",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "de99e367e9": {
@@ -4259,7 +4260,7 @@
 "hanyang"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4267,7 +4268,7 @@
 "title": "기출문제 | 한양대학교입학처",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "4def0034f5": {
@@ -4278,7 +4279,7 @@
 "pnu"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4286,7 +4287,7 @@
 "title": "",
 "final": "",
 "ctype": "application/octet-stream",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "833d601bcf": {
@@ -4297,7 +4298,7 @@
 "pnu"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4305,7 +4306,7 @@
 "title": "부산대학교 입학처에 오신걸 환영합니다. Admission PNU",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "0141aa7614": {
@@ -4316,7 +4317,7 @@
 "khu"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4324,7 +4325,7 @@
 "title": "경희대학교",
 "final": "https://iphak.khu.ac.kr/submenu.do?menuurl=89BGs%2Bk748ajyySWoWlQPw%3D%3D&",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "acb62d62b3": {
@@ -4335,7 +4336,7 @@
 "knu"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -4347,7 +4348,7 @@
 "korea"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4355,7 +4356,7 @@
 "title": "고려대학교 입학처 입학자료실 > 기출문제",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "abfe2ff0c7": {
@@ -4366,7 +4367,7 @@
 "korea"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4374,7 +4375,7 @@
 "title": "고려대학교 입학처 입학자료실 > 기출문제",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "0ccbf784ce": {
@@ -4385,7 +4386,7 @@
 "koi"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4393,7 +4394,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "d42ab7bf46": {
@@ -4404,7 +4405,7 @@
 "koi"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4412,7 +4413,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "fa102c8187": {
@@ -4423,7 +4424,7 @@
 "kbo"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4431,7 +4432,7 @@
 "title": "관련 자료 – 한국생물올림피아드",
 "final": "https://kbo.bioedu.kr/%EA%B4%80%EB%A0%A8-%EC%9E%90%EB%A3%8C/",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "fc5642ec15": {
@@ -4443,7 +4444,7 @@
 "q-past"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4451,7 +4452,7 @@
 "title": "",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "2aa26d86aa": {
@@ -4464,7 +4465,7 @@
 "r-kmo-grade"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4472,7 +4473,7 @@
 "title": "",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "b84dd5e840": {
@@ -4483,7 +4484,7 @@
 "kmo"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4491,7 +4492,7 @@
 "title": "",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "9dd4bb3189": {
@@ -4506,7 +4507,7 @@
 "r-kmo-grade"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4514,7 +4515,7 @@
 "title": "",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "4e8041a6b3": {
@@ -4525,7 +4526,7 @@
 "kjmo"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4533,7 +4534,7 @@
 "title": "",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "8e65a031bd": {
@@ -4544,7 +4545,7 @@
 "kjmo"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4552,7 +4553,7 @@
 "title": "",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "b5dae5e89e": {
@@ -4563,7 +4564,7 @@
 "kjmo"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4571,7 +4572,7 @@
 "title": "",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "7ef712ed9e": {
@@ -4583,7 +4584,7 @@
 "r-kmo-grade"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4591,7 +4592,7 @@
 "title": "",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "a142a314ec": {
@@ -4602,7 +4603,7 @@
 "kmo"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4610,7 +4611,7 @@
 "title": "",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "2b3e100cea": {
@@ -4621,7 +4622,7 @@
 "koi"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4629,7 +4630,7 @@
 "title": "과거 대회 기록 - 한국정보올림피아드",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "386262439e": {
@@ -4640,7 +4641,7 @@
 "tpl"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4648,7 +4649,7 @@
 "title": "물리대회 | 물리페스티벌",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "16f2843d54": {
@@ -4659,7 +4660,7 @@
 "kpho"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4667,7 +4668,7 @@
 "title": "Physics Olympiad",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "de3a492d9f": {
@@ -4678,7 +4679,7 @@
 "kmchc"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4686,7 +4687,7 @@
 "title": "",
 "final": "",
 "ctype": "",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "976dff8e87": {
@@ -4699,7 +4700,7 @@
 "q-free"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4707,7 +4708,7 @@
 "title": "부산스스로학습터",
 "final": "https://b-ingang.pen.go.kr/",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "75bc067455": {
@@ -4719,7 +4720,7 @@
 "q-dir-test"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4727,7 +4728,7 @@
 "title": "메인 | 진로정보망 커리어넷",
 "final": "https://www.career.go.kr/cloud/w/main/home",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "a0497b6f0b": {
@@ -4739,7 +4740,7 @@
 "q-dir-test"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4747,7 +4748,7 @@
 "title": "주니어커리어넷",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "687aa4c70e": {
@@ -4758,7 +4759,7 @@
 "q-dir-test"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4766,7 +4767,7 @@
 "title": "Open API 센터 | 진로정보망 커리어넷",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "6e07b727bd": {
@@ -4777,7 +4778,7 @@
 "elearn"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -4789,7 +4790,7 @@
 "ebse"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -4801,7 +4802,7 @@
 "ebsi"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4809,7 +4810,7 @@
 "title": "",
 "final": "https://www.ebsi.co.kr/",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "4505ed1dc2": {
@@ -4820,7 +4821,7 @@
 "OFFICIAL_LINKS"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4828,7 +4829,7 @@
 "title": "",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "f59c2498cc": {
@@ -4839,7 +4840,7 @@
 "ebsi-past"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4847,7 +4848,7 @@
 "title": "EBSi | 고3·N수",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "b7a3a881b2": {
@@ -4858,7 +4859,7 @@
 "gangnam"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4866,7 +4867,7 @@
 "title": "강남인강",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "113adf1e10": {
@@ -4879,7 +4880,7 @@
 "q-free"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4887,7 +4888,7 @@
 "title": "| K-MOOC",
 "final": "https://www.kmooc.kr/",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "ef7090e736": {
@@ -4898,7 +4899,7 @@
 "khan"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4906,7 +4907,7 @@
 "title": "Client Challenge",
 "final": "https://ko.khanacademy.org/",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "79553a15bb": {
@@ -4917,7 +4918,7 @@
 "kocw"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4925,7 +4926,7 @@
 "title": "KOCW",
 "final": "https://www.kocw.net/",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "09b15be20b": {
@@ -4936,7 +4937,7 @@
 "OFFICIAL_LINKS"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4944,7 +4945,7 @@
 "title": "KOCW",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "46fcd56c00": {
@@ -4955,7 +4956,7 @@
 "ebs-mid"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4963,7 +4964,7 @@
 "title": "EBS 중학프리미엄",
 "final": "https://mid.ebs.co.kr/premium/middle/index",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "66c7e76be8": {
@@ -4974,7 +4975,7 @@
 "OFFICIAL_LINKS"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4982,7 +4983,7 @@
 "title": "EBS 중학프리미엄",
 "final": "https://mid.ebs.co.kr/premium/middle/index",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "369933452b": {
@@ -4993,7 +4994,7 @@
 "gg-online"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5001,7 +5002,7 @@
 "title": "경기온라인학교 - 경기온라인학교",
 "final": "https://online.goe.go.kr/goe",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "8df56d19ea": {
@@ -5012,7 +5013,7 @@
 "ebs-pri"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5020,7 +5021,7 @@
 "title": "EBS 초등사이트",
 "final": "https://primary.ebs.co.kr/main/primary",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "5fc8bf1c12": {
@@ -5031,7 +5032,7 @@
 "OFFICIAL_LINKS"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5039,7 +5040,7 @@
 "title": "EBS 초등사이트",
 "final": "https://primary.ebs.co.kr/main/primary",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "c658bc870c": {
@@ -5050,7 +5051,7 @@
 "scienceall"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5058,7 +5059,7 @@
 "title": "사이언스올",
 "final": "https://www.scienceall.com/main",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "4ad76c4744": {
@@ -5069,7 +5070,7 @@
 "seoul-learn"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5077,7 +5078,7 @@
 "title": "",
 "final": "https://slearn.seoul.go.kr/",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "5b0d3941fe": {
@@ -5088,7 +5089,7 @@
 "OFFICIAL_LINKS"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5096,7 +5097,7 @@
 "title": "",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "863ef500ea": {
@@ -5107,7 +5108,7 @@
 "toctoc"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5115,7 +5116,7 @@
 "title": "똑똑! 수학탐험대 — 인공지능(AI) 활용 초등수학수업 지원시스템 메인",
 "final": "https://www.toctocmath.kr/",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "ffbb561a1c": {
@@ -5126,15 +5127,13 @@
 "dtext"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
-"status": "ok",
+"checkedAt": "2026-10-21T05:28+09:00",
+"status": "login",
 "changeStreak": 0,
 "noisy": null,
-"hash": "601d091050a81389",
 "title": "디지털교과서 웹 뷰어",
 "final": "https://webdt.edunet.net:443/login",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
 "failStreak": 0
 },
 "7b8753948b": {
@@ -5145,7 +5144,7 @@
 "khu"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5153,7 +5152,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "3f3339ee88": {
@@ -5164,7 +5163,7 @@
 "OFFICIAL_LINKS"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5172,7 +5171,7 @@
 "title": "",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "64d4fd7f29": {
@@ -5184,7 +5183,7 @@
 "q-univ-prep"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5192,7 +5191,7 @@
 "title": "공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 | 현행 2025.01.31.",
 "final": "https://www.nepla.ai/law/%EA%B3%B5%EA%B5%90%EC%9C%A1-%EC%A0%95%EC%83%81%ED%99%94-%EC%B4%89%EC%A7%84-%EB%B0%8F-%EC%84%A0%ED%96%89%EA%B5%90%EC%9C%A1-%EA%B7%9C%EC%A0%9C%EC%97%90-%EA%B4%80%ED%95%9C-%ED%8A%B9%EB%B3%84%EB%B2%95",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "52d3acfc88": {
@@ -5204,7 +5203,7 @@
 "q-hagwon"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5212,7 +5211,7 @@
 "title": "학원의 설립ㆍ운영 및 과외교습에 관한 법률 | 현행 2026.10.01.",
 "final": "https://www.nepla.ai/law/%ED%95%99%EC%9B%90%EC%9D%98%EC%84%A4%EB%A6%BD%C2%B7%EC%9A%B4%EC%98%81%EB%B0%8F%EA%B3%BC%EC%99%B8%EA%B5%90%EC%8A%B5%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "5fe66454da": {
@@ -5225,7 +5224,7 @@
 "refund"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5233,7 +5232,7 @@
 "title": "[유권해석] 학원의 설립ㆍ운영 및 과외교습에 관한 법률 시행령 [별표 4] 교습비등 반환기준(제18조제3항 관련) | 평생교육ㆍ학원 | 교육ㆍ문화ㆍ언론",
 "final": "https://www.nepla.ai/wiki/%EA%B5%90%EC%9C%A1-%EB%AC%B8%ED%99%94-%EC%96%B8%EB%A1%A0/%ED%8F%89%EC%83%9D%EA%B5%90%EC%9C%A1-%ED%95%99%EC%9B%90/-%EC%9C%A0%EA%B6%8C%ED%95%B4%EC%84%9D-%ED%95%99%EC%9B%90%EC%9D%98-%EC%84%A4%EB%A6%BD-%EC%9A%B4%EC%98%81-%EB%B0%8F-%EA%B3%BC%EC%99%B8%EA%B5%90%EC%8A%B5%EC%97%90-%EA%B4%80%ED%95%9C-%EB%B2%95%EB%A5%A0-%EC%8B%9C%ED%96%89%EB%A0%B9-%EB%B3%84%ED%91%9C-4-%EA%B5%90%EC%8A%B5%EB%B9%84%EB%93%B1-%EB%B0%98%ED%99%98%EA%B8%B0%EC%A4%80-%EC%A0%9C18%EC%A1%B0%EC%A0%9C3%ED%95%AD-%EA%B4%80%EB%A0%A8-1zp8jj278j43",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "f8711a1000": {
@@ -6761,7 +6760,7 @@
 "un"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6769,7 +6768,7 @@
 "title": "공지사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "6a2b05c425": {
@@ -6780,7 +6779,7 @@
 "pnu"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6788,7 +6787,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "a681947976": {
@@ -6799,7 +6798,7 @@
 "dy"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -6811,7 +6810,7 @@
 "hs"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -6823,7 +6822,7 @@
 "naea"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -6835,7 +6834,7 @@
 "kice-gj"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -6847,7 +6846,7 @@
 "OFFICIAL_LINKS"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -6859,7 +6858,7 @@
 "kice-mock"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -6871,7 +6870,7 @@
 "djshs"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -6883,7 +6882,7 @@
 "dshs"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6891,7 +6890,7 @@
 "title": "대구과학고등학교",
 "final": "https://dshs.dge.hs.kr/dshsh/main.do?sysId=dshsh",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "84d4466251": {
@@ -6902,7 +6901,7 @@
 "gsa"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6910,7 +6909,7 @@
 "title": "입학안내 > 기출문제",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "8fc8113f25": {
@@ -6921,7 +6920,7 @@
 "iasa"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6929,7 +6928,7 @@
 "title": "입학자료실 ＜ 입학안내",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+00:00",
+"lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
 "ed165cb7f9": {
@@ -6940,7 +6939,7 @@
 "sasa"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -6952,7 +6951,7 @@
 "sshs"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-21T05:28+00:00",
+"checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
 "failStreak": 0
 }

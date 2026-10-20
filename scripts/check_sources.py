@@ -19,8 +19,14 @@ fo.HOST_LIMIT = {}
 NOISE = re.compile(r'(조회|조회수|hit|views?|방문자|추천수|댓글|공유하기|좋아요|현재\s*시각|접속자|copyright|ⓒ|©)', re.I)
 DENY = ('login', 'logout', '로그인', '명단', '합격자')
 
+KST = datetime.timezone(datetime.timedelta(hours=9))
+
 def kst_now():
-    return datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=9)
+    return datetime.datetime.now(KST)   # 2026-10-21: '+09:00'으로 적힘(전에는 한국 시각에 '+00:00'이 붙었음)
+
+def host(u):
+    h = (urllib.parse.urlsplit(u).hostname or '').lower()
+    return h[4:] if h.startswith('www.') else h
 
 def fingerprint(data, ctype, url):
     """Stable digest of the page's own content (not the counters around it) and its title."""
@@ -75,6 +81,10 @@ def main(reg_path, out_path, report_path):
         counts['checked'] += 1
         p['checkedAt'] = now.isoformat(timespec='minutes')
         p['status'] = st
+        if st == 'ok' and final and final != it['url'] and any(w in final.lower() for w in DENY):
+            # 로그인 화면으로 넘어가는 주소: 더 읽지 않고 표시만 한다(옮김·끊김으로 세지 않음).
+            p.update({'status': 'login', 'final': final, 'failStreak': 0}); counts['login'] = counts.get('login', 0) + 1
+            items[it['id']] = p; continue
         if st == 'ok':
             h, title = fingerprint(data, ctype, it['url'])
             changed = bool(p.get('hash')) and p['hash'] != h
@@ -93,16 +103,20 @@ def main(reg_path, out_path, report_path):
         items[it['id']] = p
     broken = [(k, v) for k, v in items.items() if v.get('failStreak', 0) >= 2]
     changed = [(k, v) for k, v in items.items() if v.get('changedAt', '')[:10] == today.isoformat() and not v.get('noisy') and v.get('kind') == '공식']
-    moved = [(k, v) for k, v in items.items() if v.get('final') and urllib.parse.urlsplit(v['final']).netloc != urllib.parse.urlsplit(v['url']).netloc]
+    moved = [(k, v) for k, v in items.items() if v.get('status') == 'ok' and v.get('final') and host(v['final']) != host(v['url'])]
+    login = [(k, v) for k, v in items.items() if v.get('status') == 'login']
+    terms = sum(1 for v in items.values() if v.get('status') == 'skip-terms')
     doc = {'checkedAt': now.isoformat(timespec='minutes'), 'registry': {'ver': reg.get('ver'), 'generated': reg.get('generated'), 'count': reg.get('count')},
            'run': counts, 'summary': {'broken': len(broken), 'changedOfficial': len(changed), 'moved': len(moved),
                                       'robots': sum(1 for v in items.values() if v.get('status') == 'robots'),
+                                      'login': len(login), 'skipTerms': terms,
                                       'neverOk': sum(1 for v in items.values() if v.get('checkedAt') and not v.get('lastOk'))},
            'items': items}
     json.dump(doc, open(out_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     L = ['# 출처 점검 ' + today.isoformat(), '',
          '페이지 ' + str(reg.get('ver')) + '가 쓰는 주소 ' + str(reg.get('count')) + '곳 중 이번에 ' + str(counts['checked']) + '곳을 열었습니다 '
-         '(열림 ' + str(counts['ok']) + ' · robots로 안 엶 ' + str(counts['robots']) + ' · 못 엶 ' + str(counts['failed']) + ' · 다음 차례 ' + str(counts['skipped'] + counts['limit']) + ').', '']
+         '(열림 ' + str(counts['ok']) + ' · robots로 안 엶 ' + str(counts['robots']) + ' · 못 엶 ' + str(counts['failed']) + ' · 로그인 화면 ' + str(counts.get('login', 0)) + ').', '',
+         '열지 않은 곳: 이용 조건으로 건너뜀(언론·GED) ' + str(terms) + ' · 다음 차례(아직 확인 주기 안 됨·한도) ' + str(counts['skipped'] - terms + counts['limit']) + '.', '']
     def block(title, rows):
         L.append('## ' + title + ' (' + str(len(rows)) + ')')
         for k, v in rows[:60]:
@@ -111,6 +125,7 @@ def main(reg_path, out_path, report_path):
     block('끊김: 두 번 연속 못 엶', broken)
     block('바뀜: 이번 주 내용이 바뀐 공식 원문', changed)
     block('옮김: 다른 사이트로 넘어감', moved)
+    block('로그인 화면으로 넘어감(자동으로 더 보지 않음)', login)
     open(report_path, 'w', encoding='utf-8').write('\n'.join(L))
     print(json.dumps(doc['run'], ensure_ascii=False), json.dumps(doc['summary'], ensure_ascii=False))
 
