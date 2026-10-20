@@ -64,6 +64,9 @@ def sigungu(sido, address):
     if sido == '세종' or len(parts) < 2:
         return '', False
     gu = parts[1]
+    # some addresses leave out the 시·도 ('평택시 고덕국제5로 165'): then the first word is the 시·군·구
+    if not re.search(r'(도|특별시|광역시|특별자치시|특별자치도)$', parts[0]) and re.search(r'(시|군|구)$', parts[0]):
+        gu = parts[0]
     if sido == '인천' and gu in ('중구', '동구', '서구'):
         dong = dong_of(address)
         if gu == '중구':
