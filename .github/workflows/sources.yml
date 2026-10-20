@@ -1,0 +1,40 @@
+name: 출처 점검(링크·내용 바뀜)
+
+on:
+  schedule:
+    - cron: '10 20 * * 0'   # 매주 월요일 오전 5시 10분(한국 시간) — 자료 점검 예약(06:16)보다 먼저
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sources
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 도구 설치
+        run: pip install requests beautifulsoup4 lxml pdfminer.six olefile
+      - name: 출처 주소 열어 보기(robots 지킴, 원문은 저장하지 않음)
+        run: python scripts/check_sources.py watch/sources.json data/sources_status.json data/sources_report.md
+      - name: 바뀐 것이 있으면 저장
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sources_status.json data/sources_report.md || true
+          if git diff --cached --quiet; then
+            echo "바뀐 것 없음"
+          else
+            git commit -m "출처 점검 $(TZ=Asia/Seoul date +%F)"
+            git pull --rebase -q || true
+            git push
+          fi
