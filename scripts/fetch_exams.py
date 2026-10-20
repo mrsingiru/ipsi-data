@@ -10,7 +10,8 @@
 
 결과 파일
 - data/exams.json      : {'updated', 'source', 'window', 'schools': {학교코드: {'r': '부산 동래구', 'n': 학교명, 'lv': 'm'|'h',
-                          'at': 받은 날, 'x': [[시작일, 끝일, 시험 이름, 학년('123')], ...]}}}
+                          'at': 받은 날, 'x': [[시작일, 끝일, 시험 이름, 학년('123')], ...],
+                          'o': [[시작일, 끝일, 행사 이름, 학년, 종류(vac·off·cer·pick·gifted·meet)], ...]}}}
 - data/exams_run.json  : 마지막 실행 정보(받은 학교 수, 시험이 있는 학교 수, 오류, 한도 도달 여부)
 - data/exam_names.md   : 시험으로 본 이름과 비슷하지만 뺀 이름(규칙 점검용)
 """
@@ -32,9 +33,15 @@ DAYS_BACK, DAYS_AHEAD, KEEP_PAST = 14, 210, 30
 PAUSE = float(os.environ.get('PAUSE', '0.3'))
 MAX_PER_RUN = int(os.environ.get('MAX_PER_RUN', '1500'))
 
-INCLUDE = re.compile(r'(중간|기말|지필|정기)\s*(고사|평가|시험)|[1-4]\s*(차|회)\s*(지필|정기)?\s*(고사|평가)')
+INCLUDE = re.compile(r'(중간|기말|지필|정기)\s*(고사|평가|시험)|[1-4]\s*(차|회)\s*(지필|정기)?\s*(고사|평가|시험)|학기\s*(고사|시험)')
 EXCLUDE = re.compile(r'모의|학력평가|연합|수능|수학능력|진단|기초학력|학업성취|체력|듣기|면접|실기|수행|입학|입시|결과|답안|확인|대비|성적|원서|응시|재시험|추가시험|채점|이의|감독|출제|협의')
 NEAR = re.compile(r'고사|평가|시험')
+# v2 (2026-10-21): other events families plan around. type: vac 방학·개학 · off 재량휴업 · cer 입학·졸업·종업 · pick 과목 선택 ·
+# gifted 영재(학급·교육원 관련) · meet 학부모 상담·설명회. Names are what the school typed; nothing personal is kept.
+OTHER = [('vac', re.compile(r'방학|개학')), ('off', re.compile(r'재량\s*휴업|학교장\s*재량|재량\s*휴일|개교\s*기념일')),
+         ('cer', re.compile(r'졸업식|입학식|종업식|시업식')), ('pick', re.compile(r'수강\s*신청|과목\s*선택|선택\s*과목|교육과정\s*(선택|수요)')),
+         ('gifted', re.compile(r'영재')), ('meet', re.compile(r'학부모\s*(상담|총회|연수|설명회)|상담\s*주간|입학\s*설명회|교육과정\s*설명회'))]
+OTHER_EXCLUDE = re.compile(r'토요|공휴일|대체|휴무|봉사|준비|협의|회의|연수\(교원|교직원|교사')
 GRADE_FIELDS = ['ONE_GRADE_EVENT_YN', 'TW_GRADE_EVENT_YN', 'THREE_GRADE_EVENT_YN',
                 'FR_GRADE_EVENT_YN', 'FIV_GRADE_EVENT_YN', 'SIX_GRADE_EVENT_YN']
 
@@ -46,6 +53,36 @@ def safe(msg):
 
 def is_exam(name):
     return bool(INCLUDE.search(name)) and not EXCLUDE.search(name)
+
+
+def other_type(name):
+    if OTHER_EXCLUDE.search(name):
+        return ''
+    for t, rx in OTHER:
+        if rx.search(name):
+            return t
+    return ''
+
+
+def group_other(rows):
+    """Rows of one school → [[start, end, name, grades, type], ...] for OTHER events (consecutive days merged)."""
+    items = []
+    for r in rows:
+        name = (r.get('EVENT_NM') or '').strip()
+        d = ymd(r.get('AA_YMD'))
+        t = other_type(name) if d and name and not is_exam(name) else ''
+        if t:
+            items.append((re.sub(r'\s+', ' ', name)[:30], d, grades_of(r), t))
+    items.sort(key=lambda x: (x[0], x[1]))
+    out = []
+    for name, d, gr, t in items:
+        if out and out[-1][2] == name and (datetime.date.fromisoformat(d) - datetime.date.fromisoformat(out[-1][1])).days <= 3:
+            out[-1][1] = max(out[-1][1], d)
+            out[-1][3] = ''.join(sorted(set(out[-1][3] + gr)))
+            continue
+        out.append([d, d, name, gr, t])
+    out.sort(key=lambda x: x[0])
+    return out[:40]
 
 
 def base_name(name):
@@ -124,7 +161,7 @@ def main(fetch_school=None, now=None):
     if MODE != 'all':
         todo = todo[:MAX_PER_RUN]
     stats = collections.Counter()
-    names, near = collections.Counter(), collections.Counter()
+    names, near, every = collections.Counter(), collections.Counter(), collections.Counter()
     limit_hit, errors = False, []
     for s in todo:
         try:
@@ -145,15 +182,20 @@ def main(fetch_school=None, now=None):
                 names[base_name(n)] += 1
             elif NEAR.search(n):
                 near[n] += 1
+            if n:
+                every[re.sub(r'\s+', ' ', n)[:30]] += 1
         ex = group_exams(rows)
+        ot = group_other(rows)
         region = s['sido'] if not s.get('sigungu') else s['sido'] + ' ' + s['sigungu']
-        data['schools'][s['code']] = {'r': region, 'n': s['name'], 'lv': s['level'], 'at': today.isoformat(), 'x': ex}
+        data['schools'][s['code']] = {'r': region, 'n': s['name'], 'lv': s['level'], 'at': today.isoformat(), 'x': ex, 'o': ot}
         if ex:
             stats['with_exams'] += 1
         time.sleep(PAUSE)
     cut = (today - datetime.timedelta(days=KEEP_PAST)).isoformat()
     for v in data['schools'].values():
         v['x'] = [e for e in v.get('x', []) if e[1] >= cut]
+        if 'o' in v:
+            v['o'] = [e for e in v['o'] if e[1] >= cut]
     data.update({'updated': today.isoformat(), 'source': '나이스 교육정보 개방 포털 학사일정(학교가 올린 행사 이름 기준)',
                  'window': [ymd(frm), ymd(to)]})
     with open(path, 'w', encoding='utf-8') as f:
@@ -166,7 +208,9 @@ def main(fetch_school=None, now=None):
         json.dump(run, f, ensure_ascii=False, indent=1)
     lines = ['# 시험 이름 점검(%s, %s)' % (today.isoformat(), MODE), '',
              '## 시험으로 본 이름(많은 순 40개)', ''] + ['- %s (%d)' % kv for kv in names.most_common(40)] + \
-            ['', '## 고사·평가·시험이 들어가지만 뺀 이름(많은 순 40개)', ''] + ['- %s (%d)' % kv for kv in near.most_common(40)]
+            ['', '## 고사·평가·시험이 들어가지만 뺀 이름(많은 순 40개)', ''] + ['- %s (%d)' % kv for kv in near.most_common(40)] + \
+            ['', '## 이번 실행의 모든 행사 이름(많은 순 150개, 규칙 점검용)', ''] + \
+            ['- %s (%d)%s' % (k, c, ' — ' + other_type(k) if other_type(k) else (' — 시험' if is_exam(k) else '')) for k, c in every.most_common(150)]
     with open(os.path.join(OUT, 'exam_names.md'), 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
     print('시험 날짜: 오늘 %d곳 중 %d곳 받음 · 시험 있는 곳 %d · 오류 %d · 한도 %s · 누적 %d곳(시험 있음 %d)' % (
