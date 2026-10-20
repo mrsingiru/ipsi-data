@@ -62,6 +62,10 @@ def main(reg_path, out_path, report_path):
         p.update({'url': it['url'], 'kind': it['kind'], 'cat': it['cat'], 'used': it['used'][:12], 'cycle': it['cycle']})
         if any(w in it['url'].lower() for w in DENY):
             p.update({'status': 'skip-deny'}); items[it['id']] = p; counts['skipped'] += 1; continue
+        # 2026-10-21 이용 조건: 언론(일부 매체 'AI 학습·이용 금지' 표시)과 GED(서면 동의 없는 DB 구축 금지)는 자동으로 열지 않는다.
+        # 사람이 링크만 걸고, 같은 사실의 공식 원문으로 바꿔 간다.
+        if it.get('cat') == '언론' or 'ged.kedi.re.kr' in it['url']:
+            p.update({'status': 'skip-terms'}); items[it['id']] = p; counts['skipped'] += 1; continue
         if not due(it, prev, today):
             items[it['id']] = p; counts['skipped'] += 1; continue
         binary = bool(re.search(r'\.(pdf|hwpx?|zip)(\?|$)', it['url'], re.I))

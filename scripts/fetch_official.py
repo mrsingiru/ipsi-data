@@ -598,7 +598,12 @@ def run(targets_path, out_dir):
                 elif k in ('board', 'site'):
                     read_board(F, pg['url'], tgt, today, res, from_site=(k == 'site'))
                 elif k == 'ged':
-                    read_ged(F, pg['find'], tgt, today, res)
+                    # 2026-10-21: KEDI(GED) 정책이 '서면 동의 없는 DB 구축·영리 이용 금지, 영리 사이트는 링크도 사전 허락'이라
+                    # 법 확인(KEDI 서면 답)을 받을 때까지 자동으로 읽지 않는다. watch/targets.json의 "ged": true로 다시 켠다.
+                    if cfg.get('ged') is True:
+                        read_ged(F, pg['find'], tgt, today, res)
+                    else:
+                        res['opened'].append({'url': 'ged', 'status': 'paused', 'error': 'GED 자동 읽기 멈춤(이용 조건 확인 중)'})
             except Exception as e:
                 res['opened'].append({'url': pg.get('url', 'ged'), 'status': 'error', 'error': str(e)[:160]})
         sts = [o['status'] for o in res['opened']]
