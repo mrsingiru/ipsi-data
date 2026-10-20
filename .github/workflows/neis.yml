@@ -2,7 +2,8 @@ name: 나이스 자료 받기(학교 목록·시험 날짜)
 
 on:
   schedule:
-    - cron: '0 21 * * *'   # 매일 오전 6시(한국 시간) = 전날 21시(UTC)
+    - cron: '30 19 * * *'  # 매일 오전 4시 30분(한국 시간) = 전날 19시 30분(UTC). GitHub 예약은 20~30분 늦게 시작하는 날이 많아,
+                           # 06:16 '자료 점검' 예약이 그날 결과를 읽도록 일찍 둔다(2026-10-20, 예전 06:00은 06:45에 끝나 하루 묵은 결과를 읽었음)
   workflow_dispatch:        # Actions 화면에서 'Run workflow'로 바로 실행
     inputs:
       mode:
@@ -27,6 +28,7 @@ jobs:
         env:
           NEIS_KEY: ${{ secrets.NEIS_KEY }}
         run: |
+          echo "started=$(date -u +%FT%TZ)" >> "$GITHUB_OUTPUT"
           if [ -z "$NEIS_KEY" ]; then
             echo "::notice::비밀 값 NEIS_KEY가 아직 없어 오늘은 건너뜁니다(README '처음 한 번 설정' 참고)."
             echo "ready=no" >> "$GITHUB_OUTPUT"
@@ -50,6 +52,27 @@ jobs:
           NEIS_KEY: ${{ secrets.NEIS_KEY }}
           MODE: ${{ github.event.inputs.mode || 'rotate' }}
         run: python scripts/fetch_exams.py
+      - name: 실행 결과 남기기(data/status.json — 운영실 '자료 수집기' 상태의 근거)
+        # 예약 작업 세션에서는 GitHub API가 막혀 실행 기록을 못 읽는다. 저장소 복사는 되므로 결과를 파일로 남긴다(성공·실패 모두).
+        if: always() && steps.key.outputs.ready == 'yes'
+        env:
+          CONCLUSION: ${{ job.status }}
+          STARTED: ${{ steps.key.outputs.started }}
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import json, os, datetime
+          now = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+          st = {'workflow': 'neis', 'conclusion': os.environ['CONCLUSION'], 'event': os.environ['EVENT'],
+                'runUrl': os.environ['RUN_URL'], 'startedAt': os.environ['STARTED'], 'finishedAt': now}
+          try:
+              st['schools'] = json.load(open('data/run.json', encoding='utf-8')).get('schools')
+          except Exception:
+              pass
+          json.dump(st, open('data/status.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+          print(st)
+          PY
       - name: 바뀐 것이 있으면 저장
         if: always() && steps.key.outputs.ready == 'yes'
         run: |
@@ -60,5 +83,6 @@ jobs:
             echo "바뀐 것 없음"
           else
             git commit -m "나이스 자료 갱신 $(TZ=Asia/Seoul date +%F)"
+            git pull --rebase --autostash || true
             git push
           fi
