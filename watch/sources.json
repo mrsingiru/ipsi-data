@@ -1,7 +1,7 @@
 {
-"note": "페이지(공개판 v28.22)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-10-22",
-"ver": "v28.22",
+"note": "페이지(공개판 v28.23)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-10-21",
+"ver": "v28.23",
 "count": 447,
 "sources": [
 {
@@ -2667,11 +2667,12 @@
 "id": "fff0997ce0",
 "url": "https://eiec.kdi.re.kr/policy/materialView.do?num=255989",
 "host": "eiec.kdi.re.kr",
-"name": "교육부 2027학년도 수능 시행(KDI 게재본)",
+"name": "교육부 보도자료 '2027학년도 대학수학능력시험은 2026년 11월 19일(목)에 시행됩니다'(성적 통지 12월 11일)",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
 "csat27",
+"csat27moe",
 "q-g3-after",
 "q-retake"
 ],
@@ -3582,7 +3583,7 @@
 "id": "8dc384c2fd",
 "url": "https://www.heraldk.com/article/2026052817450068440",
 "host": "heraldk.com",
-"name": "헤럴드경제, 2027학년도 영재학교 일정",
+"name": "헤럴드경제: 2027학년도 영재학교 일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
