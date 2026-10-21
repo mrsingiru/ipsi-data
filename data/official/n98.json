@@ -1,0 +1,34 @@
+{
+ "id": "n98",
+ "org": "경상국립대 영재원",
+ "what": "앞으로 120일 안 일정 1단계",
+ "checkedAt": "2026-10-22T05:34:40+09:00",
+ "opened": [
+  {
+   "url": "https://www.gnu.ac.kr/gifted/na/ntt/selectNttInfo.do?nttSn=8560962&mi=7217",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://www.gnu.ac.kr/gifted/na/ntt/selectNttInfo.do?nttSn=8560962&mi=7217",
+   "title": "입학관련 공지사항<영재입학전형 | 과학영재교육원"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=fd91397453a15d51680dc9ee80400872",
+   "name": "[붙임1] 2027학년도 경상국립대학교 과학영재교육원 신입생 모집요강.pdf (다운로드 : 540회)",
+   "status": "robots"
+  },
+  {
+   "url": "https://www.gnu.ac.kr/common/nttFileDownload.do?fileKey=586bde64d6931114bb177e4ee17c2044",
+   "name": "[붙임2] 2027학년도 경상국립대학교 과학영재교육원 신입생 모집 관련 서식 (1~6) 한글파일.hwp (다운로드 : 169회)",
+   "status": "robots"
+  }
+ ],
+ "lines": [],
+ "status": "found-no-dates"
+}

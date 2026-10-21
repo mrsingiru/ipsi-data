@@ -1,0 +1,32 @@
+{
+ "id": "n86",
+ "org": "경북 교육지원청 영재원",
+ "what": "앞으로 120일 안 일정 4단계",
+ "checkedAt": "2026-10-22T05:34:36+09:00",
+ "opened": [
+  {
+   "url": "https://www.gbe.kr/main/na/ntt/selectNttList.do?mi=3439&bbsId=1876",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3439&bbsId=1876&nttSn=1648983",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027년 상반기 경상북도교육청 상설갤러리 대관(실내, 실외) 신청 공고",
+   "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3439&bbsId=1876&nttSn=1648983"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3439&bbsId=1876&nttSn=1648983",
+   "title": "경상북도교육청-공지사항"
+  }
+ ],
+ "files": [],
+ "lines": [],
+ "status": "found-no-dates"
+}

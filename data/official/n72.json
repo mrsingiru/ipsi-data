@@ -1,0 +1,186 @@
+{
+ "id": "n72",
+ "org": "부산과학고",
+ "what": "앞으로 120일 안 일정 6단계",
+ "checkedAt": "2026-10-22T05:34:05+09:00",
+ "opened": [
+  {
+   "url": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttList.do?mi=652753&bbsId=1041118",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53760721&mi=652753",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742817&mi=652753",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742816&mi=652753",
+   "status": "ok"
+  },
+  {
+   "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12453&cntntsId=1853",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 부산과학고등학교 신입생 입학전형 원서접수 최종 결과 알림",
+   "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53760721&mi=652753"
+  },
+  {
+   "title": "2027학년도 부산과학고등학교 신입생 입학전형 서류제출 안내",
+   "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742817&mi=652753"
+  },
+  {
+   "title": "2027학년도 부산과학고등학교 신입생 입학전형 입학원서 접수안내",
+   "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742816&mi=652753"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503",
+   "title": "부산과학고등학교"
+  },
+  {
+   "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53760721&mi=652753",
+   "title": "부산과학고등학교"
+  },
+  {
+   "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742817&mi=652753",
+   "title": "부산과학고등학교"
+  },
+  {
+   "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742816&mi=652753",
+   "title": "부산과학고등학교"
+  },
+  {
+   "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12453&cntntsId=1853",
+   "title": "부산광역시교육청 고입포털 - 고교입학 - 입학전형일정"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=fe2b992f96a309efb7be7881f2e6efd7",
+   "name": "2027학년도 부산과학고등학교 신입생 입학전형 서류제출 안내.pdf (열람/다운로드 : 698회)",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 160315,
+   "sha1": "8e551b33923c"
+  },
+  {
+   "url": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=cf10a1e962ec67231f90339009a84de1",
+   "name": "2027학년도 부산과학고 신입생 입학원서 작성 및 서류 관련 FAQ_재공지.pdf (열람/다운로드 : 595회)",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 81701,
+   "sha1": "50649b5362e9"
+  },
+  {
+   "url": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=63b3e7ad99e027f54742c84bf60e51ab",
+   "name": "2027학년도 부산과학고 신입생 입학전형 입학원서 접수 안내.pdf (열람/다운로드 : 660회)",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 76738,
+   "sha1": "10ed5c3319d6"
+  },
+  {
+   "url": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=0829d3b402dd1629d2b589643832aa98",
+   "name": "2027학년도 부산과학고 신입생 입학원서 작성 및 서류 관련 FAQ_재공지.pdf (열람/다운로드 : 506회)",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 81701,
+   "sha1": "50649b5362e9"
+  }
+ ],
+ "lines": [
+  {
+   "text": "1단계 합격자 발표 | 9. 16.(수) 16:00",
+   "dates": [
+    "2026-09-16"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503"
+  },
+  {
+   "text": "2단계 합격자 발표 | 11. 16.(월) 16:00",
+   "dates": [
+    "2026-11-16"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503"
+  },
+  {
+   "text": "소집면접 평가 | 11. 23.(월) 08:00~17:00",
+   "dates": [
+    "2026-11-23"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503"
+  },
+  {
+   "text": "최종합격자 발표 | 12. 2.(수) 16:00",
+   "dates": [
+    "2026-12-02"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503"
+  },
+  {
+   "text": "최종합격자 소집 및 입학 등록 | 12. 9.(수) 14:00",
+   "dates": [
+    "2026-12-09"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503"
+  },
+  {
+   "text": "등록일 | 2026.09.03 17:13:00",
+   "dates": [
+    "2026-09-03"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53760721&mi=652753"
+  },
+  {
+   "text": "등록일 | 2026.08.18 13:53:07",
+   "dates": [
+    "2026-08-18"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742817&mi=652753"
+  },
+  {
+   "text": "등록일 | 2026.08.18 13:52:03",
+   "dates": [
+    "2026-08-18"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://school.busanedu.net/bss-h/na/ntt/selectNttInfo.do?nttSn=53742816&mi=652753"
+  }
+ ],
+ "status": "dates"
+}

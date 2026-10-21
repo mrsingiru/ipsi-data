@@ -1,0 +1,117 @@
+{
+ "id": "n73",
+ "org": "부산일과학고",
+ "what": "앞으로 120일 안 일정 3단계",
+ "checkedAt": "2026-10-22T05:34:21+09:00",
+ "opened": [
+  {
+   "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12453&cntntsId=1853",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttList.do?mi=607024&bbsId=1004853",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53247053&mi=607024",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53760708&mi=607024",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53749291&mi=607024",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/cm/cntnts/cntntsView.do?mi=607022&cntntsId=5070",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 및 2028학년도 부산일과학고등학교 신입생 입학전형 변경사항 안내",
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53247053&mi=607024"
+  },
+  {
+   "title": "2027학년도 부산일과학고등학교 신입생 입학전형 원서접수 최종 결과 알림",
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53760708&mi=607024"
+  },
+  {
+   "title": "2027학년도 부산일과학고등학교 신입생 입학전형 입학원서 접수안내입니다.",
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53749291&mi=607024"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12453&cntntsId=1853",
+   "title": "부산광역시교육청 고입포털 - 고교입학 - 입학전형일정"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53247053&mi=607024",
+   "title": "부산일과학고등학교"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53760708&mi=607024",
+   "title": "부산일과학고등학교"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53749291&mi=607024",
+   "title": "부산일과학고등학교"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/cm/cntnts/cntntsView.do?mi=607022&cntntsId=5070",
+   "title": "부산일과학고등학교"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=66826f2e0b68e666c2913a8d5ee6a912",
+   "name": "2027학년도 부산일과학고등학교 신입생 입학전형 원서접수 안내.pdf (열람/다운로드 : 469회)",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 87704,
+   "sha1": "e937af49fe75"
+  },
+  {
+   "url": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=107044b75674d04a853eba67e582c137",
+   "name": "2027학년도 부산일과학고등학교 입학전형 요강 다운로드",
+   "status": "limit"
+  }
+ ],
+ "lines": [
+  {
+   "text": "등록일 | 2025.04.28 15:13:48",
+   "dates": [
+    "2025-04-28"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53247053&mi=607024"
+  },
+  {
+   "text": "등록일 | 2026.09.03 17:00:28",
+   "dates": [
+    "2026-09-03"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53760708&mi=607024"
+  },
+  {
+   "text": "등록일 | 2026.08.26 10:39:34",
+   "dates": [
+    "2026-08-26"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53749291&mi=607024"
+  }
+ ],
+ "status": "dates"
+}

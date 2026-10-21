@@ -1,0 +1,184 @@
+{
+ "id": "n37",
+ "org": "충북 고입",
+ "what": "앞으로 120일 안 일정 7단계",
+ "checkedAt": "2026-10-22T05:29:56+09:00",
+ "opened": [
+  {
+   "url": "https://school.cbe.go.kr/daeje-m/M01030401/",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttList.do?mi=11465&bbsId=1779",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1580704",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1579333",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1579190",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 영동고등학교 입학전형 시행 요강",
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1580704"
+  },
+  {
+   "title": "2027학년도 제천제일고등학교 입학전형 시행 요강",
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1579333"
+  },
+  {
+   "title": "2027학년도 충청북도 고등학교 입학전형 실시계획",
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1579190"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://school.cbe.go.kr/daeje-m/M01030401/",
+   "title": "2027학년도 고입전형<진학안내<알림마당<대제중학교"
+  },
+  {
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1580704",
+   "title": "고입시"
+  },
+  {
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1579333",
+   "title": "고입시"
+  },
+  {
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1579190",
+   "title": "고입시"
+  }
+ ],
+ "files": [
+  {
+   "url": "javaScript:goFileDown('710008b6fa73da6354014cabbbcc966b');",
+   "name": "2027학년도 영동고등학교 입학전형 시행 요강.hwp",
+   "status": "robots"
+  },
+  {
+   "url": "javaScript:goFileDown('838456502aa47a839fdba75a78c49b91');",
+   "name": "2027학년도 제천제일고등학교 입학전형 시행 요강(안).pdf",
+   "status": "robots"
+  },
+  {
+   "url": "javaScript:goFileDown('34854c42fe7eafc8bd11eba9d7247c13');",
+   "name": "2027학년도 제천제일고등학교 입학전형 시행 요강(안).hwp",
+   "status": "robots"
+  },
+  {
+   "url": "javaScript:goFileDown('9cd1f54029f6d6126586b907dc50e7dd');",
+   "name": "2027학년도 충청북도 고등학교 입학전형 실시 계획.hwpx",
+   "status": "robots"
+  }
+ ],
+ "lines": [
+  {
+   "text": "□ 전기고 전형 : 2026. 8. 27.(목) ~ 12. 4.(금), 충북과학고 원서접수 일정 포함",
+   "dates": [
+    "2026-08-27",
+    "2026-12-04"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://school.cbe.go.kr/daeje-m/M01030401/"
+  },
+  {
+   "text": "□ 평준화고 학교 배정 발표 : 2027. 1. 15.(금)",
+   "dates": [
+    "2027-01-15"
+   ],
+   "words": [
+    "발표",
+    "배정"
+   ],
+   "src": "https://school.cbe.go.kr/daeje-m/M01030401/"
+  },
+  {
+   "text": "-학교배정전산추첨: 2027. 1. 13.(수)",
+   "dates": [
+    "2027-01-13"
+   ],
+   "words": [
+    "배정"
+   ],
+   "src": "https://school.cbe.go.kr/daeje-m/M01030401/"
+  },
+  {
+   "text": "- 학교 배정 발표: 2027. 1. 15.(금)",
+   "dates": [
+    "2027-01-15"
+   ],
+   "words": [
+    "발표",
+    "배정"
+   ],
+   "src": "https://school.cbe.go.kr/daeje-m/M01030401/"
+  },
+  {
+   "text": "□ 특수교육대상자 원서접수: 2026. 6. 29.(월) ~ 7. 3.(금)",
+   "dates": [
+    "2026-06-29",
+    "2026-07-03"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://school.cbe.go.kr/daeje-m/M01030401/"
+  },
+  {
+   "text": "□ 단재고: 원서접수 2026. 9. 10.(목)~9. 18.(금) / 합격자발표 2026. 11. 20.(금)",
+   "dates": [
+    "2026-09-10",
+    "2026-09-18",
+    "2026-11-20"
+   ],
+   "words": [
+    "발표",
+    "원서",
+    "접수"
+   ],
+   "src": "https://school.cbe.go.kr/daeje-m/M01030401/"
+  },
+  {
+   "text": "□ 양업고: 원서접수 2026. 9. 1.(화)~9. 18.(금) / 합격자발표 2026. 10. 23.(금)",
+   "dates": [
+    "2026-09-01",
+    "2026-09-18",
+    "2026-10-23"
+   ],
+   "words": [
+    "발표",
+    "원서",
+    "접수"
+   ],
+   "src": "https://school.cbe.go.kr/daeje-m/M01030401/"
+  },
+  {
+   "text": "□ 은여울고: 원서접수 2026. 9. 21.(월)~10. 6.(화) / 합격자발표 2026. 10. 30.(금)",
+   "dates": [
+    "2026-09-21",
+    "2026-10-06",
+    "2026-10-30"
+   ],
+   "words": [
+    "발표",
+    "원서",
+    "접수"
+   ],
+   "src": "https://school.cbe.go.kr/daeje-m/M01030401/"
+  }
+ ],
+ "status": "dates"
+}

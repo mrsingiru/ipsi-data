@@ -1,0 +1,164 @@
+{
+ "id": "n66",
+ "org": "순천대 영재원",
+ "what": "앞으로 120일 안 일정 1단계",
+ "checkedAt": "2026-10-22T05:33:27+09:00",
+ "opened": [
+  {
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281291784&mi=4659&currPage=1",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttList.do?mi=4659&bbsId=2380",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322695&mi=4659&currPage=1",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322284&mi=4659&currPage=1",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "공지 [안내] 2027학년도 신입생 선발 접수기간 과학영재교육원 행정실 안내",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322695&mi=4659&currPage=1"
+  },
+  {
+   "title": "공지 [선발] 2027학년도 국립순천대학교 과학영재교육원 신입생 선발 공고(현재 초5~중1) - 지원서 첨부파일 확인!",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1"
+  },
+  {
+   "title": "[공고] 2027학년도 국립순천대학교 사사기초과정 선교육전형 대상자 공고 (현재 심화과정 초6 대상)",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322284&mi=4659&currPage=1"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281291784&mi=4659&currPage=1",
+   "title": "공지사항 - 과학영재교육원"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322695&mi=4659&currPage=1",
+   "title": "공지사항 - 과학영재교육원"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
+   "title": "공지사항 - 과학영재교육원"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322284&mi=4659&currPage=1",
+   "title": "공지사항 - 과학영재교육원"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
+   "title": "공지사항 - 과학영재교육원"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228",
+   "name": "2027학년도 국립순천대학교 과학영재교육원 신입생 선발 모집공고 및 제출서류.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 414222,
+   "sha1": "9edaff22a1d9"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=bb9f5d5181de860b2d55c1f2ee049ff2",
+   "name": "제출서류.hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 98304,
+   "sha1": "e5ea38b9b32c"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=c4c8938ed96d9724f2b7cdc34c80b2e8",
+   "name": "2026_SECGY_사사기초과정_선교육전형 대상자 공고 (지원서류 포함).hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 147456,
+   "sha1": "38322a50f706"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228",
+   "name": "2027학년도 국립순천대학교 과학영재교육원 신입생 선발 모집공고 및 제출서류.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 414222,
+   "sha1": "9edaff22a1d9"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=bb9f5d5181de860b2d55c1f2ee049ff2",
+   "name": "제출서류.hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 98304,
+   "sha1": "e5ea38b9b32c"
+  }
+ ],
+ "lines": [
+  {
+   "text": "최종합격자 발표 | 2026. 12. 07(월) 11:00",
+   "dates": [
+    "2026-12-07"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "최종합격자 발표 | 2027. 01. 06(수) 11:00",
+   "dates": [
+    "2027-01-06"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "분야별 합격자 발표 | 2026. 10. 16 (금) 11:00",
+   "dates": [
+    "2026-10-16"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=c4c8938ed96d9724f2b7cdc34c80b2e8"
+  },
+  {
+   "text": "최종합격자 발표 | 2026. 12. 07(월) 11:00",
+   "dates": [
+    "2026-12-07"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "최종합격자 발표 | 2027. 01. 06(수) 11:00",
+   "dates": [
+    "2027-01-06"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  }
+ ],
+ "status": "dates"
+}

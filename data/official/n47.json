@@ -1,0 +1,77 @@
+{
+ "id": "n47",
+ "org": "강원 고입",
+ "what": "앞으로 120일 안 일정 1단계",
+ "checkedAt": "2026-10-22T05:31:05+09:00",
+ "opened": [
+  {
+   "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=55051&key=m2307210603513",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.gwe.go.kr/main/sub.do?key=bTIzMDcyMTA1ODg1NjU%3D",
+   "status": "ok"
+  },
+  {
+   "url": "https://gf.gwe.hs.kr/boardCnts/list.do?boardID=19809&m=0401&s=gf",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=55051&key=m2307210603513",
+   "title": "강원특별자치도교육청 - 고입자료실"
+  },
+  {
+   "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513",
+   "title": "강원특별자치도교육청 - 고입자료실"
+  },
+  {
+   "url": "https://www.gwe.go.kr/main/content.do?key=bTIzMDkxODI5OTg2OTc=",
+   "title": "강원특별자치도교육청 - 일반고"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3MjY5&type=bbs",
+   "name": "(공고제2026-109호)2027학년도 강원특별자치도교육감 입학전형 고등학교 신입생 전형요강.hwpx",
+   "status": "http-500"
+  },
+  {
+   "url": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI3Mjcw&type=bbs",
+   "name": "2027학년도 강원특별자치도교육감 입학전형 고등학교 체육특기자 전형 계획.hwpx",
+   "status": "http-500"
+  },
+  {
+   "url": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTI4NTg2&type=bbs",
+   "name": "체육특기자 학부모 동의서 및 선수서약서.hwp",
+   "status": "http-500"
+  },
+  {
+   "url": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTE4NTY5&type=bbs",
+   "name": "2027학년도 강원특별자치도 고등학교 입학전형 기본계획(공고).hwp",
+   "status": "http-500"
+  }
+ ],
+ "lines": [
+  {
+   "text": "나. 원서접수기간: 2026. 12. 8.(화)~12. 10.(목) 15:00까지",
+   "dates": [
+    "2026-12-08",
+    "2026-12-10"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=55051&key=m2307210603513"
+  }
+ ],
+ "status": "dates"
+}

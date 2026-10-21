@@ -1,0 +1,35 @@
+{
+ "id": "n45",
+ "org": "강원 교육지원청 영재원",
+ "what": "앞으로 120일 안 일정 2단계",
+ "checkedAt": "2026-10-22T05:30:50+09:00",
+ "opened": [
+  {
+   "url": "https://wjgift.gwe.go.kr/boardCnts/list.do?boardID=99694&m=0201&s=kwwjegp",
+   "status": "ok"
+  },
+  {
+   "url": "https://gwgned.gwe.go.kr/boardCnts/list.do?boardID=100599&m=100802&s=gwgned",
+   "status": "ok"
+  },
+  {
+   "url": "https://kwthe.gwe.go.kr/boardCnts/list.do?boardID=2519&m=100801&s=kwthe",
+   "status": "ok"
+  },
+  {
+   "url": "https://gwcce.gwe.go.kr/sub/info.do?m=051003&s=gwcce",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://gwcce.gwe.go.kr/sub/info.do?m=051003&s=gwcce",
+   "title": "강원특별자치도춘천교육지원청 누리집"
+  }
+ ],
+ "files": [],
+ "lines": [],
+ "status": "found-no-dates"
+}

@@ -1,0 +1,27 @@
+{
+ "id": "n43",
+ "org": "북일고",
+ "what": "앞으로 120일 안 일정 8단계",
+ "checkedAt": "2026-10-22T05:30:48+09:00",
+ "opened": [
+  {
+   "url": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=guideline&idx=8915&no=1",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.bugil.hs.kr/admission/guideline.php",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://www.bugil.hs.kr/admission/guideline.php",
+   "title": "입학요강 | 북일고등학교 | 북일고등학교"
+  }
+ ],
+ "files": [],
+ "lines": [],
+ "status": "found-no-dates"
+}

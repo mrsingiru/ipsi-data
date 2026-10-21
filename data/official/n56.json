@@ -1,0 +1,747 @@
+{
+ "id": "n56",
+ "org": "전북 고입",
+ "what": "앞으로 120일 안 일정 3단계",
+ "checkedAt": "2026-10-22T05:31:41+09:00",
+ "opened": [
+  {
+   "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&searchOperation=AND&dataSid=1026755",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.jbe.go.kr/jinro/board/list.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&contentsSid=946&cpath=%2Fjinro",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1139051",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 전북특별자치도 고등학교 신입학 전형요강(학교장 전형고) 안내",
+   "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835"
+  },
+  {
+   "title": "2027학년도 전북특별자치도 평준화지역 일반고등학교·자율형 공립고등학교 전형요강",
+   "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773"
+  },
+  {
+   "title": "2027학년도 전북특별자치도 고등학교 특례입학 업무 시행계획",
+   "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1139051"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&searchOperation=AND&dataSid=1026755",
+   "title": "알림마당 > 고시/공고 > 상세 화면| 전북특별자치도교육청"
+  },
+  {
+   "url": "https://www.jbe.go.kr/jinro/board/view.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835",
+   "title": "전북특별자치도교육청 진로진학센터"
+  },
+  {
+   "url": "https://www.jbe.go.kr/jinro/board/view.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773",
+   "title": "전북특별자치도교육청 진로진학센터"
+  },
+  {
+   "url": "https://www.jbe.go.kr/jinro/board/view.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1139051",
+   "title": "전북특별자치도교육청 진로진학센터"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107",
+   "name": "2027학년도 전북특별자치도 고등학교 입학전형 기본계획(공고 제2026-119호).hwpx (285 kb)",
+   "status": "ok",
+   "type": "hwpx",
+   "bytes": 291991,
+   "sha1": "d512629369ed"
+  },
+  {
+   "url": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827",
+   "name": "[책자] 2027학년도 전북특별자치도 고등학교 신입학 전형요강 안내.pdf (5873 kb)",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 6014780,
+   "sha1": "8187f102e2f0"
+  },
+  {
+   "url": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728477",
+   "name": "2027학년도 전북특별자치도 평준화지역 일반고·자율형 공립고 신입학 전형요강(공고용).pdf (1333 kb)",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 1365968,
+   "sha1": "c6786590abf2"
+  },
+  {
+   "url": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728478",
+   "name": "2027학년도 전북특별자치도 평준화지역 일반고·자율형 공립고 신입학 전형요강(공고용).hwpx (487 kb)",
+   "status": "ok",
+   "type": "hwpx",
+   "bytes": 499276,
+   "sha1": "3c0035bba920"
+  },
+  {
+   "url": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1139051&command=update&fileSid=716607",
+   "name": "2027학년도 전북특별자치도 고등학교 특례입학 업무 시행계획.hwpx (3155 kb)",
+   "status": "ok",
+   "type": "hwpx",
+   "bytes": 3231310,
+   "sha1": "df838c16dec5"
+  },
+  {
+   "url": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1139051&command=update&fileSid=716608",
+   "name": "2027학년도전북특별자치도고등학교특례입학업무시행계획_서식.hwpx (107 kb)",
+   "status": "ok",
+   "type": "hwpx",
+   "bytes": 110415,
+   "sha1": "2796ac4d64e7"
+  }
+ ],
+ "lines": [
+  {
+   "text": "신청접수: 2026. 11. 2.(월)~11. 4.(수)",
+   "dates": [
+    "2026-11-02",
+    "2026-11-04"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107"
+  },
+  {
+   "text": "o 체육특기자 신청 접수 및 심의(문예체건강과) | 심의: 2026. 11. 9.(월)~11. 12.(목)",
+   "dates": [
+    "2026-11-09",
+    "2026-11-12"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107"
+  },
+  {
+   "text": "신청접수: 2026. 7. 1.(수)~8. 28.(금)",
+   "dates": [
+    "2026-07-01",
+    "2026-08-28"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107"
+  },
+  {
+   "text": "자. 체육특기자 입학정원의 선발과 배정은 「초·중등교육법시행령」제87조제1항 및‘전북특별자치도 체육특기자 선발에 관한 규칙’(2023. 11. 10.개정. 규칙 제900호)에 따라 다음과 같이 시행한다.",
+   "dates": [
+    "2023-11-10"
+   ],
+   "words": [
+    "배정"
+   ],
+   "src": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107"
+  },
+  {
+   "text": "체육특기자 입학정원의 선발과 배정은 「초·중등교육법시행령」제87조 | 제1항 및 ‘전북특별자치도 체육특기자 선발에 관한 규칙’(2023. 11. 10. 개정.",
+   "dates": [
+    "2023-11-10"
+   ],
+   "words": [
+    "배정"
+   ],
+   "src": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107"
+  },
+  {
+   "text": "- 선배정판정심사위원회에서 배정받은 고등학교를 1지망에 작성하여 제출하면, 고입선발에 합격한 자에 한해 추첨에 의하지 않고, 1지망 고교에 정원 내로 선배정한다. 다만, 전주시, 군산시, 익산시 외 지역 중학교 [전북특별자치도 중학교 학교군·중학구 및 학교군 추첨방법 고시 {전북특…",
+   "dates": [
+    "2025-10-29"
+   ],
+   "words": [
+    "배정"
+   ],
+   "src": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107"
+  },
+  {
+   "text": "- 근거리 선배정 조건에 해당되는 다자녀대상자는 한 가정의 자녀가 | 2026. 10. 31.(토) 기준으로 영유아 및 (전북특별자치도 소재 학력인정)",
+   "dates": [
+    "2026-10-31"
+   ],
+   "words": [
+    "배정"
+   ],
+   "src": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107"
+  },
+  {
+   "text": "국가유공자자녀 등 교육지원대상자의 전형은, 「국가유공자 등 예우 및 지원에 관한 법률」(제21065호, 2025. 10. 1.시행) 제22조 등 국가보훈관계 법령에 따라 평준화지역 학군별 합격선에 관계없이 해당 학군 입학정원의 3% 범위 내에서 정원 외로 선발하여, 일반 학생과 별…",
+   "dates": [
+    "2025-10-01"
+   ],
+   "words": [
+    "배정"
+   ],
+   "src": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107"
+  },
+  {
+   "text": "- 전라북도 고등학교 입학전형의 일부 재배정 조정안(2012. 8. 22.)에 따름",
+   "dates": [
+    "2012-08-22"
+   ],
+   "words": [
+    "배정"
+   ],
+   "src": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107"
+  },
+  {
+   "text": "원서교부·접수 | ʼ26.10.19.(월)-10.22.(목)",
+   "dates": [
+    "2026-10-22"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107"
+  },
+  {
+   "text": "원서접수 | 2027. 2. 1.(월)-2. 2.(화) 17:00",
+   "dates": [
+    "2027-02-01",
+    "2027-02-02"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107"
+  },
+  {
+   "text": "합격자발표 | 2027. 2. 11.(목) 10:00",
+   "dates": [
+    "2027-02-11"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107"
+  },
+  {
+   "text": "원서접수 | 2027. 2. 18.(목)-2027. 5. 21.(금)",
+   "dates": [
+    "2027-02-18",
+    "2027-05-21"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/board/download.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1026755&command=update&fileSid=701107"
+  },
+  {
+   "text": "발표일 | 12. 21.(월) - 12. 23.(수)",
+   "dates": [
+    "2026-12-21",
+    "2026-12-23"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "면접 시간 발표 | 11.30.(월)",
+   "dates": [
+    "2026-11-30"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "면접 시간 발표 | 11.23.(월) -",
+   "dates": [
+    "2026-11-23"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "발표일 | 10.27.(화)",
+   "dates": [
+    "2026-10-27"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "발표일 | 12.23.(수)",
+   "dates": [
+    "2026-12-23"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "발표일 | 11.4.(수)",
+   "dates": [
+    "2026-11-04"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "발표일 | 12.30.(수)",
+   "dates": [
+    "2026-12-30"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "원서접수기간 | 12.2.(수) -",
+   "dates": [
+    "2026-12-02"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "발표일 | 12.11.(금)",
+   "dates": [
+    "2026-12-11"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "발표일 | 12.17.(목)-",
+   "dates": [
+    "2026-12-17"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "2. 원서교부 및 접수 기간 | 가. 특별전형: 2026. 11. 6.(금) ~ 11. 10.(화) 17:00까지(전기고 특별전형)",
+   "dates": [
+    "2026-11-06",
+    "2026-11-10"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "2. 원서교부 및 접수 기간 | 나. 일반전형: 2026. 11. 23.(월) ~ 11. 25.(수) 17:00까지(전기고 일반전형)",
+   "dates": [
+    "2026-11-23",
+    "2026-11-25"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "2. 원서작성 및 접수기간: 2027. 2. 1.(월) ~ 2027. 2. 2.(화) 17:00까지",
+   "dates": [
+    "2027-02-01",
+    "2027-02-02"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "1. 원서작성 및 전형방법: 정시모집과 동일 | 3. 전형일시 및 장소: 2027. 2. 4.(목) ~ 2. 5.(금) 10:00, 본교 교무실",
+   "dates": [
+    "2027-02-04",
+    "2027-02-05"
+   ],
+   "words": [
+    "원서"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "4. 합격자 발표: 2027. 2. 11.(목) 10:00, 전북고입전형포털(https://satp.jbe.go.kr)",
+   "dates": [
+    "2027-02-11"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "원서접수 | 1. 전북특별자치도 소재 중학교 졸업예정자(2026. 10. 31.현재)",
+   "dates": [
+    "2026-10-31"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "2. 원서작성 및 접수 기간: 2026. 12. 21.(월) ~ 2026. 12. 23.(수) 17:00까지",
+   "dates": [
+    "2026-12-21",
+    "2026-12-23"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "합격자발표 | 2026. 12. 31.(목) 10:00 (후기고 비평준화고) 전북고입전형포털(https://satp.jbe.go.kr)",
+   "dates": [
+    "2026-12-31"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "3. 합격자 발표: 2027. 2. 11.(목) 10:00, 전북고입전형포털(https://satp.jbe.go.kr)",
+   "dates": [
+    "2027-02-11"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "합격자발표 | 1. 특별전형: 2026. 11. 16.(월) 10:00",
+   "dates": [
+    "2026-11-16"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "합격자발표 | 2. 일반전형: 2026. 12. 1.(화) 10:00",
+   "dates": [
+    "2026-12-01"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "1. 원서작성 및 전형방법: 정시모집과 동일 | 3. 전형일시 및 장소: 2027. 2. 5.(금) 10:00, 본교 3층 에이다실",
+   "dates": [
+    "2027-02-05"
+   ],
+   "words": [
+    "원서"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "2. 원서작성 및 접수 기간: 2026. 10. 19.(월) ~ 10. 22.(목) 17:00까지",
+   "dates": [
+    "2026-10-19",
+    "2026-10-22"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "1. 1차 합격자 발표: 2026. 10. 27.(화) 전북고입전형포털 (https://satp.jbe.go.kr/)",
+   "dates": [
+    "2026-10-27"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "1. 원서작성 및 전형방법: 정시모집과 동일함. | 3. 전형일시 및 장소: 2027. 2. 4.(목) 10:00, 본교 혜공관(강당)",
+   "dates": [
+    "2027-02-04"
+   ],
+   "words": [
+    "원서"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "4. 합격자 발표: 2027. 2. 11.(목) 10:00, 전북고입전형포털사이트 및 본교 홈페이지 또는 개별연락",
+   "dates": [
+    "2027-02-11"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "* 성적 순위에 의해 배정하며 제1지망학과가 초과될 때에는 제2지망, 제3지망, 제4지망 순으로 함. | 1. 전북특별자치도 소재 중학교 졸업예정자(2026. 10. 31.현재)",
+   "dates": [
+    "2026-10-31"
+   ],
+   "words": [
+    "배정"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "3. 합격자 발표: 2027. 2. 11.(목) 10:00, 전북고입전형포털(https://satp.jbe.go.kr), 본교 홈",
+   "dates": [
+    "2027-02-11"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "원서 교부·접수 | 2026. 12 .15.(화)",
+   "dates": [
+    "2026-12-15"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "원서 교부·접수 | ~12. 17.(목) 17:00",
+   "dates": [
+    "2026-12-17"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "1차 합격자발표 | 2026. 12. 23.(수) 16:00",
+   "dates": [
+    "2026-12-23"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "최종합격자 발표 2026. 12. 30.(수) 16:00",
+   "dates": [
+    "2026-12-30"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "3. 원서작성 및 접수기간: 2027. 2. 1.(월)~ 2. 2.(화) 17:00까지",
+   "dates": [
+    "2027-02-01",
+    "2027-02-02"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "6. 합격자 발표: 2027. 2. 11.(목) 10:00 본교 홈페이지 및 전북고입전형포털시스템",
+   "dates": [
+    "2027-02-11"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "합격자발표 | 2026. 12. 31.(목) 10:00 (후기고 비평준화고) 전북고입전형포털(https://satp.jbe.go.kr)및 본",
+   "dates": [
+    "2026-12-31"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "2. 원서작성 및 접수 기간: 2026. 10. 19.(월) ~ 2026. 10. 22.(목) 17:00까지",
+   "dates": [
+    "2026-10-19",
+    "2026-10-22"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "1. 1차 합격자 발표: 2026. 10. 26.(월) 10:00 전북고입전형포털(https://satp.jbe.go.kr)",
+   "dates": [
+    "2026-10-26"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "합격자발표 | 2. 최종합격자: 2026. 11. 4.(수) 10:00 전북고입전형포털(https://satp.jbe.go.kr)",
+   "dates": [
+    "2026-11-04"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "1. 원서작성 및 전형방법: 정시모집과 동일 | 3. 전형일시 및 장소: 2027. 2. 4.(목) ~ 2. 5.(금) 10:00, 본교 강당",
+   "dates": [
+    "2027-02-04",
+    "2027-02-05"
+   ],
+   "words": [
+    "원서"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "합격자발표 | 2026. 12. 31.(목) 10:00 (후기고 비평준화고) 전북고입전형포털(https://satp.jbe.go.kr) 및",
+   "dates": [
+    "2026-12-31"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835&command=update&fileSid=734827"
+  },
+  {
+   "text": "원서교부·접수 ʼ26.10.19.(월)-10.22.(목)",
+   "dates": [
+    "2026-10-22"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728477"
+  },
+  {
+   "text": "{2026. 10. 31.(토)} 후 거주지를 이전한 경우에도 원서작성 전에 거주지",
+   "dates": [
+    "2026-10-31"
+   ],
+   "words": [
+    "원서"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728477"
+  },
+  {
+   "text": "가. 접수 기간: 2026. 12. 21.(월) 09:00~2026. 12. 23.(수) 17:00",
+   "dates": [
+    "2026-12-21",
+    "2026-12-23"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728477"
+  },
+  {
+   "text": "원서접수는 접수 마감시한{2026. 12. 23.(수) 17:00}내에 제출된 것에 한함",
+   "dates": [
+    "2026-12-23"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728477"
+  },
+  {
+   "text": "- 중학교에서 담임교사가 전북 고입 응시자격을 확인하여 원서 작성 | 우편으로 원본을 제출함{2026. 12. 23.(수) 17:00까지 소인 인정}",
+   "dates": [
+    "2026-12-23"
+   ],
+   "words": [
+    "원서"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728477"
+  },
+  {
+   "text": "- 원서제출 마감시한{2026. 12. 23.(수) 17:00} 전에 온라인 원서 제출",
+   "dates": [
+    "2026-12-23"
+   ],
+   "words": [
+    "원서"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728477"
+  },
+  {
+   "text": "2) 온라인 제출 원서는 원서접수 마감시한{2026. 12. 23.(수) 17:00}까지만",
+   "dates": [
+    "2026-12-23"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728477"
+  }
+ ],
+ "status": "dates"
+}

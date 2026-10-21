@@ -1,0 +1,29 @@
+{
+ "id": "n29",
+ "org": "대전동신과학고",
+ "what": "앞으로 120일 안 일정 3단계",
+ "checkedAt": "2026-10-22T05:29:46+09:00",
+ "opened": [
+  {
+   "url": "https://ddsciencehs.djsch.kr/sub/info.do?m=0202&s=ddsciencehs",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://ddsciencehs.djsch.kr/sub/info.do?m=0202&s=ddsciencehs",
+   "title": "대전동신과학고등학교 홈페이지"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://djsch.kr/boardCnts/fileDown.do?m=214&s=ddsciencehs&fileSeq=021a29ee9a6be7c08ee77b7ea00f6d91",
+   "name": "전형요강 다운로드",
+   "status": "robots"
+  }
+ ],
+ "lines": [],
+ "status": "found-no-dates"
+}

@@ -1,0 +1,634 @@
+{
+ "id": "n03",
+ "org": "서울 고입",
+ "what": "앞으로 120일 안 일정 11단계",
+ "checkedAt": "2026-10-22T05:27:57+09:00",
+ "opened": [
+  {
+   "url": "https://jinhak.sen.go.kr/subList/20000000430",
+   "status": "ok"
+  },
+  {
+   "url": "https://jinhak.sen.go.kr/subList/20000000422",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.sen.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1068&q_bbsDocNo=20260331091528935",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.sen.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1068&q_bbsDocNo=20260901155446256",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://www.sen.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1068&q_bbsDocNo=20260331091528935",
+   "title": "서울특별시교육청 : 서울특별시교육청 > 교육정보 > 진학안내 > 고입자료실"
+  },
+  {
+   "url": "https://www.sen.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1068&q_bbsDocNo=20260901155446256",
+   "title": "서울특별시교육청 : 서울특별시교육청 > 교육정보 > 진학안내 > 고입자료실"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231",
+   "name": "2027학년도 서울특별시 고등학교 입학전형 기본계획(공고용).hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 1344512,
+   "sha1": "da54499e5f80"
+  },
+  {
+   "url": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e",
+   "name": "2027학년도 서울특별시 고등학교 입학전형 기본계획(공고용).pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 2020255,
+   "sha1": "741a87e83fa7"
+  },
+  {
+   "url": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6",
+   "name": "2027학년도 서울특별시 고등학교 입학전형 기본계획 변경(공고).hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 2213376,
+   "sha1": "5ef1654bde88"
+  },
+  {
+   "url": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=bc57ccb0-10af-4324-b0ec-2dbd8cd72b22",
+   "name": "2027학년도 서울특별시 고등학교 입학전형 기본계획 변경 사항 비교표.hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 77824,
+   "sha1": "f964b081a486"
+  }
+ ],
+ "lines": [
+  {
+   "text": "가) 서울특별시교육감 선발 후기고 입학 예정자 중 본배정 원서접수 마감 이후부터 입학전 배정 원서접수 이전까지(2026. 12. 8.(화) ~ 2027. 2. 1.(월)) 전 가족의 거주지가 배정받은 학교의 학교군과 본배정 원서접수 당시 거주했던 학교군 이외의 지역으로 변동된 자",
+   "dates": [
+    "2026-12-08",
+    "2027-02-01"
+   ],
+   "words": [
+    "배정",
+    "선발",
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "나) 다른 시·도 후기고(일반고, 자공고) 입학 예정자 중 입학전 배정 원서접수 이전까지(2027. 2. 1.(월)) 전 가족의 거주지가 서울특별시로 변동된 자 또는 전 가족이 서울특별시에 거주하는 자",
+   "dates": [
+    "2027-02-01"
+   ],
+   "words": [
+    "배정",
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "모집 | 2026. 11. 27.(금) ~ 11. 30.(월)",
+   "dates": [
+    "2026-11-27",
+    "2026-11-30"
+   ],
+   "words": [
+    "모집"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "(면접대상자 자기소개서 온라인 제출기간) | 2026. 12. 9.(수) ~ 12. 11.(금)",
+   "dates": [
+    "2026-12-09",
+    "2026-12-11"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "(면접대상자 서류 제출기간) | 2026. 12. 10.(목) ~ 12. 11.(금)",
+   "dates": [
+    "2026-12-10",
+    "2026-12-11"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "(면접대상자 자기소개서 온라인 제출기간) | 2026. 12. 10.(목) ~ 12. 14.(월) 10:00",
+   "dates": [
+    "2026-12-10",
+    "2026-12-14"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "교육감 선발고(일반고) | 2026. 12. 3.(목) ~ 12. 7.(월)",
+   "dates": [
+    "2026-12-03",
+    "2026-12-07"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "교육감 선발고(일반고) | 2027. 1. 6.(수)",
+   "dates": [
+    "2027-01-06"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "- 배정학교 발표: 2027. 1. 28.(목)",
+   "dates": [
+    "2027-01-28"
+   ],
+   "words": [
+    "발표",
+    "배정"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "※ 교육감 선발 후기고 합격일(2027. 1. 6.(수))은 배정대상자를 발표하는 것임",
+   "dates": [
+    "2027-01-06"
+   ],
+   "words": [
+    "발표",
+    "배정",
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "▪ 교육감 선발고 입학전 배정 | - 인 터 넷 접 수: 2027. 2. 2.(화) ~ 2. 4.(목)",
+   "dates": [
+    "2027-02-02",
+    "2027-02-04"
+   ],
+   "words": [
+    "배정",
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "▪ 교육감 선발고 입학전 배정 | - 서 류 제 출: 2027. 2. 2.(화) ~ 2. 4.(목)",
+   "dates": [
+    "2027-02-02",
+    "2027-02-04"
+   ],
+   "words": [
+    "배정",
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "- 배정학교 발표: 2027. 2. 18.(목)",
+   "dates": [
+    "2027-02-18"
+   ],
+   "words": [
+    "발표",
+    "배정"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "산업수요맞춤형고 육성 기본계획(2008. 7. 7.)에 따른 학생 선발 기준",
+   "dates": [
+    "2008-07-07"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=ba735e18-0fc3-481c-b63c-e6b476622231"
+  },
+  {
+   "text": "이후부터 입학전 배정 원서접수 이전까지(2026. 12. 8.(화) ~ 2027. 2. 1.(월))",
+   "dates": [
+    "2026-12-08",
+    "2027-02-01"
+   ],
+   "words": [
+    "배정",
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "나) 다른 시·도 후기고(일반고, 자공고) 입학 예정자 중 입학전 배정 원서접수 | 이전까지(2027. 2. 1.(월)) 전 가족의 거주지가 서울특별시로 변동된 자 또는",
+   "dates": [
+    "2027-02-01"
+   ],
+   "words": [
+    "배정",
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "입학원서 접수 | 2026. 8. 24.(월) ~ 8. 26.(수)",
+   "dates": [
+    "2026-08-24",
+    "2026-08-26"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "합격자 발표일 | 2026. 12. 2.(수)",
+   "dates": [
+    "2026-12-02"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "합격자 발표일 | 2026. 10. 26.(월) ~ 10. 28.(수)",
+   "dates": [
+    "2026-10-26",
+    "2026-10-28"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "모집 | 2026. 11. 27.(금) ~ 11. 30.(월)",
+   "dates": [
+    "2026-11-27",
+    "2026-11-30"
+   ],
+   "words": [
+    "모집"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "(면접대상자 자기소개서 온라인 제출기간) | 2026. 12. 9.(수) ~ 12. 11.(금)",
+   "dates": [
+    "2026-12-09",
+    "2026-12-11"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "(면접대상자 자기소개서 온라인 제출기간) | 2026. 12. 3.(목) ~ 12. 7.(월)",
+   "dates": [
+    "2026-12-03",
+    "2026-12-07"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "(면접대상자 서류 제출기간) | 2026. 12. 10.(목) ~ 12. 11.(금)",
+   "dates": [
+    "2026-12-10",
+    "2026-12-11"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "(면접대상자 서류 제출기간) | 2026. 12. 3.(목) ~ 12. 7.(월)",
+   "dates": [
+    "2026-12-03",
+    "2026-12-07"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "(면접대상자 자기소개서 온라인 제출기간) | 2026. 12. 10.(목) ~ 12. 14.(월) 10:00",
+   "dates": [
+    "2026-12-10",
+    "2026-12-14"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "(면접대상자 자기소개서 온라인 제출기간) | 2026. 12. 30.(수)",
+   "dates": [
+    "2026-12-30"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "교육감 선발고(일반고) | 2026. 12. 3.(목) ~ 12. 7.(월)",
+   "dates": [
+    "2026-12-03",
+    "2026-12-07"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "교육감 선발고(일반고) | 2027. 1. 6.(수)",
+   "dates": [
+    "2027-01-06"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "- 배정학교 발표: 2027. 1. 28.(목)",
+   "dates": [
+    "2027-01-28"
+   ],
+   "words": [
+    "발표",
+    "배정"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "※ 교육감 선발 후기고 합격일(2027. 1. 6.(수))은 배정대상자를 발표하는 것임",
+   "dates": [
+    "2027-01-06"
+   ],
+   "words": [
+    "발표",
+    "배정",
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "▪ 교육감 선발고 입학전 배정 | - 인 터 넷 접 수: 2027. 2. 2.(화) ~ 2. 4.(목)",
+   "dates": [
+    "2027-02-02",
+    "2027-02-04"
+   ],
+   "words": [
+    "배정",
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "▪ 교육감 선발고 입학전 배정 | - 서 류 제 출: 2027. 2. 2.(화) ~ 2. 4.(목)",
+   "dates": [
+    "2027-02-02",
+    "2027-02-04"
+   ],
+   "words": [
+    "배정",
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "- 배정학교 발표: 2027. 2. 18.(목)",
+   "dates": [
+    "2027-02-18"
+   ],
+   "words": [
+    "발표",
+    "배정"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "산업수요맞춤형고 육성 기본계획(2008. 7. 7.)에 따른 학생 선발 기준",
+   "dates": [
+    "2008-07-07"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2257644&q_fileId=2b11e91e-b740-4835-9185-e19d099c237e"
+  },
+  {
+   "text": "가) 모집단위 | ※ 단, 외국어고가 없는 시·도의 범위는 2029학년도 입학전형까지 전남광주통합특별시 출범(2026. 7. 1.) 이전의 광주광역시를 포함함",
+   "dates": [
+    "2026-07-01"
+   ],
+   "words": [
+    "모집"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "가) 서울특별시교육감 선발 후기고 입학 예정자 중 본배정 원서접수 마감 이후부터 입학전 배정 원서접수 이전까지(2026. 12. 8.(화) ~ 2027. 2. 1.(월)) 전 가족의 거주지가 배정받은 학교의 학교군과 본배정 원서접수 당시 거주했던 학교군 이외의 지역으로 변동된 자",
+   "dates": [
+    "2026-12-08",
+    "2027-02-01"
+   ],
+   "words": [
+    "배정",
+    "선발",
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "나) 다른 시·도 후기고(일반고, 자공고) 입학 예정자 중 입학전 배정 원서접수 이전까지(2027. 2. 1.(월)) 전 가족의 거주지가 서울특별시로 변동된 자 또는 전 가족이 서울특별시에 거주하는 자",
+   "dates": [
+    "2027-02-01"
+   ],
+   "words": [
+    "배정",
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "모집 | 2026. 11. 27.(금) ~ 11. 30.(월)",
+   "dates": [
+    "2026-11-27",
+    "2026-11-30"
+   ],
+   "words": [
+    "모집"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "(면접대상자 자기소개서 온라인 제출기간) | 2026. 12. 9.(수) ~ 12. 11.(금)",
+   "dates": [
+    "2026-12-09",
+    "2026-12-11"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "(면접대상자 서류 제출기간) | 2026. 12. 10.(목) ~ 12. 11.(금)",
+   "dates": [
+    "2026-12-10",
+    "2026-12-11"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "(면접대상자 자기소개서 온라인 제출기간) | 2026. 12. 10.(목) ~ 12. 14.(월) 10:00",
+   "dates": [
+    "2026-12-10",
+    "2026-12-14"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "교육감 선발고(일반고) | 2026. 12. 3.(목) ~ 12. 7.(월)",
+   "dates": [
+    "2026-12-03",
+    "2026-12-07"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "교육감 선발고(일반고) | 2027. 1. 6.(수)",
+   "dates": [
+    "2027-01-06"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "- 배정학교 발표: 2027. 1. 28.(목)",
+   "dates": [
+    "2027-01-28"
+   ],
+   "words": [
+    "발표",
+    "배정"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "※ 교육감 선발 후기고 합격일(2027. 1. 6.(수))은 배정대상자를 발표하는 것임",
+   "dates": [
+    "2027-01-06"
+   ],
+   "words": [
+    "발표",
+    "배정",
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "▪ 교육감 선발고 입학전 배정 | - 인 터 넷 접 수: 2027. 2. 2.(화) ~ 2. 4.(목)",
+   "dates": [
+    "2027-02-02",
+    "2027-02-04"
+   ],
+   "words": [
+    "배정",
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "▪ 교육감 선발고 입학전 배정 | - 서 류 제 출: 2027. 2. 2.(화) ~ 2. 4.(목)",
+   "dates": [
+    "2027-02-02",
+    "2027-02-04"
+   ],
+   "words": [
+    "배정",
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "- 배정학교 발표: 2027. 2. 18.(목)",
+   "dates": [
+    "2027-02-18"
+   ],
+   "words": [
+    "발표",
+    "배정"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "산업수요맞춤형고 육성 기본계획(2008. 7. 7.)에 따른 학생 선발 기준",
+   "dates": [
+    "2008-07-07"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=8a9b2fe7-6b2a-4394-adfe-316c5d355ce6"
+  },
+  {
+   "text": "가) 모집단위 | ※ 단, 외국어고가 없는 시·도의 범위는 2029학년도 입학전형까지 전남광주통합특별시 출범(2026. 7. 1.) 이전의 광주광역시를 포함함",
+   "dates": [
+    "2026-07-01"
+   ],
+   "words": [
+    "모집"
+   ],
+   "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=bc57ccb0-10af-4324-b0ec-2dbd8cd72b22"
+  }
+ ],
+ "status": "dates"
+}

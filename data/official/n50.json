@@ -1,0 +1,105 @@
+{
+ "id": "n50",
+ "org": "광주 교육청 영재교육원(통합 선발)",
+ "what": "앞으로 120일 안 일정 4단계",
+ "checkedAt": "2026-10-22T05:31:22+09:00",
+ "opened": [
+  {
+   "url": "https://gice.gen.go.kr/board.es?mid=a10403020000&bid=0022&act=view&list_no=17423&tag=&nPage=1",
+   "status": "ok"
+  },
+  {
+   "url": "https://gice.gen.go.kr/menu.es?mid=a10403010000",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://gice.gen.go.kr/board.es?mid=a10403020000&bid=0022&act=view&list_no=17423&tag=&nPage=1",
+   "title": "[공고] 2027학년도 전남광주통합특별시교육청 광주 영재교육원 교육대상자 선발 계획 | 안내사항 | 영재선발 | 영재교육 : 전남광주통합특별시교육청광주창의융합교육원"
+  },
+  {
+   "url": "https://gice.gen.go.kr/menu.es?mid=a10403010000",
+   "title": "영재선발 소개 | 영재선발 | 영재교육 : 전남광주통합특별시교육청광주창의융합교육원"
+  }
+ ],
+ "files": [],
+ "lines": [
+  {
+   "text": "가. 학생 GED 지원서 접수: 2026. 10. 19.(월) ~ 10. 26.(월)",
+   "dates": [
+    "2026-10-19",
+    "2026-10-26"
+   ],
+   "words": [
+    "원서",
+    "접수",
+    "지원"
+   ],
+   "src": "https://gice.gen.go.kr/board.es?mid=a10403020000&bid=0022&act=view&list_no=17423&tag=&nPage=1"
+  },
+  {
+   "text": "나. 영재성 검사: 2026. 12. 5.(토)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://gice.gen.go.kr/board.es?mid=a10403020000&bid=0022&act=view&list_no=17423&tag=&nPage=1"
+  },
+  {
+   "text": "방법: 단위학교 자체기준 수립하여 추천 | 일자: 2026. 11. 6.(금)까지",
+   "dates": [
+    "2026-11-06"
+   ],
+   "words": [
+    "추천"
+   ],
+   "src": "https://gice.gen.go.kr/menu.es?mid=a10403010000"
+  },
+  {
+   "text": "2차: 영재성 검사(발명영역은 창의역량검사) | 일자: 2026. 12. 5.(토)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://gice.gen.go.kr/menu.es?mid=a10403010000"
+  },
+  {
+   "text": "결과발표: 2026. 12. 21.(월) 예정 기관별 선발 전형 일정이 상이하니 별도 계획 참고",
+   "dates": [
+    "2026-12-21"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://gice.gen.go.kr/menu.es?mid=a10403010000"
+  },
+  {
+   "text": "* 1차 교사관찰추천 | : 2026.11.6.(금)까지",
+   "dates": [
+    "2026-11-06"
+   ],
+   "words": [
+    "추천"
+   ],
+   "src": "https://gice.gen.go.kr/menu.es?mid=a10403010000"
+  },
+  {
+   "text": "* 2차 영재성 검사 | : 2026.12.5.(토)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://gice.gen.go.kr/menu.es?mid=a10403010000"
+  }
+ ],
+ "status": "dates"
+}

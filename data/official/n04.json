@@ -1,0 +1,22 @@
+{
+ "id": "n04",
+ "org": "하나고",
+ "what": "앞으로 120일 안 일정 4단계",
+ "checkedAt": "2026-10-22T05:28:26+09:00",
+ "opened": [
+  {
+   "url": "https://jinhak.sen.go.kr/subList/20000000430",
+   "status": "ok"
+  },
+  {
+   "url": "https://jinhak.sen.go.kr/subList/20000000422",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "not-found"
+}

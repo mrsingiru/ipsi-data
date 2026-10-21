@@ -1,7 +1,7 @@
 {
- "at": "2026-10-21T06:07:50+09:00",
- "targets": 12,
- "withDates": 8,
+ "at": "2026-10-22T05:34:42+09:00",
+ "targets": 40,
+ "withDates": 21,
  "items": [
   {
    "id": "n93",
@@ -94,10 +94,234 @@
   {
    "id": "n68",
    "org": "제주과학고",
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n01",
+   "org": "한성과학고",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 2
+  },
+  {
+   "id": "n02",
+   "org": "세종과학고(서울)",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n03",
+   "org": "서울 고입",
+   "status": "dates",
+   "lines": 50,
+   "files": 4,
+   "opened": 4
+  },
+  {
+   "id": "n04",
+   "org": "하나고",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 2
+  },
+  {
+   "id": "n15",
+   "org": "경기 미래과학교육원 영재원",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 3,
+   "opened": 2
+  },
+  {
+   "id": "n29",
+   "org": "대전동신과학고",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 1,
+   "opened": 1
+  },
+  {
+   "id": "n36",
+   "org": "충북과학고",
+   "status": "dates",
+   "lines": 7,
+   "files": 0,
+   "opened": 4
+  },
+  {
+   "id": "n37",
+   "org": "충북 고입",
+   "status": "dates",
+   "lines": 8,
+   "files": 4,
+   "opened": 5
+  },
+  {
+   "id": "n38",
+   "org": "청주교대 영재원",
+   "status": "dates",
+   "lines": 33,
+   "files": 2,
+   "opened": 4
+  },
+  {
+   "id": "n42",
+   "org": "충남 고입",
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n43",
+   "org": "북일고",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 2
+  },
+  {
+   "id": "n45",
+   "org": "강원 교육지원청 영재원",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 4
+  },
+  {
+   "id": "n46",
+   "org": "강원과학고",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 2
+  },
+  {
+   "id": "n47",
+   "org": "강원 고입",
+   "status": "dates",
+   "lines": 1,
+   "files": 4,
+   "opened": 4
+  },
+  {
+   "id": "n48",
+   "org": "민족사관고",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n50",
+   "org": "광주 교육청 영재교육원(통합 선발)",
+   "status": "dates",
+   "lines": 7,
+   "files": 0,
+   "opened": 2
+  },
+  {
+   "id": "n51",
+   "org": "광주 고입",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n54",
+   "org": "전북 교육지원청 영재원",
+   "status": "dates",
+   "lines": 60,
+   "files": 4,
+   "opened": 3
+  },
+  {
+   "id": "n55",
+   "org": "전북과학고",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 2
+  },
+  {
+   "id": "n56",
+   "org": "전북 고입",
+   "status": "dates",
+   "lines": 60,
+   "files": 6,
+   "opened": 5
+  },
+  {
+   "id": "n58",
+   "org": "전북대 영재원",
+   "status": "dates",
+   "lines": 2,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n66",
+   "org": "순천대 영재원",
+   "status": "dates",
+   "lines": 5,
+   "files": 5,
+   "opened": 6
+  },
+  {
+   "id": "n69",
+   "org": "제주 고입",
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n72",
+   "org": "부산과학고",
+   "status": "dates",
+   "lines": 8,
+   "files": 4,
+   "opened": 6
+  },
+  {
+   "id": "n73",
+   "org": "부산일과학고",
+   "status": "dates",
+   "lines": 3,
+   "files": 2,
+   "opened": 6
+  },
+  {
+   "id": "n74",
+   "org": "부산 고입",
+   "status": "dates",
+   "lines": 3,
+   "files": 0,
+   "opened": 5
+  },
+  {
+   "id": "n86",
+   "org": "경북 교육지원청 영재원",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 2
+  },
+  {
+   "id": "n98",
+   "org": "경상국립대 영재원",
    "status": "found-no-dates",
    "lines": 0,
    "files": 2,
-   "opened": 2
+   "opened": 1
   }
  ]
 }

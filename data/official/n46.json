@@ -1,0 +1,27 @@
+{
+ "id": "n46",
+ "org": "강원과학고",
+ "what": "앞으로 120일 안 일정 3단계",
+ "checkedAt": "2026-10-22T05:31:00+09:00",
+ "opened": [
+  {
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/list.do?boardID=23257&m=0201&s=kangwonsh",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.gwe.go.kr/main/content.do?key=m2309182999773",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://www.gwe.go.kr/main/content.do?key=m2309182999773",
+   "title": "강원특별자치도교육청 - 특수목적고"
+  }
+ ],
+ "files": [],
+ "lines": [],
+ "status": "found-no-dates"
+}
