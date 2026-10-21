@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.23)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-10-21",
-"ver": "v28.23",
-"count": 447,
+"note": "페이지(공개판 v28.24)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-10-22",
+"ver": "v28.24",
+"count": 451,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -1055,6 +1055,19 @@
 "n35"
 ],
 "dated": "2026-10-07",
+"cycle": "w"
+},
+{
+"id": "5e1916b8fa",
+"url": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c",
+"host": "school.jbedu.kr",
+"name": "전북과학고 2027학년도 신입생 입학전형 요강(첨부)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n55"
+],
+"dated": "2026-10-22",
 "cycle": "w"
 },
 {
@@ -2831,6 +2844,20 @@
 "cycle": "w"
 },
 {
+"id": "4ac3e0c75e",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=103512&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+"host": "moe.go.kr",
+"name": "교육부 보도자료 '2028학년도 대학수학능력시험은 2027년 11월 18일(목)에 시행됩니다'(성적 통지 12월 10일)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"csat28moe",
+"dy"
+],
+"dated": "2025-06-01",
+"cycle": "m"
+},
+{
 "id": "614d88a3a0",
 "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&lev=0&statusYN=W&s=moe&m=020402&opType=N&boardSeq=94668",
 "host": "moe.go.kr",
@@ -3498,7 +3525,7 @@
 "id": "a804194446",
 "url": "https://www.hankyung.com/article/2026081753451",
 "host": "hankyung.com",
-"name": "한국경제(과학고 22곳 1,858명)",
+"name": "한국경제: 과학고 22곳 1,858명",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -3583,7 +3610,7 @@
 "id": "8dc384c2fd",
 "url": "https://www.heraldk.com/article/2026052817450068440",
 "host": "heraldk.com",
-"name": "헤럴드경제: 2027학년도 영재학교 일정",
+"name": "헤럴드경제, 2027학년도 영재학교 일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4376,20 +4403,6 @@
 "cycle": "m"
 },
 {
-"id": "c54d06de3d",
-"url": "https://sanedu.com/?p=32369",
-"host": "sanedu.com",
-"name": "산에듀, 2028학년도 대학입시 주요 전형 일정(대교협 발표 인용)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"dy",
-"dy28"
-],
-"dated": "2025-08-28",
-"cycle": "m"
-},
-{
 "id": "7ab2356f17",
 "url": "https://sanedu.com/?p=37214",
 "host": "sanedu.com",
@@ -4837,7 +4850,7 @@
 "id": "ebff52a5ad",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
 "host": "veritas-a.com",
-"name": "베리타스알파 '고입캘린더 (26/10/09~)'",
+"name": "베리타스알파: 고입 캘린더(2026-10-05)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -5571,14 +5584,16 @@
 "id": "bbe8a0855d",
 "url": "https://csatcdn.kice.re.kr/resources/pdf/guideline.pdf",
 "host": "csatcdn.kice.re.kr",
-"name": "2027학년도 수능 실시요강(PDF)",
+"name": "평가원: 2027학년도 대학수학능력시험 실시요강(원서 접수·성적 통지)",
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
+"csat27g",
+"dy",
 "kice-guide27",
 "q-past"
 ],
-"dated": "",
+"dated": "2026-08",
 "cycle": "w"
 },
 {
@@ -5649,6 +5664,7 @@
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
+"dy",
 "dy27k",
 "kcue27",
 "q-g3-after",
@@ -5739,16 +5755,18 @@
 "id": "2f2b01f843",
 "url": "https://www.kcue.or.kr/_upload/news/2026/04/30/application_ea0382f8ef4d92cda46a7e015aec3fef.pdf",
 "host": "kcue.or.kr",
-"name": "대교협 2028학년도 대학입학전형시행계획 주요사항",
+"name": "대교협: 2028학년도 대학입학전형시행계획 주요사항(일정)",
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
+"dy",
+"dy28",
 "kcue28main",
 "q-med",
 "q-med-ldoc",
 "q-med-quota"
 ],
-"dated": "2026-04-29",
+"dated": "2026-04-30",
 "cycle": "w"
 },
 {
@@ -5976,6 +5994,32 @@
 "cycle": "w"
 },
 {
+"id": "13d970be06",
+"url": "https://admission.ksa.hs.kr/iphak_kor/guidelines_2027.php",
+"host": "admission.ksa.hs.kr",
+"name": "한국과학영재학교 2027학년도 일반전형 요강",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"gs"
+],
+"dated": "",
+"cycle": "m"
+},
+{
+"id": "4179b6440c",
+"url": "https://admission.ksa.hs.kr/iphak_kor/guidelines_jang_2027.php",
+"host": "admission.ksa.hs.kr",
+"name": "한국과학영재학교 2027학년도 장영실전형 요강",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"gs"
+],
+"dated": "",
+"cycle": "m"
+},
+{
 "id": "3db8f310ba",
 "url": "https://www.bugil.hs.kr/admission/guideline.php",
 "host": "bugil.hs.kr",
@@ -6065,6 +6109,19 @@
 ],
 "dated": "",
 "cycle": "w"
+},
+{
+"id": "c6331a6f39",
+"url": "https://gsa.jge.hs.kr/sub/page.php?page_code=guide_03",
+"host": "gsa.jge.hs.kr",
+"name": "광주과학고 2027학년도 입학전형 요강",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"gs"
+],
+"dated": "",
+"cycle": "m"
 },
 {
 "id": "84d4466251",
