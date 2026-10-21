@@ -2,7 +2,7 @@
  "id": "n55",
  "org": "전북과학고",
  "what": "앞으로 120일 안 일정 5단계",
- "checkedAt": "2026-10-22T05:31:38+09:00",
+ "checkedAt": "2026-10-22T05:56:54+09:00",
  "opened": [
   {
    "url": "https://school.jbedu.kr/ejbs/M010402/",
@@ -10,6 +10,10 @@
   },
   {
    "url": "https://school.jbedu.kr/ejbs/M010402/view/6892790",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jbedu.kr/ejbs/M010402/view/6780389",
    "status": "ok"
   }
  ],
@@ -23,9 +27,128 @@
   {
    "url": "https://school.jbedu.kr/ejbs/M010402/view/6892790",
    "title": "입학안내<입학안내<전북과학고등학교"
+  },
+  {
+   "url": "https://school.jbedu.kr/ejbs/M010402/view/6780389",
+   "title": "입학안내<입학안내<전북과학고등학교"
   }
  ],
- "files": [],
- "lines": [],
- "status": "found-no-dates"
+ "files": [
+  {
+   "url": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c",
+   "name": "2027학년도 전북과학고등학교 신입생 입학전형 요강(공고).pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 174946,
+   "sha1": "c797ccdb5a9d"
+  }
+ ],
+ "lines": [
+  {
+   "text": "발표 | 9. 7.(월)",
+   "dates": [
+    "2026-09-07"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
+  },
+  {
+   "text": "발표 | ~ 11. 10.(화)",
+   "dates": [
+    "2026-11-10"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
+  },
+  {
+   "text": "소집면접 11. 20.(금)",
+   "dates": [
+    "2026-11-20"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
+  },
+  {
+   "text": "합격자 발표 12. 2.(수)",
+   "dates": [
+    "2026-12-02"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
+  },
+  {
+   "text": "1단계 서류 평가 | 9. 7.(월) ~ 11. 10.(화)",
+   "dates": [
+    "2026-09-07",
+    "2026-11-10"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
+  },
+  {
+   "text": "면접 대상자 발표 | 11. 13.(금)",
+   "dates": [
+    "2026-11-13"
+   ],
+   "words": [
+    "면접",
+    "발표"
+   ],
+   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
+  },
+  {
+   "text": "2단계 소집면접 평가 | 11. 20.(금)",
+   "dates": [
+    "2026-11-20"
+   ],
+   "words": [
+    "면접",
+    "평가"
+   ],
+   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
+  },
+  {
+   "text": "최종 합격자 발표 | 12. 2.(수)",
+   "dates": [
+    "2026-12-02"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
+  },
+  {
+   "text": "지원자 면담을 서류 평가 기간에 병행 실시하며, 필요한 경우 지원자 중학교의 | * 소집면담은 11. 4.(수) ~ 11. 6.(금)에 실시 예정이며, 세부 내용은 추후",
+   "dates": [
+    "2026-11-04",
+    "2026-11-06"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
+  },
+  {
+   "text": "합격자 발표 | 2027. 2. 1.(월) ~ 2. 2.(화) 17:00",
+   "dates": [
+    "2027-02-01",
+    "2027-02-02"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
+  }
+ ],
+ "status": "dates"
 }

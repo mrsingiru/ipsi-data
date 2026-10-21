@@ -2,10 +2,14 @@
  "id": "n04",
  "org": "하나고",
  "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-10-22T05:28:26+09:00",
+ "checkedAt": "2026-10-22T05:53:21+09:00",
  "opened": [
   {
    "url": "https://jinhak.sen.go.kr/subList/20000000430",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.hana.hs.kr/admission/freshmen.do",
    "status": "ok"
   },
   {
@@ -15,8 +19,13 @@
  ],
  "notices": [],
  "ged": [],
- "titles": [],
+ "titles": [
+  {
+   "url": "https://www.hana.hs.kr/admission/freshmen.do",
+   "title": "하나고등학교"
+  }
+ ],
  "files": [],
  "lines": [],
- "status": "not-found"
+ "status": "found-no-dates"
 }

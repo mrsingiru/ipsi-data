@@ -1,0 +1,64 @@
+{
+ "id": "n18",
+ "org": "경기북과학고",
+ "what": "앞으로 120일 안 일정 4단계",
+ "checkedAt": "2026-10-22T05:54:46+09:00",
+ "opened": [
+  {
+   "url": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8059&cntntsId=1594",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8059&cntntsId=1594",
+   "title": "2027 원서접수 및 전형일정 < 2027년 입학전형요항 | 경기북과학고등학교"
+  }
+ ],
+ "files": [],
+ "lines": [
+  {
+   "text": "2단계 대상자 발표 | 2026. 9. 21.(월) 14:00",
+   "dates": [
+    "2026-09-21"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8059&cntntsId=1594"
+  },
+  {
+   "text": "3단계 대상자 발표 | 2026. 11. 16.(월) 14:00",
+   "dates": [
+    "2026-11-16"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8059&cntntsId=1594"
+  },
+  {
+   "text": "3단계〔소집면접〕 | 2026. 11. 20.(금)",
+   "dates": [
+    "2026-11-20"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8059&cntntsId=1594"
+  },
+  {
+   "text": "최종 합격자 발표 | 2026. 11. 26.(목) 17:00",
+   "dates": [
+    "2026-11-26"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8059&cntntsId=1594"
+  }
+ ],
+ "status": "dates"
+}

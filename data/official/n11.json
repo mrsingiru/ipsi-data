@@ -1,0 +1,34 @@
+{
+ "id": "n11",
+ "org": "인천진산과학고",
+ "what": "앞으로 120일 안 일정 3단계",
+ "checkedAt": "2026-10-22T05:53:28+09:00",
+ "opened": [
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
+   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
+  }
+ ],
+ "files": [
+  {
+   "url": "javaScript:goFileDown('e1d565e383a060b3537f1f7ec8fe6579');",
+   "name": "2027학년도 인천과학고등학교 신입생 입학전형 요강.pdf",
+   "status": "robots"
+  },
+  {
+   "url": "javaScript:goFileDown('aedb39aa17fa80e1f986932a218eedfe');",
+   "name": "2027학년도 인천진산과학고등학교 신입생 입학전형 요강.pdf",
+   "status": "robots"
+  }
+ ],
+ "lines": [],
+ "status": "found-no-dates"
+}
