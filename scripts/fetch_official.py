@@ -10,7 +10,7 @@
 - 로그인·회원 전용 페이지는 열지 않습니다. 제목에 '명단'·'합격자'가 든 글·파일은 열지 않습니다(개인정보).
 - 원문 전체를 저장하지 않습니다. 날짜가 든 짧은 줄(160자 안)과 주소만 남깁니다(사실만 옮김, 저작권).
 - (2026-10-22) 일정을 그림으로만 올린 공고·스캔 PDF는 글자 인식(tesseract)으로 읽고, 그 줄에는 via: 'ocr'을 붙입니다.
-  글자 인식은 틀릴 수 있어, 페이지 날짜와 같을 때만 확인 근거가 되고 다를 때는 다른 공식 근거가 한 번 더 있어야 합니다.
+  글자 인식은 틀릴 수 있어, 페이지에 이미 있는 날짜와 같은 줄만 lines(확인 근거)에 넣고, 다른 날짜는 ocr_lines에만 남깁니다.
 
 쓰는 법: python scripts/fetch_official.py [watch/targets.json] [data/official]
 결과: data/official/<id>.json (대상마다), data/official_run.json(요약)
@@ -488,11 +488,18 @@ def read_post(F, url, tgt, today, res, depth_files=True):
     read_post_html(F, html, final, tgt, today, res, depth_files)
 
 
-def ocr_marked(lines):
-    """Lines read by 글자 인식 carry via 'ocr': a date that differs from the page is never trusted on this alone."""
+def ocr_route(lines, tgt, res):
+    """글자 인식 줄은 틀릴 수 있어 '확인'에만 씁니다(2026-10-22).
+    페이지에 이미 있는 날짜(tgt['expect'], build_targets가 넣음)와 시작·끝이 같은 줄만 lines(자료 점검이 근거로 씀)에 넣고,
+    다른 날짜·새 날짜는 ocr_lines에만 남깁니다 — 자료 점검은 이것만으로 날짜를 바꾸자고 제안하지 않습니다."""
+    keep = []
     for x in lines:
         x['via'] = 'ocr'
-    return lines
+        if any(s in x['dates'] and e in x['dates'] for s, e in tgt.get('expect', [])):
+            keep.append(x)
+        else:
+            res.setdefault('ocr_lines', []).append(x)
+    return keep
 
 
 SKIP_IMG = re.compile(r'(icon|logo|btn|bullet|common|layout|banner|blank|spacer|arrow|quick|footer|header|gnb|sns|img_?bg|/images?/(?:sub|main)/)', re.I)
@@ -557,7 +564,7 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
                         text = text_ocr_image(data)
                     else:
                         text = text_pdf_ocr(data, F)
-                    got = ocr_marked(date_lines(text, tgt.get('near', []), today, src_url))
+                    got = ocr_route(date_lines(text, tgt.get('near', []), today, src_url), tgt, res)
                     rec['reader'] = 'ocr'
                 res['lines'] += got
                 if not got:
@@ -579,7 +586,7 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
             if st3 == 'ok' and is_image(data) and len(data) >= 30 * 1024:
                 F.ocr_left -= 1
                 try:
-                    got = ocr_marked(date_lines(text_ocr_image(data), tgt.get('near', []), today, final))
+                    got = ocr_route(date_lines(text_ocr_image(data), tgt.get('near', []), today, final), tgt, res)
                     rec.update({'type': 'image', 'bytes': len(data), 'sha1': hashlib.sha1(data).hexdigest()[:12], 'lines': len(got)})
                     res['lines'] += got
                 except Exception as e:
@@ -741,6 +748,8 @@ def run(targets_path, out_dir):
         else:
             res['status'] = 'error'
         res['lines'] = res['lines'][:60]
+        if res.get('ocr_lines'):
+            res['ocr_lines'] = res['ocr_lines'][:30]
         json.dump(res, open(os.path.join(out_dir, tgt['id'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         summary.append({'id': tgt['id'], 'org': tgt['org'], 'status': res['status'], 'lines': len(res['lines']), 'files': len(res['files']),
                         'opened': len(res['opened'])})
