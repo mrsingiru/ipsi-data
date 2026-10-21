@@ -24,10 +24,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: 읽기 도구 설치(PDF·HWP)
+      - name: 읽기 도구 설치(PDF·HWP·그림 글자 인식)
         run: |
           pip install requests beautifulsoup4 lxml pdfminer.six olefile
-          sudo apt-get install -y -qq poppler-utils >/dev/null || true
+          sudo apt-get update -qq >/dev/null || true
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-kor >/dev/null || true
+          tesseract --list-langs || true
       - name: 공식 공고에서 날짜 줄 뽑기
         run: python scripts/fetch_official.py watch/targets.json data/official
       - name: 점검용 기록 올리기(저장소에는 넣지 않음)

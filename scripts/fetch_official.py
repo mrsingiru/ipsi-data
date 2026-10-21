@@ -9,6 +9,8 @@
 - 정직한 이름(User-Agent)으로, 사이트마다 1초 넘게 쉬며, 한 번 실행에 사이트당 최대 15번만 엽니다.
 - 로그인·회원 전용 페이지는 열지 않습니다. 제목에 '명단'·'합격자'가 든 글·파일은 열지 않습니다(개인정보).
 - 원문 전체를 저장하지 않습니다. 날짜가 든 짧은 줄(160자 안)과 주소만 남깁니다(사실만 옮김, 저작권).
+- (2026-10-22) 일정을 그림으로만 올린 공고·스캔 PDF는 글자 인식(tesseract)으로 읽고, 그 줄에는 via: 'ocr'을 붙입니다.
+  글자 인식은 틀릴 수 있어, 페이지 날짜와 같을 때만 확인 근거가 되고 다를 때는 다른 공식 근거가 한 번 더 있어야 합니다.
 
 쓰는 법: python scripts/fetch_official.py [watch/targets.json] [data/official]
 결과: data/official/<id>.json (대상마다), data/official_run.json(요약)
@@ -36,7 +38,9 @@ PER_HOST = 15
 HOST_LIMIT = {'https://ged.kedi.re.kr': 45}   # the GED notice list is 25 pages
 PAUSE = 1.2
 DENY = ('명단', '합격자', '로그인', 'login')
-FILE_EXT = ('.pdf', '.hwp', '.hwpx')
+FILE_EXT = ('.pdf', '.hwp', '.hwpx', '.jpg', '.jpeg', '.png')
+OCR_BUDGET = 40          # 2026-10-22: pictures read per run (글자 인식은 느려서 한 번 실행에 그림 40장까지)
+OCR_PDF_PAGES = 4        # a scanned PDF: first pages only (모집 일정은 보통 앞쪽에 있음)
 GED_LIST = 'https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex={}'
 GED_PAGES = 25
 
@@ -53,6 +57,7 @@ class Fetcher:
         self.count = {}
         self.last = {}
         self.debug = []
+        self.ocr_left = OCR_BUDGET
 
     def _host(self, url):
         p = urllib.parse.urlsplit(url)
@@ -163,6 +168,52 @@ def text_pdf_layout(data):
         return r.stdout.decode('utf-8', 'ignore')
 
 
+def ocr_ready():
+    import shutil
+    return bool(shutil.which('tesseract'))
+
+
+def text_ocr_image(data):
+    """글자 인식(2026-10-22): 모집 일정을 그림으로만 올린 공고·첨부. 한국어+영어, 표의 한 줄이 한 줄로 나오게(psm 6)."""
+    import subprocess
+    import tempfile
+    if not ocr_ready():
+        return ''
+    with tempfile.NamedTemporaryFile(suffix='.img') as tf:
+        tf.write(data)
+        tf.flush()
+        r = subprocess.run(['tesseract', tf.name, '-', '-l', os.environ.get('OCR_LANG', 'kor+eng'), '--psm', '6'], capture_output=True, timeout=120)
+        return r.stdout.decode('utf-8', 'ignore')
+
+
+def text_pdf_ocr(data, F=None):
+    """A scanned PDF (no text layer): first pages as pictures → 글자 인식."""
+    import glob
+    import shutil
+    import subprocess
+    import tempfile
+    if not (ocr_ready() and shutil.which('pdftoppm')):
+        return ''
+    out = []
+    with tempfile.TemporaryDirectory() as d:
+        p = os.path.join(d, 'f.pdf')
+        with open(p, 'wb') as fh:
+            fh.write(data)
+        subprocess.run(['pdftoppm', '-r', '200', '-l', str(OCR_PDF_PAGES), '-png', p, os.path.join(d, 'pg')], capture_output=True, timeout=180)
+        for f in sorted(glob.glob(os.path.join(d, 'pg*.png'))):
+            if F is not None:
+                if F.ocr_left <= 0:
+                    break
+                F.ocr_left -= 1
+            with open(f, 'rb') as fh:
+                out.append(text_ocr_image(fh.read()))
+    return '\n'.join(out)
+
+
+def is_image(data):
+    return data[:3] == b'\xff\xd8\xff' or data[:8] == b'\x89PNG\r\n\x1a\n'
+
+
 def text_hwp(data):
     """HWP 5 (OLE): BodyText/Section* streams, raw-deflate records, PARA_TEXT (tag 67) as UTF-16LE."""
     import olefile
@@ -232,6 +283,8 @@ def _file_text(data, name, ctype):
         return 'hwp', text_hwp(data)
     if data[:2] == b'PK' or low.endswith('.hwpx'):
         return 'hwpx', text_hwpx(data)
+    if is_image(data):
+        return 'image', ''   # read by 글자 인식 in read_post_html (budget-limited)
     return 'unknown', ''
 
 
@@ -435,10 +488,39 @@ def read_post(F, url, tgt, today, res, depth_files=True):
     read_post_html(F, html, final, tgt, today, res, depth_files)
 
 
+def ocr_marked(lines):
+    """Lines read by 글자 인식 carry via 'ocr': a date that differs from the page is never trusted on this alone."""
+    for x in lines:
+        x['via'] = 'ocr'
+    return lines
+
+
+SKIP_IMG = re.compile(r'(icon|logo|btn|bullet|common|layout|banner|blank|spacer|arrow|quick|footer|header|gnb|sns|img_?bg|/images?/(?:sub|main)/)', re.I)
+
+
+def body_images(soup, base):
+    """Pictures inside the notice body (공고 내용을 그림 한 장으로 올린 경우). Site decoration is skipped."""
+    out = []
+    for im in soup.find_all('img'):
+        src = (im.get('src') or im.get('data-src') or '').strip()
+        if not src or src.startswith('data:'):
+            continue
+        u = urllib.parse.urljoin(base.replace('post:', ''), src)
+        if SKIP_IMG.search(u) or denied(im.get('alt') or '') or denied(urllib.parse.unquote(u)):
+            continue
+        if not re.search(r'\.(jpe?g|png)(\?|$)', u, re.I) and not re.search(r'(download|file|atch|upload|editor|board)', u, re.I):
+            continue
+        if u not in out:
+            out.append(u)
+    return out[:3]
+
+
 def read_post_html(F, html, final, tgt, today, res, depth_files=True):
     soup = soup_of(html)
     title = re.sub(r'\s+', ' ', (soup.title.get_text() if soup.title else '')).strip()[:120]
     links = link_items(soup, final)
+    imgs = body_images(soup, final)
+    n_lines = len(res['lines'])
     res['lines'] += date_lines(visible_text(soup), tgt.get('near', []), today, final)
     if not depth_files:
         return
@@ -469,6 +551,14 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
                     got = date_lines(text_pdf_layout(data), tgt.get('near', []), today, src_url)
                     if got:
                         rec['reader'] = 'pdftotext'
+                if not got and F.ocr_left > 0 and ((kind == 'pdf' and len(text.strip()) < 200) or kind == 'image'):
+                    if kind == 'image':
+                        F.ocr_left -= 1
+                        text = text_ocr_image(data)
+                    else:
+                        text = text_pdf_ocr(data, F)
+                    got = ocr_marked(date_lines(text, tgt.get('near', []), today, src_url))
+                    rec['reader'] = 'ocr'
                 res['lines'] += got
                 if not got:
                     flat = re.sub(r'\s+', ' ', text)
@@ -479,6 +569,22 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
         res['files'].append(rec)
         if len(res['files']) >= 6:
             break
+    # 2026-10-22: nothing with dates in the text or files → the schedule may be a picture in the body (글자 인식, 최대 2장)
+    if len(res['lines']) == n_lines and imgs and ocr_ready():
+        for u in imgs[:2]:
+            if F.ocr_left <= 0:
+                break
+            st3, data, f3, ctype = F.get(u, binary=True)
+            rec = {'url': u, 'name': '본문 그림', 'status': st3, 'reader': 'ocr'}
+            if st3 == 'ok' and is_image(data) and len(data) >= 30 * 1024:
+                F.ocr_left -= 1
+                try:
+                    got = ocr_marked(date_lines(text_ocr_image(data), tgt.get('near', []), today, final))
+                    rec.update({'type': 'image', 'bytes': len(data), 'sha1': hashlib.sha1(data).hexdigest()[:12], 'lines': len(got)})
+                    res['lines'] += got
+                except Exception as e:
+                    rec.update({'status': 'parse-error', 'error': str(e)[:120]})
+                res['files'].append(rec)
     if len(res['files']) == n_files:
         F.debug.append({'id': tgt['id'], 'what': 'post-no-files', 'url': final, 'anchors': anchor_dump(soup_of(html), ['첨부', '다운', 'down', 'Down', 'hwp', 'pdf', 'file', 'File']),
                         'scripts': script_dump(html, ['fn_fileDownload', 'file_download', 'fn_download', 'fn_fileDown', 'download', 'fnDown', 'fileDown']),
