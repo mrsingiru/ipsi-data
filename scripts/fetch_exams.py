@@ -38,10 +38,11 @@ INCLUDE = re.compile(r'(중간|기말|지필|정기)\s*(고사|평가|시험)|[1
 EXCLUDE = re.compile(r'모의|학력평가|연합|수능|수학능력|진단|기초학력|학업성취|체력|듣기|면접|실기|수행|입학|입시|결과|답안|확인|대비|성적|원서|응시|재시험|추가시험|채점|이의|감독|출제|협의')
 NEAR = re.compile(r'고사|평가|시험')
 # v2 (2026-10-21): other events families plan around. type: vac 방학·개학 · off 재량휴업 · cer 입학·졸업·종업 · pick 과목 선택 ·
-# gifted 영재(학급·교육원 관련) · meet 학부모 상담·설명회. Names are what the school typed; nothing personal is kept.
+# gifted 영재(학급·교육원 관련) · meet 학부모 상담·설명회·공개수업 · trip 수학여행·수련활동(숙박형, v3.1). Names are what the school typed; nothing personal is kept.
 OTHER = [('vac', re.compile(r'방학|개학')), ('off', re.compile(r'재량\s*휴업|학교장\s*재량|재량\s*휴일|개교\s*기념일')),
          ('cer', re.compile(r'졸업식|입학식|종업식|시업식')), ('pick', re.compile(r'수강\s*신청|과목\s*선택|선택\s*과목|교육과정\s*(선택|수요)')),
-         ('gifted', re.compile(r'영재')), ('meet', re.compile(r'학부모\s*(상담|총회|연수|설명회)|상담\s*주간|입학\s*설명회|교육과정\s*설명회'))]
+         ('gifted', re.compile(r'영재')), ('meet', re.compile(r'학부모\s*(상담|총회|연수|설명회)|상담\s*주간|입학\s*설명회|교육과정\s*설명회|공개\s*수업|수업\s*공개|참관')),
+         ('trip', re.compile(r'수학\s*여행|수련\s*(활동|회)|숙박형|야영'))]   # v3.1 (2026-10-21): 초등 부모용 — 공개수업·참관, 숙박형 체험(영재원 시험과 겹치는지 보려고). 하루짜리 현장체험학습은 넣지 않음
 OTHER_EXCLUDE = re.compile(r'토요|공휴일|대체|휴무|봉사|준비|협의|회의|연수\(교원|교직원|교사')
 GRADE_FIELDS = ['ONE_GRADE_EVENT_YN', 'TW_GRADE_EVENT_YN', 'THREE_GRADE_EVENT_YN',
                 'FR_GRADE_EVENT_YN', 'FIV_GRADE_EVENT_YN', 'SIX_GRADE_EVENT_YN']
