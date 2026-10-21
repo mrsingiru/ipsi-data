@@ -2,7 +2,7 @@
  "id": "n15",
  "org": "경기 미래과학교육원 영재원",
  "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-10-22T06:09:09+09:00",
+ "checkedAt": "2026-10-22T07:42:52+09:00",
  "opened": [
   {
    "url": "https://www.gise.kr/gise/na/ntt/selectNttInfo.do?mi=10751&bbsId=6147&nttSn=1200499",
@@ -40,8 +40,53 @@
    "url": "https://www.gise.kr/gise/common/nttFileDownload.do?fileKey=e349419253324dcf397ca11afce1bf66",
    "name": "[붙임3] 관련 양식.hwp",
    "status": "error"
+  },
+  {
+   "url": "https://www.gise.kr/upload/giseadm/editor/cheditor/upload/image_20260928193447.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 435246,
+   "sha1": "76717a5a3427",
+   "lines": 0
+  },
+  {
+   "url": "https://www.gise.kr/upload/giseadm/editor/cheditor/upload/image_20260928193452.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 389422,
+   "sha1": "b5300cd5b950",
+   "lines": 0
   }
  ],
  "lines": [],
+ "ocr_lines": [
+  {
+   "text": "원서접수(온라인지웨| onion GEDAABOM 온라인 지원 및 서류 제출 | 2자전형다자빌또 | 2026. 11. 13/8) 1800” SED AE 지린 보기메서 한적 여부 개봉 획인",
+   "dates": [
+    "2026-11-13"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.gise.kr/gise/na/ntt/selectNttInfo.do?mi=10751&bbsId=6147&nttSn=1200499",
+   "via": "ocr"
+  },
+  {
+   "text": "HS 합격자 발표 2027. 1. 15.(금) 18:00 GED 시스템(나의 지원 보기)예서 합격 여부 개! 인",
+   "dates": [
+    "2027-01-15"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.gise.kr/gise/na/ntt/selectNttInfo.do?mi=10751&bbsId=6147&nttSn=1200499",
+   "via": "ocr"
+  }
+ ],
  "status": "found-no-dates"
 }

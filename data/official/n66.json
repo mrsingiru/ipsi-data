@@ -2,7 +2,7 @@
  "id": "n66",
  "org": "순천대 영재원",
  "what": "앞으로 120일 안 일정 1단계",
- "checkedAt": "2026-10-22T06:15:38+09:00",
+ "checkedAt": "2026-10-22T07:48:11+09:00",
  "opened": [
   {
    "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281291784&mi=4659&currPage=1",
@@ -67,6 +67,16 @@
   }
  ],
  "files": [
+  {
+   "url": "https://www.scnu.ac.kr/editor/x_free/upload/20260106/IMG_105154.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 72359,
+   "sha1": "759cd5ba0674",
+   "lines": 0
+  },
   {
    "url": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228",
    "name": "2027학년도 국립순천대학교 과학영재교육원 신입생 선발 모집공고 및 제출서류.pdf",

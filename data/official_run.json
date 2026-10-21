@@ -1,7 +1,7 @@
 {
- "at": "2026-10-22T06:16:53+09:00",
+ "at": "2026-10-22T07:49:07+09:00",
  "targets": 48,
- "withDates": 24,
+ "withDates": 26,
  "items": [
   {
    "id": "n93",
@@ -39,7 +39,7 @@
    "id": "n00",
    "org": "서울 교육청 영재원",
    "status": "dates",
-   "lines": 58,
+   "lines": 40,
    "files": 6,
    "opened": 4
   },
@@ -64,7 +64,7 @@
    "org": "대구교대 영재원",
    "status": "dates",
    "lines": 7,
-   "files": 4,
+   "files": 5,
    "opened": 2
   },
   {
@@ -128,7 +128,7 @@
    "org": "하나고",
    "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
+   "files": 1,
    "opened": 3
   },
   {
@@ -152,7 +152,7 @@
    "org": "경기 미래과학교육원 영재원",
    "status": "found-no-dates",
    "lines": 0,
-   "files": 3,
+   "files": 5,
    "opened": 2
   },
   {
@@ -176,7 +176,7 @@
    "org": "분당중앙과학고",
    "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
+   "files": 1,
    "opened": 1
   },
   {
@@ -184,24 +184,24 @@
    "org": "대전동신과학고",
    "status": "found-no-dates",
    "lines": 0,
-   "files": 1,
+   "files": 3,
    "opened": 1
   },
   {
    "id": "n36",
    "org": "충북과학고",
-   "status": "robots",
-   "lines": 0,
+   "status": "dates",
+   "lines": 7,
    "files": 0,
    "opened": 4
   },
   {
    "id": "n37",
    "org": "충북 고입",
-   "status": "robots",
-   "lines": 0,
-   "files": 0,
-   "opened": 2
+   "status": "dates",
+   "lines": 8,
+   "files": 4,
+   "opened": 5
   },
   {
    "id": "n38",
@@ -320,7 +320,7 @@
    "org": "순천대 영재원",
    "status": "dates",
    "lines": 5,
-   "files": 5,
+   "files": 6,
    "opened": 6
   },
   {

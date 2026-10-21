@@ -2,7 +2,7 @@
  "id": "n00",
  "org": "서울 교육청 영재원",
  "what": "일정 단계 날짜",
- "checkedAt": "2026-10-22T06:06:49+09:00",
+ "checkedAt": "2026-10-22T07:40:48+09:00",
  "opened": [
   {
    "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000009/board/BO00000122/ctgynone/list0010v.do",
@@ -76,6 +76,16 @@
    "sha1": "8d1fde47e3f7"
   },
   {
+   "url": "https://ssei.sen.go.kr/sge/uploads/EDITOR/BO00000122/2026/6/5/20260605030525049.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 81647,
+   "sha1": "5a469643510d",
+   "lines": 0
+  },
+  {
    "url": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4035&file_seq=1&alias_name=20260919045136613_1",
    "name": "2027학년도 동부교육지원청영재교육원 중등 영재교육대상자 모집요강(공고용).hwp",
    "status": "ok",
@@ -90,14 +100,6 @@
    "type": "hwp",
    "bytes": 327680,
    "sha1": "53065c112c42"
-  },
-  {
-   "url": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2",
-   "name": "2027학년도 동부교육지원청영재교육원 중등 영재교육대상자 모집요강(공고용).hwp",
-   "status": "ok",
-   "type": "hwp",
-   "bytes": 472576,
-   "sha1": "2d30acec6789"
   }
  ],
  "lines": [
@@ -509,191 +511,6 @@
     "추천"
    ],
    "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=1&alias_name=20260919045052465_1"
-  },
-  {
-   "text": "2027학년도 동부교육지원청영재교육원 중등 영재교육대상자 모집요강(요약) | 모집요강 공고일 : 2026. 9. 18.(금)",
-   "dates": [
-    "2026-09-18"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "지원 | 11.4.(수)",
-   "dates": [
-    "2026-11-04"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "2027학년도 동부교육지원청영재교육원 중등 영재교육대상자 모집요강 | 모집요강 공고일 : 2026. 9. 18.(금)",
-   "dates": [
-    "2026-09-18"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "나. (사회통합대상자: 4쪽) 동부교육지원청 중등 영재교육원에 지원하는 사회통합대상자 증빙서류는 동부교육지원청 중등교육지원과로 직접 제출(2026. 11. 23.(월) 18:00까지)",
-   "dates": [
-    "2026-11-23"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "다. (소속기관이 없는 학교 밖 청소년: 6쪽) 동부교육지원청 중등 영재교육원에 지원하는 소속기관이 없는 학교 밖 청소년 지원자는 영재교육 영역과 관련한 재능을 판단할 수 있는 자료(포트폴리오(20매 이내), 동영상 파일(미술의 경우))과 주민등록등본(초본)을 동부교육지원청 중등교…",
-   "dates": [
-    "2026-11-11"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "1) 지원 마감일(2026.11.11.) 까지 전출한 경우: 전입교에서 전형 절차 실시",
-   "dates": [
-    "2026-11-11"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "2) 지원 마감일(2026.11.12.) 이후 전출한 경우: 전출교에서 전형 절차 시행(학생은 GED에서 학교명 변경 금지, 전학 전 관할 교육지원청에서 평가 실시, 전학 사실을 전학 전 학교 담임이 해당 영재교육원 업무담당자에게 업무 메일로 연락)",
-   "dates": [
-    "2026-11-12"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "- 납부 기간: 11.4.(수)~11.11.(수) 18:00까지(기간 내 미납 시 지원 불가)",
-   "dates": [
-    "2026-11-04",
-    "2026-11-11"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "- 전형료 환불: 11.11.(수) 18:00까지의 지원 취소자에게는 전형료 전액 환불",
-   "dates": [
-    "2026-11-11"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "추천 | 11.4.(수)",
-   "dates": [
-    "2026-11-04"
-   ],
-   "words": [
-    "추천"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "※ 서울시교육청 영재교육원은 서울시교육청 소속 학생 및 서울 거주 학교 밖 청소년만 지원, 재원, 수료 가능 | 12.5.(토) 08:30~",
-   "dates": [
-    "2026-12-05"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "- 장소: 교육지원청별 지정 장소 | * 수험표 출력: 12.1.(화)~12.4.(금), GED 접속하여 수험표 출력(응시 장소 기재)",
-   "dates": [
-    "2026-12-01",
-    "2026-12-04"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "- 대상: 지원자 전체 | - 일시: 12.5.(토) 08:30~ (응시자 확인 및 유의사항 안내 후 09:00에 시험 시작)",
-   "dates": [
-    "2026-12-05"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "- 동부교육지원청 영재교육원에 지원하는 경우, 지원자(보호자)가 아래 서류 원본을 동부교육지원청 중등교육지원과로 2026. 11. 23.(월) 18:00까지 직접 제출",
-   "dates": [
-    "2026-11-23"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "① 동부교육지원청 영재교육원에 지원하는 경우 아래 서류 원본을 동부교육지원청 중등교육지원과로 2026. 11. 10.(화) 18:00까지 직접 제출",
-   "dates": [
-    "2026-11-10"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "나. (기간) 2026. 11. 4.(수)~11. 11.(수) 18:00까지(기간 내 미납 시 지원 불가)",
-   "dates": [
-    "2026-11-04",
-    "2026-11-11"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "라. 2026. 11. 11.(수) 18:00까지 GED에서 지원을 취소하는 경우 납부한 전형료는 전액 환불됨 (2026. 11. 11.(수) 18:00 이후 취소자는 전형료 환불되지 않음)",
-   "dates": [
-    "2026-11-11",
-    "2026-11-11"
-   ],
-   "words": [
-    "지원"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
-  },
-  {
-   "text": "농협 123-456-**** (납부기간: 2026.11.4.~11.11. 18:00까지) 전형료 미납시 추천 불가",
-   "dates": [
-    "2026-11-04",
-    "2026-11-11"
-   ],
-   "words": [
-    "추천"
-   ],
-   "src": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=2&alias_name=20260919045052468_2"
   }
  ],
  "status": "dates"

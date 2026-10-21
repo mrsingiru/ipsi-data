@@ -2,7 +2,7 @@
  "id": "n20",
  "org": "분당중앙과학고",
  "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-10-22T06:10:29+09:00",
+ "checkedAt": "2026-10-22T07:44:19+09:00",
  "opened": [
   {
    "url": "https://bdja-h.goesn.kr/bdja-h/cm/cntnts/cntntsView.do?mi=27552&cntntsId=4832",
@@ -17,7 +17,18 @@
    "title": "분당중앙고등학교"
   }
  ],
- "files": [],
+ "files": [
+  {
+   "url": "https://bdja-h.goesn.kr/upload/bdja-h/subImg/img_6381ed96-5246-422a-b697-21ad6b294ac31641791472613.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 675265,
+   "sha1": "04927d57a62a",
+   "lines": 0
+  }
+ ],
  "lines": [],
  "status": "found-no-dates"
 }
