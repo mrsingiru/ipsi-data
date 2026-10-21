@@ -1,0 +1,849 @@
+{
+ "note": "자동으로 만든 공식 공고 읽기 대상(tools/build_targets.py, ipsi-site). 페이지를 게시할 때마다 다시 만든다. 손으로 적은 watch/targets.json이 같은 id보다 우선.",
+ "made": "2026-10-22",
+ "ver": "v28.20",
+ "horizonDays": 120,
+ "targets": [
+  {
+   "id": "n00",
+   "org": "서울 교육청 영재원",
+   "what": "앞으로 120일 안 일정 1단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000022/board/BO00000124/ctgynone/view0010v.do?board_seq=872"
+    },
+    {
+     "kind": "board",
+     "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000009/board/BO00000122/ctgynone/list0010v.do"
+    },
+    {
+     "kind": "post",
+     "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000049/html/cont0010v.do"
+    },
+    {
+     "kind": "post",
+     "url": "https://friend.sen.go.kr/cop/bbs/selectArticleDetail.do?bbsId=BBSMSTR_000000000001&nttId=1676&menuNo=4010000&pageIndex=1"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "원서",
+    "지원"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n01",
+   "org": "한성과학고",
+   "what": "앞으로 120일 안 일정 4단계",
+   "pages": [
+    {
+     "kind": "board",
+     "url": "https://jinhak.sen.go.kr/subList/20000000430"
+    },
+    {
+     "kind": "board",
+     "url": "https://jinhak.sen.go.kr/subList/20000000421"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "발표",
+    "평가"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n02",
+   "org": "세종과학고(서울)",
+   "what": "앞으로 120일 안 일정 4단계",
+   "pages": [
+    {
+     "kind": "board",
+     "url": "https://jinhak.sen.go.kr/subList/20000000430"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "발표",
+    "평가"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n03",
+   "org": "서울 고입",
+   "what": "앞으로 120일 안 일정 11단계",
+   "pages": [
+    {
+     "kind": "board",
+     "url": "https://jinhak.sen.go.kr/subList/20000000430"
+    },
+    {
+     "kind": "board",
+     "url": "https://jinhak.sen.go.kr/subList/20000000422"
+    },
+    {
+     "kind": "post",
+     "url": "https://www.sen.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1068&q_bbsDocNo=20260331091528935"
+    },
+    {
+     "kind": "post",
+     "url": "https://www.sen.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1068&q_bbsDocNo=20260901155446256"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "등록",
+    "면접",
+    "모집",
+    "발표",
+    "배정",
+    "선발",
+    "원서",
+    "접수"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n04",
+   "org": "하나고",
+   "what": "앞으로 120일 안 일정 4단계",
+   "pages": [
+    {
+     "kind": "board",
+     "url": "https://jinhak.sen.go.kr/subList/20000000430"
+    },
+    {
+     "kind": "board",
+     "url": "https://jinhak.sen.go.kr/subList/20000000422"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "발표",
+    "원서",
+    "접수"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n15",
+   "org": "경기 미래과학교육원 영재원",
+   "what": "앞으로 120일 안 일정 4단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://www.gise.kr/gise/na/ntt/selectNttInfo.do?mi=10751&bbsId=6147&nttSn=1200499"
+    },
+    {
+     "kind": "post",
+     "url": "https://www.gise.kr/gise/cm/cntnts/cntntsView.do?mi=10775&cntntsId=1612"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "발표",
+    "원서",
+    "접수",
+    "평가"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n29",
+   "org": "대전동신과학고",
+   "what": "앞으로 120일 안 일정 3단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://ddsciencehs.djsch.kr/sub/info.do?m=0202&s=ddsciencehs"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "발표"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n36",
+   "org": "충북과학고",
+   "what": "앞으로 120일 안 일정 4단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://school.cbe.go.kr/cbs-h/M010302/view/5843824"
+    },
+    {
+     "kind": "post",
+     "url": "https://school.cbe.go.kr/daeje-m/M01030401/"
+    },
+    {
+     "kind": "post",
+     "url": "https://school.cbe.go.kr/cbs-h/M010301/"
+    },
+    {
+     "kind": "post",
+     "url": "https://school.cbe.go.kr/cbs-h/M010302/view/5828250"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "발표",
+    "평가"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n37",
+   "org": "충북 고입",
+   "what": "앞으로 120일 안 일정 7단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://school.cbe.go.kr/daeje-m/M01030401/"
+    },
+    {
+     "kind": "board",
+     "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttList.do?mi=11465&bbsId=1779"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "발표",
+    "배정",
+    "원서",
+    "접수"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n38",
+   "org": "청주교대 영재원",
+   "what": "앞으로 120일 안 일정 5단계",
+   "pages": [
+    {
+     "kind": "board",
+     "url": "https://cucocr.cje.ac.kr/main/board/list.action?q=b2f6de7a33c99b2d64f087fbd9088c6a15f51ea60a87c4ce426a61f2fcbf712c"
+    },
+    {
+     "kind": "post",
+     "url": "https://cucocr.cje.ac.kr/main/contents/handbook.action?q=3803d66a807060d334b8cc1e551bf3befae86f6b042072e8b9c3728b866c4cf2"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "등록",
+    "면접",
+    "발표",
+    "원서",
+    "접수",
+    "추천"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n42",
+   "org": "충남 고입",
+   "what": "앞으로 120일 안 일정 6단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://www.cnfl.cnehs.kr/sub/info.do?m=0210&s=cnfl"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "발표",
+    "원서",
+    "접수"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n43",
+   "org": "북일고",
+   "what": "앞으로 120일 안 일정 8단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=guideline&idx=8915&no=1"
+    },
+    {
+     "kind": "post",
+     "url": "https://www.bugil.hs.kr/admission/guideline.php"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "등록",
+    "면접",
+    "발표",
+    "원서",
+    "접수"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n44",
+   "org": "공주대 영재원",
+   "what": "앞으로 120일 안 일정 4단계",
+   "pages": [
+    {
+     "kind": "board",
+     "url": "https://gifted.kongju.ac.kr/main/board/list.php?q=90f73afc767f94d4f754be1801c8fba0f923df45463f527de14cabc7d5011189"
+    },
+    {
+     "kind": "post",
+     "url": "https://gifted.kongju.ac.kr/main/contents/handbook.php?q=d8bc32ddf8f9a195938ce3185cf73edd9d33b5190ff372611e680b15e3b67c15"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "발표",
+    "원서",
+    "추천"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n45",
+   "org": "강원 교육지원청 영재원",
+   "what": "앞으로 120일 안 일정 2단계",
+   "pages": [
+    {
+     "kind": "board",
+     "url": "https://wjgift.gwe.go.kr/boardCnts/list.do?boardID=99694&m=0201&s=kwwjegp"
+    },
+    {
+     "kind": "board",
+     "url": "https://gwgned.gwe.go.kr/boardCnts/list.do?boardID=100599&m=100802&s=gwgned"
+    },
+    {
+     "kind": "board",
+     "url": "https://kwthe.gwe.go.kr/boardCnts/list.do?boardID=2519&m=100801&s=kwthe"
+    },
+    {
+     "kind": "post",
+     "url": "https://gwcce.gwe.go.kr/sub/info.do?m=051003&s=gwcce"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "발표",
+    "선발"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n46",
+   "org": "강원과학고",
+   "what": "앞으로 120일 안 일정 3단계",
+   "pages": [
+    {
+     "kind": "board",
+     "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/list.do?boardID=23257&m=0201&s=kangwonsh"
+    },
+    {
+     "kind": "post",
+     "url": "https://www.gwe.go.kr/main/content.do?key=m2309182999773"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "발표"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n47",
+   "org": "강원 고입",
+   "what": "앞으로 120일 안 일정 1단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=55051&key=m2307210603513"
+    },
+    {
+     "kind": "post",
+     "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513"
+    },
+    {
+     "kind": "post",
+     "url": "https://www.gwe.go.kr/main/sub.do?key=bTIzMDcyMTA1ODg1NjU%3D"
+    },
+    {
+     "kind": "board",
+     "url": "https://gf.gwe.hs.kr/boardCnts/list.do?boardID=19809&m=0401&s=gf"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "원서",
+    "접수"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n48",
+   "org": "민족사관고",
+   "what": "앞으로 120일 안 일정 1단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://www.gwe.go.kr/main/sub.do?key=bTIzMDcyMTA1ODg1NjU%3D"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "원서",
+    "접수"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n50",
+   "org": "광주 교육청 영재교육원(통합 선발)",
+   "what": "앞으로 120일 안 일정 4단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://gice.gen.go.kr/board.es?mid=a10403020000&bid=0022&act=view&list_no=17423&tag=&nPage=1"
+    },
+    {
+     "kind": "post",
+     "url": "https://gice.gen.go.kr/menu.es?mid=a10403010000"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "검사",
+    "발표",
+    "원서",
+    "접수",
+    "지원",
+    "추천"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n51",
+   "org": "광주 고입",
+   "what": "앞으로 120일 안 일정 4단계",
+   "pages": [
+    {
+     "kind": "board",
+     "url": "https://samyook.jge.ms.kr/xboard/board.php?mode=downpost&tbnum=31&sCat=0&page=1&keyset=&searchword=&number=9314&file_num=23366"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "발표",
+    "배정",
+    "원서",
+    "접수"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n54",
+   "org": "전북 교육지원청 영재원",
+   "what": "앞으로 120일 안 일정 10단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://office.jbedu.kr/gce/M01060802/view/6932713.do"
+    },
+    {
+     "kind": "post",
+     "url": "https://office.jbedu.kr/jbgse/M010601/view/6933158.do"
+    },
+    {
+     "kind": "post",
+     "url": "https://school.jbedu.kr/jeonjuedu/M01030701/view/6937190.do"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "검사",
+    "면접",
+    "발표",
+    "원서",
+    "지원",
+    "추천"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n55",
+   "org": "전북과학고",
+   "what": "앞으로 120일 안 일정 5단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://school.jbedu.kr/ejbs/M010402/"
+    },
+    {
+     "kind": "post",
+     "url": "https://school.jbedu.kr/ejbs/M010402/view/6892790"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "발표",
+    "평가"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n56",
+   "org": "전북 고입",
+   "what": "앞으로 120일 안 일정 3단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&searchOperation=AND&dataSid=1026755"
+    },
+    {
+     "kind": "board",
+     "url": "https://www.jbe.go.kr/jinro/board/list.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&contentsSid=946&cpath=%2Fjinro"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "발표",
+    "배정",
+    "원서",
+    "접수"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n58",
+   "org": "전북대 영재원",
+   "what": "앞으로 120일 안 일정 3단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://www.jbnu.ac.kr/web/Board/193947/detailView.do?menu=3070"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "검사",
+    "면접",
+    "선발",
+    "원서",
+    "접수"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n66",
+   "org": "순천대 영재원",
+   "what": "앞으로 120일 안 일정 1단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281291784&mi=4659&currPage=1"
+    },
+    {
+     "kind": "board",
+     "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttList.do?mi=4659&bbsId=2380"
+    },
+    {
+     "kind": "post",
+     "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "발표"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n68",
+   "org": "제주과학고",
+   "what": "앞으로 120일 안 일정 3단계",
+   "pages": [
+    {
+     "kind": "board",
+     "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttList.do?mi=108100&bbsId=118541"
+    },
+    {
+     "kind": "board",
+     "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttList.do?mi=108101&bbsId=118542"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "발표"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n69",
+   "org": "제주 고입",
+   "what": "앞으로 120일 안 일정 2단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://www.jje.go.kr/board/view.jje?menuCd=DOM_000000104007002001&boardId=BBS_0000485&dataSid=1463546"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "원서",
+    "접수"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n72",
+   "org": "부산과학고",
+   "what": "앞으로 120일 안 일정 6단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503"
+    },
+    {
+     "kind": "board",
+     "url": "https://school.busanedu.net/bss-h/na/ntt/selectNttList.do?mi=652753&bbsId=1041118"
+    },
+    {
+     "kind": "post",
+     "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12453&cntntsId=1853"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "등록",
+    "면접",
+    "발표"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n73",
+   "org": "부산일과학고",
+   "what": "앞으로 120일 안 일정 3단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12453&cntntsId=1853"
+    },
+    {
+     "kind": "board",
+     "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttList.do?mi=607024&bbsId=1004853"
+    },
+    {
+     "kind": "post",
+     "url": "https://school.busanedu.net/bsis-h/cm/cntnts/cntntsView.do?mi=607022&cntntsId=5070"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "등록",
+    "발표"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n74",
+   "org": "부산 고입",
+   "what": "앞으로 120일 안 일정 8단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12453&cntntsId=1853"
+    },
+    {
+     "kind": "board",
+     "url": "https://home.pen.go.kr/hischool/na/ntt/selectNttList.do?mi=12446&bbsId=4006"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "등록",
+    "발표",
+    "배정",
+    "원서",
+    "접수"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n79",
+   "org": "경북대 영재원",
+   "what": "앞으로 120일 안 일정 3단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://seigy.knu.ac.kr/student/40"
+    },
+    {
+     "kind": "post",
+     "url": "https://seigy.knu.ac.kr/student/42"
+    },
+    {
+     "kind": "post",
+     "url": "https://seigy.knu.ac.kr/student/43"
+    },
+    {
+     "kind": "site",
+     "url": "https://seigy.knu.ac.kr/student"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "등록",
+    "평가"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n86",
+   "org": "경북 교육지원청 영재원",
+   "what": "앞으로 120일 안 일정 4단계",
+   "pages": [
+    {
+     "kind": "board",
+     "url": "https://www.gbe.kr/main/na/ntt/selectNttList.do?mi=3439&bbsId=1876"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "검사",
+    "면접",
+    "발표",
+    "지원",
+    "추천"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n92",
+   "org": "경국대 영재원",
+   "what": "앞으로 120일 안 일정 2단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172553"
+    },
+    {
+     "kind": "post",
+     "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172552"
+    },
+    {
+     "kind": "board",
+     "url": "https://gifted.gknu.ac.kr/module/bbs/list.php?mid=/admission/recruitment"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "원서",
+    "추천"
+   ],
+   "auto": true
+  },
+  {
+   "id": "n98",
+   "org": "경상국립대 영재원",
+   "what": "앞으로 120일 안 일정 1단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://www.gnu.ac.kr/gifted/na/ntt/selectNttInfo.do?nttSn=8560962&mi=7217"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "원서",
+    "접수"
+   ],
+   "auto": true
+  }
+ ]
+}

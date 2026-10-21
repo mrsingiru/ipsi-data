@@ -581,8 +581,25 @@ def read_ged(F, find, tgt, today, res):
     return bool(hits)
 
 
-def run(targets_path, out_dir):
+def load_targets(targets_path):
+    """watch/targets.json(손으로 적은 것) + watch/targets_auto.json(페이지 게시 때 ipsi-site가 만든 것, 2026-10-22).
+    같은 id면 손으로 적은 것을 쓴다. ged 설정은 손으로 적은 파일만 따른다."""
     cfg = json.load(open(targets_path, encoding='utf-8'))
+    auto_path = os.path.join(os.path.dirname(targets_path) or '.', 'targets_auto.json')
+    if os.path.exists(auto_path):
+        try:
+            auto = json.load(open(auto_path, encoding='utf-8'))
+            have = {t['id'] for t in cfg['targets']}
+            extra = [t for t in auto.get('targets', []) if t.get('id') and t['id'] not in have and t.get('pages')]
+            cfg['targets'] = cfg['targets'] + extra
+            print('자동 대상 %d곳 더함(%s)' % (len(extra), auto.get('made', '')))
+        except Exception as e:
+            print('자동 대상 파일을 읽지 못함:', e)
+    return cfg
+
+
+def run(targets_path, out_dir):
+    cfg = load_targets(targets_path)
     today = kst_now().date()
     os.makedirs(out_dir, exist_ok=True)
     F = Fetcher()
