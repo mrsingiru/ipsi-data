@@ -2,7 +2,7 @@
  "id": "n79",
  "org": "경북대 영재원",
  "what": "일정 단계 날짜",
- "checkedAt": "2026-10-23T06:09:12+09:00",
+ "checkedAt": "2026-10-23T07:42:54+09:00",
  "opened": [
   {
    "url": "https://seigy.knu.ac.kr/student/46",
@@ -27,7 +27,7 @@
  ],
  "files": [
   {
-   "url": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=6ebcd618235e83d83db9|1792710553|bebb90b9ca8512083bd963f4171bc7397f07f3c6",
+   "url": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=c6806a11e58c671230d0|1792716175|619977535f8e930dcd0e53fcbb4894cb1eb4c971",
    "name": "2027학년도 경북대학교 과학영재교육원 초등기초과정초 4학년 대상 신입생 선발 모집 요강.pdf (302.7K)",
    "status": "ok",
    "type": "pdf",
@@ -35,7 +35,7 @@
    "sha1": "cbd43c290a72"
   },
   {
-   "url": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=1&nonce=6ebcd618235e83d83db9|1792710553|bebb90b9ca8512083bd963f4171bc7397f07f3c6",
+   "url": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=1&nonce=c6806a11e58c671230d0|1792716175|619977535f8e930dcd0e53fcbb4894cb1eb4c971",
    "name": "[서식] 2027학년도 경북대학교 과학영재교육원 신입생 선발 관련 서초등기초과정.hwp (92.5K)",
    "status": "ok",
    "type": "hwp",
@@ -43,7 +43,7 @@
    "sha1": "60deab48cf6e"
   },
   {
-   "url": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982",
+   "url": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32",
    "name": "2027학년도 경북대학교 과학영재교육원 중학심화과정 및 중학사사연구과정 신입생 선발 모집 요강.pdf (311.8K)",
    "status": "ok",
    "type": "pdf",
@@ -51,7 +51,7 @@
    "sha1": "b348440ea000"
   },
   {
-   "url": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=1&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982",
+   "url": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=1&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32",
    "name": "[서식] 2027학년도 경북대학교 과학영재교육원 신입생 선발 관련 서류중학심화과정 및 중학사사연구과정.hwp (52.0K)",
    "status": "ok",
    "type": "hwp",
@@ -61,7 +61,7 @@
  ],
  "lines": [
   {
-   "text": "[서식] 2027학년도 경북대학교 과학영재교육원 신입생 선발 관련 서초등기초과정.hwp (92.5K) | 47회 다운로드 | DATE : 2026-10-16 10:24:23",
+   "text": "[서식] 2027학년도 경북대학교 과학영재교육원 신입생 선발 관련 서초등기초과정.hwp (92.5K) | 49회 다운로드 | DATE : 2026-10-16 10:24:23",
    "dates": [
     "2026-10-16"
    ],
@@ -79,7 +79,7 @@
    "words": [
     "접수"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=6ebcd618235e83d83db9|1792710553|bebb90b9ca8512083bd963f4171bc7397f07f3c6"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=c6806a11e58c671230d0|1792716175|619977535f8e930dcd0e53fcbb4894cb1eb4c971"
   },
   {
    "text": "※ 제출 서류 미제출로 인한 책임은 지원자 본인에게 있음. | 자. 수험표 출력은 2026. 12. 7.(월) 이후 출력 가능",
@@ -89,7 +89,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=6ebcd618235e83d83db9|1792710553|bebb90b9ca8512083bd963f4171bc7397f07f3c6"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=c6806a11e58c671230d0|1792716175|619977535f8e930dcd0e53fcbb4894cb1eb4c971"
   },
   {
    "text": "마. 추천 기본 정보 입력→교사용 검사지 작성(체크리스트)→학교추천위원회 제출 | 가. 학교추천위원회 추천 기간: 2026. 11. 23.(월), 10:00 ~ 2026. 11. 26.(목), 18:00",
@@ -100,7 +100,7 @@
    "words": [
     "검사"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=6ebcd618235e83d83db9|1792710553|bebb90b9ca8512083bd963f4171bc7397f07f3c6"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=c6806a11e58c671230d0|1792716175|619977535f8e930dcd0e53fcbb4894cb1eb4c971"
   },
   {
    "text": "◾온라인 접수 기간: 2026. 11. 17.(화), 10:00 ~ 2026. 11. 23.(월), 17:00",
@@ -111,7 +111,7 @@
    "words": [
     "접수"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=6ebcd618235e83d83db9|1792710553|bebb90b9ca8512083bd963f4171bc7397f07f3c6"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=c6806a11e58c671230d0|1792716175|619977535f8e930dcd0e53fcbb4894cb1eb4c971"
   },
   {
    "text": "※ 마감 시간 이후 지원 불가 | ◾1단계 전형료 납부 기간: 2026. 11. 17.(화), 10:00 ~ 2026. 11. 23.(월), 18:00",
@@ -122,7 +122,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=6ebcd618235e83d83db9|1792710553|bebb90b9ca8512083bd963f4171bc7397f07f3c6"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=c6806a11e58c671230d0|1792716175|619977535f8e930dcd0e53fcbb4894cb1eb4c971"
   },
   {
    "text": "◾1단계 전형: 지원 서류 및 융합적 사고에 대한 창의적 문제해결력 평가 | - 일시: 2026. 12. 13.(일)",
@@ -132,7 +132,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=6ebcd618235e83d83db9|1792710553|bebb90b9ca8512083bd963f4171bc7397f07f3c6"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=c6806a11e58c671230d0|1792716175|619977535f8e930dcd0e53fcbb4894cb1eb4c971"
   },
   {
    "text": "◾최종 합격자 발표: 2026. 12. 28.(월), 15:00 이후",
@@ -142,7 +142,7 @@
    "words": [
     "발표"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=6ebcd618235e83d83db9|1792710553|bebb90b9ca8512083bd963f4171bc7397f07f3c6"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=c6806a11e58c671230d0|1792716175|619977535f8e930dcd0e53fcbb4894cb1eb4c971"
   },
   {
    "text": "※ 사회통합 전형 지원자는 전형료 면제 | 2026. 11. 23.(월), 18:00",
@@ -152,7 +152,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=6ebcd618235e83d83db9|1792710553|bebb90b9ca8512083bd963f4171bc7397f07f3c6"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=c6806a11e58c671230d0|1792716175|619977535f8e930dcd0e53fcbb4894cb1eb4c971"
   },
   {
    "text": "1. 최종합격자 발표: 2026. 12. 28.(월) 15:00 이후",
@@ -162,7 +162,7 @@
    "words": [
     "발표"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=6ebcd618235e83d83db9|1792710553|bebb90b9ca8512083bd963f4171bc7397f07f3c6"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=c6806a11e58c671230d0|1792716175|619977535f8e930dcd0e53fcbb4894cb1eb4c971"
   },
   {
    "text": "※ GED(https://ged.kedi.re.kr)에서 확인(지원자 본인이 직접 조회) | 2. 합격자 등록 기간: 2026. 12. 28.(월) ~ 2026. 12. 30.(수)",
@@ -173,7 +173,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=6ebcd618235e83d83db9|1792710553|bebb90b9ca8512083bd963f4171bc7397f07f3c6"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=c6806a11e58c671230d0|1792716175|619977535f8e930dcd0e53fcbb4894cb1eb4c971"
   },
   {
    "text": "※ GED(https://ged.kedi.re.kr)에서 확인(지원자 본인이 직접 조회) | 3. 제출 방법: 우편 제출(등기우편), 2026. 12. 30.(수) 소인까지 유효함.",
@@ -183,7 +183,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=6ebcd618235e83d83db9|1792710553|bebb90b9ca8512083bd963f4171bc7397f07f3c6"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=46&no=0&nonce=c6806a11e58c671230d0|1792716175|619977535f8e930dcd0e53fcbb4894cb1eb4c971"
   },
   {
    "text": "신입생 선발 모집 요강 | 2026년 9월 10일 공고",
@@ -193,7 +193,7 @@
    "words": [
     "선발"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "가. GED 온라인 접수 기간: 2026. 10. 13.(화), 10:00 ~ 2026. 10. 21.(수), 17:00",
@@ -204,7 +204,7 @@
    "words": [
     "접수"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "※ 제출 서류 미제출로 인한 책임은 지원자 본인에게 있음. | 자. 수험표 출력은 2026. 11. 3.(화) 이후 출력 가능",
@@ -214,7 +214,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "마. 추천기본정보 입력→교사용 검사지 작성(체크리스트)→학교추천위원회 제출 | 가. 학교추천위원회 추천 기간: 2026. 10. 16.(금), 10:00 ~ 2026. 10. 23.(금), 18:00",
@@ -225,7 +225,7 @@
    "words": [
     "검사"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "◾온라인 접수 기간: 2026. 10. 13.(화), 10:00 ~ 2026. 10. 21.(수), 17:00",
@@ -236,7 +236,7 @@
    "words": [
     "접수"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "※ 마감 시간 이후 지원 불가 | ◾1단계 전형료 납부 기간: 2026. 10. 13.(화), 10:00 ~ 2026. 10. 21.(수), 18:00",
@@ -247,7 +247,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "◾1단계 전형: 지원 서류 및 융합적 사고에 대한 창의적 문제해결력 평가 | - 일시: 2026. 11. 8.(일)",
@@ -257,7 +257,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "◾1단계 합격자 발표: 2026. 11. 20.(금), 15:00 이후",
@@ -267,7 +267,7 @@
    "words": [
     "발표"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "※ 사회통합 전형 지원자 전형료 면제 | - 일시: 2026. 12. 13.(일)",
@@ -277,7 +277,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "◾최종합격자 발표: 2026. 12. 28.(월), 15:00 이후",
@@ -287,7 +287,7 @@
    "words": [
     "발표"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "◾GED(https://ged.kedi.re.kr)에서 확인 (지원자 본인이 직접 조회) | ◾최종합격자 등록 기간: 2026. 12. 28.(월) ~ 2026. 12. 30.(수)",
@@ -298,7 +298,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "1단계 지원자 | 2026. 10. 13.(화), 10:00 ~",
@@ -308,7 +308,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "※ 사회통합 전형 지원자는 전형료 면제 | 2026. 10. 21.(수), 18:00",
@@ -318,7 +318,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "※ 사회통합 전형 지원자는 전형료 면제 | 2026. 11. 25.(수), 18:00",
@@ -328,7 +328,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "1. 최종합격자 발표: 2026. 12. 28.(월) 15:00 이후",
@@ -338,7 +338,7 @@
    "words": [
     "발표"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "※ GED(https://ged.kedi.re.kr)에서 확인 (지원자 본인이 직접 조회) | 2. 합격자 등록기간: 2026. 12. 28.(월) ~ 2026. 12. 30.(수)",
@@ -349,7 +349,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   },
   {
    "text": "※ GED(https://ged.kedi.re.kr)에서 확인 (지원자 본인이 직접 조회) | 3. 제출 방법: 우편 제출(등기우편), 2026. 12. 30.(수) 소인까지 유효함.",
@@ -359,7 +359,7 @@
    "words": [
     "지원"
    ],
-   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=57314a62fd4edf073cd4|1792710558|e15a246a3026902792fffdaf4442884fb2f2a982"
+   "src": "https://seigy.knu.ac.kr/bbs/download.php?bo_table=student&wr_id=45&no=0&nonce=fd297d062c56e4275c1b|1792716180|4cdd59896dc6227ee9fdad76073ad27dab0d2b32"
   }
  ],
  "status": "dates"

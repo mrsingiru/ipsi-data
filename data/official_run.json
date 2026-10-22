@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23T06:17:44+09:00",
+ "at": "2026-10-23T07:50:44+09:00",
  "targets": 48,
  "withDates": 26,
  "items": [
@@ -94,10 +94,10 @@
   {
    "id": "n68",
    "org": "제주과학고",
-   "status": "found-no-dates",
+   "status": "robots",
    "lines": 0,
-   "files": 2,
-   "opened": 2
+   "files": 0,
+   "opened": 1
   },
   {
    "id": "n01",
@@ -134,17 +134,17 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
-   "files": 2,
+   "files": 0,
    "opened": 1
   },
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
-   "files": 2,
+   "files": 0,
    "opened": 1
   },
   {
