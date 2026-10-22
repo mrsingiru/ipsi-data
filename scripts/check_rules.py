@@ -20,8 +20,11 @@ fo.PER_HOST = 20
 fo.HOST_LIMIT = {}
 KST = datetime.timezone(datetime.timedelta(hours=9))
 NOISE = re.compile(r'(조회|조회수|방문자|추천수|댓글|공유하기|좋아요|현재\s*시각|접속자|copyright|ⓒ|©|was this helpful|send feedback|need more help|sign in|cookie|쿠키|skip to main|on this page|table of contents|language|english|한국어)', re.I)
-UPDATED = re.compile(r'(Last updated|Updated on|Updated|Effective|최종\s*수정일?|최종\s*업데이트|업데이트|수정일|개정일|시행일)\s*[:：]?\s*'
-                     r'(\d{4}\s*[-./년]\s*\d{1,2}\s*[-./월]\s*\d{1,2}\s*일?|[A-Z][a-z]{2,8}\.? \d{1,2},? \d{4}|\d{1,2} [A-Z][a-z]{2,8},? \d{4})')
+DATE = r'(\d{4}\s*[-./년]\s*\d{1,2}\s*[-./월]\s*\d{1,2}\s*일?|[A-Z][a-z]{2,8}\.? \d{1,2},? \d{4}|\d{1,2} [A-Z][a-z]{2,8},? \d{4})'
+# 페이지 꼬리의 '마지막 수정'을 먼저 찾고, 없을 때만 넓은 낱말로 찾는다(개정 이력 본문의 옛 날짜를 잡지 않게)
+UPDATED = [re.compile(r'(Last updated|최종\s*업데이트|최종\s*수정일?)\s*[:：]?\s*' + DATE),
+           re.compile(r'(Updated on|Effective|시행일|개정일)\s*[:：]?\s*' + DATE),
+           re.compile(r'(Updated|업데이트|수정일)\s*[:：]?\s*' + DATE)]
 THIN = 600   # 본문 글자 수가 이보다 적으면 '못 읽음(본문 짧음)'
 
 
@@ -36,7 +39,12 @@ def h12(s):
 def analyse(html, watch):
     soup = BeautifulSoup(html, 'lxml')
     title = (soup.title.get_text(' ', strip=True) if soup.title else '')[:120]
-    m = UPDATED.search(re.sub(r'\s+', ' ', soup.get_text(' ', strip=True)))
+    flat = re.sub(r'\s+', ' ', soup.get_text(' ', strip=True))
+    m = None
+    for rx in UPDATED:
+        m = rx.search(flat)
+        if m:
+            break
     updated = re.sub(r'\s+', ' ', m.group(1) + ' ' + m.group(2)).strip() if m else ''
     for t in soup(['script', 'style', 'noscript', 'iframe', 'header', 'footer', 'nav', 'aside', 'form', 'svg', 'button']):
         t.decompose()
@@ -132,6 +140,8 @@ def main(reg_path, out_path, report_path):
         run['auto'] += 1
         if not due(src, prevs.get(sid), today):
             run['notDue'] += 1; out[sid] = p; continue
+        # 영어 원문은 영어로 받는다(한국어 번역판이 오면 감시 낱말·지문이 어긋남, 2026-10-22 첫 실행에서 확인)
+        F.s.headers['Accept-Language'] = 'ko-KR,ko;q=0.9' if src.get('lang') == 'ko' else 'en-US,en;q=0.9'
         st, data, final, ctype = F.get(src['url'])
         if st == 'limit':
             out[sid] = p; continue
