@@ -1,0 +1,45 @@
+name: 유튜브 주제 레이더(교육 채널 최근 30일 제목·조회수)
+
+on:
+  schedule:
+    - cron: '20 19 * * *'   # 매일 오전 4시 20분(한국 시간) — 질문 은행 예약(05:37)보다 먼저
+  workflow_dispatch:
+  push:   # 채널 목록이나 코드가 바뀌면 바로 한 번
+    branches: [main]
+    paths: ['watch/yt_channels.json', 'scripts/fetch_yt.py']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: yt
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 도구 설치
+        run: pip install requests beautifulsoup4 lxml pdfminer.six olefile
+      - name: 최근 영상 제목·조회수 읽기(열쇠가 있으면 공식 API, 없으면 robots를 지켜 RSS)
+        env:
+          YOUTUBE_KEY: ${{ secrets.YOUTUBE_KEY }}
+        run: python scripts/fetch_yt.py watch/yt_channels.json data/yt/latest.json data/yt/channels.json
+      - name: 바뀐 것이 있으면 저장
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/yt/latest.json data/yt/channels.json || true
+          if git diff --cached --quiet; then
+            echo "바뀐 것 없음"
+          else
+            git commit -m "유튜브 주제 레이더 $(TZ=Asia/Seoul date +%F)"
+            git pull --rebase -q || true
+            git push
+          fi
