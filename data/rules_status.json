@@ -1,14 +1,14 @@
 {
-"checkedAt": "2026-10-22T19:11+09:00",
+"checkedAt": "2026-10-23T06:47+09:00",
 "registry": {
-"updated": "2026-10-22",
-"rules": 39,
-"sources": 41
+"updated": "2026-10-23",
+"rules": 40,
+"sources": 44
 },
 "run": {
-"auto": 27,
-"opened": 0,
-"ok": 0,
+"auto": 29,
+"opened": 2,
+"ok": 2,
 "robots": 0,
 "failed": 0,
 "thin": 0,
@@ -17,9 +17,24 @@
 "summary": {
 "high": 0,
 "mid": 0,
-"low": 0
+"low": 2
 },
-"events": [],
+"events": [
+{
+"source": "g-dup",
+"rules": [],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "g-noindex",
+"rules": [
+"R-G4"
+],
+"level": "low",
+"what": "처음 기록"
+}
+],
 "sources": {
 "yt-monet": {
 "name": "채널 수익 창출 정책(진정성 없는 콘텐츠·재사용 콘텐츠)",
@@ -2314,6 +2329,141 @@
 "rules": [
 "R-T7"
 ]
+},
+"g-dup": {
+"name": "중복 URL 통합(대표 주소 canonical)",
+"owner": "Google 검색",
+"url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [],
+"checkedAt": "2026-10-23T06:47+09:00",
+"status": "ok",
+"final": "",
+"title": "How to Specify a Canonical with rel=\"canonical\" and Other Methods | Google Search Central  |  Documentation  |  Google f",
+"updated": "Last updated 2026-07-10",
+"chars": 12298,
+"hash": "156c42a383e4",
+"sections": [
+[
+"(첫 부분)",
+"cd94474cf974"
+],
+[
+"How to specify a canonical URL with rel=\"canonical\" and other methods",
+"65e5122c7045"
+],
+[
+"Reasons to specify a canonical URL",
+"1fbd585376c9"
+],
+[
+"Best practices",
+"17ffc1de0e4b"
+],
+[
+"Comparison of canonicalization methods",
+"b21be47c0132"
+],
+[
+"Use rel=\"canonical\" link annotations",
+"c9911a234122"
+],
+[
+"The rel=\"canonical\" link element",
+"9abafc608636"
+],
+[
+"The rel=\"canonical\" HTTP header",
+"967a7a302967"
+],
+[
+"Use a sitemap",
+"abad83d5282d"
+],
+[
+"Use redirects",
+"748898583011"
+],
+[
+"Other signals",
+"76961b6abe39"
+],
+[
+"Prefer HTTPS over HTTP for canonical URLs",
+"31b5b83dd21e"
+],
+[
+"Prefer URLs in hreflang clusters",
+"2006f1381e71"
+]
+],
+"watch": {
+"canonical": 84,
+"duplicate": 14,
+"noindex": 1
+},
+"lastOk": "2026-10-23T06:47+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"g-noindex": {
+"name": "noindex로 검색에서 빼기",
+"owner": "Google 검색",
+"url": "https://developers.google.com/search/docs/crawling-indexing/block-indexing?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-G4"
+],
+"checkedAt": "2026-10-23T06:47+09:00",
+"status": "ok",
+"final": "",
+"title": "Block Search Indexing with noindex | Google Search Central  |  Documentation  |  Google for Developers",
+"updated": "Last updated 2025-12-10",
+"chars": 3023,
+"hash": "cf7e6519807c",
+"sections": [
+[
+"(첫 부분)",
+"cd94474cf974"
+],
+[
+"Block Search indexing with noindex",
+"c2f7122746d7"
+],
+[
+"Implementing noindex",
+"c373c6836cd9"
+],
+[
+"<meta> tag",
+"8bc28b7e8d3c"
+],
+[
+"HTTP response header",
+"ea2ad59bf050"
+],
+[
+"Debugging noindex issues",
+"3709cc137b0a"
+]
+],
+"watch": {
+"noindex": 20,
+"robots.txt": 3
+},
+"lastOk": "2026-10-23T06:47+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"naver-guide": {
+"name": "서치어드바이저 웹마스터 가이드·검색 품질(유사·자동 생성 문서)",
+"owner": "네이버",
+"url": "",
+"method": "ai",
+"cycle": "m",
+"rules": []
 }
 }
 }
