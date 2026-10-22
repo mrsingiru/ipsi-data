@@ -1,5 +1,5 @@
 {
- "at": "2026-10-22T08:19:01+09:00",
+ "at": "2026-10-23T06:17:44+09:00",
  "targets": 48,
  "withDates": 26,
  "items": [
@@ -134,17 +134,17 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
+   "files": 2,
    "opened": 1
   },
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
+   "files": 2,
    "opened": 1
   },
   {
@@ -319,7 +319,7 @@
    "id": "n66",
    "org": "순천대 영재원",
    "status": "dates",
-   "lines": 5,
+   "lines": 4,
    "files": 6,
    "opened": 6
   },
