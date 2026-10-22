@@ -112,7 +112,8 @@ def due(src, prev, today):
     if not prev or not prev.get('checkedAt'):
         return True
     last = datetime.date.fromisoformat(prev['checkedAt'][:10])
-    return (today - last).days >= (6 if src.get('cycle') == 'w' else 27)
+    # 일요일 예약 실행이 주기를 맞추므로 여기서는 같은 날 다시 연 것만 거른다(push로 다시 돌 때). w 2일 · m 25일
+    return (today - last).days >= (2 if src.get('cycle') == 'w' else 25)
 
 
 def main(reg_path, out_path, report_path):
@@ -186,6 +187,9 @@ def main(reg_path, out_path, report_path):
             if p['failStreak'] == 2:
                 events.append({'source': sid, 'rules': p['rules'], 'level': 'low', 'what': '두 번 연속 못 엶(' + str(p['error']) + ')'})
         out[sid] = p
+    if run['opened'] == 0 and old:
+        print('열 차례인 원문이 없어 지난 결과를 그대로 둠', json.dumps(run, ensure_ascii=False))
+        return
     order = {'high': 0, 'mid': 1, 'low': 2}
     events.sort(key=lambda e: (order.get(e['level'], 3), e['source']))
     doc = {'checkedAt': now.isoformat(timespec='minutes'), 'registry': {'updated': reg.get('updated'), 'rules': len(reg['rules']), 'sources': len(reg['sources'])},
