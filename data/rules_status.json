@@ -1,5 +1,5 @@
 {
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-22T19:11+09:00",
 "registry": {
 "updated": "2026-10-22",
 "rules": 39,
@@ -7,237 +7,19 @@
 },
 "run": {
 "auto": 27,
-"opened": 27,
-"ok": 27,
+"opened": 0,
+"ok": 0,
 "robots": 0,
 "failed": 0,
 "thin": 0,
-"notDue": 0
+"notDue": 27
 },
 "summary": {
 "high": 0,
 "mid": 0,
-"low": 27
+"low": 0
 },
-"events": [
-{
-"source": "g-genai",
-"rules": [
-"R-G2"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "g-helpful",
-"rules": [
-"R-G2"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "g-spam",
-"rules": [
-"R-G1"
-],
-"level": "low",
-"what": "처음 기록(처음부터 없는 감시 낱말: site reputation abuse)"
-},
-{
-"source": "g-status",
-"rules": [
-"R-G3"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "ig-api",
-"rules": [
-"R-IG2"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "ig-orig",
-"rules": [
-"R-IG1"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "meta-ai-label",
-"rules": [
-"R-META1"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "naver-clip",
-"rules": [
-"R-NV4"
-],
-"level": "low",
-"what": "처음 기록(처음부터 없는 감시 낱말: 예약, 30일)"
-},
-{
-"source": "naver-sa",
-"rules": [
-"R-NV3"
-],
-"level": "low",
-"what": "처음 기록(처음부터 없는 감시 낱말: 자동)"
-},
-{
-"source": "naver-terms",
-"rules": [
-"R-NV1",
-"R-NV2"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "th-api",
-"rules": [
-"R-TH1"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "tool-cf",
-"rules": [
-"R-T3"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "tool-cloudfront",
-"rules": [
-"R-T4"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "tool-gh-actions",
-"rules": [
-"R-T5"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "tool-ghpages",
-"rules": [
-"R-T2"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "tool-vercel",
-"rules": [
-"R-T1"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "tt-cg",
-"rules": [
-"R-TT2"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "tt-share",
-"rules": [
-"R-TT1"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "x-pricing",
-"rules": [
-"R-X1"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "yt-api-insert",
-"rules": [
-"R-YT5"
-],
-"level": "low",
-"what": "처음 기록(처음부터 없는 감시 낱말: audit)"
-},
-{
-"source": "yt-api-rev",
-"rules": [
-"R-YT5"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "yt-kids",
-"rules": [
-"R-YT6"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "yt-monet",
-"rules": [
-"R-YT1"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "yt-shorts-links",
-"rules": [
-"R-YT7"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "yt-spam",
-"rules": [
-"R-YT2"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "yt-synth",
-"rules": [
-"R-YT3"
-],
-"level": "low",
-"what": "처음 기록(처음부터 없는 감시 낱말: altered or synthetic)"
-},
-{
-"source": "yt-ypp",
-"rules": [
-"R-YT4"
-],
-"level": "low",
-"what": "처음 기록(처음부터 없는 감시 낱말: 8,000, 20 million)"
-}
-],
+"events": [],
 "sources": {
 "yt-monet": {
 "name": "채널 수익 창출 정책(진정성 없는 콘텐츠·재사용 콘텐츠)",
