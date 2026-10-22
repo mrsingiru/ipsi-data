@@ -1,6 +1,6 @@
 {
 "note": "규정 대장 — 우리 서비스·마케팅이 지켜야 하는 플랫폼 정책·법·자료 이용 조건·도구 약관. 사람이 고치는 파일이다(sources.json처럼 자동으로 만들지 않음). 사람이 읽는 판은 프로젝트 파일 claude/규정_대장과_변경_대응.md. 원문 내용은 넣지 않고 우리 말 요약·주소·감시할 낱말만 둔다.",
-"updated": "2026-10-22",
+"updated": "2026-10-23",
 "how": {
 "auto": "GitHub Actions(rules.yml, 매주 일요일 05:20 한국 시간)가 원문을 열어 부분(제목)별 지문·수정일·감시 낱말을 비교한다. 결과 data/rules_status.json·data/rules_report.md",
 "ai": "마케팅 주간 예약(일요일 14:42)이 차례가 된 것(state/mkt.rules 확인일 + 주기)을 공식 사이트 검색·원문으로 확인한다. 한 번에 3개까지",
@@ -72,7 +72,7 @@
 },
 {
 "id": "C14",
-"t": "검색용 페이지는 그 쪽만의 정보가 있는 것만 색인, 지역·질문만 바꾼 비슷한 페이지는 합치거나 noindex"
+"t": "검색용 페이지는 검색 공개 기준 파일(ipsi-site tools/seo_index_rules.json)로 판정: 그 페이지만의 정보가 있으면 공개, 없으면 제외(noindex, follow·사이트맵에서 뺌), 날짜·선발 방법이 같은 같은 지역 기관은 합치기(대표 주소를 합친 페이지로)"
 },
 {
 "id": "C15",
@@ -655,6 +655,48 @@
 "typecast.ai"
 ],
 "lang": "en"
+},
+{
+"id": "g-dup",
+"owner": "Google 검색",
+"name": "중복 URL 통합(대표 주소 canonical)",
+"url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls?hl=en",
+"method": "auto",
+"cycle": "m",
+"watch": [
+"canonical",
+"duplicate",
+"noindex"
+],
+"lang": "en"
+},
+{
+"id": "g-noindex",
+"owner": "Google 검색",
+"name": "noindex로 검색에서 빼기",
+"url": "https://developers.google.com/search/docs/crawling-indexing/block-indexing?hl=en",
+"method": "auto",
+"cycle": "m",
+"watch": [
+"noindex",
+"robots.txt"
+],
+"lang": "en"
+},
+{
+"id": "naver-guide",
+"owner": "네이버",
+"name": "서치어드바이저 웹마스터 가이드·검색 품질(유사·자동 생성 문서)",
+"url": "",
+"method": "ai",
+"cycle": "m",
+"q": "네이버 서치어드바이저 웹마스터 가이드 검색 품질 유사 문서 자동 생성 문서",
+"where": [
+"searchadvisor.naver.com",
+"naver.com"
+],
+"note": "이 조사 환경에서는 서치어드바이저 원문이 막혀 주소를 확인하지 못함(2026-10-23). 마케팅 주간 예약이 공식 원문 주소를 찾으면 url을 채우고 auto로 바꾸자고 보고한다",
+"lang": "ko"
 }
 ],
 "rules": [
@@ -923,7 +965,8 @@
 "src": [
 "naver-sa"
 ],
-"if_changed": "필터 기준이 공개되면 블로그·검색용 페이지 규칙을 맞춤"
+"if_changed": "필터 기준이 공개되면 블로그·검색용 페이지 규칙을 맞춤 — 검색 공개 기준(seo_index_rules.json) 수정안을 만들고, build_seo.py --judge-only --rules 새안 --report 로 다시 판정해 seo_index.py 옛.json 새.json 으로 공개→제외·합치기로 바뀌는 페이지 목록을 운영실에 올림(대표 승인 전에는 기준·페이지를 바꾸지 않음)",
+"applies": "ipsi-site tools/seo_index_rules.json(검색 공개 기준) · 결과표 ops/seo_index_report.md"
 },
 {
 "id": "R-NV4",
@@ -957,7 +1000,8 @@
 "src": [
 "g-spam"
 ],
-"if_changed": "범위가 바뀌면 색인 목록을 다시 거름"
+"if_changed": "범위가 바뀌면 색인 목록을 다시 거름 — 검색 공개 기준(seo_index_rules.json) 수정안을 만들고, build_seo.py --judge-only --rules 새안 --report 로 다시 판정해 seo_index.py 옛.json 새.json 으로 공개→제외·합치기로 바뀌는 페이지 목록을 운영실에 올림(대표 승인 전에는 기준·페이지를 바꾸지 않음)",
+"applies": "ipsi-site tools/seo_index_rules.json(검색 공개 기준) · 결과표 ops/seo_index_report.md"
 },
 {
 "id": "R-G2",
@@ -975,7 +1019,8 @@
 "g-genai",
 "g-helpful"
 ],
-"if_changed": "권장이 의무가 되면 페이지 안내를 고침"
+"if_changed": "권장이 의무가 되면 페이지 안내를 고침 — 검색 공개 기준(seo_index_rules.json) 수정안을 만들고, build_seo.py --judge-only --rules 새안 --report 로 다시 판정해 seo_index.py 옛.json 새.json 으로 공개→제외·합치기로 바뀌는 페이지 목록을 운영실에 올림(대표 승인 전에는 기준·페이지를 바꾸지 않음)",
+"applies": "ipsi-site tools/seo_index_rules.json(검색 공개 기준) · 결과표 ops/seo_index_report.md"
 },
 {
 "id": "R-G3",
@@ -1273,6 +1318,23 @@
 "tool-typecast"
 ],
 "if_changed": "조건이 바뀌면 음성 도구 선택을 다시 봄"
+},
+{
+"id": "R-G4",
+"area": "mkt",
+"where": "구글 검색",
+"title": "검색에서 뺄 페이지는 noindex로(robots.txt로 막으면 noindex를 읽지 못함)",
+"effective": "상시",
+"label": "확정",
+"ours": "제외 판정 페이지는 <meta name=robots content='noindex, follow'>·사이트맵에서 뺌, robots.txt로는 막지 않음(미리보기만 전체 막음)",
+"checks": [
+"C14"
+],
+"src": [
+"g-noindex"
+],
+"applies": "ipsi-site tools/seo_index_rules.json(검색 공개 기준) · 결과표 ops/seo_index_report.md",
+"if_changed": "검색 공개 기준(seo_index_rules.json) 수정안을 만들고, build_seo.py --judge-only --rules 새안 --report 로 다시 판정해 seo_index.py 옛.json 새.json 으로 공개→제외·합치기로 바뀌는 페이지 목록을 운영실에 올림(대표 승인 전에는 기준·페이지를 바꾸지 않음)"
 }
 ]
 }
