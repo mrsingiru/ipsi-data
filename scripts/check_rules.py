@@ -151,7 +151,7 @@ def main(reg_path, out_path, report_path):
         p['final'] = final if final and final != src['url'] else ''
         if st == 'ok' and isinstance(data, str):
             cur = analyse(data, src.get('watch', []))
-            if cur['chars'] < THIN:
+            if cur['chars'] < src.get('minChars', THIN):   # 고객센터 껍데기만 오는 페이지는 원문별로 기준을 높임
                 p.update({'status': 'thin', 'chars': cur['chars'], 'title': cur['title'], 'failStreak': 0})
                 run['thin'] += 1
                 if prevs.get(sid, {}).get('status') != 'thin':
