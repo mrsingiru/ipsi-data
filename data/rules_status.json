@@ -1,0 +1,2568 @@
+{
+"checkedAt": "2026-10-22T19:06+09:00",
+"registry": {
+"updated": "2026-10-22",
+"rules": 39,
+"sources": 41
+},
+"run": {
+"auto": 27,
+"opened": 27,
+"ok": 27,
+"robots": 0,
+"failed": 0,
+"thin": 0,
+"notDue": 0
+},
+"summary": {
+"high": 0,
+"mid": 0,
+"low": 27
+},
+"events": [
+{
+"source": "g-genai",
+"rules": [
+"R-G2"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: accuracy, scaled content abuse, metadata)"
+},
+{
+"source": "g-helpful",
+"rules": [
+"R-G2"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: Who, How, Why, automation)"
+},
+{
+"source": "g-spam",
+"rules": [
+"R-G1"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: scaled content abuse, doorway, site reputation abuse)"
+},
+{
+"source": "g-status",
+"rules": [
+"R-G3"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "ig-api",
+"rules": [
+"R-IG2"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: 50 posts)"
+},
+{
+"source": "ig-orig",
+"rules": [
+"R-IG1"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: original, aggregator, watermark)"
+},
+{
+"source": "meta-ai-label",
+"rules": [
+"R-META1"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "naver-clip",
+"rules": [
+"R-NV4"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: AI, 반복, 경고)"
+},
+{
+"source": "naver-sa",
+"rules": [
+"R-NV3"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: 자동)"
+},
+{
+"source": "naver-terms",
+"rules": [
+"R-NV1",
+"R-NV2"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "th-api",
+"rules": [
+"R-TH1"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: 24 hour)"
+},
+{
+"source": "tool-cf",
+"rules": [
+"R-T3"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "tool-cloudfront",
+"rules": [
+"R-T4"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: 1 million)"
+},
+{
+"source": "tool-gh-actions",
+"rules": [
+"R-T5"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "tool-ghpages",
+"rules": [
+"R-T2"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "tool-vercel",
+"rules": [
+"R-T1"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "tt-cg",
+"rules": [
+"R-TT2"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "tt-share",
+"rules": [
+"R-TT1"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "x-pricing",
+"rules": [
+"R-X1"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: per post)"
+},
+{
+"source": "yt-api-insert",
+"rules": [
+"R-YT5"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: audit, unverified, quota)"
+},
+{
+"source": "yt-api-rev",
+"rules": [
+"R-YT5"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-kids",
+"rules": [
+"R-YT6"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-monet",
+"rules": [
+"R-YT1"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-shorts-links",
+"rules": [
+"R-YT7"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-spam",
+"rules": [
+"R-YT2"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-synth",
+"rules": [
+"R-YT3"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: altered or synthetic)"
+},
+{
+"source": "yt-ypp",
+"rules": [
+"R-YT4"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: 10M, 8,000, 20M)"
+}
+],
+"sources": {
+"yt-monet": {
+"name": "채널 수익 창출 정책(진정성 없는 콘텐츠·재사용 콘텐츠)",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/1311392?hl=en",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT1"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "YouTube channel monetization policies - YouTube Help",
+"updated": "",
+"chars": 23396,
+"hash": "eefce3634691",
+"sections": [
+[
+"YouTube channel monetization policies",
+"d22445f742cc"
+],
+[
+"What we check when we review your channel",
+"665a45d652cb"
+],
+[
+"Follow the YouTube Community Guidelines",
+"41e0e141c787"
+],
+[
+"Generic or Repetitive Content",
+"e7fd65a7c076"
+],
+[
+"What is allowed to monetize",
+"3fb717018e5b"
+],
+[
+"Content that violates this guideline",
+"369b0782b32d"
+],
+[
+"Reused content",
+"f47b5b43fd36"
+],
+[
+"What is allowed to monetize",
+"cc8eeb9d02b2"
+],
+[
+"Content that violates this guideline",
+"e87bce3efe26"
+],
+[
+"Unsatisfying or Off-putting Content",
+"8642580401f2"
+],
+[
+"What is allowed to monetize",
+"707f39b0575a"
+],
+[
+"Content that violates this guideline",
+"7a495675cf7f"
+],
+[
+"AI Personas Related to Sensitive Topics",
+"a57c70733287"
+],
+[
+"Application of quality principles for monetization eligibility",
+"b932aae4a0ef"
+],
+[
+"Limited Availability",
+"7304bc692491"
+],
+[
+"Limit ad earnings from your videos",
+"6938cfa16013"
+],
+[
+"Data retention",
+"b9c3711e863a"
+],
+[
+"Suspend or even terminate your YouTube channel",
+"853ad720884d"
+],
+[
+"How we'll inform you of actions that affect your monetization",
+"aba48b38f27f"
+],
+[
+"How to get help with issues that affect you",
+"f2f9a764bf6f"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"inauthentic": 1,
+"mass-produced": 2,
+"repetitive": 8,
+"slideshow": 1,
+"reused content": 11
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-spam": {
+"name": "스팸·기만 행위·사기 정책",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/2801973?hl=en",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT2"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "Spam Policy - YouTube Help",
+"updated": "",
+"chars": 4916,
+"hash": "171b73e1c9cc",
+"sections": [
+[
+"Spam Policy",
+"597d93067b1a"
+],
+[
+"What this policy means for you",
+"34a33e1c8a85"
+],
+[
+"What happens if content violates this policy",
+"ff359793a5bb"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"mass-produc": 2,
+"automat": 2,
+"strike": 4
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-synth": {
+"name": "변형·합성 콘텐츠 공개",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/14328491?hl=en",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT3"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "Disclosing use of GenAI content - Android phone & tablet - YouTube Help",
+"updated": "",
+"chars": 5675,
+"hash": "30224027edf7",
+"sections": [
+[
+"Disclosing use of GenAI content",
+"f3a368ca1da2"
+],
+[
+"AI disclosure requirements and examples",
+"f548f638d174"
+],
+[
+"Examples of GenAI content",
+"5720171b490b"
+],
+[
+"Examples of content creators don’t have to disclose",
+"1ce6c31915c4"
+],
+[
+"Examples of content creators need to disclose",
+"59a428a287fd"
+],
+[
+"How to disclose GenAI content",
+"206889b756b1"
+],
+[
+"Labels for AI content",
+"4c9000e1072e"
+],
+[
+"Label on the video player for music or photorealistic AI content",
+"cd0a3b371f78"
+],
+[
+"Label in the expanded description field",
+"1f85b6fca46c"
+],
+[
+"Automatic detection of AI content",
+"bb359d6a85bd"
+],
+[
+"Risks of not disclosing",
+"2930f54fd12d"
+],
+[
+"Was this helpful?",
+"f223e904e785"
+]
+],
+"watch": {
+"altered or synthetic": 0,
+"realistic": 14,
+"voice": 3
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": [
+"altered or synthetic"
+]
+},
+"yt-ypp": {
+"name": "파트너 프로그램 개요·자격",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/72851?hl=en",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT4"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "YouTube Partner Program overview & eligibility - Computer - YouTube Help",
+"updated": "",
+"chars": 9628,
+"hash": "b1f4a1354aa7",
+"sections": [
+[
+"YouTube Partner Program overview & eligibility",
+"6725b71d6cbf"
+],
+[
+"What you need to join",
+"db38239fa3c2"
+],
+[
+"How you can become eligible",
+"b7af2b4411cb"
+],
+[
+"More on eligibility thresholds",
+"daef18bc52b0"
+],
+[
+"Where to apply",
+"e178841fbbcc"
+],
+[
+"How we review your application",
+"15c10d1c1538"
+],
+[
+"Choose how to earn and get paid",
+"071a62c107f0"
+],
+[
+"Getting paid",
+"96aa7eac5018"
+],
+[
+"Stay active to keep making money",
+"0a7ef3dbd598"
+],
+[
+"What if I don’t meet the program threshold?",
+"ff36155dc562"
+],
+[
+"Qualified watch hours",
+"2fb5128d76ba"
+],
+[
+"Qualified Shorts views",
+"e5eddb40061a"
+],
+[
+"If I meet the threshold, do I automatically get into YPP?",
+"1d8fcc6308ad"
+],
+[
+"Was this helpful?",
+"454ffcdacbf9"
+]
+],
+"watch": {
+"4,000": 3,
+"1,000 subscribers": 2,
+"10M": 0,
+"8,000": 0,
+"20M": 0
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": [
+"10M",
+"8,000",
+"20M"
+]
+},
+"yt-kids": {
+"name": "아동용 콘텐츠 판단",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/9528076?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-YT6"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "Determining if your content is \"made for kids\" - YouTube Help",
+"updated": "",
+"chars": 6087,
+"hash": "1194d6b78707",
+"sections": [
+[
+"Determining if your content is \"made for kids\"",
+"1e1973dc0381"
+],
+[
+"General audience content",
+"8e021fa8c303"
+],
+[
+"What’s the difference between general audience and mixed audience?",
+"ea4df39d622e"
+],
+[
+"How old is a kid?",
+"e751dc65b9dc"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"made for kids": 21,
+"primary audience": 5
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-shorts-links": {
+"name": "쇼츠의 링크",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/13748639?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-YT7"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "Sharing links with your audiences - YouTube Help",
+"updated": "",
+"chars": 1510,
+"hash": "0b61e47ce2c5",
+"sections": [
+[
+"Sharing links with your audiences",
+"054ed0291b66"
+],
+[
+"Clickable links overview",
+"6a1d3057045a"
+],
+[
+"Channel profile links",
+"5ea37fff455b"
+],
+[
+"Resources",
+"b1ae97469cef"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"clickable": 6,
+"link": 16
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-api-insert": {
+"name": "Data API videos.insert(업로드)",
+"owner": "YouTube",
+"url": "https://developers.google.com/youtube/v3/docs/videos/insert",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT5"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "https://developers.google.com/youtube/data/reference/rest/v3/videos/insert?hl=ko",
+"title": "Videos: insert  |  YouTube Data API  |  Google for Developers",
+"updated": "최종 업데이트 2026-10-15",
+"chars": 12400,
+"hash": "a282b30934e3",
+"sections": [
+[
+"(첫 부분)",
+"7750e505d317"
+],
+[
+"Videos: insert 컬렉션을 사용해 정리하기 내 환경설정을 기준으로 콘텐츠를 저장하고 분류하세요.",
+"8ba548fdb3c5"
+],
+[
+"HTTP 요청",
+"e70c2da38a02"
+],
+[
+"승인",
+"045a7b578ee3"
+],
+[
+"매개변수",
+"98fd0463a249"
+],
+[
+"요청 본문",
+"14793650a0f9"
+],
+[
+"응답",
+"0e1fc0a57b20"
+],
+[
+"예",
+"d3c888c88f4b"
+],
+[
+"Go",
+"b80c6e1467bc"
+],
+[
+".NET",
+"4034a3e94b07"
+],
+[
+"Ruby",
+"9133d04178a1"
+],
+[
+"오류",
+"1ee21373e4ee"
+],
+[
+"기능을 사용해 보세요.",
+"c2907ba0da63"
+]
+],
+"watch": {
+"private": 4,
+"audit": 0,
+"unverified": 0,
+"quota": 0
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": [
+"audit",
+"unverified",
+"quota"
+]
+},
+"yt-api-rev": {
+"name": "Data API 개정 이력",
+"owner": "YouTube",
+"url": "https://developers.google.com/youtube/v3/revision_history",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT5"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "https://developers.google.com/youtube/data/revision_history?hl=ko",
+"title": "업데이트 기록  |  YouTube Data API  |  Google for Developers",
+"updated": "업데이트 2016년 9월 15일",
+"chars": 95304,
+"hash": "32e2e5b4edf6",
+"sections": [
+[
+"(첫 부분)",
+"7750e505d317"
+],
+[
+"업데이트 기록 컬렉션을 사용해 정리하기 내 환경설정을 기준으로 콘텐츠를 저장하고 분류하세요.",
+"0b449a387619"
+],
+[
+"2026년 9월 30일",
+"481490777f08"
+],
+[
+"2026년 9월 14일",
+"8f49ed74f71e"
+],
+[
+"2026년 9월 11일",
+"f1cdd52d6450"
+],
+[
+"2026년 9월 1일",
+"8718e8ef3338"
+],
+[
+"2026년 8월 27일",
+"4cce825b5524"
+],
+[
+"2026년 8월 6일",
+"2c1a3121e225"
+],
+[
+"2026년 7월 7일",
+"db3a2e92555d"
+],
+[
+"2026년 6월 23일",
+"8583f255f3e9"
+],
+[
+"2026년 6월 3일",
+"90752fb6a049"
+],
+[
+"2026년 6월 1일",
+"9594a0cce8c6"
+],
+[
+"2025년 12월 4일",
+"57dca83c2144"
+],
+[
+"2025년 7월 10일",
+"58828de7eebe"
+],
+[
+"2025년 3월 26일",
+"952c89774a62"
+],
+[
+"2024년 10월 30일",
+"f00a879be455"
+],
+[
+"2024년 4월 30일",
+"24f6d101ed25"
+],
+[
+"2024년 3월 13일",
+"c81cf105d627"
+],
+[
+"2024년 3월 12일",
+"0cacaac7b771"
+],
+[
+"2024년 3월 7일",
+"ed0878534fab"
+],
+[
+"2024년 1월 31일",
+"038bd21a3f5e"
+],
+[
+"2023년 11월 9일",
+"6ead4f000421"
+],
+[
+"2023년 9월 12일",
+"cbffa0d78466"
+],
+[
+"2023년 8월 22일",
+"de557992fdbd"
+],
+[
+"2023년 8월 18일",
+"00117125bd50"
+],
+[
+"2023년 8월 7일",
+"0602317376e2"
+],
+[
+"2023년 6월 28일",
+"a2d25d5afb19"
+],
+[
+"2023년 6월 12일",
+"7561b4478391"
+],
+[
+"2022년 8월 22일",
+"91b88e258969"
+],
+[
+"2022년 8월 5일",
+"2f9cbd328520"
+],
+[
+"2022년 7월 12일",
+"e8458a503fda"
+],
+[
+"2022년 4월 27일",
+"8d77bcdbf262"
+],
+[
+"2022년 4월 8일",
+"a7d41f66f9b2"
+],
+[
+"2021년 12월 15일",
+"2e0fad45671a"
+],
+[
+"2021년 11월 18일",
+"a6d4bb90efcc"
+],
+[
+"2021년 7월 2일",
+"474fd870d8c3"
+],
+[
+"2021년 7월 1일",
+"a8a92d39c29b"
+],
+[
+"2021년 5월 12일",
+"23a061a94ceb"
+],
+[
+"2021년 2월 9일",
+"517f25fc3323"
+],
+[
+"2021년 1월 28일",
+"8c406cbc4719"
+],
+[
+"2020년 10월 15일",
+"1b878d42b79a"
+],
+[
+"2020년 10월 8일",
+"2cef4e387263"
+],
+[
+"2020년 9월 9월",
+"775aaeebfcea"
+],
+[
+"2020년 7월 29일",
+"ca6eb30dfb1f"
+],
+[
+"2020년 7월 28일",
+"5f51243b9f2e"
+],
+[
+"2020년 7월 21일",
+"a3efe58951b8"
+],
+[
+"2020년 7월 7일",
+"720bf02fdb14"
+],
+[
+"2020년 6월 15일",
+"7f9bd9c959c7"
+],
+[
+"2020년 6월 4일",
+"243ac89661b3"
+],
+[
+"2020년 4월 17일",
+"2084259b208a"
+],
+[
+"2020년 3월 31일",
+"0e9b97259d63"
+],
+[
+"2020년 1월 10일",
+"0ee4104e54a7"
+],
+[
+"2019년 9월 10일",
+"00499fb3b6ec"
+],
+[
+"2019년 4월 4일",
+"45d293476edd"
+],
+[
+"2018년 7월 9일",
+"8f692a5f054b"
+],
+[
+"2018년 6월 22일",
+"2917aeacef5d"
+],
+[
+"2017년 11월 27일",
+"f18421fd569c"
+],
+[
+"2017년 11월 16일",
+"04c4dcff8eed"
+],
+[
+"2017년 10월 25일",
+"72e15622eb99"
+],
+[
+"2017년 8월 29일",
+"94815a756612"
+],
+[
+"2017년 7월 24일",
+"fe0b7c6dfab4"
+],
+[
+"2017년 6월 1일",
+"87339b1d6171"
+],
+[
+"2017년 5월 17일",
+"545aa4775e96"
+],
+[
+"2017년 4월 27일",
+"3114016e45f9"
+],
+[
+"2017년 3월 30일",
+"f6542cb99ac7"
+],
+[
+"2017년 2월 27일",
+"199bdbfd0519"
+],
+[
+"2016년 11월 29일",
+"2dbdc01a6179"
+],
+[
+"2016년 11월 10일",
+"6ae8b6c3743b"
+],
+[
+"2016년 11월 2일",
+"9f516b110bb8"
+],
+[
+"2016년 9월 15일",
+"998428088363"
+],
+[
+"2016년 8월 11일",
+"2e7d71b2e8a6"
+],
+[
+"2016년 6월 13일",
+"1396f29806df"
+],
+[
+"2016년 5월 31일",
+"9211a37fbac8"
+],
+[
+"2016년 5월 17일",
+"3f1212025b40"
+],
+[
+"2016년 4월 28일",
+"b39487de7a06"
+],
+[
+"2016년 4월 20일",
+"2043cf3cf867"
+],
+[
+"2016년 3월 16일",
+"9aaaebcd21aa"
+],
+[
+"2015년 12월 18일",
+"cb2874b1458d"
+],
+[
+"2015년 11월 19일",
+"d6e02223cc1c"
+],
+[
+"2015년 11월 4일",
+"edf088b5004f"
+]
+],
+"watch": {
+"videos.insert": 27,
+"private": 6
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"ig-orig": {
+"name": "Instagram 추천과 원본성",
+"owner": "Meta",
+"url": "https://creators.instagram.com/recommendations-and-originality",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-IG1"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "새로운 타겟을 찾는 크리에이터 지원하기 | Instagram for Creators | Instagram for Creators",
+"updated": "",
+"chars": 4742,
+"hash": "5182cd670089",
+"sections": [
+[
+"(첫 부분)",
+"07d44aa77a80"
+],
+[
+"새로운 타겟을 찾는 크리에이터 지원하기",
+"1226f610faa4"
+],
+[
+"@Creators 팔로우하기",
+"05366c2b6d8f"
+],
+[
+"창의성 발휘하기",
+"d61a57fb2b15"
+],
+[
+"나만의 개성 드러내기",
+"451755c56ca4"
+],
+[
+"커뮤니티 만들기",
+"375692b0ff83"
+],
+[
+"수익 올리기",
+"5f88f9262759"
+],
+[
+"추가 리소스",
+"269a57079318"
+]
+],
+"watch": {
+"original": 0,
+"aggregator": 0,
+"watermark": 0
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": [
+"original",
+"aggregator",
+"watermark"
+]
+},
+"ig-api": {
+"name": "Instagram Content Publishing API",
+"owner": "Meta",
+"url": "https://developers.facebook.com/docs/instagram-platform/content-publishing",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-IG2"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "https://developers.facebook.com/documentation/instagram-platform/content-publishing",
+"title": "",
+"updated": "",
+"chars": 17526,
+"hash": "d31ee0217eaa",
+"sections": [
+[
+"(첫 부분)",
+"d31ee0217eaa"
+]
+],
+"watch": {
+"100 API-published posts": 1,
+"24 hour": 1,
+"50 posts": 0,
+"is_ai_generated": 3
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": [
+"50 posts"
+]
+},
+"th-api": {
+"name": "Threads API Posts",
+"owner": "Meta",
+"url": "https://developers.facebook.com/docs/threads/posts",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-TH1"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "https://developers.facebook.com/documentation/threads/posts",
+"title": "",
+"updated": "",
+"chars": 17458,
+"hash": "f87ed9c28937",
+"sections": [
+[
+"(첫 부분)",
+"f87ed9c28937"
+]
+],
+"watch": {
+"250": 1,
+"24 hour": 0,
+"tester": 2
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": [
+"24 hour"
+]
+},
+"meta-ai-label": {
+"name": "AI 콘텐츠 라벨 방식(2024-04-05, 갱신 확인)",
+"owner": "Meta",
+"url": "https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-META1"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "Our Approach to Labeling AI-Generated Content and Manipulated Media",
+"updated": "Updated on July 1, 2024",
+"chars": 7520,
+"hash": "1b830224228a",
+"sections": [
+[
+"(첫 부분)",
+"20684eca39b0"
+],
+[
+"Policy Process Informed By Global Experts and Public Surveys",
+"de41fbcf799a"
+]
+],
+"watch": {
+"AI info": 4,
+"audio": 4,
+"Update": 4
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"tt-share": {
+"name": "Content Sharing Guidelines(감사·나만 보기)",
+"owner": "TikTok",
+"url": "https://developers.tiktok.com/doc/content-sharing-guidelines",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-TT1"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "https://developers.tiktok.com/docs/en/content-sharing-guidelines",
+"title": "Content Sharing Guidelines | TikTok for Developers",
+"updated": "Last updated August 4, 2026",
+"chars": 8710,
+"hash": "f1e0aacd0228",
+"sections": [
+[
+"(첫 부분)",
+"76cac8f85f90"
+],
+[
+"Content Sharing Guidelines",
+"78332b32fd08"
+],
+[
+"# Watermark Guidelines",
+"e26efb10f054"
+],
+[
+"# Direct Post API - Developer Guidelines",
+"e5f839a794ae"
+],
+[
+"# Intended Use",
+"80030ae6efbf"
+],
+[
+"# Required UX Implementation in Your App",
+"4dec27b35d36"
+],
+[
+"# Technical Considerations",
+"55d8b1e3c59a"
+]
+],
+"watch": {
+"SELF_ONLY": 1,
+"audit": 7,
+"internal": 1,
+"5 users": 1
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"tt-cg": {
+"name": "커뮤니티 가이드: Integrity & Authenticity(AI 라벨·원본성)",
+"owner": "TikTok",
+"url": "https://www.tiktok.com/community-guidelines/en/integrity-authenticity",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-TT2"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "https://www.tiktok.com/safety/en/policies-and-engagement/integrity-authenticity",
+"title": "Policies & engagement | TikTok",
+"updated": "Effective September 24, 2026",
+"chars": 5621,
+"hash": "bb5ce0ce2c5a",
+"sections": [
+[
+"(첫 부분)",
+"23e7f78b7ba9"
+],
+[
+"Misinformation",
+"066d770523f6"
+],
+[
+"Civic and Election Integrity",
+"0c563577a72b"
+],
+[
+"Edited Media and AI-Generated Content (AIGC)",
+"76439ec68df7"
+],
+[
+"Unoriginal Content and Intellectual Property Rights",
+"bebbdaff2d52"
+],
+[
+"Deceptive Behaviors and Fake Engagement",
+"d2945bfef4a2"
+]
+],
+"watch": {
+"AI-generated": 2,
+"label": 6,
+"unoriginal": 1
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"x-pricing": {
+"name": "X API 요금",
+"owner": "X",
+"url": "https://docs.x.com/x-api/getting-started/pricing",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-X1"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "X API pay-per-usage pricing and credits - X",
+"updated": "",
+"chars": 8573,
+"hash": "6f8a6b523a8e",
+"sections": [
+[
+"(첫 부분)",
+"6f39f3fc3c35"
+],
+[
+"Credit-based",
+"f05fce7f64ea"
+],
+[
+"Per-endpoint pricing",
+"f8144a4e57c3"
+],
+[
+"No commitments",
+"b7547c3f4b93"
+],
+[
+"Real-time tracking",
+"e432df3de126"
+],
+[
+"​ Credit consumption details",
+"898f39497164"
+],
+[
+"​ Read operations",
+"44ecbb93bf63"
+],
+[
+"​ Write operations",
+"9fb316cb250e"
+],
+[
+"​ Webhook events",
+"bd81f6dc0a0b"
+],
+[
+"​ Owned Reads",
+"8562e92d0957"
+],
+[
+"​ Deduplication",
+"c329c9c97abf"
+],
+[
+"​ Credit balance",
+"38a5853b6354"
+],
+[
+"​ Auto-recharge",
+"1fe9269b5390"
+],
+[
+"​ When the trigger fires",
+"f24922eef28a"
+],
+[
+"​ Auto-recharge safeguards",
+"75a7215f5a45"
+],
+[
+"​ Spending limits",
+"e2ff314f7324"
+],
+[
+"​ Free xAI API credits",
+"75a113a9e68d"
+],
+[
+"​ How it works",
+"17e9a28d3263"
+],
+[
+"​ Example",
+"1bf6a994deb6"
+],
+[
+"​ Monitoring usage",
+"fe4ca751ec5b"
+],
+[
+"Developer Console",
+"e6f0826a7242"
+],
+[
+"Usage API",
+"09ed98470ad0"
+]
+],
+"watch": {
+"Free": 7,
+"per post": 0,
+"credits": 17
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": [
+"per post"
+]
+},
+"g-spam": {
+"name": "검색 스팸 정책(확장된 콘텐츠 악용·도어웨이)",
+"owner": "Google 검색",
+"url": "https://developers.google.com/search/docs/essentials/spam-policies",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-G1"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "https://developers.google.com/search/docs/essentials/spam-policies?hl=ko",
+"title": "Google 웹 검색의 스팸 정책 | Google 검색 센터  |  Documentation  |  Google for Developers",
+"updated": "최종 업데이트 2026-09-02",
+"chars": 15067,
+"hash": "97fd2e96b60e",
+"sections": [
+[
+"(첫 부분)",
+"6bd29faee5ec"
+],
+[
+"Google 웹 검색의 스팸 정책",
+"4e0da47b085e"
+],
+[
+"클로킹",
+"ad83dcfd29e5"
+],
+[
+"도어웨이 악용",
+"0cf4f4f51313"
+],
+[
+"만료된 도메인 악용",
+"7d17319a0149"
+],
+[
+"해킹된 콘텐츠",
+"d91ad9578d1b"
+],
+[
+"숨겨진 텍스트 및 링크 악용",
+"01dd7d6fd11d"
+],
+[
+"유인 키워드 반복",
+"c86e2b5e4236"
+],
+[
+"링크 스팸",
+"6db42f517918"
+],
+[
+"머신 생성 트래픽",
+"ca5d136ae49c"
+],
+[
+"악의적인 행위",
+"62b6974b8a5a"
+],
+[
+"혼동을 야기하는 기능",
+"7ad2c09ec95c"
+],
+[
+"확장된 콘텐츠 악용",
+"677cc1eceb38"
+],
+[
+"스크래핑",
+"b78b8f96cc50"
+],
+[
+"사이트 인지도 정책",
+"b536d10b8b95"
+],
+[
+"자세한 안내",
+"8e6d893a6405"
+],
+[
+"EEA 외부에서 취해진 직접 조치가 EEA 내 사이트 순위에 영향을 미치나요?",
+"571f54c7ff55"
+],
+[
+"이전에 EEA에서 이 정책에 따라 내 사이트의 일부에 직접 조치가 적용되었습니다. 이제 어떻게 되나요?",
+"85c033deb804"
+],
+[
+"사이트의 일부가 이 정책을 위반하여 기본 도메인과 별개로 분류되면 어떻게 되나요?",
+"8cafcc877a74"
+],
+[
+"도메인에 취해진 조치에 동의하지 않으면 어떻게 해야 하나요?",
+"e19e62dea79f"
+],
+[
+"부적절한 리디렉션",
+"16f78f05b028"
+],
+[
+"빈약한 제휴 페이지",
+"097191a2528a"
+],
+[
+"사용자 생성 스팸",
+"a213ebe1ed8f"
+],
+[
+"법적 삭제",
+"f3f7b3e10235"
+],
+[
+"개인 정보 삭제",
+"2fbce53a0aa6"
+],
+[
+"정책 회피",
+"f8bf3a2fd615"
+],
+[
+"사기",
+"bf323cbabf55"
+]
+],
+"watch": {
+"scaled content abuse": 0,
+"doorway": 0,
+"site reputation abuse": 0
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": [
+"scaled content abuse",
+"doorway",
+"site reputation abuse"
+]
+},
+"g-genai": {
+"name": "생성형 AI 콘텐츠 지침",
+"owner": "Google 검색",
+"url": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-G2"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content?hl=ko",
+"title": "웹사이트의 생성형 AI 콘텐츠에 관한 Google 검색 안내 | Google 검색 센터  |  Documentation  |  Google for Developers",
+"updated": "최종 업데이트 2026-10-06",
+"chars": 1388,
+"hash": "5505b07ee45b",
+"sections": [
+[
+"(첫 부분)",
+"6bd29faee5ec"
+],
+[
+"웹사이트에서 생성형 AI 콘텐츠를 사용하는 것에 관한 Google 검색 안내",
+"12368c9155ce"
+],
+[
+"정확성, 품질, 관련성에 집중하기",
+"c4c545b84c0d"
+],
+[
+"사용자에게 맥락 제공",
+"b5b25ef2862a"
+]
+],
+"watch": {
+"accuracy": 0,
+"scaled content abuse": 0,
+"metadata": 0
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": [
+"accuracy",
+"scaled content abuse",
+"metadata"
+]
+},
+"g-helpful": {
+"name": "사용자 중심 콘텐츠 만들기(Who·How·Why)",
+"owner": "Google 검색",
+"url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-G2"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=ko",
+"title": "유용하고 신뢰할 수 있는 사용자 중심 콘텐츠 만들기 | Google 검색 센터  |  Documentation  |  Google for Developers",
+"updated": "최종 업데이트 2026-10-08",
+"chars": 6990,
+"hash": "40c139111dc8",
+"sections": [
+[
+"(첫 부분)",
+"6bd29faee5ec"
+],
+[
+"유용하고 신뢰할 수 있는 사용자 중심 콘텐츠 제작하기",
+"8ff6bb177910"
+],
+[
+"콘텐츠 자체 평가하기",
+"f7c985ca7d98"
+],
+[
+"콘텐츠 및 품질 관련 질문",
+"a5e006de153e"
+],
+[
+"전문성 관련 질문",
+"5d3d00a17e04"
+],
+[
+"우수한 페이지 경험 제공",
+"0c02091c7203"
+],
+[
+"사용자 중심 콘텐츠에 집중하기",
+"96f64224f297"
+],
+[
+"검색엔진 중심 콘텐츠 만들지 않기",
+"20ba74f2a0a7"
+],
+[
+"검색엔진 최적화는 검색엔진을 우선으로 하지 않나요?",
+"cdd52b65e3b4"
+],
+[
+"E-E-A-T 및 품질 평가자 가이드라인 알아보기",
+"02942fa66e5e"
+],
+[
+"기본 콘텐츠",
+"43fd085706cf"
+],
+[
+"콘텐츠에서 '누가, 어떻게, 왜'에 관해 질문하기",
+"e13dae5b3edf"
+],
+[
+"누가 콘텐츠를 만들었는가",
+"642f04d9b410"
+],
+[
+"어떻게 콘텐츠가 만들어졌는가",
+"18de95f7fd9e"
+],
+[
+"왜 이 콘텐츠가 만들어졌는가",
+"1df2ce068183"
+]
+],
+"watch": {
+"Who": 0,
+"How": 0,
+"Why": 0,
+"automation": 0
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": [
+"Who",
+"How",
+"Why",
+"automation"
+]
+},
+"g-status": {
+"name": "Search Status Dashboard 순위 업데이트 이력",
+"owner": "Google 검색",
+"url": "https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-G3"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "History for Ranking | Google Search Status Dashboard",
+"updated": "",
+"chars": 4208,
+"hash": "e9d8703a3fa9",
+"sections": [
+[
+"(첫 부분)",
+"745307077496"
+],
+[
+"Google Search Status Dashboard",
+"2397067065fd"
+],
+[
+"2026",
+"e34125cdb87d"
+],
+[
+"2025",
+"c7eeead82286"
+],
+[
+"2024",
+"8cde6d71d733"
+],
+[
+"2023",
+"16e2d06b50cb"
+],
+[
+"2022",
+"9ad0765df1dd"
+],
+[
+"2021",
+"d8dfdb07c5ae"
+]
+],
+"watch": {
+"spam update": 24,
+"core update": 32
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"naver-terms": {
+"name": "네이버 이용약관",
+"owner": "네이버",
+"url": "https://policy.naver.com/rules/service.html",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-NV1",
+"R-NV2"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "이용약관",
+"updated": "",
+"chars": 12259,
+"hash": "4c5d0663c1ee",
+"sections": [
+[
+"(첫 부분)",
+"4c24d4e4e3e0"
+],
+[
+"N 네이버정책",
+"e722d8ed7091"
+],
+[
+"NAVER Terms & Privacy",
+"52f07aa4879b"
+],
+[
+"(제목 없음)",
+"19092c0054d2"
+],
+[
+"여러분을 환영합니다.",
+"900347b42dcb"
+],
+[
+"다양한 네이버 서비스를 즐겨보세요.",
+"f70bd8d5b678"
+],
+[
+"회원으로 가입하시면 네이버 서비스를 보다 편리하게 이용할 수 있습니다.",
+"81535dca4dad"
+],
+[
+"여러분이 제공한 콘텐츠를 소중히 다룰 것입니다.",
+"b88431f9f9a2"
+],
+[
+"여러분의 개인정보를 소중히 보호합니다.",
+"069205896d81"
+],
+[
+"타인의 권리를 존중해 주세요.",
+"51310d1e2009"
+],
+[
+"네이버에서 제공하는 다양한 포인트를 요긴하게 활용해 보세요.",
+"e22260a4f0f7"
+],
+[
+"네이버 서비스 이용과 관련하여 몇 가지 주의사항이 있습니다.",
+"aca6709d9d27"
+],
+[
+"부득이 서비스 이용을 제한할 경우 합리적인 절차를 준수합니다.",
+"c583f7780f17"
+],
+[
+"네이버의 잘못은 네이버가 책임집니다.",
+"fed4d532adf1"
+],
+[
+"언제든지 네이버 서비스 이용계약을 해지하실 수 있습니다.",
+"08e8119e3ff1"
+],
+[
+"일부 네이버 서비스에는 광고가 포함되어 있습니다.",
+"5b5bc557553b"
+],
+[
+"서비스 중단 또는 변경 시 꼭 알려드리겠습니다.",
+"5f2c51bb7953"
+],
+[
+"주요 사항을 잘 안내하고 여러분의 소중한 의견에 귀 기울이겠습니다.",
+"6417cc363c43"
+],
+[
+"여러분이 쉽게 알 수 있도록 약관 및 운영정책을 게시하며 사전 공지 후 개정합니다.",
+"b24c63ffa2a4"
+],
+[
+"네이버 서비스와 관련하여 궁금하신 사항이 있으시면 고객센터 (대표번호: 1588 – 3820/ 평일 09:00~18:00)로 문의 주시기 바랍니",
+"ac70b3771eab"
+]
+],
+"watch": {
+"자동": 3,
+"프로그램": 3,
+"매크로": 1
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"naver-sa": {
+"name": "서치어드바이저 미노출 원인 안내",
+"owner": "네이버",
+"url": "https://searchadvisor.naver.com/guide/faq-serpmissing",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-NV3"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "웹 검색 미노출 - 네이버 서치어드바이저",
+"updated": "",
+"chars": 1156,
+"hash": "eccedf44f90f",
+"sections": [
+[
+"(첫 부분)",
+"c7de691c2d32"
+],
+[
+"네이버 검색에 대해 궁금한 점이 있으신가요?",
+"ecc19786e55d"
+],
+[
+"먼저 내 사이트가 네이버에 색인이 되었는지 확인합니다",
+"fc454b460933"
+],
+[
+"site: 검색을 했을때 사이트가 보인다면?",
+"6d040092be3b"
+],
+[
+"site: 검색을 했을때 사이트가 보이지 않는다면?",
+"55e878723d28"
+],
+[
+"Q. 내사이트가 네이버에 노출이 되지 않습니다. 왜 그런건가요?",
+"ae053a911d28"
+]
+],
+"watch": {
+"중복": 1,
+"품질": 1,
+"자동": 0
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": [
+"자동"
+]
+},
+"naver-clip": {
+"name": "네이버 고객센터 문서(리서치_14가 알려 준 주소 — 클립·운영정책 관련, 내용 확인 필요)",
+"owner": "네이버",
+"url": "https://help.naver.com/service/30048/contents/25177",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-NV4"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "등록 예약/비공개 예약 안내 : 클립 고객센터",
+"updated": "",
+"chars": 600,
+"hash": "bbcb8edb75b1",
+"sections": [
+[
+"(첫 부분)",
+"08e0c9aea44f"
+],
+[
+"고객센터",
+"0c9a71339a0a"
+],
+[
+"고객센터 전체 서비스",
+"5d4d7ce5177f"
+],
+[
+"(제목 없음)",
+"c55989364dd2"
+]
+],
+"watch": {
+"AI": 0,
+"반복": 0,
+"경고": 0
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": [
+"AI",
+"반복",
+"경고"
+]
+},
+"naver-blog-policy": {
+"name": "네이버 블로그 운영정책(자동화·대량 발행 조항)",
+"owner": "네이버",
+"url": "",
+"method": "manual",
+"cycle": "q",
+"rules": [
+"R-NV1"
+]
+},
+"law-ai": {
+"name": "AI 기본법(2026-01-22 시행)·투명성 가이드라인·계도기간",
+"owner": "과학기술정보통신부·국회",
+"url": "https://www.law.go.kr",
+"method": "ai",
+"cycle": "m",
+"rules": [
+"R-L1"
+]
+},
+"law-ict-bill": {
+"name": "정보통신망법 개정안(게시자 AI 생성물 표시 의무) 진행",
+"owner": "국회",
+"url": "https://likms.assembly.go.kr/bill/main.do",
+"method": "ai",
+"cycle": "m",
+"rules": [
+"R-L2"
+]
+},
+"law-ftc": {
+"name": "추천·보증 등에 관한 표시·광고 심사지침(가상인물·경제적 이해관계)",
+"owner": "공정거래위원회",
+"url": "https://www.ftc.go.kr",
+"method": "ai",
+"cycle": "q",
+"rules": [
+"R-L3"
+]
+},
+"law-pipa": {
+"name": "개인정보 보호법·처리방침 작성지침·국외 이전",
+"owner": "개인정보보호위원회",
+"url": "https://www.pipc.go.kr",
+"method": "ai",
+"cycle": "q",
+"rules": [
+"R-L4"
+]
+},
+"law-ad-msg": {
+"name": "광고성 정보 전송 규정(정보통신망법 제50조, 사전 동의)",
+"owner": "방송통신위원회·KISA",
+"url": "https://www.law.go.kr",
+"method": "ai",
+"cycle": "q",
+"rules": [
+"R-L5"
+]
+},
+"law-hagwon": {
+"name": "학원법(유료 입시 상담·교습 범위)",
+"owner": "교육부",
+"url": "https://www.law.go.kr",
+"method": "ai",
+"cycle": "y",
+"rules": [
+"R-L6"
+]
+},
+"law-copyright": {
+"name": "저작권법(인용·요약, 생성형 AI 저작권 안내서)",
+"owner": "문화체육관광부",
+"url": "https://www.law.go.kr",
+"method": "ai",
+"cycle": "y",
+"rules": [
+"R-L7"
+]
+},
+"data-neis": {
+"name": "나이스 교육정보 개방 포털 이용약관·출처 표시",
+"owner": "교육부·KERIS",
+"url": "https://open.neis.go.kr",
+"method": "ai",
+"cycle": "q",
+"rules": [
+"R-D1"
+]
+},
+"data-ged": {
+"name": "GED 영재교육종합데이터베이스 이용 정책(서면 동의 없는 DB 구축·영리 이용 금지)",
+"owner": "한국교육개발원",
+"url": "",
+"method": "manual",
+"cycle": "q",
+"rules": [
+"R-D2"
+]
+},
+"data-press": {
+"name": "베리타스알파·교육을 비추다 'AI 학습·이용 금지' 표시",
+"owner": "언론",
+"url": "",
+"method": "manual",
+"cycle": "y",
+"rules": [
+"R-D3"
+]
+},
+"data-adiga": {
+"name": "'어디가' 이용약관(대학 입시 결과 정리 보류 항목)",
+"owner": "대교협",
+"url": "",
+"method": "manual",
+"cycle": "y",
+"rules": [
+"R-D4"
+]
+},
+"tool-vercel": {
+"name": "Fair use guidelines(Hobby 비상업)",
+"owner": "Vercel",
+"url": "https://vercel.com/docs/limits/fair-use-guidelines",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-T1"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "",
+"updated": "",
+"chars": 8383,
+"hash": "e8e8a3c8c9c4",
+"sections": [
+[
+"(첫 부분)",
+"e8e8a3c8c9c4"
+]
+],
+"watch": {
+"commercial": 6,
+"Hobby": 2
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"tool-ghpages": {
+"name": "GitHub Pages 한도(상업 이용 금지)",
+"owner": "GitHub",
+"url": "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-T2"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "GitHub Pages limits - GitHub Docs",
+"updated": "",
+"chars": 2699,
+"hash": "b2f0cd2554ef",
+"sections": [
+[
+"GitHub Pages limits",
+"c9d61e864891"
+],
+[
+"Who can use this feature?",
+"0e7e98157fed"
+],
+[
+"Usage limits",
+"dcc27af3ec72"
+],
+[
+"Educational exercises",
+"b10fcef768bd"
+]
+],
+"watch": {
+"commercial": 2,
+"business": 1
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"tool-cf": {
+"name": "Cloudflare Pages 한도",
+"owner": "Cloudflare",
+"url": "https://developers.cloudflare.com/pages/platform/limits/",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-T3"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "Limits · Cloudflare Pages docs",
+"updated": "Last updated Sep 5, 2026",
+"chars": 3074,
+"hash": "d6bde7063a10",
+"sections": [
+[
+"(첫 부분)",
+"3724a5515c24"
+],
+[
+"Builds",
+"fc86b4267ba5"
+],
+[
+"Custom domains",
+"a4d99bd5f01c"
+],
+[
+"Files",
+"1e71f7c5ab2f"
+],
+[
+"File size",
+"ea41d5b24e45"
+],
+[
+"Functions",
+"c25dbb642a3c"
+],
+[
+"Headers",
+"7b318ce65af0"
+],
+[
+"Preview deployments",
+"6aef14b2638d"
+],
+[
+"Redirects",
+"f0316e6231e0"
+],
+[
+"Users",
+"3dd88cfd9702"
+],
+[
+"Projects",
+"9d48e93ef764"
+],
+[
+"Footnotes",
+"589c60b9f35c"
+]
+],
+"watch": {
+"500": 4,
+"20,000": 2,
+"25 MiB": 1
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"tool-cloudfront": {
+"name": "CloudFront 정액제 문서",
+"owner": "AWS",
+"url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/flat-rate-pricing-plan.html",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-T4"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "CloudFront flat-rate pricing plans - Amazon CloudFront",
+"updated": "",
+"chars": 37311,
+"hash": "d21ad0638525",
+"sections": [
+[
+"(첫 부분)",
+"ff85ae7c13f1"
+],
+[
+"CloudFront flat-rate pricing plans",
+"76192c5be061"
+],
+[
+"Benefits of CloudFront flat-rate pricing plans",
+"ce70dff544eb"
+],
+[
+"Features by pricing plan tier",
+"1c2e46548fa5"
+],
+[
+"Pricing plan features",
+"628b8cfad5a9"
+],
+[
+"Monthly usage allowances",
+"71615d69983c"
+],
+[
+"What counts toward your usage allowance",
+"1b738f982351"
+],
+[
+"What happens when usage exceeds the allowance",
+"833e4ca58adf"
+],
+[
+"Configurable usage allowances on the Premium plan",
+"7881ceadffff"
+],
+[
+"Eligibility based on historical usage",
+"bf3ea0391102"
+],
+[
+"Costs covered by your plan",
+"bc10686b9665"
+],
+[
+"Route 53 DNS management and your plan",
+"c4b45894bb38"
+],
+[
+"Understanding monthly DNS query allowances",
+"7e6d0cb4718e"
+],
+[
+"Exceeding DNS query allowances",
+"f2558d2fc42c"
+],
+[
+"Reduce overall AWS costs with pricing plans",
+"a3ed47600bf8"
+],
+[
+"Manage your flat-rate pricing plans",
+"0ee00793a200"
+],
+[
+"Subscribe a new distribution to a pricing plan",
+"5b4797f75a96"
+],
+[
+"Subscribe an existing distribution to a pricing plan",
+"aacb267cf1f1"
+],
+[
+"Upgrade a pricing plan",
+"c704e7cf04b9"
+],
+[
+"Change your Premium plan usage level",
+"3207f71e3d10"
+],
+[
+"Downgrade a pricing plan",
+"b7bcaeb7d8f0"
+],
+[
+"Cancel a pricing plan",
+"6dbb073a1447"
+],
+[
+"Cancel a pending plan change",
+"4624a8f73b5a"
+],
+[
+"Deleting a distribution with a pricing plan",
+"45f8964d81a2"
+],
+[
+"Permissions",
+"8573d8a660a8"
+],
+[
+"Flat-rate pricing plan quotas",
+"b31d112d2459"
+],
+[
+"Unsupported features",
+"f7d7642b4982"
+],
+[
+"Unsupported features",
+"bbc827660790"
+],
+[
+"Unsupported associations",
+"74229ef95d6e"
+],
+[
+"Account-level constraints",
+"35aa870ca252"
+],
+[
+"Resource-level constraints",
+"7c75fb5b7b00"
+],
+[
+"Additional features that can affect your pricing plan",
+"510163077196"
+],
+[
+"Pricing plans versus pay-as-you-go pricing",
+"b0176535f749"
+]
+],
+"watch": {
+"Free": 16,
+"100 GB": 1,
+"1 million": 0
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": [
+"1 million"
+]
+},
+"tool-gh-actions": {
+"name": "GitHub Actions 과금(비공개 저장소 무료 한도)",
+"owner": "GitHub",
+"url": "https://docs.github.com/en/billing/concepts/product-billing/github-actions",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-T5"
+],
+"checkedAt": "2026-10-22T19:06+09:00",
+"status": "ok",
+"final": "",
+"title": "GitHub Actions billing - GitHub Docs",
+"updated": "",
+"chars": 11239,
+"hash": "3263faae4a1b",
+"sections": [
+[
+"GitHub Actions billing",
+"54ecc72e2974"
+],
+[
+"How use of GitHub Actions is measured",
+"e50392c48ea5"
+],
+[
+"Copilot code review and GitHub Actions minutes",
+"f5d8eac5b302"
+],
+[
+"How storage billing works",
+"625cf364b11e"
+],
+[
+"Understanding current vs. accrued storage",
+"0b066dfcd11c"
+],
+[
+"Storage measurement units",
+"81d5d04e5d68"
+],
+[
+"Custom image storage",
+"45fe3d64504e"
+],
+[
+"Examples of how usage is measured",
+"315109f8394b"
+],
+[
+"Free use of GitHub Actions",
+"76058302b4a5"
+],
+[
+"Using more than your included quota",
+"b7ff2f8164d7"
+],
+[
+"Paying for additional GitHub Actions use",
+"5740604073c6"
+],
+[
+"Baseline minute costs",
+"d1a7f17ad926"
+],
+[
+"Storage pricing",
+"d6a762dd3f10"
+],
+[
+"Example minutes cost calculation for GitHub-hosted runners",
+"aaf9d0a5f98b"
+],
+[
+"Example artifact storage cost calculation",
+"dc044897e17e"
+],
+[
+"Example cache storage cost calculation",
+"a313fd8a27eb"
+],
+[
+"Managing your budget for GitHub Actions",
+"8539e9bbe062"
+],
+[
+"Further reading",
+"203c3e068202"
+]
+],
+"watch": {
+"2,000": 4,
+"public repositories": 5,
+"free": 11
+},
+"lastOk": "2026-10-22T19:06+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"tool-eleven": {
+"name": "ElevenLabs 이용약관·요금제별 상업 이용",
+"owner": "ElevenLabs",
+"url": "https://elevenlabs.io",
+"method": "ai",
+"cycle": "q",
+"rules": [
+"R-T6"
+]
+},
+"tool-typecast": {
+"name": "타입캐스트 이용약관·요금제별 상업 이용",
+"owner": "네오사피엔스",
+"url": "https://typecast.ai/kr",
+"method": "ai",
+"cycle": "q",
+"rules": [
+"R-T7"
+]
+}
+}
+}
