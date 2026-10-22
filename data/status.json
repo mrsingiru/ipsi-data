@@ -2,8 +2,8 @@
  "workflow": "neis",
  "conclusion": "success",
  "event": "schedule",
- "runUrl": "https://github.com/mrsingiru/ipsi-data/actions/runs/39665913745",
- "startedAt": "2026-10-21T19:56:07Z",
- "finishedAt": "2026-10-21T20:52:57Z",
+ "runUrl": "https://github.com/mrsingiru/ipsi-data/actions/runs/39844777825",
+ "startedAt": "2026-10-22T19:58:39Z",
+ "finishedAt": "2026-10-22T21:01:33Z",
  "schools": 12680
 }
