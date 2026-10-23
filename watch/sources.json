@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.32)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.34)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-10-23",
-"ver": "v28.32",
-"count": 463,
+"ver": "v28.34",
+"count": 468,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -31,6 +31,19 @@
 "q-refund"
 ],
 "dated": "2026-10-18",
+"cycle": "w"
+},
+{
+"id": "1134a57ee6",
+"url": "https://www.schoolinfo.go.kr/si/pi/pnsipi_a01_l0.do",
+"host": "schoolinfo.go.kr",
+"name": "2026년 지침기준 공시항목 소개, 학교알리미",
+"kind": "공식",
+"cat": "공공 데이터·API",
+"used": [
+"q-hs-choose"
+],
+"dated": "2026-10-21",
 "cycle": "w"
 },
 {
@@ -190,9 +203,23 @@
 "kind": "공식",
 "cat": "교육청",
 "used": [
+"q-hs-choose",
 "q-naesin"
 ],
 "dated": "2026-03-01",
+"cycle": "w"
+},
+{
+"id": "03bbd54b2e",
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/03/ae54e5b6-3f5b-482f-a553-88d3d8cc74e9.pdf",
+"host": "goe.go.kr",
+"name": "2026학년도 자율학교 지정·운영 계획, 경기도교육청",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-autonomous"
+],
+"dated": "",
 "cycle": "w"
 },
 {
@@ -453,15 +480,17 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "q-hs-attend",
+"q-hs-autonomous",
+"q-hs-choose",
 "q-hs-fail",
 "q-sch-grade"
 ],
-"dated": "2026-10-20",
+"dated": "2026-10-21",
 "cycle": "w"
 },
 {
@@ -489,6 +518,19 @@
 "n74"
 ],
 "dated": "",
+"cycle": "w"
+},
+{
+"id": "3331afde38",
+"url": "https://home.pen.go.kr/hscredit/cm/cntnts/cntntsView.do?mi=17431&cntntsId=3738",
+"host": "home.pen.go.kr",
+"name": "부산온라인학교 안내, 부산광역시교육청 고교학점제 지원센터",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-choose"
+],
+"dated": "2026-10-21",
 "cycle": "w"
 },
 {
@@ -657,6 +699,7 @@
 "cat": "교육청",
 "used": [
 "q-courses",
+"q-hs-choose",
 "q-naesin"
 ],
 "dated": "",
@@ -894,6 +937,7 @@
 "q-balance",
 "q-dir-free",
 "q-hs-attend",
+"q-hs-autonomous",
 "q-hs-when",
 "q-sch-grade",
 "sh"
@@ -2165,6 +2209,7 @@
 "cat": "대학 입학처",
 "used": [
 "q-courses",
+"q-hs-choose",
 "q-yk",
 "ysCourse"
 ],
@@ -3127,6 +3172,19 @@
 "cycle": "w"
 },
 {
+"id": "5b62f7cc4e",
+"url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?lsJoLnkSeq=1010072001&chrClsCd=010202&ancYnChk=0",
+"host": "law.go.kr",
+"name": "초·중등교육법 시행령 제105조(학교 및 교육과정 운영의 특례), 국가법령정보센터",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-hs-autonomous"
+],
+"dated": "2026-09-11",
+"cycle": "w"
+},
+{
 "id": "70c9ac79b3",
 "url": "https://www.law.go.kr/lsLinkProc.do?lsClsCd=OL&lsNm=%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1+%EC%A7%84%ED%9D%A5%EB%B2%95+%EC%8B%9C%ED%96%89%EB%A0%B9&chrClsCd=010202&joNo=002000000&mode=10&joLnkStr=%EC%A0%9C20%EC%A1%B0",
 "host": "law.go.kr",
@@ -3604,6 +3662,19 @@
 "cycle": "m"
 },
 {
+"id": "88da632a6d",
+"url": "https://hangyo.com/mobile/article.html?no=104828",
+"host": "hangyo.com",
+"name": "한국교육신문(2025년 6월 대학정보공시 분석)",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-hs-autonomous"
+],
+"dated": "2025-06-30",
+"cycle": "m"
+},
+{
 "id": "bc8cde6dbe",
 "url": "https://hangyo.com/news/article.html?no=109590",
 "host": "hangyo.com",
@@ -3748,7 +3819,7 @@
 "id": "8dc384c2fd",
 "url": "https://www.heraldk.com/article/2026052817450068440",
 "host": "heraldk.com",
-"name": "헤럴드경제, 2027학년도 영재학교 일정",
+"name": "헤럴드경제: 2027학년도 영재학교 일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
