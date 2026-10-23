@@ -1,12 +1,12 @@
 {
- "date": "2026-10-23",
+ "date": "2026-10-24",
  "mode": "rotate",
  "planned": 2500,
  "fetched": 2500,
  "errors": 0,
- "with_exams_today": 648,
- "schools_total": 8860,
- "schools_with_exams": 4499,
+ "with_exams_today": 625,
+ "schools_total": 10110,
+ "schools_with_exams": 4497,
  "limit_hit": false,
  "error_samples": []
 }
