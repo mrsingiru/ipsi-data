@@ -1,19 +1,95 @@
 {
  "id": "n16",
  "org": "동두천양주 영재교육원",
- "what": "GED 온라인 지원",
- "checkedAt": "2026-10-24T06:11:27+09:00",
+ "what": "2027 교육지원청부설 영재교육원 영재교육대상자 선발 안내",
+ "checkedAt": "2026-10-24T08:46:50+09:00",
  "opened": [
   {
-   "url": "ged",
-   "status": "paused",
-   "error": "GED 자동 읽기 멈춤(이용 조건 확인 중)"
+   "url": "https://goedy.kr/goedy/na/ntt/selectNttList.do?mi=10312&bbsId=10220",
+   "status": "ok"
+  },
+  {
+   "url": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510",
+   "status": "ok"
+  },
+  {
+   "url": "https://goedy.kr/goedy/na/ntt/selectNttList.do?mi=10224&bbsId=10174",
+   "status": "ok"
   }
  ],
- "notices": [],
+ "notices": [
+  {
+   "title": "2027학년도 동두천양주교육지원청부설 영재교육원 영재교육대상자 선발 공고",
+   "url": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510"
+  }
+ ],
  "ged": [],
- "titles": [],
- "files": [],
- "lines": [],
- "status": "error"
+ "titles": [
+  {
+   "url": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510",
+   "title": "공지사항 < 영재교육원 | 경기도동두천양주교육지원청"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://goedy.kr/upload/goedy/subImg/img_33a762b4-e981-48e6-bc26-e981b2e1fab91747098175924.jpg",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 196538,
+   "sha1": "8ea7eebca23e",
+   "lines": 0
+  },
+  {
+   "url": "https://goedy.kr/dext5editordata/2026/09/20260914_220048628_24404.jpg",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 340297,
+   "sha1": "cde7ca14aee5",
+   "lines": 2
+  }
+ ],
+ "lines": [
+  {
+   "text": "이 이 Sauk 3. 선교육 후선발 프로그램 과정평가 단계 | 관내 학교 밖 청소년 2026. 10. 26.(월) ~ 2026. 11. 25,(수)",
+   "dates": [
+    "2026-10-26",
+    "2026-11-25"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510",
+   "via": "ocr"
+  },
+  {
+   "text": "2027년 3월 기준 주민등록주소지를 4. 최종합격자 발표 | 동두천 양주로 둔 학교 밖 청소년 2026. 12. 10.(목) 18시 이후",
+   "dates": [
+    "2026-12-10"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510",
+   "via": "ocr"
+  }
+ ],
+ "ocr_lines": [
+  {
+   "text": "관내 재학생 1. 학생 온라인 지원 단계 | 2027년 3월 기준 동두천 양주 관내 2026. 10. 12.(월) ~ 10. 21.(4)",
+   "dates": [
+    "2026-10-12",
+    "2026-10-21"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510",
+   "via": "ocr"
+  }
+ ],
+ "status": "dates"
 }

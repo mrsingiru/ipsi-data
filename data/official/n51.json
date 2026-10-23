@@ -1,8 +1,8 @@
 {
  "id": "n51",
  "org": "광주 고입",
- "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-10-24T06:16:47+09:00",
+ "what": "2027 광주 고등학교 입학전형 주요 일정(교육청 일정표 — 학교 게시 첨부)",
+ "checkedAt": "2026-10-24T08:45:46+09:00",
  "opened": [
   {
    "url": "https://samyook.jge.ms.kr/xboard/board.php?mode=downpost&tbnum=31&sCat=0&page=1&keyset=&searchword=&number=9314&file_num=23366",
@@ -11,8 +11,35 @@
  ],
  "notices": [],
  "ged": [],
- "titles": [],
- "files": [],
- "lines": [],
- "status": "not-found"
+ "titles": [
+  {
+   "url": "https://samyook.jge.ms.kr/xboard/board.php?mode=downpost&tbnum=31&sCat=0&page=1&keyset=&searchword=&number=9314&file_num=23366",
+   "title": "첨부: board.php"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://samyook.jge.ms.kr/xboard/board.php?mode=downpost&tbnum=31&sCat=0&page=1&keyset=&searchword=&number=9314&file_num=23366",
+   "name": "board.php",
+   "status": "ok",
+   "direct": true,
+   "type": "pdf",
+   "bytes": 71324,
+   "sha1": "1c093ff1f5a1",
+   "lines": 1
+  }
+ ],
+ "lines": [
+  {
+   "text": "접수 | ～5.22(금)",
+   "dates": [
+    "2026-05-22"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://samyook.jge.ms.kr/xboard/board.php?mode=downpost&tbnum=31&sCat=0&page=1&keyset=&searchword=&number=9314&file_num=23366"
+  }
+ ],
+ "status": "dates"
 }

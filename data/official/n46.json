@@ -1,27 +1,139 @@
 {
  "id": "n46",
  "org": "강원과학고",
- "what": "앞으로 120일 안 일정 3단계",
- "checkedAt": "2026-10-24T06:16:24+09:00",
+ "what": "2027 신입생 입학전형(요강·출석면담·발표)",
+ "checkedAt": "2026-10-24T08:45:29+09:00",
  "opened": [
   {
    "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/list.do?boardID=23257&m=0201&s=kangwonsh",
    "status": "ok"
   },
   {
-   "url": "https://www.gwe.go.kr/main/content.do?key=m2309182999773",
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9544982&lev=0&m=0201&s=kangwonsh",
+   "status": "ok"
+  },
+  {
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9682071&lev=0&m=0201&s=kangwonsh",
+   "status": "ok"
+  },
+  {
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9636351&lev=0&m=0201&s=kangwonsh",
    "status": "ok"
   }
  ],
- "notices": [],
+ "notices": [
+  {
+   "title": "2027학년도 신입생 입학전형 요강",
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9544982&lev=0&m=0201&s=kangwonsh"
+  },
+  {
+   "title": "2027학년도 신입생 입학전형 출석면담 안내",
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9682071&lev=0&m=0201&s=kangwonsh"
+  },
+  {
+   "title": "2027학년도 신입생 입학전형 지원자(경쟁률) 공지(일반/사회통합 전형 경쟁률)",
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9636351&lev=0&m=0201&s=kangwonsh"
+  }
+ ],
  "ged": [],
  "titles": [
   {
-   "url": "https://www.gwe.go.kr/main/content.do?key=m2309182999773",
-   "title": "강원특별자치도교육청 - 특수목적고"
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9544982&lev=0&m=0201&s=kangwonsh",
+   "title": "강원과학고등학교 홈페이지"
+  },
+  {
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9682071&lev=0&m=0201&s=kangwonsh",
+   "title": "강원과학고등학교 홈페이지"
+  },
+  {
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9636351&lev=0&m=0201&s=kangwonsh",
+   "title": "강원과학고등학교 홈페이지"
   }
  ],
- "files": [],
- "lines": [],
- "status": "found-no-dates"
+ "files": [
+  {
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=3b390d00f3f373000b57b66a45c8029d",
+   "name": "강원과학고등학교 2027학년도 신입생 입학전형 요강(공고문).pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 460750,
+   "sha1": "a9a9bb24f9f0"
+  },
+  {
+   "url": "https://kangwon-sh.gwe.hs.kr/images/template/40119/sub/s_visual.jpg",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 1075626,
+   "sha1": "660e2fb5ea36",
+   "lines": 0
+  }
+ ],
+ "lines": [
+  {
+   "text": "방문면담 | 2026. 9. 14.(월) ~ 10. 13.(화)",
+   "dates": [
+    "2026-09-14",
+    "2026-10-13"
+   ],
+   "words": [
+    "면담"
+   ],
+   "src": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=3b390d00f3f373000b57b66a45c8029d"
+  },
+  {
+   "text": "출석면담 | 2026. 10. 16.(금) ~ 10. 17.(토)",
+   "dates": [
+    "2026-10-16",
+    "2026-10-17"
+   ],
+   "words": [
+    "면담"
+   ],
+   "src": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=3b390d00f3f373000b57b66a45c8029d"
+  },
+  {
+   "text": "2단계 평가대상자 발표 | 2026. 10. 28.(수)",
+   "dates": [
+    "2026-10-28"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=3b390d00f3f373000b57b66a45c8029d"
+  },
+  {
+   "text": "소집면접 | 2026. 11. 13.(금)",
+   "dates": [
+    "2026-11-13"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=3b390d00f3f373000b57b66a45c8029d"
+  },
+  {
+   "text": "최종 합격자 발표 | 2026. 11. 25.(수)",
+   "dates": [
+    "2026-11-25"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=3b390d00f3f373000b57b66a45c8029d"
+  },
+  {
+   "text": "출석면담은 10월 16일(금)부터 17일(토)까지 진행합니다.",
+   "dates": [
+    "2026-10-16"
+   ],
+   "words": [
+    "면담"
+   ],
+   "src": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9682071&lev=0&m=0201&s=kangwonsh"
+  }
+ ],
+ "status": "dates"
 }

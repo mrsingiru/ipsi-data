@@ -1,11 +1,15 @@
 {
  "id": "n45",
  "org": "강원 교육지원청 영재원",
- "what": "앞으로 120일 안 일정 2단계",
- "checkedAt": "2026-10-24T06:16:15+09:00",
+ "what": "2027 교육지원청 부설 영재교육원 선발 공고(원주·강릉·동해)",
+ "checkedAt": "2026-10-24T08:45:01+09:00",
  "opened": [
   {
    "url": "https://wjgift.gwe.go.kr/boardCnts/list.do?boardID=99694&m=0201&s=kwwjegp",
+   "status": "ok"
+  },
+  {
+   "url": "https://wjgift.gwe.go.kr/boardCnts/view.do?boardID=99694&boardSeq=7716897&lev=0&m=0201&s=kwwjegp",
    "status": "ok"
   },
   {
@@ -13,23 +17,756 @@
    "status": "ok"
   },
   {
+   "url": "https://gwgned.gwe.go.kr/boardCnts/view.do?boardID=100599&boardSeq=7716740&lev=0&m=100802&s=gwgned",
+   "status": "ok"
+  },
+  {
+   "url": "https://gwgned.gwe.go.kr/boardCnts/view.do?boardID=100599&boardSeq=7707055&lev=0&m=100802&s=gwgned",
+   "status": "ok"
+  },
+  {
    "url": "https://kwthe.gwe.go.kr/boardCnts/list.do?boardID=2519&m=100801&s=kwthe",
    "status": "ok"
   },
   {
-   "url": "https://gwcce.gwe.go.kr/sub/info.do?m=051003&s=gwcce",
+   "url": "https://kwthe.gwe.go.kr/boardCnts/view.do?boardID=2519&boardSeq=7716755&lev=0&m=100801&s=kwthe",
+   "status": "ok"
+  },
+  {
+   "url": "https://kwthe.gwe.go.kr/boardCnts/view.do?boardID=2519&boardSeq=7714483&lev=0&m=100801&s=kwthe",
    "status": "ok"
   }
  ],
- "notices": [],
+ "notices": [
+  {
+   "title": "2027학년도 강원특별자치도원주교육지원청부설영재교육원 교육대상자 최종 선발 공고",
+   "url": "https://wjgift.gwe.go.kr/boardCnts/view.do?boardID=99694&boardSeq=7716897&lev=0&m=0201&s=kwwjegp"
+  },
+  {
+   "title": "2027학년도 강원특별자치도강릉교육지원청 부설 영재교육원 교육대상자 선발 공고",
+   "url": "https://gwgned.gwe.go.kr/boardCnts/view.do?boardID=100599&boardSeq=7716740&lev=0&m=100802&s=gwgned"
+  },
+  {
+   "title": "2027학년도 강릉교육지원청 부설 영재교육원 교육대상자 선발 요강",
+   "url": "https://gwgned.gwe.go.kr/boardCnts/view.do?boardID=100599&boardSeq=7707055&lev=0&m=100802&s=gwgned"
+  },
+  {
+   "title": "2027학년도 동해교육지원청 부설 영재교육원 영재교육 대상자 선발 시행 계획 공고",
+   "url": "https://kwthe.gwe.go.kr/boardCnts/view.do?boardID=2519&boardSeq=7716755&lev=0&m=100801&s=kwthe"
+  },
+  {
+   "title": "2027학년도 동해교육지원청 부설 영재교육원 교육대상자 선발 요강",
+   "url": "https://kwthe.gwe.go.kr/boardCnts/view.do?boardID=2519&boardSeq=7714483&lev=0&m=100801&s=kwthe"
+  }
+ ],
  "ged": [],
  "titles": [
   {
-   "url": "https://gwcce.gwe.go.kr/sub/info.do?m=051003&s=gwcce",
-   "title": "강원특별자치도춘천교육지원청 누리집"
+   "url": "https://wjgift.gwe.go.kr/boardCnts/view.do?boardID=99694&boardSeq=7716897&lev=0&m=0201&s=kwwjegp",
+   "title": "강원특별자치도원주교육지원청 영재교육원 홈페이지"
+  },
+  {
+   "url": "https://gwgned.gwe.go.kr/boardCnts/view.do?boardID=100599&boardSeq=7716740&lev=0&m=100802&s=gwgned",
+   "title": "강원특별자치도강릉교육지원청 홈페이지"
+  },
+  {
+   "url": "https://gwgned.gwe.go.kr/boardCnts/view.do?boardID=100599&boardSeq=7707055&lev=0&m=100802&s=gwgned",
+   "title": "강원특별자치도강릉교육지원청 홈페이지"
+  },
+  {
+   "url": "https://kwthe.gwe.go.kr/boardCnts/view.do?boardID=2519&boardSeq=7716755&lev=0&m=100801&s=kwthe",
+   "title": "강원특별자치도동해교육지원청 홈페이지"
+  },
+  {
+   "url": "https://kwthe.gwe.go.kr/boardCnts/view.do?boardID=2519&boardSeq=7714483&lev=0&m=100801&s=kwthe",
+   "title": "강원특별자치도동해교육지원청 홈페이지"
   }
  ],
- "files": [],
- "lines": [],
- "status": "found-no-dates"
+ "files": [
+  {
+   "url": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=9ca2c270259851d132c0a44ea44e67ad",
+   "name": "2027학년도 강원특별자치도원주교육지원청부설영재교육원 교육대상자 최종 선발 요강.hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 188928,
+   "sha1": "e103ac30ed3e"
+  },
+  {
+   "url": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4",
+   "name": "2027학년도 강원특별자치도원주교육지원청부설영재교육원 영재교육대상자 선발 전형 운영 계획(원주).hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 238080,
+   "sha1": "808167c52087"
+  },
+  {
+   "url": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=4444abfb902caad470bcf1917b43761a",
+   "name": "2027학년도 강원특별자치도강릉교육지원청 부설 영재교육원 교육대상자 선발 공고(2026-216).pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 133081,
+   "sha1": "05c4ff652167"
+  },
+  {
+   "url": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=c4f7a05ecc420ad651a38f0f20421c4d",
+   "name": "2027학년도 강원특별자치도강릉교육지원청 부설 영재교육원 교육대상자 선발 요강.hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 93696,
+   "sha1": "39ca1dcd41a6"
+  },
+  {
+   "url": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=b66a5addaff0af4af9a0ea1f24da28cc",
+   "name": "2. 2026 강원특별자치도 교사관찰추천제 GED 매뉴얼(지원학생용).hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 6292992,
+   "sha1": "ef47551108c6"
+  },
+  {
+   "url": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=e8da1300b9172087f74e7589d01036ea",
+   "name": "[붙임] 2027학년도 동해교육지원청 부설 영재교육원 영재교육대상자 선발 최종 공고.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 143700,
+   "sha1": "7b0eee7acce9"
+  },
+  {
+   "url": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=2a9c966665c7b2ca6256354b86e16807",
+   "name": "2027학년도 동해교육지원청 부설 영재교육원 교육대상자 선발 요강.hwpx",
+   "status": "ok",
+   "type": "hwpx",
+   "bytes": 85238,
+   "sha1": "3d0dc0119939"
+  }
+ ],
+ "lines": [
+  {
+   "text": "2027학년도 강원특별자치도원주교육지원청부설영재교육원 교육대상자 최종 선발을 붙임과 같이 공고합니다. | 2026. 10. 13.",
+   "dates": [
+    "2026-10-13"
+   ],
+   "words": [
+    "지원",
+    "선발"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/view.do?boardID=99694&boardSeq=7716897&lev=0&m=0201&s=kwwjegp"
+  },
+  {
+   "text": "학생 지원 | 2026. 8. 24.(월)~2026. 9. 30.(수) 23:59까지",
+   "dates": [
+    "2026-08-24",
+    "2026-09-30"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=9ca2c270259851d132c0a44ea44e67ad"
+  },
+  {
+   "text": "○ 학교추천위원회 추천기준에 의거하여 선정심사위원회(원주교육지원청영재교육원)로 | 추천서 및 증빙서류 제출(GED 및 업무관리시스템 제출) 2026. 11. 13.(금)까지 기한엄수",
+   "dates": [
+    "2026-11-13"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=9ca2c270259851d132c0a44ea44e67ad"
+  },
+  {
+   "text": "(영재성검사) | ○ 일시: 2026. 12. 5.(토) 09:30 ~ 12:00 (예정)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "영재성"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=9ca2c270259851d132c0a44ea44e67ad"
+  },
+  {
+   "text": "(심층면접) | ○ 일시: 2026. 12. 12.(토) 09:00 ~ 12:00 (예정)",
+   "dates": [
+    "2026-12-12"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=9ca2c270259851d132c0a44ea44e67ad"
+  },
+  {
+   "text": "강원도원주교육지원청 | ○ 일정: 2026. 12. 23.(수) (예정)",
+   "dates": [
+    "2026-12-23"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=9ca2c270259851d132c0a44ea44e67ad"
+  },
+  {
+   "text": " 2027 영재교육대상자 선발을 위한 교사관찰추천제 시행 계획[미래교육과-7523(2026. 5. 26.)]",
+   "dates": [
+    "2026-05-26"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "가) 사회통합전형 지원자의 소속교에서는 아래 서류를 2026. 9. 30.(수)까지 학생에게서 제출받은 후 서류의 적합성을 판단하여 강원특별자치도원주교육지원청으로 2026. 11. 13.(금)까지 공문으로 제출해야 함",
+   "dates": [
+    "2026-09-30",
+    "2026-11-13"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "1) 학생지원 (GED(http://ged.kedi.re.kr)에서) | 가) 기 간: 2026. 8. 24.(월) ∼ 9. 30.(수) 23:59까지",
+   "dates": [
+    "2026-08-24",
+    "2026-09-30"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "- 영재교육원 내 모집영역의 중복지원은 불가함 | 가) 기 간: 2026. 8. 24.(월) ∼ 9. 30.(수)",
+   "dates": [
+    "2026-08-24",
+    "2026-09-30"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "3단계: 학교추천위원회 추천 (학교추천위원회 ⇒ 원주교육지원청부설영재교육원) | 1) 기 간: 2026. 11. 9.(월) ∼ 11. 13.(금) 23:59까지",
+   "dates": [
+    "2026-11-09",
+    "2026-11-13"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "※ 2026학년도 초등 6학년의 경우 2027학년도 중등영역에 지원함 | 가) 기 한: 2026. 11. 13.(금) 23:59까지",
+   "dates": [
+    "2026-11-13"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "1) 영재성 검사(예정) | 가) 일시 및 장소: 2026. 12. 5.(토) 09:30~12:00 / 장소: 미정, 관내 학교 예정",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "영재성"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "2) 심층면접(예정) | 가) 일시 및 장소: 2026. 12. 12.(토) 09:00~12:00 / 장소: 미정",
+   "dates": [
+    "2026-12-12"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "2) 단계별 점수 및 합산점수에 근거한 교육대상자 최종 선발 심의 | 3) 선정심사위원회 (2026. 3. 1. 조직 기준)",
+   "dates": [
+    "2026-03-01"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "6단계: 최종합격자 발표 | 1) 일자: 2026. 12. 25.(금) (예정)",
+   "dates": [
+    "2026-12-25"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "- 교원 대상 교사관찰․추천 선발 과정 연수 | 7. 24.(금)까지 교원대상 전달연수 운영",
+   "dates": [
+    "2026-07-24"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "9. 30.(수)까지 GED온라인 지원서 신청",
+   "dates": [
+    "2026-09-30"
+   ],
+   "words": [
+    "원서",
+    "지원"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "영재성 검사 | 12. 5.(토)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "영재성"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "심층면접 | 12. 12.(토) 예정",
+   "dates": [
+    "2026-12-12"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "- 영재교육대상자 최종 선발 및 공지 | 12. 25.(금)",
+   "dates": [
+    "2026-12-25"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": " 교사관찰추천제 지원 기간 : 2026. 8. 24. ~ 9. 30.",
+   "dates": [
+    "2026-08-24",
+    "2026-09-30"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "다양한 선발준거를 활용하여 영재교육대상자 최종 선발 | ※ 제출 기한 : 2026. 7. 24.(금)",
+   "dates": [
+    "2026-07-24"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4"
+  },
+  {
+   "text": "교육대상자 선발을 다음과 같이 공고합니다. | 2026. 10. 8.",
+   "dates": [
+    "2026-10-08"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=4444abfb902caad470bcf1917b43761a"
+  },
+  {
+   "text": "3단계 : 학교추천위원회 추천 (학교⇒ 강릉교육지원청 부설 영재교육원) | 2) 기간: 2026. 11. 9.(월)～2026. 11. 13.(금) 23:59까지",
+   "dates": [
+    "2026-11-09",
+    "2026-11-13"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=4444abfb902caad470bcf1917b43761a"
+  },
+  {
+   "text": "4-1단계 : 영재성검사 | 1) 일시: 2026. 12. 5.(토) (예정)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "영재성"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=4444abfb902caad470bcf1917b43761a"
+  },
+  {
+   "text": "4-2단계 : 심층면접 | 1) 일시: 2026. 12. 12.(토) (예정)",
+   "dates": [
+    "2026-12-12"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=4444abfb902caad470bcf1917b43761a"
+  },
+  {
+   "text": "차. 영재성검사 이후 면접대상자 선발 결과는 2026. 12. 9.(수) 17:00에 문자메시지",
+   "dates": [
+    "2026-12-09"
+   ],
+   "words": [
+    "영재성",
+    "면접",
+    "선발"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=4444abfb902caad470bcf1917b43761a"
+  },
+  {
+   "text": "카. 최종 선발 결과는 2026. 12. 24.(목), 18:00에 학부모 문자메시지 및 소속",
+   "dates": [
+    "2026-12-24"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=4444abfb902caad470bcf1917b43761a"
+  },
+  {
+   "text": "타. 기타 사항은 강원특별자치도강릉교육지원청 부설 영재교육원(033-640-1250)로 | 2026. 10. 8.",
+   "dates": [
+    "2026-10-08"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=4444abfb902caad470bcf1917b43761a"
+  },
+  {
+   "text": "선발지원을 희망하는 모든 학생은 해당기간(2026. 8. 24.~2026. 9. 30.)내에 아래의 절차대로 진행바라며, 사전에 담임선생님께 말씀드려서 원활하게 진행하시길 바랍니다.",
+   "dates": [
+    "2026-08-24",
+    "2026-09-30"
+   ],
+   "words": [
+    "지원",
+    "선발"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/view.do?boardID=100599&boardSeq=7707055&lev=0&m=100802&s=gwgned"
+  },
+  {
+   "text": "(※발명반의 경우 도교육청 관련 위원회의 심의 결과에 따라 초등학교 4학년까지 지원 대상이 확대될 수 있으며, 최종 지원 자격은 2026. 10. 13.까지 별도 안내할 예정임.)",
+   "dates": [
+    "2026-10-13"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=c4f7a05ecc420ad651a38f0f20421c4d"
+  },
+  {
+   "text": "학생 지원 | ○ 일정 : 2026. 8. 24.(월) ~ 2026. 9. 30.(수)",
+   "dates": [
+    "2026-08-24",
+    "2026-09-30"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=c4f7a05ecc420ad651a38f0f20421c4d"
+  },
+  {
+   "text": "(영재성검사) | ○ 일정 : 2026. 12. 5.(토) 예정",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "영재성"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=c4f7a05ecc420ad651a38f0f20421c4d"
+  },
+  {
+   "text": "(심층면접) | ○ 일정 : 2026. 12. 12.(토) 예정",
+   "dates": [
+    "2026-12-12"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=c4f7a05ecc420ad651a38f0f20421c4d"
+  },
+  {
+   "text": "⑩ 반드시 지원서를 출력하여 담임선생님께 9월 30일(수)전까지 제출합니다. 지원했다는 증빙서류이자, 담임교사(추천교사)가 지원여부를 알고 있어야 10월부터 관찰추천이 가능합니다.",
+   "dates": [
+    "2026-09-30"
+   ],
+   "words": [
+    "원서",
+    "지원"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=b66a5addaff0af4af9a0ea1f24da28cc"
+  },
+  {
+   "text": "② 2026. 9. 30.(수)까지 지원을 완료하고 지원서를 출력하여 담임 선생님(또는 전담 선생님)께 제출합니다. * 담임 선생님(또는 전담선생님)께서 영재 선발과정 지원 사실을 알아야 교사관찰ㆍ추천이 가능합니다. 지원서를 제출하지 않을 시 추천이 불가하며, 관찰추천을 받지 못할…",
+   "dates": [
+    "2026-09-30"
+   ],
+   "words": [
+    "원서",
+    "지원",
+    "선발"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=b66a5addaff0af4af9a0ea1f24da28cc"
+  },
+  {
+   "text": "▶ 지원 마감일(9월30일)이 지나기 전에 새로 지원하고, 잘못된 지원은 취소하세요.",
+   "dates": [
+    "2026-09-30"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=b66a5addaff0af4af9a0ea1f24da28cc"
+  },
+  {
+   "text": "▶ 지원 마감일(9월 30일) 전에는 지원자가 수정 가능합니다.",
+   "dates": [
+    "2026-09-30"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=b66a5addaff0af4af9a0ea1f24da28cc"
+  },
+  {
+   "text": "▶ 지원 마감일(9월 30일) 이후에는 지원기관(영재원)으로 문의하세요.",
+   "dates": [
+    "2026-09-30"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=b66a5addaff0af4af9a0ea1f24da28cc"
+  },
+  {
+   "text": "A. 지원 마감일(9월 30일) 전에는 지원자 계정에서 수정할 수 있습니다. 기존에 지원한 지원을 취소하지 않고 학교를 변경해 주세요. 지원 마감일이 이후에는 지원기관(영재원)으로 문의하세요.",
+   "dates": [
+    "2026-09-30"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=b66a5addaff0af4af9a0ea1f24da28cc"
+  },
+  {
+   "text": "A. 전형유형이라 함은 일반전형 또는 사회통합전형을 이야기합니다. 지원유형은 교사추천(11월 6일)까지만 지원자의 계정에서 수정 가능합니다. 학교추천위원회로 추천된 후에는 학교나 지원기관에 수정을 요청하시기 바랍니다.",
+   "dates": [
+    "2026-11-06"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=b66a5addaff0af4af9a0ea1f24da28cc"
+  },
+  {
+   "text": "A. 수험표는 학교로부터 영재교육기관으로 추천이 완료되고 지원상태가 ‘영재교육기관의 선정심사위원회 심사중’일때 발급됩니다. 하지만 영재교육기관에서 수험번호를 부여한 이후에 수험번호가 표기된 수험표를 출력하실 수 있습니다. 2026년에는 11월 26일 이후 수험표를 출력해야 수험번호…",
+   "dates": [
+    "2026-11-26",
+    "2026-11-26"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gwgned.gwe.go.kr/boardCnts/fileDown.do?m=100802&s=gwgned&fileSeq=b66a5addaff0af4af9a0ea1f24da28cc"
+  },
+  {
+   "text": "<영재성 검사> | -2026. 12. 5.(토) 10:00",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "영재성"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/view.do?boardID=2519&boardSeq=7716755&lev=0&m=100801&s=kwthe"
+  },
+  {
+   "text": "<심층면접> | -2026. 12. 12.(토) 09:30",
+   "dates": [
+    "2026-12-12"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/view.do?boardID=2519&boardSeq=7716755&lev=0&m=100801&s=kwthe"
+  },
+  {
+   "text": "-영재성 검사 대상자 | 2026. 8. 24.~9. 30.",
+   "dates": [
+    "2026-08-24",
+    "2026-09-30"
+   ],
+   "words": [
+    "영재성"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/view.do?boardID=2519&boardSeq=7716755&lev=0&m=100801&s=kwthe"
+  },
+  {
+   "text": "선발 전형 시행 계획을 다음과 같이 공고합니다. | 2026. 10. 12.",
+   "dates": [
+    "2026-10-12"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=e8da1300b9172087f74e7589d01036ea"
+  },
+  {
+   "text": "-영재성 검사 대상자 | 2026. 8. 24.~9. 30.",
+   "dates": [
+    "2026-08-24",
+    "2026-09-30"
+   ],
+   "words": [
+    "영재성"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=e8da1300b9172087f74e7589d01036ea"
+  },
+  {
+   "text": "GED 체크리스트 GED 지원자 전체 | (관찰)2026. 10. 1.~11. 6.",
+   "dates": [
+    "2026-10-01",
+    "2026-11-06"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=e8da1300b9172087f74e7589d01036ea"
+  },
+  {
+   "text": "동해교육지원청 | (검사)2026. 12. 5.",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=e8da1300b9172087f74e7589d01036ea"
+  },
+  {
+   "text": "(면접)2026. 12. 12.",
+   "dates": [
+    "2026-12-12"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=e8da1300b9172087f74e7589d01036ea"
+  },
+  {
+   "text": "동해교육지원청 | 2026. 12. 17.",
+   "dates": [
+    "2026-12-17"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=e8da1300b9172087f74e7589d01036ea"
+  },
+  {
+   "text": "(영재성 검사) 2026. 12. 5.(토) 9:30 / (심층면접) 2026. 12. 12.(토) 9:00",
+   "dates": [
+    "2026-12-05",
+    "2026-12-12"
+   ],
+   "words": [
+    "영재성",
+    "면접"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=e8da1300b9172087f74e7589d01036ea"
+  },
+  {
+   "text": "가. 합격자 발표 | 1) 일시: 2026. 12. 18.(금) 10:00",
+   "dates": [
+    "2026-12-18"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=e8da1300b9172087f74e7589d01036ea"
+  },
+  {
+   "text": "선발지원을 희망하는 모든 학생은 해당 기간(2026. 8. 24.-2026. 9. 30.)내에 아래의 절차대로 진행바라며, GED 시스템에 지원 후 담임 선생님께 반드시 말씀드려 학교에서 교사관찰추천을 할 수 있도록 하기 바랍니다.",
+   "dates": [
+    "2026-08-24",
+    "2026-09-30"
+   ],
+   "words": [
+    "지원",
+    "선발"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/view.do?boardID=2519&boardSeq=7714483&lev=0&m=100801&s=kwthe"
+  },
+  {
+   "text": "GED 지원자 전체 | 2026. 11. 9.~11. 13.",
+   "dates": [
+    "2026-11-09",
+    "2026-11-13"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=2a9c966665c7b2ca6256354b86e16807"
+  },
+  {
+   "text": "동해교육지원청 | (검사)2026. 12. 5.",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=2a9c966665c7b2ca6256354b86e16807"
+  },
+  {
+   "text": "(면접)2026. 12. 12.",
+   "dates": [
+    "2026-12-12"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=2a9c966665c7b2ca6256354b86e16807"
+  },
+  {
+   "text": "동해교육지원청 | 2026. 12. 16.",
+   "dates": [
+    "2026-12-16"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=2a9c966665c7b2ca6256354b86e16807"
+  },
+  {
+   "text": "동해교육지원청 | 2026. 12. 18.",
+   "dates": [
+    "2026-12-18"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=2a9c966665c7b2ca6256354b86e16807"
+  }
+ ],
+ "status": "dates"
 }

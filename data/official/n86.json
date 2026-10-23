@@ -1,32 +1,51 @@
 {
  "id": "n86",
  "org": "경북 교육지원청 영재원",
- "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-10-24T06:19:46+09:00",
+ "what": "2027 교육지원청 영재교육원 영재교육대상자 선발(구미·예천·경주)",
+ "checkedAt": "2026-10-24T08:46:59+09:00",
  "opened": [
   {
-   "url": "https://www.gbe.kr/main/na/ntt/selectNttList.do?mi=3439&bbsId=1876",
+   "url": "https://www.gbe.kr/gm/na/ntt/selectNttList.do?mi=9678&bbsId=3188",
    "status": "ok"
   },
   {
-   "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3439&bbsId=1876&nttSn=1648983",
+   "url": "https://www.gbe.kr/gm/na/ntt/selectNttInfo.do?mi=9678&bbsId=3188&nttSn=1650865",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.gbe.kr/ycg/na/ntt/selectNttList.do?mi=4596&bbsId=2020",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.gbe.kr/gj/na/ntt/selectNttList.do?bbsId=1582&searchCate=53&mi=8922",
    "status": "ok"
   }
  ],
  "notices": [
   {
-   "title": "2027년 상반기 경상북도교육청 상설갤러리 대관(실내, 실외) 신청 공고",
-   "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3439&bbsId=1876&nttSn=1648983"
+   "title": "[안내] 2027학년도 구미교육지원청부설영재교육원 영재교육대상자 선발 모집 공고",
+   "url": "https://www.gbe.kr/gm/na/ntt/selectNttInfo.do?mi=9678&bbsId=3188&nttSn=1650865"
   }
  ],
  "ged": [],
  "titles": [
   {
-   "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3439&bbsId=1876&nttSn=1648983",
-   "title": "경상북도교육청-공지사항"
+   "url": "https://www.gbe.kr/gm/na/ntt/selectNttInfo.do?mi=9678&bbsId=3188&nttSn=1650865",
+   "title": "경상북도구미교육지원청-공지사항"
   }
  ],
  "files": [],
- "lines": [],
- "status": "found-no-dates"
+ "lines": [
+  {
+   "text": "담당부서교육지원과 | 담당자 업데이트일자2026-09-21",
+   "dates": [
+    "2026-09-21"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://www.gbe.kr/gm/na/ntt/selectNttInfo.do?mi=9678&bbsId=3188&nttSn=1650865"
+  }
+ ],
+ "status": "dates"
 }
