@@ -1,85 +1,29 @@
 {
-"checkedAt": "2026-10-24T06:19+09:00",
+"checkedAt": "2026-10-24T06:53+09:00",
 "registry": {
 "updated": "2026-10-24",
-"rules": 49,
-"sources": 51
+"rules": 52,
+"sources": 54
 },
 "run": {
-"auto": 36,
-"opened": 21,
-"ok": 20,
+"auto": 37,
+"opened": 1,
+"ok": 1,
 "robots": 0,
-"failed": 1,
+"failed": 0,
 "thin": 0,
-"notDue": 15
+"notDue": 36
 },
 "summary": {
 "high": 0,
-"mid": 2,
-"low": 6
+"mid": 0,
+"low": 1
 },
 "events": [
 {
-"source": "ig-api",
+"source": "adsense-policy",
 "rules": [
-"R-IG2"
-],
-"level": "mid",
-"what": "바뀐 부분: (첫 부분)"
-},
-{
-"source": "yt-spam",
-"rules": [
-"R-YT2"
-],
-"level": "mid",
-"what": "바뀐 부분: Spam Policy"
-},
-{
-"source": "yt-api-policy",
-"rules": [
-"R-YT14"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "yt-chapters",
-"rules": [
-"R-YT9"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "yt-comment-shorts",
-"rules": [
-"R-YT12"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "yt-hashtags",
-"rules": [
-"R-YT10"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "yt-premiere",
-"rules": [
-"R-YT11"
-],
-"level": "low",
-"what": "처음 기록"
-},
-{
-"source": "yt-terms",
-"rules": [
-"R-YT13"
+"R-M2"
 ],
 "level": "low",
 "what": "처음 기록"
@@ -1886,7 +1830,8 @@
 "method": "ai",
 "cycle": "q",
 "rules": [
-"R-L3"
+"R-L3",
+"R-M1"
 ]
 },
 "law-pipa": {
@@ -1916,7 +1861,8 @@
 "method": "ai",
 "cycle": "y",
 "rules": [
-"R-L6"
+"R-L6",
+"R-M3"
 ]
 },
 "law-copyright": {
@@ -2926,6 +2872,129 @@
 "lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
 "watchMissing": []
+},
+"coupang-partners": {
+"name": "쿠팡 파트너스 이용 약관·활동 가이드(대가 문구·등록 채널)",
+"owner": "쿠팡",
+"url": "https://partners.coupang.com",
+"method": "manual",
+"cycle": "y",
+"rules": [
+"R-M1"
+]
+},
+"adsense-policy": {
+"name": "애드센스 광고 배치·가치 낮은 콘텐츠 정책",
+"owner": "Google",
+"url": "https://support.google.com/adsense/answer/1346295?hl=en",
+"method": "auto",
+"cycle": "q",
+"rules": [
+"R-M2"
+],
+"checkedAt": "2026-10-24T06:53+09:00",
+"status": "ok",
+"final": "",
+"title": "Ad placement policies - Google AdSense Help",
+"updated": "",
+"chars": 8480,
+"hash": "ed5b77c3e880",
+"sections": [
+[
+"Ad placement policies",
+"2493f3acd803"
+],
+[
+"Encouraging accidental clicks",
+"2b1a0e541cae"
+],
+[
+"Unnatural attention to ads",
+"6b6f56d9ac63"
+],
+[
+"Placing ads under a misleading header",
+"5fcbdb2060f6"
+],
+[
+"Aligning images with ads",
+"e6450b7042fc"
+],
+[
+"Formatting content to mimic ads",
+"83945229cbb6"
+],
+[
+"Offering compensation",
+"e8b167127996"
+],
+[
+"Distance between ads and Flash games",
+"5bb723887589"
+],
+[
+"Auto-refreshing ads",
+"93ee206c0d94"
+],
+[
+"Ads in private communications",
+"80e516c615c8"
+],
+[
+"Ads on emails",
+"4c9d34fce66b"
+],
+[
+"Ads in a software application",
+"d49c99a6901e"
+],
+[
+"Ads in a new window",
+"3a8c8147fff3"
+],
+[
+"Ads in pop-up and pop-under windows",
+"8d9c08fb6e54"
+],
+[
+"Ads on a site with pop-ups or pop-unders",
+"461f0bb62489"
+],
+[
+"Ads on content that we cannot evaluate",
+"557ae92b6b9e"
+],
+[
+"Ads on the same page or site as another publisher",
+"ff2f45d48717"
+],
+[
+"Ads on a hosted site (e.g., Blogger)",
+"25740d01097b"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"accidental clicks": 5,
+"Advertisements": 2,
+"Sponsored Links": 1
+},
+"lastOk": "2026-10-24T06:53+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"law-lifelong": {
+"name": "평생교육법 제33조(원격평생교육 신고)·학원법 교습 정의 — 유료 정보 구독 검토용",
+"owner": "교육부·국회",
+"url": "https://www.law.go.kr",
+"method": "ai",
+"cycle": "y",
+"rules": [
+"R-M3"
+]
 }
 }
 }
