@@ -1,7 +1,7 @@
 {
- "at": "2026-10-23T07:50:44+09:00",
+ "at": "2026-10-23T18:57:06+09:00",
  "targets": 48,
- "withDates": 26,
+ "withDates": 25,
  "items": [
   {
    "id": "n93",
@@ -62,9 +62,9 @@
   {
    "id": "n78",
    "org": "대구교대 영재원",
-   "status": "dates",
-   "lines": 7,
-   "files": 5,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
    "opened": 2
   },
   {
@@ -94,10 +94,10 @@
   {
    "id": "n68",
    "org": "제주과학고",
-   "status": "robots",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
-   "opened": 1
+   "files": 2,
+   "opened": 2
   },
   {
    "id": "n01",
@@ -134,17 +134,17 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
+   "files": 2,
    "opened": 1
   },
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
+   "files": 2,
    "opened": 1
   },
   {
@@ -182,9 +182,9 @@
   {
    "id": "n29",
    "org": "대전동신과학고",
-   "status": "found-no-dates",
+   "status": "robots",
    "lines": 0,
-   "files": 3,
+   "files": 0,
    "opened": 1
   },
   {

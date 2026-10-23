@@ -2,17 +2,42 @@
  "id": "n68",
  "org": "제주과학고",
  "what": "1단계 합격자 발표",
- "checkedAt": "2026-10-23T07:43:14+09:00",
+ "checkedAt": "2026-10-23T18:47:30+09:00",
  "opened": [
   {
    "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttList.do?mi=108100&bbsId=118541",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108100&bbsId=118541&nttSn=40710684",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 신입생 입학전형 모집요강 공고",
+   "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108100&bbsId=118541&nttSn=40710684"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108100&bbsId=118541&nttSn=40710684",
+   "title": "제주과학고등학교 > 입학정보 > 모집요강 상세"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://school.jje.go.kr/common/nttFileDownload.do?fileKey=27556f5c27e734d047920fdd2b6c1d0b",
+   "name": "2027학년도 제주과학고등학교 신입생 입학전형 모집요강.pdf",
+   "status": "robots"
+  },
+  {
+   "url": "https://school.jje.go.kr/common/nttFileDownload.do?fileKey=f505378947f1b950a08062d28a873804",
+   "name": "2027학년도 제주과학고등학교 신입생 입학전형 제출서류 양식(자기소개서제외).hwp",
    "status": "robots"
   }
  ],
- "notices": [],
- "ged": [],
- "titles": [],
- "files": [],
  "lines": [],
- "status": "robots"
+ "status": "found-no-dates"
 }
