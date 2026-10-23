@@ -105,7 +105,7 @@ class Fetcher:
         except requests.RequestException as e:
             return 'error', str(e)[:200], url, ''
 
-    def get(self, url, binary=False):
+    def get(self, url, binary=False, referer=None):
         """Returns (status, text_or_bytes, final_url, content_type). status: ok | robots | limit | http-NNN | error"""
         if not self.allowed(url):
             return 'robots', None, url, ''
@@ -117,7 +117,7 @@ class Fetcher:
             time.sleep(wait)
         self.count[host] = self.count.get(host, 0) + 1
         try:
-            r = self.s.get(url, timeout=TIMEOUT, stream=True, allow_redirects=True)
+            r = self.s.get(url, timeout=TIMEOUT, stream=True, allow_redirects=True, headers={'Referer': referer} if referer else None)
             self.last[host] = time.time()
             if r.status_code >= 400:
                 return 'http-%d' % r.status_code, None, r.url, ''
@@ -420,7 +420,7 @@ def link_items(soup, base):
         href = (a.get('href') or '').strip()
         on = a.get('onclick') or ''
         url = ''
-        if href and not href.startswith(('javascript', '#', 'mailto:', 'tel:')):
+        if href and not href.lower().startswith(('javascript', '#', 'mailto:', 'tel:')):   # 2026-10-24: 'javaScript:'도 링크가 아님(인천 학교 누리집)
             url = urllib.parse.urljoin(base.replace('post:', ''), href)
         else:
             m = re.search(r"['\"](\d{5,})['\"]", on + ' ' + href) or re.search(r"\(\s*(\d{5,})\s*[,)]", on + ' ' + href)
@@ -440,6 +440,12 @@ def link_items(soup, base):
                 url = urllib.parse.urljoin(base, '/bbs_shop/file_download.php?' + urllib.parse.urlencode({'board_code': q.get('board_code', 'notice'), 'board_idx': q.get('idx', ''), 'sel_no': fd.group(1)}))
             elif re.search(r"fncDetailView\('(\d+)'\)", href) and 'list0010v.do' in base:
                 url = 'post:' + base.replace('list0010v.do', 'view0010v.do').split('?')[0] + '?' + urllib.parse.urlencode({'board_seq': re.search(r"fncDetailView\('(\d+)'\)", href).group(1)})
+            elif '/boardCnts/list.do' in base and re.search(r'\d{6,9}', on + ' ' + href):
+                # 2026-10-24: 강원 등 boardCnts 목록은 글 주소를 스크립트로 연다 — 숫자 중 boardID가 아닌 것을 글 번호(boardSeq)로 본다
+                q = dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(base).query))
+                seqs = [x for x in re.findall(r'(\d{6,9})', on + ' ' + href) if x != q.get('boardID', '')]
+                if seqs:
+                    url = urllib.parse.urljoin(base, 'view.do?' + urllib.parse.urlencode({'boardID': q.get('boardID', ''), 'boardSeq': seqs[0], 'lev': '0', 'm': q.get('m', ''), 's': q.get('s', '')}))
             elif m and 'selectNttList.do' in base:
                 q = dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(base).query))
                 url = urllib.parse.urljoin(base, 'selectNttInfo.do?' + urllib.parse.urlencode({'mi': q.get('mi', ''), 'bbsId': q.get('bbsId', ''), 'nttSn': m.group(1)}))
@@ -481,11 +487,57 @@ def read_post(F, url, tgt, today, res, depth_files=True):
         st, html, final, _ = F.post(pu, dict(urllib.parse.parse_qsl(qs)))
         final = pu + '?' + qs
     else:
-        st, html, final, _ = F.get(url)
+        st, data, final, ctype = F.get(url, binary=True)
+        if st == 'ok' and looks_file(data, ctype):   # 2026-10-24: 'post'가 첨부 파일 주소(down.php·downpost 등)를 바로 가리킬 때
+            res['opened'].append({'url': url, 'status': st})
+            read_direct_file(F, data, ctype, url, tgt, today, res)
+            return
+        html = decode_html(data, _NoEnc()) if st == 'ok' else data
     res['opened'].append({'url': url, 'status': st})
     if st != 'ok':
         return
     read_post_html(F, html, final, tgt, today, res, depth_files)
+
+
+class _NoEnc:
+    encoding = ''
+
+
+def looks_file(data, ctype):
+    if not data:
+        return False
+    head = data[:8]
+    if head[:4] == b'%PDF' or head == bytes.fromhex('d0cf11e0a1b11ae1') or (head[:2] == b'PK' and b'<html' not in data[:200].lower()):
+        return True
+    c = (ctype or '').lower()
+    return bool(c) and not any(w in c for w in ('html', 'text', 'xml', 'json'))
+
+
+def read_direct_file(F, data, ctype, url, tgt, today, res):
+    name = urllib.parse.unquote(urllib.parse.urlsplit(url).path.rsplit('/', 1)[-1])[:80] or '첨부'
+    rec = {'url': url, 'name': name, 'status': 'ok', 'direct': True}
+    try:
+        kind, text = file_text(data, name, ctype)
+        rec.update({'type': kind, 'bytes': len(data), 'sha1': hashlib.sha1(data).hexdigest()[:12]})
+        got = date_lines(text, tgt.get('near', []), today, url)
+        if not got and kind == 'pdf':
+            got = date_lines(text_pdf_layout(data), tgt.get('near', []), today, url)
+            if got:
+                rec['reader'] = 'pdftotext'
+        if not got and F.ocr_left > 0 and ((kind == 'pdf' and len(text.strip()) < 200) or kind == 'image'):
+            if kind == 'image':
+                F.ocr_left -= 1
+                text = text_ocr_image(data)
+            else:
+                text = text_pdf_ocr(data, F)
+            got = ocr_route(date_lines(text, tgt.get('near', []), today, url), tgt, res)
+            rec['reader'] = 'ocr'
+        res['lines'] += got
+        rec['lines'] = len(got)
+    except Exception as e:
+        rec.update({'status': 'parse-error', 'error': str(e)[:120]})
+    res['files'].append(rec)
+    res['titles'].append({'url': url, 'title': '첨부: ' + name})
 
 
 def ocr_route(lines, tgt, res):
@@ -537,7 +589,7 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
         if consent and 'file_download.php' in u:
             continue   # the site asks people to agree before downloading: do not skip that step automatically
         low = (t + ' ' + u).lower()
-        is_file = any(e in low for e in FILE_EXT) or re.search(r'(download|filedown|fileDown|atchFile|file_down|attach)', u, re.I)
+        is_file = any(e in low for e in FILE_EXT) or re.search(r'(download|filedown|fileDown|atchFile|file_down|attach|down\.php|downpost)', u, re.I)   # 2026-10-24: down.php·downpost(학교 게시판 첨부)
         if not is_file or denied(t):
             continue
         if not any(w in t for w in ('모집', '요강', '선발', '공고', '안내', '일정', '계획')) and not any(e in t.lower() for e in FILE_EXT):
@@ -546,7 +598,7 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
             pu, _, qs = u[5:].partition('?')
             st2, data, f2, ctype = F.post(pu, dict(urllib.parse.parse_qsl(qs)), binary=True)
         else:
-            st2, data, f2, ctype = F.get(u, binary=True)
+            st2, data, f2, ctype = F.get(u, binary=True, referer=final)   # 2026-10-24: 일부 교육청 첨부는 글 주소(Referer)가 있어야 열림
         rec = {'url': u if not u.startswith('post:') else u[5:].partition('?')[0] + '?' + 'file=' + urllib.parse.quote(t[:60]), 'name': t[:80], 'status': st2}
         if st2 == 'ok':
             try:
@@ -703,6 +755,10 @@ def load_targets(targets_path):
         try:
             auto = json.load(open(auto_path, encoding='utf-8'))
             have = {t['id'] for t in cfg['targets']}
+            ax = {t['id']: t for t in auto.get('targets', []) if t.get('id')}
+            for t in cfg['targets']:   # 2026-10-24: 손으로 적은 대상도 페이지의 예상 날짜(expect)를 이어받음(글자 인식 확인·달력 대조용)
+                if 'expect' not in t and t['id'] in ax and ax[t['id']].get('expect'):
+                    t['expect'] = ax[t['id']]['expect']
             extra = [t for t in auto.get('targets', []) if t.get('id') and t['id'] not in have and t.get('pages')]
             cfg['targets'] = cfg['targets'] + extra
             print('자동 대상 %d곳 더함(%s)' % (len(extra), auto.get('made', '')))
