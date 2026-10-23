@@ -1,35 +1,85 @@
 {
-"checkedAt": "2026-10-23T06:47+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "registry": {
-"updated": "2026-10-23",
-"rules": 40,
-"sources": 44
+"updated": "2026-10-24",
+"rules": 49,
+"sources": 51
 },
 "run": {
-"auto": 29,
-"opened": 2,
-"ok": 2,
+"auto": 36,
+"opened": 21,
+"ok": 20,
 "robots": 0,
-"failed": 0,
+"failed": 1,
 "thin": 0,
-"notDue": 27
+"notDue": 15
 },
 "summary": {
 "high": 0,
-"mid": 0,
-"low": 2
+"mid": 2,
+"low": 6
 },
 "events": [
 {
-"source": "g-dup",
-"rules": [],
+"source": "ig-api",
+"rules": [
+"R-IG2"
+],
+"level": "mid",
+"what": "바뀐 부분: (첫 부분)"
+},
+{
+"source": "yt-spam",
+"rules": [
+"R-YT2"
+],
+"level": "mid",
+"what": "바뀐 부분: Spam Policy"
+},
+{
+"source": "yt-api-policy",
+"rules": [
+"R-YT14"
+],
 "level": "low",
 "what": "처음 기록"
 },
 {
-"source": "g-noindex",
+"source": "yt-chapters",
 "rules": [
-"R-G4"
+"R-YT9"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-comment-shorts",
+"rules": [
+"R-YT12"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-hashtags",
+"rules": [
+"R-YT10"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-premiere",
+"rules": [
+"R-YT11"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-terms",
+"rules": [
+"R-YT13"
 ],
 "level": "low",
 "what": "처음 기록"
@@ -45,7 +95,7 @@
 "rules": [
 "R-YT1"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube channel monetization policies - YouTube Help",
@@ -145,7 +195,7 @@
 "slideshow": 1,
 "reused content": 11
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -158,17 +208,17 @@
 "rules": [
 "R-YT2"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "",
 "title": "Spam Policy - YouTube Help",
 "updated": "",
-"chars": 4916,
-"hash": "171b73e1c9cc",
+"chars": 5195,
+"hash": "f9300a41ccf8",
 "sections": [
 [
 "Spam Policy",
-"597d93067b1a"
+"7a5df10dbb7d"
 ],
 [
 "What this policy means for you",
@@ -188,9 +238,15 @@
 "automat": 2,
 "strike": 4
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
-"watchMissing": []
+"watchMissing": [],
+"changedAt": "2026-10-24T06:19+09:00",
+"changes": {
+"changed": [
+"Spam Policy"
+]
+}
 },
 "yt-synth": {
 "name": "생성형 AI 사용 공개(옛 이름: 변형·합성 콘텐츠 공개)",
@@ -201,7 +257,7 @@
 "rules": [
 "R-YT3"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "",
 "title": "Disclosing use of GenAI content - Android phone & tablet - YouTube Help",
@@ -264,7 +320,7 @@
 "realistic": 14,
 "voice": 3
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
 "watchMissing": [
 "altered or synthetic"
@@ -279,7 +335,7 @@
 "rules": [
 "R-YT4"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube Partner Program overview & eligibility - Computer - YouTube Help",
@@ -351,7 +407,7 @@
 "8,000": 0,
 "20 million": 0
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
 "watchMissing": [
 "8,000",
@@ -459,7 +515,7 @@
 "rules": [
 "R-YT5"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/reference/rest/v3/videos/insert?hl=en",
 "title": "Videos: insert  |  YouTube Data API  |  Google for Developers",
@@ -526,7 +582,7 @@
 "unverified": 1,
 "quota": 3
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
 "watchMissing": [
 "audit"
@@ -541,7 +597,7 @@
 "rules": [
 "R-YT5"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/revision_history?hl=en",
 "title": "Revision History  |  YouTube Data API  |  Google for Developers",
@@ -874,7 +930,7 @@
 "videos.insert": 27,
 "private": 16
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -887,7 +943,7 @@
 "rules": [
 "R-IG1"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "",
 "title": "Helping Creators Find New Audiences | Instagram for Creators | Instagram for Creators",
@@ -933,7 +989,7 @@
 "aggregator": 5,
 "watermark": 1
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -946,17 +1002,17 @@
 "rules": [
 "R-IG2"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "https://developers.facebook.com/documentation/instagram-platform/content-publishing",
 "title": "",
 "updated": "",
-"chars": 17526,
-"hash": "d31ee0217eaa",
+"chars": 17940,
+"hash": "ddce15ab1996",
 "sections": [
 [
 "(첫 부분)",
-"d31ee0217eaa"
+"ddce15ab1996"
 ]
 ],
 "watch": {
@@ -964,9 +1020,15 @@
 "24 hour": 1,
 "is_ai_generated": 3
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
-"watchMissing": []
+"watchMissing": [],
+"changedAt": "2026-10-24T06:19+09:00",
+"changes": {
+"changed": [
+"(첫 부분)"
+]
+}
 },
 "th-api": {
 "name": "Threads API Posts",
@@ -977,7 +1039,7 @@
 "rules": [
 "R-TH1"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "https://developers.facebook.com/documentation/threads/posts",
 "title": "",
@@ -994,7 +1056,7 @@
 "250": 1,
 "tester": 2
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1042,7 +1104,7 @@
 "rules": [
 "R-TT1"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "https://developers.tiktok.com/docs/en/content-sharing-guidelines",
 "title": "Content Sharing Guidelines | TikTok for Developers",
@@ -1085,7 +1147,7 @@
 "internal": 1,
 "5 users": 1
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1098,7 +1160,7 @@
 "rules": [
 "R-TT2"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "https://www.tiktok.com/safety/en/policies-and-engagement/integrity-authenticity",
 "title": "Policies & engagement | TikTok",
@@ -1136,7 +1198,7 @@
 "label": 6,
 "unoriginal": 1
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1263,7 +1325,7 @@
 "rules": [
 "R-G1"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "",
 "title": "Spam Policies for Google Web Search | Google Search Central  |  Documentation  |  Google for Developers",
@@ -1385,7 +1447,7 @@
 "doorway": 2,
 "site reputation abuse": 0
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
 "watchMissing": [
 "site reputation abuse"
@@ -1400,7 +1462,7 @@
 "rules": [
 "R-G2"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "",
 "title": "Google Search's Guidance on Generative AI Content on Your Website | Google Search Central  |  Documentation  |  Google f",
@@ -1430,7 +1492,7 @@
 "scaled content abuse": 2,
 "metadata": 4
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1531,7 +1593,7 @@
 "rules": [
 "R-G3"
 ],
-"checkedAt": "2026-10-22T19:10+09:00",
+"checkedAt": "2026-10-24T06:19+09:00",
 "status": "ok",
 "final": "",
 "title": "History for Ranking | Google Search Status Dashboard",
@@ -1576,7 +1638,7 @@
 "spam update": 24,
 "core update": 32
 },
-"lastOk": "2026-10-22T19:10+09:00",
+"lastOk": "2026-10-24T06:19+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1695,7 +1757,8 @@
 "method": "auto",
 "cycle": "m",
 "rules": [
-"R-NV3"
+"R-NV3",
+"R-NV5"
 ],
 "checkedAt": "2026-10-22T19:10+09:00",
 "status": "ok",
@@ -2336,7 +2399,9 @@
 "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls?hl=en",
 "method": "auto",
 "cycle": "m",
-"rules": [],
+"rules": [
+"R-G5"
+],
 "checkedAt": "2026-10-23T06:47+09:00",
 "status": "ok",
 "final": "",
@@ -2463,7 +2528,404 @@
 "url": "",
 "method": "ai",
 "cycle": "m",
-"rules": []
+"rules": [
+"R-NV5"
+]
+},
+"yt-related": {
+"name": "쇼츠에 관련 동영상 추가(쇼츠 → 내 채널 영상 링크)",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/14075157?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-YT8"
+],
+"checkedAt": "2026-10-24T06:19+09:00",
+"status": "error",
+"final": "",
+"failStreak": 1,
+"error": "HTTPSConnectionPool(host='support.google.com', port=443): Read timed out. (read timeout=30)"
+},
+"yt-chapters": {
+"name": "동영상 챕터(00:00·3개 이상·10초 이상)",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/9884579?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-YT9"
+],
+"checkedAt": "2026-10-24T06:19+09:00",
+"status": "ok",
+"final": "",
+"title": "Video Chapters - YouTube Help",
+"updated": "",
+"chars": 1928,
+"hash": "70d7270abe50",
+"sections": [
+[
+"Video Chapters",
+"3698389604ae"
+],
+[
+"To add your own video chapters:",
+"446b6c80fc46"
+],
+[
+"To use automatic video chapters:",
+"370dac2ea2ab"
+],
+[
+"To opt out of automatic video chapters for a specific video:",
+"35cd680fb214"
+],
+[
+"To opt out of using automatic video chapters:",
+"905d1b096025"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"00:00": 1,
+"three": 1,
+"10 seconds": 1
+},
+"lastOk": "2026-10-24T06:19+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-hashtags": {
+"name": "해시태그(제목 옆 최대 3개·60개 넘으면 무시·관련 없는 태그 금지)",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/6390658?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-YT10"
+],
+"checkedAt": "2026-10-24T06:19+09:00",
+"status": "ok",
+"final": "",
+"title": "Find playlists & videos using hashtags - YouTube Help",
+"updated": "",
+"chars": 4249,
+"hash": "fce2d74794c4",
+"sections": [
+[
+"Find playlists & videos using hashtags",
+"036f48be5d8e"
+],
+[
+"Add hashtags to your YouTube videos or YouTube Music playlist",
+"65cfe87736ef"
+],
+[
+"Hashtag use policies",
+"9c2bd9ba75fa"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"three": 1,
+"60": 1,
+"Misleading": 4
+},
+"lastOk": "2026-10-24T06:19+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-premiere": {
+"name": "프리미어 설정(예약 첫 상영·카운트다운·채팅)",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/10356739?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-YT11"
+],
+"checkedAt": "2026-10-24T06:19+09:00",
+"status": "ok",
+"final": "",
+"title": "Customize your Premiere - YouTube Help",
+"updated": "",
+"chars": 2561,
+"hash": "5c739dc95b77",
+"sections": [
+[
+"Customize your Premiere",
+"10b18a03f235"
+],
+[
+"Choose a countdown theme",
+"2afd50a743db"
+],
+[
+"Show a trailer",
+"da0b71edaca0"
+],
+[
+"Monetize your Premiere",
+"c87b1c179723"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"countdown": 3,
+"Two minutes": 1,
+"live chat": 2
+},
+"lastOk": "2026-10-24T06:19+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-comment-shorts": {
+"name": "댓글에 쇼츠로 답하기(댓글 스티커·작성자 알림)",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/12816427?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-YT12"
+],
+"checkedAt": "2026-10-24T06:19+09:00",
+"status": "ok",
+"final": "",
+"title": "Reply to comments with your YouTube Shorts - Android phone & tablet - YouTube Help",
+"updated": "",
+"chars": 1747,
+"hash": "080cd0ce84f2",
+"sections": [
+[
+"Reply to comments with your YouTube Shorts",
+"520b525a9bcc"
+],
+[
+"Create Shorts as comment replies",
+"055c60d4fe8e"
+],
+[
+"Save comments & reply with Shorts",
+"76a7e806af13"
+],
+[
+"Was this helpful?",
+"5a8a5406f780"
+]
+],
+"watch": {
+"sticker": 4,
+"commenter": 1
+},
+"lastOk": "2026-10-24T06:19+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-terms": {
+"name": "YouTube 서비스 약관(내려받기·자동 수단 접속 금지)",
+"owner": "YouTube",
+"url": "https://www.youtube.com/static?gl=KR&template=terms&hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-YT13"
+],
+"checkedAt": "2026-10-24T06:19+09:00",
+"status": "ok",
+"final": "",
+"title": "Terms of Service",
+"updated": "",
+"chars": 24350,
+"hash": "643a010ca626",
+"sections": [
+[
+"(첫 부분)",
+"af4eb73a8935"
+],
+[
+"What’s in these terms?",
+"4b98b86b27d3"
+],
+[
+"Welcome to YouTube!",
+"8687a6caadea"
+],
+[
+"Who May Use the Service?",
+"15b9187b853b"
+],
+[
+"Your Use of the Service",
+"42fab195893d"
+],
+[
+"Your Content and Conduct",
+"18d9d85326f3"
+],
+[
+"Account Suspension and Termination",
+"fa2ee312060c"
+],
+[
+"About Software in the Service",
+"ffda45f3fd15"
+],
+[
+"Other Legal Terms",
+"f1365cff333a"
+],
+[
+"About this Agreement",
+"95e1456c55e5"
+],
+[
+"Terms of Service",
+"e09d87fc788c"
+],
+[
+"Welcome to YouTube!",
+"89e3b2e6373b"
+],
+[
+"Who may use the Service?",
+"a6eb4316473a"
+],
+[
+"Your Content and Conduct",
+"23ccbd6d7185"
+],
+[
+"Community Guidelines Strikes",
+"90ddcb903369"
+],
+[
+"Account Suspension & Termination",
+"43475d0d15b9"
+],
+[
+"About Software in the Service",
+"f656945eaf57"
+],
+[
+"Other Legal Terms",
+"8ff35af77ee9"
+],
+[
+"About this Agreement",
+"d19e9caf3e5c"
+]
+],
+"watch": {
+"download": 5,
+"automated means": 1
+},
+"lastOk": "2026-10-24T06:19+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-api-policy": {
+"name": "YouTube API 서비스 개발자 정책(III.E.4 저장·파생 지표 금지)",
+"owner": "YouTube",
+"url": "https://developers.google.com/youtube/terms/developer-policies?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-YT14"
+],
+"checkedAt": "2026-10-24T06:19+09:00",
+"status": "ok",
+"final": "",
+"title": "YouTube API Services - Developer Policies  |  Google for Developers",
+"updated": "Last updated 2026-10-15",
+"chars": 55574,
+"hash": "2229d25a3f46",
+"sections": [
+[
+"(첫 부분)",
+"92b640f95944"
+],
+[
+"YouTube API Services - Developer Policies Stay organized with collections Save a",
+"4b9ee7b4d02d"
+],
+[
+"I. Terminology and style",
+"5afdb49fd0c8"
+],
+[
+"II. Software Development Principles",
+"009c58587b91"
+],
+[
+"A. API Client Terms of Use and Privacy Policies",
+"1337025c6808"
+],
+[
+"B. Maintainability and Deprecation",
+"700940e3408d"
+],
+[
+"C. Implementing YouTube Features",
+"f6d6063531f7"
+],
+[
+"D. Accessing YouTube API Services",
+"e2a64aea94a5"
+],
+[
+"E. Handling YouTube Data and Content",
+"62ff100696fa"
+],
+[
+"F. User Experience",
+"0e9590231e7b"
+],
+[
+"G. Distribution and Commercial Use",
+"19d92eacb820"
+],
+[
+"H. Monitoring and Audits",
+"8168efc7594f"
+],
+[
+"I. Additional Prohibitions",
+"9c3d2fcc8355"
+],
+[
+"J. Child-Directed API Clients",
+"8c95cceb4aa8"
+],
+[
+"K. Reporting Noncompliance",
+"9f722139a872"
+],
+[
+"L. Additional policies on derived metrics and data storage",
+"da0f35d4a12c"
+],
+[
+"IV. Definitions",
+"2fd01aae12be"
+]
+],
+"watch": {
+"derived": 2,
+"independently calculated": 1,
+"30 days": 7
+},
+"lastOk": "2026-10-24T06:19+09:00",
+"failStreak": 0,
+"watchMissing": []
 }
 }
 }
