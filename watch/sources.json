@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.49)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.51)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-10-24",
-"ver": "v28.49",
-"count": 488,
+"ver": "v28.51",
+"count": 495,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -41,6 +41,7 @@
 "kind": "공식",
 "cat": "공공 데이터·API",
 "used": [
+"q-hs-alimi",
 "q-hs-choose"
 ],
 "dated": "2026-10-21",
@@ -179,6 +180,19 @@
 "cycle": "w"
 },
 {
+"id": "d515761e81",
+"url": "https://www.gne.go.kr/www/information/schoolopen/schoolopen01.jsp",
+"host": "gne.go.kr",
+"name": "학교정보공시 안내(학교알리미), 경상남도교육청",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-alimi"
+],
+"dated": "2026-10-21",
+"cycle": "w"
+},
+{
 "id": "13c7bd2412",
 "url": "https://www.goe.go.kr/resource/goe/na/bbs_2430/2026/03/e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf",
 "host": "goe.go.kr",
@@ -206,7 +220,9 @@
 "cat": "교육청",
 "used": [
 "q-hs-choose",
-"q-naesin"
+"q-naesin",
+"q-sch-joint",
+"q-univ-last-year"
 ],
 "dated": "2026-03-01",
 "cycle": "w"
@@ -559,7 +575,8 @@
 "kind": "공식",
 "cat": "교육청",
 "used": [
-"q-hs-choose"
+"q-hs-choose",
+"q-sch-joint"
 ],
 "dated": "2026-10-21",
 "cycle": "w"
@@ -731,7 +748,9 @@
 "used": [
 "q-courses",
 "q-hs-choose",
-"q-naesin"
+"q-naesin",
+"q-sch-joint",
+"q-sch-reenter"
 ],
 "dated": "",
 "cycle": "w"
@@ -2141,11 +2160,12 @@
 "id": "5bf438a306",
 "url": "https://oku.korea.ac.kr/attach/202607/1783652032558_0.pdf",
 "host": "oku.korea.ac.kr",
-"name": "고려대 2027학년도 수시모집요강",
+"name": "고려대 2027학년도 수시모집요강(서울)",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
 "ku27",
+"q-univ-nsu",
 "q-yk"
 ],
 "dated": "2026-06-25",
@@ -2159,7 +2179,10 @@
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
-"q-courses"
+"q-courses",
+"q-sch-joint",
+"q-sch-reenter",
+"q-univ-blind"
 ],
 "dated": "2026-09-08",
 "cycle": "w"
@@ -2269,6 +2292,7 @@
 "q-courses",
 "q-g2-winter",
 "q-hs-choose",
+"q-sch-joint",
 "q-yk",
 "ysCourse"
 ],
@@ -2284,6 +2308,7 @@
 "cat": "대학 입학처",
 "used": [
 "q-susi",
+"q-univ-nsu",
 "q-yk",
 "ys28"
 ],
@@ -2848,7 +2873,8 @@
 "moe28",
 "q-ipgyeol-read",
 "q-naesin",
-"q-suneung"
+"q-suneung",
+"q-univ-last-year"
 ],
 "dated": "2023-12-27",
 "cycle": "w"
@@ -3087,6 +3113,19 @@
 "cycle": "w"
 },
 {
+"id": "1cf3330efa",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148958661&call_from=rsslink",
+"host": "korea.kr",
+"name": "2026년 교육 분야, 이렇게 달라집니다!, 정책브리핑(교육부)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-sch-neulbom"
+],
+"dated": "2026-01-28",
+"cycle": "w"
+},
+{
 "id": "4d3a2db1ba",
 "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967122",
 "host": "korea.kr",
@@ -3097,6 +3136,19 @@
 "q-univ-edu-quota"
 ],
 "dated": "2026-06-25",
+"cycle": "w"
+},
+{
+"id": "b69dc0cf65",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=156363507",
+"host": "korea.kr",
+"name": "교육부, 대입제도 공정성 강화 방안 발표(정책브리핑)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-univ-blind"
+],
+"dated": "2019-11-28",
 "cycle": "w"
 },
 {
@@ -3152,6 +3204,19 @@
 "cycle": "w"
 },
 {
+"id": "3f9cdcf30c",
+"url": "https://www.moe.go.kr/boardCnts/listRenew.do?boardID=72782&renew=72782&m=030215&s=moe",
+"host": "moe.go.kr",
+"name": "교육부 정책 > 초등돌봄·교육 자료실(2026년 온동네 초등돌봄교육 추진방안 등)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-sch-neulbom"
+],
+"dated": "2026-03-27",
+"cycle": "w"
+},
+{
 "id": "e7332e79d5",
 "url": "https://www.moe.go.kr/boardCnts/view.do?boardID=294&boardSeq=79119&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
 "host": "moe.go.kr",
@@ -3191,6 +3256,19 @@
 ],
 "dated": "2025-06-01",
 "cycle": "m"
+},
+{
+"id": "4c0167c234",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&lev=0&statusYN=W&s=moe&m=020402&opType=N&boardSeq=105261",
+"host": "moe.go.kr",
+"name": "2026년 온동네 초등돌봄·교육 추진 방안 발표, 교육부 보도자료",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-sch-neulbom"
+],
+"dated": "2026-02-03",
+"cycle": "w"
 },
 {
 "id": "614d88a3a0",
@@ -3502,7 +3580,7 @@
 "id": "33a0f1e786",
 "url": "https://biz.sbs.co.kr/amp/article/20000228825",
 "host": "biz.sbs.co.kr",
-"name": "SBS Biz(교육부 발표: 6월 모의평가 유지, 하반기 모의평가 8월)",
+"name": "SBS Biz: 2027년부터 하반기 수능 모의평가는 8월(교육부 발표)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4529,7 +4607,8 @@
 "kind": "기사",
 "cat": "언론",
 "used": [
-"q-snu"
+"q-snu",
+"q-univ-nsu"
 ],
 "dated": "2025-10-22",
 "cycle": "m"
@@ -4810,6 +4889,19 @@
 "hs"
 ],
 "dated": "2026-03-31",
+"cycle": "m"
+},
+{
+"id": "1b2985ab0d",
+"url": "https://www.newsis.com/view/NISX20260612_0003667413",
+"host": "newsis.com",
+"name": "뉴시스(2028 주요대 수시 N수생 지원 제한, 입시업체 분석 인용)",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-univ-nsu"
+],
+"dated": "2026-06-14",
 "cycle": "m"
 },
 {
@@ -5319,7 +5411,7 @@
 "id": "ebff52a5ad",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
 "host": "veritas-a.com",
-"name": "베리타스알파: 고입 캘린더(2026-10-05)",
+"name": "베리타스알파 '고입캘린더 (26/10/09~)'",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -6077,6 +6169,7 @@
 "cat": "입시 공식 기관",
 "used": [
 "q-reform",
+"q-univ-nsu",
 "qdev102101",
 "qdev102102",
 "qdev102103",
@@ -6241,7 +6334,8 @@
 "kcue28",
 "q-g2-winter",
 "q-ipgyeol-read",
-"q-susi"
+"q-susi",
+"q-univ-last-year"
 ],
 "dated": "2026-04-30",
 "cycle": "w"
@@ -6686,6 +6780,19 @@
 ],
 "dated": "",
 "cycle": "m"
+},
+{
+"id": "9663f84418",
+"url": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=3b390d00f3f373000b57b66a45c8029d",
+"host": "kangwon-sh.gwe.hs.kr",
+"name": "강원과학고 2027학년도 신입생 입학전형 요강",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n46"
+],
+"dated": "2026-10-25",
+"cycle": "w"
 },
 {
 "id": "6a91ce3f5f",
