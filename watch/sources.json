@@ -1,7 +1,7 @@
 {
-"note": "페이지(공개판 v28.34)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-10-23",
-"ver": "v28.34",
+"note": "페이지(공개판 v28.46)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-10-24",
+"ver": "v28.46",
 "count": 468,
 "sources": [
 {
@@ -3819,7 +3819,7 @@
 "id": "8dc384c2fd",
 "url": "https://www.heraldk.com/article/2026052817450068440",
 "host": "heraldk.com",
-"name": "헤럴드경제: 2027학년도 영재학교 일정",
+"name": "헤럴드경제, 2027학년도 영재학교 일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4729,6 +4729,8 @@
 "cat": "언론",
 "used": [
 "q-contest",
+"q-hs-fail",
+"q-hs-types",
 "r-contest",
 "r-ksa-sci",
 "r-prestudy",
