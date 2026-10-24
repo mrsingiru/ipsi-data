@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.46)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.48)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-10-24",
-"ver": "v28.46",
-"count": 468,
+"ver": "v28.48",
+"count": 467,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -89,13 +89,13 @@
 "id": "4375639158",
 "url": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812",
 "host": "cwedu.gne.go.kr",
-"name": "창원영재교육원 선발 안내",
+"name": "창원영재교육원 영재선발-전형방법",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n94"
 ],
-"dated": "",
+"dated": "2026-10-22",
 "cycle": "w"
 },
 {
@@ -729,6 +729,19 @@
 "n56"
 ],
 "dated": "2026-09-03",
+"cycle": "w"
+},
+{
+"id": "40194407b2",
+"url": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728477",
+"host": "jbe.go.kr",
+"name": "2027학년도 전북특별자치도 평준화지역 일반고·자율형 공립고 신입학 전형요강(공고용)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n56"
+],
+"dated": "2026-10-23",
 "cycle": "w"
 },
 {
@@ -1475,6 +1488,7 @@
 "kind": "공식",
 "cat": "기타",
 "used": [
+"q-med-ldoc",
 "r-local-doctor"
 ],
 "dated": "2026-06-30",
@@ -2148,29 +2162,16 @@
 "cycle": "w"
 },
 {
-"id": "01ea1bef8e",
-"url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281291784&mi=4659&currPage=1",
-"host": "scnu.ac.kr",
-"name": "순천대 2026학년도 최종 합격자 공고",
-"kind": "공식",
-"cat": "대학 입학처",
-"used": [
-"n66"
-],
-"dated": "2026-01-06",
-"cycle": "w"
-},
-{
 "id": "c1a61026b9",
 "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
 "host": "scnu.ac.kr",
-"name": "2027 신입생 선발 공고(2026-09-15)",
+"name": "[선발] 2027학년도 국립순천대학교 과학영재교육원 신입생 선발 공고",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
 "n66"
 ],
-"dated": "2026-09-15",
+"dated": "2026-10-22",
 "cycle": "w"
 },
 {
@@ -3536,6 +3537,7 @@
 "kind": "기사",
 "cat": "언론",
 "used": [
+"q-med-ldoc",
 "r-local-doctor"
 ],
 "dated": "2026-09-03",
@@ -3564,7 +3566,7 @@
 "used": [
 "n94"
 ],
-"dated": "2025-12-07",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -3734,7 +3736,7 @@
 "id": "a804194446",
 "url": "https://www.hankyung.com/article/2026081753451",
 "host": "hankyung.com",
-"name": "한국경제: 과학고 22곳 1,858명",
+"name": "한국경제(과학고 22곳 1,858명)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4531,13 +4533,13 @@
 "id": "c73a8b91c1",
 "url": "https://www.newsis.com/view/NISX20260112_0003473163",
 "host": "newsis.com",
-"name": "뉴시스 '전북교육청, 평준화 고교 배정 공개 추첨…39개교 9370명'",
+"name": "뉴시스 전북 평준화 고교 배정 공개 추첨(2026-01-12)",
 "kind": "기사",
 "cat": "언론",
 "used": [
 "n56"
 ],
-"dated": "2026-01-12",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -5576,13 +5578,13 @@
 "id": "bfa726d15e",
 "url": "https://gifted.kongju.ac.kr/main/board/read.php?q=a0702b542656f8a4551b37f80f54c276036a36beeb6d7d50e00868f9c53a4992db3382c07c15089bc292e2fc5f8eebc736564ead3f1ed04d11e91296dabe9e40",
 "host": "gifted.kongju.ac.kr",
-"name": "2027학년도 초등심화 신입생 모집요강(공주대 과학영재교육원)",
+"name": "[공지] 2027학년도 국립공주대학교 과학영재교육원 신입생 모집 안내",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
 "n44"
 ],
-"dated": "2026-10-13",
+"dated": "2026-10-22",
 "cycle": "w"
 },
 {
@@ -5711,19 +5713,6 @@
 "cycle": "w"
 },
 {
-"id": "b13beda953",
-"url": "https://seigy.knu.ac.kr/student/42",
-"host": "seigy.knu.ac.kr",
-"name": "경북대 과학영재교육원 2026학년도 안내",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n79"
-],
-"dated": "",
-"cycle": "w"
-},
-{
 "id": "35ff73ff10",
 "url": "https://seigy.knu.ac.kr/student/44",
 "host": "seigy.knu.ac.kr",
@@ -5740,7 +5729,7 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사 신입생 선발 모집 요강",
+"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [

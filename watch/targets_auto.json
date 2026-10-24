@@ -1,7 +1,7 @@
 {
  "note": "자동으로 만든 공식 공고 읽기 대상(tools/build_targets.py, ipsi-site). 페이지를 게시할 때마다 다시 만든다. 손으로 적은 watch/targets.json이 같은 id보다 우선.",
  "made": "2026-10-24",
- "ver": "v28.46",
+ "ver": "v28.48",
  "horizonDays": 120,
  "targets": [
   {
@@ -782,6 +782,10 @@
    ],
    "expect": [
     [
+     "2026-11-06",
+     "2026-11-16"
+    ],
+    [
      "2026-12-04",
      "2026-12-04"
     ],
@@ -1158,6 +1162,10 @@
     [
      "2026-12-21",
      "2026-12-23"
+    ],
+    [
+     "2027-01-15",
+     "2027-01-15"
     ]
    ],
    "auto": true
@@ -1235,15 +1243,11 @@
    "pages": [
     {
      "kind": "post",
-     "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281291784&mi=4659&currPage=1"
+     "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1"
     },
     {
      "kind": "board",
      "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttList.do?mi=4659&bbsId=2380"
-    },
-    {
-     "kind": "post",
-     "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1"
     }
    ],
    "title": [
@@ -1252,7 +1256,12 @@
    "near": [
     "발표"
    ],
-   "expect": [],
+   "expect": [
+    [
+     "2027-01-06",
+     "2027-01-06"
+    ]
+   ],
    "auto": true
   },
   {
@@ -1512,12 +1521,12 @@
      "url": "https://seigy.knu.ac.kr/student/46"
     },
     {
-     "kind": "post",
-     "url": "https://seigy.knu.ac.kr/student/42"
-    },
-    {
      "kind": "site",
      "url": "https://seigy.knu.ac.kr/student"
+    },
+    {
+     "kind": "post",
+     "url": "https://seigy.knu.ac.kr/student/44"
     }
    ],
    "title": [
@@ -1640,7 +1649,12 @@
    "near": [
     "검사"
    ],
-   "expect": [],
+   "expect": [
+    [
+     "2026-12-05",
+     "2026-12-05"
+    ]
+   ],
    "auto": true
   },
   {
