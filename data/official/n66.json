@@ -2,10 +2,10 @@
  "id": "n66",
  "org": "순천대 영재원",
  "what": "앞으로 120일 안 일정 1단계",
- "checkedAt": "2026-10-24T22:04:18+09:00",
+ "checkedAt": "2026-10-24T23:49:57+09:00",
  "opened": [
   {
-   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281291784&mi=4659&currPage=1",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
    "status": "ok"
   },
   {
@@ -22,10 +22,6 @@
   },
   {
    "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322954&mi=4659&currPage=1",
-   "status": "ok"
-  },
-  {
-   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
    "status": "ok"
   }
  ],
@@ -46,7 +42,7 @@
  "ged": [],
  "titles": [
   {
-   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281291784&mi=4659&currPage=1",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
    "title": "공지사항 - 과학영재교육원"
   },
   {
@@ -60,22 +56,24 @@
   {
    "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322954&mi=4659&currPage=1",
    "title": "공지사항 - 과학영재교육원"
-  },
-  {
-   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
-   "title": "공지사항 - 과학영재교육원"
   }
  ],
  "files": [
   {
-   "url": "https://www.scnu.ac.kr/editor/x_free/upload/20260106/IMG_105154.png",
-   "name": "본문 그림",
+   "url": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228",
+   "name": "2027학년도 국립순천대학교 과학영재교육원 신입생 선발 모집공고 및 제출서류.pdf",
    "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 72359,
-   "sha1": "759cd5ba0674",
-   "lines": 0
+   "type": "pdf",
+   "bytes": 414222,
+   "sha1": "9edaff22a1d9"
+  },
+  {
+   "url": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=bb9f5d5181de860b2d55c1f2ee049ff2",
+   "name": "제출서류.hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 98304,
+   "sha1": "e5ea38b9b32c"
   },
   {
    "url": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228",
@@ -102,22 +100,6 @@
    "bytes": 132213,
    "sha1": "9c4265df0b83",
    "lines": 0
-  },
-  {
-   "url": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228",
-   "name": "2027학년도 국립순천대학교 과학영재교육원 신입생 선발 모집공고 및 제출서류.pdf",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 414222,
-   "sha1": "9edaff22a1d9"
-  },
-  {
-   "url": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=bb9f5d5181de860b2d55c1f2ee049ff2",
-   "name": "제출서류.hwp",
-   "status": "ok",
-   "type": "hwp",
-   "bytes": 98304,
-   "sha1": "e5ea38b9b32c"
   }
  ],
  "lines": [
