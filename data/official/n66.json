@@ -2,7 +2,7 @@
  "id": "n66",
  "org": "순천대 영재원",
  "what": "앞으로 120일 안 일정 1단계",
- "checkedAt": "2026-10-24T11:11:56+09:00",
+ "checkedAt": "2026-10-24T22:04:18+09:00",
  "opened": [
   {
    "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281291784&mi=4659&currPage=1",
@@ -21,7 +21,7 @@
    "status": "ok"
   },
   {
-   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322877&mi=4659&currPage=1",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322954&mi=4659&currPage=1",
    "status": "ok"
   },
   {
@@ -39,8 +39,8 @@
    "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1"
   },
   {
-   "title": "2027학년도 신입생 선발 우편접수 현황 - 26.10.22(목)",
-   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322877&mi=4659&currPage=1"
+   "title": "2027학년도 신입생 선발 우편접수 현황 - 26.10.23(금)",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322954&mi=4659&currPage=1"
   }
  ],
  "ged": [],
@@ -58,7 +58,7 @@
    "title": "공지사항 - 과학영재교육원"
   },
   {
-   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322877&mi=4659&currPage=1",
+   "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322954&mi=4659&currPage=1",
    "title": "공지사항 - 과학영재교육원"
   },
   {
@@ -94,13 +94,13 @@
    "sha1": "e5ea38b9b32c"
   },
   {
-   "url": "https://www.scnu.ac.kr/editor/x_free/upload/20261022/IMG_162302.png",
+   "url": "https://www.scnu.ac.kr/editor/x_free/upload/20261024/IMG_121211.png",
    "name": "본문 그림",
    "status": "ok",
    "reader": "ocr",
    "type": "image",
-   "bytes": 88092,
-   "sha1": "2e1de66c5738",
+   "bytes": 132213,
+   "sha1": "9c4265df0b83",
    "lines": 0
   },
   {
