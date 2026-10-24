@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T23:50:46+09:00",
+ "at": "2026-10-25T00:29:43+09:00",
  "targets": 48,
  "withDates": 37,
  "items": [
@@ -166,7 +166,7 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
    "files": 0,
    "opened": 2
@@ -174,7 +174,7 @@
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
    "files": 0,
    "opened": 2
