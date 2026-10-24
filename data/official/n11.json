@@ -2,7 +2,7 @@
  "id": "n11",
  "org": "인천진산과학고",
  "what": "2027 신입생 입학전형(학교 누리집 입학 공지) · 인천 고입 요강 공고",
- "checkedAt": "2026-10-25T06:04:17+09:00",
+ "checkedAt": "2026-10-25T08:00:17+09:00",
  "opened": [
   {
    "url": "https://ijss.icehs.kr/",
@@ -15,8 +15,13 @@
  ],
  "notices": [],
  "ged": [],
- "titles": [],
+ "titles": [
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
+   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
+  }
+ ],
  "files": [],
  "lines": [],
- "status": "not-found"
+ "status": "found-no-dates"
 }
