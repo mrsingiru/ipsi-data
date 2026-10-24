@@ -592,7 +592,9 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
         is_file = any(e in low for e in FILE_EXT) or re.search(r'(download|filedown|fileDown|atchFile|file_down|attach|down\.php|downpost)', u, re.I)   # 2026-10-24: down.php·downpost(학교 게시판 첨부)
         if not is_file or denied(t):
             continue
-        if not any(w in t for w in ('모집', '요강', '선발', '공고', '안내', '일정', '계획')) and not any(e in t.lower() for e in FILE_EXT):
+        FW = ('모집', '요강', '선발', '공고', '안내', '일정', '계획', '전형', '입학')   # 2026-10-24: '입학전형 다운로드'(하나고)처럼 '전형·입학'만 있는 첨부도
+        uu = urllib.parse.unquote(u)
+        if not any(w in t for w in FW) and not any(e in t.lower() for e in FILE_EXT) and not (any(w in uu for w in FW) and any(e in uu.lower() for e in FILE_EXT)):
             continue
         if u.startswith('post:'):   # a download the site's own form sends (GED)
             pu, _, qs = u[5:].partition('?')
@@ -680,7 +682,7 @@ def read_board(F, url, tgt, today, res, from_site=False):
                         'raw2027': [str(a)[:400] for a in soup.find_all('a') if '2027' in a.get_text()][:3],
                         'scripts': script_dump(html, ['fncDetailView', 'fn_view', 'fnView', 'goView', 'fn_egov_inqire_notice', 'view'])})
     if not picks and from_site:   # front page: follow the notice board link once
-        boards = [(t, u) for t, u in links if any(w in t for w in ('공지사항', '공지', '모집안내', '입학안내', '알림'))][:2]
+        boards = [(t, u) for t, u in links if any(w in t for w in ('공지사항', '공지', '모집안내', '입학안내', '입학공지', '입학', '알림'))][:3]   # 2026-10-24: 과학고 누리집의 '입학' 메뉴
         for t, u in boards:
             st2, h2, f2, _ = F.get(u)
             res['opened'].append({'url': u, 'status': st2})

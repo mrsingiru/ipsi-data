@@ -1,5 +1,5 @@
 {
- "note": "공식 공고 자동 읽기 대상. id는 AI 입시 컨설턴트 페이지의 기관 id(NAT)와 같다. kind: site(누리집 첫 화면에서 공지 찾기) · board(공지 목록) · post(공고 글 하나) · ged(GED 영재선발 공고 목록에서 제목 찾기). title: 공고 제목에 모두 들어 있어야 하는 말(목록에서 고를 때). near: 날짜 줄을 고를 때 함께 있으면 좋은 말. robots.txt가 막은 곳은 넣지 않는다(넣어도 읽지 않는다). · 2026-10-21: GED(한국교육개발원) 공고 목록 자동 읽기는 이용 조건(서면 동의 없는 DB 구축 금지 등) 확인 전까지 멈춤(\"ged\": false). 각 교육청·대학 원 공고(board·post·site)만 읽는다. · 2026-10-24: 틀린 주소 9곳(n01·n02·n16·n43·n45·n46·n51·n76·n86)을 공식 공고 주소로 바꿈(공식 누리집·robots 허용 확인). 손으로 적은 대상도 자동 대상의 expect를 이어받음.",
+ "note": "공식 공고 자동 읽기 대상. id는 AI 입시 컨설턴트 페이지의 기관 id(NAT)와 같다. kind: site(누리집 첫 화면에서 공지 찾기) · board(공지 목록) · post(공고 글 하나) · ged(GED 영재선발 공고 목록에서 제목 찾기). title: 공고 제목에 모두 들어 있어야 하는 말(목록에서 고를 때). near: 날짜 줄을 고를 때 함께 있으면 좋은 말. robots.txt가 막은 곳은 넣지 않는다(넣어도 읽지 않는다). · 2026-10-21: GED(한국교육개발원) 공고 목록 자동 읽기는 이용 조건(서면 동의 없는 DB 구축 금지 등) 확인 전까지 멈춤(\"ged\": false). 각 교육청·대학 원 공고(board·post·site)만 읽는다. · 2026-10-24: 틀린 주소 9곳(n01·n02·n16·n43·n45·n46·n51·n76·n86)을 공식 공고 주소로 바꿈(공식 누리집·robots 허용 확인). 손으로 적은 대상도 자동 대상의 expect를 이어받음. · 2026-10-24 오전: 인천과학고·인천진산과학고(학교 누리집 입학 공지 — 교육청 첨부는 robots /common/·/upload/로 막힘), 하나고(요강 PDF), 분당중앙과학고(경기도교육청 2027 고입 기본계획 PDF — /resource/는 robots 허용)를 더함.",
  "targets": [
   {
    "id": "n93",
@@ -498,6 +498,117 @@
     "검사",
     "면접",
     "발표"
+   ]
+  },
+  {
+   "id": "n10",
+   "org": "인천과학고",
+   "what": "2027 신입생 입학전형(학교 누리집 입학 공지) · 인천 고입 요강 공고",
+   "pages": [
+    {
+     "kind": "site",
+     "url": "https://i-science.icehs.kr/"
+    },
+    {
+     "kind": "post",
+     "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "면담",
+    "발표",
+    "합격",
+    "원서",
+    "접수"
+   ]
+  },
+  {
+   "id": "n11",
+   "org": "인천진산과학고",
+   "what": "2027 신입생 입학전형(학교 누리집 입학 공지) · 인천 고입 요강 공고",
+   "pages": [
+    {
+     "kind": "site",
+     "url": "https://ijss.icehs.kr/"
+    },
+    {
+     "kind": "post",
+     "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "면접",
+    "면담",
+    "발표",
+    "합격",
+    "원서",
+    "접수"
+   ]
+  },
+  {
+   "id": "n04",
+   "org": "하나고",
+   "what": "2027 신입생 입학전형 요강(PDF)",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+    },
+    {
+     "kind": "post",
+     "url": "https://www.hana.hs.kr/admission/freshmen.do"
+    },
+    {
+     "kind": "board",
+     "url": "https://www.hana.hs.kr/admission/noticeList.do"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "원서",
+    "접수",
+    "면접",
+    "발표",
+    "합격",
+    "등록"
+   ]
+  },
+  {
+   "id": "n20",
+   "org": "분당중앙과학고",
+   "what": "경기 2027 고입 기본계획(과학고 소집면접·합격 발표) · 학교 누리집",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://www.goe.go.kr/resource/goe/na/bbs_2430/2026/03/e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf"
+    },
+    {
+     "kind": "site",
+     "url": "https://bdja-h.goesn.kr/"
+    },
+    {
+     "kind": "post",
+     "url": "https://bdja-h.goesn.kr/bdja-h/cm/cntnts/cntntsView.do?mi=27552&cntntsId=4832"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "과학고",
+    "면접",
+    "소집",
+    "발표",
+    "합격"
    ]
   }
  ],
