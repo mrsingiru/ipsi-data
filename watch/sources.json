@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.48)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.49)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-10-24",
-"ver": "v28.48",
-"count": 467,
+"ver": "v28.49",
+"count": 488,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -190,7 +190,9 @@
 "n19",
 "n20",
 "n21",
-"n22"
+"n22",
+"q-hs-local-list",
+"q-hs-national-jasa"
 ],
 "dated": "2026-10-22",
 "cycle": "w"
@@ -218,6 +220,19 @@
 "cat": "교육청",
 "used": [
 "q-hs-autonomous"
+],
+"dated": "",
+"cycle": "w"
+},
+{
+"id": "f80d77991d",
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/05/1d4e385d-9b72-4d67-84b8-50ff8432fca7.pdf",
+"host": "goe.go.kr",
+"name": "2026학년도 교육급여 지원 계획, 경기도교육청",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hw-edubenefit"
 ],
 "dated": "",
 "cycle": "w"
@@ -458,7 +473,8 @@
 "n73",
 "n74",
 "penhs27",
-"q-hs-fail"
+"q-hs-fail",
+"q-hs-local-list"
 ],
 "dated": "2026-10-22 확인",
 "cycle": "w"
@@ -488,9 +504,24 @@
 "q-hs-autonomous",
 "q-hs-choose",
 "q-hs-fail",
+"q-hs-fl-select",
 "q-sch-grade"
 ],
-"dated": "2026-10-21",
+"dated": "2026-10-22",
+"cycle": "w"
+},
+{
+"id": "997cb8ad04",
+"url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
+"host": "home.pen.go.kr",
+"name": "부산광역시교육청 고입포털 후기고(특목고·자사고·학교장전형고) 안내",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-fl-select",
+"q-hs-local-list"
+],
+"dated": "2026-10-22",
 "cycle": "w"
 },
 {
@@ -919,6 +950,19 @@
 "q-eo-class"
 ],
 "dated": "2026-10-18",
+"cycle": "w"
+},
+{
+"id": "f3affffaed",
+"url": "https://www.pen.go.kr/main/cm/cntnts/cntntsView.do?mi=31768&cntntsId=549",
+"host": "pen.go.kr",
+"name": "부산광역시교육청 불법사교육 신고 안내",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hw-overcharge"
+],
+"dated": "",
 "cycle": "w"
 },
 {
@@ -1464,6 +1508,19 @@
 "q-dir-test"
 ],
 "dated": "2025-12-19",
+"cycle": "m"
+},
+{
+"id": "7a9e995c26",
+"url": "https://clik.nanet.go.kr/clikr-collection/policyinfo/202/1010/2025/CLIKC1971683520105534_attach_2.pdf",
+"host": "clik.nanet.go.kr",
+"name": "2025 초·중·고 학생 교육비 지원 안내, 교육부",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-hw-edubenefit"
+],
+"dated": "",
 "cycle": "m"
 },
 {
@@ -2205,11 +2262,12 @@
 "id": "6ab2df24d6",
 "url": "https://www2.yonsei.ac.kr/entrance/plan/2028_guide.pdf",
 "host": "www2.yonsei.ac.kr",
-"name": "2028학년도 전공연계과목 선택 가이드라인, 연세대학교",
+"name": "2028학년도 연세대학교 전공연계과목 선택 가이드라인, 연세대학교 입학처",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
 "q-courses",
+"q-g2-winter",
 "q-hs-choose",
 "q-yk",
 "ysCourse"
@@ -2788,10 +2846,24 @@
 "cat": "법령·정부",
 "used": [
 "moe28",
+"q-ipgyeol-read",
 "q-naesin",
 "q-suneung"
 ],
 "dated": "2023-12-27",
+"cycle": "w"
+},
+{
+"id": "789ab5e001",
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=248741",
+"host": "eiec.kdi.re.kr",
+"name": "교육부 보도자료: 차세대 '어디가' 개통, 대입정보 검색부터 상담까지 한 번에(KDI 경제정보센터 게재본)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-ipgyeol-read"
+],
+"dated": "2024-03-04",
 "cycle": "w"
 },
 {
@@ -2814,11 +2886,12 @@
 "id": "8bb353a50c",
 "url": "https://eiec.kdi.re.kr/policy/materialView.do?num=267335",
 "host": "eiec.kdi.re.kr",
-"name": "교육부: 2028학년도 수능은 2027년 11월 18일 시행(KDI 경제정보센터 게재)",
+"name": "교육부 보도자료: 2028학년도 대학수학능력시험은 2027년 11월 18일(목)에 시행됩니다(KDI 경제정보센터 게재본)",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
 "csat28d",
+"q-g2-winter",
 "r-csat5"
 ],
 "dated": "2025-06-02",
@@ -2851,6 +2924,19 @@
 "q-retake"
 ],
 "dated": "2026-08-25",
+"cycle": "w"
+},
+{
+"id": "75c13dcd2c",
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285888",
+"host": "eiec.kdi.re.kr",
+"name": "보건복지부 입법예고(둘 이상 진료권에 걸친 학교군의 지역의사선발전형 거주요건 보완, KDI 경제정보센터 게재)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-med-ldoc"
+],
+"dated": "2026-08-27",
 "cycle": "w"
 },
 {
@@ -2936,6 +3022,45 @@
 "cycle": "w"
 },
 {
+"id": "7b40392364",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148928116",
+"host": "korea.kr",
+"name": "내년 교대 입학정원 12% 감축…초등교원 양성규모 적정화 추진, 교육부(정책브리핑)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-univ-edu-quota"
+],
+"dated": "2024-04-11",
+"cycle": "w"
+},
+{
+"id": "9ffc8e1102",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148930602",
+"host": "korea.kr",
+"name": "정책브리핑 학원 운영·광고 어떤 경우에 불법인가요?",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hw-overcharge"
+],
+"dated": "2024-06-24",
+"cycle": "w"
+},
+{
+"id": "ebe1121770",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148936321",
+"host": "korea.kr",
+"name": "자주 묻는 연말정산 ③ 초등생 학원비도 세액 공제?, 국세청(정책브리핑)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hw-taxcredit"
+],
+"dated": "2024-11-18",
+"cycle": "w"
+},
+{
 "id": "575a1a8d5c",
 "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148938778",
 "host": "korea.kr",
@@ -2946,6 +3071,58 @@
 "q-suneung"
 ],
 "dated": "2025-01-20",
+"cycle": "w"
+},
+{
+"id": "b0b8525ba9",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148957544",
+"host": "korea.kr",
+"name": "새해엔 초등 저학년 예체능 학원비 세액공제, 정책브리핑",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hw-taxcredit"
+],
+"dated": "2026-01-06",
+"cycle": "w"
+},
+{
+"id": "4d3a2db1ba",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967122",
+"host": "korea.kr",
+"name": "내년 교사 신규채용, 초등 2700~2900명…중등 4700~5100명, 교육부(정책브리핑)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-univ-edu-quota"
+],
+"dated": "2026-06-25",
+"cycle": "w"
+},
+{
+"id": "9f152fe774",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=156576252",
+"host": "korea.kr",
+"name": "정책브리핑 공교육 경쟁력 제고방안 발표",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hs-national-jasa"
+],
+"dated": "2023-06-21",
+"cycle": "w"
+},
+{
+"id": "343f2adcda",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=156610957",
+"host": "korea.kr",
+"name": "정책브리핑 초·중등교육법 시행령 개정 브리핑",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hs-national-jasa"
+],
+"dated": "2024-01-16",
 "cycle": "w"
 },
 {
@@ -3026,6 +3203,19 @@
 "q-sch-violence"
 ],
 "dated": "2023-04-12",
+"cycle": "w"
+},
+{
+"id": "34af13860e",
+"url": "https://www.moe.go.kr/sub/infoRenewal.do?m=011520&page=011520&s=moe",
+"host": "moe.go.kr",
+"name": "교육부 불법사교육신고센터 안내",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hw-overcharge"
+],
+"dated": "",
 "cycle": "w"
 },
 {
@@ -3186,6 +3376,32 @@
 "cycle": "w"
 },
 {
+"id": "0b2413e71d",
+"url": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?lsId=003956&chrClsCd=010202&lsRvsGubun=all",
+"host": "law.go.kr",
+"name": "소득세법 시행령 제·개정이유(2026-02-27 일부개정, 대통령령 제36129호), 국가법령정보센터",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-hw-taxcredit"
+],
+"dated": "2026-02-27",
+"cycle": "w"
+},
+{
+"id": "9716f4be1b",
+"url": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?lsId=005238&lsRvsGubun=all&chrClsCd=010102",
+"host": "law.go.kr",
+"name": "국가법령정보센터 초·중등교육법 시행령 개정 이유(대통령령 제34156호)",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-hs-national-jasa"
+],
+"dated": "2024-01-23",
+"cycle": "w"
+},
+{
 "id": "70c9ac79b3",
 "url": "https://www.law.go.kr/lsLinkProc.do?lsClsCd=OL&lsNm=%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1+%EC%A7%84%ED%9D%A5%EB%B2%95+%EC%8B%9C%ED%96%89%EB%A0%B9&chrClsCd=010202&joNo=002000000&mode=10&joLnkStr=%EC%A0%9C20%EC%A1%B0",
 "host": "law.go.kr",
@@ -3286,12 +3502,13 @@
 "id": "33a0f1e786",
 "url": "https://biz.sbs.co.kr/amp/article/20000228825",
 "host": "biz.sbs.co.kr",
-"name": "SBS Biz: 2027년부터 하반기 수능 모의평가는 8월(교육부 발표)",
+"name": "SBS Biz(교육부 발표: 6월 모의평가 유지, 하반기 모의평가 8월)",
 "kind": "기사",
 "cat": "언론",
 "used": [
 "hs",
-"mock8"
+"mock8",
+"q-g2-winter"
 ],
 "dated": "2025-04-15",
 "cycle": "m"
@@ -3514,6 +3731,19 @@
 "semi2"
 ],
 "dated": "2026-02-22",
+"cycle": "m"
+},
+{
+"id": "06aaadb022",
+"url": "https://www.fnnews.com/news/202607240919545091",
+"host": "fnnews.com",
+"name": "파이낸셜뉴스(부산교육청 2026 대입상담캠프)",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-univ-fair"
+],
+"dated": "2026-07-24",
 "cycle": "m"
 },
 {
@@ -4279,6 +4509,19 @@
 "cycle": "m"
 },
 {
+"id": "1bde410878",
+"url": "https://www.localnaeil.com/News/View/651749",
+"host": "localnaeil.com",
+"name": "내일신문 내일교육(입시 결과 해석 시 '기준' 확인)",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-ipgyeol-read"
+],
+"dated": "2024-07-30",
+"cycle": "m"
+},
+{
 "id": "74f5703144",
 "url": "https://www.localnaeil.com/News/View/653573/1",
 "host": "localnaeil.com",
@@ -4514,6 +4757,19 @@
 "q-suneung"
 ],
 "dated": "2023-12-27",
+"cycle": "m"
+},
+{
+"id": "d544f12649",
+"url": "https://www.newsis.com/view/NISX20240116_0002594432",
+"host": "newsis.com",
+"name": "뉴시스(전국 단위 자사고 지역인재 20%)",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-hs-national-jasa"
+],
+"dated": "2024-01-16",
 "cycle": "m"
 },
 {
@@ -5063,7 +5319,7 @@
 "id": "ebff52a5ad",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
 "host": "veritas-a.com",
-"name": "베리타스알파 '고입캘린더 (26/10/09~)'",
+"name": "베리타스알파: 고입 캘린더(2026-10-05)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -5895,11 +6151,12 @@
 "id": "8f38a38d79",
 "url": "https://www.kcue.or.kr/_upload/news/2025/08/28/application_b244345d6cc72f7e172df15e831c276e.pdf",
 "host": "kcue.or.kr",
-"name": "대교협 2028학년도 대학입학전형기본사항",
+"name": "대교협 「2028학년도 대학입학전형기본사항」 발표(보도자료)",
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
 "kcue28base",
+"q-g2-winter",
 "q-g3-after",
 "q-gana",
 "q-mock",
@@ -5912,10 +6169,11 @@
 "id": "c108dde79f",
 "url": "https://www.kcue.or.kr/_upload/news/2025/08/28/application_e184daa942fe84363f0a4d34381665f3.pdf",
 "host": "kcue.or.kr",
-"name": "대교협 2028학년도 대학입학전형기본사항(지역인재 21~22쪽)",
+"name": "대교협 「2028학년도 대학입학전형기본사항」(시행계획 공표 7쪽, 학생부 작성기준일 29쪽)",
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
+"q-g2-winter",
 "q-med",
 "r-med-seoul"
 ],
@@ -5944,12 +6202,14 @@
 "id": "6102633a70",
 "url": "https://www.kcue.or.kr/_upload/news/2025/09/25/application_a4ad5e82c7d9f30014ecb3803c7c529e.pdf",
 "host": "kcue.or.kr",
-"name": "대교협 어디가 10주년(공개 자료와 시기)",
+"name": "대입정보포털 '어디가' 개통 10주년, 10년간의 성과와 계획(대입자료 제공 시기), 한국대학교육협의회",
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
 "adiga10",
-"q-info-month"
+"q-g2-winter",
+"q-info-month",
+"q-ipgyeol-read"
 ],
 "dated": "2025-09-25",
 "cycle": "w"
@@ -5958,12 +6218,13 @@
 "id": "18e47ae18b",
 "url": "https://www.kcue.or.kr/_upload/news/2026/04/07/application_0c40638a97bb0498e2603cccafab38a7.pdf",
 "host": "kcue.or.kr",
-"name": "교육부·대교협 대입상담교사단·대입정보 119",
+"name": "대학 입시 고민, 대입상담교사단이 함께합니다, 한국대학교육협의회",
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
 "help1",
-"q-free-help"
+"q-free-help",
+"q-ipgyeol-read"
 ],
 "dated": "2026-04-07",
 "cycle": "w"
@@ -5972,12 +6233,14 @@
 "id": "ceda96bda7",
 "url": "https://www.kcue.or.kr/_upload/news/2026/04/30/application_3eb96f4ffbc6cf20a16a3396bd07fe8b.pdf",
 "host": "kcue.or.kr",
-"name": "대교협 2028학년도 대학입학전형시행계획",
+"name": "2028학년도 대학입학전형시행계획 발표, 한국대학교육협의회",
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
 "dy",
 "kcue28",
+"q-g2-winter",
+"q-ipgyeol-read",
 "q-susi"
 ],
 "dated": "2026-04-30",
@@ -5994,6 +6257,7 @@
 "dy",
 "dy28",
 "kcue28main",
+"q-g2-winter",
 "q-med",
 "q-med-ldoc",
 "q-med-quota",
@@ -6006,12 +6270,13 @@
 "id": "142d9f90f2",
 "url": "https://www.kcue.or.kr/_upload/news/2026/06/28/application_25fa1318988075e324581c12663b114a.pdf",
 "host": "kcue.or.kr",
-"name": "교육부·대교협 AI 챗봇·상담·박람회 안내",
+"name": "교육부·대교협 AI 챗봇·상담·박람회·권역별 설명회 안내",
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
 "help2",
-"q-free-help"
+"q-free-help",
+"q-univ-fair"
 ],
 "dated": "2026-06-26",
 "cycle": "w"
@@ -6020,14 +6285,41 @@
 "id": "4fe4959353",
 "url": "https://www.kcue.or.kr/_upload/news/2026/07/09/application_48efd33df79642b9bf407e419925c50f.pdf",
 "host": "kcue.or.kr",
-"name": "대교협 2027 수시 대학입학정보박람회",
+"name": "2027학년도 수시 대학입학정보박람회 개최, 한국대학교육협의회",
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
 "fair",
-"q-free-help"
+"q-free-help",
+"q-univ-fair"
 ],
 "dated": "2026-07-09",
+"cycle": "w"
+},
+{
+"id": "cfb8598529",
+"url": "https://www.kcue.or.kr/_upload/news/2026/08/13/application_aa3671da7ff1e6ece5ab36515949cce1.pdf",
+"host": "kcue.or.kr",
+"name": "대교협 수시 대학입학정보박람회, 누적 관람객 64만 명 돌파, 한국대학교육협의회",
+"kind": "공식",
+"cat": "입시 공식 기관",
+"used": [
+"q-univ-fair"
+],
+"dated": "2026-08-14",
+"cycle": "w"
+},
+{
+"id": "9fc2def620",
+"url": "https://www.kcue.or.kr/_upload/news/2026/08/25/application_3d656b169c8465daa33716f5bfa548f1.pdf",
+"host": "kcue.or.kr",
+"name": "2027학년도 수시모집 대입 원서접수 미리 작성(대학성적분석 안내), 한국대학교육협의회",
+"kind": "공식",
+"cat": "입시 공식 기관",
+"used": [
+"q-ipgyeol-read"
+],
+"dated": "2026-08-25",
 "cycle": "w"
 },
 {
