@@ -1,9 +1,17 @@
 {
  "id": "n20",
  "org": "분당중앙과학고",
- "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-10-24T08:49:24+09:00",
+ "what": "경기 2027 고입 기본계획(과학고 소집면접·합격 발표) · 학교 누리집",
+ "checkedAt": "2026-10-24T11:05:05+09:00",
  "opened": [
+  {
+   "url": "https://www.goe.go.kr/resource/goe/na/bbs_2430/2026/03/e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf",
+   "status": "ok"
+  },
+  {
+   "url": "https://bdja-h.goesn.kr/",
+   "status": "ok"
+  },
   {
    "url": "https://bdja-h.goesn.kr/bdja-h/cm/cntnts/cntntsView.do?mi=27552&cntntsId=4832",
    "status": "ok"
@@ -13,22 +21,160 @@
  "ged": [],
  "titles": [
   {
+   "url": "https://www.goe.go.kr/resource/goe/na/bbs_2430/2026/03/e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf",
+   "title": "첨부: e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf"
+  },
+  {
    "url": "https://bdja-h.goesn.kr/bdja-h/cm/cntnts/cntntsView.do?mi=27552&cntntsId=4832",
    "title": "분당중앙고등학교"
   }
  ],
  "files": [
   {
-   "url": "https://bdja-h.goesn.kr/upload/bdja-h/subImg/img_6381ed96-5246-422a-b697-21ad6b294ac31641791472613.png",
-   "name": "본문 그림",
+   "url": "https://www.goe.go.kr/resource/goe/na/bbs_2430/2026/03/e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf",
+   "name": "e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf",
    "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 675265,
-   "sha1": "04927d57a62a",
-   "lines": 0
+   "direct": true,
+   "type": "pdf",
+   "bytes": 223897,
+   "sha1": "2914f7501f1f",
+   "lines": 6
+  },
+  {
+   "url": "https://bdja-h.goesn.kr/upload/bdja-h/cntntsFile/2026/05/623A8529-BE6B-D8F1-FDF9-360D7DAEA442.pdf",
+   "name": "▶ 전형요항 PDF 다운로드 (모바일에서 열기)",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 293581,
+   "sha1": "1d7b41c4e9e5"
   }
  ],
- "lines": [],
- "status": "found-no-dates"
+ "lines": [
+  {
+   "text": "합격자 발표 2026.11.11.(수)",
+   "dates": [
+    "2026-11-11"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://www.goe.go.kr/resource/goe/na/bbs_2430/2026/03/e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf"
+  },
+  {
+   "text": "합격자 발표 2026.11.23.(월)",
+   "dates": [
+    "2026-11-23"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://www.goe.go.kr/resource/goe/na/bbs_2430/2026/03/e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf"
+  },
+  {
+   "text": "합격자 발표 | 2027.01.14.(목)",
+   "dates": [
+    "2027-01-14"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://www.goe.go.kr/resource/goe/na/bbs_2430/2026/03/e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf"
+  },
+  {
+   "text": "※ 경기과학고는 영재학교로 전기학교(과학고)에 해당되지 않음 | ※ 대학수학능력시험일: 2026.11.19.(목)",
+   "dates": [
+    "2026-11-19"
+   ],
+   "words": [
+    "과학고"
+   ],
+   "src": "https://www.goe.go.kr/resource/goe/na/bbs_2430/2026/03/e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf"
+  },
+  {
+   "text": "※ 참고 사항(영재학교·과학고 입학전형 개선방안, 2020.11.17., 교육부)",
+   "dates": [
+    "2020-11-17"
+   ],
+   "words": [
+    "과학고"
+   ],
+   "src": "https://www.goe.go.kr/resource/goe/na/bbs_2430/2026/03/e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf"
+  },
+  {
+   "text": "2026년 이전에 검정고시에 합격한 사실이 없는 자 | ※ 2026년 제1회 중학교 졸업학력 검정고시 실시: 2026. 4. 4.(토)",
+   "dates": [
+    "2026-04-04"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://www.goe.go.kr/resource/goe/na/bbs_2430/2026/03/e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf"
+  },
+  {
+   "text": "2단계 대상자 발표 | 2026. 9. 21.(월) 14:00",
+   "dates": [
+    "2026-09-21"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://bdja-h.goesn.kr/upload/bdja-h/cntntsFile/2026/05/623A8529-BE6B-D8F1-FDF9-360D7DAEA442.pdf"
+  },
+  {
+   "text": "3단계 대상자 발표 | 2026. 11. 16.(월) 14:00",
+   "dates": [
+    "2026-11-16"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://bdja-h.goesn.kr/upload/bdja-h/cntntsFile/2026/05/623A8529-BE6B-D8F1-FDF9-360D7DAEA442.pdf"
+  },
+  {
+   "text": "3단계〔소집면접〕 | 2026. 11. 20.(금)",
+   "dates": [
+    "2026-11-20"
+   ],
+   "words": [
+    "면접",
+    "소집"
+   ],
+   "src": "https://bdja-h.goesn.kr/upload/bdja-h/cntntsFile/2026/05/623A8529-BE6B-D8F1-FDF9-360D7DAEA442.pdf"
+  },
+  {
+   "text": "최종 합격자 발표 | 2026. 11. 26.(목) 17:00",
+   "dates": [
+    "2026-11-26"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://bdja-h.goesn.kr/upload/bdja-h/cntntsFile/2026/05/623A8529-BE6B-D8F1-FDF9-360D7DAEA442.pdf"
+  },
+  {
+   "text": "과학고 설립·운영 재원을 기초자치단체가 지원함에 따라 도입함 | § 별도 지원 없이 일반전형으로 지원하며, 2027학년도 신입생 원서접수 시작 전일(2026. 8. 23.) 기준으로 지원 자격을",
+   "dates": [
+    "2026-08-23"
+   ],
+   "words": [
+    "과학고"
+   ],
+   "src": "https://bdja-h.goesn.kr/upload/bdja-h/cntntsFile/2026/05/623A8529-BE6B-D8F1-FDF9-360D7DAEA442.pdf"
+  },
+  {
+   "text": "2) 지역균형선발 : 정원 내 최종 선발 결과, 합격생이 없는 시군 소재 중학교 졸업(예정)자 | - 2028, 2029학년도 지원자 : 2026. 8. 23.부터 해당 지역 소재 중학교의 교육과정을 이수 중인 졸업(예정)자",
+   "dates": [
+    "2026-08-23"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://bdja-h.goesn.kr/upload/bdja-h/cntntsFile/2026/05/623A8529-BE6B-D8F1-FDF9-360D7DAEA442.pdf"
+  }
+ ],
+ "status": "dates"
 }

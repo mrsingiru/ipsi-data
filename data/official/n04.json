@@ -1,11 +1,11 @@
 {
  "id": "n04",
  "org": "하나고",
- "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-10-24T08:47:45+09:00",
+ "what": "2027 신입생 입학전형 요강(PDF)",
+ "checkedAt": "2026-10-24T11:04:58+09:00",
  "opened": [
   {
-   "url": "https://jinhak.sen.go.kr/subList/20000000430",
+   "url": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf",
    "status": "ok"
   },
   {
@@ -13,7 +13,7 @@
    "status": "ok"
   },
   {
-   "url": "https://jinhak.sen.go.kr/subList/20000000422",
+   "url": "https://www.hana.hs.kr/admission/noticeList.do",
    "status": "ok"
   }
  ],
@@ -21,11 +21,25 @@
  "ged": [],
  "titles": [
   {
+   "url": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf",
+   "title": "첨부: 2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
    "url": "https://www.hana.hs.kr/admission/freshmen.do",
    "title": "하나고등학교"
   }
  ],
  "files": [
+  {
+   "url": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf",
+   "name": "2027학년도_하나고등학교_신입생_입학전형_요강.pdf",
+   "status": "ok",
+   "direct": true,
+   "type": "pdf",
+   "bytes": 5139731,
+   "sha1": "9a91b76bcf60",
+   "lines": 21
+  },
   {
    "url": "https://www.hana.hs.kr/assets/images/admission/admission2027.jpg",
    "name": "본문 그림",
@@ -37,6 +51,235 @@
    "lines": 0
   }
  ],
- "lines": [],
- "status": "found-no-dates"
+ "lines": [
+  {
+   "text": "※ 증빙서류는 원서접수 시작일로부터 30일 이내(2026. 11. 3. 이후) 발급한 서류여야 함(별도의 유효기간이 설정된 서류는 제외)",
+   "dates": [
+    "2026-11-03"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "입학원서 온라인 접수 | 2026. 12. 3.(목) 00:00",
+   "dates": [
+    "2026-12-03"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "▪업무시간에 본교 방문 (단 우편 접수시 | 2026. 12. 7.(월) 15시 도착분에 한함)",
+   "dates": [
+    "2026-12-07"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "* 우편 접수는 12. 4.(금)까지 도착하도록",
+   "dates": [
+    "2026-12-04"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "(2단계 면접 대상자 자기소개서 | 2026. 12. 10.(목) 17:00",
+   "dates": [
+    "2026-12-10"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "2단계 면접 및 체력 검사 | 2026. 12. 21.(월) ~ 12. 22.(화)",
+   "dates": [
+    "2026-12-21",
+    "2026-12-22"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "최종 합격자 발표 | 2026. 12. 30.(수)",
+   "dates": [
+    "2026-12-30"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "원서 접수 | 2027. 1. 11.(월) ~ 1. 12.(화)",
+   "dates": [
+    "2027-01-11",
+    "2027-01-12"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "면접 전형일 | 2027. 1. 14.(목)",
+   "dates": [
+    "2027-01-14"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "합격자 발표 | 2027. 1. 15.(금)",
+   "dates": [
+    "2027-01-15"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "등록금 납부 기간 | 2027. 1. 20.(수) ~ 1. 22.(금)",
+   "dates": [
+    "2027-01-20",
+    "2027-01-22"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "(단, 우편 접수는 2026. 12. 7.(월) 15시 도착분에 한함)",
+   "dates": [
+    "2026-12-07"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "⑧ 2단계 면접 대상자로 선발(1단계 합격) 여부 확인 (2026. 12. 10.(목) 17:00~)",
+   "dates": [
+    "2026-12-10"
+   ],
+   "words": [
+    "면접",
+    "합격"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "2) 온라인 원서 접수 및 전형료 결제 | - 기간 : 2026. 12. 3.(목) 00:00 ~ 12. 7.(월) 13:00",
+   "dates": [
+    "2026-12-03",
+    "2026-12-07"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "3) 1차 서류 제출(온라인 접수 후 서류 제출) | - 기간 : 2026. 12. 3.(목) ~ 12. 7.(월) (업무 시간 09:00~17:00, 토·일 제외)",
+   "dates": [
+    "2026-12-03",
+    "2026-12-07"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "3) 1차 서류 제출(온라인 접수 후 서류 제출) | 단, 2026. 12. 7.(월) 오후 3시 마감",
+   "dates": [
+    "2026-12-07"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "4) 2차 서류 제출 (2단계 면접 대상자가 자기소개서 온라인 제출) | - 기간: 2026. 12. 10.(목) 17:00~12. 14.(월) 10:00(오전 10시)",
+   "dates": [
+    "2026-12-10",
+    "2026-12-14"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "가. 합격자 발표 : 2026. 12. 30.(수) 본교 홈페이지",
+   "dates": [
+    "2026-12-30"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "나. 합격자 예비소집 : 2027. 1. 9.(토) (추후 변경 가능)",
+   "dates": [
+    "2027-01-09"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "다. 합격자 등록금 납부 기간 : 2027. 1. 20.(수) ~ 1. 22.(금)",
+   "dates": [
+    "2027-01-20",
+    "2027-01-22"
+   ],
+   "words": [
+    "합격",
+    "등록"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  },
+  {
+   "text": "3. 본문은 인터넷 원서접수 사이트에서 입력하며, 띄어쓰기를 제외하고 1,500자 이내이어야 합니다. | [제출 기간 : 2026.12.10.(목) 17:00~12.14.(월) 10:00(오전10시)] ※자기소개서 온라인 입력 기간 종료 이후에는 입력 및 수정이",
+   "dates": [
+    "2026-12-10",
+    "2026-12-14"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf"
+  }
+ ],
+ "status": "dates"
 }

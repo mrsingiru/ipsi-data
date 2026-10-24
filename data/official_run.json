@@ -1,7 +1,7 @@
 {
- "at": "2026-10-24T08:55:41+09:00",
+ "at": "2026-10-24T11:12:55+09:00",
  "targets": 48,
- "withDates": 34,
+ "withDates": 37,
  "items": [
   {
    "id": "n93",
@@ -9,7 +9,7 @@
    "status": "dates",
    "lines": 18,
    "files": 6,
-   "opened": 8
+   "opened": 9
   },
   {
    "id": "n27",
@@ -80,7 +80,7 @@
    "org": "공주대 영재원",
    "status": "dates",
    "lines": 16,
-   "files": 4,
+   "files": 6,
    "opened": 2
   },
   {
@@ -88,7 +88,7 @@
    "org": "제주과학고",
    "status": "found-no-dates",
    "lines": 0,
-   "files": 2,
+   "files": 3,
    "opened": 2
   },
   {
@@ -164,36 +164,44 @@
    "opened": 4
   },
   {
+   "id": "n10",
+   "org": "인천과학고",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 2
+  },
+  {
+   "id": "n11",
+   "org": "인천진산과학고",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 2
+  },
+  {
+   "id": "n04",
+   "org": "하나고",
+   "status": "dates",
+   "lines": 21,
+   "files": 2,
+   "opened": 3
+  },
+  {
+   "id": "n20",
+   "org": "분당중앙과학고",
+   "status": "dates",
+   "lines": 12,
+   "files": 2,
+   "opened": 3
+  },
+  {
    "id": "n03",
    "org": "서울 고입",
    "status": "dates",
    "lines": 50,
    "files": 4,
    "opened": 4
-  },
-  {
-   "id": "n04",
-   "org": "하나고",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 1,
-   "opened": 3
-  },
-  {
-   "id": "n10",
-   "org": "인천과학고",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 1
-  },
-  {
-   "id": "n11",
-   "org": "인천진산과학고",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 1
   },
   {
    "id": "n15",
@@ -217,14 +225,6 @@
    "status": "dates",
    "lines": 4,
    "files": 0,
-   "opened": 1
-  },
-  {
-   "id": "n20",
-   "org": "분당중앙과학고",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 1,
    "opened": 1
   },
   {
@@ -255,8 +255,8 @@
    "id": "n38",
    "org": "청주교대 영재원",
    "status": "dates",
-   "lines": 33,
-   "files": 2,
+   "lines": 60,
+   "files": 8,
    "opened": 4
   },
   {
@@ -326,8 +326,8 @@
   {
    "id": "n58",
    "org": "전북대 영재원",
-   "status": "robots",
-   "lines": 0,
+   "status": "dates",
+   "lines": 2,
    "files": 0,
    "opened": 1
   },
@@ -360,7 +360,7 @@
    "org": "부산일과학고",
    "status": "dates",
    "lines": 3,
-   "files": 2,
+   "files": 3,
    "opened": 6
   },
   {
