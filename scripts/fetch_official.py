@@ -116,24 +116,32 @@ class Fetcher:
         if wait > 0:
             time.sleep(wait)
         self.count[host] = self.count.get(host, 0) + 1
-        try:
-            r = self.s.get(url, timeout=TIMEOUT, stream=True, allow_redirects=True, headers={'Referer': referer} if referer else None)
-            self.last[host] = time.time()
-            if r.status_code >= 400:
-                return 'http-%d' % r.status_code, None, r.url, ''
-            if not self.allowed(r.url):
-                return 'robots', None, r.url, ''
-            data = b''
-            for chunk in r.iter_content(65536):
-                data += chunk
-                if len(data) > MAX_BYTES:
-                    return 'too-big', None, r.url, ''
-            ctype = r.headers.get('Content-Type', '')
-            if binary:
-                return 'ok', data, r.url, ctype
-            return 'ok', decode_html(data, r), r.url, ctype
-        except requests.RequestException as e:
-            return 'error', str(e)[:200], url, ''
+        # 2026-10-25: 경기 미래과학교육원 첨부(n15)가 'Connection broken: IncompleteRead'로 내려받다 끊김 — 끊긴 받기만 쉬었다가 2번 더(같은 주소, robots·속도 규칙 그대로)
+        for attempt in range(3):
+            try:
+                r = self.s.get(url, timeout=TIMEOUT, stream=True, allow_redirects=True, headers={'Referer': referer} if referer else None)
+                self.last[host] = time.time()
+                if r.status_code >= 400:
+                    return 'http-%d' % r.status_code, None, r.url, ''
+                if not self.allowed(r.url):
+                    return 'robots', None, r.url, ''
+                data = b''
+                for chunk in r.iter_content(65536):
+                    data += chunk
+                    if len(data) > MAX_BYTES:
+                        return 'too-big', None, r.url, ''
+                ctype = r.headers.get('Content-Type', '')
+                if binary:
+                    return 'ok', data, r.url, ctype
+                return 'ok', decode_html(data, r), r.url, ctype
+            except (requests.exceptions.ChunkedEncodingError, requests.exceptions.ConnectionError) as e:
+                self.last[host] = time.time()
+                if attempt < 2:
+                    time.sleep(PAUSE * 3 * (attempt + 1))
+                    continue
+                return 'error', ('3번 받다 끊김: ' + str(e))[:200], url, ''
+            except requests.RequestException as e:
+                return 'error', str(e)[:200], url, ''
 
 
 def decode_html(data, r):
