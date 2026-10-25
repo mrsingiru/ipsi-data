@@ -2,26 +2,17 @@
  "id": "n13",
  "org": "인천하늘고",
  "what": "원서 접수·1단계 발표 — 학교 입학공지 게시판",
- "checkedAt": "2026-10-25T11:59:03+09:00",
+ "checkedAt": "2026-10-25T12:12:13+09:00",
  "opened": [
   {
    "url": "https://haneul.icehs.kr/boardCnts/list.do?boardID=317332&m=0302",
    "status": "ok"
-  },
-  {
-   "url": "https://haneul.icehs.kr/boardCnts/view.do?boardID=317332&boardSeq=34080536&lev=0&m=0302&s=",
-   "status": "http-404"
   }
  ],
- "notices": [
-  {
-   "title": "2027학년도 인천하늘고등학교 신입생 입학전형 요강",
-   "url": "https://haneul.icehs.kr/boardCnts/view.do?boardID=317332&boardSeq=34080536&lev=0&m=0302&s="
-  }
- ],
+ "notices": [],
  "ged": [],
  "titles": [],
  "files": [],
  "lines": [],
- "status": "found-no-dates"
+ "status": "not-found"
 }
