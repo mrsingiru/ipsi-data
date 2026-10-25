@@ -2,7 +2,7 @@
  "id": "n15",
  "org": "경기 미래과학교육원 영재원",
  "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-10-25T20:42:27+09:00",
+ "checkedAt": "2026-10-25T21:52:38+09:00",
  "opened": [
   {
    "url": "https://www.gise.kr/gise/na/ntt/selectNttInfo.do?mi=10751&bbsId=6147&nttSn=1200499",
@@ -30,19 +30,19 @@
    "url": "https://www.gise.kr/gise/common/nttFileDownload.do?fileKey=49651981e8fe04dcdbaa776571f8cab1",
    "name": "[붙임1] 2027학년도 경기도교육청미래과학교육원부설영재교육원 영재교육대상자 모집 공고.hwp",
    "status": "error",
-   "error": "('Connection broken: IncompleteRead(0 bytes read, 889344 more expected)', IncompleteRead(0 bytes read, 889344 more expected))"
+   "error": "3번 받다 끊김: ('Connection broken: IncompleteRead(0 bytes read, 889344 more expected)', IncompleteRead(0 bytes read, 889344 more expected))"
   },
   {
    "url": "https://www.gise.kr/gise/common/nttFileDownload.do?fileKey=e22bd6384a157fc5e893c8bd8604396a",
    "name": "[붙임2] 2027학년도 경기도 영재교육기관 사회통합전형 대상자 선발 지침.hwp",
    "status": "error",
-   "error": "('Connection broken: IncompleteRead(0 bytes read, 80384 more expected)', IncompleteRead(0 bytes read, 80384 more expected))"
+   "error": "3번 받다 끊김: ('Connection broken: IncompleteRead(0 bytes read, 80384 more expected)', IncompleteRead(0 bytes read, 80384 more expected))"
   },
   {
    "url": "https://www.gise.kr/gise/common/nttFileDownload.do?fileKey=e349419253324dcf397ca11afce1bf66",
    "name": "[붙임3] 관련 양식.hwp",
    "status": "error",
-   "error": "('Connection broken: IncompleteRead(0 bytes read, 80384 more expected)', IncompleteRead(0 bytes read, 80384 more expected))"
+   "error": "3번 받다 끊김: ('Connection broken: IncompleteRead(0 bytes read, 80384 more expected)', IncompleteRead(0 bytes read, 80384 more expected))"
   },
   {
    "url": "https://www.gise.kr/upload/giseadm/editor/cheditor/upload/image_20260928193447.png",

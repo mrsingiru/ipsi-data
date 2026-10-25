@@ -1,7 +1,7 @@
 {
- "at": "2026-10-25T20:49:44+09:00",
+ "at": "2026-10-25T22:02:55+09:00",
  "targets": 54,
- "withDates": 39,
+ "withDates": 40,
  "items": [
   {
    "id": "n93",
@@ -158,10 +158,10 @@
   {
    "id": "n86",
    "org": "경북 교육지원청 영재원",
-   "status": "robots",
-   "lines": 0,
+   "status": "dates",
+   "lines": 1,
    "files": 0,
-   "opened": 3
+   "opened": 4
   },
   {
    "id": "n10",

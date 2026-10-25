@@ -2,25 +2,50 @@
  "id": "n86",
  "org": "경북 교육지원청 영재원",
  "what": "2027 교육지원청 영재교육원 영재교육대상자 선발(구미·예천·경주)",
- "checkedAt": "2026-10-25T20:40:22+09:00",
+ "checkedAt": "2026-10-25T21:50:50+09:00",
  "opened": [
   {
    "url": "https://www.gbe.kr/gm/na/ntt/selectNttList.do?mi=9678&bbsId=3188",
-   "status": "robots"
+   "status": "ok"
+  },
+  {
+   "url": "https://www.gbe.kr/gm/na/ntt/selectNttInfo.do?mi=9678&bbsId=3188&nttSn=1650865",
+   "status": "ok"
   },
   {
    "url": "https://www.gbe.kr/ycg/na/ntt/selectNttList.do?mi=4596&bbsId=2020",
-   "status": "robots"
+   "status": "ok"
   },
   {
    "url": "https://www.gbe.kr/gj/na/ntt/selectNttList.do?bbsId=1582&searchCate=53&mi=8922",
-   "status": "robots"
+   "status": "ok"
   }
  ],
- "notices": [],
+ "notices": [
+  {
+   "title": "[안내] 2027학년도 구미교육지원청부설영재교육원 영재교육대상자 선발 모집 공고",
+   "url": "https://www.gbe.kr/gm/na/ntt/selectNttInfo.do?mi=9678&bbsId=3188&nttSn=1650865"
+  }
+ ],
  "ged": [],
- "titles": [],
+ "titles": [
+  {
+   "url": "https://www.gbe.kr/gm/na/ntt/selectNttInfo.do?mi=9678&bbsId=3188&nttSn=1650865",
+   "title": "경상북도구미교육지원청-공지사항"
+  }
+ ],
  "files": [],
- "lines": [],
- "status": "robots"
+ "lines": [
+  {
+   "text": "담당부서교육지원과 | 담당자 업데이트일자2026-09-21",
+   "dates": [
+    "2026-09-21"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://www.gbe.kr/gm/na/ntt/selectNttInfo.do?mi=9678&bbsId=3188&nttSn=1650865"
+  }
+ ],
+ "status": "dates"
 }
