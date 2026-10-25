@@ -1,7 +1,7 @@
 {
- "at": "2026-10-25T11:38:00+09:00",
+ "at": "2026-10-25T11:53:58+09:00",
  "targets": 54,
- "withDates": 40,
+ "withDates": 39,
  "items": [
   {
    "id": "n93",
@@ -244,6 +244,14 @@
    "opened": 1
   },
   {
+   "id": "n48",
+   "org": "민족사관고",
+   "status": "dates",
+   "lines": 1,
+   "files": 1,
+   "opened": 1
+  },
+  {
    "id": "n03",
    "org": "서울 고입",
    "status": "dates",
@@ -286,18 +294,18 @@
   {
    "id": "n36",
    "org": "충북과학고",
-   "status": "dates",
-   "lines": 7,
+   "status": "robots",
+   "lines": 0,
    "files": 0,
    "opened": 4
   },
   {
    "id": "n37",
    "org": "충북 고입",
-   "status": "dates",
-   "lines": 8,
+   "status": "robots",
+   "lines": 0,
    "files": 0,
-   "opened": 5
+   "opened": 2
   },
   {
    "id": "n38",
@@ -322,14 +330,6 @@
    "lines": 12,
    "files": 6,
    "opened": 5
-  },
-  {
-   "id": "n48",
-   "org": "민족사관고",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 0,
-   "opened": 1
   },
   {
    "id": "n50",
