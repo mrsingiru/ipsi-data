@@ -295,9 +295,24 @@ MD_DOT = re.compile(r'(?<![\d.])(\d{1,2})\s*\.\s*(\d{1,2})\s*\.?\s*\(\s*([월화
 WD = '월화수목금토일'
 
 
-def pick_year(mo, d, wd, today, after=None):
+def cycle_window(text):
+    """2026-10-25: 해가 안 적힌 날짜를 문서의 학년도로 맞춘다. 'N학년도' 선발·전형은 N-1년 3월 ~ N년 2월에 열린다.
+    (전북대 '2026학년도 … 신입생 모집'(2025-10-23 글)의 '10월 27일'을 오늘에 가까운 2026년으로 읽던 오류 — 작년 날짜가 올해 공식 날짜처럼 보일 수 있었음)
+    문서에 가장 많이 나온 학년도(같으면 큰 것)를 쓰고, 없으면 None(예전처럼 오늘에 가까운 해)."""
+    cnt = {}
+    for m in re.finditer(r'(20\d\d)\s*학년도', text or ''):
+        n = int(m.group(1)); cnt[n] = cnt.get(n, 0) + 1
+    if not cnt:
+        return None
+    n = max(cnt, key=lambda k: (cnt[k], k))
+    end = datetime.date(n, 3, 1) - datetime.timedelta(days=1)
+    return (datetime.date(n - 1, 3, 1), end)
+
+
+def pick_year(mo, d, wd, today, after=None, window=None):
     """No year written. 1) an earlier full date on the same line sets the year ('2026. 12. 28. ~ 1. 3.' → next year);
-    2) the weekday in brackets decides between years within 270 days of today; 3) else the year nearest to today."""
+    2) the document's 학년도 window (cycle_window) — with the weekday if it fits one day there; 3) the weekday in brackets
+    decides between years within 270 days of today; 4) else the year nearest to today."""
     if after:
         try:
             c = datetime.date(after.year, mo, d)
@@ -305,11 +320,22 @@ def pick_year(mo, d, wd, today, after=None):
         except ValueError:
             pass
     cands = []
-    for y in (today.year - 1, today.year, today.year + 1):
+    years = {today.year - 1, today.year, today.year + 1}
+    if window:
+        years |= {window[0].year, window[1].year}
+    for y in sorted(years):
         try:
             cands.append(datetime.date(y, mo, d))
         except ValueError:
             pass
+    if window:
+        inw = [c for c in cands if window[0] <= c <= window[1]]
+        if wd:
+            iw = [c for c in inw if WD[c.weekday()] == wd]
+            if len(iw) == 1:
+                return iw[0].year
+        if len(inw) == 1:
+            return inw[0].year
     if wd:
         ok = [c for c in cands if WD[c.weekday()] == wd and abs((c - today).days) <= 270]
         if len(ok) == 1:
@@ -327,7 +353,7 @@ def tidy(line):
     return re.sub(r'\(\s*\)\s*([월화수목금토일])(?![가-힣])', r'(\1)', line)
 
 
-def dates_in(line, today):
+def dates_in(line, today, window=None):
     line = tidy(line)
     found, spans = [], []
     for m in FULL.finditer(line):
@@ -345,7 +371,7 @@ def dates_in(line, today):
         if before:
             mo, d = int(m.group(1)), int(m.group(2))
             try:
-                found.append((m.start(1), pick_year(mo, d, None, today, datetime.date(before[-1][1], before[-1][2], before[-1][3])), mo, d, False))
+                found.append((m.start(1), pick_year(mo, d, None, today, datetime.date(before[-1][1], before[-1][2], before[-1][3]), window), mo, d, False))
                 spans.append(m.span())
             except ValueError:
                 pass
@@ -357,7 +383,7 @@ def dates_in(line, today):
             before = [x for x in found if x[0] < m.start() and x[4]]
             after = datetime.date(before[-1][1], before[-1][2], before[-1][3]) if before else None
             try:
-                found.append((m.start(), pick_year(mo, d, m.group(3), today, after), mo, d, False))
+                found.append((m.start(), pick_year(mo, d, m.group(3), today, after, window), mo, d, False))
             except ValueError:
                 pass
     out = []
@@ -371,11 +397,12 @@ def dates_in(line, today):
 
 def date_lines(text, near, today, src, limit=40):
     out, seen, prev = [], set(), []
+    win = cycle_window(text)
     for raw in re.split(r'[\r\n]+', text):
         line = re.sub(r'\s+', ' ', raw).strip()
         if not line:
             continue
-        ds = dates_in(line, today) if len(line) >= 5 else []
+        ds = dates_in(line, today, win) if len(line) >= 5 else []
         if not ds:
             prev = (prev + [line])[-2:]
             continue
