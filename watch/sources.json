@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.56)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.60)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-10-25",
-"ver": "v28.56",
-"count": 498,
+"ver": "v28.60",
+"count": 510,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -238,6 +238,19 @@
 "cat": "교육청",
 "used": [
 "q-hs-autonomous"
+],
+"dated": "",
+"cycle": "w"
+},
+{
+"id": "aaee2d90a3",
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/04/e2b13ae0-cb1b-49f0-a7d0-9d90c781c606.pdf",
+"host": "goe.go.kr",
+"name": "2026 고교학점제 및 학점 이수 인정 방안, 경기도교육청",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-credit"
 ],
 "dated": "",
 "cycle": "w"
@@ -1465,19 +1478,6 @@
 "cycle": "w"
 },
 {
-"id": "2e437d93b9",
-"url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000022/board/BO00000124/ctgynone/view0010v.do?board_seq=872",
-"host": "ssei.sen.go.kr",
-"name": "2026학년도 서울시교육청 소속 영재교육원 영재교육대상자 선발 안내",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"n00"
-],
-"dated": "2025-09-18",
-"cycle": "w"
-},
-{
 "id": "10f88ad88c",
 "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000022/board/BO00000124/ctgynone/view0010v.do?board_seq=987",
 "host": "ssei.sen.go.kr",
@@ -1522,6 +1522,32 @@
 "cycle": "w"
 },
 {
+"id": "a96aff872c",
+"url": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4035&file_seq=1&alias_name=20260919045136613_1",
+"host": "ssei.sen.go.kr",
+"name": "(동부 중등)2027학년도 동부교육지원청영재교육원 영재교육대상자 모집요강",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n00"
+],
+"dated": "2026-10-22",
+"cycle": "w"
+},
+{
+"id": "69961d3dff",
+"url": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4",
+"host": "wjgift.gwe.go.kr",
+"name": "2027학년도 원주교육지원청부설영재교육원 교육대상자 선발 요강(첨부)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n45"
+],
+"dated": "2026-10-25",
+"cycle": "w"
+},
+{
 "id": "6e5899faa2",
 "url": "https://wjgift.gwe.go.kr/boardCnts/list.do?boardID=99694&m=0201&s=kwwjegp",
 "host": "wjgift.gwe.go.kr",
@@ -1561,6 +1587,32 @@
 "cycle": "m"
 },
 {
+"id": "9fd7e07a36",
+"url": "https://www.hscredit.kr/about/graduation",
+"host": "hscredit.kr",
+"name": "졸업·이수 기준, 고교학점제 지원센터",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-hs-credit"
+],
+"dated": "2026-10-25",
+"cycle": "m"
+},
+{
+"id": "8dffebe6e9",
+"url": "https://www.hscredit.kr/about/intro",
+"host": "hscredit.kr",
+"name": "고교학점제란, 고교학점제 지원센터",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-hs-credit"
+],
+"dated": "2026-10-25",
+"cycle": "m"
+},
+{
 "id": "049cd57aaf",
 "url": "https://m.dailypharm.com/user/news/338076",
 "host": "m.dailypharm.com",
@@ -1569,6 +1621,7 @@
 "cat": "기타",
 "used": [
 "q-med",
+"q-med-ldoc-zone",
 "r-local-doctor"
 ],
 "dated": "2026-04-30",
@@ -1583,6 +1636,8 @@
 "cat": "기타",
 "used": [
 "q-med-ldoc",
+"q-med-ldoc-city",
+"q-med-ldoc-zone",
 "r-local-doctor"
 ],
 "dated": "2026-06-30",
@@ -1900,6 +1955,19 @@
 "cycle": "m"
 },
 {
+"id": "62ebebe328",
+"url": "https://admission.yonsei.ac.kr/seoul/upload/guide/20260529204109T8NZNJ.PDF",
+"host": "admission.yonsei.ac.kr",
+"name": "2027학년도 연세대학교 수시모집요강",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-univ-ged-susi"
+],
+"dated": "2026-05-29",
+"cycle": "w"
+},
+{
 "id": "96575af88a",
 "url": "https://admission.yonsei.ac.kr/seoul/upload/info/20260420105307XBEEVK.PDF",
 "host": "admission.yonsei.ac.kr",
@@ -2084,6 +2152,19 @@
 "cycle": "w"
 },
 {
+"id": "7f9b6b09bd",
+"url": "https://go.hanyang.ac.kr/resources/upload_data/mojib/20260818042807559_.pdf",
+"host": "go.hanyang.ac.kr",
+"name": "2027학년도 한양대학교 신입학 수시 모집요강",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-univ-ged-susi"
+],
+"dated": "2026-08-18",
+"cycle": "w"
+},
+{
 "id": "0ccdb7cc44",
 "url": "https://go.hanyang.ac.kr/web/notice/notice_view.do?bn=20598&m_type=COMMON",
 "host": "go.hanyang.ac.kr",
@@ -2136,6 +2217,20 @@
 "cycle": "m"
 },
 {
+"id": "7e4e1fc146",
+"url": "https://go.pusan.ac.kr/down/mojib/RF(0)_2607079150.pdf",
+"host": "go.pusan.ac.kr",
+"name": "2027 부산대학교 수시모집요강(지역인재·지역의사 제출서류·복수지원·전형 요약)",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-med-ldoc-city",
+"q-med-local-move"
+],
+"dated": "2026-07-07",
+"cycle": "w"
+},
+{
 "id": "0141aa7614",
 "url": "https://iphak.khu.ac.kr/submenu.do?menuurl=89BGs%2bk748ajyySWoWlQPw%3d%3d&",
 "host": "iphak.khu.ac.kr",
@@ -2147,6 +2242,33 @@
 ],
 "dated": "",
 "cycle": "m"
+},
+{
+"id": "ae86f65df3",
+"url": "https://iphak.ssu.ac.kr/susi/rating_guide.asp?page_no=1_2_4",
+"host": "iphak.ssu.ac.kr",
+"name": "숭실대학교 입학처 학생부종합전형 서류평가 안내",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-univ-jongbu"
+],
+"dated": "2026-10-25",
+"cycle": "w"
+},
+{
+"id": "f13e03338a",
+"url": "https://iphak.ulsan.ac.kr/board/download.do?no=734",
+"host": "iphak.ulsan.ac.kr",
+"name": "울산대학교 2027학년도 대학입학전형시행계획(2026.4.30. 수정)",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-med-ldoc-city",
+"q-med-ldoc-zone"
+],
+"dated": "2026-04-30",
+"cycle": "w"
 },
 {
 "id": "acb62d62b3",
@@ -2311,6 +2433,19 @@
 "snu26guide"
 ],
 "dated": "2026-10-17",
+"cycle": "w"
+},
+{
+"id": "5209660038",
+"url": "https://www2.yonsei.ac.kr/entrance/2026/2027%ED%95%99%EB%85%84%EB%8F%84_%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90_%ED%95%99%EC%83%9D%EB%B6%80%EC%A2%85%ED%95%A9%EC%A0%84%ED%98%95_%EC%95%88%EB%82%B4%EC%84%9C.pdf",
+"host": "www2.yonsei.ac.kr",
+"name": "2027학년도 연세대학교 학생부종합전형 안내서",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-univ-jongbu"
+],
+"dated": "",
 "cycle": "w"
 },
 {
@@ -3006,7 +3141,10 @@
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
-"q-med-ldoc"
+"q-med-ldoc",
+"q-med-ldoc-city",
+"q-med-ldoc-zone",
+"q-med-local-move"
 ],
 "dated": "2026-08-27",
 "cycle": "w"
@@ -3022,6 +3160,7 @@
 "ldGov",
 "q-med",
 "q-med-ldoc",
+"q-med-local-move",
 "q-med-quota",
 "r-local-doctor"
 ],
@@ -3302,6 +3441,19 @@
 ],
 "dated": "2025-06-01",
 "cycle": "m"
+},
+{
+"id": "aee731883f",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=105756&lev=0&m=020402",
+"host": "moe.go.kr",
+"name": "2027학년도 대학수학능력시험 시행기본계획 발표, 교육부 보도자료",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-csat-apply"
+],
+"dated": "2026-03-31",
+"cycle": "w"
 },
 {
 "id": "4c0167c234",
@@ -3892,6 +4044,9 @@
 "cat": "언론",
 "used": [
 "q-med-ldoc",
+"q-med-ldoc-city",
+"q-med-ldoc-zone",
+"q-med-local-move",
 "r-local-doctor"
 ],
 "dated": "2026-09-03",
@@ -4090,7 +4245,7 @@
 "id": "a804194446",
 "url": "https://www.hankyung.com/article/2026081753451",
 "host": "hankyung.com",
-"name": "한국경제: 과학고 22곳 1,858명",
+"name": "한국경제(과학고 22곳 1,858명)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4175,7 +4330,7 @@
 "id": "8dc384c2fd",
 "url": "https://www.heraldk.com/article/2026052817450068440",
 "host": "heraldk.com",
-"name": "헤럴드경제: 2027학년도 영재학교 일정",
+"name": "헤럴드경제, 2027학년도 영재학교 일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4798,6 +4953,19 @@
 "r-refund"
 ],
 "dated": "2025-08-12",
+"cycle": "m"
+},
+{
+"id": "d88ce60668",
+"url": "https://mobile.newsis.com/view/NISX20260227_0003529260",
+"host": "mobile.newsis.com",
+"name": "뉴시스(지역의사법 시행령 재입법예고안)",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-med-ldoc-city"
+],
+"dated": "2026-02-27",
 "cycle": "m"
 },
 {
@@ -5458,7 +5626,7 @@
 "id": "ebff52a5ad",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
 "host": "veritas-a.com",
-"name": "베리타스알파: 고입 캘린더(2026-10-05)",
+"name": "베리타스알파 '고입캘린더 (26/10/09~)'",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -6125,7 +6293,7 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사 신입생 선발 모집 요강",
+"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
@@ -6187,6 +6355,7 @@
 "csat27g",
 "dy",
 "kice-guide27",
+"q-csat-apply",
 "q-past"
 ],
 "dated": "2026-08",
@@ -6318,6 +6487,7 @@
 "used": [
 "q-g2-winter",
 "q-med",
+"q-med-local-move",
 "r-med-seoul"
 ],
 "dated": "2025-08-28",
@@ -6406,6 +6576,8 @@
 "q-g2-winter",
 "q-med",
 "q-med-ldoc",
+"q-med-ldoc-city",
+"q-med-ldoc-zone",
 "q-med-quota",
 "q-univ-rural",
 "r-med-seoul"

@@ -1,7 +1,7 @@
 {
  "note": "자동으로 만든 공식 공고 읽기 대상(tools/build_targets.py, ipsi-site). 페이지를 게시할 때마다 다시 만든다. 손으로 적은 watch/targets.json이 같은 id보다 우선.",
- "made": "2026-10-25",
- "ver": "v28.56",
+ "made": "2026-10-26",
+ "ver": "v28.60",
  "horizonDays": 120,
  "targets": [
   {
@@ -11,7 +11,7 @@
    "pages": [
     {
      "kind": "post",
-     "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000022/board/BO00000124/ctgynone/view0010v.do?board_seq=872"
+     "url": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4035&file_seq=1&alias_name=20260919045136613_1"
     },
     {
      "kind": "board",
@@ -33,7 +33,12 @@
     "원서",
     "지원"
    ],
-   "expect": [],
+   "expect": [
+    [
+     "2026-11-04",
+     "2026-11-11"
+    ]
+   ],
    "auto": true
   },
   {
@@ -823,10 +828,14 @@
    ],
    "near": [
     "면접",
-    "발표",
-    "선발"
+    "발표"
    ],
-   "expect": [],
+   "expect": [
+    [
+     "2026-12-25",
+     "2026-12-25"
+    ]
+   ],
    "auto": true
   },
   {
