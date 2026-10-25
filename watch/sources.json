@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.51)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-10-24",
-"ver": "v28.51",
-"count": 495,
+"note": "페이지(공개판 v28.53)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-10-25",
+"ver": "v28.53",
+"count": 498,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -187,7 +187,8 @@
 "kind": "공식",
 "cat": "교육청",
 "used": [
-"q-hs-alimi"
+"q-hs-alimi",
+"q-sch-test-ratio"
 ],
 "dated": "2026-10-21",
 "cycle": "w"
@@ -222,6 +223,7 @@
 "q-hs-choose",
 "q-naesin",
 "q-sch-joint",
+"q-sch-test-ratio",
 "q-univ-last-year"
 ],
 "dated": "2026-03-01",
@@ -489,6 +491,7 @@
 "n73",
 "n74",
 "penhs27",
+"q-hs-assign",
 "q-hs-fail",
 "q-hs-local-list"
 ],
@@ -503,6 +506,7 @@
 "kind": "공식",
 "cat": "교육청",
 "used": [
+"q-hs-assign",
 "q-hs-fail"
 ],
 "dated": "2026-10-20",
@@ -538,6 +542,19 @@
 "q-hs-local-list"
 ],
 "dated": "2026-10-22",
+"cycle": "w"
+},
+{
+"id": "ed1b78c831",
+"url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12735&cntntsId=1848",
+"host": "home.pen.go.kr",
+"name": "후기고(일반고) 공통사항, 부산광역시교육청 고입포털",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-assign"
+],
+"dated": "2026-10-20",
 "cycle": "w"
 },
 {
@@ -994,7 +1011,8 @@
 "used": [
 "q-dir-free",
 "q-hs-attend",
-"q-sch-grade"
+"q-sch-grade",
+"q-sch-test-ratio"
 ],
 "dated": "",
 "cycle": "w"
@@ -2157,6 +2175,19 @@
 "cycle": "w"
 },
 {
+"id": "83c1b1cad6",
+"url": "https://oku.korea.ac.kr/attach/202512/1766737808730_0.pdf",
+"host": "oku.korea.ac.kr",
+"name": "고려대 2026학년도 정시모집요강(서울)",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-univ-rural"
+],
+"dated": "2025-12-24",
+"cycle": "w"
+},
+{
 "id": "5bf438a306",
 "url": "https://oku.korea.ac.kr/attach/202607/1783652032558_0.pdf",
 "host": "oku.korea.ac.kr",
@@ -2166,6 +2197,7 @@
 "used": [
 "ku27",
 "q-univ-nsu",
+"q-univ-rural",
 "q-yk"
 ],
 "dated": "2026-06-25",
@@ -2309,6 +2341,7 @@
 "used": [
 "q-susi",
 "q-univ-nsu",
+"q-univ-rural",
 "q-yk",
 "ys28"
 ],
@@ -2950,6 +2983,19 @@
 "q-retake"
 ],
 "dated": "2026-08-25",
+"cycle": "w"
+},
+{
+"id": "d585cfb80b",
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285864",
+"host": "eiec.kdi.re.kr",
+"name": "대교협 「2029학년도 대학입학전형기본사항」 발표(KDI 경제정보센터 게재본)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-univ-plan-when"
+],
+"dated": "2026-08-28",
 "cycle": "w"
 },
 {
@@ -4129,7 +4175,7 @@
 "id": "8dc384c2fd",
 "url": "https://www.heraldk.com/article/2026052817450068440",
 "host": "heraldk.com",
-"name": "헤럴드경제, 2027학년도 영재학교 일정",
+"name": "헤럴드경제: 2027학년도 영재학교 일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4608,7 +4654,8 @@
 "cat": "언론",
 "used": [
 "q-snu",
-"q-univ-nsu"
+"q-univ-nsu",
+"q-univ-rural"
 ],
 "dated": "2025-10-22",
 "cycle": "m"
@@ -6077,7 +6124,7 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
+"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사 신입생 선발 모집 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
@@ -6170,6 +6217,7 @@
 "used": [
 "q-reform",
 "q-univ-nsu",
+"q-univ-plan-when",
 "qdev102101",
 "qdev102102",
 "qdev102103",
@@ -6253,7 +6301,8 @@
 "q-g3-after",
 "q-gana",
 "q-mock",
-"q-susi-reg"
+"q-susi-reg",
+"q-univ-plan-when"
 ],
 "dated": "2025-08-28",
 "cycle": "w"
@@ -6335,7 +6384,9 @@
 "q-g2-winter",
 "q-ipgyeol-read",
 "q-susi",
-"q-univ-last-year"
+"q-univ-last-year",
+"q-univ-plan-when",
+"q-univ-rural"
 ],
 "dated": "2026-04-30",
 "cycle": "w"
@@ -6355,6 +6406,7 @@
 "q-med",
 "q-med-ldoc",
 "q-med-quota",
+"q-univ-rural",
 "r-med-seoul"
 ],
 "dated": "2026-04-30",
