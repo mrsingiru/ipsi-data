@@ -1,7 +1,7 @@
 {
- "at": "2026-10-25T12:18:57+09:00",
+ "at": "2026-10-25T13:41:21+09:00",
  "targets": 54,
- "withDates": 40,
+ "withDates": 39,
  "items": [
   {
    "id": "n93",
@@ -166,7 +166,7 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
    "opened": 2
@@ -174,7 +174,7 @@
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
    "opened": 2
@@ -214,10 +214,10 @@
   {
    "id": "n13",
    "org": "인천하늘고",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 1
+   "opened": 2
   },
   {
    "id": "n87",
@@ -374,8 +374,8 @@
   {
    "id": "n58",
    "org": "전북대 영재원",
-   "status": "dates",
-   "lines": 2,
+   "status": "robots",
+   "lines": 0,
    "files": 0,
    "opened": 1
   },

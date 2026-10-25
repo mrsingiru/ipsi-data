@@ -2,49 +2,17 @@
  "id": "n58",
  "org": "전북대 영재원",
  "what": "앞으로 120일 안 일정 3단계",
- "checkedAt": "2026-10-25T12:18:04+09:00",
+ "checkedAt": "2026-10-25T13:39:50+09:00",
  "opened": [
   {
    "url": "https://www.jbnu.ac.kr/web/Board/193947/detailView.do?menu=3070",
-   "status": "ok"
+   "status": "robots"
   }
  ],
  "notices": [],
  "ged": [],
- "titles": [
-  {
-   "url": "https://www.jbnu.ac.kr/web/Board/193947/detailView.do?menu=3070",
-   "title": "과학영재교육원, 2026학년도 초·중등 심화과정 신입생 모집"
-  }
- ],
+ "titles": [],
  "files": [],
- "lines": [
-  {
-   "text": "원서 접수는 오는 10월 27일부터 11월 5일까지 과학영재교육원 선발사이트(http://select.gifted.ac.kr)에서 진행된다.",
-   "dates": [
-    "2025-10-27",
-    "2025-11-05"
-   ],
-   "words": [
-    "선발",
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.jbnu.ac.kr/web/Board/193947/detailView.do?menu=3070"
-  },
-  {
-   "text": "전형은 11월 15일 창의적문제해결능력검사로 진행되는 1차 전형에서 2배수를 선발한 뒤, 11월 29일 심층면접을 거쳐 최종 합격자를 가린다.",
-   "dates": [
-    "2025-11-15",
-    "2025-11-29"
-   ],
-   "words": [
-    "검사",
-    "면접",
-    "선발"
-   ],
-   "src": "https://www.jbnu.ac.kr/web/Board/193947/detailView.do?menu=3070"
-  }
- ],
- "status": "dates"
+ "lines": [],
+ "status": "robots"
 }
