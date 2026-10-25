@@ -1,7 +1,7 @@
 {
-"note": "페이지(공개판 v28.54)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.56)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-10-25",
-"ver": "v28.54",
+"ver": "v28.56",
 "count": 498,
 "sources": [
 {
@@ -3626,7 +3626,7 @@
 "id": "33a0f1e786",
 "url": "https://biz.sbs.co.kr/amp/article/20000228825",
 "host": "biz.sbs.co.kr",
-"name": "SBS Biz(교육부 발표: 6월 모의평가 유지, 하반기 모의평가 8월)",
+"name": "SBS Biz: 2027년부터 하반기 수능 모의평가는 8월(교육부 발표)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -6022,6 +6022,7 @@
 "kind": "공식",
 "cat": "영재교육",
 "used": [
+"pnu-gifted",
 "q-eo-quit",
 "q-eo-recommend",
 "un"
@@ -6124,7 +6125,7 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
+"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사 신입생 선발 모집 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
