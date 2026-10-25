@@ -298,9 +298,10 @@ WD = '월화수목금토일'
 def cycle_window(text):
     """2026-10-25: 해가 안 적힌 날짜를 문서의 학년도로 맞춘다. 'N학년도' 선발·전형은 N-1년 3월 ~ N년 2월에 열린다.
     (전북대 '2026학년도 … 신입생 모집'(2025-10-23 글)의 '10월 27일'을 오늘에 가까운 2026년으로 읽던 오류 — 작년 날짜가 올해 공식 날짜처럼 보일 수 있었음)
-    문서에 가장 많이 나온 학년도(같으면 큰 것)를 쓰고, 없으면 None(예전처럼 오늘에 가까운 해)."""
+    뽑는 해를 가리키는 말('N학년도 … 신입생·대상자·입학·모집·선발·전형')에 붙은 학년도만 센다 — 영재원 요강은 지원 자격을
+    '2026학년도 초3 재학생'처럼 지금 학년도로 적어서 그냥 세면 틀림(경인교대 2027 요강). 가장 많이 나온 것(같으면 큰 것), 없으면 None(예전처럼 오늘에 가까운 해)."""
     cnt = {}
-    for m in re.finditer(r'(20\d\d)\s*학년도', text or ''):
+    for m in re.finditer(r'(20\d\d)\s*학년도[^\n]{0,30}?(신입생|대상자|입학|모집|선발|전형)', text or ''):
         n = int(m.group(1)); cnt[n] = cnt.get(n, 0) + 1
     if not cnt:
         return None
@@ -311,8 +312,8 @@ def cycle_window(text):
 
 def pick_year(mo, d, wd, today, after=None, window=None):
     """No year written. 1) an earlier full date on the same line sets the year ('2026. 12. 28. ~ 1. 3.' → next year);
-    2) the document's 학년도 window (cycle_window) — with the weekday if it fits one day there; 3) the weekday in brackets
-    decides between years within 270 days of today; 4) else the year nearest to today."""
+    2) the weekday in brackets, if exactly one candidate (within 270 days of today or inside the 학년도 window) has it;
+    3) the document's 학년도 window (cycle_window); 4) else the year nearest to today."""
     if after:
         try:
             c = datetime.date(after.year, mo, d)
@@ -328,18 +329,14 @@ def pick_year(mo, d, wd, today, after=None, window=None):
             cands.append(datetime.date(y, mo, d))
         except ValueError:
             pass
-    if window:
-        inw = [c for c in cands if window[0] <= c <= window[1]]
-        if wd:
-            iw = [c for c in inw if WD[c.weekday()] == wd]
-            if len(iw) == 1:
-                return iw[0].year
-        if len(inw) == 1:
-            return inw[0].year
-    if wd:
-        ok = [c for c in cands if WD[c.weekday()] == wd and abs((c - today).days) <= 270]
+    if wd:   # 요일이 적혀 있으면 요일이 가장 강한 근거(학년도보다 먼저) — 학년도 창 안이거나 오늘에서 270일 안
+        ok = [c for c in cands if WD[c.weekday()] == wd and (abs((c - today).days) <= 270 or (window and window[0] <= c <= window[1]))]
         if len(ok) == 1:
             return ok[0].year
+    if window:
+        inw = [c for c in cands if window[0] <= c <= window[1]]
+        if len(inw) == 1:
+            return inw[0].year
     if not cands:
         return today.year
     return min(cands, key=lambda c: abs((c - today).days)).year
