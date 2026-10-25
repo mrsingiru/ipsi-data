@@ -2,7 +2,7 @@
  "id": "n48",
  "org": "민족사관고",
  "what": "원서 접수 — 강원교육청 2027 고입 기본계획(HWP 첨부, 다른 기관의 공식 글 · 학교 누리집은 robots로 막힘)",
- "checkedAt": "2026-10-25T11:44:59+09:00",
+ "checkedAt": "2026-10-25T11:59:10+09:00",
  "opened": [
   {
    "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513",
@@ -27,18 +27,6 @@
    "sha1": "b74f96640178"
   }
  ],
- "lines": [
-  {
-   "text": "1) 접수시기 : 2027. 2. 10.(수)∼ 2. 12.(금)까지(그 이후에는 3월에 전학 처리)",
-   "dates": [
-    "2027-02-10",
-    "2027-02-12"
-   ],
-   "words": [
-    "접수"
-   ],
-   "src": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTE4NTY5&type=bbs"
-  }
- ],
- "status": "dates"
+ "lines": [],
+ "status": "found-no-dates"
 }
