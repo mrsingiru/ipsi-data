@@ -220,6 +220,8 @@ def text_hwp(data):
     ole = olefile.OleFileIO(io.BytesIO(data))
     header = ole.openstream('FileHeader').read()
     compressed = bool(header[36] & 1)
+    if header[36] & 4:   # 2026-10-25: 배포용 문서 — 본문(ViewText)이 암호화돼 BodyText가 없음. 빈 글로 넘기지 않고 까닭을 남김(사람이 열어 보거나 PDF 첨부를 찾음)
+        raise ValueError('배포용 HWP(본문 암호화)라 자동으로 못 읽음')
     out = []
     secs = sorted([s for s in ole.listdir() if s[0] == 'BodyText'], key=lambda s: int(re.sub(r'\D', '', s[1]) or 0))
     for s in secs:
@@ -626,6 +628,8 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
         else:
             st2, data, f2, ctype = F.get(u, binary=True, referer=final)   # 2026-10-24: 일부 교육청 첨부는 글 주소(Referer)가 있어야 열림
         rec = {'url': u if not u.startswith('post:') else u[5:].partition('?')[0] + '?' + 'file=' + urllib.parse.quote(t[:60]), 'name': t[:80], 'status': st2}
+        if st2 == 'error' and isinstance(data, str):   # 2026-10-25: 내려받기 오류의 까닭을 남김(경기 미래과학교육원 첨부 3개가 '오류'만 남아 원인을 몰랐던 일)
+            rec['error'] = data[:160]
         if st2 == 'ok':
             try:
                 kind, text = file_text(data, t, ctype)
