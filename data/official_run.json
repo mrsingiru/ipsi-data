@@ -1,7 +1,7 @@
 {
- "at": "2026-10-25T09:55:22+09:00",
- "targets": 48,
- "withDates": 36,
+ "at": "2026-10-25T11:38:00+09:00",
+ "targets": 54,
+ "withDates": 40,
  "items": [
   {
    "id": "n93",
@@ -166,7 +166,7 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
    "files": 0,
    "opened": 2
@@ -174,7 +174,7 @@
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
    "files": 0,
    "opened": 2
@@ -194,6 +194,54 @@
    "lines": 12,
    "files": 2,
    "opened": 3
+  },
+  {
+   "id": "eo-rec",
+   "org": "부산교육청 영재원",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 4
+  },
+  {
+   "id": "eo-result",
+   "org": "부산교육청 영재원",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 4
+  },
+  {
+   "id": "n13",
+   "org": "인천하늘고",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n87",
+   "org": "경북과학고",
+   "status": "dates",
+   "lines": 12,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n88",
+   "org": "경산과학고",
+   "status": "dates",
+   "lines": 12,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n89",
+   "org": "경북 고입",
+   "status": "dates",
+   "lines": 17,
+   "files": 0,
+   "opened": 1
   },
   {
    "id": "n03",
@@ -326,8 +374,8 @@
   {
    "id": "n58",
    "org": "전북대 영재원",
-   "status": "robots",
-   "lines": 0,
+   "status": "dates",
+   "lines": 2,
    "files": 0,
    "opened": 1
   },

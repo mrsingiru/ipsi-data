@@ -1,0 +1,206 @@
+{
+ "id": "n89",
+ "org": "경북 고입",
+ "what": "후기 일반고 원서·합격 발표·배정 — 경북교육청 고입전형포털 일정표",
+ "checkedAt": "2026-10-25T11:30:12+09:00",
+ "opened": [
+  {
+   "url": "https://hischoolgbe.kr/online/board/hsAdmission02",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://hischoolgbe.kr/online/board/hsAdmission02",
+   "title": "경상북도교육청 온라인 고입전형포털"
+  }
+ ],
+ "files": [],
+ "lines": [
+  {
+   "text": "원서 등록 | 10. 19.(월)∼10. 22.(목)",
+   "dates": [
+    "2026-10-19",
+    "2026-10-22"
+   ],
+   "words": [
+    "원서"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "합격자 발표 | 10. 27.(화)",
+   "dates": [
+    "2026-10-27"
+   ],
+   "words": [
+    "합격",
+    "발표"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "합격자 발표 | 11. 12.(목)",
+   "dates": [
+    "2026-11-12"
+   ],
+   "words": [
+    "합격",
+    "발표"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "합격자 발표 | 11. 4.(수)",
+   "dates": [
+    "2026-11-04"
+   ],
+   "words": [
+    "합격",
+    "발표"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "합격자 발표 | 11. 17.(화)",
+   "dates": [
+    "2026-11-17"
+   ],
+   "words": [
+    "합격",
+    "발표"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "배정 발표 | ’27. 1. 12.(화)",
+   "dates": [
+    "2027-01-12"
+   ],
+   "words": [
+    "발표",
+    "배정"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "합격자 등록 | 11. 4.(수)",
+   "dates": [
+    "2026-11-04"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "합격자 등록 | ~11. 5.(목)",
+   "dates": [
+    "2026-11-05"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "추가합격자 | 11. 6.(금)",
+   "dates": [
+    "2026-11-06"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "※ 입학 전 배정 | ’27. 2. 10.(수)",
+   "dates": [
+    "2027-02-10"
+   ],
+   "words": [
+    "배정"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "■ 배정 : | ’26. 2. 19.(금)",
+   "dates": [
+    "2027-02-19"
+   ],
+   "words": [
+    "배정"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "원서접수 | ’27. 1. 6.(수)∼1. 7.(목)",
+   "dates": [
+    "2027-01-06",
+    "2027-01-07"
+   ],
+   "words": [
+    "원서"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "원서접수 | ’27. 1. 14.(목)∼1. 15.(금)",
+   "dates": [
+    "2027-01-14",
+    "2027-01-15"
+   ],
+   "words": [
+    "원서"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "합격자 발표 | ’27. 1. 12.(화)",
+   "dates": [
+    "2027-01-12"
+   ],
+   "words": [
+    "합격",
+    "발표"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "합격자 발표 | ’27. 1. 21.(목)",
+   "dates": [
+    "2027-01-21"
+   ],
+   "words": [
+    "합격",
+    "발표"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "합격자 등록 | ’27. 1. 12.(화)∼1. 13.(수)",
+   "dates": [
+    "2027-01-12",
+    "2027-01-13"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  },
+  {
+   "text": "합격자 등록 | ’27. 1. 21.(목)∼1. 22.(금)",
+   "dates": [
+    "2027-01-21",
+    "2027-01-22"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://hischoolgbe.kr/online/board/hsAdmission02"
+  }
+ ],
+ "status": "dates"
+}

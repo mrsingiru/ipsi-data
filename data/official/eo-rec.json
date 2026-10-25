@@ -1,0 +1,56 @@
+{
+ "id": "eo-rec",
+ "org": "부산교육청 영재원",
+ "what": "교육청 영재원 교사 추천·결과(2027) — 부산교육청 영재교육 공지 게시판",
+ "checkedAt": "2026-10-25T11:29:48+09:00",
+ "opened": [
+  {
+   "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttList.do?mi=31184&bbsId=2555",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttInfo.do?mi=31184&bbsId=2555&nttSn=1179839",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttInfo.do?mi=31184&bbsId=2555&nttSn=1179838",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttInfo.do?mi=31184&bbsId=2555&nttSn=1179617",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 영재교육대상자 선발을 위한 학부모 설명회 교재",
+   "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttInfo.do?mi=31184&bbsId=2555&nttSn=1179839"
+  },
+  {
+   "title": "2027학년도 영재교육대상자 선발을 위한 학교담당자 직무연수 교재",
+   "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttInfo.do?mi=31184&bbsId=2555&nttSn=1179838"
+  },
+  {
+   "title": "2027학년도 부산광역시교육청 영재교육대상자 선발 모집 요강 및 관련 자료",
+   "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttInfo.do?mi=31184&bbsId=2555&nttSn=1179617"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttInfo.do?mi=31184&bbsId=2555&nttSn=1179839",
+   "title": "공지사항 상세 < 영재교육 < 디지털미래교육과 < 부산광역시교육청 디지털미래교육과"
+  },
+  {
+   "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttInfo.do?mi=31184&bbsId=2555&nttSn=1179838",
+   "title": "공지사항 상세 < 영재교육 < 디지털미래교육과 < 부산광역시교육청 디지털미래교육과"
+  },
+  {
+   "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttInfo.do?mi=31184&bbsId=2555&nttSn=1179617",
+   "title": "공지사항 상세 < 영재교육 < 디지털미래교육과 < 부산광역시교육청 디지털미래교육과"
+  }
+ ],
+ "files": [],
+ "lines": [],
+ "status": "found-no-dates"
+}
