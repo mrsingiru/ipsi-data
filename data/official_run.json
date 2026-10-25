@@ -1,5 +1,5 @@
 {
- "at": "2026-10-26T06:17:51+09:00",
+ "at": "2026-10-26T08:22:56+09:00",
  "targets": 54,
  "withDates": 40,
  "items": [
@@ -286,9 +286,9 @@
   {
    "id": "n29",
    "org": "대전동신과학고",
-   "status": "robots",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
+   "files": 3,
    "opened": 1
   },
   {
