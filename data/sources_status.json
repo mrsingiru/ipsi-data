@@ -1,30 +1,3011 @@
 {
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-10-26T05:29+09:00",
 "registry": {
-"ver": "v28.16",
-"generated": "2026-10-21",
-"count": 431
+"ver": "v28.56",
+"generated": "2026-10-25",
+"count": 498
 },
 "run": {
-"checked": 281,
-"ok": 246,
-"robots": 28,
-"failed": 5,
+"checked": 65,
+"ok": 64,
+"robots": 0,
+"failed": 1,
 "changed": 0,
-"skipped": 150,
-"limit": 0,
-"login": 2
+"skipped": 433,
+"limit": 0
 },
 "summary": {
 "broken": 0,
 "changedOfficial": 0,
 "moved": 0,
 "robots": 28,
-"neverOk": 35,
 "login": 2,
-"skipTerms": 150
+"skipTerms": 156,
+"neverOk": 36
 },
 "items": {
+"1134a57ee6": {
+"url": "https://www.schoolinfo.go.kr/si/pi/pnsipi_a01_l0.do",
+"kind": "공식",
+"cat": "공공 데이터·API",
+"used": [
+"q-hs-alimi",
+"q-hs-choose"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "5e662fd3c5d95a86",
+"title": "2026년-지침기준 보기-공시항목 소개-학교알리미란-학교알리미",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"d818e87254": {
+"url": "https://bdja-h.goesn.kr/bdja-h/cm/cntnts/cntntsView.do?mi=27552&cntntsId=4832",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n20"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "1633eeb77f090616",
+"title": "분당중앙고등학교",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"4375639158": {
+"url": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n94"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "de2d684f99bd29aa",
+"title": "창원영재교육원 영재선발-전형방법",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"4fe046c778": {
+"url": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8059&cntntsId=1594",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n18"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "0faeb48fdd245cb2",
+"title": "2027 원서접수 및 전형일정 < 2027년 입학전형요항 | 경기북과학고등학교",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"d515761e81": {
+"url": "https://www.gne.go.kr/www/information/schoolopen/schoolopen01.jsp",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-alimi",
+"q-sch-test-ratio"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "e1f79856562b9001",
+"title": "경남교육청 : HOME > 정보공개 > 유치원/학교정보공시 > 정보공시제도안내",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"434f81f202": {
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/02/410e7664-15c3-434c-82a0-b6a4ee78eec1.pdf",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-choose",
+"q-naesin",
+"q-sch-joint",
+"q-sch-test-ratio",
+"q-univ-last-year"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "6cc26514e6b76a6b",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"03bbd54b2e": {
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/03/ae54e5b6-3f5b-482f-a553-88d3d8cc74e9.pdf",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-autonomous"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "c5eebed0a2d844ba",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"f80d77991d": {
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/05/1d4e385d-9b72-4d67-84b8-50ff8432fca7.pdf",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hw-edubenefit"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "a7a5c40d32584c02",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"30c3f1f59a": {
+"url": "https://www.goebc.kr/bch-h/cm/cntnts/cntntsView.do?mi=13794&cntntsId=2618",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n19"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "503f40de8aaafdd7",
+"title": "원서접수 및 전형 일정 < 입학전형요항 | 부천고등학교",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"09d6c51ef3": {
+"url": "https://www.goedy.kr/goedy/na/ntt/selectNttList.do?mi=10224&bbsId=10174",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n16"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "ed2c92a140282d3f",
+"title": "공지사항 < 알림마당 | 경기도동두천양주교육지원청",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"ba26db0da0": {
+"url": "https://hischoolgbe.kr/online/board/hsAdmission02",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n87",
+"n88",
+"n90"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "cb4ff25827550888",
+"title": "경상북도교육청 온라인 고입전형포털",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"82b8fab82c": {
+"url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12455&cntntsId=1859",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-assign",
+"q-hs-fail"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "49285993c460ad5e",
+"title": "부산광역시교육청 고입포털 - 고교입학 - 후기 일반고 배정안내",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"997cb8ad04": {
+"url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-fl-select",
+"q-hs-local-list"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "bfdfe0e24389acd8",
+"title": "부산광역시교육청 고입포털 - 고교입학 - 고교입학 안내 - 후기고(특목고, 자사고,학교장전형고)",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"ed1b78c831": {
+"url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12735&cntntsId=1848",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-assign"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "ea328a38bb0b95a6",
+"title": "부산광역시교육청 고입포털 - 고교입학 - 고교입학 안내 - 후기고(일반고)",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"3331afde38": {
+"url": "https://home.pen.go.kr/hscredit/cm/cntnts/cntntsView.do?mi=17431&cntntsId=3738",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-choose",
+"q-sch-joint"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "f066a363f9747aa1",
+"title": "고교학점제 지원센터 - 공동교육과정 - 공동교육과정 안내 - 부산온라인학교",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"9597a8e753": {
+"url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n10",
+"n11"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "46b1788a500a8880",
+"title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"351e0b5b99": {
+"url": "https://www.ice.go.kr/upload/ice/na/bbs_1671/2026/02/4ff84e71a1919e5b158b2fb96191e8bd.pdf",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-courses",
+"q-hs-choose",
+"q-naesin",
+"q-sch-joint",
+"q-sch-reenter"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "c122b02eb6d23097",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"40194407b2": {
+"url": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728477",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n56"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "e6d08a685748b459",
+"title": "",
+"final": "",
+"ctype": "application/octet-stream",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"af1d3b09ae": {
+"url": "https://www.jbe.go.kr/jinro/index.jbe?menuCd=DOM_000001104000000000",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n57"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "3c9f144b70120823",
+"title": "전북특별자치도교육청 진로진학센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"f3affffaed": {
+"url": "https://www.pen.go.kr/main/cm/cntnts/cntntsView.do?mi=31768&cntntsId=549",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hw-overcharge"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "5d6bf16cfb565d17",
+"title": "불법사교육신고안내 \n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t불법사교",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"5e1916b8fa": {
+"url": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n55"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "44ed96a4daa22b76",
+"title": "",
+"final": "",
+"ctype": "application/octet-stream",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"10f88ad88c": {
+"url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000022/board/BO00000124/ctgynone/view0010v.do?board_seq=987",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n00"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "ea7b1bed9b202f32",
+"title": "서울영재교육",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"9a46d8115c": {
+"url": "http://gbit.daegu.ac.kr/board/view/notice1/451",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"n93"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "9eb4935ea6a86370",
+"title": "정보 영재교육원 과정 소개 > 공지사항 - 2027학년도 AI 영재교육원 대상자 선발 안내",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"83c1b1cad6": {
+"url": "https://oku.korea.ac.kr/attach/202512/1766737808730_0.pdf",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-univ-rural"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "3ba87964c474f5b9",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"77aa250ee2": {
+"url": "https://oku.korea.ac.kr/attach/202609/1788832925216_0.pdf",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-courses",
+"q-sch-joint",
+"q-sch-reenter",
+"q-univ-blind"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "e9f810ee20b7f54a",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"37875138d6": {
+"url": "https://eiec.kdi.re.kr/policy//materialView.do?num=262490&device=mob&type=J&depth1=C0000&code=C0200",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-suneung"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "c89916df7b390344",
+"title": "2028학년도 대학수학능력시험 시험 및 점수 체제 안내 | 경제정책자료 |KDI 경제교육·정보센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"789ab5e001": {
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=248741",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-ipgyeol-read"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "c89916df7b390344",
+"title": "차세대 ‘어디가’ 개통, 대입정보 검색부터 상담까지 한 번에 이용한다 | 경제정책자료 |KDI 경제교육·정보센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"d585cfb80b": {
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285864",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-univ-plan-when"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "c89916df7b390344",
+"title": "「2029학년도 대학입학전형기본사항」발표 | 경제정책자료 |KDI 경제교육·정보센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"75c13dcd2c": {
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285888",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-med-ldoc"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "c89916df7b390344",
+"title": "둘 이상 진료권에 걸친 학교군의 지역의사선발전형 거주요건 기준 보완 | 경제정책자료 |KDI 경제교육·정보센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"7b40392364": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148928116",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-univ-edu-quota"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "a9fcfa3691813c21",
+"title": "내년 교대 입학정원 12% 감축…초등교원 양성규모 적정화 추진 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"9ffc8e1102": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148930602",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hw-overcharge"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "d36268aa2d993378",
+"title": "학원 운영·광고 어떤 경우에 불법인가요? - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"ebe1121770": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148936321",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hw-taxcredit"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "be5fbc832e412b23",
+"title": "자주 묻는 연말정산 ③ 초등생 학원비도 세액 공제? - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"575a1a8d5c": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148938778",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-suneung"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "230161ab83a7dc41",
+"title": "2028학년도 수능 '통합·융합형'으로…탐구 과목, 문항 수·시간 늘린다 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"b0b8525ba9": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148957544",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hw-taxcredit"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "edd1b9bac6129004",
+"title": "새해엔 초등 저학년 예체능 학원비 세액공제…청년미래적금도 신설 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"1cf3330efa": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148958661&call_from=rsslink",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-sch-neulbom"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "ca1ce85c74656d95",
+"title": "2026년 교육 분야, 이렇게 달라집니다! - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"4d3a2db1ba": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967122",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-univ-edu-quota"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "424339058a3e23b6",
+"title": "내년 교사 신규채용, 초등 2700~2900명…중등 4700~5100명 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"b69dc0cf65": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=156363507",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-univ-blind"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "ed2e688c9c592bd9",
+"title": "교육부, 대입제도 공정성 강화 방안 발표 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"9f152fe774": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=156576252",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hs-national-jasa"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "235e2ed7db07f125",
+"title": "공교육 경쟁력 제고방안 발표 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"343f2adcda": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=156610957",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hs-national-jasa"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "d5c75051f9dba4da",
+"title": "초중등교육법 시행령 일부개정령안 브리핑 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"f0b1d16a97": {
+"url": "https://moe.go.kr/boardCnts/view.do?boardID=295&boardSeq=79149&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020401&opType=N",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-dir-reading"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "5beedfedc552336a",
+"title": "[설명자료]´24학년도 이후에도 정규교육과정 내 비교과 영역의 주요 항목들은 여전히 대입에 반영됩니다.",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"3f9cdcf30c": {
+"url": "https://www.moe.go.kr/boardCnts/listRenew.do?boardID=72782&renew=72782&m=030215&s=moe",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-sch-neulbom"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "496bafadf65ad0fc",
+"title": "교육부 > 정책 > 초·중·고 교육 > 초등돌봄·교육",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"e7332e79d5": {
+"url": "https://www.moe.go.kr/boardCnts/view.do?boardID=294&boardSeq=79119&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-dir-reading"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "beb1533d8930e6a3",
+"title": "교육부, 대입제도 공정성 강화 방안 발표",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"4c0167c234": {
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&lev=0&statusYN=W&s=moe&m=020402&opType=N&boardSeq=105261",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-sch-neulbom"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "574a5c583bccbd6b",
+"title": "교육부 > 교육부 소식 > 보도·설명·반박 > 보도자료",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"34af13860e": {
+"url": "https://www.moe.go.kr/sub/infoRenewal.do?m=011520&page=011520&s=moe",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hw-overcharge"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "b5d7a8337890df29",
+"title": "교육부 > 국민참여·민원 > 신고·고충처리 > 불법사교육신고센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"5b62f7cc4e": {
+"url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?lsJoLnkSeq=1010072001&chrClsCd=010202&ancYnChk=0",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-hs-autonomous"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "2a8e65d5893f10fa",
+"title": "조문정보 | 국가법령정보센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"0b2413e71d": {
+"url": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?lsId=003956&chrClsCd=010202&lsRvsGubun=all",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-hw-taxcredit"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "a3417fabae156a18",
+"title": "국가법령정보센터|전체 제정·개정이유",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"9716f4be1b": {
+"url": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?lsId=005238&lsRvsGubun=all&chrClsCd=010102",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-hs-national-jasa"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "4f109dad80c78a98",
+"title": "국가법령정보센터|전체 제정·개정이유",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"c4a65eb914": {
+"url": "https://www.law.go.kr/lsLinkProc.do?lsClsCd=OL&lsNm=%EC%A7%80%EB%B0%A9%EB%8C%80%ED%95%99%EB%B0%8F%EC%A7%80%EC%97%AD%EA%B7%A0%ED%98%95%EC%9D%B8%EC%9E%AC%EC%9C%A1%EC%84%B1%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0%EC%8B%9C%ED%96%89%EB%A0%B9&joNo=001000000&mode=10",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"r-med-seoul"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "7fe18e2f6041bd89",
+"title": "조문정보 | 국가법령정보센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"bd9e110e68": {
+"url": "https://mediahub.seoul.go.kr/archives/2018638",
+"kind": "공식",
+"cat": "언론",
+"used": [
+"q-free"
+],
+"cycle": "w",
+"status": "skip-terms"
+},
+"f64291271c": {
+"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"OFFICIAL_LINKS",
+"eo",
+"ged",
+"n00",
+"n05",
+"n07",
+"n28",
+"n31",
+"n32",
+"n35",
+"n40",
+"n45"
+],
+"cycle": "w",
+"status": "skip-terms"
+},
+"62552fa459": {
+"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=15",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n16",
+"n17",
+"n27"
+],
+"cycle": "w",
+"status": "skip-terms"
+},
+"32fab3097e": {
+"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=18",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n23",
+"n24",
+"n25"
+],
+"cycle": "w",
+"status": "skip-terms"
+},
+"7890ad7f4a": {
+"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=3",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n05",
+"n07"
+],
+"cycle": "w",
+"status": "skip-terms"
+},
+"9c74588d2b": {
+"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=31",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n54",
+"n59",
+"n60"
+],
+"cycle": "w",
+"status": "skip-terms"
+},
+"91653952b9": {
+"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=32",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n61"
+],
+"cycle": "w",
+"status": "skip-terms"
+},
+"14c73a1a4c": {
+"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=33",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n61",
+"n65"
+],
+"cycle": "w",
+"status": "skip-terms"
+},
+"b8024ef8a8": {
+"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=4",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n06"
+],
+"cycle": "w",
+"status": "skip-terms"
+},
+"79161c316a": {
+"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=45",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n67",
+"n70"
+],
+"cycle": "w",
+"status": "skip-terms"
+},
+"c8c6d5787e": {
+"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=8",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n09",
+"n52"
+],
+"cycle": "w",
+"status": "skip-terms"
+},
+"ae31ade975": {
+"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=9",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n50"
+],
+"cycle": "w",
+"status": "skip-terms"
+},
+"bfa726d15e": {
+"url": "https://gifted.kongju.ac.kr/main/board/read.php?q=a0702b542656f8a4551b37f80f54c276036a36beeb6d7d50e00868f9c53a4992db3382c07c15089bc292e2fc5f8eebc736564ead3f1ed04d11e91296dabe9e40",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n44"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "8a5314cec81e1cc6",
+"title": "상세내용 | 공지사항  | 커뮤니티 | 국립공주대학교 과학영재교육원",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"35ff73ff10": {
+"url": "https://seigy.knu.ac.kr/student/44",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n79"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "7a9f7e9b3d40511b",
+"title": "[공고]2027학년도  경북대학교 과학영재교육원 초등심화과정(초 5학년 대상) 신입생 선발 모집 요강 > 학생선발 | 경북대학교과학영재교육원",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"b06d468a35": {
+"url": "https://kcue.or.kr/_upload/news/2026/07/31/application_8366fe4b41bdfd2721e0b5596d3a265d.pdf",
+"kind": "공식",
+"cat": "입시 공식 기관",
+"used": [
+"q-reform",
+"q-univ-nsu",
+"q-univ-plan-when",
+"qdev102101",
+"qdev102102",
+"qdev102103",
+"qdev102104",
+"qdev102105"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "dec9bf510359b2a7",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"c108dde79f": {
+"url": "https://www.kcue.or.kr/_upload/news/2025/08/28/application_e184daa942fe84363f0a4d34381665f3.pdf",
+"kind": "공식",
+"cat": "입시 공식 기관",
+"used": [
+"q-g2-winter",
+"q-med",
+"r-med-seoul"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "http-404",
+"failStreak": 1,
+"error": "http-404"
+},
+"cfb8598529": {
+"url": "https://www.kcue.or.kr/_upload/news/2026/08/13/application_aa3671da7ff1e6ece5ab36515949cce1.pdf",
+"kind": "공식",
+"cat": "입시 공식 기관",
+"used": [
+"q-univ-fair"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "0c9df741fca704f5",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"9fc2def620": {
+"url": "https://www.kcue.or.kr/_upload/news/2026/08/25/application_3d656b169c8465daa33716f5bfa548f1.pdf",
+"kind": "공식",
+"cat": "입시 공식 기관",
+"used": [
+"q-ipgyeol-read"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "0ec39095dc65ad37",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"fccbb18946": {
+"url": "https://admission.dg1s.hs.kr/",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n76"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "b2702b88e1c7399e",
+"title": ":::: 2027학년도 대구일과학고 신입생 전형 시스템",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"adbc457113": {
+"url": "https://www.hana.hs.kr/admission/freshmen.do",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n04"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "d5775467ac14de5a",
+"title": "하나고등학교",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"9663f84418": {
+"url": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=3b390d00f3f373000b57b66a45c8029d",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n46"
+],
+"cycle": "w",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "7eff0c5e033d2e51",
+"title": "시스템안내",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"4bcbda4b22": {
+"url": "https://home.pen.go.kr/talent/main.do",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"pen27ai"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "ab2b90cbf2b1441f",
+"title": "부산광역시교육청AI정보영재교육원",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"7a9e995c26": {
+"url": "https://clik.nanet.go.kr/clikr-collection/policyinfo/202/1010/2025/CLIKC1971683520105534_attach_2.pdf",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-hw-edubenefit"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "18ccfbd1cb91581c",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"049cd57aaf": {
+"url": "https://m.dailypharm.com/user/news/338076",
+"kind": "기사",
+"cat": "기타",
+"used": [
+"q-med",
+"r-local-doctor"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "562818702174ee8d",
+"title": "[데일리팜]지역의사제, 선발·지원·의무복무 세부 기준 확정",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"7c27ef12e7": {
+"url": "https://opinion.lawmaking.go.kr/nl4li/lsItptEmp/445030",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-med-ldoc",
+"r-local-doctor"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "a03445a8c7477453",
+"title": "국민참여입법센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"4ac3e0c75e": {
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=103512&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"csat28moe",
+"dy"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "f8556ef417908e6e",
+"title": "교육부 > 교육부 소식 > 보도·설명·반박 > 보도자료",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"f8711a1000": {
+"url": "https://www.ajunews.com/view/20260611100711061",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"ld488",
+"q-med"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"9627325238": {
+"url": "https://www.ajunews.com/view/20260804171754066",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"pen365",
+"q-free-help"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"33a0f1e786": {
+"url": "https://biz.sbs.co.kr/amp/article/20000228825",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"hs",
+"mock8",
+"q-g2-winter"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"737acf561c": {
+"url": "https://www.busan.com/view/busan/view.php?code=2025120118422049528",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-sch-assign"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"b8c73d30bd": {
+"url": "https://www.ccdn.co.kr/news/articleView.html?idxno=1095984",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n31",
+"n34"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"21bd92346c": {
+"url": "https://www.cctoday.co.kr/news/articleView.html?idxno=2205019",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n28"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"d634c09b7e": {
+"url": "https://www.cnbnews.com/news/articleView.html?idxno=1018976",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n27"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"6531678bcd": {
+"url": "https://www.daejonilbo.com/news/articleView.html?idxno=2186564",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n32"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"18a7d52e56": {
+"url": "https://www.daejonilbo.com/news/articleView.html?idxno=2245667",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n30"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"cc68bb9530": {
+"url": "https://dhnews.co.kr/news/view/1065573137926158",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n52"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"d2adc4ca27": {
+"url": "https://dhnews.co.kr/news/view/1065576574769915",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"ld610",
+"q-med",
+"q-med-ldoc",
+"q-med-quota"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"c2ea522069": {
+"url": "https://dhnews.co.kr/news/view/1065579562228453",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n65"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"81e1c4a3d3": {
+"url": "https://dhnews.co.kr/news/view/1065589466716815",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-courses",
+"snuCourse"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"b114f3148f": {
+"url": "https://dhnews.co.kr/news/view/179524153246093",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"bal1",
+"q-balance"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"c3a0820a1b": {
+"url": "https://www.dhnews.co.kr/news/view/1065575688380115",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n59"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"a9cf9e4e8f": {
+"url": "https://www.dhnews.co.kr/news/view/1065590185180368",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"bal2",
+"q-balance"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"fdce9d4d78": {
+"url": "https://www.etoday.co.kr/news/view/2496353",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"gsMed",
+"q-med",
+"q-med-gifted"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"bce23b0746": {
+"url": "https://www.fnnews.com/news/202312271101077771",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"csat28b",
+"q-suneung",
+"r-csat5"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"f4d2c07c92": {
+"url": "https://www.fnnews.com/news/202602221031237101",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-semi",
+"semi2"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"06aaadb022": {
+"url": "https://www.fnnews.com/news/202607240919545091",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-univ-fair"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"b850e8b5f5": {
+"url": "https://www.fnnews.com/news/202608170604519286",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n55"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"8ce9a8c49a": {
+"url": "https://www.fnnews.com/news/202609021811547699",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-med-ldoc",
+"r-local-doctor"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"14a14c659b": {
+"url": "https://gj.newdaily.co.kr/site/data/html/2026/03/24/2026032400379.html",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n51"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"50d17adac5": {
+"url": "https://www.gnnews.co.kr/news/articleView.html?idxno=625319",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n94"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"6909328172": {
+"url": "https://www.gnnews.co.kr/news/articleView.html?idxno=635408",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n97"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"f35ec2fa6a": {
+"url": "https://www.gnnews.co.kr/news/articleView.html?idxno=645486",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n97"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"3f46f0be54": {
+"url": "https://www.gnnews.co.kr/news/articleView.html?idxno=646365",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n95"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"064cb30b28": {
+"url": "https://www.gukjenews.com/news/articleView.html?idxno=3403560",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n86"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"24f72cd44c": {
+"url": "https://www.gukjenews.com/news/articleView.html?idxno=3683617",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"penBrief",
+"q-eo-prep"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"1a3803590f": {
+"url": "https://www.gwangjuin.com/news/articleView.html?idxno=259574",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n52"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"81b7746dc2": {
+"url": "https://hangyo.com/mobile/article.html?no=100805",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"keep",
+"q-hs-types",
+"r-fl-abolish"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"88da632a6d": {
+"url": "https://hangyo.com/mobile/article.html?no=104828",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-hs-autonomous"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"bc8cde6dbe": {
+"url": "https://hangyo.com/news/article.html?no=109590",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"necDelay",
+"q-reform"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"a6ec6db330": {
+"url": "https://www.hangyo.com/mobile/article.html?no=105345",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"dy",
+"dy28b"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"a25f961134": {
+"url": "https://www.hankyung.com/article/202603126272Y",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"cost2",
+"q-cost"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"f095bed36a": {
+"url": "https://www.hankyung.com/article/2026031263617",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"cost1",
+"q-cost"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"a804194446": {
+"url": "https://www.hankyung.com/article/2026081753451",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-hs-types",
+"r-20sci",
+"sh",
+"shQuota"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"88e25b4d4e": {
+"url": "https://www.heraldk.com/article/2026011604413107139",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-sch-violence"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"6d13b34a19": {
+"url": "https://www.heraldk.com/article/2026012719000012142",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"credit"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"31beb7089a": {
+"url": "https://www.heraldk.com/article/2026032600273939393",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"ldRule",
+"q-med",
+"q-med-quota"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"0f1d3d49d0": {
+"url": "https://www.heraldk.com/article/2026042919000056717",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"sky"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"8132bca6c2": {
+"url": "https://www.heraldk.com/article/2026050417463957935",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"gs",
+"gsQuota",
+"q-hs-types"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"8dc384c2fd": {
+"url": "https://www.heraldk.com/article/2026052817450068440",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"gs",
+"gs27"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"99a92dde0d": {
+"url": "https://www.heraldk.com/article/2026062919000082154",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"ans",
+"q-g3-after"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"fb6d06999c": {
+"url": "https://ihopenews.com/news/articleView.html?idxno=252293",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n51"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"fe72d47b72": {
+"url": "https://www.ihopenews.com/news/articleView.html?idxno=251029",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n63"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"9ed507b6f0": {
+"url": "https://www.imaeil.com/page/view/2026092909180364775",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n80"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"95dea75493": {
+"url": "https://www.incheontoday.com/news/articleView.html?idxno=317115",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n12"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"5e3e2c4ca7": {
+"url": "https://www.inews24.com/view/1983517",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"hp7",
+"hs",
+"q-mock"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"3a77fce861": {
+"url": "https://www.iusm.co.kr/news/articleView.html?idxno=1055332",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n81"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"bae21eed11": {
+"url": "https://www.iusm.co.kr/news/articleView.html?idxno=1057094",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n82",
+"n83"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"d72fece4ec": {
+"url": "https://www.iusm.co.kr/news/articleView.html?idxno=1061070",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n83"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"28521247e9": {
+"url": "https://www.jejusori.net/news/articleView.html?idxno=506706",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n69"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"9059266dad": {
+"url": "https://kbmaeil.com/article/20260210500792",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"medQ"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"22cbd7d082": {
+"url": "https://kbmaeil.com/article/20260928500415",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n93"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"cbe27808a6": {
+"url": "https://kbmaeil.com/article/20260929500069",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n80"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"e46764d1b7": {
+"url": "https://www.kbmaeil.com/article/20260101500290",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n89"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"e0eb9bff96": {
+"url": "https://www.kbmaeil.com/article/20260922500273",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n93"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"1e1f205fa0": {
+"url": "https://www.kgnews.co.kr/news/article.html?no=914666",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n27"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"c62c36f461": {
+"url": "https://www.khan.co.kr/article/202602070600001",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"medCourse",
+"q-courses"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"d1edae6e15": {
+"url": "https://www.koreatimenews.com/news/article.html?no=1259179",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n16"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"aa2fd2c2cd": {
+"url": "https://www.kukinews.com/article/view/kuk202603230217",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"hakpyeong3",
+"hp3",
+"hs",
+"q-mock"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"692fc569f7": {
+"url": "https://www.kyeonggi.com/article/20260507580009",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"hp5",
+"hs",
+"q-mock"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"f20830c67b": {
+"url": "https://www.kyobit.com/news/articleView.html?idxno=1565",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n84"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"4b6723d888": {
+"url": "https://www.kyobit.com/news/articleView.html?idxno=588",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n76",
+"n82"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"6c732a8789": {
+"url": "https://www.kyobit.com/news/articleView.html?idxno=6083",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n90"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"ee2fe684c7": {
+"url": "https://www.kyobit.com/news/articleView.html?idxno=6255",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n77"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"ffe6540234": {
+"url": "https://www.kyobit.com/news/articleView.html?idxno=633",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n87",
+"n88"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"c6661095ca": {
+"url": "https://www.kyobit.com/news/articleView.html?idxno=634",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n95",
+"n96"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"17b6978912": {
+"url": "https://www.kyobit.com/news/articleView.html?idxno=6487",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n91"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"ca5ae7e34e": {
+"url": "https://www.kyobit.com/news/articleView.html?idxno=6531",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n73",
+"n96"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"98d1321e18": {
+"url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4082748",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n75",
+"n79"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"241e67d902": {
+"url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4083734",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n76",
+"n87",
+"n88"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"35f3f7e796": {
+"url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4085975",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n88"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"6f8a6eadb9": {
+"url": "https://www.kyosu.net/news/articleView.html?idxno=143365",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n23"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"8b72cbd20a": {
+"url": "https://www.localnaeil.com/News/View/644445",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"gsPlan",
+"q-hs-prep"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"1bde410878": {
+"url": "https://www.localnaeil.com/News/View/651749",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-ipgyeol-read"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"74f5703144": {
+"url": "https://www.localnaeil.com/News/View/653573/1",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-snu",
+"q-univ-nsu",
+"q-univ-rural"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"e948cba139": {
+"url": "https://www.localnaeil.com/News/View/653770",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n15"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"ed4aa30f4d": {
+"url": "https://www.localnaeil.com/News/View/654075",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"dy",
+"dy27"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"ad03b68edc": {
+"url": "https://www.localnaeil.com/News/View/654760",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n75"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"10d6056149": {
+"url": "https://m.seoul.co.kr/news/2023/12/10/20231210500085",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"ftcAd",
+"q-eo-prep",
+"q-univ-prep"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"aa0e26f78d": {
+"url": "https://m.thesegye.com/news/view/1065566425791630",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n35"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"1b1f5b7ef1": {
+"url": "https://m.thesegye.com/news/view/1065573779737108",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"hakpyeong",
+"hp10",
+"hs",
+"q-mock"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"2d7b14bff3": {
+"url": "https://m.thesegye.com/news/view/1065583713953062",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n42"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"02e09bc790": {
+"url": "https://www.medigatenews.com/news/1572454916",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"kwonMed"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"ae54c56444": {
+"url": "https://mobile.newsis.com/view/NISX20250812_0003287777",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"gs",
+"medPenalty",
+"q-hs-types",
+"q-med-gifted",
+"r-refund"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"9a1530419a": {
+"url": "https://www.mt.co.kr/article/2026062409025273762",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"localRate",
+"q-med",
+"r-med-seoul"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"03a49d7688": {
+"url": "https://www.mt.co.kr/policy/2026/05/29/2026052910161527504",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"gs",
+"gsRate",
+"q-hs-types",
+"r-ksa-multi"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"417ccf5a68": {
+"url": "https://www.mt.co.kr/policy/2026/09/11/2026091121522046272",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-semi",
+"semi1"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"195a5d876e": {
+"url": "https://www.namdonews.com/news/articleView.html?idxno=923945",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n50"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"13dac20211": {
+"url": "https://news.mtn.co.kr/news-detail/2026092110295929013",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n50"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"9921e501bb": {
+"url": "https://www.newsis.com/view/NISX20231227_0002572627",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"csat28",
+"q-suneung"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"d544f12649": {
+"url": "https://www.newsis.com/view/NISX20240116_0002594432",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-hs-national-jasa"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"81b3f9c286": {
+"url": "https://www.newsis.com/view/NISX20240724_0002824489",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-dir-free"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"c73a8b91c1": {
+"url": "https://www.newsis.com/view/NISX20260112_0003473163",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n56"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"1109d1a018": {
+"url": "https://www.newsis.com/view/NISX20260331_0003570832",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"csat27p",
+"hs"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"1b2985ab0d": {
+"url": "https://www.newsis.com/view/NISX20260612_0003667413",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-univ-nsu"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"e85f578a93": {
+"url": "https://www.newsnjeju.com/news/articleView.html?idxno=301618",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n69"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"d8223c9ef8": {
+"url": "https://www.newspim.com/news/view/20260805000395",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"nec",
+"q-reform",
+"r-fl-abolish"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"fc032574f6": {
+"url": "https://nocutnews.co.kr/news/6563248",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n73",
+"n95",
+"q-kp",
+"sciKaist"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"79bb5f56cf": {
+"url": "https://www.pressian.com/pages/articles/2025102215075660014",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n58"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"7ab2356f17": {
+"url": "https://sanedu.com/?p=37214",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"hsType",
+"q-snu"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"1f761abd16": {
+"url": "https://www.segye.com/newsView/20260122517600",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-sch-violence"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"1d08ebd825": {
+"url": "https://www.segye.com/newsView/20260903512698",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-med-ldoc"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"f24beb6e49": {
+"url": "https://sgsg.hankyung.com/article/2024101180851",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"cost4",
+"q-cost"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"edb73007ec": {
+"url": "https://sgsg.hankyung.com/article/2025101004841",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"courses",
+"q-courses"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"7c81d3477f": {
+"url": "https://supple.kr/news/cmscopdkq001u13xbpwol3hsi",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"necNo",
+"q-reform"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"bd433fa452": {
+"url": "https://supple.kr/news/cmv9a8cd400i1lxjcjdsr5y7e",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-sch-violence"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"423f6281ca": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=540170",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-hs-prep",
+"sshVideo"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"b6a3bc7f36": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=555130",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-contest",
+"q-hs-fail",
+"q-hs-types",
+"r-contest",
+"r-ksa-sci",
+"r-prestudy",
+"seoulSh"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"a6ce9e5ec0": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=567022",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n64"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"2002eb7258": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=588702",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"fl"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"30d8ba4a34": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=590245",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"flRate"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"cb699b8e7c": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=593470",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"ksaOpen",
+"q-hs-prep"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"51f35b62b6": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=604064",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n03",
+"n10",
+"n11",
+"n12",
+"n21",
+"n30",
+"n33",
+"n37",
+"n42",
+"n47",
+"n48",
+"n51"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"10f7b9ac13": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=612371",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n29",
+"n36",
+"n41",
+"n46"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"353ee6160a": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=620067",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"gsOpen",
+"q-hs-prep",
+"q-univ-prep"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"5d2005a74c": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=622481",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n56",
+"n62",
+"n63",
+"n69"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"528b453a27": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=622599",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n57"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"7d0a012a26": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=624586",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n29"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"ec2f4779cb": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=624722",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n01"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"2fbbc365b2": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=624727",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n10"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"7770744511": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=624729",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n11"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"a338e4a81f": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=624939",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n02",
+"n41",
+"n46",
+"n76",
+"n82",
+"n87",
+"n88",
+"n95",
+"n96",
+"q-hs-when",
+"sci27",
+"sh"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"09ef86827d": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=625115",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n68"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"6556ffe389": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=625418",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n18",
+"n19",
+"n20",
+"sh"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"0c991f9c92": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=625419",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n55"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"9f71671634": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=626158",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n10",
+"n29",
+"n41",
+"n46"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"98e6824850": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=626283",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n62"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"9d40389a39": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=626492",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n04",
+"n13",
+"n22",
+"n90"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"e230fe82c7": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=628798",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n12"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"ebff52a5ad": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n21",
+"n30",
+"n33",
+"n43",
+"n48",
+"n57",
+"n64",
+"n90"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"fade35ab93": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=630758",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n64"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"9c5c2fddbc": {
+"url": "https://www.veritas-a.com/news/articleView.html?idxno=632093",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n90"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"9ad4b0b5ad": {
+"url": "https://view.asiae.co.kr/article/2026033015095586853",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n63"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"b6aaf91b72": {
+"url": "https://view.asiae.co.kr/article/2026061210295190080",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-eo-when",
+"q-uni-eo",
+"u27"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"e9d954eded": {
+"url": "https://view.asiae.co.kr/article/2026090217564289814",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"localDoc",
+"q-med-ldoc",
+"r-local-doctor",
+"r-med-seoul"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"1413d0cc8c": {
+"url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2336580",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"n98"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"5d8cc736bb": {
+"url": "https://weekly.khan.co.kr/article/202508180600041",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"cost3",
+"fl",
+"q-cost"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"ab65ecb8f9": {
+"url": "https://weekly.khan.co.kr/article/202606080600021/",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-eo-prep",
+"wp26"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"9c8176b2ce": {
+"url": "https://ged.kedi.re.kr",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"un"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"5e0683aed0": {
+"url": "https://ged.kedi.re.kr/",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"OFFICIAL_LINKS"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"302423c27f": {
+"url": "https://ged.kedi.re.kr/intro/gedinfo/intro_n_01.do",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"ged"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"13d970be06": {
+"url": "https://admission.ksa.hs.kr/iphak_kor/guidelines_2027.php",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"gs"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "619e860c8b8e4ab7",
+"title": "한국과학영재학교 입학안내",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"4179b6440c": {
+"url": "https://admission.ksa.hs.kr/iphak_kor/guidelines_jang_2027.php",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"gs"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "03e8a621a8cc19a8",
+"title": "한국과학영재학교 입학안내",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"c6331a6f39": {
+"url": "https://gsa.jge.hs.kr/sub/page.php?page_code=guide_03",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"gs"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "9607d6d616a77a41",
+"title": "입학안내 > 입학전형요강",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
 "ae3c3b4bb1": {
 "url": "https://www.data.go.kr/biz/dcat/metadata/15037294.do",
 "kind": "공식",
@@ -191,7 +3172,9 @@
 "n19",
 "n20",
 "n21",
-"n22"
+"n22",
+"q-hs-local-list",
+"q-hs-national-jasa"
 ],
 "cycle": "w",
 "checkedAt": "2026-10-21T05:28+09:00",
@@ -441,7 +3424,11 @@
 "used": [
 "n72",
 "n73",
-"n74"
+"n74",
+"penhs27",
+"q-hs-assign",
+"q-hs-fail",
+"q-hs-local-list"
 ],
 "cycle": "w",
 "checkedAt": "2026-10-21T05:28+09:00",
@@ -460,6 +3447,11 @@
 "kind": "공식",
 "cat": "교육청",
 "used": [
+"q-hs-attend",
+"q-hs-autonomous",
+"q-hs-choose",
+"q-hs-fail",
+"q-hs-fl-select",
 "q-sch-grade"
 ],
 "cycle": "w",
@@ -881,7 +3873,9 @@
 "cat": "교육청",
 "used": [
 "q-dir-free",
-"q-sch-grade"
+"q-hs-attend",
+"q-sch-grade",
+"q-sch-test-ratio"
 ],
 "cycle": "w",
 "checkedAt": "2026-10-21T05:28+09:00",
@@ -905,6 +3899,8 @@
 "penhs26",
 "q-balance",
 "q-dir-free",
+"q-hs-attend",
+"q-hs-autonomous",
 "q-hs-when",
 "q-sch-grade",
 "sh"
@@ -1908,6 +4904,8 @@
 "cat": "대학 입학처",
 "used": [
 "ku27",
+"q-univ-nsu",
+"q-univ-rural",
 "q-yk"
 ],
 "cycle": "w",
@@ -1945,25 +4943,6 @@
 },
 "9524c913a7": {
 "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?mi=4659&nttSn=281322455",
-"kind": "공식",
-"cat": "대학 입학처",
-"used": [
-"n66"
-],
-"cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "6357be8cb6e61609",
-"title": "공지사항 - 과학영재교육원",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
-},
-"01ea1bef8e": {
-"url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281291784&mi=4659&currPage=1",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
@@ -2045,6 +5024,9 @@
 "cat": "대학 입학처",
 "used": [
 "q-courses",
+"q-g2-winter",
+"q-hs-choose",
+"q-sch-joint",
 "q-yk",
 "ysCourse"
 ],
@@ -2066,6 +5048,8 @@
 "cat": "대학 입학처",
 "used": [
 "q-susi",
+"q-univ-nsu",
+"q-univ-rural",
 "q-yk",
 "ys28"
 ],
@@ -2087,8 +5071,10 @@
 "cat": "법령·정부",
 "used": [
 "moe28",
+"q-ipgyeol-read",
 "q-naesin",
-"q-suneung"
+"q-suneung",
+"q-univ-last-year"
 ],
 "cycle": "w",
 "checkedAt": "2026-10-21T05:28+09:00",
@@ -2108,6 +5094,7 @@
 "cat": "법령·정부",
 "used": [
 "csat27",
+"csat27moe",
 "q-g3-after",
 "q-retake"
 ],
@@ -2129,6 +5116,7 @@
 "cat": "법령·정부",
 "used": [
 "csat28d",
+"q-g2-winter",
 "r-csat5"
 ],
 "cycle": "w",
@@ -2192,7 +5180,8 @@
 "ldGov",
 "q-med",
 "q-med-ldoc",
-"q-med-quota"
+"q-med-quota",
+"r-local-doctor"
 ],
 "cycle": "w",
 "checkedAt": "2026-10-21T05:28+09:00",
@@ -2550,16 +5539,6 @@
 "lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
-"bd9e110e68": {
-"url": "https://mediahub.seoul.go.kr/archives/2018638",
-"kind": "공식",
-"cat": "언론",
-"used": [
-"q-free"
-],
-"cycle": "w",
-"status": "skip-terms"
-},
 "6f4b064727": {
 "url": "https://cgesc.ajou.ac.kr/files/tmp/785005001725494491.pdf",
 "kind": "공식",
@@ -2590,137 +5569,6 @@
 "ctype": "text/html",
 "lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
-},
-"f64291271c": {
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"OFFICIAL_LINKS",
-"eo",
-"ged",
-"n00",
-"n05",
-"n07",
-"n28",
-"n31",
-"n32",
-"n35",
-"n40",
-"n45"
-],
-"cycle": "w",
-"status": "skip-terms"
-},
-"62552fa459": {
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=15",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n16",
-"n17",
-"n27"
-],
-"cycle": "w",
-"status": "skip-terms"
-},
-"32fab3097e": {
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=18",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n23",
-"n24",
-"n25"
-],
-"cycle": "w",
-"status": "skip-terms"
-},
-"7890ad7f4a": {
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=3",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n05",
-"n07"
-],
-"cycle": "w",
-"status": "skip-terms"
-},
-"9c74588d2b": {
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=31",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n54",
-"n59",
-"n60"
-],
-"cycle": "w",
-"status": "skip-terms"
-},
-"91653952b9": {
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=32",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n61"
-],
-"cycle": "w",
-"status": "skip-terms"
-},
-"14c73a1a4c": {
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=33",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n61",
-"n65"
-],
-"cycle": "w",
-"status": "skip-terms"
-},
-"b8024ef8a8": {
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=4",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n06"
-],
-"cycle": "w",
-"status": "skip-terms"
-},
-"79161c316a": {
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=45",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n67",
-"n70"
-],
-"cycle": "w",
-"status": "skip-terms"
-},
-"c8c6d5787e": {
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=8",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n09",
-"n52"
-],
-"cycle": "w",
-"status": "skip-terms"
-},
-"ae31ade975": {
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=9",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n50"
-],
-"cycle": "w",
-"status": "skip-terms"
 },
 "84e2d325aa": {
 "url": "https://gifted.cbnu.ac.kr",
@@ -2967,6 +5815,7 @@
 "kind": "공식",
 "cat": "영재교육",
 "used": [
+"pnu-gifted",
 "q-eo-quit",
 "q-eo-recommend",
 "un"
@@ -3059,63 +5908,6 @@
 "lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
 },
-"f2601b4d24": {
-"url": "https://seigy.knu.ac.kr/student/40",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n79"
-],
-"cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "85fcebfb5c1e8759",
-"title": "2026학년도 신입생 선발 입학 전형 1단계 평가 안내 > 학생선발 | 경북대학교과학영재교육원",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
-},
-"b13beda953": {
-"url": "https://seigy.knu.ac.kr/student/42",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n79"
-],
-"cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "140d3a6fdbc7e580",
-"title": "♦ 2026학년도 경북대학교 과학영재교육원 신입생 선발 1단계 전형 합격자 발표 및 2단계 전형 안내 ♦ > 학생선발 | 경북대학교과학영재교육원",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
-},
-"bb95450736": {
-"url": "https://seigy.knu.ac.kr/student/43",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n79"
-],
-"cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "e9ea2c98ba38ec03",
-"title": "★★2026학년도 경북대학교 과학영재교육원 신입생 선발 최종 합격자 발표★★ > 학생선발 | 경북대학교과학영재교육원",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
-},
 "339ddc14ee": {
 "url": "https://seigy.knu.ac.kr/student/45",
 "kind": "공식",
@@ -3174,6 +5966,8 @@
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
+"csat27g",
+"dy",
 "kice-guide27",
 "q-past"
 ],
@@ -3194,6 +5988,7 @@
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
+"csat27k",
 "mock6",
 "q-mock",
 "q-retake"
@@ -3277,6 +6072,8 @@
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
+"dy",
+"dy27k",
 "kcue27",
 "q-g3-after",
 "q-gana"
@@ -3299,10 +6096,12 @@
 "cat": "입시 공식 기관",
 "used": [
 "kcue28base",
+"q-g2-winter",
 "q-g3-after",
 "q-gana",
 "q-mock",
-"q-susi-reg"
+"q-susi-reg",
+"q-univ-plan-when"
 ],
 "cycle": "w",
 "checkedAt": "2026-10-21T05:28+09:00",
@@ -3346,7 +6145,9 @@
 "cat": "입시 공식 기관",
 "used": [
 "adiga10",
-"q-info-month"
+"q-g2-winter",
+"q-info-month",
+"q-ipgyeol-read"
 ],
 "cycle": "w",
 "checkedAt": "2026-10-21T05:28+09:00",
@@ -3366,7 +6167,8 @@
 "cat": "입시 공식 기관",
 "used": [
 "help1",
-"q-free-help"
+"q-free-help",
+"q-ipgyeol-read"
 ],
 "cycle": "w",
 "checkedAt": "2026-10-21T05:28+09:00",
@@ -3387,7 +6189,12 @@
 "used": [
 "dy",
 "kcue28",
-"q-susi"
+"q-g2-winter",
+"q-ipgyeol-read",
+"q-susi",
+"q-univ-last-year",
+"q-univ-plan-when",
+"q-univ-rural"
 ],
 "cycle": "w",
 "checkedAt": "2026-10-21T05:28+09:00",
@@ -3406,10 +6213,15 @@
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
+"dy",
+"dy28",
 "kcue28main",
+"q-g2-winter",
 "q-med",
 "q-med-ldoc",
-"q-med-quota"
+"q-med-quota",
+"q-univ-rural",
+"r-med-seoul"
 ],
 "cycle": "w",
 "checkedAt": "2026-10-21T05:28+09:00",
@@ -3429,7 +6241,8 @@
 "cat": "입시 공식 기관",
 "used": [
 "help2",
-"q-free-help"
+"q-free-help",
+"q-univ-fair"
 ],
 "cycle": "w",
 "checkedAt": "2026-10-21T05:28+09:00",
@@ -3449,7 +6262,8 @@
 "cat": "입시 공식 기관",
 "used": [
 "fair",
-"q-free-help"
+"q-free-help",
+"q-univ-fair"
 ],
 "cycle": "w",
 "checkedAt": "2026-10-21T05:28+09:00",
@@ -5234,1523 +8048,6 @@
 "ctype": "text/html",
 "lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
-},
-"f8711a1000": {
-"url": "https://www.ajunews.com/view/20260611100711061",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"ld488",
-"q-med"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"9627325238": {
-"url": "https://www.ajunews.com/view/20260804171754066",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"pen365",
-"q-free-help"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"33a0f1e786": {
-"url": "https://biz.sbs.co.kr/amp/article/20000228825",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"hs",
-"mock8"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"737acf561c": {
-"url": "https://www.busan.com/view/busan/view.php?code=2025120118422049528",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-sch-assign"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"b8c73d30bd": {
-"url": "https://www.ccdn.co.kr/news/articleView.html?idxno=1095984",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n31",
-"n34"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"21bd92346c": {
-"url": "https://www.cctoday.co.kr/news/articleView.html?idxno=2205019",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n28"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"d634c09b7e": {
-"url": "https://www.cnbnews.com/news/articleView.html?idxno=1018976",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n27"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"6531678bcd": {
-"url": "https://www.daejonilbo.com/news/articleView.html?idxno=2186564",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n32"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"18a7d52e56": {
-"url": "https://www.daejonilbo.com/news/articleView.html?idxno=2245667",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n30"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"cc68bb9530": {
-"url": "https://dhnews.co.kr/news/view/1065573137926158",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n52"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"d2adc4ca27": {
-"url": "https://dhnews.co.kr/news/view/1065576574769915",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"ld610",
-"q-med",
-"q-med-ldoc",
-"q-med-quota"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"c2ea522069": {
-"url": "https://dhnews.co.kr/news/view/1065579562228453",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n65"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"81e1c4a3d3": {
-"url": "https://dhnews.co.kr/news/view/1065589466716815",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-courses",
-"snuCourse"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"b114f3148f": {
-"url": "https://dhnews.co.kr/news/view/179524153246093",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"bal1",
-"q-balance"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"c3a0820a1b": {
-"url": "https://www.dhnews.co.kr/news/view/1065575688380115",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n59"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"a9cf9e4e8f": {
-"url": "https://www.dhnews.co.kr/news/view/1065590185180368",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"bal2",
-"q-balance"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"fdce9d4d78": {
-"url": "https://www.etoday.co.kr/news/view/2496353",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gsMed",
-"q-med",
-"q-med-gifted"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"bce23b0746": {
-"url": "https://www.fnnews.com/news/202312271101077771",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"csat28b",
-"q-suneung",
-"r-csat5"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"f4d2c07c92": {
-"url": "https://www.fnnews.com/news/202602221031237101",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-semi",
-"semi2"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"b850e8b5f5": {
-"url": "https://www.fnnews.com/news/202608170604519286",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n55"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"14a14c659b": {
-"url": "https://gj.newdaily.co.kr/site/data/html/2026/03/24/2026032400379.html",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n51"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"50d17adac5": {
-"url": "https://www.gnnews.co.kr/news/articleView.html?idxno=625319",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n94"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"6909328172": {
-"url": "https://www.gnnews.co.kr/news/articleView.html?idxno=635408",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n97"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"f35ec2fa6a": {
-"url": "https://www.gnnews.co.kr/news/articleView.html?idxno=645486",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n97"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"3f46f0be54": {
-"url": "https://www.gnnews.co.kr/news/articleView.html?idxno=646365",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n95"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"064cb30b28": {
-"url": "https://www.gukjenews.com/news/articleView.html?idxno=3403560",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n86"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"24f72cd44c": {
-"url": "https://www.gukjenews.com/news/articleView.html?idxno=3683617",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"penBrief",
-"q-eo-prep"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"1a3803590f": {
-"url": "https://www.gwangjuin.com/news/articleView.html?idxno=259574",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n52"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"81b7746dc2": {
-"url": "https://hangyo.com/mobile/article.html?no=100805",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"keep",
-"q-hs-types",
-"r-fl-abolish"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"bc8cde6dbe": {
-"url": "https://hangyo.com/news/article.html?no=109590",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"necDelay",
-"q-reform"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"a6ec6db330": {
-"url": "https://www.hangyo.com/mobile/article.html?no=105345",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"dy",
-"dy28b"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"a25f961134": {
-"url": "https://www.hankyung.com/article/202603126272Y",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"cost2",
-"q-cost"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"f095bed36a": {
-"url": "https://www.hankyung.com/article/2026031263617",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"cost1",
-"q-cost"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"a804194446": {
-"url": "https://www.hankyung.com/article/2026081753451",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-hs-types",
-"r-20sci",
-"sh",
-"shQuota"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"88e25b4d4e": {
-"url": "https://www.heraldk.com/article/2026011604413107139",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-sch-violence"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"6d13b34a19": {
-"url": "https://www.heraldk.com/article/2026012719000012142",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"credit",
-"q-naesin"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"31beb7089a": {
-"url": "https://www.heraldk.com/article/2026032600273939393",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"ldRule",
-"q-med",
-"q-med-quota"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"0f1d3d49d0": {
-"url": "https://www.heraldk.com/article/2026042919000056717",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"sky"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"8132bca6c2": {
-"url": "https://www.heraldk.com/article/2026050417463957935",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gs",
-"gsQuota",
-"q-hs-types"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"8dc384c2fd": {
-"url": "https://www.heraldk.com/article/2026052817450068440",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gs",
-"gs27"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"99a92dde0d": {
-"url": "https://www.heraldk.com/article/2026062919000082154",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"ans",
-"q-g3-after"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"fb6d06999c": {
-"url": "https://ihopenews.com/news/articleView.html?idxno=252293",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n51"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"fe72d47b72": {
-"url": "https://www.ihopenews.com/news/articleView.html?idxno=251029",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n63"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"9ed507b6f0": {
-"url": "https://www.imaeil.com/page/view/2026092909180364775",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n80"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"95dea75493": {
-"url": "https://www.incheontoday.com/news/articleView.html?idxno=317115",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n12"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"5e3e2c4ca7": {
-"url": "https://www.inews24.com/view/1983517",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"hp7",
-"hs",
-"q-mock"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"3a77fce861": {
-"url": "https://www.iusm.co.kr/news/articleView.html?idxno=1055332",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n81"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"bae21eed11": {
-"url": "https://www.iusm.co.kr/news/articleView.html?idxno=1057094",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n82",
-"n83"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"d72fece4ec": {
-"url": "https://www.iusm.co.kr/news/articleView.html?idxno=1061070",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n83"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"28521247e9": {
-"url": "https://www.jejusori.net/news/articleView.html?idxno=506706",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n69"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"9059266dad": {
-"url": "https://kbmaeil.com/article/20260210500792",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"medQ"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"22cbd7d082": {
-"url": "https://kbmaeil.com/article/20260928500415",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n93"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"cbe27808a6": {
-"url": "https://kbmaeil.com/article/20260929500069",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n80"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"e46764d1b7": {
-"url": "https://www.kbmaeil.com/article/20260101500290",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n89"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"e0eb9bff96": {
-"url": "https://www.kbmaeil.com/article/20260922500273",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n93"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"1e1f205fa0": {
-"url": "https://www.kgnews.co.kr/news/article.html?no=914666",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n27"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"c62c36f461": {
-"url": "https://www.khan.co.kr/article/202602070600001",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"medCourse",
-"q-courses"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"d1edae6e15": {
-"url": "https://www.koreatimenews.com/news/article.html?no=1259179",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n16"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"aa2fd2c2cd": {
-"url": "https://www.kukinews.com/article/view/kuk202603230217",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"hakpyeong3",
-"hp3",
-"hs",
-"q-mock"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"692fc569f7": {
-"url": "https://www.kyeonggi.com/article/20260507580009",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"hp5",
-"hs",
-"q-mock"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"f20830c67b": {
-"url": "https://www.kyobit.com/news/articleView.html?idxno=1565",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n84"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"4b6723d888": {
-"url": "https://www.kyobit.com/news/articleView.html?idxno=588",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n76",
-"n82"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"6c732a8789": {
-"url": "https://www.kyobit.com/news/articleView.html?idxno=6083",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n90"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"ee2fe684c7": {
-"url": "https://www.kyobit.com/news/articleView.html?idxno=6255",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n77"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"ffe6540234": {
-"url": "https://www.kyobit.com/news/articleView.html?idxno=633",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n87",
-"n88"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"c6661095ca": {
-"url": "https://www.kyobit.com/news/articleView.html?idxno=634",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n95",
-"n96"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"17b6978912": {
-"url": "https://www.kyobit.com/news/articleView.html?idxno=6487",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n91"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"ca5ae7e34e": {
-"url": "https://www.kyobit.com/news/articleView.html?idxno=6531",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n73",
-"n96"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"98d1321e18": {
-"url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4082748",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n75",
-"n79"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"241e67d902": {
-"url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4083734",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n76",
-"n87",
-"n88"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"35f3f7e796": {
-"url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4085975",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n88"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"6f8a6eadb9": {
-"url": "https://www.kyosu.net/news/articleView.html?idxno=143365",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n23"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"8b72cbd20a": {
-"url": "https://www.localnaeil.com/News/View/644445",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gsPlan",
-"q-hs-prep"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"e948cba139": {
-"url": "https://www.localnaeil.com/News/View/653770",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n15"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"ed4aa30f4d": {
-"url": "https://www.localnaeil.com/News/View/654075",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"dy",
-"dy27"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"ad03b68edc": {
-"url": "https://www.localnaeil.com/News/View/654760",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n75"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"10d6056149": {
-"url": "https://m.seoul.co.kr/news/2023/12/10/20231210500085",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"ftcAd",
-"q-eo-prep",
-"q-univ-prep"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"aa0e26f78d": {
-"url": "https://m.thesegye.com/news/view/1065566425791630",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n35"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"1b1f5b7ef1": {
-"url": "https://m.thesegye.com/news/view/1065573779737108",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"hakpyeong",
-"hp10",
-"hs",
-"q-mock"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"2d7b14bff3": {
-"url": "https://m.thesegye.com/news/view/1065583713953062",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n42"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"02e09bc790": {
-"url": "https://www.medigatenews.com/news/1572454916",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"kwonMed"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"ae54c56444": {
-"url": "https://mobile.newsis.com/view/NISX20250812_0003287777",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gs",
-"medPenalty",
-"q-hs-types",
-"q-med-gifted",
-"r-refund"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"9a1530419a": {
-"url": "https://www.mt.co.kr/article/2026062409025273762",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"localRate",
-"q-med",
-"r-med-seoul"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"03a49d7688": {
-"url": "https://www.mt.co.kr/policy/2026/05/29/2026052910161527504",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gs",
-"gsRate",
-"q-hs-types",
-"r-ksa-multi"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"417ccf5a68": {
-"url": "https://www.mt.co.kr/policy/2026/09/11/2026091121522046272",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-semi",
-"semi1"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"195a5d876e": {
-"url": "https://www.namdonews.com/news/articleView.html?idxno=923945",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n50"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"13dac20211": {
-"url": "https://news.mtn.co.kr/news-detail/2026092110295929013",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n50"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"9921e501bb": {
-"url": "https://www.newsis.com/view/NISX20231227_0002572627",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"csat28",
-"q-suneung"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"81b3f9c286": {
-"url": "https://www.newsis.com/view/NISX20240724_0002824489",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-dir-free"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"c73a8b91c1": {
-"url": "https://www.newsis.com/view/NISX20260112_0003473163",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n56"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"1109d1a018": {
-"url": "https://www.newsis.com/view/NISX20260331_0003570832",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"csat27p",
-"hs"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"e85f578a93": {
-"url": "https://www.newsnjeju.com/news/articleView.html?idxno=301618",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n69"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"d8223c9ef8": {
-"url": "https://www.newspim.com/news/view/20260805000395",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"nec",
-"q-reform",
-"r-fl-abolish"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"fc032574f6": {
-"url": "https://nocutnews.co.kr/news/6563248",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n73",
-"n95",
-"q-kp",
-"sciKaist"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"79bb5f56cf": {
-"url": "https://www.pressian.com/pages/articles/2025102215075660014",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n58"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"c54d06de3d": {
-"url": "https://sanedu.com/?p=32369",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"dy",
-"dy28"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"7ab2356f17": {
-"url": "https://sanedu.com/?p=37214",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"hsType",
-"q-snu"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"1f761abd16": {
-"url": "https://www.segye.com/newsView/20260122517600",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-sch-violence"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"1d08ebd825": {
-"url": "https://www.segye.com/newsView/20260903512698",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-med-ldoc"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"f24beb6e49": {
-"url": "https://sgsg.hankyung.com/article/2024101180851",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"cost4",
-"q-cost"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"edb73007ec": {
-"url": "https://sgsg.hankyung.com/article/2025101004841",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"courses",
-"q-courses"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"7c81d3477f": {
-"url": "https://supple.kr/news/cmscopdkq001u13xbpwol3hsi",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"necNo",
-"q-reform"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"bd433fa452": {
-"url": "https://supple.kr/news/cmv9a8cd400i1lxjcjdsr5y7e",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-sch-violence"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"423f6281ca": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=540170",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-hs-prep",
-"sshVideo"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"b6a3bc7f36": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=555130",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-contest",
-"r-contest",
-"r-ksa-sci",
-"r-prestudy",
-"seoulSh"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"a6ce9e5ec0": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=567022",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n64"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"2002eb7258": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=588702",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"fl"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"30d8ba4a34": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=590245",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"flRate"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"cb699b8e7c": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=593470",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"ksaOpen",
-"q-hs-prep"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"51f35b62b6": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=604064",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n03",
-"n10",
-"n11",
-"n12",
-"n21",
-"n30",
-"n33",
-"n37",
-"n42",
-"n47",
-"n48",
-"n51"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"10f7b9ac13": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=612371",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n29",
-"n36",
-"n41",
-"n46"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"353ee6160a": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=620067",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gsOpen",
-"q-hs-prep",
-"q-univ-prep"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"5d2005a74c": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=622481",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n56",
-"n62",
-"n63",
-"n69"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"528b453a27": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=622599",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n57"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"7d0a012a26": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=624586",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n29"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"ec2f4779cb": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=624722",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n01"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"2fbbc365b2": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=624727",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n10"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"7770744511": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=624729",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n11"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"a338e4a81f": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=624939",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n02",
-"n41",
-"n46",
-"n76",
-"n82",
-"n87",
-"n88",
-"n95",
-"n96",
-"q-hs-when",
-"sci27",
-"sh"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"09ef86827d": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=625115",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n68"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"6556ffe389": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=625418",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n18",
-"n19",
-"n20",
-"sh"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"0c991f9c92": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=625419",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n55"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"9f71671634": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=626158",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n10",
-"n29",
-"n41",
-"n46"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"98e6824850": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=626283",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n62"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"9d40389a39": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=626492",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n04",
-"n13",
-"n22",
-"n90"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"e230fe82c7": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=628798",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n12"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"ebff52a5ad": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n21",
-"n30",
-"n33",
-"n43",
-"n48",
-"n57",
-"n64",
-"n90"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"fade35ab93": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=630758",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n64"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"9c5c2fddbc": {
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=632093",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n90"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"9ad4b0b5ad": {
-"url": "https://view.asiae.co.kr/article/2026033015095586853",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n63"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"b6aaf91b72": {
-"url": "https://view.asiae.co.kr/article/2026061210295190080",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-eo-when",
-"q-uni-eo",
-"u27"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"e9d954eded": {
-"url": "https://view.asiae.co.kr/article/2026090217564289814",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"localDoc",
-"q-med-ldoc",
-"r-local-doctor",
-"r-med-seoul"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"1413d0cc8c": {
-"url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2336580",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n98"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"5d8cc736bb": {
-"url": "https://weekly.khan.co.kr/article/202508180600041",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"cost3",
-"fl",
-"q-cost"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"ab65ecb8f9": {
-"url": "https://weekly.khan.co.kr/article/202606080600021/",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-eo-prep",
-"wp26"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"9c8176b2ce": {
-"url": "https://ged.kedi.re.kr",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"un"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"5e0683aed0": {
-"url": "https://ged.kedi.re.kr/",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"OFFICIAL_LINKS"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
-"302423c27f": {
-"url": "https://ged.kedi.re.kr/intro/gedinfo/intro_n_01.do",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"ged"
-],
-"cycle": "m",
-"status": "skip-terms"
 },
 "a858b2e343": {
 "url": "https://gifted.pusan.ac.kr/gifted/11091/subview.do",
