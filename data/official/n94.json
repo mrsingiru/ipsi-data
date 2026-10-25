@@ -2,17 +2,83 @@
  "id": "n94",
  "org": "경남 교육청 영재원",
  "what": "앞으로 120일 안 일정 1단계",
- "checkedAt": "2026-10-25T22:53:15+09:00",
+ "checkedAt": "2026-10-26T06:17:48+09:00",
  "opened": [
   {
    "url": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812",
-   "status": "robots"
+   "status": "ok"
   }
  ],
  "notices": [],
  "ged": [],
- "titles": [],
+ "titles": [
+  {
+   "url": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812",
+   "title": "창원영재교육원 영재선발-전형방법"
+  }
+ ],
  "files": [],
- "lines": [],
- "status": "robots"
+ "lines": [
+  {
+   "text": "영재성 검사(일반, 영역별) | 2026. 12. 5.(토) 10:00~11:30",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812"
+  },
+  {
+   "text": "교사용 검사지 작성 | 제출:2026. 11. 17.(화) 18:00까지 (기한 엄수)",
+   "dates": [
+    "2026-11-17"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812"
+  },
+  {
+   "text": "영재성 검사 실시 (일반, 영역별) | 2026. 12. 5.(토) 10:00~11:30",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812"
+  },
+  {
+   "text": "교사용 검사지(체크리스트) | 2026. 11. 17.(화) 18:00까지",
+   "dates": [
+    "2026-11-17"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812"
+  },
+  {
+   "text": "(일반영재성검사, 영역별영재성검사) | 2026. 12. 5.(토)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812"
+  },
+  {
+   "text": "(일반영재성검사, 영역별영재성검사) | 2026. 12. 5.(토) 10:00∼11:30(90분)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812"
+  }
+ ],
+ "status": "dates"
 }

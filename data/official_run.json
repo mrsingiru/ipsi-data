@@ -1,7 +1,7 @@
 {
- "at": "2026-10-25T22:53:47+09:00",
+ "at": "2026-10-26T06:17:51+09:00",
  "targets": 54,
- "withDates": 39,
+ "withDates": 40,
  "items": [
   {
    "id": "n93",
@@ -286,9 +286,9 @@
   {
    "id": "n29",
    "org": "대전동신과학고",
-   "status": "found-no-dates",
+   "status": "robots",
    "lines": 0,
-   "files": 3,
+   "files": 0,
    "opened": 1
   },
   {
@@ -422,8 +422,8 @@
   {
    "id": "n94",
    "org": "경남 교육청 영재원",
-   "status": "robots",
-   "lines": 0,
+   "status": "dates",
+   "lines": 6,
    "files": 0,
    "opened": 1
   },

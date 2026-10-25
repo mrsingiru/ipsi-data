@@ -2,48 +2,17 @@
  "id": "n29",
  "org": "대전동신과학고",
  "what": "앞으로 120일 안 일정 3단계",
- "checkedAt": "2026-10-25T22:47:43+09:00",
+ "checkedAt": "2026-10-26T06:11:34+09:00",
  "opened": [
   {
    "url": "https://ddsciencehs.djsch.kr/sub/info.do?m=0202&s=ddsciencehs",
-   "status": "ok"
+   "status": "robots"
   }
  ],
  "notices": [],
  "ged": [],
- "titles": [
-  {
-   "url": "https://ddsciencehs.djsch.kr/sub/info.do?m=0202&s=ddsciencehs",
-   "title": "대전동신과학고등학교 홈페이지"
-  }
- ],
- "files": [
-  {
-   "url": "https://djsch.kr/boardCnts/fileDown.do?m=214&s=ddsciencehs&fileSeq=021a29ee9a6be7c08ee77b7ea00f6d91",
-   "name": "전형요강 다운로드",
-   "status": "robots"
-  },
-  {
-   "url": "https://ddsciencehs.djsch.kr/images/template/02219/sub/s_visual.png",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 142033,
-   "sha1": "c705cf129895",
-   "lines": 0
-  },
-  {
-   "url": "https://asp.djsch.kr/upload/edit/20260615/IMG_102345.jpg",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 105994,
-   "sha1": "d420617c28f9",
-   "lines": 0
-  }
- ],
+ "titles": [],
+ "files": [],
  "lines": [],
- "status": "found-no-dates"
+ "status": "robots"
 }
