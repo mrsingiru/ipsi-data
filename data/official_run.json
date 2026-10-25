@@ -1,7 +1,7 @@
 {
- "at": "2026-10-25T22:02:55+09:00",
+ "at": "2026-10-25T22:53:47+09:00",
  "targets": 54,
- "withDates": 40,
+ "withDates": 39,
  "items": [
   {
    "id": "n93",
@@ -422,8 +422,8 @@
   {
    "id": "n94",
    "org": "경남 교육청 영재원",
-   "status": "dates",
-   "lines": 6,
+   "status": "robots",
+   "lines": 0,
    "files": 0,
    "opened": 1
   },
