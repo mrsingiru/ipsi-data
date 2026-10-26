@@ -2,10 +2,14 @@
  "id": "n16",
  "org": "동두천양주 영재교육원",
  "what": "2027 교육지원청부설 영재교육원 영재교육대상자 선발 안내",
- "checkedAt": "2026-10-26T08:11:46+09:00",
+ "checkedAt": "2026-10-26T22:00:59+09:00",
  "opened": [
   {
    "url": "https://goedy.kr/goedy/na/ntt/selectNttList.do?mi=10312&bbsId=10220",
+   "status": "ok"
+  },
+  {
+   "url": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1688584",
    "status": "ok"
   },
   {
@@ -19,12 +23,20 @@
  ],
  "notices": [
   {
+   "title": "2027학년도 동두천양주 영재교육원 학생 선발 '선교육 후선발 과정평가' 진행 알림 새로운 글",
+   "url": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1688584"
+  },
+  {
    "title": "2027학년도 동두천양주교육지원청부설 영재교육원 영재교육대상자 선발 공고",
    "url": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510"
   }
  ],
  "ged": [],
  "titles": [
+  {
+   "url": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1688584",
+   "title": "공지사항 < 영재교육원 | 경기도동두천양주교육지원청"
+  },
   {
    "url": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510",
    "title": "공지사항 < 영재교육원 | 경기도동두천양주교육지원청"
@@ -53,6 +65,16 @@
   }
  ],
  "lines": [
+  {
+   "text": "2027학년도 동두천양주 영재교육원 학생 선발 '선교육 후선발 과정평가' 가 26.10.26.(월)~11.18(수)까지 진행됩니다.",
+   "dates": [
+    "2026-11-18"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1688584"
+  },
   {
    "text": "이 이 Sauk 3. 선교육 후선발 프로그램 과정평가 단계 | 관내 학교 밖 청소년 2026. 10. 26.(월) ~ 2026. 11. 25,(수)",
    "dates": [
