@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.64)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.65)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-10-26",
-"ver": "v28.64",
-"count": 521,
+"ver": "v28.65",
+"count": 523,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -573,7 +573,7 @@
 "id": "997cb8ad04",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
 "host": "home.pen.go.kr",
-"name": "후기고(특목고, 자사고, 학교장전형고), 부산광역시교육청 고입포털",
+"name": "부산광역시교육청 고입포털 후기고(특목고·자사고·학교장전형고) 안내",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1257,7 +1257,7 @@
 "id": "c457a11443",
 "url": "https://school.gyo6.net/gimcheon/main.do",
 "host": "school.gyo6.net",
-"name": "김천고 2027학년도 입학 전형 요강(학교 누리집)",
+"name": "김천고 2027학년도 신입생 입학 전형 요강 — Ⅳ. 전형 일정 및 장소(대표가 올린 PDF · PDF 글과 자동 대조 통과 10/26 21:15 — 날짜 다시 볼 필요 없음)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1361,7 +1361,7 @@
 "id": "57a15c2050",
 "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttList.do?mi=108100&bbsId=118541",
 "host": "school.jje.go.kr",
-"name": "제주과학고 2027학년도 신입생 입학전형 요강 — 3. 전형 일정(공고 제2026-20호)",
+"name": "제주과학고 2027학년도 신입생 입학전형 요강 — 3. 전형 일정(대표가 올린 PDF · PDF 글과 자동 대조 통과 10/26 21:15 — 날짜 다시 볼 필요 없음)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1394,6 +1394,19 @@
 "n67"
 ],
 "dated": "",
+"cycle": "w"
+},
+{
+"id": "3235b8c694",
+"url": "https://school.use.go.kr/ushs-h/M010301/",
+"host": "school.use.go.kr",
+"name": "울산과학고 2027학년도 입학전형 요강 — Ⅳ. 전형 일정(대표가 올린 HWP · 글 자동 대조 통과)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n82"
+],
+"dated": "2026-10-26",
 "cycle": "w"
 },
 {
@@ -1574,6 +1587,19 @@
 "cycle": "w"
 },
 {
+"id": "dd5c49d58c",
+"url": "https://www.use.go.kr/",
+"host": "use.go.kr",
+"name": "울산교육청 공고 제2026-418호 '2027학년도 울산 영재교육대상자 1차 선발 공고'(2026-10-06) — Ⅱ. 선발 과정 2. 전형 일정(대표가 올린 스캔 PDF)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n81"
+],
+"dated": "2026-10-26",
+"cycle": "w"
+},
+{
 "id": "69961d3dff",
 "url": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4",
 "host": "wjgift.gwe.go.kr",
@@ -1598,6 +1624,19 @@
 ],
 "dated": "2026-10-13",
 "cycle": "w"
+},
+{
+"id": "1bc6911120",
+"url": "https://www.ansan.go.kr/",
+"host": "ansan.go.kr",
+"name": "한양대ERICA 영재교육원 2027학년도 신입생 모집 요강 — 3. 선발 진행 과정(2026-09-16 공고, 대표가 올린 PDF · 글 자동 대조 통과)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"n27"
+],
+"dated": "2026-10-26",
+"cycle": "m"
 },
 {
 "id": "934153f8a8",
@@ -3848,7 +3887,7 @@
 "id": "33a0f1e786",
 "url": "https://biz.sbs.co.kr/amp/article/20000228825",
 "host": "biz.sbs.co.kr",
-"name": "SBS Biz(교육부 발표: 6월 모의평가 유지, 하반기 모의평가 8월)",
+"name": "SBS Biz: 2027년부터 하반기 수능 모의평가는 8월(교육부 발표)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4501,7 +4540,7 @@
 "used": [
 "n81"
 ],
-"dated": "2025-10-24",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -4619,7 +4658,7 @@
 "used": [
 "n27"
 ],
-"dated": "2026-10-12",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -4771,7 +4810,7 @@
 "used": [
 "n91"
 ],
-"dated": "2026-08-02",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -5036,19 +5075,6 @@
 "q-med-ldoc-city"
 ],
 "dated": "2026-02-27",
-"cycle": "m"
-},
-{
-"id": "a82bf492a8",
-"url": "https://mobile.newsis.com/view/NISX20260903_0003774515",
-"host": "mobile.newsis.com",
-"name": "뉴시스 2026-09-03 「울산과학고 2027학년도 신입생 경쟁률 2.85대 1」",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n82"
-],
-"dated": "2026-09-03",
 "cycle": "m"
 },
 {
@@ -5708,7 +5734,7 @@
 "id": "ebff52a5ad",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
 "host": "veritas-a.com",
-"name": "베리타스알파: 고입 캘린더(2026-10-05)",
+"name": "베리타스알파 '고입캘린더 (26/10/09~)'",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -5853,7 +5879,7 @@
 "id": "d90ec8b62a",
 "url": "https://ddsciencehs.djsch.kr/sub/info.do?m=0202&s=ddsciencehs",
 "host": "ddsciencehs.djsch.kr",
-"name": "대전동신과학고 2027학년도 입학전형 요강 — 05 전형 일정(학교 누리집)",
+"name": "대전동신과학고 2027학년도 입학전형 요강 — 05 전형 일정(대표가 올린 PDF · PDF 글과 자동 대조 통과 10/26 21:15 — 날짜 다시 볼 필요 없음)",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
@@ -6079,7 +6105,7 @@
 "id": "bfc4942377",
 "url": "https://gifted.ac.kr/",
 "host": "gifted.ac.kr",
-"name": "전북대 과학영재교육원 2027 모집요강(2026-09-28 공고, 대표가 연 요강)",
+"name": "전북대 과학영재교육원 2027학년도 신입생 모집 요강 — 5. 선발 일정(대표가 올린 PDF · PDF 글과 자동 대조 통과 10/26 21:15 — 날짜 다시 볼 필요 없음)",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
