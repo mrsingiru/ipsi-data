@@ -1,6 +1,6 @@
 {
- "at": "2026-10-27T06:25:02+09:00",
- "targets": 54,
+ "at": "2026-10-27T07:53:56+09:00",
+ "targets": 56,
  "withDates": 40,
  "items": [
   {
@@ -86,10 +86,10 @@
   {
    "id": "n68",
    "org": "제주과학고",
-   "status": "robots",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
-   "opened": 1
+   "files": 3,
+   "opened": 2
   },
   {
    "id": "n43",
@@ -335,7 +335,7 @@
    "id": "n50",
    "org": "광주 교육청 영재교육원(통합 선발)",
    "status": "dates",
-   "lines": 7,
+   "lines": 6,
    "files": 0,
    "opened": 2
   },
@@ -418,6 +418,22 @@
    "lines": 3,
    "files": 0,
    "opened": 5
+  },
+  {
+   "id": "n81",
+   "org": "울산 교육청 영재원",
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
+   "opened": 1
+  },
+  {
+   "id": "n82",
+   "org": "울산과학고",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 1
   },
   {
    "id": "n94",
