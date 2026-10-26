@@ -1,7 +1,7 @@
 {
- "at": "2026-10-26T22:13:47+09:00",
+ "at": "2026-10-27T06:25:02+09:00",
  "targets": 54,
- "withDates": 39,
+ "withDates": 40,
  "items": [
   {
    "id": "n93",
@@ -86,10 +86,10 @@
   {
    "id": "n68",
    "org": "제주과학고",
-   "status": "found-no-dates",
+   "status": "robots",
    "lines": 0,
-   "files": 3,
-   "opened": 2
+   "files": 0,
+   "opened": 1
   },
   {
    "id": "n43",
@@ -374,8 +374,8 @@
   {
    "id": "n58",
    "org": "전북대 영재원",
-   "status": "error",
-   "lines": 0,
+   "status": "dates",
+   "lines": 2,
    "files": 0,
    "opened": 2
   },
