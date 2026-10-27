@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.65)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-10-26",
-"ver": "v28.65",
-"count": 523,
+"note": "페이지(공개판 v28.68)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-10-27",
+"ver": "v28.68",
+"count": 527,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -506,6 +506,20 @@
 "cycle": "w"
 },
 {
+"id": "b7e9e8631e",
+"url": "https://home.pen.go.kr/childpiage/na/ntt/selectNttInfo.do?mi=10950&nttSn=1014147",
+"host": "home.pen.go.kr",
+"name": "부산교육청 초등영재교육원 2027학년도 영재교육대상자 선발 전형요강(어린이창의교육관, 대표가 올린 PDF)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"eo",
+"pen27e"
+],
+"dated": "2026-09-01",
+"cycle": "m"
+},
+{
 "id": "21f93f5955",
 "url": "https://home.pen.go.kr/haeundae/na/ntt/selectNttList.do?mi=11419&bbsId=3550",
 "host": "home.pen.go.kr",
@@ -573,7 +587,7 @@
 "id": "997cb8ad04",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
 "host": "home.pen.go.kr",
-"name": "부산광역시교육청 고입포털 후기고(특목고·자사고·학교장전형고) 안내",
+"name": "후기고(특목고, 자사고, 학교장전형고), 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -806,7 +820,8 @@
 "q-hs-choose",
 "q-naesin",
 "q-sch-joint",
-"q-sch-reenter"
+"q-sch-reenter",
+"r-joint-more"
 ],
 "dated": "",
 "cycle": "w"
@@ -1989,6 +2004,7 @@
 "cat": "대학 입학처",
 "used": [
 "q-snu",
+"r-snu-ku-choejeo",
 "snu27s"
 ],
 "dated": "2026-05-29",
@@ -2415,7 +2431,8 @@
 "ku27",
 "q-univ-nsu",
 "q-univ-rural",
-"q-yk"
+"q-yk",
+"r-snu-ku-choejeo"
 ],
 "dated": "2026-06-25",
 "cycle": "w"
@@ -2431,7 +2448,8 @@
 "q-courses",
 "q-sch-joint",
 "q-sch-reenter",
-"q-univ-blind"
+"q-univ-blind",
+"r-joint-more"
 ],
 "dated": "2026-09-08",
 "cycle": "w"
@@ -2556,6 +2574,7 @@
 "q-hs-choose",
 "q-sch-joint",
 "q-yk",
+"r-joint-more",
 "ysCourse"
 ],
 "dated": "",
@@ -3187,6 +3206,19 @@
 "cycle": "w"
 },
 {
+"id": "99f84ed5e1",
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=283473",
+"host": "eiec.kdi.re.kr",
+"name": "교육부, 2026년 6월 대학정보공시 분석 결과 발표(KDI 경제정보센터 게재본)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"r-local-jongbu"
+],
+"dated": "2026-06-29",
+"cycle": "w"
+},
+{
 "id": "ad629bb7c0",
 "url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285494",
 "host": "eiec.kdi.re.kr",
@@ -3239,7 +3271,8 @@
 "q-med-ldoc",
 "q-med-ldoc-city",
 "q-med-ldoc-zone",
-"q-med-local-move"
+"q-med-local-move",
+"r-transfer-local"
 ],
 "dated": "2026-08-27",
 "cycle": "w"
@@ -3255,9 +3288,12 @@
 "ldGov",
 "q-med",
 "q-med-ldoc",
+"q-med-ldoc-capital",
 "q-med-local-move",
 "q-med-quota",
-"r-local-doctor"
+"r-capital-ldoc",
+"r-local-doctor",
+"r-transfer-local"
 ],
 "dated": "2026-09-03",
 "cycle": "w"
@@ -3806,6 +3842,7 @@
 "kind": "공식",
 "cat": "법령·판례",
 "used": [
+"q-med-ldoc-capital",
 "q-med-pharm-local",
 "r-med-seoul"
 ],
@@ -3887,7 +3924,7 @@
 "id": "33a0f1e786",
 "url": "https://biz.sbs.co.kr/amp/article/20000228825",
 "host": "biz.sbs.co.kr",
-"name": "SBS Biz: 2027년부터 하반기 수능 모의평가는 8월(교육부 발표)",
+"name": "SBS Biz(교육부 발표: 6월 모의평가 유지, 하반기 모의평가 8월)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4156,7 +4193,8 @@
 "q-med-ldoc-city",
 "q-med-ldoc-zone",
 "q-med-local-move",
-"r-local-doctor"
+"r-local-doctor",
+"r-transfer-local"
 ],
 "dated": "2026-09-03",
 "cycle": "m"
@@ -4289,7 +4327,8 @@
 "kind": "기사",
 "cat": "언론",
 "used": [
-"q-hs-autonomous"
+"q-hs-autonomous",
+"r-local-jongbu"
 ],
 "dated": "2025-06-30",
 "cycle": "m"
@@ -4351,10 +4390,23 @@
 "cycle": "m"
 },
 {
+"id": "431f990e56",
+"url": "https://www.hankyung.com/article/2026051066261",
+"host": "hankyung.com",
+"name": "한국경제(서울대·연세대·고려대 2028 수능 최저 없는 선발 비율)",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"r-snu-ku-choejeo"
+],
+"dated": "2026-05-10",
+"cycle": "m"
+},
+{
 "id": "a804194446",
 "url": "https://www.hankyung.com/article/2026081753451",
 "host": "hankyung.com",
-"name": "한국경제: 과학고 22곳 1,858명",
+"name": "한국경제(과학고 22곳 1,858명)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4919,7 +4971,8 @@
 "used": [
 "q-snu",
 "q-univ-nsu",
-"q-univ-rural"
+"q-univ-rural",
+"r-snu-ku-choejeo"
 ],
 "dated": "2025-10-22",
 "cycle": "m"
@@ -5072,7 +5125,9 @@
 "kind": "기사",
 "cat": "언론",
 "used": [
-"q-med-ldoc-city"
+"q-med-ldoc-capital",
+"q-med-ldoc-city",
+"r-capital-ldoc"
 ],
 "dated": "2026-02-27",
 "cycle": "m"
@@ -5351,6 +5406,19 @@
 "q-courses"
 ],
 "dated": "2025-10-13",
+"cycle": "m"
+},
+{
+"id": "71ed254ac5",
+"url": "https://sgsg.hankyung.com/article/2026052962091",
+"host": "sgsg.hankyung.com",
+"name": "생글생글·한국경제(2028 의대 수시 수능 최저)",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"r-snu-ku-choejeo"
+],
+"dated": "2026-06-01",
 "cycle": "m"
 },
 {
@@ -6414,7 +6482,7 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사 신입생 선발 모집 요강",
+"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
@@ -6623,10 +6691,13 @@
 "used": [
 "q-g2-winter",
 "q-med",
+"q-med-ldoc-capital",
 "q-med-local-move",
 "q-med-pharm-local",
 "q-univ-local-hs",
-"r-med-seoul"
+"r-capital-ldoc",
+"r-med-seoul",
+"r-transfer-local"
 ],
 "dated": "2025-08-28",
 "cycle": "w"
@@ -6714,11 +6785,13 @@
 "q-g2-winter",
 "q-med",
 "q-med-ldoc",
+"q-med-ldoc-capital",
 "q-med-ldoc-city",
 "q-med-ldoc-zone",
 "q-med-quota",
 "q-univ-local-hs",
 "q-univ-rural",
+"r-capital-ldoc",
 "r-med-seoul"
 ],
 "dated": "2026-04-30",
