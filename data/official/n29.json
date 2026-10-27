@@ -2,7 +2,7 @@
  "id": "n29",
  "org": "대전동신과학고",
  "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-10-28T06:21:40+09:00",
+ "checkedAt": "2026-10-28T07:54:41+09:00",
  "opened": [
   {
    "url": "https://ddsciencehs.djsch.kr/sub/info.do?m=0202&s=ddsciencehs",
@@ -45,5 +45,6 @@
   }
  ],
  "lines": [],
- "status": "found-no-dates"
+ "status": "found-no-dates",
+ "route": 1
 }

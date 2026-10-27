@@ -1,7 +1,15 @@
 {
- "at": "2026-10-28T06:27:01+09:00",
- "targets": 56,
- "withDates": 40,
+ "at": "2026-10-28T08:04:29+09:00",
+ "targets": 71,
+ "withDates": 46,
+ "blockedAll": [
+  "n31",
+  "n33",
+  "n62",
+  "n63",
+  "n80",
+  "n83"
+ ],
  "items": [
   {
    "id": "n93",
@@ -9,7 +17,9 @@
    "status": "dates",
    "lines": 18,
    "files": 6,
-   "opened": 9
+   "opened": 9,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n27",
@@ -17,15 +27,28 @@
    "status": "error",
    "lines": 0,
    "files": 0,
-   "opened": 3
+   "opened": 3,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n75",
    "org": "대구 교육청 영재원",
-   "status": "error",
+   "status": "not-found",
    "lines": 0,
    "files": 0,
-   "opened": 2
+   "opened": 3,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    }
+   ]
   },
   {
    "id": "n00",
@@ -33,7 +56,9 @@
    "status": "dates",
    "lines": 40,
    "files": 6,
-   "opened": 4
+   "opened": 4,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n09",
@@ -41,7 +66,9 @@
    "status": "dates",
    "lines": 9,
    "files": 5,
-   "opened": 2
+   "opened": 2,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n26",
@@ -49,7 +76,9 @@
    "status": "dates",
    "lines": 15,
    "files": 5,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n78",
@@ -57,7 +86,9 @@
    "status": "dates",
    "lines": 7,
    "files": 5,
-   "opened": 2
+   "opened": 2,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n79",
@@ -65,7 +96,9 @@
    "status": "dates",
    "lines": 29,
    "files": 4,
-   "opened": 2
+   "opened": 2,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n92",
@@ -73,7 +106,9 @@
    "status": "dates",
    "lines": 4,
    "files": 0,
-   "opened": 2
+   "opened": 2,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n44",
@@ -81,7 +116,9 @@
    "status": "dates",
    "lines": 7,
    "files": 6,
-   "opened": 3
+   "opened": 3,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n68",
@@ -89,7 +126,9 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 3,
-   "opened": 2
+   "opened": 2,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n43",
@@ -97,7 +136,9 @@
    "status": "dates",
    "lines": 32,
    "files": 2,
-   "opened": 3
+   "opened": 3,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n45",
@@ -105,7 +146,9 @@
    "status": "dates",
    "lines": 60,
    "files": 7,
-   "opened": 8
+   "opened": 8,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n46",
@@ -113,7 +156,9 @@
    "status": "dates",
    "lines": 6,
    "files": 2,
-   "opened": 4
+   "opened": 4,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n51",
@@ -121,7 +166,9 @@
    "status": "dates",
    "lines": 1,
    "files": 1,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n76",
@@ -129,7 +176,9 @@
    "status": "dates",
    "lines": 9,
    "files": 0,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n01",
@@ -137,7 +186,9 @@
    "status": "dates",
    "lines": 13,
    "files": 2,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n02",
@@ -145,15 +196,19 @@
    "status": "dates",
    "lines": 13,
    "files": 2,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n16",
    "org": "동두천양주 영재교육원",
    "status": "dates",
-   "lines": 3,
+   "lines": 2,
    "files": 2,
-   "opened": 4
+   "opened": 4,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n86",
@@ -161,23 +216,39 @@
    "status": "dates",
    "lines": 1,
    "files": 0,
-   "opened": 5
+   "opened": 5,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 2
+   "status": "dates",
+   "lines": 6,
+   "files": 5,
+   "opened": 6,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "dates"
+    }
+   ]
   },
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 2
+   "status": "dates",
+   "lines": 6,
+   "files": 2,
+   "opened": 6,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "dates"
+    }
+   ]
   },
   {
    "id": "n04",
@@ -185,7 +256,9 @@
    "status": "dates",
    "lines": 21,
    "files": 2,
-   "opened": 3
+   "opened": 3,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n20",
@@ -193,7 +266,9 @@
    "status": "dates",
    "lines": 12,
    "files": 2,
-   "opened": 3
+   "opened": 3,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "eo-rec",
@@ -201,7 +276,9 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 4
+   "opened": 4,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "eo-result",
@@ -209,15 +286,24 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 4
+   "opened": 4,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n13",
    "org": "인천하늘고",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 1
+   "opened": 4,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "found-no-dates"
+    }
+   ]
   },
   {
    "id": "n87",
@@ -225,7 +311,9 @@
    "status": "dates",
    "lines": 12,
    "files": 0,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n88",
@@ -233,7 +321,9 @@
    "status": "dates",
    "lines": 12,
    "files": 0,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n89",
@@ -241,7 +331,9 @@
    "status": "dates",
    "lines": 17,
    "files": 0,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n48",
@@ -249,7 +341,14 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 1,
-   "opened": 1
+   "opened": 2,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "found-no-dates"
+    }
+   ]
   },
   {
    "id": "n03",
@@ -257,7 +356,9 @@
    "status": "dates",
    "lines": 50,
    "files": 4,
-   "opened": 4
+   "opened": 4,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n15",
@@ -265,7 +366,9 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 5,
-   "opened": 2
+   "opened": 2,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n18",
@@ -273,7 +376,9 @@
    "status": "dates",
    "lines": 4,
    "files": 0,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n19",
@@ -281,7 +386,9 @@
    "status": "dates",
    "lines": 4,
    "files": 0,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n29",
@@ -289,7 +396,9 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 3,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n36",
@@ -297,7 +406,9 @@
    "status": "dates",
    "lines": 5,
    "files": 0,
-   "opened": 4
+   "opened": 4,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n37",
@@ -305,15 +416,19 @@
    "status": "dates",
    "lines": 8,
    "files": 0,
-   "opened": 5
+   "opened": 5,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n38",
    "org": "청주교대 영재원",
    "status": "dates",
-   "lines": 60,
+   "lines": 28,
    "files": 8,
-   "opened": 4
+   "opened": 4,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n42",
@@ -321,7 +436,9 @@
    "status": "robots",
    "lines": 0,
    "files": 0,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n47",
@@ -329,7 +446,9 @@
    "status": "dates",
    "lines": 12,
    "files": 6,
-   "opened": 5
+   "opened": 5,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n50",
@@ -337,7 +456,9 @@
    "status": "dates",
    "lines": 6,
    "files": 0,
-   "opened": 2
+   "opened": 2,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n54",
@@ -345,7 +466,9 @@
    "status": "dates",
    "lines": 60,
    "files": 4,
-   "opened": 3
+   "opened": 3,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n55",
@@ -353,7 +476,9 @@
    "status": "dates",
    "lines": 10,
    "files": 1,
-   "opened": 3
+   "opened": 3,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n56",
@@ -361,7 +486,9 @@
    "status": "dates",
    "lines": 60,
    "files": 7,
-   "opened": 6
+   "opened": 6,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n57",
@@ -369,7 +496,9 @@
    "status": "dates",
    "lines": 4,
    "files": 0,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n58",
@@ -377,7 +506,9 @@
    "status": "dates",
    "lines": 2,
    "files": 0,
-   "opened": 2
+   "opened": 2,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n66",
@@ -385,15 +516,28 @@
    "status": "dates",
    "lines": 4,
    "files": 5,
-   "opened": 5
+   "opened": 5,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n69",
    "org": "제주 고입",
-   "status": "robots",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
-   "opened": 1
+   "files": 1,
+   "opened": 2,
+   "route": 2,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "found-no-dates"
+    }
+   ]
   },
   {
    "id": "n72",
@@ -401,7 +545,9 @@
    "status": "dates",
    "lines": 8,
    "files": 4,
-   "opened": 6
+   "opened": 6,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n73",
@@ -409,7 +555,9 @@
    "status": "dates",
    "lines": 3,
    "files": 3,
-   "opened": 6
+   "opened": 6,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n74",
@@ -417,7 +565,9 @@
    "status": "dates",
    "lines": 3,
    "files": 0,
-   "opened": 5
+   "opened": 5,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n81",
@@ -425,7 +575,9 @@
    "status": "robots",
    "lines": 0,
    "files": 0,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n82",
@@ -433,7 +585,9 @@
    "status": "not-found",
    "lines": 0,
    "files": 0,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n94",
@@ -441,7 +595,9 @@
    "status": "dates",
    "lines": 6,
    "files": 0,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
   },
   {
    "id": "n98",
@@ -449,7 +605,298 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 2,
-   "opened": 1
+   "opened": 1,
+   "route": 1,
+   "tried": null
+  },
+  {
+   "id": "n12",
+   "org": "인천 고입(외고·국제고·광역 자사고·후기 일반고)",
+   "status": "dates",
+   "lines": 8,
+   "files": 0,
+   "opened": 4,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "dates"
+    }
+   ]
+  },
+  {
+   "id": "n30",
+   "org": "대전 고입(2027 고입 기본계획)",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
+   "route": 2,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "found-no-dates"
+    }
+   ]
+  },
+  {
+   "id": "n31",
+   "org": "충남대학교 과학영재교육원",
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
+    }
+   ]
+  },
+  {
+   "id": "n33",
+   "org": "세종 고입(2027 고입 기본계획)",
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
+    }
+   ]
+  },
+  {
+   "id": "n34",
+   "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 5,
+   "opened": 3,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "found-no-dates"
+    }
+   ]
+  },
+  {
+   "id": "n41",
+   "org": "충남과학고",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 4,
+   "route": 2,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "found-no-dates"
+    }
+   ]
+  },
+  {
+   "id": "n62",
+   "org": "전남과학고",
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
+    }
+   ]
+  },
+  {
+   "id": "n63",
+   "org": "전남 고입(2027 고입 기본계획)",
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
+    }
+   ]
+  },
+  {
+   "id": "n64",
+   "org": "광양제철고",
+   "status": "dates",
+   "lines": 21,
+   "files": 7,
+   "opened": 4,
+   "route": 3,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "dates"
+    }
+   ]
+  },
+  {
+   "id": "n77",
+   "org": "대구 고입(2027 고입 기본계획)",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
+    }
+   ]
+  },
+  {
+   "id": "n80",
+   "org": "DGIST AI/SW SCHOOL",
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "robots"
+    }
+   ]
+  },
+  {
+   "id": "n83",
+   "org": "울산 고입(2027 고입 기본계획)",
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
+    }
+   ]
+  },
+  {
+   "id": "n95",
+   "org": "경남과학고",
+   "status": "dates",
+   "lines": 5,
+   "files": 4,
+   "opened": 6,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "dates"
+    }
+   ]
+  },
+  {
+   "id": "n96",
+   "org": "창원과학고",
+   "status": "dates",
+   "lines": 3,
+   "files": 7,
+   "opened": 7,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "dates"
+    }
+   ]
+  },
+  {
+   "id": "n97",
+   "org": "경남 고입(2027 고입 기본계획)",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 4,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "found-no-dates"
+    }
+   ]
   }
  ]
 }

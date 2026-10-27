@@ -1,0 +1,55 @@
+{
+ "id": "n30",
+ "org": "대전 고입(2027 고입 기본계획)",
+ "what": "공식 공고(경로 대장)",
+ "checkedAt": "2026-10-28T08:00:25+09:00",
+ "opened": [
+  {
+   "url": "https://www.edurang.net/course/na/ntt/selectNttList.do?mi=41274&bbsId=1611",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.edurang.net/course/na/ntt/selectNttInfo.do?mi=41274&bbsId=1611&nttSn=1307499",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.edurang.net/course/na/ntt/selectNttInfo.do?mi=41274&bbsId=1611&nttSn=1307337",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 고등학교 입학전형 길라잡이",
+   "url": "https://www.edurang.net/course/na/ntt/selectNttInfo.do?mi=41274&bbsId=1611&nttSn=1307499"
+  },
+  {
+   "title": "2027학년도 대전광역시 일반고 및 자율형 공립고 입학전형 요강 안내",
+   "url": "https://www.edurang.net/course/na/ntt/selectNttInfo.do?mi=41274&bbsId=1611&nttSn=1307337"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://www.edurang.net/course/na/ntt/selectNttInfo.do?mi=41274&bbsId=1611&nttSn=1307499",
+   "title": "고입 자료실"
+  },
+  {
+   "url": "https://www.edurang.net/course/na/ntt/selectNttInfo.do?mi=41274&bbsId=1611&nttSn=1307337",
+   "title": "고입 자료실"
+  }
+ ],
+ "files": [],
+ "lines": [],
+ "status": "found-no-dates",
+ "route": 2,
+ "tried": [
+  {
+   "rank": 1,
+   "status": "robots"
+  },
+  {
+   "rank": 2,
+   "status": "found-no-dates"
+  }
+ ]
+}

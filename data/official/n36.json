@@ -2,7 +2,7 @@
  "id": "n36",
  "org": "충북과학고",
  "what": "앞으로 120일 안 일정 3단계",
- "checkedAt": "2026-10-28T06:21:48+09:00",
+ "checkedAt": "2026-10-28T07:54:47+09:00",
  "opened": [
   {
    "url": "https://school.cbe.go.kr/cbs-h/M0103/",
@@ -100,5 +100,6 @@
    "src": "https://school.cbe.go.kr/daeje-m/M01030401/"
   }
  ],
- "status": "dates"
+ "status": "dates",
+ "route": 1
 }

@@ -2,7 +2,7 @@
  "id": "n03",
  "org": "서울 고입",
  "what": "앞으로 120일 안 일정 11단계",
- "checkedAt": "2026-10-28T06:16:49+09:00",
+ "checkedAt": "2026-10-28T07:49:37+09:00",
  "opened": [
   {
    "url": "https://jinhak.sen.go.kr/subList/20000000430",
@@ -630,5 +630,6 @@
    "src": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284044&q_fileId=bc57ccb0-10af-4324-b0ec-2dbd8cd72b22"
   }
  ],
- "status": "dates"
+ "status": "dates",
+ "route": 1
 }

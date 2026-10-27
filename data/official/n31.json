@@ -1,0 +1,33 @@
+{
+ "id": "n31",
+ "org": "충남대학교 과학영재교육원",
+ "what": "공식 공고(경로 대장)",
+ "checkedAt": "2026-10-28T08:00:28+09:00",
+ "opened": [
+  {
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do",
+   "status": "robots"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "blocked-all",
+ "route": 1,
+ "tried": [
+  {
+   "rank": 1,
+   "status": "robots"
+  },
+  {
+   "rank": 2,
+   "status": "robots"
+  },
+  {
+   "rank": 3,
+   "status": "robots"
+  }
+ ]
+}

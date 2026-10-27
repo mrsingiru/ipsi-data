@@ -2,7 +2,7 @@
  "id": "n54",
  "org": "전북 교육지원청 영재원",
  "what": "앞으로 120일 안 일정 10단계",
- "checkedAt": "2026-10-28T06:23:26+09:00",
+ "checkedAt": "2026-10-28T07:56:22+09:00",
  "opened": [
   {
    "url": "https://office.jbedu.kr/gce/M01060802/view/6932713.do",
@@ -691,5 +691,6 @@
    "src": "https://school.jbedu.kr/_cmm/fileDownload/jeonjuedu/M01030701/0cb0a9ef1fc45d6204fd60d9d06685e8.do"
   }
  ],
- "status": "dates"
+ "status": "dates",
+ "route": 1
 }

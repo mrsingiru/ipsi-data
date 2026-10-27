@@ -2,7 +2,7 @@
  "id": "n55",
  "org": "전북과학고",
  "what": "앞으로 120일 안 일정 5단계",
- "checkedAt": "2026-10-28T06:23:38+09:00",
+ "checkedAt": "2026-10-28T07:56:33+09:00",
  "opened": [
   {
    "url": "https://school.jbedu.kr/ejbs/M010402/",
@@ -150,5 +150,6 @@
    "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
   }
  ],
- "status": "dates"
+ "status": "dates",
+ "route": 1
 }

@@ -1,0 +1,155 @@
+{
+ "id": "n95",
+ "org": "경남과학고",
+ "what": "공식 공고(경로 대장)",
+ "checkedAt": "2026-10-28T08:03:57+09:00",
+ "opened": [
+  {
+   "url": "https://gshs-h.gne.go.kr/gshs-h/main.do",
+   "status": "ok"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/gshs-h/cm/cntnts/cntntsView.do?mi=207245&cntntsId=12294",
+   "status": "ok"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttList.do?mi=160978&bbsId=140831",
+   "status": "ok"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100576436&mi=160978",
+   "status": "ok"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100455545&mi=160978",
+   "status": "ok"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100340534&mi=160978",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 신입생 입학전형 소집면담 관련 안내(주차 등)",
+   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100576436&mi=160978"
+  },
+  {
+   "title": "2027학년도 경남과학고등학교 신입생 입학전형 지원 절차 안내",
+   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100455545&mi=160978"
+  },
+  {
+   "title": "(신청 마감) 2027학년도 입시전형 본교 입학설명회 참가 신청 안내 [2026.7.9.]",
+   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100340534&mi=160978"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100576436&mi=160978",
+   "title": "공지사항 | 경남과학고등학교"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100455545&mi=160978",
+   "title": "공지사항 | 경남과학고등학교"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100340534&mi=160978",
+   "title": "공지사항 | 경남과학고등학교"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 283683,
+   "sha1": "d58cc4a4cc1c",
+   "lines": 0
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/upload_sch/editor/20261014/IMG_154640.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 180799,
+   "sha1": "dd4e5751503e",
+   "lines": 0
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=be87212c5303a8f2b3518357f2b99b4d",
+   "name": "경남고입_원서접수_사용자매뉴얼_과학고지원자용.pdf (다운로드 : 1148회)",
+   "status": "robots"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=6f916839f11640c5b45a7f88204a7f00",
+   "name": "경남고입_추천서_추천인매뉴얼_과학고추천인용.pdf (다운로드 : 732회)",
+   "status": "robots"
+  }
+ ],
+ "lines": [
+  {
+   "text": "원서접수 기간은 2026. 8. 24.(월) 10:00 - 8. 26.(수) 14:00 입니다.",
+   "dates": [
+    "2026-08-24",
+    "2026-08-26"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100455545&mi=160978"
+  },
+  {
+   "text": "(8.26(수) 우체국 소인까지 유효합니다. 방문제출도 가능하지만, 등기우편접수를 적극 권장합니다.)",
+   "dates": [
+    "2026-08-26"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100455545&mi=160978"
+  },
+  {
+   "text": "(신청 마감) 2027학년도 입시전형 본교 입학설명회 참가 신청 안내 [2026.7.9.]",
+   "dates": [
+    "2026-07-09"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100455545&mi=160978"
+  },
+  {
+   "text": "(신청 마감) 2027학년도 입시전형 본교 입학설명회 참가 신청 안내 [2026.7.9.]",
+   "dates": [
+    "2026-07-09"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100340534&mi=160978"
+  },
+  {
+   "text": "2027학년도 경남과학고등학교 입학전형 본교 입학설명회를 다음과 같이 개최하고자 합니다. | - 일시: 2026.07.09.(목) 18:30~20:30",
+   "dates": [
+    "2026-07-09"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100340534&mi=160978"
+  }
+ ],
+ "status": "dates",
+ "route": 1,
+ "tried": [
+  {
+   "rank": 1,
+   "status": "dates"
+  }
+ ]
+}

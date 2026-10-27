@@ -1,0 +1,157 @@
+{
+ "id": "n96",
+ "org": "창원과학고",
+ "what": "공식 공고(경로 대장)",
+ "checkedAt": "2026-10-28T08:04:08+09:00",
+ "opened": [
+  {
+   "url": "https://csh-h.gne.go.kr/csh-h/main.do",
+   "status": "ok"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttList.do?mi=126722&bbsId=107505",
+   "status": "ok"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttList.do?mi=233225&bbsId=212433",
+   "status": "ok"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttList.do?mi=503446&bbsId=168087",
+   "status": "ok"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100456591&mi=503446",
+   "status": "ok"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100556466&mi=503446",
+   "status": "ok"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100271844&mi=503446",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 창원과학고등학교 신입생 입학전형 지원 절차 안내",
+   "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100456591&mi=503446"
+  },
+  {
+   "title": "2027. 신입생 입학전형 소집면담 유의사항 안내",
+   "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100556466&mi=503446"
+  },
+  {
+   "title": "2027학년도 신입생 선발을 위한 창원과학고등학교 입학요강 및 전년도 면접문항 공개",
+   "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100271844&mi=503446"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100456591&mi=503446",
+   "title": "입학관련공지 | 창원과학고등학교"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100556466&mi=503446",
+   "title": "입학관련공지 | 창원과학고등학교"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100271844&mi=503446",
+   "title": "입학관련공지 | 창원과학고등학교"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://csh-h.gne.go.kr/common/nttFileDownload.do?fileKey=8021e291b39376545f81706c790f9120",
+   "name": "경남고입_원서접수_사용자매뉴얼_창원과학고 지원자용.pdf (다운로드 : 1333회)",
+   "status": "robots"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/common/nttFileDownload.do?fileKey=57d8f83923f91299f01d1cb7082fc288",
+   "name": "경남고입_추천서_추천인매뉴얼_창원과학고 추천인용.pdf (다운로드 : 677회)",
+   "status": "robots"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/common/nttFileDownload.do?fileKey=181212bc1ee13dbbc3a0c73044acdc7d",
+   "name": "소집면담 안내문.pdf (다운로드 : 364회)",
+   "status": "robots"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/images/sch/schl/csh-h/sub/S_visual.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 218549,
+   "sha1": "9193b03d1eb0",
+   "lines": 0
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/common/nttFileDownload.do?fileKey=6c43ee7cecbe99fb78266deb1ad18f80",
+   "name": "2026학년도 창원과학고 신입생 선발 면접 문항(과학중심융합).pdf (다운로드 : 2168회)",
+   "status": "robots"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/common/nttFileDownload.do?fileKey=d96d10a260af07b17275c42d3d94167a",
+   "name": "2026학년도 창원과학고 신입생 선발 면접 문항(수학중심융합).pdf (다운로드 : 2323회)",
+   "status": "robots"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/images/sch/schl/csh-h/sub/S_visual.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 218549,
+   "sha1": "9193b03d1eb0",
+   "lines": 0
+  }
+ ],
+ "lines": [
+  {
+   "text": "1. 원서 접수 기간 : 2026. 8. 24.(월) 10:00 ~ 8. 26.(수) 14:00",
+   "dates": [
+    "2026-08-24",
+    "2026-08-26"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100456591&mi=503446"
+  },
+  {
+   "text": "2027학년도 창원과학고등학교 신입생 입학전형 지원 절차를 안내해 드립니다. | (추천인 추천서 입력 제출 : 2026. 8. 24.(월) 10:00 ~ 8. 27.(목) 17:00)",
+   "dates": [
+    "2026-08-24",
+    "2026-08-27"
+   ],
+   "words": [
+    "지원",
+    "전형"
+   ],
+   "src": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100456591&mi=503446"
+  },
+  {
+   "text": "2. 원서 접수 : 로그인 - 경상남도교육청 고입포털 | (1) 2026. 8. 26.(수)까지 유효(우체국 소인 기준), 등기우편 및 방문제출 모두 가능(등기우편 제출 적극 권장)",
+   "dates": [
+    "2026-08-26"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100456591&mi=503446"
+  }
+ ],
+ "status": "dates",
+ "route": 1,
+ "tried": [
+  {
+   "rank": 1,
+   "status": "dates"
+  }
+ ]
+}

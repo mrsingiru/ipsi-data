@@ -1,0 +1,63 @@
+{
+ "id": "n97",
+ "org": "경남 고입(2027 고입 기본계획)",
+ "what": "공식 공고(경로 대장)",
+ "checkedAt": "2026-10-28T08:04:23+09:00",
+ "opened": [
+  {
+   "url": "https://highschool.gne.go.kr/s10/hsa/archive/notice.do",
+   "status": "ok"
+  },
+  {
+   "url": "https://highschool.gne.go.kr/s10/hsa/archive/noticeDetail.do?boardSeq=45",
+   "status": "ok"
+  },
+  {
+   "url": "https://highschool.gne.go.kr/s10/hsa/archive/noticeDetail.do?boardSeq=44",
+   "status": "ok"
+  },
+  {
+   "url": "https://highschool.gne.go.kr/s10/hsa/archive/noticeDetail.do?boardSeq=20",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 타학군 거주이전(예정)자 입학 전 재배정 계획",
+   "url": "https://highschool.gne.go.kr/s10/hsa/archive/noticeDetail.do?boardSeq=45"
+  },
+  {
+   "title": "2027학년도 평준화지역 일반고 입학전형 요강",
+   "url": "https://highschool.gne.go.kr/s10/hsa/archive/noticeDetail.do?boardSeq=44"
+  },
+  {
+   "title": "2027학년도 경상남도 고등학교 입학전형 기본계획",
+   "url": "https://highschool.gne.go.kr/s10/hsa/archive/noticeDetail.do?boardSeq=20"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://highschool.gne.go.kr/s10/hsa/archive/noticeDetail.do?boardSeq=45",
+   "title": "공지사항 - 경상남도교육청 고입포털"
+  },
+  {
+   "url": "https://highschool.gne.go.kr/s10/hsa/archive/noticeDetail.do?boardSeq=44",
+   "title": "공지사항 - 경상남도교육청 고입포털"
+  },
+  {
+   "url": "https://highschool.gne.go.kr/s10/hsa/archive/noticeDetail.do?boardSeq=20",
+   "title": "공지사항 - 경상남도교육청 고입포털"
+  }
+ ],
+ "files": [],
+ "lines": [],
+ "status": "found-no-dates",
+ "route": 1,
+ "tried": [
+  {
+   "rank": 1,
+   "status": "found-no-dates"
+  }
+ ]
+}

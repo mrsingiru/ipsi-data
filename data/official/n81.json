@@ -2,7 +2,7 @@
  "id": "n81",
  "org": "울산 교육청 영재원",
  "what": "앞으로 120일 안 일정 3단계",
- "checkedAt": "2026-10-28T06:26:50+09:00",
+ "checkedAt": "2026-10-28T08:00:12+09:00",
  "opened": [
   {
    "url": "https://www.use.go.kr/",
@@ -14,5 +14,6 @@
  "titles": [],
  "files": [],
  "lines": [],
- "status": "robots"
+ "status": "robots",
+ "route": 1
 }

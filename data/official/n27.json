@@ -2,7 +2,7 @@
  "id": "n27",
  "org": "한양대 ERICA 영재원",
  "what": "원서 접수(GED 온라인)",
- "checkedAt": "2026-10-28T06:12:01+09:00",
+ "checkedAt": "2026-10-28T07:43:05+09:00",
  "opened": [
   {
    "url": "ged",
@@ -25,5 +25,6 @@
  "titles": [],
  "files": [],
  "lines": [],
- "status": "error"
+ "status": "error",
+ "route": 1
 }

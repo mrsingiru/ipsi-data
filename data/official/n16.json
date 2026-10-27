@@ -2,7 +2,7 @@
  "id": "n16",
  "org": "동두천양주 영재교육원",
  "what": "2027 교육지원청부설 영재교육원 영재교육대상자 선발 안내",
- "checkedAt": "2026-10-28T06:15:29+09:00",
+ "checkedAt": "2026-10-28T07:47:50+09:00",
  "opened": [
   {
    "url": "https://goedy.kr/goedy/na/ntt/selectNttList.do?mi=10312&bbsId=10220",
@@ -61,7 +61,7 @@
    "type": "image",
    "bytes": 340297,
    "sha1": "cde7ca14aee5",
-   "lines": 2
+   "lines": 1
   }
  ],
  "lines": [
@@ -74,18 +74,6 @@
     "선발"
    ],
    "src": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1688584"
-  },
-  {
-   "text": "이 이 Sauk 3. 선교육 후선발 프로그램 과정평가 단계 | 관내 학교 밖 청소년 2026. 10. 26.(월) ~ 2026. 11. 25,(수)",
-   "dates": [
-    "2026-10-26",
-    "2026-11-25"
-   ],
-   "words": [
-    "선발"
-   ],
-   "src": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510",
-   "via": "ocr"
   },
   {
    "text": "2027년 3월 기준 주민등록주소지를 4. 최종합격자 발표 | 동두천 양주로 둔 학교 밖 청소년 2026. 12. 10.(목) 18시 이후",
@@ -111,7 +99,20 @@
    ],
    "src": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510",
    "via": "ocr"
+  },
+  {
+   "text": "이 이 Sauk 3. 선교육 후선발 프로그램 과정평가 단계 | 관내 학교 밖 청소년 2026. 10. 26.(월) ~ 2026. 11. 25,(수)",
+   "dates": [
+    "2026-10-26",
+    "2026-11-25"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510",
+   "via": "ocr"
   }
  ],
- "status": "dates"
+ "status": "dates",
+ "route": 1
 }

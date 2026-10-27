@@ -2,7 +2,7 @@
  "id": "n46",
  "org": "강원과학고",
  "what": "2027 신입생 입학전형(요강·출석면담·발표)",
- "checkedAt": "2026-10-28T06:14:37+09:00",
+ "checkedAt": "2026-10-28T07:46:25+09:00",
  "opened": [
   {
    "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/list.do?boardID=23257&m=0201&s=kangwonsh",
@@ -135,5 +135,6 @@
    "src": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9682071&lev=0&m=0201&s=kangwonsh"
   }
  ],
- "status": "dates"
+ "status": "dates",
+ "route": 1
 }

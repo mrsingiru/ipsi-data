@@ -2,7 +2,7 @@
  "id": "n45",
  "org": "강원 교육지원청 영재원",
  "what": "2027 교육지원청 부설 영재교육원 선발 공고(원주·강릉·동해)",
- "checkedAt": "2026-10-28T06:14:09+09:00",
+ "checkedAt": "2026-10-28T07:45:55+09:00",
  "opened": [
   {
    "url": "https://wjgift.gwe.go.kr/boardCnts/list.do?boardID=99694&m=0201&s=kwwjegp",
@@ -768,5 +768,6 @@
    "src": "https://kwthe.gwe.go.kr/boardCnts/fileDown.do?m=100801&s=kwthe&fileSeq=2a9c966665c7b2ca6256354b86e16807"
   }
  ],
- "status": "dates"
+ "status": "dates",
+ "route": 1
 }

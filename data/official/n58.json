@@ -2,7 +2,7 @@
  "id": "n58",
  "org": "전북대 영재원",
  "what": "앞으로 120일 안 일정 7단계",
- "checkedAt": "2026-10-28T06:25:36+09:00",
+ "checkedAt": "2026-10-28T07:59:11+09:00",
  "opened": [
   {
    "url": "https://gifted.ac.kr/",
@@ -50,5 +50,6 @@
    "src": "https://www.jbnu.ac.kr/web/Board/193947/detailView.do?menu=3070"
   }
  ],
- "status": "dates"
+ "status": "dates",
+ "route": 1
 }
