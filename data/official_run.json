@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27T07:53:56+09:00",
+ "at": "2026-10-27T22:35:53+09:00",
  "targets": 56,
  "withDates": 40,
  "items": [
@@ -79,9 +79,9 @@
    "id": "n44",
    "org": "공주대 영재원",
    "status": "dates",
-   "lines": 16,
+   "lines": 7,
    "files": 6,
-   "opened": 2
+   "opened": 3
   },
   {
    "id": "n68",
@@ -95,8 +95,8 @@
    "id": "n43",
    "org": "북일고",
    "status": "dates",
-   "lines": 16,
-   "files": 1,
+   "lines": 32,
+   "files": 2,
    "opened": 3
   },
   {
@@ -161,7 +161,7 @@
    "status": "dates",
    "lines": 1,
    "files": 0,
-   "opened": 4
+   "opened": 5
   },
   {
    "id": "n10",

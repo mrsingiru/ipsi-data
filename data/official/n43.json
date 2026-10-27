@@ -2,7 +2,7 @@
  "id": "n43",
  "org": "북일고",
  "what": "2027 입학전형 요강(요강 파일·입학 공지)",
- "checkedAt": "2026-10-27T07:40:19+09:00",
+ "checkedAt": "2026-10-27T22:21:38+09:00",
  "opened": [
   {
    "url": "https://www.bugil.hs.kr/admission/guideline.php",
@@ -38,6 +38,14 @@
   {
    "url": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=guideline&idx=8915&no=1",
    "name": "입학요강 다운로드",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 1688353,
+   "sha1": "fedfffb0b020"
+  },
+  {
+   "url": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1",
+   "name": "2027학년도 북일고등학교 입학전형 요강.pdf",
    "status": "ok",
    "type": "pdf",
    "bytes": 1688353,
@@ -213,6 +221,175 @@
     "등록"
    ],
    "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=guideline&idx=8915&no=1"
+  },
+  {
+   "text": "원서(온라인) 접수 2026.12.04.(금) 00:00 ~ 12.10.(목) 17:00 원서접수 사이트",
+   "dates": [
+    "2026-12-04",
+    "2026-12-10"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "서류(출력물) 제출 | 2026.12.8.(화), 12.9.(수), 12.10.(목)",
+   "dates": [
+    "2026-12-08",
+    "2026-12-09",
+    "2026-12-10"
+   ],
+   "words": [
+    "서류"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "1단계 합격자 발표 | 2026.12.15.(화) 15:00(예정)",
+   "dates": [
+    "2026-12-15"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "(면접) | 2026.12.28.(월)",
+   "dates": [
+    "2026-12-28"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "최종 합격자 발표 | 2026.12.31.(목)",
+   "dates": [
+    "2026-12-31"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "신입생 등록(등록금 납부) | 2027.1.12.(화) 9:00 ~ 1.13.(수) 16:00",
+   "dates": [
+    "2027-01-12",
+    "2027-01-13"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "원서접수 | 2027.1.18.(월) ~ 1.19.(화)",
+   "dates": [
+    "2027-01-18",
+    "2027-01-19"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "1단계 합격자 발표 | 2027.1.19.(화) 15:00(예정)",
+   "dates": [
+    "2027-01-19"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "면접 | 2027.1.20.(수)",
+   "dates": [
+    "2027-01-20"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "최종 합격자 발표 | 2027.1.22.(금) 15:00(예정)",
+   "dates": [
+    "2027-01-22"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "신입생 등록 | 2027.1.26.(화)",
+   "dates": [
+    "2027-01-26"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "※ 지원자는 2026.12.01.(화)부터도 원서(온라인)와 자기소개서 작성 및 저장이 가능함",
+   "dates": [
+    "2026-12-01"
+   ],
+   "words": [
+    "원서"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "※ 마감 시간(본교 교문 통과 시점)이 지나면 해당일 접수가 불가함 | ※ 타 시·도에서 충남으로 전·편입(재취)학은 2026.10.30.(금)까지 허용함",
+   "dates": [
+    "2026-10-30"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "X 면접고사(2단계 전형) 수험생 유의사항 | 1. 고사일 : 2026. 12. 28.(월) 또는 2026. 12. 29.(화)",
+   "dates": [
+    "2026-12-28",
+    "2026-12-29"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "6. 최종 합격자 발표 : 2026. 12. 31.(수) (예정)",
+   "dates": [
+    "2026-12-31"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
+  },
+  {
+   "text": "2. 신입생 등록금 납부 안내 | 가. 납부 기간: 2027년 1월 12일(화) ~ 1월 13일(수) (2일간)",
+   "dates": [
+    "2027-01-12",
+    "2027-01-13"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.bugil.hs.kr/twcenter/bbs/down.php?code=notice&idx=3882&no=1"
   }
  ],
  "status": "dates"

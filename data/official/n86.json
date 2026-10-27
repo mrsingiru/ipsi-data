@@ -2,7 +2,7 @@
  "id": "n86",
  "org": "경북 교육지원청 영재원",
  "what": "2027 교육지원청 영재교육원 영재교육대상자 선발(구미·예천·경주)",
- "checkedAt": "2026-10-27T07:42:12+09:00",
+ "checkedAt": "2026-10-27T22:23:56+09:00",
  "opened": [
   {
    "url": "https://www.gbe.kr/gm/na/ntt/selectNttList.do?mi=9678&bbsId=3188",
@@ -19,12 +19,20 @@
   {
    "url": "https://www.gbe.kr/gj/na/ntt/selectNttList.do?bbsId=1582&searchCate=53&mi=8922",
    "status": "ok"
+  },
+  {
+   "url": "https://www.gbe.kr/gj/na/ntt/selectNttInfo.do?mi=8922&bbsId=1582&nttSn=1659341",
+   "status": "ok"
   }
  ],
  "notices": [
   {
    "title": "[안내] 2027학년도 구미교육지원청부설영재교육원 영재교육대상자 선발 모집 공고",
    "url": "https://www.gbe.kr/gm/na/ntt/selectNttInfo.do?mi=9678&bbsId=3188&nttSn=1650865"
+  },
+  {
+   "title": "[영재교육지원센터] 2027학년도 흥무초등학교 단위학교영재학급 영재교육대상자 선발 계획",
+   "url": "https://www.gbe.kr/gj/na/ntt/selectNttInfo.do?mi=8922&bbsId=1582&nttSn=1659341"
   }
  ],
  "ged": [],
@@ -32,6 +40,10 @@
   {
    "url": "https://www.gbe.kr/gm/na/ntt/selectNttInfo.do?mi=9678&bbsId=3188&nttSn=1650865",
    "title": "경상북도구미교육지원청-공지사항"
+  },
+  {
+   "url": "https://www.gbe.kr/gj/na/ntt/selectNttInfo.do?mi=8922&bbsId=1582&nttSn=1659341",
+   "title": "경상북도경주교육지원청-영재교육지원센터"
   }
  ],
  "files": [],
