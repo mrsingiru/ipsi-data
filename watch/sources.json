@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.68)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-10-27",
-"ver": "v28.68",
-"count": 527,
+"note": "페이지(공개판 v28.70)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-10-28",
+"ver": "v28.70",
+"count": 530,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -334,6 +334,32 @@
 "cycle": "w"
 },
 {
+"id": "2c7d66c281",
+"url": "https://www.goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510",
+"host": "goedy.kr",
+"name": "동두천양주교육지원청 2027 영재교육원 영재교육대상자 선발 공고(PDF)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n16"
+],
+"dated": "2026-09-14",
+"cycle": "w"
+},
+{
+"id": "59405d33cc",
+"url": "https://www.goedy.kr/goedy/na/ntt/selectNttInfo.do?nttSn=1688584&mi=10312",
+"host": "goedy.kr",
+"name": "과정평가 진행 알림(2026-10-26)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n16"
+],
+"dated": "",
+"cycle": "w"
+},
+{
 "id": "09d6c51ef3",
 "url": "https://www.goedy.kr/goedy/na/ntt/selectNttList.do?mi=10224&bbsId=10174",
 "host": "goedy.kr",
@@ -569,7 +595,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1706,6 +1732,19 @@
 "cycle": "m"
 },
 {
+"id": "64de8843ac",
+"url": "https://kunsan.gidea.co.kr/main/ipsi/handbook.action?q=92599b719ad77d9cf146b490608ec1ebeed21f1635b2ff51dc5edcdfff13629c",
+"host": "kunsan.gidea.co.kr",
+"name": "국립군산대 과학영재교육원 2027학년도 신입생 모집 요강(수시모집)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"n59"
+],
+"dated": "",
+"cycle": "m"
+},
+{
 "id": "049cd57aaf",
 "url": "https://m.dailypharm.com/user/news/338076",
 "host": "m.dailypharm.com",
@@ -1731,6 +1770,19 @@
 "q-cost"
 ],
 "dated": "2026-03-12",
+"cycle": "m"
+},
+{
+"id": "7a67237342",
+"url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
+"host": "mokpo.gidea.co.kr",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"n65"
+],
+"dated": "2026-10-01",
 "cycle": "m"
 },
 {
@@ -2185,7 +2237,7 @@
 "id": "9a46d8115c",
 "url": "http://gbit.daegu.ac.kr/board/view/notice1/451",
 "host": "gbit.daegu.ac.kr",
-"name": "2027학년도 AI·융합·외국어 영재교육원 대상자 선발 안내(대구대 글로벌브릿지 영재교육원)",
+"name": "대구대 글로벌브릿지 2027학년도 AI·융합·외국어 영재교육 대상자 모집 요강(공지 첨부)",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
@@ -4053,7 +4105,7 @@
 "used": [
 "n65"
 ],
-"dated": "2025-10-09",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -4094,7 +4146,7 @@
 "used": [
 "n59"
 ],
-"dated": "2025-09-16",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -4406,7 +4458,7 @@
 "id": "a804194446",
 "url": "https://www.hankyung.com/article/2026081753451",
 "host": "hankyung.com",
-"name": "한국경제(과학고 22곳 1,858명)",
+"name": "한국경제: 과학고 22곳 1,858명",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4491,7 +4543,7 @@
 "id": "8dc384c2fd",
 "url": "https://www.heraldk.com/article/2026052817450068440",
 "host": "heraldk.com",
-"name": "헤럴드경제, 2027학년도 영재학교 일정",
+"name": "헤럴드경제: 2027학년도 영재학교 일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4725,19 +4777,6 @@
 "q-courses"
 ],
 "dated": "2026-02-07",
-"cycle": "m"
-},
-{
-"id": "d1edae6e15",
-"url": "https://www.koreatimenews.com/news/article.html?no=1259179",
-"host": "koreatimenews.com",
-"name": "코리아타임뉴스 동두천양주교육지원청 2027 영재교육대상자 선발 전형",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n16"
-],
-"dated": "2026-09-14",
 "cycle": "m"
 },
 {
@@ -6082,7 +6121,6 @@
 "cat": "영재교육",
 "used": [
 "n54",
-"n59",
 "n60"
 ],
 "dated": "",
@@ -6105,12 +6143,11 @@
 "id": "14c73a1a4c",
 "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=33",
 "host": "ged.kedi.re.kr",
-"name": "GED 영재선발 공고 목록(2026-10-17 열람, 목포대 공고 없음)",
+"name": "GED 영재선발 공고 목록 33쪽",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
-"n61",
-"n65"
+"n61"
 ],
 "dated": "",
 "cycle": "w"

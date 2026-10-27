@@ -802,6 +802,30 @@ def load_targets(targets_path):
             print('자동 대상 %d곳 더함(%s)' % (len(extra), auto.get('made', '')))
         except Exception as e:
             print('자동 대상 파일을 읽지 못함:', e)
+    # 2026-10-28 대표 아침 회의 B2 '공식 경로 3단계': watch/routes.json(공식 경로 대장)의 1·2·3순위 경로를 대상에 붙인다.
+    #  대장에만 있는 기관(공식 근거가 기사뿐이던 곳 — B1)은 새 대상으로 더한다. 2·3순위도 공식 기관만, GED는 넣지 않는다.
+    rpath = os.path.join(os.path.dirname(targets_path) or '.', 'routes.json')
+    if os.path.exists(rpath):
+        try:
+            R = json.load(open(rpath, encoding='utf-8')).get('orgs', {})
+            by = {t['id']: t for t in cfg['targets']}
+            added = 0
+            for oid, o in R.items():
+                # 대장의 robots 칸은 조사 때의 간접 판정이라 거르지 않는다 — 여기서 여는 모든 주소는 Fetcher가 robots.txt를 직접 보고(정직한 이름 UA) 막히면 열지 않는다.
+                rs = [r for r in o.get('routes', []) if r.get('url') and 'ged.kedi' not in r.get('url', '') and not r.get('login') and r.get('kind') in ('board', 'post', 'site')]
+                if not rs: continue
+                routes = {}
+                for r in sorted(rs, key=lambda x: x.get('rank', 9)):
+                    routes.setdefault(int(r.get('rank', 9)), []).append({'kind': r['kind'], 'url': r['url']})
+                t = by.get(oid)
+                if t is None:
+                    t = {'id': oid, 'org': o.get('org', oid), 'what': o.get('what', '공식 공고(경로 대장)'), 'pages': [], 'title': o.get('title', ['2027']),
+                         'near': o.get('near', ['원서', '접수', '지원', '모집', '선발', '전형', '면접', '발표', '합격'])}
+                    cfg['targets'].append(t); by[oid] = t; added += 1
+                t['routes'] = [{'rank': k, 'pages': v} for k, v in sorted(routes.items())]
+            print('경로 대장 %d곳 · 새 대상 %d곳' % (len(R), added))
+        except Exception as e:
+            print('경로 대장을 읽지 못함:', e)
     return cfg
 
 
@@ -812,9 +836,26 @@ def run(targets_path, out_dir):
     F = Fetcher()
     summary = []
     for tgt in cfg['targets']:
-        res = {'id': tgt['id'], 'org': tgt['org'], 'what': tgt.get('what', ''), 'checkedAt': kst_now().strftime('%Y-%m-%dT%H:%M:%S+09:00'),
-               'opened': [], 'notices': [], 'ged': [], 'titles': [], 'files': [], 'lines': []}
-        for pg in tgt['pages']:
+        res = read_target(F, cfg, tgt, today, out_dir)
+        res['lines'] = res['lines'][:60]
+        if res.get('ocr_lines'):
+            res['ocr_lines'] = res['ocr_lines'][:30]
+        json.dump(res, open(os.path.join(out_dir, tgt['id'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        summary.append({'id': tgt['id'], 'org': tgt['org'], 'status': res['status'], 'lines': len(res['lines']), 'files': len(res['files']),
+                        'opened': len(res['opened']), 'route': res.get('route'), 'tried': res.get('tried')})
+        print(tgt['id'], tgt['org'], res['status'], 'route', res.get('route'), 'lines', len(res['lines']), 'files', len(res['files']))
+    run_info = {'at': kst_now().strftime('%Y-%m-%dT%H:%M:%S+09:00'), 'targets': len(summary),
+                'withDates': sum(1 for s in summary if s['status'] == 'dates'), 'blockedAll': [s['id'] for s in summary if s['status'] == 'blocked-all'], 'items': summary}
+    json.dump(run_info, open(os.path.join(os.path.dirname(out_dir.rstrip('/')) or '.', 'official_run.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    os.makedirs('debug', exist_ok=True)
+    json.dump(F.debug, open('debug/debug.json', 'w', encoding='utf-8', errors='replace'), ensure_ascii=False, indent=1)
+    return run_info
+
+
+def read_pages(F, cfg, tgt, pages, today):
+    res = {'id': tgt['id'], 'org': tgt['org'], 'what': tgt.get('what', ''), 'checkedAt': kst_now().strftime('%Y-%m-%dT%H:%M:%S+09:00'),
+           'opened': [], 'notices': [], 'ged': [], 'titles': [], 'files': [], 'lines': []}
+    for pg in pages:
             k = pg['kind']
             try:
                 if k == 'post':
@@ -830,30 +871,50 @@ def run(targets_path, out_dir):
                         res['opened'].append({'url': 'ged', 'status': 'paused', 'error': 'GED 자동 읽기 멈춤(이용 조건 확인 중)'})
             except Exception as e:
                 res['opened'].append({'url': pg.get('url', 'ged'), 'status': 'error', 'error': str(e)[:160]})
-        sts = [o['status'] for o in res['opened']]
-        if res['lines']:
-            res['status'] = 'dates'
-        elif res['notices'] or res['ged'] or res['titles']:
-            res['status'] = 'found-no-dates'
-        elif sts and all(s == 'robots' for s in sts):
-            res['status'] = 'robots'
-        elif any(s == 'ok' for s in sts):
-            res['status'] = 'not-found'
-        else:
-            res['status'] = 'error'
-        res['lines'] = res['lines'][:60]
-        if res.get('ocr_lines'):
-            res['ocr_lines'] = res['ocr_lines'][:30]
-        json.dump(res, open(os.path.join(out_dir, tgt['id'] + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-        summary.append({'id': tgt['id'], 'org': tgt['org'], 'status': res['status'], 'lines': len(res['lines']), 'files': len(res['files']),
-                        'opened': len(res['opened'])})
-        print(tgt['id'], tgt['org'], res['status'], 'lines', len(res['lines']), 'files', len(res['files']), sts)
-    run_info = {'at': kst_now().strftime('%Y-%m-%dT%H:%M:%S+09:00'), 'targets': len(summary),
-                'withDates': sum(1 for s in summary if s['status'] == 'dates'), 'items': summary}
-    json.dump(run_info, open(os.path.join(os.path.dirname(out_dir.rstrip('/')) or '.', 'official_run.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    os.makedirs('debug', exist_ok=True)
-    json.dump(F.debug, open('debug/debug.json', 'w', encoding='utf-8', errors='replace'), ensure_ascii=False, indent=1)
-    return run_info
+    sts = [o['status'] for o in res['opened']]
+    if res['lines']:
+        res['status'] = 'dates'
+    elif res['notices'] or res['ged'] or res['titles']:
+        res['status'] = 'found-no-dates'
+    elif sts and all(s == 'robots' for s in sts):
+        res['status'] = 'robots'
+    elif any(s == 'ok' for s in sts):
+        res['status'] = 'not-found'
+    else:
+        res['status'] = 'error'
+    return res
+
+
+GOOD = ('dates', 'found-no-dates')
+
+
+def read_target(F, cfg, tgt, today, out_dir):
+    """2026-10-28 B2: 경로가 1·2·3순위로 있으면 지난번에 찾은 순위부터 읽고, 막히거나(robots·오류) 공고를 못 찾으면 다음 순위로.
+    공고를 찾으면 거기서 멈추고 route(몇 순위)를 남긴다. 모두 막히면 status 'blocked-all'(자료 점검이 '대표 주말 직접 확인'으로 올림)."""
+    routes = tgt.get('routes') or []
+    if not routes:
+        r = read_pages(F, cfg, tgt, tgt['pages'], today); r['route'] = 1 if tgt['pages'] else None; return r
+    if tgt.get('pages'):   # 손으로 적은 pages는 1순위에 합침(앞에)
+        routes = [{'rank': 1, 'pages': list(tgt['pages']) + (routes[0]['pages'] if routes[0]['rank'] == 1 else [])}] + [x for x in routes if x['rank'] != 1]
+    last = None
+    try:
+        prev = json.load(open(os.path.join(out_dir, tgt['id'] + '.json'), encoding='utf-8'))
+        if prev.get('status') in GOOD: last = prev.get('route')
+    except Exception:
+        pass
+    order = sorted(routes, key=lambda x: (0 if x['rank'] == last else 1, x['rank']))
+    tried, best = [], None
+    for rt in order:
+        r = read_pages(F, cfg, tgt, rt['pages'], today)
+        tried.append({'rank': rt['rank'], 'status': r['status']}); r['route'] = rt['rank']
+        if r['status'] in GOOD:
+            best = r; break
+        if best is None or (best['status'] in ('robots', 'error') and r['status'] == 'not-found'):
+            best = r
+    if all(x['status'] in ('robots', 'error') for x in tried):
+        best['status'] = 'blocked-all'
+    best['tried'] = tried
+    return best
 
 
 if __name__ == '__main__':
