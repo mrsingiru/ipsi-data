@@ -2,147 +2,32 @@
  "id": "n12",
  "org": "인천 고입(외고·국제고·광역 자사고·후기 일반고)",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-10-28T08:00:17+09:00",
+ "checkedAt": "2026-10-28T09:22:36+09:00",
  "opened": [
   {
    "url": "https://www.ice.go.kr/ice/na/ntt/selectNttList.do?mi=10889&bbsId=1618",
    "status": "ok"
-  },
-  {
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196",
-   "status": "ok"
-  },
-  {
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382895",
-   "status": "ok"
-  },
-  {
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382836",
-   "status": "ok"
   }
  ],
- "notices": [
-  {
-   "title": "2027학년도 인천광역시 평준화지역 일반고등학교 입학 전 배정 계획 알림",
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
-  },
-  {
-   "title": "2027학년도 인천광역시 고등학교 입학전형 실시계획",
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382895"
-  },
-  {
-   "title": "2027학년도 외국어고·국제고·자율형사립고 신입생 입학전형 요강",
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382836"
-  }
- ],
+ "notices": [],
  "ged": [],
- "titles": [
-  {
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196",
-   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
-  },
-  {
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382895",
-   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
-  },
-  {
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382836",
-   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
-  }
- ],
+ "titles": [],
  "files": [],
- "lines": [
-  {
-   "text": "2. 원서접수: 2027. 2. 1.(월) ~ 2. 4.(목) 4일간, 09:00~17:00",
-   "dates": [
-    "2027-02-01",
-    "2027-02-04"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
-  },
-  {
-   "text": "→ 원서 접수 기간 이후부터는 2027. 3. 2.(화)부터 전입학 신청 가능함",
-   "dates": [
-    "2027-03-02"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
-  },
-  {
-   "text": "- 점심시간(12:00~13:00)은 접수 받지 않음 | (2027.3.2자 전입학 계획을 1월 말 고등학교입학자료실에 게시예정)",
-   "dates": [
-    "2027-03-02"
-   ],
-   "words": [
-    "접수"
-   ],
-   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
-  },
-  {
-   "text": "3. 접수처: 인천광역시교육청 신관 지하1층 고입전형본부 | 4. 배정 추첨: 2027. 2. 11.(목) 09:30, 교육청 지정장소",
-   "dates": [
-    "2027-02-11"
-   ],
-   "words": [
-    "접수",
-    "전형"
-   ],
-   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
-  },
-  {
-   "text": "5. 배정 발표: 2027. 2. 11.(목) 16:00(예정) → 문자메시지 통보",
-   "dates": [
-    "2027-02-11"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
-  },
-  {
-   "text": "□ 2월 1일(월), 2일(화) 오전 시간은 혼잡이 예상되며, 접수 시까지 1시간 이상 소요 가능",
-   "dates": [
-    "2027-02-01"
-   ],
-   "words": [
-    "접수"
-   ],
-   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
-  },
-  {
-   "text": "2027학년도 인천광역시 고등학교 입학전형 실시계획 | 2026.08.28.",
-   "dates": [
-    "2026-08-28"
-   ],
-   "words": [
-    "전형"
-   ],
-   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382895"
-  },
-  {
-   "text": "2027학년도 외국어고·국제고·자율형사립고 신입생 입학전형 요강 | 2026.08.27.",
-   "dates": [
-    "2026-08-27"
-   ],
-   "words": [
-    "전형"
-   ],
-   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382836"
-  }
- ],
- "status": "dates",
+ "lines": [],
+ "status": "not-found",
  "route": 1,
  "tried": [
   {
    "rank": 1,
-   "status": "dates"
+   "status": "not-found"
+  },
+  {
+   "rank": 2,
+   "status": "not-found"
+  },
+  {
+   "rank": 3,
+   "status": "not-found"
   }
  ]
 }

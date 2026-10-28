@@ -2,7 +2,7 @@
  "id": "n69",
  "org": "제주 고입",
  "what": "앞으로 120일 안 일정 2단계",
- "checkedAt": "2026-10-28T07:59:39+09:00",
+ "checkedAt": "2026-10-28T09:21:56+09:00",
  "opened": [
   {
    "url": "https://school.jje.go.kr/jejufl/na/ntt/selectNttList.do?mi=109223&bbsId=129168",
@@ -37,10 +37,6 @@
  "status": "found-no-dates",
  "route": 2,
  "tried": [
-  {
-   "rank": 1,
-   "status": "robots"
-  },
   {
    "rank": 2,
    "status": "found-no-dates"
