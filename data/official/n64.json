@@ -2,7 +2,7 @@
  "id": "n64",
  "org": "광양제철고",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-10-28T09:24:31+09:00",
+ "checkedAt": "2026-10-29T06:35:38+09:00",
  "opened": [
   {
    "url": "https://www.posef.or.kr/06_center/01.jsp?bid=1",
@@ -53,7 +53,7 @@
  "files": [
   {
    "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5151&bid=notice",
-   "name": "붙임3. 개인정보 수집 및 이용 동의서(서식3).hwp(54 KB), Download: 62",
+   "name": "붙임3. 개인정보 수집 및 이용 동의서(서식3).hwp(54 KB), Download: 66",
    "status": "ok",
    "type": "hwp",
    "bytes": 55808,
@@ -61,7 +61,7 @@
   },
   {
    "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5152&bid=notice",
-   "name": "붙임2. 자기소개서(서식2).hwp(70 KB), Download: 64",
+   "name": "붙임2. 자기소개서(서식2).hwp(70 KB), Download: 68",
    "status": "ok",
    "type": "hwp",
    "bytes": 71680,
@@ -69,7 +69,7 @@
   },
   {
    "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5153&bid=notice",
-   "name": "붙임1. 응시원서(서식1).hwp(88 KB), Download: 65",
+   "name": "붙임1. 응시원서(서식1).hwp(88 KB), Download: 69",
    "status": "ok",
    "type": "hwp",
    "bytes": 90624,
@@ -77,7 +77,7 @@
   },
   {
    "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5154&bid=notice",
-   "name": "2027학년도 교원 신규채용 공고문(중등 전남).pdf(483 KB), Download: 155",
+   "name": "2027학년도 교원 신규채용 공고문(중등 전남).pdf(483 KB), Download: 159",
    "status": "ok",
    "type": "pdf",
    "bytes": 495407,
@@ -85,7 +85,7 @@
   },
   {
    "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5147&bid=notice",
-   "name": "붙임3. 개인정보 수집 및 이용 동의서(서식3).hwp(54 KB), Download: 87",
+   "name": "붙임3. 개인정보 수집 및 이용 동의서(서식3).hwp(54 KB), Download: 90",
    "status": "ok",
    "type": "hwp",
    "bytes": 55808,
@@ -93,7 +93,7 @@
   },
   {
    "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5148&bid=notice",
-   "name": "붙임2. 자기소개서(서식2).hwp(70 KB), Download: 110",
+   "name": "붙임2. 자기소개서(서식2).hwp(70 KB), Download: 114",
    "status": "ok",
    "type": "hwp",
    "bytes": 71680,
@@ -101,7 +101,7 @@
   },
   {
    "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5143&bid=notice",
-   "name": "2027학년도 교원 신규채용 공고문(초등 전남).pdf(529 KB), Download: 104",
+   "name": "2027학년도 교원 신규채용 공고문(초등 전남).pdf(529 KB), Download: 107",
    "status": "ok",
    "type": "pdf",
    "bytes": 542653,
