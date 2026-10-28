@@ -1,7 +1,7 @@
 {
-"note": "페이지(공개판 v28.70)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.72)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-10-28",
-"ver": "v28.70",
+"ver": "v28.72",
 "count": 530,
 "sources": [
 {
@@ -1776,7 +1776,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -4458,7 +4458,7 @@
 "id": "a804194446",
 "url": "https://www.hankyung.com/article/2026081753451",
 "host": "hankyung.com",
-"name": "한국경제: 과학고 22곳 1,858명",
+"name": "한국경제(과학고 22곳 1,858명)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -5841,7 +5841,7 @@
 "id": "ebff52a5ad",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
 "host": "veritas-a.com",
-"name": "베리타스알파 '고입캘린더 (26/10/09~)'",
+"name": "베리타스알파: 고입 캘린더(2026-10-05)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -6519,7 +6519,7 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
+"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사 신입생 선발 모집 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
