@@ -1,9 +1,10 @@
 {
- "at": "2026-10-29T06:36:56+09:00",
+ "at": "2026-10-30T06:39:18+09:00",
  "targets": 71,
- "withDates": 47,
+ "withDates": 48,
  "blockedAll": [
   "n33",
+  "n41",
   "n62",
   "n63",
   "n80",
@@ -337,15 +338,15 @@
   {
    "id": "n48",
    "org": "민족사관고",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 1,
-   "opened": 2,
+   "status": "dates",
+   "lines": 5,
+   "files": 2,
+   "opened": 4,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "dates"
     }
    ]
   },
@@ -423,7 +424,7 @@
    "id": "n38",
    "org": "청주교대 영재원",
    "status": "dates",
-   "lines": 28,
+   "lines": 22,
    "files": 8,
    "opened": 4,
    "route": 1,
@@ -690,15 +691,23 @@
   {
    "id": "n41",
    "org": "충남과학고",
-   "status": "found-no-dates",
+   "status": "blocked-all",
    "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 1,
    "route": 2,
    "tried": [
     {
      "rank": 2,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ]
   },
@@ -732,18 +741,18 @@
    "lines": 0,
    "files": 0,
    "opened": 1,
-   "route": 3,
+   "route": 1,
    "tried": [
-    {
-     "rank": 3,
-     "status": "robots"
-    },
     {
      "rank": 1,
      "status": "robots"
     },
     {
      "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
      "status": "robots"
     }
    ]
@@ -778,7 +787,7 @@
     },
     {
      "rank": 2,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 3,

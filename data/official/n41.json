@@ -2,62 +2,32 @@
  "id": "n41",
  "org": "충남과학고",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-10-29T06:34:29+09:00",
+ "checkedAt": "2026-10-30T06:35:50+09:00",
  "opened": [
   {
    "url": "https://jinhak.cne.go.kr/",
-   "status": "ok"
-  },
-  {
-   "url": "https://jinhak.cne.go.kr/center_info/notice/detail?idx=789",
-   "status": "ok"
-  },
-  {
-   "url": "https://jinhak.cne.go.kr/center_info/notice/detail?idx=788",
-   "status": "ok"
-  },
-  {
-   "url": "https://jinhak.cne.go.kr/center_info/notice/detail?idx=786",
-   "status": "ok"
+   "status": "robots"
   }
  ],
- "notices": [
-  {
-   "title": "2027학년도 대학별 입학전형 설명회(고려대,연세대 ) 자료집(교사용) 및 일정 안내 2026-05-21",
-   "url": "https://jinhak.cne.go.kr/center_info/notice/detail?idx=789"
-  },
-  {
-   "title": "2027학년도 대학별 입학전형 설명회(고려대,연세대 ) 자료집(보호자용) 및 일정 안내 2026-05-21",
-   "url": "https://jinhak.cne.go.kr/center_info/notice/detail?idx=788"
-  },
-  {
-   "title": "2027학년도 대학별 입학전형 설명회(서울권대학 Ⅱ) 보호자 장소변경 안내 2026-05-19",
-   "url": "https://jinhak.cne.go.kr/center_info/notice/detail?idx=786"
-  }
- ],
+ "notices": [],
  "ged": [],
- "titles": [
-  {
-   "url": "https://jinhak.cne.go.kr/center_info/notice/detail?idx=789",
-   "title": "충남진학있슈"
-  },
-  {
-   "url": "https://jinhak.cne.go.kr/center_info/notice/detail?idx=788",
-   "title": "충남진학있슈"
-  },
-  {
-   "url": "https://jinhak.cne.go.kr/center_info/notice/detail?idx=786",
-   "title": "충남진학있슈"
-  }
- ],
+ "titles": [],
  "files": [],
  "lines": [],
- "status": "found-no-dates",
+ "status": "blocked-all",
  "route": 2,
  "tried": [
   {
    "rank": 2,
-   "status": "found-no-dates"
+   "status": "robots"
+  },
+  {
+   "rank": 1,
+   "status": "robots"
+  },
+  {
+   "rank": 3,
+   "status": "robots"
   }
  ]
 }

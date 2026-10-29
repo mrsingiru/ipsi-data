@@ -2,10 +2,14 @@
  "id": "n12",
  "org": "인천 고입(외고·국제고·광역 자사고·후기 일반고)",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-10-29T06:33:09+09:00",
+ "checkedAt": "2026-10-30T06:34:31+09:00",
  "opened": [
   {
    "url": "https://www.ice.go.kr/ice/na/ntt/selectNttList.do?mi=10889&bbsId=1618",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387628",
    "status": "ok"
   },
   {
@@ -15,13 +19,13 @@
   {
    "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382895",
    "status": "ok"
-  },
-  {
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382836",
-   "status": "ok"
   }
  ],
  "notices": [
+  {
+   "title": "N 2027학년도 특수지 일반고 신입생 입학전형 요강",
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387628"
+  },
   {
    "title": "2027학년도 인천광역시 평준화지역 일반고등학교 입학 전 배정 계획 알림",
    "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
@@ -29,14 +33,14 @@
   {
    "title": "2027학년도 인천광역시 고등학교 입학전형 실시계획",
    "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382895"
-  },
-  {
-   "title": "2027학년도 외국어고·국제고·자율형사립고 신입생 입학전형 요강",
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382836"
   }
  ],
  "ged": [],
  "titles": [
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387628",
+   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
+  },
   {
    "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196",
    "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
@@ -44,14 +48,20 @@
   {
    "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382895",
    "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
-  },
-  {
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382836",
-   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
   }
  ],
  "files": [],
  "lines": [
+  {
+   "text": "2027학년도 특수지 일반고 신입생 입학전형 요강 | 2026.10.29.",
+   "dates": [
+    "2026-10-29"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387628"
+  },
   {
    "text": "2. 원서접수: 2027. 2. 1.(월) ~ 2. 4.(목) 4일간, 09:00~17:00",
    "dates": [
@@ -125,16 +135,6 @@
     "전형"
    ],
    "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382895"
-  },
-  {
-   "text": "2027학년도 외국어고·국제고·자율형사립고 신입생 입학전형 요강 | 2026.08.27.",
-   "dates": [
-    "2026-08-27"
-   ],
-   "words": [
-    "전형"
-   ],
-   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382836"
   }
  ],
  "status": "dates",

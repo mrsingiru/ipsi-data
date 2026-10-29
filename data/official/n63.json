@@ -2,10 +2,10 @@
  "id": "n63",
  "org": "전남 고입(2027 고입 기본계획)",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-10-29T06:35:07+09:00",
+ "checkedAt": "2026-10-30T06:37:21+09:00",
  "opened": [
   {
-   "url": "https://mped.jne.go.kr/data/attach_data/muan/mped/k2board/na/bbs_10379/ntt_1800756706/doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf",
+   "url": "https://www.jne.go.kr/upload/main/na/bbs_139/ntt_5172377/doc_2426288a-7b58-4f3f-9aa9-166090cb3f601774a3335b69743.pdf",
    "status": "robots"
   }
  ],
@@ -15,18 +15,18 @@
  "files": [],
  "lines": [],
  "status": "blocked-all",
- "route": 3,
+ "route": 1,
  "tried": [
-  {
-   "rank": 3,
-   "status": "robots"
-  },
   {
    "rank": 1,
    "status": "robots"
   },
   {
    "rank": 2,
+   "status": "robots"
+  },
+  {
+   "rank": 3,
    "status": "robots"
   }
  ]

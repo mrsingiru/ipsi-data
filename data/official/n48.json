@@ -2,7 +2,7 @@
  "id": "n48",
  "org": "민족사관고",
  "what": "원서 접수 — 강원교육청 2027 고입 기본계획(HWP 첨부, 다른 기관의 공식 글 · 학교 누리집은 robots로 막힘)",
- "checkedAt": "2026-10-29T06:22:12+09:00",
+ "checkedAt": "2026-10-30T06:24:03+09:00",
  "opened": [
   {
    "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513",
@@ -10,15 +10,40 @@
   },
   {
    "url": "https://www.minjok.hs.kr/",
-   "status": "robots"
+   "status": "ok"
+  },
+  {
+   "url": "https://www.minjok.hs.kr/board/bbs513/1438",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.minjok.hs.kr/board/bbs513/1437",
+   "status": "ok"
   }
  ],
- "notices": [],
+ "notices": [
+  {
+   "title": "30 2026.09 2027학년도 신입학전형 서류양식 공지 및 유의 사항 2027학년도 신입학전형 서류양식을 공지합니다.■ 공지 서류 목록: 1. 2027학년도 신입학전형 입학원서 2. 2027학년도 신입학전형 자기",
+   "url": "https://www.minjok.hs.kr/board/bbs513/1438"
+  },
+  {
+   "title": "01 2026.09 2027학년도 민족사관고등학교 신입생 모집요강 공고 2027학년도 민족사관고등학교 신입생 모집요강을 공고합니다.☞ 2027학년도 민족사관고등학교 신입생 모집 요강 바로가기민족사관고등학교 입학홍보팀",
+   "url": "https://www.minjok.hs.kr/board/bbs513/1437"
+  }
+ ],
  "ged": [],
  "titles": [
   {
    "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513",
    "title": "강원특별자치도교육청 - 고입자료실"
+  },
+  {
+   "url": "https://www.minjok.hs.kr/board/bbs513/1438",
+   "title": "민족사관고등학교"
+  },
+  {
+   "url": "https://www.minjok.hs.kr/board/bbs513/1437",
+   "title": "민족사관고등학교"
   }
  ],
  "files": [
@@ -29,15 +54,77 @@
    "type": "hwp",
    "bytes": 219136,
    "sha1": "b74f96640178"
+  },
+  {
+   "url": "https://www.minjok.hs.kr/board/bbs513/download/1437/1",
+   "name": "2027학년도 민족사관고 신입생 모집요강.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 538497,
+   "sha1": "adab417f51c0"
   }
  ],
- "lines": [],
- "status": "found-no-dates",
+ "lines": [
+  {
+   "text": "2027학년도 민족사관고등학교 신입생 모집요강 공고 | 2026-09-01",
+   "dates": [
+    "2026-09-01"
+   ],
+   "words": [
+    "민족사관"
+   ],
+   "src": "https://www.minjok.hs.kr/board/bbs513/1437"
+  },
+  {
+   "text": "민족사관고등학교 신입생 모집 요강 | 2026. 8. 25.",
+   "dates": [
+    "2026-08-25"
+   ],
+   "words": [
+    "민족사관"
+   ],
+   "src": "https://www.minjok.hs.kr/board/bbs513/download/1437/1"
+  },
+  {
+   "text": "민족사관고 홈페이지 | 우편 제출 2026. 12. 8(화)~12. 10(목) ※ 12. 10(목) 소인 분까지 유효",
+   "dates": [
+    "2026-12-08",
+    "2026-12-10",
+    "2026-12-10"
+   ],
+   "words": [
+    "민족사관"
+   ],
+   "src": "https://www.minjok.hs.kr/board/bbs513/download/1437/1"
+  },
+  {
+   "text": "민족사관고 입학관리실 | 2026. 12. 17(목) 오전 10시",
+   "dates": [
+    "2026-12-17"
+   ],
+   "words": [
+    "민족사관"
+   ],
+   "src": "https://www.minjok.hs.kr/board/bbs513/download/1437/1"
+  },
+  {
+   "text": "민족사관고 홈페이지 | 2027. 1. 4(월)~1. 6(수)",
+   "dates": [
+    "2027-01-04",
+    "2027-01-06"
+   ],
+   "words": [
+    "민족사관"
+   ],
+   "src": "https://www.minjok.hs.kr/board/bbs513/download/1437/1"
+  }
+ ],
+ "status": "dates",
  "route": 1,
  "tried": [
   {
    "rank": 1,
-   "status": "found-no-dates"
+   "status": "dates"
   }
  ]
 }
