@@ -2,7 +2,7 @@
  "id": "n95",
  "org": "경남과학고",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-10-30T06:38:47+09:00",
+ "checkedAt": "2026-10-31T06:35:14+09:00",
  "opened": [
   {
    "url": "https://gshs-h.gne.go.kr/gshs-h/main.do",
@@ -81,12 +81,12 @@
   },
   {
    "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=be87212c5303a8f2b3518357f2b99b4d",
-   "name": "경남고입_원서접수_사용자매뉴얼_과학고지원자용.pdf (다운로드 : 1151회)",
+   "name": "경남고입_원서접수_사용자매뉴얼_과학고지원자용.pdf (다운로드 : 1158회)",
    "status": "robots"
   },
   {
    "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=6f916839f11640c5b45a7f88204a7f00",
-   "name": "경남고입_추천서_추천인매뉴얼_과학고추천인용.pdf (다운로드 : 733회)",
+   "name": "경남고입_추천서_추천인매뉴얼_과학고추천인용.pdf (다운로드 : 740회)",
    "status": "robots"
   }
  ],

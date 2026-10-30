@@ -1,10 +1,11 @@
 {
- "at": "2026-10-30T06:39:18+09:00",
+ "at": "2026-10-31T06:35:45+09:00",
  "targets": 71,
- "withDates": 48,
+ "withDates": 44,
  "blockedAll": [
+  "n69",
+  "n31",
   "n33",
-  "n41",
   "n62",
   "n63",
   "n80",
@@ -113,20 +114,20 @@
   {
    "id": "n44",
    "org": "공주대 영재원",
-   "status": "dates",
-   "lines": 7,
-   "files": 6,
-   "opened": 3,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
    "route": 1,
    "tried": null
   },
   {
    "id": "n68",
    "org": "제주과학고",
-   "status": "found-no-dates",
+   "status": "robots",
    "lines": 0,
-   "files": 3,
-   "opened": 2,
+   "files": 0,
+   "opened": 1,
    "route": 1,
    "tried": null
   },
@@ -223,30 +224,46 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "dates",
-   "lines": 6,
-   "files": 5,
-   "opened": 6,
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "dates",
-   "lines": 6,
-   "files": 2,
-   "opened": 6,
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
@@ -293,15 +310,23 @@
   {
    "id": "n13",
    "org": "인천하늘고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 2,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ]
   },
@@ -523,15 +548,23 @@
   {
    "id": "n69",
    "org": "제주 고입",
-   "status": "found-no-dates",
+   "status": "blocked-all",
    "lines": 0,
-   "files": 1,
-   "opened": 2,
+   "files": 0,
+   "opened": 1,
    "route": 2,
    "tried": [
     {
      "rank": 2,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ]
   },
@@ -608,15 +641,23 @@
   {
    "id": "n12",
    "org": "인천 고입(외고·국제고·광역 자사고·후기 일반고)",
-   "status": "dates",
-   "lines": 8,
+   "status": "not-found",
+   "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 1,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
@@ -638,15 +679,23 @@
   {
    "id": "n31",
    "org": "충남대학교 과학영재교육원",
-   "status": "dates",
-   "lines": 60,
-   "files": 6,
-   "opened": 4,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ]
   },
@@ -676,38 +725,42 @@
   {
    "id": "n34",
    "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 5,
+   "status": "dates",
+   "lines": 15,
+   "files": 6,
    "opened": 3,
-   "route": 1,
+   "route": 3,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "dates"
     }
    ]
   },
   {
    "id": "n41",
    "org": "충남과학고",
-   "status": "blocked-all",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 1,
+   "opened": 4,
    "route": 2,
    "tried": [
-    {
-     "rank": 2,
-     "status": "robots"
-    },
     {
      "rank": 1,
      "status": "robots"
     },
     {
-     "rank": 3,
-     "status": "robots"
+     "rank": 2,
+     "status": "found-no-dates"
     }
    ]
   },
@@ -787,7 +840,7 @@
     },
     {
      "rank": 2,
-     "status": "robots"
+     "status": "not-found"
     },
     {
      "rank": 3,

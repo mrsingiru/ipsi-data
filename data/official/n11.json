@@ -2,7 +2,7 @@
  "id": "n11",
  "org": "인천진산과학고",
  "what": "2027 신입생 입학전형(학교 누리집 입학 공지) · 인천 고입 요강 공고",
- "checkedAt": "2026-10-30T06:23:00+09:00",
+ "checkedAt": "2026-10-31T06:20:06+09:00",
  "opened": [
   {
    "url": "https://ijss.icehs.kr/",
@@ -15,147 +15,27 @@
   {
    "url": "https://ijss.icehs.kr/boardCnts/list.do?boardID=35545&m=0801&s=ijss",
    "status": "ok"
-  },
-  {
-   "url": "https://ijss.icehs.kr/boardCnts/view.do?boardID=35545&boardSeq=34158270&lev=0&m=0801&s=ijss",
-   "status": "ok"
-  },
-  {
-   "url": "https://ijss.icehs.kr/boardCnts/view.do?boardID=35545&boardSeq=34072098&lev=0&m=0801&s=ijss",
-   "status": "ok"
-  },
-  {
-   "url": "https://ijss.icehs.kr/boardCnts/view.do?boardID=35545&boardSeq=34053628&lev=0&m=0801&s=ijss",
-   "status": "ok"
   }
  ],
- "notices": [
-  {
-   "title": "2027학년도 신입생 입학전형 2단계 출석면담 대상자 발표",
-   "url": "https://ijss.icehs.kr/boardCnts/view.do?boardID=35545&boardSeq=34158270&lev=0&m=0801&s=ijss"
-  },
-  {
-   "title": "2027학년도 인천진산과학고등학교 신입생 입학전형 최종 경쟁률 안내",
-   "url": "https://ijss.icehs.kr/boardCnts/view.do?boardID=35545&boardSeq=34072098&lev=0&m=0801&s=ijss"
-  },
-  {
-   "title": "2027학년도 신입생 입학원서 접수 및 서류제출 장소 안내",
-   "url": "https://ijss.icehs.kr/boardCnts/view.do?boardID=35545&boardSeq=34053628&lev=0&m=0801&s=ijss"
-  }
- ],
+ "notices": [],
  "ged": [],
- "titles": [
-  {
-   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
-   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
-  },
-  {
-   "url": "https://ijss.icehs.kr/boardCnts/view.do?boardID=35545&boardSeq=34158270&lev=0&m=0801&s=ijss",
-   "title": "입학공지사항 ＜ 입학안내"
-  },
-  {
-   "url": "https://ijss.icehs.kr/boardCnts/view.do?boardID=35545&boardSeq=34072098&lev=0&m=0801&s=ijss",
-   "title": "입학공지사항 ＜ 입학안내"
-  },
-  {
-   "url": "https://ijss.icehs.kr/boardCnts/view.do?boardID=35545&boardSeq=34053628&lev=0&m=0801&s=ijss",
-   "title": "입학공지사항 ＜ 입학안내"
-  }
- ],
- "files": [
-  {
-   "url": "https://ijss.icehs.kr/boardCnts/fileDown.do?fileSeq=378a0476166c65052a65f81f28068b94",
-   "name": "2027학년도 신입생 입학전형 출석면담 안내 및 유의사항.hwp",
-   "status": "ok",
-   "type": "hwp",
-   "bytes": 1517056,
-   "sha1": "5219d5f6001e"
-  },
-  {
-   "url": "https://ijss.icehs.kr/images/template/10371/sub/S_visual.png",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 608708,
-   "sha1": "83e4c43e53c4",
-   "lines": 0
-  }
- ],
- "lines": [
-  {
-   "text": "가. 발표기간: 2026.9.18.(금) 17:00 - 9.20.(일) 24:00",
-   "dates": [
-    "2026-09-18",
-    "2026-09-20"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://ijss.icehs.kr/boardCnts/view.do?boardID=35545&boardSeq=34158270&lev=0&m=0801&s=ijss"
-  },
-  {
-   "text": "가. 출석면담은 10.1(목) 부터 10.30(금) 중에 실시되며 면담일은 해당일 일주일 전 개별문자 및 소속 중학교에 공문으로 안내 드립니다.",
-   "dates": [
-    "2026-10-01",
-    "2026-10-30"
-   ],
-   "words": [
-    "면담"
-   ],
-   "src": "https://ijss.icehs.kr/boardCnts/view.do?boardID=35545&boardSeq=34158270&lev=0&m=0801&s=ijss"
-  },
-  {
-   "text": "10월 1일(목)~10월 30일(금) : 개인별 출석면담일은 해당일 1주전 소속 중학교로 공문 발송",
-   "dates": [
-    "2026-10-01",
-    "2026-10-30"
-   ],
-   "words": [
-    "면담"
-   ],
-   "src": "https://ijss.icehs.kr/boardCnts/fileDown.do?fileSeq=378a0476166c65052a65f81f28068b94"
-  },
-  {
-   "text": "※ 반입 금지 물품을 소지한 경우, 면담 전 감독관에게 문의할 것 | ○ 입학전형 운영기간(10월1일∼10월30일)에 개인위생 및 건강관리에 유의해주시기 바람",
-   "dates": [
-    "2026-10-01",
-    "2026-10-30"
-   ],
-   "words": [
-    "면담"
-   ],
-   "src": "https://ijss.icehs.kr/boardCnts/fileDown.do?fileSeq=378a0476166c65052a65f81f28068b94"
-  },
-  {
-   "text": "2) 온라인접수(진학어플라이) 사이트 서명 한 스캔 파일 업로드 : 입학원서, 개인정보 제공 및 이용동의서 | 다. 기간 : 2026. 8. 24.(월) 09:00 ~ 2026. 8. 26.(수) 22:00",
-   "dates": [
-    "2026-08-24",
-    "2026-08-26"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://ijss.icehs.kr/boardCnts/view.do?boardID=35545&boardSeq=34053628&lev=0&m=0801&s=ijss"
-  },
-  {
-   "text": "2. 서류제출(방문 또는 등기우편 접수) | 나. 제출방법: 서류확인을 위해 방문제출을 권장하며 불가피한 경우 등기우편 제출(2026. 8. 27.(목)까지 소인 유효)",
-   "dates": [
-    "2026-08-27"
-   ],
-   "words": [
-    "접수"
-   ],
-   "src": "https://ijss.icehs.kr/boardCnts/view.do?boardID=35545&boardSeq=34053628&lev=0&m=0801&s=ijss"
-  }
- ],
- "status": "dates",
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "not-found",
  "route": 1,
  "tried": [
   {
    "rank": 1,
-   "status": "dates"
+   "status": "not-found"
+  },
+  {
+   "rank": 2,
+   "status": "not-found"
+  },
+  {
+   "rank": 3,
+   "status": "not-found"
   }
  ]
 }
