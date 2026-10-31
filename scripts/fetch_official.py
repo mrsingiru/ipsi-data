@@ -690,10 +690,15 @@ def read_post_html(F, html, final, tgt, today, res, depth_files=True):
         res['titles'].append({'url': final, 'title': title})
 
 
+# 2026-10-31 (대표 22:30 '광양도 고쳐줘' 추천안 승인): 학교·재단 게시판에 같이 올라오는 교직원 채용 글은 입시 공고가 아님 — 포스코교육재단 '교사 임용후보자 선정경쟁시험'
+#  공고의 면접·발표 날짜 15줄을 광양제철고 입시 날짜로 읽었음(1/18~19 최종면접 등). 운영실 '공고 찾는 곳'(ipsi-site tools/k1_help.py)과 같은 뜻으로 거름.
+STAFF = re.compile(r'임용|채용|선정경쟁시험|기간제|계약제|시간강사|교원\s*(모집|선발|공개)|직원\s*(모집|선발|공개)|강사\s*(모집|선발)|교사\s*(모집|선발|공개전형)')
+
+
 def pick_notices(links, words):
     out = []
     for t, u in links:
-        if not t or denied(t):
+        if not t or denied(t) or STAFF.search(t):
             continue
         if all(w in t for w in words) and any(w in t for w in ('모집', '선발', '요강', '공고', '전형', '입학')):
             out.append((t, u))
