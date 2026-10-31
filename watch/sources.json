@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.72)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-10-28",
-"ver": "v28.72",
-"count": 530,
+"note": "페이지(공개판 v28.79)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-10-31",
+"ver": "v28.79",
+"count": 563,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -613,7 +613,7 @@
 "id": "997cb8ad04",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
 "host": "home.pen.go.kr",
-"name": "후기고(특목고, 자사고, 학교장전형고), 부산광역시교육청 고입포털",
+"name": "부산광역시교육청 고입포털 후기고(특목고·자사고·학교장전형고) 안내",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1693,6 +1693,19 @@
 "cycle": "m"
 },
 {
+"id": "6962b68f9e",
+"url": "https://bjsm.bmj.com/content/53/10/640",
+"host": "bjsm.bmj.com",
+"name": "Singh 외 2019, 신체활동 중재와 인지·학업 성취 체계적 검토(Br J Sports Med 53(10):640)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-exercise-study"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
 "id": "7a9e995c26",
 "url": "https://clik.nanet.go.kr/clikr-collection/policyinfo/202/1010/2025/CLIKC1971683520105534_attach_2.pdf",
 "host": "clik.nanet.go.kr",
@@ -1703,6 +1716,58 @@
 "q-hw-edubenefit"
 ],
 "dated": "",
+"cycle": "m"
+},
+{
+"id": "ebe280245a",
+"url": "https://doaj.org/article/8b3371303a5a4d2c88dd26e236f64089",
+"host": "doaj.org",
+"name": "Böttger·Zierer 2024, To Ban or Not to Ban?(Education Sciences 14(8):906, doi:10.3390/educsci14080906)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "4e956c4d44",
+"url": "https://educationendowmentfoundation.org.uk/projects-and-evaluation/projects/magic-breakfast",
+"host": "educationendowmentfoundation.org.uk",
+"name": "Education Endowment Foundation, Magic Breakfast 무작위 실험 평가(2016, 2019-12 수정)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-breakfast"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "54f52a2bd8",
+"url": "https://eprints.whiterose.ac.uk/id/eprint/85828/",
+"host": "eprints.whiterose.ac.uk",
+"name": "Adolphus·Lawton·Dye 2013, 아침식사와 아동·청소년 행동·학업 체계적 검토(Front Hum Neurosci 7:425)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-breakfast"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "8de97bc4db",
+"url": "https://forrt.org/flora-replication-atlas/doi/10.1086/691462/",
+"host": "forrt.org",
+"name": "FLoRA 재현 기록: Ward 외 2017 'Brain Drain' — Ruiz Pardo·Minda 2022(Acta Psychologica, doi:10.1016/j.actpsy.2022.103717) 재현 실",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-phone-grades"
+],
+"dated": "2026-10-27",
 "cycle": "m"
 },
 {
@@ -1729,6 +1794,88 @@
 "q-hs-credit"
 ],
 "dated": "2026-10-25",
+"cycle": "m"
+},
+{
+"id": "19435813b6",
+"url": "https://ifn.se/en/publications/scientific-articles-in-english/2020/2020-56",
+"host": "ifn.se",
+"name": "Kessel 외 2020, 스웨덴 학교 휴대폰 금지 효과(Econ Educ Rev 77, doi:10.1016/j.econedurev.2020.102009)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "1c2da34430",
+"url": "https://www.index.go.kr/unify/idx-info.do?idxCd=3061",
+"host": "index.go.kr",
+"name": "e-나라지표: 스마트폰 과의존위험군 비율(국가승인통계 제120019호)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-life-phone-grades"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "e62d45e431",
+"url": "https://jamanetwork.com/journals/jamapediatrics/article-abstract/2751330",
+"host": "jamanetwork.com",
+"name": "Adelantado-Renau 외 2019, 화면 미디어 사용과 학업 성취 메타분석(JAMA Pediatrics, doi:10.1001/jamapediatrics.2019.3176)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-phone-grades"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "5be8fb1aa7",
+"url": "https://jhr.uwpress.org/node/16076",
+"host": "jhr.uwpress.org",
+"name": "Abrahamsson 2026, Smartphone Bans, Student Outcomes and Mental Health(J Human Resources, doi:10.3368/jhr.0224-13403R2)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "f69a3e3b9c",
+"url": "https://kdca.go.kr/bbs/kdca/42/309411/download.do",
+"host": "kdca.go.kr",
+"name": "질병관리청 보도자료: 제7차연도(2025) 청소년건강패널조사 추적조사 결과(2026-08-03)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-life-breakfast",
+"q-life-exercise-study"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "4ba8d14d47",
+"url": "https://www.kdca.go.kr/bbs/kdca/42/215505/artclView.do",
+"host": "kdca.go.kr",
+"name": "질병관리청 청소년건강행태조사 2025년 주요결과(2025-12-04 게시)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-life-breakfast",
+"q-life-cram-sleep",
+"q-life-exercise-study",
+"q-life-phone-grades"
+],
+"dated": "2026-10-27",
 "cycle": "m"
 },
 {
@@ -1760,6 +1907,19 @@
 "cycle": "m"
 },
 {
+"id": "54635e324d",
+"url": "https://www.mafra.go.kr/bbs/mafra/68/326885/artclView.do",
+"host": "mafra.go.kr",
+"name": "농림축산식품부 보도자료: 정부, 「한국인을 위한 식생활지침」 발표(2021-04-14)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-life-breakfast"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
 "id": "6b86d32b2c",
 "url": "https://mods.go.kr/board.es?mid=a10301010000&bid=245&act=view&list_no=443953",
 "host": "mods.go.kr",
@@ -1776,13 +1936,66 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
 "n65"
 ],
 "dated": "2026-10-01",
+"cycle": "m"
+},
+{
+"id": "caa8a73b50",
+"url": "https://nber.org/digest/202512/school-cell-phone-bans-and-student-achievement",
+"host": "nber.org",
+"name": "Figlio·Özek, NBER 워킹페이퍼 34388(2025, 심사 전) 요약",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "1b00acee53",
+"url": "https://www.ncbi.nlm.nih.gov/books/NBK566046/",
+"host": "ncbi.nlm.nih.gov",
+"name": "WHO Guidelines on Physical Activity and Sedentary Behaviour(2020), NCBI Bookshelf",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-life-exercise-study",
+"q-life-phone-grades"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "248099ebde",
+"url": "https://openstax.org/books/introductory-business-statistics-2e/pages/10-2-cohens-standards-for-small-medium-and-large-effect-sizes",
+"host": "openstax.org",
+"name": "OpenStax, Introductory Business Statistics 2e 10.2 Cohen's Standards for Small, Medium, and Large Effect Sizes",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"dated": "2026-10-29",
+"cycle": "m"
+},
+{
+"id": "a2aeb6c918",
+"url": "https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2202777/detailRP",
+"host": "opinion.lawmaking.go.kr",
+"name": "국민참여입법센터: 초·중등교육법 일부개정법률안(의안 2202777) — 2025-08-27 본회의 대안반영",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"dated": "2026-10-27",
 "cycle": "m"
 },
 {
@@ -1812,6 +2025,84 @@
 "q-dir-test"
 ],
 "dated": "2026-08-18",
+"cycle": "m"
+},
+{
+"id": "58ae1c43a7",
+"url": "https://pubmed.ncbi.nlm.nih.gov/22906052/",
+"host": "pubmed.ncbi.nlm.nih.gov",
+"name": "Gillen-O'Neel·Huynh·Fuligni, To study or to sleep?(Child Development, PubMed 22906052)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-cram-sleep"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "f2de86f682",
+"url": "https://pubmed.ncbi.nlm.nih.gov/26612392/",
+"host": "pubmed.ncbi.nlm.nih.gov",
+"name": "Lo 외 2016, The Need for Sleep Study(Sleep 39(3):687-98, doi:10.5665/sleep.5552)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-cram-sleep"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "c32bf014c0",
+"url": "https://research.birmingham.ac.uk/en/publications/school-phone-policies-and-their-association-with-mental-wellbeing/",
+"host": "research.birmingham.ac.uk",
+"name": "Goodyear 외 2025, SMART Schools(Lancet Reg Health Eur, doi:10.1016/j.lanepe.2025.101211)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "764637b737",
+"url": "https://www.sciencemediacentre.org/expert-reaction-to-screen-media-use-and-academic-performance/",
+"host": "sciencemediacentre.org",
+"name": "Science Media Centre: 화면 미디어와 학업 성취 연구 전문가 반응(2019-09)",
+"kind": "기사",
+"cat": "기타",
+"used": [
+"q-life-phone-grades"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "b93ca70a71",
+"url": "https://www.uclahealth.org/news/release/cramming-for-a-test-dont-do-it-say-ucla-researchers",
+"host": "uclahealth.org",
+"name": "UCLA Health 보도자료: Cramming for a test? Don't do it(2012-08-22)",
+"kind": "기사",
+"cat": "기타",
+"used": [
+"q-life-cram-sleep"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "b36e743ea8",
+"url": "https://www.who.int/publications/i/item/9789240015128",
+"host": "who.int",
+"name": "WHO guidelines on physical activity and sedentary behaviour(2020-11-25, ISBN 9789240015128)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-life-exercise-study"
+],
+"dated": "2026-10-27",
 "cycle": "m"
 },
 {
@@ -2051,11 +2342,12 @@
 "id": "c17d8024be",
 "url": "https://admission.snu.ac.kr/webdata/admission/files/2027susi.pdf",
 "host": "admission.snu.ac.kr",
-"name": "서울대 2027학년도 수시모집 안내",
+"name": "2027학년도 대학 신입학생 수시모집 안내, 서울대학교",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
 "q-snu",
+"q-univ-chungwon-call",
 "r-snu-ku-choejeo",
 "snu27s"
 ],
@@ -2118,10 +2410,11 @@
 "id": "62ebebe328",
 "url": "https://admission.yonsei.ac.kr/seoul/upload/guide/20260529204109T8NZNJ.PDF",
 "host": "admission.yonsei.ac.kr",
-"name": "2027학년도 연세대학교 수시모집요강",
+"name": "2027학년도 수시모집요강, 연세대학교(서울캠퍼스)",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
+"q-univ-chungwon-call",
 "q-univ-ged-susi"
 ],
 "dated": "2026-05-29",
@@ -2192,6 +2485,19 @@
 "n38"
 ],
 "dated": "",
+"cycle": "w"
+},
+{
+"id": "bef353d383",
+"url": "https://depts.washington.edu/dbpeds/pediatricsleepdurationconsensus.pdf",
+"host": "depts.washington.edu",
+"name": "미국수면의학회 소아·청소년 권장 수면시간 합의문(Paruthi 외, J Clin Sleep Med 2016;12(6):785-6, doi:10.5664/jcsm.5866)",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-life-cram-sleep"
+],
+"dated": "2026-10-27",
 "cycle": "w"
 },
 {
@@ -2393,6 +2699,19 @@
 "cycle": "w"
 },
 {
+"id": "00aa4acb1a",
+"url": "https://hbcl.msu.edu/_files/Hillman_2014_EffectsOfTheFITKIDS.pdf",
+"host": "hbcl.msu.edu",
+"name": "Hillman 외 2014, FITKids 무작위 실험(Pediatrics, doi:10.1542/peds.2013-3219)",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-life-exercise-study"
+],
+"dated": "2026-10-27",
+"cycle": "w"
+},
+{
 "id": "0141aa7614",
 "url": "https://iphak.khu.ac.kr/submenu.do?menuurl=89BGs%2bk748ajyySWoWlQPw%3d%3d&",
 "host": "iphak.khu.ac.kr",
@@ -2460,6 +2779,19 @@
 "cycle": "w"
 },
 {
+"id": "d8ea0d02dc",
+"url": "https://lsuonline.lsu.edu/business/economics/files/workingpapers/pap15_03.pdf",
+"host": "lsuonline.lsu.edu",
+"name": "Beland·Murphy, Ill Communication(워킹페이퍼 2015-03; Labour Economics 2016 게재)",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-life-school-phone-ban"
+],
+"dated": "2026-10-27",
+"cycle": "w"
+},
+{
 "id": "83c1b1cad6",
 "url": "https://oku.korea.ac.kr/attach/202512/1766737808730_0.pdf",
 "host": "oku.korea.ac.kr",
@@ -2476,11 +2808,12 @@
 "id": "5bf438a306",
 "url": "https://oku.korea.ac.kr/attach/202607/1783652032558_0.pdf",
 "host": "oku.korea.ac.kr",
-"name": "고려대 2027학년도 수시모집요강(서울)",
+"name": "2027학년도 수시모집요강(서울캠퍼스), 고려대학교",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
 "ku27",
+"q-univ-chungwon-call",
 "q-univ-nsu",
 "q-univ-rural",
 "q-yk",
@@ -3258,6 +3591,19 @@
 "cycle": "w"
 },
 {
+"id": "53c63b6e04",
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=278528",
+"host": "eiec.kdi.re.kr",
+"name": "과학기술정보통신부 보도자료: 2025년 디지털 정보격차·웹 접근성·스마트폰 과의존 실태조사 결과 발표(2026-03-26, KDI 경제정보센터 게재)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-life-phone-grades"
+],
+"dated": "2026-10-27",
+"cycle": "w"
+},
+{
 "id": "99f84ed5e1",
 "url": "https://eiec.kdi.re.kr/policy/materialView.do?num=283473",
 "host": "eiec.kdi.re.kr",
@@ -3307,6 +3653,7 @@
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
+"q-univ-2029-basics",
 "q-univ-plan-when"
 ],
 "dated": "2026-08-28",
@@ -3387,6 +3734,19 @@
 "q-med-regions"
 ],
 "dated": "2024-03-20",
+"cycle": "w"
+},
+{
+"id": "2e495503d3",
+"url": "https://www.korea.kr/news/customizedNewsView.do?newsId=148948842",
+"host": "korea.kr",
+"name": "대한민국 정책브리핑: 수업 중 스마트폰 사용 금지, 어떻게 생각하세요?(2025-09-15)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-life-school-phone-ban"
+],
+"dated": "2026-10-27",
 "cycle": "w"
 },
 {
@@ -3478,6 +3838,19 @@
 "q-suneung"
 ],
 "dated": "2025-01-20",
+"cycle": "w"
+},
+{
+"id": "3fe67f4a6e",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148953921",
+"host": "korea.kr",
+"name": "'수능, 이것 꼭 기억하세요'…시험장에 모든 전자기기 반입 금지, 정책브리핑(교육부)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-csat-day-rules"
+],
+"dated": "2025-11-04",
 "cycle": "w"
 },
 {
@@ -3822,6 +4195,19 @@
 "cycle": "w"
 },
 {
+"id": "cc680a1bd4",
+"url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=161470173",
+"host": "law.go.kr",
+"name": "계약학과 설치·운영 규정(교육부고시 제2025-40호, 2025-12-24 시행), 국가법령정보센터",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-semi"
+],
+"dated": "2025-12-24",
+"cycle": "w"
+},
+{
 "id": "1879c55e89",
 "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=268711",
 "host": "law.go.kr",
@@ -3845,6 +4231,19 @@
 "q-hs-autonomous"
 ],
 "dated": "2026-09-11",
+"cycle": "w"
+},
+{
+"id": "92ad9a32fc",
+"url": "https://www.law.go.kr/LSW/lsRvsDocListP.do?lsId=000900",
+"host": "law.go.kr",
+"name": "국가법령정보센터: 초·중등교육법 개정문 — 법률 제21049호(2025-09-16 공포, 2026-03-01 시행), 제20조의5·제20조의7 신설",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-life-school-phone-ban"
+],
+"dated": "2026-10-27",
 "cycle": "w"
 },
 {
@@ -4194,6 +4593,19 @@
 "cycle": "m"
 },
 {
+"id": "e24ce4460f",
+"url": "https://www.fnnews.com/news/202508271426485361",
+"host": "fnnews.com",
+"name": "파이낸셜뉴스: 수업 중 스마트폰 금지법 국회 통과(2025-08-27)",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-life-school-phone-ban"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
 "id": "f4d2c07c92",
 "url": "https://www.fnnews.com/news/202602221031237101",
 "host": "fnnews.com",
@@ -4458,7 +4870,7 @@
 "id": "a804194446",
 "url": "https://www.hankyung.com/article/2026081753451",
 "host": "hankyung.com",
-"name": "한국경제(과학고 22곳 1,858명)",
+"name": "한국경제: 과학고 22곳 1,858명",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4543,7 +4955,7 @@
 "id": "8dc384c2fd",
 "url": "https://www.heraldk.com/article/2026052817450068440",
 "host": "heraldk.com",
-"name": "헤럴드경제: 2027학년도 영재학교 일정",
+"name": "헤럴드경제, 2027학년도 영재학교 일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -5217,6 +5629,19 @@
 "cycle": "m"
 },
 {
+"id": "649b9c250d",
+"url": "https://www.mt.co.kr/tech/2026/03/27/2026032710122977237",
+"host": "mt.co.kr",
+"name": "머니투데이: 스마트폰 사용자 10명 중 2.2명 '과의존'(2026-03-27)",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-life-phone-grades"
+],
+"dated": "2026-10-27",
+"cycle": "m"
+},
+{
 "id": "195a5d876e",
 "url": "https://www.namdonews.com/news/articleView.html?idxno=923945",
 "host": "namdonews.com",
@@ -5841,7 +6266,7 @@
 "id": "ebff52a5ad",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
 "host": "veritas-a.com",
-"name": "베리타스알파: 고입 캘린더(2026-10-05)",
+"name": "베리타스알파 '고입캘린더 (26/10/09~)'",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -6490,6 +6915,19 @@
 "cycle": "w"
 },
 {
+"id": "398d1cac44",
+"url": "https://koreascience.or.kr/article/JAKO202306447812818.pdf",
+"host": "koreascience.or.kr",
+"name": "윤예진 외 2023, 한국 성인의 식생활지침 인식수준(J Nutr Health 56(6):742-755) — 지침 내용 요약",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"q-life-breakfast"
+],
+"dated": "2026-10-27",
+"cycle": "w"
+},
+{
 "id": "a2ed1d1034",
 "url": "https://seigy.knu.ac.kr/student",
 "host": "seigy.knu.ac.kr",
@@ -6582,6 +7020,7 @@
 "dy",
 "kice-guide27",
 "q-csat-apply",
+"q-csat-day-rules",
 "q-past"
 ],
 "dated": "2026-08",
@@ -6612,6 +7051,7 @@
 "cat": "입시 공식 기관",
 "used": [
 "q-reform",
+"q-univ-2029-basics",
 "q-univ-nsu",
 "q-univ-plan-when",
 "qdev102101",
@@ -6694,7 +7134,8 @@
 "dy27k",
 "kcue27",
 "q-g3-after",
-"q-gana"
+"q-gana",
+"q-univ-chungwon-call"
 ],
 "dated": "2025-04-30",
 "cycle": "w"
@@ -6713,6 +7154,7 @@
 "q-gana",
 "q-mock",
 "q-susi-reg",
+"q-univ-2029-basics",
 "q-univ-plan-when"
 ],
 "dated": "2025-08-28",
