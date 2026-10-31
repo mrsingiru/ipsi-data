@@ -1,9 +1,13 @@
 {
  "id": "n97",
- "org": "경남 고입(2027 고입 기본계획)",
- "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-11-01T06:31:20+09:00",
+ "org": "경남 고입",
+ "what": "앞으로 120일 안 일정 6단계",
+ "checkedAt": "2026-11-01T08:40:03+09:00",
  "opened": [
+  {
+   "url": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do",
+   "status": "ok"
+  },
   {
    "url": "https://highschool.gne.go.kr/s10/hsa/archive/notice.do",
    "status": "ok"
@@ -38,6 +42,10 @@
  "ged": [],
  "titles": [
   {
+   "url": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do",
+   "title": "입학전형 일정 - 경상남도교육청 고입포털"
+  },
+  {
    "url": "https://highschool.gne.go.kr/s10/hsa/archive/noticeDetail.do?boardSeq=45",
    "title": "공지사항 - 경상남도교육청 고입포털"
   },
@@ -51,13 +59,35 @@
   }
  ],
  "files": [],
- "lines": [],
- "status": "found-no-dates",
+ "lines": [
+  {
+   "text": "합격자 발표 | 2027. 1. 8.(금)",
+   "dates": [
+    "2027-01-08"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do"
+  },
+  {
+   "text": "합격자 배정 발표 | 2027. 1. 15.(금)",
+   "dates": [
+    "2027-01-15"
+   ],
+   "words": [
+    "발표",
+    "배정"
+   ],
+   "src": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do"
+  }
+ ],
+ "status": "dates",
  "route": 1,
  "tried": [
   {
    "rank": 1,
-   "status": "found-no-dates"
+   "status": "dates"
   }
  ]
 }

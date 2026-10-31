@@ -1,9 +1,13 @@
 {
  "id": "n95",
  "org": "경남과학고",
- "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-11-01T06:30:53+09:00",
+ "what": "앞으로 120일 안 일정 2단계",
+ "checkedAt": "2026-11-01T08:39:25+09:00",
  "opened": [
+  {
+   "url": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do",
+   "status": "ok"
+  },
   {
    "url": "https://gshs-h.gne.go.kr/gshs-h/main.do",
    "status": "ok"
@@ -45,6 +49,10 @@
  ],
  "ged": [],
  "titles": [
+  {
+   "url": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do",
+   "title": "입학전형 일정 - 경상남도교육청 고입포털"
+  },
   {
    "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100576436&mi=160978",
    "title": "공지사항 | 경남과학고등학교"
@@ -88,60 +96,48 @@
    "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=6f916839f11640c5b45a7f88204a7f00",
    "name": "경남고입_추천서_추천인매뉴얼_과학고추천인용.pdf (다운로드 : 740회)",
    "status": "robots"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 283683,
+   "sha1": "d58cc4a4cc1c",
+   "lines": 0
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 283683,
+   "sha1": "d58cc4a4cc1c",
+   "lines": 0
   }
  ],
  "lines": [
   {
-   "text": "원서접수 기간은 2026. 8. 24.(월) 10:00 - 8. 26.(수) 14:00 입니다.",
+   "text": "합격자 발표 | 2027. 1. 8.(금)",
    "dates": [
-    "2026-08-24",
-    "2026-08-26"
+    "2027-01-08"
    ],
    "words": [
-    "원서",
-    "접수"
+    "발표"
    ],
-   "src": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100455545&mi=160978"
+   "src": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do"
   },
   {
-   "text": "(8.26(수) 우체국 소인까지 유효합니다. 방문제출도 가능하지만, 등기우편접수를 적극 권장합니다.)",
+   "text": "합격자 배정 발표 | 2027. 1. 15.(금)",
    "dates": [
-    "2026-08-26"
+    "2027-01-15"
    ],
    "words": [
-    "접수"
+    "발표"
    ],
-   "src": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100455545&mi=160978"
-  },
-  {
-   "text": "(신청 마감) 2027학년도 입시전형 본교 입학설명회 참가 신청 안내 [2026.7.9.]",
-   "dates": [
-    "2026-07-09"
-   ],
-   "words": [
-    "전형"
-   ],
-   "src": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100455545&mi=160978"
-  },
-  {
-   "text": "(신청 마감) 2027학년도 입시전형 본교 입학설명회 참가 신청 안내 [2026.7.9.]",
-   "dates": [
-    "2026-07-09"
-   ],
-   "words": [
-    "전형"
-   ],
-   "src": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100340534&mi=160978"
-  },
-  {
-   "text": "2027학년도 경남과학고등학교 입학전형 본교 입학설명회를 다음과 같이 개최하고자 합니다. | - 일시: 2026.07.09.(목) 18:30~20:30",
-   "dates": [
-    "2026-07-09"
-   ],
-   "words": [
-    "전형"
-   ],
-   "src": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100340534&mi=160978"
+   "src": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do"
   }
  ],
  "status": "dates",

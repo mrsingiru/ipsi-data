@@ -1,8 +1,9 @@
 {
- "at": "2026-11-01T06:31:26+09:00",
+ "at": "2026-11-01T08:42:21+09:00",
  "targets": 71,
- "withDates": 46,
+ "withDates": 47,
  "blockedAll": [
+  "n69",
   "n80",
   "n31",
   "n33",
@@ -123,10 +124,10 @@
   {
    "id": "n68",
    "org": "제주과학고",
-   "status": "found-no-dates",
+   "status": "robots",
    "lines": 0,
-   "files": 3,
-   "opened": 2,
+   "files": 0,
+   "opened": 1,
    "route": 1,
    "tried": null
   },
@@ -561,15 +562,23 @@
   {
    "id": "n69",
    "org": "제주 고입",
-   "status": "found-no-dates",
+   "status": "blocked-all",
    "lines": 0,
-   "files": 1,
-   "opened": 2,
+   "files": 0,
+   "opened": 1,
    "route": 2,
    "tried": [
     {
      "rank": 2,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ]
   },
@@ -647,6 +656,51 @@
    "opened": 1,
    "route": 1,
    "tried": null
+  },
+  {
+   "id": "n95",
+   "org": "경남과학고",
+   "status": "dates",
+   "lines": 2,
+   "files": 6,
+   "opened": 7,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "dates"
+    }
+   ]
+  },
+  {
+   "id": "n96",
+   "org": "창원과학고",
+   "status": "dates",
+   "lines": 2,
+   "files": 7,
+   "opened": 8,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "dates"
+    }
+   ]
+  },
+  {
+   "id": "n97",
+   "org": "경남 고입",
+   "status": "dates",
+   "lines": 2,
+   "files": 0,
+   "opened": 5,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "dates"
+    }
+   ]
   },
   {
    "id": "n98",
@@ -810,7 +864,7 @@
     },
     {
      "rank": 2,
-     "status": "robots"
+     "status": "not-found"
     },
     {
      "rank": 3,
@@ -838,51 +892,6 @@
     {
      "rank": 3,
      "status": "robots"
-    }
-   ]
-  },
-  {
-   "id": "n95",
-   "org": "경남과학고",
-   "status": "dates",
-   "lines": 5,
-   "files": 4,
-   "opened": 6,
-   "route": 1,
-   "tried": [
-    {
-     "rank": 1,
-     "status": "dates"
-    }
-   ]
-  },
-  {
-   "id": "n96",
-   "org": "창원과학고",
-   "status": "dates",
-   "lines": 3,
-   "files": 7,
-   "opened": 7,
-   "route": 1,
-   "tried": [
-    {
-     "rank": 1,
-     "status": "dates"
-    }
-   ]
-  },
-  {
-   "id": "n97",
-   "org": "경남 고입(2027 고입 기본계획)",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 0,
-   "opened": 4,
-   "route": 1,
-   "tried": [
-    {
-     "rank": 1,
-     "status": "found-no-dates"
     }
    ]
   }
