@@ -2,7 +2,7 @@
  "id": "n10",
  "org": "인천과학고",
  "what": "2027 신입생 입학전형(학교 누리집 입학 공지) · 인천 고입 요강 공고",
- "checkedAt": "2026-10-31T21:34:09+09:00",
+ "checkedAt": "2026-10-31T23:13:54+09:00",
  "opened": [
   {
    "url": "https://i-science.icehs.kr/",
@@ -15,27 +15,170 @@
   {
    "url": "https://i-science.icehs.kr/boardCnts/list.do?boardID=208160&m=0201&s=isciencehs",
    "status": "ok"
+  },
+  {
+   "url": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34072102&lev=0&m=0201&s=isciencehs",
+   "status": "ok"
+  },
+  {
+   "url": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34050690&lev=0&m=0201&s=isciencehs",
+   "status": "ok"
+  },
+  {
+   "url": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34050686&lev=0&m=0201&s=isciencehs",
+   "status": "ok"
   }
  ],
- "notices": [],
+ "notices": [
+  {
+   "title": "2027학년도 신입생 입학전형 최종 경쟁률 안내",
+   "url": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34072102&lev=0&m=0201&s=isciencehs"
+  },
+  {
+   "title": "[수정] 2027학년도 신입생 입학전형 교사추천서 작성 방법 및 url 안내",
+   "url": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34050690&lev=0&m=0201&s=isciencehs"
+  },
+  {
+   "title": "2027학년도 신입생 입학원서 접수 및 서류제출 안내",
+   "url": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34050686&lev=0&m=0201&s=isciencehs"
+  }
+ ],
  "ged": [],
- "titles": [],
- "files": [],
- "lines": [],
- "status": "not-found",
+ "titles": [
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
+   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
+  },
+  {
+   "url": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34072102&lev=0&m=0201&s=isciencehs",
+   "title": "입학 공지사항 ＜ 입학안내"
+  },
+  {
+   "url": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34050690&lev=0&m=0201&s=isciencehs",
+   "title": "입학 공지사항 ＜ 입학안내"
+  },
+  {
+   "url": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34050686&lev=0&m=0201&s=isciencehs",
+   "title": "입학 공지사항 ＜ 입학안내"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://i-science.icehs.kr/boardCnts/fileDown.do?fileSeq=7f9130a1499ebdc241983231c0b78519",
+   "name": "2027 신입생 입학전형 교사 추천서 작성 방법 안내.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 937285,
+   "sha1": "08ef0b9b9811"
+  },
+  {
+   "url": "https://i-science.icehs.kr/images/template/10470/sub/s_visual.png?x=1",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 279173,
+   "sha1": "b4bb65af26ca",
+   "lines": 0
+  },
+  {
+   "url": "https://i-science.icehs.kr/boardCnts/fileDown.do?fileSeq=3f7145ef1ef6d8969b2eb42ba2a7bc5d",
+   "name": "[첨부1] 2027학년도 인천과학고등학교 신입생입학전형+개인정보 제공 및 이용동의서.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 79784,
+   "sha1": "510881af59f3"
+  },
+  {
+   "url": "https://i-science.icehs.kr/boardCnts/fileDown.do?fileSeq=c6a6c46e8e411b7bebf234584f9d2e01",
+   "name": "[첨부2] 2027 신입생 입학전형 온라인 원서접수 방법 안내.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 1667315,
+   "sha1": "faa008fbe8a6"
+  },
+  {
+   "url": "https://i-science.icehs.kr/boardCnts/fileDown.do?fileSeq=d9a10616af66ceaf1dffe374142a2016",
+   "name": "[첨부3] 2027 신입생 입학전형 온라인 원서접수 및 서류 제출 안내.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 539809,
+   "sha1": "27b5d850f916"
+  }
+ ],
+ "lines": [
+  {
+   "text": "사회통합 대상자, 국가보훈교육지원대상자 등의 필요 서류 제출은 2026년 8월 27일(목) 17시 까지 접수하오니,",
+   "dates": [
+    "2026-08-27"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34072102&lev=0&m=0201&s=isciencehs"
+  },
+  {
+   "text": "서류 접수 장소는 자주동(운동장 바로 앞 건물) 1층 입학관리부입니다.(우편접수 시 8월 27일(목) 소인까지 유효)",
+   "dates": [
+    "2026-08-27"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34072102&lev=0&m=0201&s=isciencehs"
+  },
+  {
+   "text": "출석 면담 대상자 발표는 9월 18일(금) 17시이며, 2027학년도 인천과학고 신입생 입학전형 요강에 의해",
+   "dates": [
+    "2026-09-18"
+   ],
+   "words": [
+    "면담",
+    "발표"
+   ],
+   "src": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34072102&lev=0&m=0201&s=isciencehs"
+  },
+  {
+   "text": "다. 원서접수 및 업로드 방법 : [첨부2. 2027 신입생 입학전형 온라인 원서접수 방법 안내] 참고 | 라. 기간 : 2026.8.24.(월) 9:00 ~ 2026.8.26.(수) 22:00",
+   "dates": [
+    "2026-08-24",
+    "2026-08-26"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34050686&lev=0&m=0201&s=isciencehs"
+  },
+  {
+   "text": "2. 서류제출(방문 또는 우편접수) | (2026.8.27.(목)까지 소인유효)",
+   "dates": [
+    "2026-08-27"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://i-science.icehs.kr/boardCnts/view.do?boardID=208160&boardSeq=34050686&lev=0&m=0201&s=isciencehs"
+  },
+  {
+   "text": "Ⅰ. 온라인 원서접수 기간 : 2026.8.24.(월) 09:00 ~ 8.26.(수) 22:00",
+   "dates": [
+    "2026-08-24",
+    "2026-08-26"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://i-science.icehs.kr/boardCnts/fileDown.do?fileSeq=d9a10616af66ceaf1dffe374142a2016"
+  }
+ ],
+ "status": "dates",
  "route": 1,
  "tried": [
   {
    "rank": 1,
-   "status": "not-found"
-  },
-  {
-   "rank": 2,
-   "status": "not-found"
-  },
-  {
-   "rank": 3,
-   "status": "not-found"
+   "status": "dates"
   }
  ]
 }

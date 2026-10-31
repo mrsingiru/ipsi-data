@@ -2,287 +2,32 @@
  "id": "n64",
  "org": "광양제철고",
  "what": "앞으로 120일 안 일정 8단계",
- "checkedAt": "2026-10-31T21:44:39+09:00",
+ "checkedAt": "2026-10-31T23:24:48+09:00",
  "opened": [
   {
    "url": "https://www.posef.or.kr/06_center/01.jsp?bid=1",
    "status": "ok"
-  },
-  {
-   "url": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5067&m=view",
-   "status": "ok"
-  },
-  {
-   "url": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5066&m=view",
-   "status": "ok"
-  },
-  {
-   "url": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5065&m=view",
-   "status": "ok"
   }
  ],
- "notices": [
-  {
-   "title": "(전남) 2027학년도 포스코교육재단 중등학교 교사 임용후보자 선정경쟁시험 시행계획 공고",
-   "url": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5067&m=view"
-  },
-  {
-   "title": "(경북) 2027학년도 포스코교육재단 중등학교 교사 임용후보자 선정경쟁시험 시행계획 공고",
-   "url": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5066&m=view"
-  },
-  {
-   "title": "(전남) 2027학년도 포스코교육재단 초등학교 교사 임용후보자 선정경쟁시험 시행계획 공고",
-   "url": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5065&m=view"
-  }
- ],
+ "notices": [],
  "ged": [],
- "titles": [
-  {
-   "url": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5067&m=view",
-   "title": "포스코교육재단 | 홍보센터 | 공지사항"
-  },
-  {
-   "url": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5066&m=view",
-   "title": "포스코교육재단 | 홍보센터 | 공지사항"
-  },
-  {
-   "url": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5065&m=view",
-   "title": "포스코교육재단 | 홍보센터 | 공지사항"
-  }
- ],
- "files": [
-  {
-   "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5151&bid=notice",
-   "name": "붙임3. 개인정보 수집 및 이용 동의서(서식3).hwp(54 KB), Download: 75",
-   "status": "ok",
-   "type": "hwp",
-   "bytes": 55808,
-   "sha1": "3cf07f5e7195"
-  },
-  {
-   "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5152&bid=notice",
-   "name": "붙임2. 자기소개서(서식2).hwp(70 KB), Download: 76",
-   "status": "ok",
-   "type": "hwp",
-   "bytes": 71680,
-   "sha1": "78e236478726"
-  },
-  {
-   "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5153&bid=notice",
-   "name": "붙임1. 응시원서(서식1).hwp(88 KB), Download: 79",
-   "status": "ok",
-   "type": "hwp",
-   "bytes": 90624,
-   "sha1": "8e5db766655f"
-  },
-  {
-   "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5154&bid=notice",
-   "name": "2027학년도 교원 신규채용 공고문(중등 전남).pdf(483 KB), Download: 173",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 495407,
-   "sha1": "0d78d03af290"
-  },
-  {
-   "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5147&bid=notice",
-   "name": "붙임3. 개인정보 수집 및 이용 동의서(서식3).hwp(54 KB), Download: 98",
-   "status": "ok",
-   "type": "hwp",
-   "bytes": 55808,
-   "sha1": "3cf07f5e7195"
-  },
-  {
-   "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5148&bid=notice",
-   "name": "붙임2. 자기소개서(서식2).hwp(70 KB), Download: 124",
-   "status": "ok",
-   "type": "hwp",
-   "bytes": 71680,
-   "sha1": "78e236478726"
-  },
-  {
-   "url": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5143&bid=notice",
-   "name": "2027학년도 교원 신규채용 공고문(초등 전남).pdf(529 KB), Download: 115",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 542653,
-   "sha1": "99f5a92ff20e"
-  }
- ],
- "lines": [
-  {
-   "text": "등록일 | 2026-09-15",
-   "dates": [
-    "2026-09-15"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5067&m=view"
-  },
-  {
-   "text": "가. 응시원서 접수: 2026. 10 .12 (월) 9:00 ~ 2026. 10. 16.(금) 18:00",
-   "dates": [
-    "2026-10-12",
-    "2026-10-16"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5067&m=view"
-  },
-  {
-   "text": "라. 3차시험(최종면접): 2027. 1. 18.(월) ~ 1. 19.(화)",
-   "dates": [
-    "2027-01-18",
-    "2027-01-19"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5067&m=view"
-  },
-  {
-   "text": "- 원서접수 : 2026. 10. 12(월) 09:00 ~ 10. 16(금) 18:00",
-   "dates": [
-    "2026-10-12",
-    "2026-10-16"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5154&bid=notice"
-  },
-  {
-   "text": "최종 합격자 발표 2027. 1. 22.(금) 10:00 예정",
-   "dates": [
-    "2027-01-22"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5154&bid=notice"
-  },
-  {
-   "text": "가. 원서접수 기간 : 2026. 10. 12.(월) 09:00 ~ 10. 16.(금) 18:00",
-   "dates": [
-    "2026-10-12",
-    "2026-10-16"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5154&bid=notice"
-  },
-  {
-   "text": "ㆍ주민등록표 초본(병역사항 포함) 1부 | ※ 2027. 3. 1. 이전 전역(복무 만료) 예정인 자",
-   "dates": [
-    "2027-03-01"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5154&bid=notice"
-  },
-  {
-   "text": "등록일 | 2026-09-15",
-   "dates": [
-    "2026-09-15"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5066&m=view"
-  },
-  {
-   "text": "가. 응시원서 접수: 2026. 10 .12 (월) 9:00 ~ 2026. 10. 16.(금) 18:00",
-   "dates": [
-    "2026-10-12",
-    "2026-10-16"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5066&m=view"
-  },
-  {
-   "text": "라. 3차시험(최종면접): 2027. 1. 18.(월) ~ 1. 19.(화)",
-   "dates": [
-    "2027-01-18",
-    "2027-01-19"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5066&m=view"
-  },
-  {
-   "text": "등록일 | 2026-09-02",
-   "dates": [
-    "2026-09-02"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5065&m=view"
-  },
-  {
-   "text": "가. 응시원서 접수 : 2026. 9. 28.(월) 9:00 ~ 2026. 10. 2.(금) 18:00",
-   "dates": [
-    "2026-09-28",
-    "2026-10-02"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5065&m=view"
-  },
-  {
-   "text": "라. 3차시험(최종면접) : 2027. 1. 18.(월) ~ 1. 19.(화)",
-   "dates": [
-    "2027-01-18",
-    "2027-01-19"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://www.posef.or.kr/06_center/01.jsp?page=1&sw=&sv=&bid=1&idx=5065&m=view"
-  },
-  {
-   "text": "- 원서접수 : 2026. 9. 28.(월) ~ 10. 2.(금)",
-   "dates": [
-    "2026-09-28",
-    "2026-10-02"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5143&bid=notice"
-  },
-  {
-   "text": "가. 원서접수 기간 : 2026. 9. 28.(월) 09:00 ~ 10. 2.(금) 18:00",
-   "dates": [
-    "2026-09-28",
-    "2026-10-02"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://www.posef.or.kr/board/Proc_fileDownload.jsp?idx=5143&bid=notice"
-  }
- ],
- "status": "dates",
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "not-found",
  "route": 3,
  "tried": [
   {
    "rank": 3,
-   "status": "dates"
+   "status": "not-found"
+  },
+  {
+   "rank": 1,
+   "status": "robots"
+  },
+  {
+   "rank": 2,
+   "status": "robots"
   }
  ]
 }

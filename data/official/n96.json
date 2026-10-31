@@ -2,7 +2,7 @@
  "id": "n96",
  "org": "창원과학고",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-10-31T21:48:49+09:00",
+ "checkedAt": "2026-10-31T23:29:56+09:00",
  "opened": [
   {
    "url": "https://csh-h.gne.go.kr/csh-h/main.do",
@@ -30,7 +30,7 @@
   },
   {
    "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100271844&mi=503446",
-   "status": "error"
+   "status": "ok"
   }
  ],
  "notices": [
@@ -56,22 +56,46 @@
   {
    "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100556466&mi=503446",
    "title": "입학관련공지 | 창원과학고등학교"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100271844&mi=503446",
+   "title": "입학관련공지 | 창원과학고등학교"
   }
  ],
  "files": [
   {
    "url": "https://csh-h.gne.go.kr/common/nttFileDownload.do?fileKey=8021e291b39376545f81706c790f9120",
-   "name": "경남고입_원서접수_사용자매뉴얼_창원과학고 지원자용.pdf (다운로드 : 1353회)",
+   "name": "경남고입_원서접수_사용자매뉴얼_창원과학고 지원자용.pdf (다운로드 : 1355회)",
    "status": "robots"
   },
   {
    "url": "https://csh-h.gne.go.kr/common/nttFileDownload.do?fileKey=57d8f83923f91299f01d1cb7082fc288",
-   "name": "경남고입_추천서_추천인매뉴얼_창원과학고 추천인용.pdf (다운로드 : 686회)",
+   "name": "경남고입_추천서_추천인매뉴얼_창원과학고 추천인용.pdf (다운로드 : 688회)",
    "status": "robots"
   },
   {
    "url": "https://csh-h.gne.go.kr/common/nttFileDownload.do?fileKey=181212bc1ee13dbbc3a0c73044acdc7d",
-   "name": "소집면담 안내문.pdf (다운로드 : 394회)",
+   "name": "소집면담 안내문.pdf (다운로드 : 395회)",
+   "status": "robots"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/images/sch/schl/csh-h/sub/S_visual.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 218549,
+   "sha1": "9193b03d1eb0",
+   "lines": 0
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/common/nttFileDownload.do?fileKey=6c43ee7cecbe99fb78266deb1ad18f80",
+   "name": "2026학년도 창원과학고 신입생 선발 면접 문항(과학중심융합).pdf (다운로드 : 2215회)",
+   "status": "robots"
+  },
+  {
+   "url": "https://csh-h.gne.go.kr/common/nttFileDownload.do?fileKey=d96d10a260af07b17275c42d3d94167a",
+   "name": "2026학년도 창원과학고 신입생 선발 면접 문항(수학중심융합).pdf (다운로드 : 2379회)",
    "status": "robots"
   },
   {
