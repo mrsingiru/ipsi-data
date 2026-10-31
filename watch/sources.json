@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.79)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.83)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-10-31",
-"ver": "v28.79",
-"count": 563,
+"ver": "v28.83",
+"count": 568,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -507,13 +507,12 @@
 "id": "ba26db0da0",
 "url": "https://hischoolgbe.kr/online/board/hsAdmission02",
 "host": "hischoolgbe.kr",
-"name": "경상북도교육청 온라인 고입전형포털 - 고입전형일정표",
+"name": "경상북도교육청 온라인 고입전형포털 고입전형일정표",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n87",
-"n88",
-"n90"
+"n88"
 ],
 "dated": "2026-10-22",
 "cycle": "w"
@@ -595,7 +594,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1305,6 +1304,19 @@
 "n91"
 ],
 "dated": "2026-10-26",
+"cycle": "w"
+},
+{
+"id": "c570c22721",
+"url": "https://school.gyo6.net/pocheolhs/na/ntt/selectNttList.do?mi=10205955&bbsId=20000337",
+"host": "school.gyo6.net",
+"name": "포항제철고 2027학년도 신입생 모집 요강(2026. 8. 28. 공고) — Ⅷ 전형 일정",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n90"
+],
+"dated": "2026-08-28",
 "cycle": "w"
 },
 {
@@ -2498,6 +2510,32 @@
 "q-life-cram-sleep"
 ],
 "dated": "2026-10-27",
+"cycle": "w"
+},
+{
+"id": "757490418b",
+"url": "https://dgist.ac.kr/bbs/BBSMSTR_000000000718/B000000112095Gy7bK4.do?mno=sub05_01",
+"host": "dgist.ac.kr",
+"name": "2027학년도 DGIST AI/SW SCHOOL 신입생 모집요강 — Ⅳ 선발 일정",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"n80"
+],
+"dated": "2026-09-21",
+"cycle": "w"
+},
+{
+"id": "2fc30a393b",
+"url": "https://www.dgist.ac.kr/bbs/BBSMSTR_000000000712/list.do",
+"host": "dgist.ac.kr",
+"name": "DGIST AI/SW SCHOOL 모집요강 게시판",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"n80"
+],
+"dated": "",
 "cycle": "w"
 },
 {
@@ -4375,7 +4413,7 @@
 "id": "33a0f1e786",
 "url": "https://biz.sbs.co.kr/amp/article/20000228825",
 "host": "biz.sbs.co.kr",
-"name": "SBS Biz(교육부 발표: 6월 모의평가 유지, 하반기 모의평가 8월)",
+"name": "SBS Biz: 2027년부터 하반기 수능 모의평가는 8월(교육부 발표)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4955,7 +4993,7 @@
 "id": "8dc384c2fd",
 "url": "https://www.heraldk.com/article/2026052817450068440",
 "host": "heraldk.com",
-"name": "헤럴드경제, 2027학년도 영재학교 일정",
+"name": "헤럴드경제: 2027학년도 영재학교 일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -5015,7 +5053,7 @@
 "used": [
 "n80"
 ],
-"dated": "2026-09-29",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -5949,13 +5987,13 @@
 "id": "a6ce9e5ec0",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=567022",
 "host": "veritas-a.com",
-"name": "베리타스알파 '[단독] [2026전국자사고] 첫 요강공개 광양제철고 240명 동일'",
+"name": "베리타스알파 광양제철고 2026 요강(2025-08-12)",
 "kind": "기사",
 "cat": "언론",
 "used": [
 "n64"
 ],
-"dated": "2025-08-12",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -6030,7 +6068,7 @@
 "id": "10f7b9ac13",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=612371",
 "host": "veritas-a.com",
-"name": "베리타스알파 [2027과고] 8월18일 대전동신 필두 개막",
+"name": "베리타스알파 22개 과고 모집·일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -6039,7 +6077,7 @@
 "n41",
 "n46"
 ],
-"dated": "2026-05-28",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -6147,7 +6185,6 @@
 "cat": "언론",
 "used": [
 "n02",
-"n41",
 "n46",
 "n76",
 "n82",
@@ -6286,13 +6323,13 @@
 "id": "fade35ab93",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=630758",
 "host": "veritas-a.com",
-"name": "베리타스알파 '광양제철고 2027 입학설명회 내달 14일.. 올해 마지막'",
+"name": "베리타스알파 광양제철고 2027 입학설명회(2026-10-06)",
 "kind": "기사",
 "cat": "언론",
 "used": [
 "n64"
 ],
-"dated": "2026-10-06",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -7620,6 +7657,19 @@
 "cycle": "w"
 },
 {
+"id": "79311865f2",
+"url": "http://www.cnsh.cnehs.kr/sub/info.do?m=0206&s=cnsh",
+"host": "cnsh.cnehs.kr",
+"name": "충남과학고 2027학년도 입학전형 요강(2026. 5.) — 4. 전형일정",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n41"
+],
+"dated": "2026-06-04",
+"cycle": "w"
+},
+{
 "id": "d8184a484a",
 "url": "https://djshs.djsch.kr/boardCnts/list.do?boardID=85790&m=0702&s=djshs",
 "host": "djshs.djsch.kr",
@@ -7683,6 +7733,19 @@
 ],
 "dated": "",
 "cycle": "m"
+},
+{
+"id": "3fc9fbfd9d",
+"url": "https://gwangcheol.jge.hs.kr/gwangcheol_hs/cm/cntnts/cntntsView.do?mi=71445&cntntsId=71445",
+"host": "gwangcheol.jge.hs.kr",
+"name": "광양제철고 누리집 '2027학년도 광양제철고등학교 신입생 입학설명회 안내'",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n64"
+],
+"dated": "2026-10-31",
+"cycle": "w"
 },
 {
 "id": "adbc457113",
