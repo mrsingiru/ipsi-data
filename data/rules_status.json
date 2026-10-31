@@ -1,37 +1,151 @@
 {
-"checkedAt": "2026-10-31T09:33+09:00",
+"checkedAt": "2026-11-01T06:51+09:00",
 "registry": {
-"updated": "2026-10-26",
-"rules": 53,
-"sources": 55
+"updated": "2026-11-01",
+"rules": 59,
+"sources": 70
 },
 "run": {
-"auto": 38,
-"opened": 14,
-"ok": 14,
+"auto": 53,
+"opened": 16,
+"ok": 16,
 "robots": 0,
 "failed": 0,
 "thin": 0,
-"notDue": 24
+"notDue": 37
 },
 "summary": {
 "high": 0,
-"mid": 1,
-"low": 0
+"mid": 0,
+"low": 15
 },
 "events": [
 {
-"source": "th-api",
+"source": "g-oauth",
 "rules": [
-"R-TH1"
+"R-YT16"
 ],
-"level": "mid",
-"what": "바뀐 부분: (첫 부분)"
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "g-oauth-verify",
+"rules": [
+"R-YT16"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-ai-label-blog",
+"rules": [
+"R-YT3"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-api-quota",
+"rules": [
+"R-YT5"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: 100 videos.insert)"
+},
+{
+"source": "yt-api-rmf",
+"rules": [
+"R-YT15"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-api-tos",
+"rules": [
+"R-YT15"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: Last updated)"
+},
+{
+"source": "yt-api-videos",
+"rules": [
+"R-YT3",
+"R-YT5",
+"R-YT6"
+],
+"level": "low",
+"what": "처음 기록(처음부터 없는 감시 낱말: defaults to public)"
+},
+{
+"source": "yt-audience",
+"rules": [
+"R-YT6"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-branded",
+"rules": [
+"R-YT19"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-features",
+"rules": [
+"R-YT18"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-impersonation",
+"rules": [
+"R-YT20"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-long-upload",
+"rules": [
+"R-YT18"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-paid",
+"rules": [
+"R-YT19"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-shorts-3min",
+"rules": [
+"R-YT17"
+],
+"level": "low",
+"what": "처음 기록"
+},
+{
+"source": "yt-strike",
+"rules": [
+"R-YT2"
+],
+"level": "low",
+"what": "처음 기록"
 }
 ],
 "sources": {
 "yt-monet": {
-"name": "채널 수익 창출 정책(진정성 없는 콘텐츠·재사용 콘텐츠)",
+"name": "채널 수익 창출 정책(일반적·반복적 콘텐츠 — 옛 이름: 진정성 없는 콘텐츠·재사용 콘텐츠)",
 "owner": "YouTube",
 "url": "https://support.google.com/youtube/answer/1311392?hl=en",
 "method": "auto",
@@ -144,7 +258,7 @@
 "watchMissing": []
 },
 "yt-spam": {
-"name": "스팸·기만 행위·사기 정책",
+"name": "스팸 정책(Spam Policy — 옛 제목: 스팸·기만 행위·사기 정책)",
 "owner": "YouTube",
 "url": "https://support.google.com/youtube/answer/2801973?hl=en",
 "method": "auto",
@@ -2789,11 +2903,12 @@
 "owner": "YouTube",
 "url": "https://developers.google.com/youtube/terms/developer-policies?hl=en",
 "method": "auto",
-"cycle": "m",
+"cycle": "w",
 "rules": [
-"R-YT14"
+"R-YT14",
+"R-YT15"
 ],
-"checkedAt": "2026-10-24T06:19+09:00",
+"checkedAt": "2026-11-01T06:51+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube API Services - Developer Policies  |  Google for Developers",
@@ -2871,11 +2986,995 @@
 ]
 ],
 "watch": {
+"express consent": 2,
+"Last updated": 0,
 "derived": 2,
 "independently calculated": 1,
 "30 days": 7
 },
-"lastOk": "2026-10-24T06:19+09:00",
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": [
+"Last updated"
+]
+},
+"yt-api-videos": {
+"name": "Data API Videos 자료(공개 상태 기본값·예약 공개·아동용·AI 표시 칸)",
+"owner": "YouTube",
+"url": "https://developers.google.com/youtube/v3/docs/videos?hl=en",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT3",
+"R-YT5",
+"R-YT6"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "https://developers.google.com/youtube/data/reference/rest/v3/videos?hl=en",
+"title": "Videos  |  YouTube Data API  |  Google for Developers",
+"updated": "Last updated 2026-10-15",
+"chars": 58830,
+"hash": "1298634bae9b",
+"sections": [
+[
+"(첫 부분)",
+"90fd468c18bc"
+],
+[
+"Videos Stay organized with collections Save and categorize content based on your",
+"f596c72c7f4f"
+],
+[
+"Methods",
+"62145341b010"
+],
+[
+"Resource representation",
+"2f439f42e313"
+],
+[
+"Properties",
+"a0bce740675f"
+]
+],
+"watch": {
+"containsSyntheticMedia": 2,
+"selfDeclaredMadeForKids": 3,
+"defaults to public": 0
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": [
+"defaults to public"
+]
+},
+"yt-api-tos": {
+"name": "YouTube API 서비스 약관(9.1 업로드 화면 안내문 · 2.3 바뀐 약관은 30일 뒤 효력)",
+"owner": "YouTube",
+"url": "https://developers.google.com/youtube/terms/api-services-terms-of-service?hl=en",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT15"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "",
+"title": "YouTube API Services Terms of Service  |  Google for Developers",
+"updated": "Last updated 2026-09-14",
+"chars": 38278,
+"hash": "196e15caf62f",
+"sections": [
+[
+"(첫 부분)",
+"92b640f95944"
+],
+[
+"YouTube API Services Terms of Service Stay organized with collections Save and c",
+"6d82141f2e74"
+],
+[
+"YouTube API Services Terms of Service",
+"44cc55166b95"
+],
+[
+"1. Definitions",
+"0e171df27fc0"
+],
+[
+"2. The Agreement.",
+"dd90fbb77c46"
+],
+[
+"3. Permitted Access and Use of the YouTube API Services.",
+"66f6b5503046"
+],
+[
+"4. Registration",
+"3c7ddd7898c0"
+],
+[
+"5. Compliance with Laws",
+"f12e3c5c3a3b"
+],
+[
+"6. API Clients and Monitoring",
+"7678f626512c"
+],
+[
+"7. User Privacy and API Clients",
+"bc8de6ddda59"
+],
+[
+"8. Security",
+"7b141f651b80"
+],
+[
+"9. Notices to Users",
+"4b0899f3ec95"
+],
+[
+"10. Brand Features and Attribution",
+"87e567b5afa7"
+],
+[
+"11. Proprietary Rights Notices",
+"a885653405cc"
+],
+[
+"12. Third-Party Rights",
+"16098a94aca3"
+],
+[
+"13. Publicity",
+"d44feb638322"
+],
+[
+"14. Modification to the YouTube API Services",
+"13277f2cf83d"
+],
+[
+"15. Usage and Quotas",
+"60fd0bdc6000"
+],
+[
+"16. No Implied Rights",
+"d6167e184371"
+],
+[
+"17. Non-exclusive",
+"5ea3a4e9d34a"
+],
+[
+"18. Confidentiality",
+"f781ab272358"
+],
+[
+"19. Exclusion of Warranties",
+"05bb1b1521ea"
+],
+[
+"20. Limitation of Liability",
+"da88734ccc06"
+],
+[
+"21. Indemnification",
+"67de557791e4"
+],
+[
+"22. Injunctive Relief",
+"c9b2332cc866"
+],
+[
+"23. Non-assert",
+"c3f7f4e27bc7"
+],
+[
+"24. Termination",
+"1ea550c9d893"
+],
+[
+"25. General Legal Terms",
+"055a7e55a203"
+]
+],
+"watch": {
+"Last updated": 0
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": [
+"Last updated"
+]
+},
+"yt-api-quota": {
+"name": "Data API 할당량·감사(업로드 하루 100번 · 감사는 한도를 늘릴 때만)",
+"owner": "YouTube",
+"url": "https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits?hl=en",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT5"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "https://developers.google.com/youtube/data/guides/quota_and_compliance_audits?hl=en",
+"title": "Quota and Compliance Audits  |  YouTube Data API  |  Google for Developers",
+"updated": "Last updated 2026-10-15",
+"chars": 2026,
+"hash": "64deee4311b0",
+"sections": [
+[
+"(첫 부분)",
+"6fc273271224"
+],
+[
+"Quota and Compliance Audits Stay organized with collections Save and categorize",
+"90b9ad274ab2"
+],
+[
+"Begin an audit",
+"fa995800a7d2"
+],
+[
+"Request an additional quota extension",
+"eec10c154446"
+],
+[
+"Appeal a failed audit",
+"e2221eafb9a5"
+],
+[
+"Periodic audit",
+"74de5edb1809"
+],
+[
+"Change of control",
+"eaf54f972a4a"
+]
+],
+"watch": {
+"100 videos.insert": 0
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": [
+"100 videos.insert"
+]
+},
+"yt-audience": {
+"name": "시청자층 설정(채널·영상별 아동용 지정, 영상 설정이 우선)",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/9527654?hl=en",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT6"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "",
+"title": "Set your channel or video’s audience - Computer - YouTube Help",
+"updated": "",
+"chars": 13708,
+"hash": "57d4d79590b0",
+"sections": [
+[
+"Set your channel or video’s audience",
+"1d88cbea949f"
+],
+[
+"Important: Why every creator must set their audience",
+"52c8cd8a531f"
+],
+[
+"Set your channel's audience",
+"e4b446fef645"
+],
+[
+"Set your audience during upload",
+"5ac2639ea5f4"
+],
+[
+"Update the audience setting on existing videos",
+"064c9f023f19"
+],
+[
+"Set your audience when creating a live stream",
+"2a99ab1dc0eb"
+],
+[
+"Update the audience setting on archived live streams",
+"b536d6da1c83"
+],
+[
+"What happens when your content is set as made for kids",
+"1984bfc9b455"
+],
+[
+"Frequently Asked Questions",
+"bed75113c843"
+],
+[
+"Was this helpful?",
+"454ffcdacbf9"
+]
+],
+"watch": {
+"override the channel setting": 1
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-shorts-3min": {
+"name": "3분 쇼츠(2024-10-15 이후 · 1분 넘는 쇼츠 저작권 차단)",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/15424877?hl=en",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT17"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "",
+"title": "Understand three-minute YouTube Shorts - YouTube Help",
+"updated": "",
+"chars": 4626,
+"hash": "7ecef8048522",
+"sections": [
+[
+"Understand three-minute YouTube Shorts",
+"cdd800e99300"
+],
+[
+"Eligibility for three-minute Shorts",
+"c69c30509b11"
+],
+[
+"Upload three-minute Shorts",
+"c07e57a5d5f6"
+],
+[
+"Third-party claimed content for Short that is over one minute",
+"767bf8afa565"
+],
+[
+"What music can I use?",
+"7c813d13489a"
+],
+[
+"Is my Short eligible for monetization?",
+"2bfac64e5be6"
+],
+[
+"How can I view my Shorts Analytics?",
+"7702ad7a1a7a"
+],
+[
+"YouTube app",
+"99805a6632de"
+],
+[
+"Can I prevent my video from being turned into a Short?",
+"ee4f95f5bd6f"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"three minutes": 4,
+"blocked globally": 2
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"g-oauth": {
+"name": "Google OAuth 2.0(테스트 상태 앱의 갱신 토큰 7일)",
+"owner": "Google",
+"url": "https://developers.google.com/identity/protocols/oauth2?hl=en",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT16"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "",
+"title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
+"updated": "Last updated 2026-10-29",
+"chars": 16052,
+"hash": "32765896489c",
+"sections": [
+[
+"(첫 부분)",
+"c9c2bc881829"
+],
+[
+"Page Summary",
+"8204e64f4aab"
+],
+[
+"Basic steps",
+"24ba2aae4c3f"
+],
+[
+"1. Obtain OAuth 2.0 credentials from the Google API Console.",
+"c00867719f8b"
+],
+[
+"2. Obtain an access token from the Google Authorization Server.",
+"2d32a53cc866"
+],
+[
+"3. Examine scopes of access granted by the user.",
+"a6263ad7a130"
+],
+[
+"4. Send the access token to an API.",
+"919b29d0591c"
+],
+[
+"5. Refresh the access token, if necessary.",
+"2af28154a2da"
+],
+[
+"Scenarios",
+"79972d3182b0"
+],
+[
+"Web server applications",
+"cd33cbb2dc55"
+],
+[
+"Installed applications",
+"fa66d3958342"
+],
+[
+"Client-side (JavaScript) applications",
+"ef54d672d2e4"
+],
+[
+"Applications on limited-input devices",
+"b80fe74e1997"
+],
+[
+"Service accounts",
+"294cf69e87e9"
+],
+[
+"Token size",
+"b4b939529cd8"
+],
+[
+"Refresh token expiration",
+"d04e5c4b8ade"
+],
+[
+"Dealing with session control policies for Google Cloud Platform (GCP) organizati",
+"22026eb96f7f"
+],
+[
+"Client libraries",
+"46f9454b5ba5"
+]
+],
+"watch": {
+"expiring in 7 days": 1
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-strike": {
+"name": "커뮤니티 가이드 경고·스트라이크(1주·2주 올리기 정지, 90일)",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/2802032?hl=en",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT2"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "",
+"title": "Community Guidelines strike basics on YouTube - YouTube Help",
+"updated": "",
+"chars": 5322,
+"hash": "d757ecb72f9d",
+"sections": [
+[
+"Community Guidelines strike basics on YouTube",
+"030c805a3d12"
+],
+[
+"What happens when you get a strike",
+"4eca95886ce2"
+],
+[
+"Warning",
+"60b8860900df"
+],
+[
+"Optional policy trainings",
+"7e75386f97f5"
+],
+[
+"First Strike",
+"22f901e90e3a"
+],
+[
+"Second Strike",
+"9779050b765b"
+],
+[
+"Third Strike",
+"33f281245ae9"
+],
+[
+"What to do when you get a strike",
+"ba18fc5a7dd9"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"warning": 9,
+"90 days": 5
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-ai-label-blog": {
+"name": "YouTube 블로그 'AI 라벨 개선'(2026-05-27, 라벨 위치)",
+"owner": "YouTube",
+"url": "https://blog.youtube/news-and-events/improving-ai-labels-for-viewers-and-creators/",
+"method": "auto",
+"cycle": "w",
+"rules": [
+"R-YT3"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
+"title": "Improving AI labels for viewers and creators\n            \n          \n           - YouTube Blog",
+"updated": "",
+"chars": 2445,
+"hash": "3538dea49a09",
+"sections": [
+[
+"(첫 부분)",
+"6cae13af2a26"
+],
+[
+"Improving AI labels for viewers and creators",
+"1684edcc0a99"
+],
+[
+"Share",
+"75bd697425ff"
+],
+[
+"More visible, simplified labels",
+"8fd81330e461"
+],
+[
+"Introducing automatic AI detection",
+"917b87c0535d"
+],
+[
+"Our commitment to responsibility",
+"fe9798261575"
+],
+[
+"Related Topics",
+"25548f772151"
+]
+],
+"watch": {
+"Shorts": 1,
+"label": 9
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-api-rmf": {
+"name": "YouTube API 최소 기능 요건(업로드 때 제목·설명·공개 상태를 사용자가 정함)",
+"owner": "YouTube",
+"url": "https://developers.google.com/youtube/terms/required-minimum-functionality?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-YT15"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "",
+"title": "YouTube API Services - Required Minimum Functionality  |  Google for Developers",
+"updated": "Last updated 2026-10-15",
+"chars": 16861,
+"hash": "6b6d97f4a2ed",
+"sections": [
+[
+"(첫 부분)",
+"92b640f95944"
+],
+[
+"YouTube API Services - Required Minimum Functionality Stay organized with collec",
+"251095af0bfd"
+],
+[
+"YouTube embedded player and video playback",
+"d3cf4f906026"
+],
+[
+"API Client Identity and Credentials",
+"c873e45adfaf"
+],
+[
+"Set the Referer",
+"3b957baf34c3"
+],
+[
+"Referer format",
+"511d15719831"
+],
+[
+"WebView Type",
+"0ad609c8d7a0"
+],
+[
+"Embedded YouTube Player size",
+"99773e4adb2f"
+],
+[
+"Autoplay and scripted playbacks",
+"dab6818a241d"
+],
+[
+"YouTube Player attributes",
+"94e3e37a080d"
+],
+[
+"Overlays and frames",
+"37ccf3c8dba2"
+],
+[
+"Mouseovers",
+"08fa2e8c9ae9"
+],
+[
+"Uploading videos",
+"365e01ba0d61"
+],
+[
+"Data requirements",
+"cada74f0855b"
+],
+[
+"Displaying comments",
+"46844d0492a1"
+],
+[
+"Adding comments",
+"4a9740f8a78b"
+],
+[
+"Adding comment replies",
+"d6562acb5393"
+],
+[
+"Editing or deleting comment replies",
+"ea62ba8f460a"
+],
+[
+"Banning a user from live chat (or removing a ban)",
+"865bec87ae3a"
+]
+],
+"watch": {
+"title": 19,
+"description": 8,
+"privacy": 2
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"g-oauth-verify": {
+"name": "OAuth 앱 검증이 필요 없는 경우(개인 사용 — 100명 미만)",
+"owner": "Google Cloud",
+"url": "https://support.google.com/cloud/answer/13464323?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-YT16"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "",
+"title": "When is verification not needed - Google Cloud Platform Console Help",
+"updated": "",
+"chars": 3404,
+"hash": "9b455bfa3a97",
+"sections": [
+[
+"When is verification not needed",
+"1031ba35b6a5"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"personal use": 2
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-features": {
+"name": "기능 사용 권한(중급 — 전화 인증 · 고급)",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/9890437?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-YT18"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "",
+"title": "Learn about feature access for YouTube Creators - YouTube Help",
+"updated": "",
+"chars": 3333,
+"hash": "780f48ea8754",
+"sections": [
+[
+"Learn about feature access for YouTube Creators",
+"242ab5d1291b"
+],
+[
+"Daily limits",
+"3bb44a9bd070"
+],
+[
+"See what features you have access to",
+"20ff3ad56485"
+],
+[
+"Verify your identity to use intermediate and advanced features",
+"bdc2217b3f29"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"intermediate": 5,
+"advanced": 8
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-long-upload": {
+"name": "15분 넘는 영상 올리기",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/71673?hl=en",
+"method": "auto",
+"cycle": "m",
+"rules": [
+"R-YT18"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "",
+"title": "Upload videos longer than 15 minutes - Android phone & tablet - YouTube Help",
+"updated": "",
+"chars": 1539,
+"hash": "e01ee7d81a7d",
+"sections": [
+[
+"Upload videos longer than 15 minutes",
+"2962a878efd8"
+],
+[
+"Increase your video length limit",
+"a0c297b4d300"
+],
+[
+"Maximum upload size",
+"4e93905c015f"
+],
+[
+"I verified my account but my video still won’t play.",
+"efb6bf5e04f3"
+],
+[
+"Was this helpful?",
+"f223e904e785"
+]
+],
+"watch": {
+"15 minutes": 3
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-paid": {
+"name": "유료 프로모션 표시(영상 시작 라벨)",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/154235?hl=en",
+"method": "auto",
+"cycle": "q",
+"rules": [
+"R-YT19"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "",
+"title": "Add branded content restrictions & disclosure labels - Computer - YouTube Help",
+"updated": "",
+"chars": 2940,
+"hash": "29edff4b7779",
+"sections": [
+[
+"Add branded content restrictions & disclosure labels",
+"14561011b7ae"
+],
+[
+"Set age or location restrictions for branded content",
+"505b091e6b87"
+],
+[
+"Was this helpful?",
+"454ffcdacbf9"
+]
+],
+"watch": {
+"paid promotion": 4
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-branded": {
+"name": "YouTube 브랜드 콘텐츠 정책(브랜드 파트너)",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/17596007?hl=en",
+"method": "auto",
+"cycle": "q",
+"rules": [
+"R-YT19"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "",
+"title": "YouTube Branded Content Policies - YouTube Help",
+"updated": "",
+"chars": 7896,
+"hash": "15bb27f99686",
+"sections": [
+[
+"YouTube Branded Content Policies",
+"4158e5b6ddda"
+],
+[
+"Prohibited Content",
+"18ba9d7b2324"
+],
+[
+"Restricted Content",
+"ecc781c4b6e1"
+],
+[
+"What policies do I need to follow for my branded content?",
+"ceebeeb183fc"
+],
+[
+"What happens if your content violates this policy?",
+"3dbf8eddbeb8"
+],
+[
+"Do I need to tell YouTube if my video has branded content?",
+"d77251806f2c"
+],
+[
+"What happens if I don’t disclose my branded content?",
+"619b48b6f487"
+],
+[
+"How can I comply with local age and geo-restriction requirements?",
+"5e3187ae93cf"
+],
+[
+"What happens when I check the \"This video contains paid promotion\" box?",
+"8574007851f2"
+],
+[
+"Can branded content still earn ad revenue?",
+"a2b550c729b3"
+],
+[
+"Is there a feature that can help me inform viewers about branded content in my v",
+"bb9ff7718a00"
+],
+[
+"Can I burn video ads (pre-rolls, mid rolls, and post rolls) into my videos?",
+"ae32869c701f"
+],
+[
+"More resources",
+"6ca21eedbfd1"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"branded content": 28,
+"brand partner": 4
+},
+"lastOk": "2026-11-01T06:51+09:00",
+"failStreak": 0,
+"watchMissing": []
+},
+"yt-impersonation": {
+"name": "사칭 정책(다른 사람·기관·채널인 척 금지)",
+"owner": "YouTube",
+"url": "https://support.google.com/youtube/answer/2801947?hl=en",
+"method": "auto",
+"cycle": "q",
+"rules": [
+"R-YT20"
+],
+"checkedAt": "2026-11-01T06:51+09:00",
+"status": "ok",
+"final": "",
+"title": "Impersonation policy - YouTube Help",
+"updated": "",
+"chars": 3260,
+"hash": "845eca4ce5ad",
+"sections": [
+[
+"Impersonation policy",
+"e08eb4ece85e"
+],
+[
+"If you're posting content",
+"c6eb20b8b3d3"
+],
+[
+"Examples",
+"0a6aa28e2705"
+],
+[
+"What happens if content violates this policy",
+"1fba33dfb9de"
+],
+[
+"Was this helpful?",
+"eda2cdbd3deb"
+]
+],
+"watch": {
+"impersonat": 7
+},
+"lastOk": "2026-11-01T06:51+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
