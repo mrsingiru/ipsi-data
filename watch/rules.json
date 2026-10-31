@@ -1,6 +1,6 @@
 {
 "note": "규정 대장 — 우리 서비스·마케팅이 지켜야 하는 플랫폼 정책·법·자료 이용 조건·도구 약관. 사람이 고치는 파일이다(sources.json처럼 자동으로 만들지 않음). 사람이 읽는 판은 프로젝트 파일 claude/규정_대장과_변경_대응.md. 원문 내용은 넣지 않고 우리 말 요약·주소·감시할 낱말만 둔다.",
-"updated": "2026-10-26",
+"updated": "2026-11-01",
 "how": {
 "auto": "GitHub Actions(rules.yml, 매주 일요일 05:20 한국 시간)가 원문을 열어 부분(제목)별 지문·수정일·감시 낱말을 비교한다. 결과 data/rules_status.json·data/rules_report.md",
 "ai": "마케팅 주간 예약(일요일 14:42)이 차례가 된 것(state/mkt.rules 확인일 + 주기)을 공식 사이트 검색·원문으로 확인한다. 한 번에 3개까지",
@@ -121,17 +121,23 @@
 {
 "id": "C26",
 "t": "광고·제휴·협찬·수익화: 지금은 넣지 않음. 쓰게 되면 글은 제목·첫 부분, 영상은 시작·끝 + 중간 반복으로 '광고'·'소정의 수수료를 받음'을 한국어로 표시(AD·PR 금지), 날짜·자료 옆에 광고를 두지 않음"
+},
+{
+"id": "C27",
+"t": "올리기 칸: 공개 상태 명시 · 아동용 false · AI 표시 true · 제목 100자/설명 5,000바이트/< > 없음 · 승인본과 같은 파일(지문)·글 · 쇼츠 60초 이하 또는 바깥 음악 없음 · 하루 1편/7일 4편 상한"
 }
 ],
 "sources": [
 {
 "id": "yt-monet",
 "owner": "YouTube",
-"name": "채널 수익 창출 정책(진정성 없는 콘텐츠·재사용 콘텐츠)",
+"name": "채널 수익 창출 정책(일반적·반복적 콘텐츠 — 옛 이름: 진정성 없는 콘텐츠·재사용 콘텐츠)",
 "url": "https://support.google.com/youtube/answer/1311392?hl=en",
 "method": "auto",
 "cycle": "w",
 "watch": [
+"Generic or Repetitive",
+"AI Personas",
 "inauthentic",
 "mass-produced",
 "repetitive",
@@ -143,11 +149,13 @@
 {
 "id": "yt-spam",
 "owner": "YouTube",
-"name": "스팸·기만 행위·사기 정책",
+"name": "스팸 정책(Spam Policy — 옛 제목: 스팸·기만 행위·사기 정책)",
 "url": "https://support.google.com/youtube/answer/2801973?hl=en",
 "method": "auto",
 "cycle": "w",
 "watch": [
+"mass-production",
+"minimal changes",
 "mass-produc",
 "automat",
 "strike"
@@ -162,6 +170,8 @@
 "method": "auto",
 "cycle": "w",
 "watch": [
+"Cloning one",
+"AI use",
 "altered or synthetic",
 "GenAI",
 "realistic",
@@ -219,6 +229,8 @@
 "method": "auto",
 "cycle": "w",
 "watch": [
+"not restricted to private viewing mode",
+"100 calls per day",
 "private",
 "audit",
 "unverified",
@@ -814,11 +826,202 @@
 "name": "YouTube API 서비스 개발자 정책(III.E.4 저장·파생 지표 금지)",
 "url": "https://developers.google.com/youtube/terms/developer-policies?hl=en",
 "method": "auto",
-"cycle": "m",
+"cycle": "w",
 "watch": [
+"express consent",
+"Last updated",
 "derived",
 "independently calculated",
 "30 days"
+],
+"lang": "en"
+},
+{
+"id": "yt-api-videos",
+"owner": "YouTube",
+"name": "Data API Videos 자료(공개 상태 기본값·예약 공개·아동용·AI 표시 칸)",
+"url": "https://developers.google.com/youtube/v3/docs/videos?hl=en",
+"method": "auto",
+"cycle": "w",
+"watch": [
+"containsSyntheticMedia",
+"selfDeclaredMadeForKids",
+"defaults to public"
+],
+"lang": "en"
+},
+{
+"id": "yt-api-tos",
+"owner": "YouTube",
+"name": "YouTube API 서비스 약관(9.1 업로드 화면 안내문 · 2.3 바뀐 약관은 30일 뒤 효력)",
+"url": "https://developers.google.com/youtube/terms/api-services-terms-of-service?hl=en",
+"method": "auto",
+"cycle": "w",
+"watch": [
+"Last updated"
+],
+"lang": "en"
+},
+{
+"id": "yt-api-quota",
+"owner": "YouTube",
+"name": "Data API 할당량·감사(업로드 하루 100번 · 감사는 한도를 늘릴 때만)",
+"url": "https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits?hl=en",
+"method": "auto",
+"cycle": "w",
+"watch": [
+"100 videos.insert"
+],
+"lang": "en"
+},
+{
+"id": "yt-audience",
+"owner": "YouTube",
+"name": "시청자층 설정(채널·영상별 아동용 지정, 영상 설정이 우선)",
+"url": "https://support.google.com/youtube/answer/9527654?hl=en",
+"method": "auto",
+"cycle": "w",
+"watch": [
+"override the channel setting"
+],
+"lang": "en"
+},
+{
+"id": "yt-shorts-3min",
+"owner": "YouTube",
+"name": "3분 쇼츠(2024-10-15 이후 · 1분 넘는 쇼츠 저작권 차단)",
+"url": "https://support.google.com/youtube/answer/15424877?hl=en",
+"method": "auto",
+"cycle": "w",
+"watch": [
+"three minutes",
+"blocked globally"
+],
+"lang": "en"
+},
+{
+"id": "g-oauth",
+"owner": "Google",
+"name": "Google OAuth 2.0(테스트 상태 앱의 갱신 토큰 7일)",
+"url": "https://developers.google.com/identity/protocols/oauth2?hl=en",
+"method": "auto",
+"cycle": "w",
+"watch": [
+"expiring in 7 days"
+],
+"lang": "en"
+},
+{
+"id": "yt-strike",
+"owner": "YouTube",
+"name": "커뮤니티 가이드 경고·스트라이크(1주·2주 올리기 정지, 90일)",
+"url": "https://support.google.com/youtube/answer/2802032?hl=en",
+"method": "auto",
+"cycle": "w",
+"watch": [
+"warning",
+"90 days"
+],
+"lang": "en"
+},
+{
+"id": "yt-ai-label-blog",
+"owner": "YouTube",
+"name": "YouTube 블로그 'AI 라벨 개선'(2026-05-27, 라벨 위치)",
+"url": "https://blog.youtube/news-and-events/improving-ai-labels-for-viewers-and-creators/",
+"method": "auto",
+"cycle": "w",
+"watch": [
+"Shorts",
+"label"
+],
+"lang": "en"
+},
+{
+"id": "yt-api-rmf",
+"owner": "YouTube",
+"name": "YouTube API 최소 기능 요건(업로드 때 제목·설명·공개 상태를 사용자가 정함)",
+"url": "https://developers.google.com/youtube/terms/required-minimum-functionality?hl=en",
+"method": "auto",
+"cycle": "m",
+"watch": [
+"title",
+"description",
+"privacy"
+],
+"lang": "en"
+},
+{
+"id": "g-oauth-verify",
+"owner": "Google Cloud",
+"name": "OAuth 앱 검증이 필요 없는 경우(개인 사용 — 100명 미만)",
+"url": "https://support.google.com/cloud/answer/13464323?hl=en",
+"method": "auto",
+"cycle": "m",
+"watch": [
+"personal use"
+],
+"lang": "en"
+},
+{
+"id": "yt-features",
+"owner": "YouTube",
+"name": "기능 사용 권한(중급 — 전화 인증 · 고급)",
+"url": "https://support.google.com/youtube/answer/9890437?hl=en",
+"method": "auto",
+"cycle": "m",
+"watch": [
+"intermediate",
+"advanced"
+],
+"lang": "en"
+},
+{
+"id": "yt-long-upload",
+"owner": "YouTube",
+"name": "15분 넘는 영상 올리기",
+"url": "https://support.google.com/youtube/answer/71673?hl=en",
+"method": "auto",
+"cycle": "m",
+"watch": [
+"15 minutes"
+],
+"lang": "en"
+},
+{
+"id": "yt-paid",
+"owner": "YouTube",
+"name": "유료 프로모션 표시(영상 시작 라벨)",
+"url": "https://support.google.com/youtube/answer/154235?hl=en",
+"method": "auto",
+"cycle": "q",
+"watch": [
+"paid promotion"
+],
+"lang": "en"
+},
+{
+"id": "yt-branded",
+"owner": "YouTube",
+"name": "YouTube 브랜드 콘텐츠 정책(브랜드 파트너)",
+"url": "https://support.google.com/youtube/answer/17596007?hl=en",
+"method": "auto",
+"cycle": "q",
+"watch": [
+"branded content",
+"brand partner"
+],
+"lang": "en"
+},
+{
+"id": "yt-impersonation",
+"owner": "YouTube",
+"name": "사칭 정책(다른 사람·기관·채널인 척 금지)",
+"url": "https://support.google.com/youtube/answer/2801947?hl=en",
+"method": "auto",
+"cycle": "q",
+"watch": [
+"impersonat"
 ],
 "lang": "en"
 },
@@ -881,15 +1084,16 @@
 "id": "R-YT1",
 "area": "mkt",
 "where": "유튜브",
-"title": "진정성 없는 콘텐츠(반복·대량 생산)는 수익 불가, 채널 전체를 봄",
+"title": "수익화 정책 '일반적·반복적 콘텐츠'(2025-07-15 '반복'→'진정성 없는 콘텐츠'로 이름 변경) — 틀로 찍어낸 영상·사진 슬라이드·흐르는 글자·일반 틀 AI 영상·남의 글 낭독은 수익 불가, 같은 인트로·아웃트로는 괜찮음, AI 대본 보조 허용, 심사는 채널 주제·인기·최신 영상·정보란을 봄. 2026-07 개편으로 '불쾌·자극 콘텐츠'·'민감 주제 AI 인물' 칸 추가",
 "effective": "2025-07-15(이름 변경)",
-"label": "확정",
-"ours": "영상마다 결정 하나·고유 해석·지역/학년 결론, 형식 4종 돌리기, 주 3편으로 시작",
+"label": "확정(2026-10-31 원문), 개편 시점은 기사 기준",
+"ours": "영상마다 결정 하나·고유 해석·지역/학년 결론, 형식 4종 돌리기, 주 3편으로 시작, 학교 이름·날짜만 바꾼 회차 금지, 공고문 낭독 금지(C11), 가상 'AI 전문가' 진행자 없음",
 "checks": [
 "C1",
 "C2",
 "C3",
-"C5"
+"C5",
+"C11"
 ],
 "src": [
 "yt-monet"
@@ -900,16 +1104,17 @@
 "id": "R-YT2",
 "area": "mkt",
 "where": "유튜브",
-"title": "스팸·자동 대량 생산·조직적 네트워크 금지(경고 누적 90일 3회면 채널 해지)",
+"title": "스팸 정책 — 자동 도구·AI로 거의 같은 영상을 대량으로 올리기 금지(몇 가지 변형은 괜찮음), 악의적 낚시 제목·썸네일·보상 걸고 좋아요 받기 금지. 첫 위반은 경고(정책 교육 뒤 90일이면 사라짐), 스트라이크 1회 1주·2회 2주 올리기 정지(예약 공개 영상은 비공개로), 90일 안 3회면 채널 삭제 가능",
 "effective": "",
 "label": "확정",
-"ours": "한 채널만, 같은 영상을 여러 계정에 뿌리지 않음, 자동 댓글 없음",
+"ours": "한 채널만, 같은 영상 여러 계정 금지, 자동 댓글 없음, 하루 1편·7일 4편 상한, 경고·스트라이크가 오면 자동 올리기 멈춤",
 "checks": [
 "C5",
 "C13"
 ],
 "src": [
-"yt-spam"
+"yt-spam",
+"yt-strike"
 ],
 "if_changed": "금지 범위가 넓어지면 해당 방식 멈춤"
 },
@@ -917,16 +1122,19 @@
 "id": "R-YT3",
 "area": "mkt",
 "where": "유튜브",
-"title": "사실처럼 보이는 생성형 AI 콘텐츠는 공개 의무, 표시해도 노출·수익 불이익 없음(도움말 제목이 ‘Disclosing use of GenAI content’로 바뀐 것을 2026-10-22 첫 점검에서 봄)",
+"title": "사실처럼 보이는 AI 콘텐츠는 공개 의무. 대본·자막·인포그래픽 보조와 '자기 목소리 복제 음성'은 의무 아님. 스튜디오 '속성 › AI use 예/아니요', API status.containsSyntheticMedia(2024-10-30). 유튜브가 자체 AI 도구·C2PA·내부 감지로 라벨을 붙일 수 있음. 표시만으로 노출·수익 불이익 없음. 2026-05-27부터 사실적 AI 라벨은 쇼츠 화면 위, 덜 사실적·AI 오디오는 설명 안",
 "effective": "",
 "label": "확정",
-"ours": "AI 음성이라 늘 표시를 켬, 실존 인물 흉내 없음",
+"ours": "의무는 아니지만 우리 규칙대로 늘 켬(containsSyntheticMedia=true + 설명란 끝 문장), 시험 영상에서 라벨 위치 확인 뒤 대표가 유지 결정, 실존 인물 흉내 없음",
 "checks": [
 "C7",
-"C10"
+"C10",
+"C27"
 ],
 "src": [
-"yt-synth"
+"yt-synth",
+"yt-api-videos",
+"yt-ai-label-blog"
 ],
 "if_changed": "표시 방식·범위가 바뀌면 업로드 설정과 설명란 문구를 맞춤"
 },
@@ -948,14 +1156,18 @@
 "id": "R-YT5",
 "area": "mkt",
 "where": "유튜브",
-"title": "API 업로드 하루 100회, 검증 안 된 프로젝트의 비공개 잠금이 지금도 있는지 문서끼리 다름",
+"title": "videos.insert는 '동영상 업로드' 따로 한도 — 1번에 1단위·하루 100번(2026-06-01 분리), 그 밖 기능 하루 10,000단위, 기본 한도 안에서는 감사 불필요. 현행 문서(2026-10-15, 영·한)는 '검증 안 된 프로젝트 영상도 비공개로 잠기지 않음'(2020-07-28 잠금 공지를 거둔 개정 기록은 없음). 공개 상태를 비우면 '공개'가 기본, 예약 공개는 비공개·미공개 영상만",
 "effective": "2026-06-01(할당 분리)",
-"label": "확인 필요",
-"ours": "처음엔 스튜디오 예약, API는 1편 공개 업로드 시험 뒤",
-"checks": [],
+"label": "확정(현행 문서) · 잠금은 시험으로 확인",
+"ours": "정식 전환 뒤 6초 시험 1편 일부 공개 → 첫 주 3편 일부 공개 + 대표 손 공개 → 문제 없으면 비공개 + 예약 공개 자동. 공개 상태는 매번 적음",
+"checks": [
+"C27"
+],
 "src": [
 "yt-api-insert",
-"yt-api-rev"
+"yt-api-rev",
+"yt-api-quota",
+"yt-api-videos"
 ],
 "if_changed": "잠금 규칙이 확정되면 업로드 방식을 정함"
 },
@@ -963,15 +1175,18 @@
 "id": "R-YT6",
 "area": "mkt",
 "where": "유튜브",
-"title": "아동용 여부는 주 시청자로 판단",
+"title": "아동용 여부는 주제·의도한/실제 시청자·아이 대상 캐릭터·노래·말투 등을 함께 봄, '혼합 시청자'도 아동용, 사는 나라와 상관없이 영상마다 지정 의무, 영상 설정이 채널 설정보다 우선, 유튜브가 바꿀 수 있음(영상당 이의 1번), 아동용이면 댓글·알림 벨·카드·최종 화면 등이 꺼짐",
 "effective": "",
 "label": "확정",
-"ours": "부모 대상이라 '아동용 아님'",
+"ours": "채널 기본 '아동용 아님' + 영상마다 selfDeclaredMadeForKids=false, 화면·말은 부모를 향함(아이 캐릭터·동요·놀이 연출 안 씀), 유튜브가 바꾸면 자동 멈춤",
 "checks": [
-"C9"
+"C9",
+"C27"
 ],
 "src": [
-"yt-kids"
+"yt-kids",
+"yt-audience",
+"yt-api-videos"
 ],
 "if_changed": "판단 기준이 바뀌면 지정 다시 확인"
 },
@@ -981,7 +1196,7 @@
 "where": "유튜브",
 "title": "쇼츠 설명란·댓글 링크는 눌리지 않음",
 "effective": "",
-"label": "확인 필요",
+"label": "확정(2026-10-31 원문: 쇼츠 설명·댓글 주소는 눌리지 않음, 관련 동영상 링크는 눌림, 긴 영상 설명 링크는 고급 기능 필요)",
 "ours": "화면에 짧은 주소, 채널 프로필 링크, 관련 동영상으로 롱폼 연결(R-YT8), 설명란은 쇼츠용 틀(링크 없이)",
 "checks": [
 "C20",
@@ -1660,10 +1875,10 @@
 "id": "R-YT14",
 "area": "tool",
 "where": "YouTube API",
-"title": "API 자료로 새 지표·파생 지표를 만들거나 비슷한 값을 따로 계산해 바꿔 쓰면 안 됨(III.E.4.h), API 자료는 정해진 기간 안에 새로 고침",
+"title": "API 자료로 새 지표·파생 지표를 만들거나 비슷한 값을 따로 계산해 바꿔 쓰면 안 됨(III.E.4.h), API 자료는 정해진 기간 안에 새로 고침. 인증받아 읽은 분석·통계는 필요한 만큼 보관 가능하되 30일마다 인증 확인(III.E.4.b), 그 밖 인증 자료는 30일 안에 지우거나 새로 고침(III.E.4.c), 인증 자료는 허락한 사람 말고 보여 주지 않음(III.E.3)",
 "effective": "2026-10-15(문서 수정)",
 "label": "확정",
-"ours": "레이더·주간 검색은 받은 조회수 그대로만, 하루 평균·구독자 대비 같은 계산 값을 만들지 않음. 레이더의 하루 평균(perDay)은 질문 은행이 다른 기준으로 바뀐 뒤 없앰",
+"ours": "레이더·주간 검색은 받은 조회수 그대로만, 하루 평균·구독자 대비 같은 계산 값을 만들지 않음. 레이더의 하루 평균(perDay)은 질문 은행이 다른 기준으로 바뀐 뒤 없앰. 올린 영상 ID·상태는 매주 점검이 다시 읽어 새로 고침, 분석 자료는 비공개 저장소에만",
 "checks": [
 "C23"
 ],
@@ -1671,6 +1886,101 @@
 "yt-api-policy"
 ],
 "if_changed": "허용 범위가 바뀌면 레이더·주간 검색 코드를 고침"
+},
+{
+"id": "R-YT15",
+"area": "tool",
+"where": "YouTube API",
+"title": "사용자가 미리 명확히 동의한 것만 자동 업로드(III.I.2), 최종 결정은 사용자·정한 값을 바꾸지 않고 올린 뒤 설명에 덧붙이지 않음(III.C.3·III.C.3.a), 공개 상태 고르는 칸을 보여 주고 동의 없이 바꾸지 않음(III.E.3.f), 업로드 화면에 약관 안내문(API 약관 9.1), 제목 100자·설명 5,000바이트·< > 금지(최소 기능 요건), 프로그램 하나에 프로젝트 하나·열쇠 비밀(III.D.1)",
+"effective": "",
+"label": "확정",
+"ours": "승인 카드 = 올릴 값 전체, 승인 뒤 고치지 않음, 올린 뒤 다시 읽어 대조, 승인 카드에 안내문",
+"checks": [
+"C27"
+],
+"src": [
+"yt-api-policy",
+"yt-api-tos",
+"yt-api-rmf"
+],
+"if_changed": "높음이면 그 주 자동 올리기를 멈추고, 승인 카드·올리기 칸을 맞춘 수정안을 대표가 승인하면 다시 시작"
+},
+{
+"id": "R-YT16",
+"area": "tool",
+"where": "Google OAuth",
+"title": "'테스트' 상태 앱의 갱신 토큰은 7일에 끊김, 6개월 안 쓰면 끊김, 혼자 쓰는 앱(100명 미만)은 구글 검증 불필요(대신 '확인되지 않은 앱' 화면)",
+"effective": "",
+"label": "확정",
+"ours": "11/4 전 정식 전환 → 토큰 새로 받기, 토큰이 끊기면 자동 멈춤 + 할 일",
+"checks": [],
+"src": [
+"g-oauth",
+"g-oauth-verify"
+],
+"if_changed": "토큰 기간·검증 조건이 바뀌면 구글 앱 상태와 토큰 새로 받는 때를 다시 정함(높음이면 그 주 자동 올리기 멈춤)"
+},
+{
+"id": "R-YT17",
+"area": "mkt",
+"where": "유튜브",
+"title": "2024-10-15 이후 올린 정사각·세로 3분 이하 = 쇼츠, 1분 넘는 쇼츠에 저작권 주장이 걸리면 전 세계 차단",
+"effective": "2024-10-15",
+"label": "확정(API로 올려도 쇼츠가 되는지는 확인 필요)",
+"ours": "9:16·60초 이하 기본, 바깥 음악 안 씀(쓰면 오디오 보관함만)",
+"checks": [
+"C27"
+],
+"src": [
+"yt-shorts-3min"
+],
+"if_changed": "높음이면 그 주 자동 올리기를 멈추고, 쇼츠 길이·음악 규칙을 고친 수정안을 대표가 승인하면 다시 시작"
+},
+{
+"id": "R-YT18",
+"area": "mkt",
+"where": "유튜브",
+"title": "15분 넘는 영상·맞춤 썸네일은 전화 인증(중급), 긴 영상 설명 링크·쇼츠 관련 동영상은 고급 기능, 올리기에도 하루 한도(숫자 비공개)",
+"effective": "",
+"label": "확정",
+"ours": "롱폼 시작 전 채널 인증 상태 확인",
+"checks": [],
+"src": [
+"yt-features",
+"yt-long-upload"
+],
+"if_changed": "조건이 바뀌면 롱폼 계획과 채널 확인 항목을 고침"
+},
+{
+"id": "R-YT19",
+"area": "mkt",
+"where": "유튜브",
+"title": "협찬·간접광고 등 브랜드와 대가 관계가 있으면 '유료 프로모션' 표시(영상 시작에 라벨), 안 밝히면 삭제·제한·자동 라벨 가능",
+"effective": "",
+"label": "확정",
+"ours": "지금 없음 → 표시 안 함(C26). 생기면 대표가 스튜디오에서 켜고 한국어 '광고' 표시",
+"checks": [
+"C26"
+],
+"src": [
+"yt-paid",
+"yt-branded"
+],
+"if_changed": "표시 대상·방법이 바뀌면 C26과 올리기 칸을 고침"
+},
+{
+"id": "R-YT20",
+"area": "mkt",
+"where": "유튜브",
+"title": "다른 사람·기관·채널인 척(이름에 '공식', 프로필 그림·배너·색 흉내) 금지",
+"effective": "",
+"label": "확정",
+"ours": "교육청·대학 로고를 채널 그림·썸네일에 쓰지 않음, 기관 이름은 출처 표시로만",
+"checks": [],
+"src": [
+"yt-impersonation"
+],
+"if_changed": "금지 범위가 바뀌면 채널 그림·썸네일·이름 쓰는 법을 고침"
 },
 {
 "id": "R-M1",
