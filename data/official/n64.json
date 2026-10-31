@@ -2,7 +2,7 @@
  "id": "n64",
  "org": "광양제철고",
  "what": "앞으로 120일 안 일정 8단계",
- "checkedAt": "2026-10-31T23:24:48+09:00",
+ "checkedAt": "2026-11-01T06:27:24+09:00",
  "opened": [
   {
    "url": "https://www.posef.or.kr/06_center/01.jsp?bid=1",
@@ -18,16 +18,16 @@
  "route": 3,
  "tried": [
   {
-   "rank": 3,
-   "status": "not-found"
-  },
-  {
    "rank": 1,
    "status": "robots"
   },
   {
    "rank": 2,
    "status": "robots"
+  },
+  {
+   "rank": 3,
+   "status": "not-found"
   }
  ]
 }

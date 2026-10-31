@@ -1,9 +1,10 @@
 {
- "at": "2026-10-31T23:30:17+09:00",
+ "at": "2026-11-01T06:31:26+09:00",
  "targets": 71,
- "withDates": 47,
+ "withDates": 46,
  "blockedAll": [
   "n80",
+  "n31",
   "n33",
   "n62",
   "n63",
@@ -534,16 +535,16 @@
    "route": 3,
    "tried": [
     {
-     "rank": 3,
-     "status": "not-found"
-    },
-    {
      "rank": 1,
      "status": "robots"
     },
     {
      "rank": 2,
      "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
@@ -690,15 +691,23 @@
   {
    "id": "n31",
    "org": "충남대학교 과학영재교육원",
-   "status": "dates",
-   "lines": 60,
-   "files": 6,
-   "opened": 4,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ]
   },
