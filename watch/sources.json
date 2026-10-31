@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.83)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.90)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-10-31",
-"ver": "v28.83",
-"count": 568,
+"ver": "v28.90",
+"count": 569,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -504,6 +504,21 @@
 "cycle": "w"
 },
 {
+"id": "781cc82632",
+"url": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do",
+"host": "highschool.gne.go.kr",
+"name": "경상남도교육청 고입포털 2027학년도 고등학교 입학전형 일정",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n95",
+"n96",
+"n97"
+],
+"dated": "2026-11-01",
+"cycle": "w"
+},
+{
 "id": "ba26db0da0",
 "url": "https://hischoolgbe.kr/online/board/hsAdmission02",
 "host": "hischoolgbe.kr",
@@ -594,7 +609,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1948,7 +1963,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -4413,7 +4428,7 @@
 "id": "33a0f1e786",
 "url": "https://biz.sbs.co.kr/amp/article/20000228825",
 "host": "biz.sbs.co.kr",
-"name": "SBS Biz: 2027년부터 하반기 수능 모의평가는 8월(교육부 발표)",
+"name": "SBS Biz(교육부 발표: 6월 모의평가 유지, 하반기 모의평가 8월)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4750,7 +4765,7 @@
 "used": [
 "n97"
 ],
-"dated": "2026-09-14",
+"dated": "",
 "cycle": "m"
 },
 {
