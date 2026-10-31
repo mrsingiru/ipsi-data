@@ -1,9 +1,17 @@
 {
  "id": "n80",
  "org": "DGIST AI/SW SCHOOL",
- "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-10-31T10:24:29+09:00",
+ "what": "앞으로 120일 안 일정 6단계",
+ "checkedAt": "2026-10-31T21:45:57+09:00",
  "opened": [
+  {
+   "url": "https://dgist.ac.kr/bbs/BBSMSTR_000000000718/B000000112095Gy7bK4.do?mno=sub05_01",
+   "status": "robots"
+  },
+  {
+   "url": "https://www.dgist.ac.kr/bbs/BBSMSTR_000000000712/list.do",
+   "status": "robots"
+  },
   {
    "url": "https://dgist.ac.kr/kor/?GotoPage=1&mode=V&no=9143ee820022098d7aef3662b8b49f06",
    "status": "robots"

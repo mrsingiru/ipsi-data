@@ -2,128 +2,25 @@
  "id": "n63",
  "org": "전남 고입(2027 고입 기본계획)",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-10-31T10:23:30+09:00",
+ "checkedAt": "2026-10-31T21:47:49+09:00",
  "opened": [
   {
    "url": "https://mped.jne.go.kr/data/attach_data/muan/mped/k2board/na/bbs_10379/ntt_1800756706/doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf",
-   "status": "ok"
+   "status": "robots"
   }
  ],
  "notices": [],
  "ged": [],
- "titles": [
-  {
-   "url": "https://mped.jne.go.kr/data/attach_data/muan/mped/k2board/na/bbs_10379/ntt_1800756706/doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf",
-   "title": "첨부: doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf"
-  }
- ],
- "files": [
-  {
-   "url": "https://mped.jne.go.kr/data/attach_data/muan/mped/k2board/na/bbs_10379/ntt_1800756706/doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf",
-   "name": "doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf",
-   "status": "ok",
-   "direct": true,
-   "type": "pdf",
-   "bytes": 541511,
-   "sha1": "6a44add0c645",
-   "lines": 8
-  }
- ],
- "lines": [
-  {
-   "text": "원서 교부 및 접수 2025. 12. 15.(월) 09:00 ~ 12. 18.(목) 17:00",
-   "dates": [
-    "2025-12-15",
-    "2025-12-18"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://mped.jne.go.kr/data/attach_data/muan/mped/k2board/na/bbs_10379/ntt_1800756706/doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf"
-  },
-  {
-   "text": "합격자 발표 | 2026. 1. 5.(월) 14:00",
-   "dates": [
-    "2026-01-05"
-   ],
-   "words": [
-    "발표",
-    "합격"
-   ],
-   "src": "https://mped.jne.go.kr/data/attach_data/muan/mped/k2board/na/bbs_10379/ntt_1800756706/doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf"
-  },
-  {
-   "text": "합격자 발표 | 배정 희망원 제출 2026. 1. 6.(화) 09:00 ~ 1. 9.(금) 17:00 - 평준화고등학교 희망등록 시스템",
-   "dates": [
-    "2026-01-06",
-    "2026-01-09"
-   ],
-   "words": [
-    "발표",
-    "합격"
-   ],
-   "src": "https://mped.jne.go.kr/data/attach_data/muan/mped/k2board/na/bbs_10379/ntt_1800756706/doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf"
-  },
-  {
-   "text": "학교 배정 발표 | 2026. 1. 16.(금) 14:00",
-   "dates": [
-    "2026-01-16"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://mped.jne.go.kr/data/attach_data/muan/mped/k2board/na/bbs_10379/ntt_1800756706/doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf"
-  },
-  {
-   "text": "합격자 등록 | 2026. 1. 19.(월) ~ 1. 21.(수)",
-   "dates": [
-    "2026-01-19",
-    "2026-01-21"
-   ],
-   "words": [
-    "합격"
-   ],
-   "src": "https://mped.jne.go.kr/data/attach_data/muan/mped/k2board/na/bbs_10379/ntt_1800756706/doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf"
-  },
-  {
-   "text": "3. 지원서 접수: 2026. 2. 2.(월) 09:00 ~ 2. 10.(화) 17:00",
-   "dates": [
-    "2026-02-02",
-    "2026-02-10"
-   ],
-   "words": [
-    "원서",
-    "접수",
-    "지원"
-   ],
-   "src": "https://mped.jne.go.kr/data/attach_data/muan/mped/k2board/na/bbs_10379/ntt_1800756706/doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf"
-  },
-  {
-   "text": "4. 접수처: 학군별(목포, 여수, 순천) 교육지원청 | 5. 추첨일: 2026. 2. 12.(목) 14:00",
-   "dates": [
-    "2026-02-12"
-   ],
-   "words": [
-    "접수",
-    "지원"
-   ],
-   "src": "https://mped.jne.go.kr/data/attach_data/muan/mped/k2board/na/bbs_10379/ntt_1800756706/doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf"
-  },
-  {
-   "text": "1. 도내 모든 중학교에서는 고입 전형자료 기준일인 2025. 12. 12.(금)까지의 학생 자료를",
-   "dates": [
-    "2025-12-12"
-   ],
-   "words": [
-    "전형"
-   ],
-   "src": "https://mped.jne.go.kr/data/attach_data/muan/mped/k2board/na/bbs_10379/ntt_1800756706/doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf"
-  }
- ],
- "status": "dates",
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "blocked-all",
  "route": 3,
  "tried": [
+  {
+   "rank": 3,
+   "status": "robots"
+  },
   {
    "rank": 1,
    "status": "robots"
@@ -131,10 +28,6 @@
   {
    "rank": 2,
    "status": "robots"
-  },
-  {
-   "rank": 3,
-   "status": "dates"
   }
  ]
 }

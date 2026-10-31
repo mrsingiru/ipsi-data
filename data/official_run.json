@@ -1,12 +1,13 @@
 {
- "at": "2026-10-31T10:25:03+09:00",
+ "at": "2026-10-31T21:49:37+09:00",
  "targets": 71,
- "withDates": 48,
+ "withDates": 44,
  "blockedAll": [
+  "n80",
   "n31",
   "n33",
   "n62",
-  "n80",
+  "n63",
   "n83"
  ],
  "items": [
@@ -222,30 +223,46 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "dates",
-   "lines": 6,
-   "files": 5,
-   "opened": 6,
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "dates",
-   "lines": 6,
-   "files": 2,
-   "opened": 6,
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
@@ -292,15 +309,23 @@
   {
    "id": "n13",
    "org": "인천하늘고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 2,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ]
   },
@@ -430,6 +455,21 @@
    "tried": null
   },
   {
+   "id": "n41",
+   "org": "충남과학고",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 4,
+   "route": 2,
+   "tried": [
+    {
+     "rank": 2,
+     "status": "found-no-dates"
+    }
+   ]
+  },
+  {
    "id": "n42",
    "org": "충남 고입",
    "status": "robots",
@@ -510,6 +550,21 @@
    "tried": null
   },
   {
+   "id": "n64",
+   "org": "광양제철고",
+   "status": "dates",
+   "lines": 15,
+   "files": 7,
+   "opened": 4,
+   "route": 3,
+   "tried": [
+    {
+     "rank": 3,
+     "status": "dates"
+    }
+   ]
+  },
+  {
    "id": "n66",
    "org": "순천대 영재원",
    "status": "dates",
@@ -528,10 +583,6 @@
    "opened": 2,
    "route": 2,
    "tried": [
-    {
-     "rank": 1,
-     "status": "robots"
-    },
     {
      "rank": 2,
      "status": "found-no-dates"
@@ -567,6 +618,21 @@
    "opened": 5,
    "route": 1,
    "tried": null
+  },
+  {
+   "id": "n80",
+   "org": "DGIST AI/SW SCHOOL",
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "robots"
+    }
+   ]
   },
   {
    "id": "n81",
@@ -611,15 +677,23 @@
   {
    "id": "n12",
    "org": "인천 고입(외고·국제고·광역 자사고·후기 일반고)",
-   "status": "dates",
-   "lines": 8,
+   "status": "not-found",
+   "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 1,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
@@ -700,21 +774,6 @@
    ]
   },
   {
-   "id": "n41",
-   "org": "충남과학고",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 0,
-   "opened": 4,
-   "route": 2,
-   "tried": [
-    {
-     "rank": 2,
-     "status": "found-no-dates"
-    }
-   ]
-  },
-  {
    "id": "n62",
    "org": "전남과학고",
    "status": "blocked-all",
@@ -740,12 +799,16 @@
   {
    "id": "n63",
    "org": "전남 고입(2027 고입 기본계획)",
-   "status": "dates",
-   "lines": 8,
-   "files": 1,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
    "opened": 1,
    "route": 3,
    "tried": [
+    {
+     "rank": 3,
+     "status": "robots"
+    },
     {
      "rank": 1,
      "status": "robots"
@@ -753,25 +816,6 @@
     {
      "rank": 2,
      "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "dates"
-    }
-   ]
-  },
-  {
-   "id": "n64",
-   "org": "광양제철고",
-   "status": "dates",
-   "lines": 21,
-   "files": 7,
-   "opened": 4,
-   "route": 3,
-   "tried": [
-    {
-     "rank": 3,
-     "status": "dates"
     }
    ]
   },
@@ -790,25 +834,10 @@
     },
     {
      "rank": 2,
-     "status": "robots"
+     "status": "not-found"
     },
     {
      "rank": 3,
-     "status": "robots"
-    }
-   ]
-  },
-  {
-   "id": "n80",
-   "org": "DGIST AI/SW SCHOOL",
-   "status": "blocked-all",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
-   "route": 1,
-   "tried": [
-    {
-     "rank": 1,
      "status": "robots"
     }
    ]
@@ -856,7 +885,7 @@
    "org": "창원과학고",
    "status": "dates",
    "lines": 3,
-   "files": 7,
+   "files": 4,
    "opened": 7,
    "route": 1,
    "tried": [
