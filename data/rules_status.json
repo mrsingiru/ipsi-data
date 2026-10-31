@@ -1,5 +1,5 @@
 {
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "registry": {
 "updated": "2026-10-26",
 "rules": 53,
@@ -7,26 +7,26 @@
 },
 "run": {
 "auto": 38,
-"opened": 15,
-"ok": 15,
+"opened": 14,
+"ok": 14,
 "robots": 0,
 "failed": 0,
 "thin": 0,
-"notDue": 23
+"notDue": 24
 },
 "summary": {
 "high": 0,
-"mid": 0,
-"low": 1
+"mid": 1,
+"low": 0
 },
 "events": [
 {
-"source": "tool-goatcounter",
+"source": "th-api",
 "rules": [
-"R-T8"
+"R-TH1"
 ],
-"level": "low",
-"what": "처음 기록(처음부터 없는 감시 낱말: Commercial)"
+"level": "mid",
+"what": "바뀐 부분: (첫 부분)"
 }
 ],
 "sources": {
@@ -39,7 +39,7 @@
 "rules": [
 "R-YT1"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube channel monetization policies - YouTube Help",
@@ -139,7 +139,7 @@
 "slideshow": 1,
 "reused content": 11
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -152,7 +152,7 @@
 "rules": [
 "R-YT2"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "",
 "title": "Spam Policy - YouTube Help",
@@ -182,7 +182,7 @@
 "automat": 2,
 "strike": 4
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
 "watchMissing": [],
 "changedAt": "2026-10-24T06:19+09:00",
@@ -201,7 +201,7 @@
 "rules": [
 "R-YT3"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "",
 "title": "Disclosing use of GenAI content - Android phone & tablet - YouTube Help",
@@ -264,7 +264,7 @@
 "realistic": 14,
 "voice": 3
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
 "watchMissing": [
 "altered or synthetic"
@@ -279,7 +279,7 @@
 "rules": [
 "R-YT4"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube Partner Program overview & eligibility - Computer - YouTube Help",
@@ -351,7 +351,7 @@
 "8,000": 0,
 "20 million": 0
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
 "watchMissing": [
 "8,000",
@@ -459,7 +459,7 @@
 "rules": [
 "R-YT5"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/reference/rest/v3/videos/insert?hl=en",
 "title": "Videos: insert  |  YouTube Data API  |  Google for Developers",
@@ -526,7 +526,7 @@
 "unverified": 1,
 "quota": 3
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
 "watchMissing": [
 "audit"
@@ -541,7 +541,7 @@
 "rules": [
 "R-YT5"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/revision_history?hl=en",
 "title": "Revision History  |  YouTube Data API  |  Google for Developers",
@@ -874,7 +874,7 @@
 "videos.insert": 27,
 "private": 16
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -887,7 +887,7 @@
 "rules": [
 "R-IG1"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "",
 "title": "Helping Creators Find New Audiences | Instagram for Creators | Instagram for Creators",
@@ -933,7 +933,7 @@
 "aggregator": 5,
 "watermark": 1
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -946,7 +946,7 @@
 "rules": [
 "R-IG2"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "https://developers.facebook.com/documentation/instagram-platform/content-publishing",
 "title": "",
@@ -964,7 +964,7 @@
 "24 hour": 1,
 "is_ai_generated": 3
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
 "watchMissing": [],
 "changedAt": "2026-10-24T06:19+09:00",
@@ -983,26 +983,32 @@
 "rules": [
 "R-TH1"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "https://developers.facebook.com/documentation/threads/posts",
 "title": "",
 "updated": "",
-"chars": 17458,
-"hash": "f87ed9c28937",
+"chars": 18967,
+"hash": "8334003ba0c5",
 "sections": [
 [
 "(첫 부분)",
-"f87ed9c28937"
+"8334003ba0c5"
 ]
 ],
 "watch": {
 "250": 1,
 "tester": 2
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
-"watchMissing": []
+"watchMissing": [],
+"changedAt": "2026-10-31T09:33+09:00",
+"changes": {
+"changed": [
+"(첫 부분)"
+]
+}
 },
 "meta-ai-label": {
 "name": "AI 콘텐츠 라벨 방식(2024-04-05, 갱신 확인)",
@@ -1048,7 +1054,7 @@
 "rules": [
 "R-TT1"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "https://developers.tiktok.com/docs/en/content-sharing-guidelines",
 "title": "Content Sharing Guidelines | TikTok for Developers",
@@ -1091,7 +1097,7 @@
 "internal": 1,
 "5 users": 1
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1104,7 +1110,7 @@
 "rules": [
 "R-TT2"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "https://www.tiktok.com/safety/en/policies-and-engagement/integrity-authenticity",
 "title": "Policies & engagement | TikTok",
@@ -1142,7 +1148,7 @@
 "label": 6,
 "unoriginal": 1
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1269,7 +1275,7 @@
 "rules": [
 "R-G1"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "",
 "title": "Spam Policies for Google Web Search | Google Search Central  |  Documentation  |  Google for Developers",
@@ -1391,7 +1397,7 @@
 "doorway": 2,
 "site reputation abuse": 0
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
 "watchMissing": [
 "site reputation abuse"
@@ -1406,7 +1412,7 @@
 "rules": [
 "R-G2"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "",
 "title": "Google Search's Guidance on Generative AI Content on Your Website | Google Search Central  |  Documentation  |  Google f",
@@ -1436,7 +1442,7 @@
 "scaled content abuse": 2,
 "metadata": 4
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1537,7 +1543,7 @@
 "rules": [
 "R-G3"
 ],
-"checkedAt": "2026-10-26T06:40+09:00",
+"checkedAt": "2026-10-31T09:33+09:00",
 "status": "ok",
 "final": "",
 "title": "History for Ranking | Google Search Status Dashboard",
@@ -1582,7 +1588,7 @@
 "spam update": 24,
 "core update": 32
 },
-"lastOk": "2026-10-26T06:40+09:00",
+"lastOk": "2026-10-31T09:33+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
