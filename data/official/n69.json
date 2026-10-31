@@ -2,32 +2,48 @@
  "id": "n69",
  "org": "제주 고입",
  "what": "앞으로 120일 안 일정 2단계",
- "checkedAt": "2026-10-31T06:31:34+09:00",
+ "checkedAt": "2026-10-31T10:20:51+09:00",
  "opened": [
   {
    "url": "https://school.jje.go.kr/jejufl/na/ntt/selectNttList.do?mi=109223&bbsId=129168",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jje.go.kr/jejufl/na/ntt/selectNttInfo.do?mi=109223&bbsId=129168&nttSn=40749161",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 제주외국어고등학교 자기주도학습전형 요강",
+   "url": "https://school.jje.go.kr/jejufl/na/ntt/selectNttInfo.do?mi=109223&bbsId=129168&nttSn=40749161"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://school.jje.go.kr/jejufl/na/ntt/selectNttInfo.do?mi=109223&bbsId=129168&nttSn=40749161",
+   "title": "제주외국어고등학교 > 입학안내 > 신입생 > 모집요강 상세"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://school.jje.go.kr/common/nttFileDownload.do?fileKey=43bd400d951a91edbd9857c9679508e8",
+   "name": "2027학년도 제주외국어고등학교 자기주도학습전형 요강.hwp",
    "status": "robots"
   }
  ],
- "notices": [],
- "ged": [],
- "titles": [],
- "files": [],
  "lines": [],
- "status": "blocked-all",
+ "status": "found-no-dates",
  "route": 2,
  "tried": [
-  {
-   "rank": 2,
-   "status": "robots"
-  },
   {
    "rank": 1,
    "status": "robots"
   },
   {
-   "rank": 3,
-   "status": "robots"
+   "rank": 2,
+   "status": "found-no-dates"
   }
  ]
 }

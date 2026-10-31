@@ -2,7 +2,7 @@
  "id": "n77",
  "org": "대구 고입(2027 고입 기본계획)",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-10-31T06:34:55+09:00",
+ "checkedAt": "2026-10-31T10:23:58+09:00",
  "opened": [
   {
    "url": "https://www.dge.go.kr/main/",
@@ -23,7 +23,7 @@
   },
   {
    "rank": 2,
-   "status": "not-found"
+   "status": "robots"
   },
   {
    "rank": 3,
