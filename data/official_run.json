@@ -1,11 +1,9 @@
 {
- "at": "2026-11-01T08:42:21+09:00",
+ "at": "2026-11-02T06:32:05+09:00",
  "targets": 71,
- "withDates": 47,
+ "withDates": 48,
  "blockedAll": [
-  "n69",
   "n80",
-  "n31",
   "n33",
   "n62",
   "n63",
@@ -124,10 +122,10 @@
   {
    "id": "n68",
    "org": "제주과학고",
-   "status": "robots",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
-   "opened": 1,
+   "files": 3,
+   "opened": 2,
    "route": 1,
    "tried": null
   },
@@ -562,23 +560,19 @@
   {
    "id": "n69",
    "org": "제주 고입",
-   "status": "blocked-all",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
-   "opened": 1,
+   "files": 1,
+   "opened": 2,
    "route": 2,
    "tried": [
-    {
-     "rank": 2,
-     "status": "robots"
-    },
     {
      "rank": 1,
      "status": "robots"
     },
     {
-     "rank": 3,
-     "status": "robots"
+     "rank": 2,
+     "status": "found-no-dates"
     }
    ]
   },
@@ -745,23 +739,15 @@
   {
    "id": "n31",
    "org": "충남대학교 과학영재교육원",
-   "status": "blocked-all",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
+   "status": "dates",
+   "lines": 60,
+   "files": 6,
+   "opened": 4,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "dates"
     }
    ]
   },
