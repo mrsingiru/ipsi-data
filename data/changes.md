@@ -2,6 +2,23 @@
 
 나이스 학교기본정보를 매일 받아 지난번과 비교한 결과입니다. 최신이 위에 있습니다.
 
+## 2026-11-02
+
+- 바뀜: 서울 상명초등학교 — home: https://sangmyeong.net/ → https://smcho.sen.es.kr/
+- 바뀜: 서울 한가람고등학교 — home: http://www.hangaram.hs.kr → http://hangaram.sen.hs.kr
+- 바뀜: 대구 대구세현초등학교 — address: 대구광역시 달성군 구지면 국가산단대로66길 10 → 대구광역시 달성군 구지읍 국가산단대로66길 10
+- 바뀜: 대구 대구이현초등학교 — home: http://www.ehyun.es.kr/ → https://ehyun.dge.es.kr
+- 바뀜: 전남광주 광주서초등학교 — home: http://seo.gen.es.kr → http://seo.jge.es.kr
+- 바뀜: 전남광주 광주풍향초등학교 — home: http://punghyang.gen.es.kr → http://punghyang.jge.es.kr
+- 바뀜: 전남광주 매곡초등학교 — home: http://k-maegok.gen.es.kr → http://k-maegok.jge.es.kr
+- 바뀜: 전남광주 상무고등학교 — home: http://sangmu.gen.hs.kr → http://sangmu.jge.hs.kr
+- 바뀜: 전남광주 진제초등학교 — home: http://jinje.gen.es.kr → http://jinje.jge.es.kr
+- 바뀜: 경기 고천초등학교 — address: 경기도 의왕시 효행로 10 → 경기도 의왕시 오전천로 40
+- 바뀜: 경기 부발중학교 — home: http://bubal.ms.kr → https://bubal-ms.goeic.kr/
+- 바뀜: 전북 전주기전중학교 — home: http://kijeon.ms.kr → https://school.jbedu.kr/kijeon
+- 바뀜: 경북 우석여자고등학교 — home: https://school.gyo6.net/wsg/main.do?sysId=wsg → https://school.gyo6.net/wsg/
+- 바뀜: 제주 서귀포여자중학교 — home: http://seogwipo-g.jje.ms.kr → https://school.jje.go.kr/seogwipo-g/main.do
+
 ## 2026-10-26
 
 - 새로 생김: 전남광주 광산구 하남고등학교 (고등학교)
