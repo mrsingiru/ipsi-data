@@ -1,958 +1,603 @@
 {
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "registry": {
-"ver": "v28.56",
-"generated": "2026-10-25",
-"count": 498
+"ver": "v28.90",
+"generated": "2026-10-31",
+"count": 569
 },
 "run": {
-"checked": 65,
-"ok": 64,
-"robots": 0,
-"failed": 1,
-"changed": 0,
-"skipped": 433,
-"limit": 0
+"checked": 306,
+"ok": 267,
+"robots": 32,
+"failed": 6,
+"changed": 59,
+"skipped": 263,
+"limit": 0,
+"login": 1
 },
 "summary": {
-"broken": 0,
-"changedOfficial": 0,
+"broken": 2,
+"changedOfficial": 59,
 "moved": 0,
-"robots": 28,
+"robots": 49,
 "login": 2,
-"skipTerms": 156,
-"neverOk": 36
+"skipTerms": 160,
+"neverOk": 52
 },
 "items": {
-"1134a57ee6": {
-"url": "https://www.schoolinfo.go.kr/si/pi/pnsipi_a01_l0.do",
-"kind": "공식",
-"cat": "공공 데이터·API",
-"used": [
-"q-hs-alimi",
-"q-hs-choose"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "5e662fd3c5d95a86",
-"title": "2026년-지침기준 보기-공시항목 소개-학교알리미란-학교알리미",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"d818e87254": {
-"url": "https://bdja-h.goesn.kr/bdja-h/cm/cntnts/cntntsView.do?mi=27552&cntntsId=4832",
+"bc10c4639b": {
+"url": "https://www.gbe.kr/ad/na/ntt/selectNttInfo.do?mi=5690&nttSn=1656275",
 "kind": "공식",
 "cat": "교육청",
 "used": [
-"n20"
+"n86"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "1633eeb77f090616",
-"title": "분당중앙고등학교",
+"hash": "205edb6fe82fe784",
+"title": "경상북도안동교육지원청-공지사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"4375639158": {
-"url": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812",
+"aaee2d90a3": {
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/04/e2b13ae0-cb1b-49f0-a7d0-9d90c781c606.pdf",
 "kind": "공식",
 "cat": "교육청",
 "used": [
-"n94"
+"q-hs-credit"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "de2d684f99bd29aa",
-"title": "창원영재교육원 영재선발-전형방법",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"4fe046c778": {
-"url": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8059&cntntsId=1594",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"n18"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "0faeb48fdd245cb2",
-"title": "2027 원서접수 및 전형일정 < 2027년 입학전형요항 | 경기북과학고등학교",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"d515761e81": {
-"url": "https://www.gne.go.kr/www/information/schoolopen/schoolopen01.jsp",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"q-hs-alimi",
-"q-sch-test-ratio"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "e1f79856562b9001",
-"title": "경남교육청 : HOME > 정보공개 > 유치원/학교정보공시 > 정보공시제도안내",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"434f81f202": {
-"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/02/410e7664-15c3-434c-82a0-b6a4ee78eec1.pdf",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"q-hs-choose",
-"q-naesin",
-"q-sch-joint",
-"q-sch-test-ratio",
-"q-univ-last-year"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "6cc26514e6b76a6b",
+"hash": "bb3ee0798629f89c",
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"03bbd54b2e": {
-"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/03/ae54e5b6-3f5b-482f-a553-88d3d8cc74e9.pdf",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"q-hs-autonomous"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "c5eebed0a2d844ba",
-"title": "",
-"final": "",
-"ctype": "application/pdf",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"f80d77991d": {
-"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/05/1d4e385d-9b72-4d67-84b8-50ff8432fca7.pdf",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"q-hw-edubenefit"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "a7a5c40d32584c02",
-"title": "",
-"final": "",
-"ctype": "application/pdf",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"30c3f1f59a": {
-"url": "https://www.goebc.kr/bch-h/cm/cntnts/cntntsView.do?mi=13794&cntntsId=2618",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"n19"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "503f40de8aaafdd7",
-"title": "원서접수 및 전형 일정 < 입학전형요항 | 부천고등학교",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"09d6c51ef3": {
-"url": "https://www.goedy.kr/goedy/na/ntt/selectNttList.do?mi=10224&bbsId=10174",
+"2c7d66c281": {
+"url": "https://www.goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1684510",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n16"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "ed2c92a140282d3f",
-"title": "공지사항 < 알림마당 | 경기도동두천양주교육지원청",
+"hash": "98380c9aa56acecc",
+"title": "공지사항 < 영재교육원 | 경기도동두천양주교육지원청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"ba26db0da0": {
-"url": "https://hischoolgbe.kr/online/board/hsAdmission02",
+"59405d33cc": {
+"url": "https://www.goedy.kr/goedy/na/ntt/selectNttInfo.do?nttSn=1688584&mi=10312",
 "kind": "공식",
 "cat": "교육청",
 "used": [
-"n87",
-"n88",
+"n16"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "002436417c3dc01a",
+"title": "공지사항 < 영재교육원 | 경기도동두천양주교육지원청",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"781cc82632": {
+"url": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n95",
+"n96",
+"n97"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "bdb819b50c52910f",
+"title": "입학전형 일정 - 경상남도교육청 고입포털",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"8c288add23": {
+"url": "https://www.hischoolgbe.kr",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n91"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "e3b0c44298fc1c14",
+"title": "",
+"final": "https://www.hischoolgbe.kr/",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"366e7b7d3f": {
+"url": "https://school.cbe.go.kr/cbs-h/M0103/",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n36"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "9e47c09ce03fc308",
+"title": "전형요강<입학안내<충북과학고등학교",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"c457a11443": {
+"url": "https://school.gyo6.net/gimcheon/main.do",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n91"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
+"failStreak": 0
+},
+"c570c22721": {
+"url": "https://school.gyo6.net/pocheolhs/na/ntt/selectNttList.do?mi=10205955&bbsId=20000337",
+"kind": "공식",
+"cat": "교육청",
+"used": [
 "n90"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "cb4ff25827550888",
-"title": "경상북도교육청 온라인 고입전형포털",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
 "failStreak": 0
 },
-"82b8fab82c": {
-"url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12455&cntntsId=1859",
+"3235b8c694": {
+"url": "https://school.use.go.kr/ushs-h/M010301/",
 "kind": "공식",
 "cat": "교육청",
 "used": [
-"q-hs-assign",
-"q-hs-fail"
+"n82"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "49285993c460ad5e",
-"title": "부산광역시교육청 고입포털 - 고교입학 - 후기 일반고 배정안내",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"997cb8ad04": {
-"url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"q-hs-fl-select",
-"q-hs-local-list"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "bfdfe0e24389acd8",
-"title": "부산광역시교육청 고입포털 - 고교입학 - 고교입학 안내 - 후기고(특목고, 자사고,학교장전형고)",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"ed1b78c831": {
-"url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12735&cntntsId=1848",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"q-hs-assign"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "ea328a38bb0b95a6",
-"title": "부산광역시교육청 고입포털 - 고교입학 - 고교입학 안내 - 후기고(일반고)",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"3331afde38": {
-"url": "https://home.pen.go.kr/hscredit/cm/cntnts/cntntsView.do?mi=17431&cntntsId=3738",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"q-hs-choose",
-"q-sch-joint"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "f066a363f9747aa1",
-"title": "고교학점제 지원센터 - 공동교육과정 - 공동교육과정 안내 - 부산온라인학교",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"9597a8e753": {
-"url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"n10",
-"n11"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "46b1788a500a8880",
-"title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"351e0b5b99": {
-"url": "https://www.ice.go.kr/upload/ice/na/bbs_1671/2026/02/4ff84e71a1919e5b158b2fb96191e8bd.pdf",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"q-courses",
-"q-hs-choose",
-"q-naesin",
-"q-sch-joint",
-"q-sch-reenter"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "c122b02eb6d23097",
+"hash": "e25e70d890f1d9f8",
 "title": "",
 "final": "",
-"ctype": "application/pdf",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"40194407b2": {
-"url": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728477",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"n56"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "e6d08a685748b459",
-"title": "",
-"final": "",
-"ctype": "application/octet-stream",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"af1d3b09ae": {
-"url": "https://www.jbe.go.kr/jinro/index.jbe?menuCd=DOM_000001104000000000",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"n57"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "3c9f144b70120823",
-"title": "전북특별자치도교육청 진로진학센터",
-"final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"f3affffaed": {
-"url": "https://www.pen.go.kr/main/cm/cntnts/cntntsView.do?mi=31768&cntntsId=549",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"q-hw-overcharge"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "5d6bf16cfb565d17",
-"title": "불법사교육신고안내 \n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t불법사교",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"5e1916b8fa": {
-"url": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"n55"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "44ed96a4daa22b76",
-"title": "",
-"final": "",
-"ctype": "application/octet-stream",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"10f88ad88c": {
-"url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000022/board/BO00000124/ctgynone/view0010v.do?board_seq=987",
+"a96aff872c": {
+"url": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4035&file_seq=1&alias_name=20260919045136613_1",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n00"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "ea7b1bed9b202f32",
-"title": "서울영재교육",
+"hash": "dc4362c8f20d61d3",
+"title": "",
 "final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"ctype": "application/x-msdownload",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"9a46d8115c": {
-"url": "http://gbit.daegu.ac.kr/board/view/notice1/451",
+"dd5c49d58c": {
+"url": "https://www.use.go.kr/",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n81"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
+"failStreak": 0
+},
+"69961d3dff": {
+"url": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n45"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "7eff0c5e033d2e51",
+"title": "시스템안내",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"62ebebe328": {
+"url": "https://admission.yonsei.ac.kr/seoul/upload/guide/20260529204109T8NZNJ.PDF",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
-"n93"
+"q-univ-chungwon-call",
+"q-univ-ged-susi"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "9eb4935ea6a86370",
-"title": "정보 영재교육원 과정 소개 > 공지사항 - 2027학년도 AI 영재교육원 대상자 선발 안내",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"83c1b1cad6": {
-"url": "https://oku.korea.ac.kr/attach/202512/1766737808730_0.pdf",
-"kind": "공식",
-"cat": "대학 입학처",
-"used": [
-"q-univ-rural"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "3ba87964c474f5b9",
+"hash": "a41b14f17a7f535f",
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"77aa250ee2": {
-"url": "https://oku.korea.ac.kr/attach/202609/1788832925216_0.pdf",
+"bef353d383": {
+"url": "https://depts.washington.edu/dbpeds/pediatricsleepdurationconsensus.pdf",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
-"q-courses",
-"q-sch-joint",
-"q-sch-reenter",
-"q-univ-blind"
+"q-life-cram-sleep"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "e9f810ee20b7f54a",
+"hash": "2ed4737a4e30bfa4",
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"37875138d6": {
-"url": "https://eiec.kdi.re.kr/policy//materialView.do?num=262490&device=mob&type=J&depth1=C0000&code=C0200",
+"757490418b": {
+"url": "https://dgist.ac.kr/bbs/BBSMSTR_000000000718/B000000112095Gy7bK4.do?mno=sub05_01",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"n80"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
+"failStreak": 0
+},
+"2fc30a393b": {
+"url": "https://www.dgist.ac.kr/bbs/BBSMSTR_000000000712/list.do",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"n80"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
+"failStreak": 0
+},
+"7f9b6b09bd": {
+"url": "https://go.hanyang.ac.kr/resources/upload_data/mojib/20260818042807559_.pdf",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-univ-ged-susi"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "3be6649b73d597a6",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"7e4e1fc146": {
+"url": "https://go.pusan.ac.kr/down/mojib/RF(0)_2607079150.pdf",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-med-ldoc-city",
+"q-med-local-move",
+"q-med-pharm-local",
+"q-univ-local-hs"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "60ba843338653b91",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"00aa4acb1a": {
+"url": "https://hbcl.msu.edu/_files/Hillman_2014_EffectsOfTheFITKIDS.pdf",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-life-exercise-study"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "b6d0c33ffc7c63ae",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"ae86f65df3": {
+"url": "https://iphak.ssu.ac.kr/susi/rating_guide.asp?page_no=1_2_4",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-univ-jongbu"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "2a6b818ec03dac20",
+"title": "숭실대학교입학처 | 입학전형안내 | 수시 | 학생부종합전형",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"f13e03338a": {
+"url": "https://iphak.ulsan.ac.kr/board/download.do?no=734",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-med-ldoc-city",
+"q-med-ldoc-zone",
+"q-univ-local-hs"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "http-500",
+"failStreak": 1,
+"error": "http-500"
+},
+"d8ea0d02dc": {
+"url": "https://lsuonline.lsu.edu/business/economics/files/workingpapers/pap15_03.pdf",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-life-school-phone-ban"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "daa09f1d4b2ee996",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"5209660038": {
+"url": "https://www2.yonsei.ac.kr/entrance/2026/2027%ED%95%99%EB%85%84%EB%8F%84_%EC%97%B0%EC%84%B8%EB%8C%80%ED%95%99%EA%B5%90_%ED%95%99%EC%83%9D%EB%B6%80%EC%A2%85%ED%95%A9%EC%A0%84%ED%98%95_%EC%95%88%EB%82%B4%EC%84%9C.pdf",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-univ-jongbu"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "157f395d4b00f9e5",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"53c63b6e04": {
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=278528",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
-"q-suneung"
+"q-life-phone-grades"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
 "hash": "c89916df7b390344",
-"title": "2028학년도 대학수학능력시험 시험 및 점수 체제 안내 | 경제정책자료 |KDI 경제교육·정보센터",
+"title": "2025년 디지털 정보격차·웹 접근성·스마트폰 과의존 실태조사 결과 발표 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"789ab5e001": {
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=248741",
+"99f84ed5e1": {
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=283473",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
-"q-ipgyeol-read"
+"r-local-jongbu"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
 "hash": "c89916df7b390344",
-"title": "차세대 ‘어디가’ 개통, 대입정보 검색부터 상담까지 한 번에 이용한다 | 경제정책자료 |KDI 경제교육·정보센터",
+"title": "2026년 6월 대학정보공시 분석 결과 발표 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"d585cfb80b": {
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285864",
+"0b40c26833": {
+"url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156621023",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
-"q-univ-plan-when"
+"q-med-regions"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "c89916df7b390344",
-"title": "「2029학년도 대학입학전형기본사항」발표 | 경제정책자료 |KDI 경제교육·정보센터",
+"hash": "de69e8a7c45ed892",
+"title": "2025학년도 의대 정원 대학별 배정결과 - 보도자료 | 브리핑룸 | 대한민국 정책브리핑",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"75c13dcd2c": {
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285888",
+"2e495503d3": {
+"url": "https://www.korea.kr/news/customizedNewsView.do?newsId=148948842",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
-"q-med-ldoc"
+"q-life-school-phone-ban"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "c89916df7b390344",
-"title": "둘 이상 진료권에 걸친 학교군의 지역의사선발전형 거주요건 기준 보완 | 경제정책자료 |KDI 경제교육·정보센터",
+"hash": "cc7605b381ec901d",
+"title": "수업 중 스마트폰 사용 금지, 어떻게 생각하세요? - 맞춤형 정책뉴스 | 맞춤 정책 뉴스 | 뉴스 | 대한민국 정책브리핑",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"7b40392364": {
-"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148928116",
+"3fe67f4a6e": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148953921",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
-"q-univ-edu-quota"
+"q-csat-day-rules"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "a9fcfa3691813c21",
-"title": "내년 교대 입학정원 12% 감축…초등교원 양성규모 적정화 추진 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"hash": "09644cca36414668",
+"title": "'수능, 이것 꼭 기억하세요'…시험장에 모든 전자기기 반입 금지 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"9ffc8e1102": {
-"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148930602",
+"aee731883f": {
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=105756&lev=0&m=020402",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
-"q-hw-overcharge"
+"q-csat-apply"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "d36268aa2d993378",
-"title": "학원 운영·광고 어떤 경우에 불법인가요? - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"ebe1121770": {
-"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148936321",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-hw-taxcredit"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "be5fbc832e412b23",
-"title": "자주 묻는 연말정산 ③ 초등생 학원비도 세액 공제? - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"575a1a8d5c": {
-"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148938778",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-suneung"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "230161ab83a7dc41",
-"title": "2028학년도 수능 '통합·융합형'으로…탐구 과목, 문항 수·시간 늘린다 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"b0b8525ba9": {
-"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148957544",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-hw-taxcredit"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "edd1b9bac6129004",
-"title": "새해엔 초등 저학년 예체능 학원비 세액공제…청년미래적금도 신설 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"1cf3330efa": {
-"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148958661&call_from=rsslink",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-sch-neulbom"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "ca1ce85c74656d95",
-"title": "2026년 교육 분야, 이렇게 달라집니다! - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"4d3a2db1ba": {
-"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967122",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-univ-edu-quota"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "424339058a3e23b6",
-"title": "내년 교사 신규채용, 초등 2700~2900명…중등 4700~5100명 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"b69dc0cf65": {
-"url": "https://www.korea.kr/news/policyNewsView.do?newsId=156363507",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-univ-blind"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "ed2e688c9c592bd9",
-"title": "교육부, 대입제도 공정성 강화 방안 발표 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"9f152fe774": {
-"url": "https://www.korea.kr/news/policyNewsView.do?newsId=156576252",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-hs-national-jasa"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "235e2ed7db07f125",
-"title": "공교육 경쟁력 제고방안 발표 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"343f2adcda": {
-"url": "https://www.korea.kr/news/policyNewsView.do?newsId=156610957",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-hs-national-jasa"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "d5c75051f9dba4da",
-"title": "초중등교육법 시행령 일부개정령안 브리핑 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"f0b1d16a97": {
-"url": "https://moe.go.kr/boardCnts/view.do?boardID=295&boardSeq=79149&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020401&opType=N",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-dir-reading"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "5beedfedc552336a",
-"title": "[설명자료]´24학년도 이후에도 정규교육과정 내 비교과 영역의 주요 항목들은 여전히 대입에 반영됩니다.",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"3f9cdcf30c": {
-"url": "https://www.moe.go.kr/boardCnts/listRenew.do?boardID=72782&renew=72782&m=030215&s=moe",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-sch-neulbom"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "496bafadf65ad0fc",
-"title": "교육부 > 정책 > 초·중·고 교육 > 초등돌봄·교육",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"e7332e79d5": {
-"url": "https://www.moe.go.kr/boardCnts/view.do?boardID=294&boardSeq=79119&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-dir-reading"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "beb1533d8930e6a3",
-"title": "교육부, 대입제도 공정성 강화 방안 발표",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"4c0167c234": {
-"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&lev=0&statusYN=W&s=moe&m=020402&opType=N&boardSeq=105261",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-sch-neulbom"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "574a5c583bccbd6b",
+"hash": "fc0c1bfe4b3a9589",
 "title": "교육부 > 교육부 소식 > 보도·설명·반박 > 보도자료",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"34af13860e": {
-"url": "https://www.moe.go.kr/sub/infoRenewal.do?m=011520&page=011520&s=moe",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-hw-overcharge"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "b5d7a8337890df29",
-"title": "교육부 > 국민참여·민원 > 신고·고충처리 > 불법사교육신고센터",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"5b62f7cc4e": {
-"url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?lsJoLnkSeq=1010072001&chrClsCd=010202&ancYnChk=0",
+"cc680a1bd4": {
+"url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=161470173",
 "kind": "공식",
 "cat": "법령·판례",
 "used": [
-"q-hs-autonomous"
+"q-semi"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "2a8e65d5893f10fa",
-"title": "조문정보 | 국가법령정보센터",
+"hash": "501eac434fd2df71",
+"title": "",
 "final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"0b2413e71d": {
-"url": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?lsId=003956&chrClsCd=010202&lsRvsGubun=all",
+"92ad9a32fc": {
+"url": "https://www.law.go.kr/LSW/lsRvsDocListP.do?lsId=000900",
 "kind": "공식",
 "cat": "법령·판례",
 "used": [
-"q-hw-taxcredit"
+"q-life-school-phone-ban"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "a3417fabae156a18",
-"title": "국가법령정보센터|전체 제정·개정이유",
+"hash": "6933f63ea7125d79",
+"title": "국가법령정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"9716f4be1b": {
-"url": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?lsId=005238&lsRvsGubun=all&chrClsCd=010102",
-"kind": "공식",
-"cat": "법령·판례",
-"used": [
-"q-hs-national-jasa"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "4f109dad80c78a98",
-"title": "국가법령정보센터|전체 제정·개정이유",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"c4a65eb914": {
-"url": "https://www.law.go.kr/lsLinkProc.do?lsClsCd=OL&lsNm=%EC%A7%80%EB%B0%A9%EB%8C%80%ED%95%99%EB%B0%8F%EC%A7%80%EC%97%AD%EA%B7%A0%ED%98%95%EC%9D%B8%EC%9E%AC%EC%9C%A1%EC%84%B1%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0%EC%8B%9C%ED%96%89%EB%A0%B9&joNo=001000000&mode=10",
-"kind": "공식",
-"cat": "법령·판례",
-"used": [
-"r-med-seoul"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "7fe18e2f6041bd89",
-"title": "조문정보 | 국가법령정보센터",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "bd9e110e68": {
@@ -1027,7 +672,6 @@
 "cat": "영재교육",
 "used": [
 "n54",
-"n59",
 "n60"
 ],
 "cycle": "w",
@@ -1048,8 +692,7 @@
 "kind": "공식",
 "cat": "영재교육",
 "used": [
-"n61",
-"n65"
+"n61"
 ],
 "cycle": "w",
 "status": "skip-terms"
@@ -1096,276 +739,640 @@
 "cycle": "w",
 "status": "skip-terms"
 },
-"bfa726d15e": {
-"url": "https://gifted.kongju.ac.kr/main/board/read.php?q=a0702b542656f8a4551b37f80f54c276036a36beeb6d7d50e00868f9c53a4992db3382c07c15089bc292e2fc5f8eebc736564ead3f1ed04d11e91296dabe9e40",
+"bfc4942377": {
+"url": "https://gifted.ac.kr/",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
-"n44"
+"n58"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "8a5314cec81e1cc6",
-"title": "상세내용 | 공지사항  | 커뮤니티 | 국립공주대학교 과학영재교육원",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
 "failStreak": 0
 },
-"35ff73ff10": {
-"url": "https://seigy.knu.ac.kr/student/44",
+"398d1cac44": {
+"url": "https://koreascience.or.kr/article/JAKO202306447812818.pdf",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
-"n79"
+"q-life-breakfast"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "7a9f7e9b3d40511b",
-"title": "[공고]2027학년도  경북대학교 과학영재교육원 초등심화과정(초 5학년 대상) 신입생 선발 모집 요강 > 학생선발 | 경북대학교과학영재교육원",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"b06d468a35": {
-"url": "https://kcue.or.kr/_upload/news/2026/07/31/application_8366fe4b41bdfd2721e0b5596d3a265d.pdf",
-"kind": "공식",
-"cat": "입시 공식 기관",
-"used": [
-"q-reform",
-"q-univ-nsu",
-"q-univ-plan-when",
-"qdev102101",
-"qdev102102",
-"qdev102103",
-"qdev102104",
-"qdev102105"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "dec9bf510359b2a7",
+"hash": "de4583c6afc46741",
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"c108dde79f": {
-"url": "https://www.kcue.or.kr/_upload/news/2025/08/28/application_e184daa942fe84363f0a4d34381665f3.pdf",
+"cbed06ec09": {
+"url": "https://www.kcue.or.kr/_upload/high/2026/07/29/application_362f67e1ef42db2530a067aff8995253.pdf",
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
-"q-g2-winter",
-"q-med",
-"r-med-seoul"
+"q-med-pharm-local",
+"q-med-regions"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "http-404",
-"failStreak": 1,
-"error": "http-404"
-},
-"cfb8598529": {
-"url": "https://www.kcue.or.kr/_upload/news/2026/08/13/application_aa3671da7ff1e6ece5ab36515949cce1.pdf",
-"kind": "공식",
-"cat": "입시 공식 기관",
-"used": [
-"q-univ-fair"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "0c9df741fca704f5",
+"hash": "32acf7145da20305",
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"9fc2def620": {
-"url": "https://www.kcue.or.kr/_upload/news/2026/08/25/application_3d656b169c8465daa33716f5bfa548f1.pdf",
-"kind": "공식",
-"cat": "입시 공식 기관",
-"used": [
-"q-ipgyeol-read"
-],
-"cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "0ec39095dc65ad37",
-"title": "",
-"final": "",
-"ctype": "application/pdf",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"fccbb18946": {
-"url": "https://admission.dg1s.hs.kr/",
+"f7ee82a31d": {
+"url": "https://admission.dg1s.hs.kr/EBook/Dg1S/Admission/mobile/index.html",
 "kind": "공식",
 "cat": "학교",
 "used": [
 "n76"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "b2702b88e1c7399e",
-"title": ":::: 2027학년도 대구일과학고 신입생 전형 시스템",
+"hash": "e3b0c44298fc1c14",
+"title": "2007학년도대구일과학고등학교전형요강",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"adbc457113": {
-"url": "https://www.hana.hs.kr/admission/freshmen.do",
+"79311865f2": {
+"url": "http://www.cnsh.cnehs.kr/sub/info.do?m=0206&s=cnsh",
 "kind": "공식",
 "cat": "학교",
 "used": [
-"n04"
+"n41"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "d5775467ac14de5a",
-"title": "하나고등학교",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
 "failStreak": 0
 },
-"9663f84418": {
-"url": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=3b390d00f3f373000b57b66a45c8029d",
+"3fc9fbfd9d": {
+"url": "https://gwangcheol.jge.hs.kr/gwangcheol_hs/cm/cntnts/cntntsView.do?mi=71445&cntntsId=71445",
 "kind": "공식",
 "cat": "학교",
 "used": [
-"n46"
+"n64"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "7eff0c5e033d2e51",
-"title": "시스템안내",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
 "failStreak": 0
 },
-"4bcbda4b22": {
-"url": "https://home.pen.go.kr/talent/main.do",
+"09438a0dbf": {
+"url": "https://hansungsh.sen.hs.kr/2238/subMenu.do",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n01"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
+"failStreak": 0
+},
+"28b08a002a": {
+"url": "https://sjsh.sen.hs.kr/109553/subMenu.do",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n02"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
+"failStreak": 0
+},
+"b7e9e8631e": {
+"url": "https://home.pen.go.kr/childpiage/na/ntt/selectNttInfo.do?mi=10950&nttSn=1014147",
 "kind": "공식",
 "cat": "교육청",
 "used": [
-"pen27ai"
+"eo",
+"pen27e"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "ab2b90cbf2b1441f",
-"title": "부산광역시교육청AI정보영재교육원",
+"hash": "ea64a5dfeb14dcd6",
+"title": "부산광역시교육청초등영재교육원 - 공지사항 - 전체공지사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"7a9e995c26": {
-"url": "https://clik.nanet.go.kr/clikr-collection/policyinfo/202/1010/2025/CLIKC1971683520105534_attach_2.pdf",
+"1bc6911120": {
+"url": "https://www.ansan.go.kr/",
 "kind": "공식",
 "cat": "기타",
 "used": [
-"q-hw-edubenefit"
+"n27"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
+"failStreak": 0
+},
+"6962b68f9e": {
+"url": "https://bjsm.bmj.com/content/53/10/640",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-exercise-study"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "http-403",
+"failStreak": 1,
+"error": "http-403"
+},
+"ebe280245a": {
+"url": "https://doaj.org/article/8b3371303a5a4d2c88dd26e236f64089",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "http-403",
+"failStreak": 1,
+"error": "http-403"
+},
+"4e956c4d44": {
+"url": "https://educationendowmentfoundation.org.uk/projects-and-evaluation/projects/magic-breakfast",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-breakfast"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "18ccfbd1cb91581c",
+"hash": "10a62d6daef6f47b",
+"title": "Magic Breakfast - trial | EEF",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"54f52a2bd8": {
+"url": "https://eprints.whiterose.ac.uk/id/eprint/85828/",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-breakfast"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "1ac66053a7fff4c1",
+"title": "The effects of breakfast on behaviour and academic performance in children and adolescents - White Rose Research Online",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"8de97bc4db": {
+"url": "https://forrt.org/flora-replication-atlas/doi/10.1086/691462/",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-phone-grades"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "b0876a89bd49a391",
+"title": "Brain Drain: The Mere Presence of… — 2 replications: failed",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"9fd7e07a36": {
+"url": "https://www.hscredit.kr/about/graduation",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-hs-credit"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "4b74340bf43fa6fb",
+"title": "졸업·이수 기준 | 고교학점제 공식 홈페이지",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"8dffebe6e9": {
+"url": "https://www.hscredit.kr/about/intro",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-hs-credit"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "0b54c3133e26356d",
+"title": "고교학점제란 | 고교학점제 공식 홈페이지",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"19435813b6": {
+"url": "https://ifn.se/en/publications/scientific-articles-in-english/2020/2020-56",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "4621302cf4aa062c",
+"title": "The Impact of Banning Mobile Phones in Swedish Secondary Schools - IFN",
+"final": "https://www.ifn.se/en/publications/scientific-articles-in-english/2020/2020-56",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"1c2da34430": {
+"url": "https://www.index.go.kr/unify/idx-info.do?idxCd=3061",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-life-phone-grades"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "d1a85e2429bf107b",
+"title": "지표서비스 | e-나라지표",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"e62d45e431": {
+"url": "https://jamanetwork.com/journals/jamapediatrics/article-abstract/2751330",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-phone-grades"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "http-403",
+"failStreak": 1,
+"error": "http-403"
+},
+"5be8fb1aa7": {
+"url": "https://jhr.uwpress.org/node/16076",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "74783382eb462293",
+"title": "Smartphone Bans, Student Outcomes and Mental Health | Journal of Human Resources",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"f69a3e3b9c": {
+"url": "https://kdca.go.kr/bbs/kdca/42/309411/download.do",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-life-breakfast",
+"q-life-exercise-study"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "3a5ccb3d248dc1a8",
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"049cd57aaf": {
-"url": "https://m.dailypharm.com/user/news/338076",
-"kind": "기사",
-"cat": "기타",
-"used": [
-"q-med",
-"r-local-doctor"
-],
-"cycle": "m",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "562818702174ee8d",
-"title": "[데일리팜]지역의사제, 선발·지원·의무복무 세부 기준 확정",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"7c27ef12e7": {
-"url": "https://opinion.lawmaking.go.kr/nl4li/lsItptEmp/445030",
+"4ba8d14d47": {
+"url": "https://www.kdca.go.kr/bbs/kdca/42/215505/artclView.do",
 "kind": "공식",
 "cat": "기타",
 "used": [
-"q-med-ldoc",
-"r-local-doctor"
+"q-life-breakfast",
+"q-life-cram-sleep",
+"q-life-exercise-study",
+"q-life-phone-grades"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "a03445a8c7477453",
+"hash": "21000c30ff879823",
+"title": "검색관련문의",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"64de8843ac": {
+"url": "https://kunsan.gidea.co.kr/main/ipsi/handbook.action?q=92599b719ad77d9cf146b490608ec1ebeed21f1635b2ff51dc5edcdfff13629c",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"n59"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
+"failStreak": 0
+},
+"54635e324d": {
+"url": "https://www.mafra.go.kr/bbs/mafra/68/326885/artclView.do",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-life-breakfast"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "1717ecb746038159",
+"title": "농림축산식품부 CMS",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"6b86d32b2c": {
+"url": "https://mods.go.kr/board.es?mid=a10301010000&bid=245&act=view&list_no=443953",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-cost"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "8466df1ad18579b8",
+"title": "2025년 초중고사교육비조사 결과 | 전체 | 보도자료 | 새소식 : 국가데이터처",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"7a67237342": {
+"url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"n65"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
+"failStreak": 0
+},
+"caa8a73b50": {
+"url": "https://nber.org/digest/202512/school-cell-phone-bans-and-student-achievement",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "5bb9648a50e4b29a",
+"title": "School Cell Phone Bans and Student Achievement | NBER",
+"final": "https://www.nber.org/digest/202512/school-cell-phone-bans-and-student-achievement",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"1b00acee53": {
+"url": "https://www.ncbi.nlm.nih.gov/books/NBK566046/",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-life-exercise-study",
+"q-life-phone-grades"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "f47ffdf70d30c221",
+"title": "브라우저 확인 중 - reCAPTCHA",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"248099ebde": {
+"url": "https://openstax.org/books/introductory-business-statistics-2e/pages/10-2-cohens-standards-for-small-medium-and-large-effect-sizes",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "0d2d7c1877bae343",
+"title": "10.2 Cohen's Standards for Small, Medium, and Large Effect Sizes - Introductory Business Statistics 2e | OpenStax",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"a2aeb6c918": {
+"url": "https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2202777/detailRP",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "51cdabdea8afe267",
 "title": "국민참여입법센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
-"4ac3e0c75e": {
-"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=103512&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
-"kind": "공식",
-"cat": "법령·정부",
+"58ae1c43a7": {
+"url": "https://pubmed.ncbi.nlm.nih.gov/22906052/",
+"kind": "기타",
+"cat": "기타",
 "used": [
-"csat28moe",
-"dy"
+"q-life-cram-sleep"
 ],
 "cycle": "m",
-"checkedAt": "2026-10-26T05:29+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
-"hash": "f8556ef417908e6e",
-"title": "교육부 > 교육부 소식 > 보도·설명·반박 > 보도자료",
+"hash": "7e96c80926ad6a88",
+"title": "To study or to sleep? The academic costs of extra studying at the expense of sleep",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"f2de86f682": {
+"url": "https://pubmed.ncbi.nlm.nih.gov/26612392/",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-cram-sleep"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "47e248f5662fcd45",
+"title": "Cognitive Performance, Sleepiness, and Mood in Partially Sleep Deprived Adolescents: The Need for Sleep Study",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"c32bf014c0": {
+"url": "https://research.birmingham.ac.uk/en/publications/school-phone-policies-and-their-association-with-mental-wellbeing/",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"q-life-school-phone-ban"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "db264bdb138a2d2e",
+"title": "School phone policies and their association with mental wellbeing, phone use, and social media use (SMART Schools): a cr",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"764637b737": {
+"url": "https://www.sciencemediacentre.org/expert-reaction-to-screen-media-use-and-academic-performance/",
+"kind": "기사",
+"cat": "기타",
+"used": [
+"q-life-phone-grades"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "93cda8bbd7476725",
+"title": "expert reaction to screen media use and academic performance | Science Media Centre",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"b93ca70a71": {
+"url": "https://www.uclahealth.org/news/release/cramming-for-a-test-dont-do-it-say-ucla-researchers",
+"kind": "기사",
+"cat": "기타",
+"used": [
+"q-life-cram-sleep"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "76bd993eddcfbf1c",
+"title": "Cramming for a test? Don't do it, say UCLA researchers | UCLA Health",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"b36e743ea8": {
+"url": "https://www.who.int/publications/i/item/9789240015128",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-life-exercise-study"
+],
+"cycle": "m",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "44211e7d9d0ae0b6",
+"title": "WHO guidelines on physical activity and sedentary behaviour",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "f8711a1000": {
@@ -1563,6 +1570,16 @@
 "cycle": "m",
 "status": "skip-terms"
 },
+"e24ce4460f": {
+"url": "https://www.fnnews.com/news/202508271426485361",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-life-school-phone-ban"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
 "f4d2c07c92": {
 "url": "https://www.fnnews.com/news/202602221031237101",
 "kind": "기사",
@@ -1600,7 +1617,11 @@
 "cat": "언론",
 "used": [
 "q-med-ldoc",
-"r-local-doctor"
+"q-med-ldoc-city",
+"q-med-ldoc-zone",
+"q-med-local-move",
+"r-local-doctor",
+"r-transfer-local"
 ],
 "cycle": "m",
 "status": "skip-terms"
@@ -1703,7 +1724,8 @@
 "kind": "기사",
 "cat": "언론",
 "used": [
-"q-hs-autonomous"
+"q-hs-autonomous",
+"r-local-jongbu"
 ],
 "cycle": "m",
 "status": "skip-terms"
@@ -1748,6 +1770,16 @@
 "used": [
 "cost1",
 "q-cost"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"431f990e56": {
+"url": "https://www.hankyung.com/article/2026051066261",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"r-snu-ku-choejeo"
 ],
 "cycle": "m",
 "status": "skip-terms"
@@ -2005,16 +2037,6 @@
 "cycle": "m",
 "status": "skip-terms"
 },
-"d1edae6e15": {
-"url": "https://www.koreatimenews.com/news/article.html?no=1259179",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n16"
-],
-"cycle": "m",
-"status": "skip-terms"
-},
 "aa2fd2c2cd": {
 "url": "https://www.kukinews.com/article/view/kuk202603230217",
 "kind": "기사",
@@ -2195,7 +2217,8 @@
 "used": [
 "q-snu",
 "q-univ-nsu",
-"q-univ-rural"
+"q-univ-rural",
+"r-snu-ku-choejeo"
 ],
 "cycle": "m",
 "status": "skip-terms"
@@ -2300,6 +2323,18 @@
 "cycle": "m",
 "status": "skip-terms"
 },
+"d88ce60668": {
+"url": "https://mobile.newsis.com/view/NISX20260227_0003529260",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-med-ldoc-capital",
+"q-med-ldoc-city",
+"r-capital-ldoc"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
 "9a1530419a": {
 "url": "https://www.mt.co.kr/article/2026062409025273762",
 "kind": "기사",
@@ -2332,6 +2367,16 @@
 "used": [
 "q-semi",
 "semi1"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"649b9c250d": {
+"url": "https://www.mt.co.kr/tech/2026/03/27/2026032710122977237",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"q-life-phone-grades"
 ],
 "cycle": "m",
 "status": "skip-terms"
@@ -2512,6 +2557,16 @@
 "used": [
 "courses",
 "q-courses"
+],
+"cycle": "m",
+"status": "skip-terms"
+},
+"71ed254ac5": {
+"url": "https://sgsg.hankyung.com/article/2026052962091",
+"kind": "기사",
+"cat": "언론",
+"used": [
+"r-snu-ku-choejeo"
 ],
 "cycle": "m",
 "status": "skip-terms"
@@ -2720,7 +2775,6 @@
 "cat": "언론",
 "used": [
 "n02",
-"n41",
 "n46",
 "n76",
 "n82",
@@ -2730,7 +2784,8 @@
 "n96",
 "q-hs-when",
 "sci27",
-"sh"
+"sh",
+"shDate"
 ],
 "cycle": "m",
 "status": "skip-terms"
@@ -2774,7 +2829,6 @@
 "cat": "언론",
 "used": [
 "n10",
-"n29",
 "n41",
 "n46"
 ],
@@ -2949,63 +3003,6 @@
 "cycle": "m",
 "status": "skip-terms"
 },
-"13d970be06": {
-"url": "https://admission.ksa.hs.kr/iphak_kor/guidelines_2027.php",
-"kind": "공식",
-"cat": "학교",
-"used": [
-"gs"
-],
-"cycle": "m",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "619e860c8b8e4ab7",
-"title": "한국과학영재학교 입학안내",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"4179b6440c": {
-"url": "https://admission.ksa.hs.kr/iphak_kor/guidelines_jang_2027.php",
-"kind": "공식",
-"cat": "학교",
-"used": [
-"gs"
-],
-"cycle": "m",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "03e8a621a8cc19a8",
-"title": "한국과학영재학교 입학안내",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
-"c6331a6f39": {
-"url": "https://gsa.jge.hs.kr/sub/page.php?page_code=guide_03",
-"kind": "공식",
-"cat": "학교",
-"used": [
-"gs"
-],
-"cycle": "m",
-"checkedAt": "2026-10-26T05:29+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "9607d6d616a77a41",
-"title": "입학안내 > 입학전형요강",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-26T05:29+09:00",
-"failStreak": 0
-},
 "ae3c3b4bb1": {
 "url": "https://www.data.go.kr/biz/dcat/metadata/15037294.do",
 "kind": "공식",
@@ -3017,7 +3014,7 @@
 "q-refund"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3025,7 +3022,7 @@
 "title": "",
 "final": "",
 "ctype": "application/xml",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "9a77a8d2d1": {
@@ -3036,16 +3033,17 @@
 "n37"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "60a32e0741bf63f4",
+"hash": "f1f6d57c2f495d47",
 "title": "고입시",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "05a071e0ab": {
 "url": "https://curri.gyo6.net/pageLink.do?link=%2Ffresemstrsys%2Fintrcn%2Finqr.do&menuNo=3010000",
@@ -3055,7 +3053,7 @@
 "q-dir-free"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3063,7 +3061,7 @@
 "title": "경상북도교육청 고교학점제지원센터-자유학기제 소개",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "4a0742cfee": {
@@ -3074,16 +3072,17 @@
 "n00"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "66b9b715e577c2dc",
+"hash": "3fe480ea6b9bf44b",
 "title": "서울특별시교육청 학교 밖 청소년 도움센터 친구랑",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "3f5dee7504": {
 "url": "https://www.gbe.kr/main/na/ntt/selectNttList.do?mi=3439&bbsId=1876",
@@ -3093,16 +3092,17 @@
 "n86"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "41f863b5d5d7d232",
+"hash": "cc870eafa441a52a",
 "title": "경상북도교육청-공지사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "f9318325fb": {
 "url": "https://gice.gen.go.kr/board.es?mid=a10403020000&bid=0022&act=view&list_no=17423&tag=&nPage=1",
@@ -3112,7 +3112,7 @@
 "n50"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3120,7 +3120,7 @@
 "title": "[공고] 2027학년도 전남광주통합특별시교육청 광주 영재교육원 교육대상자 선발 계획 | 안내사항 | 영재선발 | 영재교육 : 전남광주통합특별시교육청광주창의융합교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "c9e173bb1e": {
@@ -3132,7 +3132,7 @@
 "n53"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3140,7 +3140,7 @@
 "title": "영재선발 소개 | 영재선발 | 영재교육 : 전남광주통합특별시교육청광주창의융합교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "c75eddd2b8": {
@@ -3152,7 +3152,7 @@
 "q-refund"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3160,7 +3160,7 @@
 "title": "경남교육청 : HOME > 교육정보 > 학원/교습소/개인과외/평생교육시설 > 학원교습소개인과외 > 교습비등 반환기준",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "13c7bd2412": {
@@ -3177,7 +3177,7 @@
 "q-hs-national-jasa"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3185,7 +3185,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "2f462df1ff": {
@@ -3196,7 +3196,7 @@
 "q-dir-free"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3204,7 +3204,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "2db6f2fa67": {
@@ -3215,7 +3215,7 @@
 "q-dir-free"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3223,7 +3223,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "24227c450d": {
@@ -3234,7 +3234,7 @@
 "r-record"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3242,7 +3242,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "6d9935d65c": {
@@ -3253,16 +3253,17 @@
 "n17"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "542c718530c14287",
+"hash": "af15f6b1683a31cf",
 "title": "공지사항 < 영재교육원 | 광명교육지원청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "1f6309dcac": {
 "url": "https://www.goesn.kr/goesn/cm/cntnts/cntntsView.do?mi=23588&cntntsId=4376",
@@ -3272,7 +3273,7 @@
 "n17"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3280,7 +3281,7 @@
 "title": "영재교육원 소개 < 영재교육원 | 경기도성남교육지원청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "9ccbc15e68": {
@@ -3291,7 +3292,7 @@
 "n45"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3299,7 +3300,7 @@
 "title": "강원특별자치도춘천교육지원청 누리집",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "6d0ab173c0": {
@@ -3310,7 +3311,7 @@
 "n47"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3318,7 +3319,7 @@
 "title": "강원특별자치도교육청  - 고입자료실",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "6e9bdf78e1": {
@@ -3329,7 +3330,7 @@
 "n47"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3337,7 +3338,7 @@
 "title": "강원특별자치도교육청  - 고입자료실",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "21e9cee4c0": {
@@ -3348,7 +3349,7 @@
 "n46"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3356,7 +3357,7 @@
 "title": "강원특별자치도교육청  - 특수목적고",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "d87f7c1e70": {
@@ -3368,7 +3369,7 @@
 "n48"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3376,7 +3377,7 @@
 "title": "강원특별자치도교육청  - 일반고",
 "final": "https://www.gwe.go.kr/main/content.do?key=bTIzMDkxODI5OTg2OTc=",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "49ce3d4360": {
@@ -3387,7 +3388,7 @@
 "n45"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3395,7 +3396,7 @@
 "title": "강원특별자치도강릉교육지원청 홈페이지",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "21f93f5955": {
@@ -3406,16 +3407,17 @@
 "q-sch-assign"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "2cd4ca940eade4ef",
+"hash": "5d463db67a9dbf90",
 "title": "부산광역시 해운대교육지원청 - 전자민원 - 부서별민원안내 - 중학교 배정/전입학 - 중입 배정 공지사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "4b9a92788a": {
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12453&cntntsId=1853",
@@ -3431,7 +3433,7 @@
 "q-hs-local-list"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3439,7 +3441,7 @@
 "title": "부산광역시교육청 고입포털 - 고교입학 - 입학전형일정",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "6b547020e6": {
@@ -3455,7 +3457,7 @@
 "q-sch-grade"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3463,7 +3465,7 @@
 "title": "부산광역시교육청 고입포털 - 고교입학 - 고교입학 안내 - 공통사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "08494f1fef": {
@@ -3475,16 +3477,17 @@
 "q-sch-grade"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "b11d43b685247f69",
+"hash": "13e5a80c68cb2f52",
 "title": "부산광역시교육청 고입포털",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "612338c45c": {
 "url": "https://home.pen.go.kr/hischool/na/ntt/selectNttList.do?mi=12446&bbsId=4006",
@@ -3494,16 +3497,17 @@
 "n74"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "9b7368676ddf9990",
+"hash": "1433a2284388bf3a",
 "title": "부산광역시교육청 고입포털 - 자료실 - 고입전형",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "a819065bef": {
 "url": "https://home.pen.go.kr/nambu/na/ntt/selectNttList.do?mi=13804&bbsId=3852",
@@ -3513,16 +3517,17 @@
 "q-sch-assign"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "c9d80a52f4572454",
+"hash": "d8e61da85cf4c803",
 "title": "부산광역시 남부교육지원청 - 전자민원 - 부서별 민원안내 - 중학교 배정/전입학 - 중학교 배정 공지사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "727b4fd92b": {
 "url": "https://home.pen.go.kr/talent/cm/cntnts/cntntsView.do?mi=11299&cntntsId=412",
@@ -3533,7 +3538,7 @@
 "q-eo-sw"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3541,7 +3546,7 @@
 "title": "부산광역시교육청AI정보영재교육원 - 교육안내 - 선발안내 - 중학교 1학년",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "4fd1668e1d": {
@@ -3555,7 +3560,7 @@
 "r-one-center"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3563,7 +3568,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "0ea68d0eda": {
@@ -3574,7 +3579,7 @@
 "q-sch-assign"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3582,7 +3587,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "848974ae6d": {
@@ -3602,7 +3607,7 @@
 "r-once"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3610,7 +3615,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "06c88e77f3": {
@@ -3621,9 +3626,9 @@
 "n12"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "http-404",
-"failStreak": 1,
+"failStreak": 2,
 "error": "http-404"
 },
 "f1f65e0dc8": {
@@ -3634,16 +3639,17 @@
 "n56"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "4dd1def9427b4679",
+"hash": "50db2da2d69ac48a",
 "title": "알림마당 > 고시/공고  > 상세 화면| 전북특별자치도교육청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "4f6f6e422f": {
 "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773",
@@ -3653,16 +3659,17 @@
 "n56"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "e261e5bdcaaaf77f",
+"hash": "0e5ac20db730d9d0",
 "title": "전북특별자치도교육청 진로진학센터",
 "final": "https://www.jbe.go.kr/jinro/board/view.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "c40679f9c5": {
 "url": "https://www.jbe.go.kr/jinro/board/list.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&contentsSid=946&cpath=%2Fjinro",
@@ -3672,16 +3679,17 @@
 "n56"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "e46700a7ce73d8d5",
+"hash": "222530a59b3222d2",
 "title": "전북특별자치도교육청 진로진학센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "100d68d77d": {
 "url": "https://jinhak.sen.go.kr/subList/20000000421",
@@ -3691,7 +3699,7 @@
 "n01"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3699,7 +3707,7 @@
 "title": "서울진로진학정보센터 - 고등학교 입학 안내(전기고등학교 전형)",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "92105776d5": {
@@ -3711,7 +3719,7 @@
 "n04"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3719,7 +3727,7 @@
 "title": "서울진로진학정보센터 - 고등학교 입학 안내(후기고등학교 전형)",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "98bb7381de": {
@@ -3733,7 +3741,7 @@
 "n04"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3741,7 +3749,7 @@
 "title": "서울진로진학정보센터 - 고등학교 입학 안내(주요일정)",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "bb18beafd9": {
@@ -3752,7 +3760,7 @@
 "n69"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -3764,7 +3772,7 @@
 "n69"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -3777,7 +3785,7 @@
 "n49"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3785,7 +3793,7 @@
 "title": "강원특별자치도동해교육지원청 홈페이지",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "2de6bc244e": {
@@ -3796,16 +3804,17 @@
 "n08"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "2dc068915ece2d3f",
+"hash": "f518439d43bf82a2",
 "title": "공지사항 < 알림마당 | 마정초등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "c9be99aafd": {
 "url": "https://office.jbedu.kr/gce/M01060802/view/6932713.do",
@@ -3815,16 +3824,17 @@
 "n54"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "b4a8c87be4faa697",
+"hash": "20c67dde917f14c1",
 "title": "공지사항<영재교육원<전북특별자치도고창교육지원청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "91b9d9ddac": {
 "url": "https://office.jbedu.kr/jbgse/M010601/view/6933158.do",
@@ -3834,16 +3844,17 @@
 "n54"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "cca1e622a243a2cd",
+"hash": "d899345af699fa21",
 "title": "공지사항<열린마당<전북특별자치도군산교육지원청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "77d70310b1": {
 "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttList.do?mi=31184&bbsId=2555",
@@ -3856,7 +3867,7 @@
 "q-eo-class"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3864,7 +3875,7 @@
 "title": "공지사항 \n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t 목록\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<\n\t\t\t\t\t\t\n",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "9c8d2f805d": {
@@ -3878,7 +3889,7 @@
 "q-sch-test-ratio"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3886,7 +3897,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "0ad3b3b444": {
@@ -3906,7 +3917,7 @@
 "sh"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3914,7 +3925,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "afd46aefc1": {
@@ -3925,7 +3936,7 @@
 "n73"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3933,7 +3944,7 @@
 "title": "부산일과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "7df18877ca": {
@@ -3945,16 +3956,17 @@
 "n73"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "da6b749e1ebb160d",
+"hash": "f27ccaac0feeee91",
 "title": "부산일과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "090349c04b": {
 "url": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503",
@@ -3968,7 +3980,7 @@
 "r-refund"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -3976,7 +3988,7 @@
 "title": "부산과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "7993780592": {
@@ -3987,16 +3999,17 @@
 "n72"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "1723def59974baeb",
+"hash": "091c55a4eaa140b4",
 "title": "부산과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "e15f0d2056": {
 "url": "https://school.busanedu.net/mora-m/cm/cntnts/cntntsView.do?mi=661752&cntntsId=6233",
@@ -4006,7 +4019,7 @@
 "q-sch-grade"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "login",
 "changeStreak": 0,
 "noisy": null,
@@ -4023,7 +4036,7 @@
 "n36"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4031,7 +4044,7 @@
 "title": "전형요강<입학안내<충북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "90feaf1502": {
@@ -4042,16 +4055,17 @@
 "n36"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "807f8415e57f83bc",
+"hash": "10c222bcf6707daa",
 "title": "입학자료<입학안내<충북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "60aea5d261": {
 "url": "https://school.cbe.go.kr/cbs-h/M010302/view/5828250",
@@ -4061,35 +4075,17 @@
 "n36"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "70caf85d1c8490b2",
+"hash": "f53452440dbf9b61",
 "title": "입학자료<입학안내<충북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
-},
-"88440e3c84": {
-"url": "https://school.cbe.go.kr/cbs-h/M010302/view/5843824",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"n36"
-],
-"cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "38c1f7749c235314",
-"title": "입학자료<입학안내<충북과학고등학교",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "5babbb7943": {
 "url": "https://school.cbe.go.kr/cbs-h/M010302/view/5848443",
@@ -4099,16 +4095,17 @@
 "n36"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "c3054a82e37775d4",
+"hash": "3c8b49026ecf31e2",
 "title": "입학자료<입학안내<충북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "b58ec6775f": {
 "url": "https://school.cbe.go.kr/daeje-m/M01030401/",
@@ -4119,7 +4116,7 @@
 "n37"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4127,7 +4124,7 @@
 "title": "2027학년도 고입전형<진학안내<알림마당<대제중학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "b3a59eef51": {
@@ -4138,16 +4135,17 @@
 "n39"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "390cdf42dae31516",
+"hash": "b9abbb61257bb23a",
 "title": "공지사항<학교소식<동성중학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "da91e06a44": {
 "url": "https://school.cbe.go.kr/sangjincho-e/M010302/list",
@@ -4157,16 +4155,17 @@
 "n35"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "988b5eacbe904766",
+"hash": "5ce3ce4e4da1feb3",
 "title": "공지사항<학교소식<상진초등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "82cff98801": {
 "url": "https://school.jbedu.kr/ejbs/M010402/",
@@ -4176,16 +4175,17 @@
 "n55"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "e128c1dfc2ce7608",
+"hash": "a422b678016788c6",
 "title": "입학안내<입학안내<전북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "651345b269": {
 "url": "https://school.jbedu.kr/ejbs/M010402/view/6780389",
@@ -4195,16 +4195,17 @@
 "n55"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "afd700a912e61dc8",
+"hash": "e47ec5b6d41809ae",
 "title": "입학안내<입학안내<전북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "990b287fc0": {
 "url": "https://school.jbedu.kr/ejbs/M010402/view/6876377",
@@ -4214,16 +4215,17 @@
 "n55"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "08a54bc998a43ef0",
+"hash": "86e25cd3b11631a3",
 "title": "입학안내<입학안내<전북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "def89d666a": {
 "url": "https://school.jbedu.kr/ejbs/M010402/view/6881146",
@@ -4233,16 +4235,17 @@
 "n55"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "fd587ad21936d6ad",
+"hash": "6dfa7a9fd869637e",
 "title": "입학안내<입학안내<전북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "05be89e902": {
 "url": "https://school.jbedu.kr/ejbs/M010402/view/6892790",
@@ -4252,16 +4255,17 @@
 "n55"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "cda30b8a1bf9e436",
+"hash": "dbf57fb0720c6f77",
 "title": "입학안내<입학안내<전북과학고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "c7198f5055": {
 "url": "https://school.jbedu.kr/jeonjuedu/M01030701/view/6937190.do",
@@ -4271,16 +4275,17 @@
 "n54"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "dfcf6a824e38d79b",
+"hash": "614f3181d160314f",
 "title": "알림마당<영재교육원<전주교육<전북특별자치도전주교육지원청",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "57a15c2050": {
 "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttList.do?mi=108100&bbsId=118541",
@@ -4290,16 +4295,17 @@
 "n68"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "cf1ee9afaacef1f1",
+"hash": "874e1c4739f7d491",
 "title": "제주과학고등학교\n\t\n\t\t\n\t\t\t\n\t\t\t > 입학정보 > 모집요강\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t 목록",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "072c776e17": {
 "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttList.do?mi=108101&bbsId=118542",
@@ -4309,16 +4315,17 @@
 "n68"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "4f04818c28ad04b7",
+"hash": "0967809df6a76a9a",
 "title": "제주과학고등학교\n\t\n\t\t\n\t\t\t\n\t\t\t > 입학정보 > 입학게시판\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t 목록",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "dec4a7ddfd": {
 "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttList.do?mi=108132&bbsId=120371",
@@ -4328,16 +4335,17 @@
 "n67"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "2576949f23e6369a",
+"hash": "5f8d877f9426e702",
 "title": "제주과학고등학교\n\t\n\t\t\n\t\t\t\n\t\t\t > 영재교육원 > 공지사항\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t 목록",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "f8e7892c9f": {
 "url": "https://www.seit.kr/sub01_06_01.html",
@@ -4347,7 +4355,7 @@
 "n49"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4355,7 +4363,7 @@
 "title": "전국 대학부설 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "662a26f1d4": {
@@ -4368,7 +4376,7 @@
 "n39"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4376,7 +4384,7 @@
 "title": "전국 대학부설 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "4bc26dc8fc": {
@@ -4387,7 +4395,7 @@
 "n03"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4395,7 +4403,7 @@
 "title": "서울특별시교육청 : 서울특별시교육청 > 교육정보 > 진학안내 > 고입자료실",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "b3faa81ca3": {
@@ -4406,7 +4414,7 @@
 "n03"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4414,7 +4422,7 @@
 "title": "서울특별시교육청 : 서울특별시교육청 > 교육정보 > 진학안내 > 고입자료실",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "8d08d4079f": {
@@ -4426,7 +4434,7 @@
 "sen-hak"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4434,7 +4442,7 @@
 "title": "서울특별시교육청 : 서울특별시교육청 > 교육정보 > 학력평가자료 > 학력평가자료실",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "1179c975d3": {
@@ -4445,7 +4453,7 @@
 "n00"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4453,26 +4461,7 @@
 "title": "서울영재교육",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
-},
-"2e437d93b9": {
-"url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000022/board/BO00000124/ctgynone/view0010v.do?board_seq=872",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"n00"
-],
-"cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "ok",
-"changeStreak": 0,
-"noisy": null,
-"hash": "ea7b1bed9b202f32",
-"title": "서울영재교육",
-"final": "",
-"ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "a3fb5ec9b3": {
@@ -4488,7 +4477,7 @@
 "n24"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4496,7 +4485,7 @@
 "title": "서울영재교육",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "f1ba9ea3e9": {
@@ -4507,7 +4496,7 @@
 "n00"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4515,7 +4504,7 @@
 "title": "서울영재교육",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "6e5899faa2": {
@@ -4526,7 +4515,7 @@
 "n45"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4534,7 +4523,7 @@
 "title": "강원특별자치도원주교육지원청 영재교육원 홈페이지",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "04add9051b": {
@@ -4546,7 +4535,7 @@
 "q-kp"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4554,8 +4543,29 @@
 "title": "",
 "final": "https://adm-u.postech.ac.kr/wp-content/uploads/2026/03/2028%ED%95%99%EB%85%84%EB%8F%84_POSTECH_%EB%8C%80%ED%95%99%EC%9E%85%ED%95%99%EC%A0%84%ED%98%95_%EC%8B%9C%ED%96%89%EA%B3%84%ED%9A%8D_%ED%86%B5%ED%95%A9.pdf",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
+},
+"88c8f48ed1": {
+"url": "https://adm-u.postech.ac.kr/wp-content/uploads/2026/03/POSTECH-2026학년도-선행학습영향평가-결과보고서_260330.pdf",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"postech",
+"q-univ-prep"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"failStreak": 0,
+"error": "HTTPSConnectionPool(host='adm-u.postech.ac.kr', port=443): Max retries exceeded with url: /wp-content/uploads/2026/03/POSTECH-2026%ED%95%99%EB%85%84%EB%8F%84-%E",
+"changeStreak": 0,
+"noisy": null,
+"hash": "f4337009ac0319f2",
+"title": "",
+"final": "https://adm-u.postech.ac.kr/wp-content/uploads/2026/03/POSTECH-2026%ED%95%99%EB%85%84%EB%8F%84-%EC%84%A0%ED%96%89%ED%95%99%EC%8A%B5%EC%98%81%ED%96%A5%ED%8F%89%EA%B0%80-%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C_260330.pdf",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00"
 },
 "3ebe1d828d": {
 "url": "https://adm-u.postech.ac.kr/wp-content/uploads/2026/05/2027학년도-POSTECH-모집요강.pdf",
@@ -4567,7 +4577,7 @@
 "q-kp"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4575,7 +4585,7 @@
 "title": "",
 "final": "https://adm-u.postech.ac.kr/wp-content/uploads/2026/05/2027%ED%95%99%EB%85%84%EB%8F%84-POSTECH-%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "c3958c19ad": {
@@ -4587,7 +4597,7 @@
 "q-med"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -4600,7 +4610,7 @@
 "q-kp"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -4616,7 +4626,7 @@
 "snu28"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4624,7 +4634,7 @@
 "title": "2028학년도 대학 신입학생 입학전형 시행계획 - 공지사항 - 대학 - 입학 - 서울대학교 입학본부",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "94c389ced8": {
@@ -4637,7 +4647,7 @@
 "snu27j"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4645,7 +4655,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "c17d8024be": {
@@ -4654,10 +4664,12 @@
 "cat": "대학 입학처",
 "used": [
 "q-snu",
+"q-univ-chungwon-call",
+"r-snu-ku-choejeo",
 "snu27s"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4665,7 +4677,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "96575af88a": {
@@ -4677,7 +4689,7 @@
 "ys27"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4685,7 +4697,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "fdc239cac0": {
@@ -4696,7 +4708,7 @@
 "n38"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4704,7 +4716,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "92f35d16f0": {
@@ -4716,16 +4728,17 @@
 "n38"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "5204394c03bbd728",
+"hash": "17cfb3647ef8f0c8",
 "title": "목록 | 공지사항 | 커뮤니티 | 청주교육대학교부설 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "98f1776b0c": {
 "url": "https://cucocr.cje.ac.kr/main/contents/handbook.action?q=3803d66a807060d334b8cc1e551bf3befae86f6b042072e8b9c3728b866c4cf2",
@@ -4735,7 +4748,7 @@
 "n38"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4743,7 +4756,7 @@
 "title": "전형요강 | 선발안내 | 청주교육대학교부설 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "10dd274591": {
@@ -4754,7 +4767,7 @@
 "n08"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4762,7 +4775,7 @@
 "title": "동국대학교 - 동국소식\n                    - 뉴스 \n                    -  학교소식",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "cca4c1aa8e": {
@@ -4773,16 +4786,17 @@
 "n26"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "c0180b45579f4345",
+"hash": "5e70e4c08fbd4136",
 "title": "공지사항 < 커뮤니티 >  경인교육대학교 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "06c59dc01a": {
 "url": "https://www.geig.ac.kr/bbs_shop/read.htm?idx=132305",
@@ -4792,7 +4806,7 @@
 "n14"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4800,7 +4814,7 @@
 "title": "2027학년도 인천대학교 과학영재교육원 추천 신청 안내",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "bc9e7f592b": {
@@ -4811,7 +4825,7 @@
 "n09"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4819,7 +4833,7 @@
 "title": "[계양영재] 2027학년도 계양영재교육원 과학영재(초등·중등) 선발 안내",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "d051ab3d6d": {
@@ -4830,7 +4844,7 @@
 "n09"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4838,7 +4852,7 @@
 "title": "[서해구·검단구] 2027학년도 서해구·검단구 영재교육대상자 선발 관련 사전 안내",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "b5f9ed78ed": {
@@ -4849,7 +4863,7 @@
 "n98"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4857,7 +4871,7 @@
 "title": "입학관련 공지사항<영재입학전형 | \n\t\t\t\n\t\t\t과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "72bcd6c215": {
@@ -4868,7 +4882,7 @@
 "n98"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4876,7 +4890,7 @@
 "title": "입학관련 공지사항<영재입학전형 | \n\t\t\t\n\t\t\t과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "1c0046ba9d": {
@@ -4887,16 +4901,17 @@
 "n58"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "677698d1465f0b72",
+"hash": "fe2aa159c27df732",
 "title": "과학영재교육원, 2026학년도 초·중등 심화과정 신입생 모집",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "5bf438a306": {
 "url": "https://oku.korea.ac.kr/attach/202607/1783652032558_0.pdf",
@@ -4904,12 +4919,14 @@
 "cat": "대학 입학처",
 "used": [
 "ku27",
+"q-univ-chungwon-call",
 "q-univ-nsu",
 "q-univ-rural",
-"q-yk"
+"q-yk",
+"r-snu-ku-choejeo"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4917,7 +4934,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "125121e6e5": {
@@ -4930,7 +4947,7 @@
 "q-yk"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4938,7 +4955,7 @@
 "title": "고려대학교 입학처 입학도우미 > 통합 공지사항",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "9524c913a7": {
@@ -4949,7 +4966,7 @@
 "n66"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4957,7 +4974,7 @@
 "title": "공지사항 - 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "c1a61026b9": {
@@ -4968,7 +4985,7 @@
 "n66"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -4976,7 +4993,7 @@
 "title": "공지사항 - 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "817bfe3c0f": {
@@ -4987,16 +5004,17 @@
 "n66"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "61efb810a1825f2a",
+"hash": "4541960dd6141271",
 "title": "공지사항 - 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "2536b11bc8": {
 "url": "https://snuarori.snu.ac.kr/renew/img/file/2026_admission_guide.pdf",
@@ -5007,7 +5025,7 @@
 "snu26guide"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5015,7 +5033,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "6ab2df24d6": {
@@ -5028,10 +5046,11 @@
 "q-hs-choose",
 "q-sch-joint",
 "q-yk",
+"r-joint-more",
 "ysCourse"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5039,7 +5058,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "69030fdb49": {
@@ -5054,7 +5073,7 @@
 "ys28"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5062,7 +5081,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "298db92e2a": {
@@ -5077,7 +5096,7 @@
 "q-univ-last-year"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5085,7 +5104,7 @@
 "title": "2028 입시부터 국어·수학·사회·과학 선택과목 없는 통합형 수능, 내신 5등급 체제 확정 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "fff0997ce0": {
@@ -5099,7 +5118,7 @@
 "q-retake"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5107,7 +5126,7 @@
 "title": "2027학년도 대학수학능력시험은 2026년 11월 19일(목)에 시행됩니다 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "8bb353a50c": {
@@ -5120,7 +5139,7 @@
 "r-csat5"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5128,7 +5147,7 @@
 "title": "2028학년도 대학수학능력시험은 2027년 11월 18일(목)에 시행됩니다 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "ad629bb7c0": {
@@ -5140,7 +5159,7 @@
 "q-info-month"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5148,7 +5167,7 @@
 "title": "2029학년도 대학수학능력시험은 2028년 11월 16일(목)에 시행됩니다 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "01787d92b3": {
@@ -5161,7 +5180,7 @@
 "q-retake"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5169,7 +5188,7 @@
 "title": "2027학년도 대학수학능력시험 9월 모의평가 실시 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "8fc0854404": {
@@ -5180,11 +5199,15 @@
 "ldGov",
 "q-med",
 "q-med-ldoc",
+"q-med-ldoc-capital",
+"q-med-local-move",
 "q-med-quota",
-"r-local-doctor"
+"r-capital-ldoc",
+"r-local-doctor",
+"r-transfer-local"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5192,7 +5215,7 @@
 "title": "2027학년도 지역의사 첫 선발, 지원자격부터 의무복무까지 궁금증 한눈에 | 경제정책자료 |KDI 경제교육·정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "5e5f3afd95": {
@@ -5203,7 +5226,7 @@
 "q-free"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5211,7 +5234,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "71ad9f3c08": {
@@ -5222,16 +5245,17 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "bfa129869b592e11",
+"hash": "72ee449bb8635f9d",
 "title": "학교폭력 근절 종합대책 - 부처 브리핑 | 브리핑룸 | 대한민국 정책브리핑",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "8e2d4d98a0": {
 "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148913769",
@@ -5241,16 +5265,17 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "cc15772c1d8ef251",
+"hash": "ee0661af770fe68a",
 "title": "‘학교폭력 근절 종합대책’…학교폭력 전학기록 4년까지 보존, 대입정시에도 반영 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "41a9436098": {
 "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148926666",
@@ -5260,16 +5285,17 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "4c0582be8f452903",
+"hash": "c2a2f93d83250e7e",
 "title": "학교폭력 가해 기록 ‘졸업 후 4년간’ 보존된다 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "8de29b7267": {
 "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148926963",
@@ -5279,16 +5305,17 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "c9c19f6639b4203e",
+"hash": "909459a29e5a7747",
 "title": "2024년 1학기부터 학교폭력 제도 이렇게 달라집니다 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "88d35eb06f": {
 "url": "https://www.moe.go.kr/boardCnts/view.do?boardID=294&boardSeq=83631&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
@@ -5299,7 +5326,7 @@
 "q-hs-prep"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5307,7 +5334,7 @@
 "title": "영재교육진흥법 시행령 개정안 입법예고",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "614d88a3a0": {
@@ -5318,7 +5345,7 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5326,7 +5353,7 @@
 "title": "교육부 > 교육부 소식 > 보도·설명·반박 > 보도자료",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "e51c44fa7e": {
@@ -5337,16 +5364,17 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "c27802fc2f0bb40f",
+"hash": "10a1fdc2407a82a2",
 "title": "초ㆍ중등교육법 시행규칙 [시행 2024. 3. 1.] [교육부령 제323호, 2024. 2. 28., 일부개정] | 초·중등교육법 시행규칙 | 법령·규정 | 학교생활기록부 | 학교생활기록부 종합지원포털",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "fc87dad6dd": {
 "url": "https://star.moe.go.kr/web/contents/m20103.do?schM=view&id=108056",
@@ -5357,16 +5385,17 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "e58407e422c8bb29",
+"hash": "a928e8ef4e5af8bd",
 "title": "학교생활기록 작성 및 관리지침 [시행 2026. 3. 1.] [교육부훈령 제555호, 2026. 2. 12., 일부개정] | 학교생활기록 작성 및 관리지침 | 법령·규정 | 학교생활기록부 | 학교생활기록부 종합지원포",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "b97952d448": {
 "url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=268711&joNo=0002&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
@@ -5376,7 +5405,7 @@
 "q-sch-prestudy"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5384,7 +5413,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "c52fdd2278": {
@@ -5395,7 +5424,7 @@
 "q-sch-prestudy"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5403,7 +5432,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "422ec90f8f": {
@@ -5414,7 +5443,7 @@
 "q-sch-prestudy"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5422,7 +5451,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "c29d9824f5": {
@@ -5433,7 +5462,7 @@
 "q-sch-prestudy"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5441,7 +5470,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "b93f0bc297": {
@@ -5452,7 +5481,7 @@
 "q-sch-prestudy"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5460,7 +5489,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "a76ef42d3b": {
@@ -5471,7 +5500,7 @@
 "q-eo-class"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5479,7 +5508,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "cbef60cecd": {
@@ -5490,7 +5519,7 @@
 "q-eo-class"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5498,7 +5527,7 @@
 "title": "국가법령정보센터 | 변경조문",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "1879c55e89": {
@@ -5509,7 +5538,7 @@
 "q-sch-prestudy"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5517,7 +5546,7 @@
 "title": "법령 > 본문 > 공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 | 국가법령정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "70c9ac79b3": {
@@ -5528,7 +5557,7 @@
 "q-eo-class"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5536,7 +5565,7 @@
 "title": "조문정보 | 국가법령정보센터",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "6f4b064727": {
@@ -5547,7 +5576,7 @@
 "n25"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -5559,7 +5588,7 @@
 "n29"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5567,7 +5596,7 @@
 "title": "대전동신과학고등학교 홈페이지",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "84e2d325aa": {
@@ -5578,7 +5607,7 @@
 "n39"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -5590,16 +5619,17 @@
 "n78"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "71946fffb81d425f",
+"hash": "277c0e73d2b9db02",
 "title": "영재교육원 > 열린마당 > 공지사항 > 상세",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "b1758429aa": {
 "url": "https://gifted.dnue.ac.kr/gifted/CMS/Board/Board.do?mCode=MN039&mode=view&mgr_seq=3&board_seq=18963",
@@ -5609,16 +5639,17 @@
 "n78"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "8696c05d499dc4d5",
+"hash": "b49eb4fcddc816ba",
 "title": "영재교육원 > 열린마당 > 공지사항 > 상세",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "ae89c8fb79": {
 "url": "https://gifted.dnue.ac.kr/gifted/CMS/Contents/Contents.do?mCode=MN007",
@@ -5628,7 +5659,7 @@
 "n78"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5636,7 +5667,7 @@
 "title": "영재교육원 > 입학안내 > 접수방법",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "6b7f99fd92": {
@@ -5647,7 +5678,7 @@
 "n92"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5655,7 +5686,7 @@
 "title": "국립경국대학교 과학영재교육원[학생선발]",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "c6d2845b37": {
@@ -5666,7 +5697,7 @@
 "n92"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5674,7 +5705,7 @@
 "title": "입학정보 > 학생선발 게시물 상세보기 | 국립경국대학교 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "cbe1243b00": {
@@ -5685,7 +5716,7 @@
 "n92"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5693,7 +5724,7 @@
 "title": "입학정보 > 학생선발 게시물 상세보기 | 국립경국대학교 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "986f07832f": {
@@ -5704,7 +5735,7 @@
 "n92"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5712,7 +5743,7 @@
 "title": "입학정보 > 학생선발 게시물 상세보기 | 국립경국대학교 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "f18b4ac6a4": {
@@ -5723,7 +5754,7 @@
 "n70"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -5736,8 +5767,8 @@
 "n44"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "ok",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
 "changeStreak": 0,
 "noisy": null,
 "hash": "ed2137906eca8a4d",
@@ -5755,8 +5786,8 @@
 "n44"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "ok",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
 "changeStreak": 0,
 "noisy": null,
 "hash": "93b4224912f8b2ee",
@@ -5774,8 +5805,8 @@
 "n44"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "ok",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
 "changeStreak": 0,
 "noisy": null,
 "hash": "c6c0a2ad6a297f59",
@@ -5799,16 +5830,17 @@
 "un"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "f6cbd1a59c1c4c3d",
+"hash": "61dd131cca7320bb",
 "title": "부산대학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "bf4d6a8fc0": {
 "url": "https://gifted.pusan.ac.kr/bbs/gifted/1366/1529654/download.do",
@@ -5821,7 +5853,7 @@
 "un"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5829,7 +5861,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "d6b11fb2fe": {
@@ -5840,16 +5872,17 @@
 "n85"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "f9f269393316ad03",
+"hash": "9d2f3f3e2095d104",
 "title": "울산대학교 | 과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "f969f4d57a": {
 "url": "https://www.gise.kr/gise/cm/cntnts/cntntsView.do?mi=10775&cntntsId=1612",
@@ -5859,7 +5892,7 @@
 "n15"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5867,7 +5900,7 @@
 "title": "부설영재교육원 안내 < 부설영재교육원 | 경기도교육청미래과학교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "a293a71c24": {
@@ -5878,7 +5911,7 @@
 "n15"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5886,7 +5919,7 @@
 "title": "공지사항 < 정보공개 | 경기도교육청미래과학교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "a2ed1d1034": {
@@ -5897,7 +5930,7 @@
 "n79"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5905,7 +5938,7 @@
 "title": "학생선발  페이지 | 경북대학교과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "339ddc14ee": {
@@ -5916,7 +5949,7 @@
 "n79"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5924,7 +5957,7 @@
 "title": "[공고] 2027학년도 경북대학교 과학영재교육원 중등과정 (중학심화과정-현재 초6학년 대상, 중학사사연구과정-현재 중1~2학년 대상) 신입생 선발 모집 요강 > 학생선발 | 경북대학교과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "7edcda7c12": {
@@ -5935,7 +5968,7 @@
 "n79"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5943,7 +5976,7 @@
 "title": "[공고]2027학년도 경북대학교 과학영재교육원 초등기초과정(경북지역 소재 초등학교 4학년 대상) 신입생 선발 모집 요강 > 학생선발 | 경북대학교과학영재교육원",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "31b136af72": {
@@ -5957,7 +5990,7 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -5969,10 +6002,12 @@
 "csat27g",
 "dy",
 "kice-guide27",
+"q-csat-apply",
+"q-csat-day-rules",
 "q-past"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -5980,7 +6015,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "b0158e97e7": {
@@ -5994,7 +6029,7 @@
 "q-retake"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6002,7 +6037,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "601177918e": {
@@ -6012,10 +6047,11 @@
 "used": [
 "medNotice",
 "q-med",
-"q-med-quota"
+"q-med-quota",
+"q-med-regions"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6023,7 +6059,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "9b6c9c5829": {
@@ -6036,7 +6072,7 @@
 "r-tuition"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6044,7 +6080,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "2fca734a2e": {
@@ -6056,7 +6092,7 @@
 "q-local-univ"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6064,7 +6100,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "b106edfc43": {
@@ -6076,10 +6112,11 @@
 "dy27k",
 "kcue27",
 "q-g3-after",
-"q-gana"
+"q-gana",
+"q-univ-chungwon-call"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6087,7 +6124,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "8f38a38d79": {
@@ -6101,10 +6138,11 @@
 "q-gana",
 "q-mock",
 "q-susi-reg",
+"q-univ-2029-basics",
 "q-univ-plan-when"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6112,7 +6150,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "972e766141": {
@@ -6128,7 +6166,7 @@
 "six"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6136,7 +6174,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "6102633a70": {
@@ -6150,7 +6188,7 @@
 "q-ipgyeol-read"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6158,7 +6196,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "18e47ae18b": {
@@ -6171,7 +6209,7 @@
 "q-ipgyeol-read"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6179,7 +6217,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "ceda96bda7": {
@@ -6197,7 +6235,7 @@
 "q-univ-rural"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6205,7 +6243,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "2f2b01f843": {
@@ -6219,12 +6257,15 @@
 "q-g2-winter",
 "q-med",
 "q-med-ldoc",
+"q-med-ldoc-capital",
+"q-med-ldoc-city",
+"q-med-ldoc-zone",
 "q-med-quota",
-"q-univ-rural",
-"r-med-seoul"
+"q-univ-local-hs",
+"q-univ-rural"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6232,7 +6273,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "142d9f90f2": {
@@ -6245,7 +6286,7 @@
 "q-univ-fair"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6253,7 +6294,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "4fe4959353": {
@@ -6266,7 +6307,7 @@
 "q-univ-fair"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6274,7 +6315,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "802c3724a4": {
@@ -6286,7 +6327,7 @@
 "q-info-month"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6294,7 +6335,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "7cc6a4bbc9": {
@@ -6305,16 +6346,17 @@
 "q-sch-violence"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
-"changeStreak": 0,
+"changeStreak": 1,
 "noisy": null,
-"hash": "c8bc2a39eab9b3d2",
+"hash": "61ecc7073c7ea7b2",
 "title": "한국대학교육협의회",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
-"failStreak": 0
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
 },
 "a589d5148a": {
 "url": "https://www.suneung.re.kr/boardCnts/list.do?boardID=1500234&m=0403&s=suneung",
@@ -6325,7 +6367,7 @@
 "q-past"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -6338,7 +6380,7 @@
 "q-retake"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -6353,8 +6395,8 @@
 "q-hs-prep"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "ok",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
 "changeStreak": 0,
 "noisy": null,
 "hash": "e3b0c44298fc1c14",
@@ -6374,8 +6416,8 @@
 "r-gifted-ksa"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "ok",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
 "changeStreak": 0,
 "noisy": null,
 "hash": "c120545b7d257da5",
@@ -6399,8 +6441,8 @@
 "r-contest"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "ok",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
 "changeStreak": 0,
 "noisy": null,
 "hash": "1c989ce2653175a5",
@@ -6418,8 +6460,8 @@
 "r-ksa-multi"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "ok",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
 "changeStreak": 0,
 "noisy": null,
 "hash": "086fb875ddc8137e",
@@ -6437,7 +6479,7 @@
 "n43"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6445,7 +6487,7 @@
 "title": "입학요강 | 북일고등학교 | 북일고등학교",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "da988dad57": {
@@ -6456,7 +6498,7 @@
 "n43"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6464,7 +6506,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "3e7fcdb636": {
@@ -6475,7 +6517,7 @@
 "n42"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "robots",
 "failStreak": 0
 },
@@ -6487,7 +6529,7 @@
 "n42"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6495,7 +6537,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "51da36d64c": {
@@ -6506,7 +6548,7 @@
 "n47"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6514,7 +6556,7 @@
 "title": "강원외국어고등학교 홈페이지",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "6a91ce3f5f": {
@@ -6525,7 +6567,7 @@
 "n46"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6533,7 +6575,7 @@
 "title": "강원과학고등학교 홈페이지",
 "final": "",
 "ctype": "text/html",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "f15a1ad844": {
@@ -6544,7 +6586,7 @@
 "n51"
 ],
 "cycle": "w",
-"checkedAt": "2026-10-21T05:28+09:00",
+"checkedAt": "2026-11-02T05:38+09:00",
 "status": "ok",
 "changeStreak": 0,
 "noisy": null,
@@ -6552,7 +6594,7 @@
 "title": "",
 "final": "",
 "ctype": "application/pdf",
-"lastOk": "2026-10-21T05:28+09:00",
+"lastOk": "2026-11-02T05:38+09:00",
 "failStreak": 0
 },
 "300ec34c8e": {
@@ -6794,19 +6836,6 @@
 "ctype": "text/html",
 "lastOk": "2026-10-21T05:28+09:00",
 "failStreak": 0
-},
-"88c8f48ed1": {
-"url": "https://adm-u.postech.ac.kr/wp-content/uploads/2026/03/POSTECH-2026학년도-선행학습영향평가-결과보고서_260330.pdf",
-"kind": "공식",
-"cat": "대학 입학처",
-"used": [
-"postech"
-],
-"cycle": "m",
-"checkedAt": "2026-10-21T05:28+09:00",
-"status": "error",
-"failStreak": 1,
-"error": "HTTPSConnectionPool(host='adm-u.postech.ac.kr', port=443): Max retries exceeded with url: /wp-content/uploads/2026/03/POSTECH-2026%ED%95%99%EB%85%84%EB%8F%84-%E"
 },
 "afce812d08": {
 "url": "https://admission.cau.ac.kr/",
@@ -8250,6 +8279,1298 @@
 "cycle": "m",
 "checkedAt": "2026-10-21T05:28+09:00",
 "status": "robots",
+"failStreak": 0
+},
+"1134a57ee6": {
+"url": "https://www.schoolinfo.go.kr/si/pi/pnsipi_a01_l0.do",
+"kind": "공식",
+"cat": "공공 데이터·API",
+"used": [
+"q-hs-alimi",
+"q-hs-choose"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "5e662fd3c5d95a86",
+"title": "2026년-지침기준 보기-공시항목 소개-학교알리미란-학교알리미",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"d818e87254": {
+"url": "https://bdja-h.goesn.kr/bdja-h/cm/cntnts/cntntsView.do?mi=27552&cntntsId=4832",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n20"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "1633eeb77f090616",
+"title": "분당중앙고등학교",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"4375639158": {
+"url": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n94"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "de2d684f99bd29aa",
+"title": "창원영재교육원 영재선발-전형방법",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"4fe046c778": {
+"url": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8059&cntntsId=1594",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n18"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "0faeb48fdd245cb2",
+"title": "2027 원서접수 및 전형일정 < 2027년 입학전형요항 | 경기북과학고등학교",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"d515761e81": {
+"url": "https://www.gne.go.kr/www/information/schoolopen/schoolopen01.jsp",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-alimi",
+"q-sch-test-ratio"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "e1f79856562b9001",
+"title": "경남교육청 : HOME > 정보공개 > 유치원/학교정보공시 > 정보공시제도안내",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"434f81f202": {
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/02/410e7664-15c3-434c-82a0-b6a4ee78eec1.pdf",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-choose",
+"q-naesin",
+"q-sch-joint",
+"q-sch-test-ratio",
+"q-univ-last-year"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "6cc26514e6b76a6b",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"03bbd54b2e": {
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/03/ae54e5b6-3f5b-482f-a553-88d3d8cc74e9.pdf",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-autonomous"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "c5eebed0a2d844ba",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"f80d77991d": {
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/05/1d4e385d-9b72-4d67-84b8-50ff8432fca7.pdf",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hw-edubenefit"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "a7a5c40d32584c02",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"30c3f1f59a": {
+"url": "https://www.goebc.kr/bch-h/cm/cntnts/cntntsView.do?mi=13794&cntntsId=2618",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n19"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "503f40de8aaafdd7",
+"title": "원서접수 및 전형 일정 < 입학전형요항 | 부천고등학교",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"09d6c51ef3": {
+"url": "https://www.goedy.kr/goedy/na/ntt/selectNttList.do?mi=10224&bbsId=10174",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n16"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "43cfab0f9cf9b2a6",
+"title": "공지사항 < 알림마당 | 경기도동두천양주교육지원청",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"ba26db0da0": {
+"url": "https://hischoolgbe.kr/online/board/hsAdmission02",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n87",
+"n88"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "cb4ff25827550888",
+"title": "경상북도교육청 온라인 고입전형포털",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"82b8fab82c": {
+"url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12455&cntntsId=1859",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-assign",
+"q-hs-fail"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "49285993c460ad5e",
+"title": "부산광역시교육청 고입포털 - 고교입학 - 후기 일반고 배정안내",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"997cb8ad04": {
+"url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-fl-select",
+"q-hs-local-list"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "bfdfe0e24389acd8",
+"title": "부산광역시교육청 고입포털 - 고교입학 - 고교입학 안내 - 후기고(특목고, 자사고,학교장전형고)",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"ed1b78c831": {
+"url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12735&cntntsId=1848",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-assign"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "ea328a38bb0b95a6",
+"title": "부산광역시교육청 고입포털 - 고교입학 - 고교입학 안내 - 후기고(일반고)",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"3331afde38": {
+"url": "https://home.pen.go.kr/hscredit/cm/cntnts/cntntsView.do?mi=17431&cntntsId=3738",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-choose",
+"q-sch-joint"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "f066a363f9747aa1",
+"title": "고교학점제 지원센터 - 공동교육과정 - 공동교육과정 안내 - 부산온라인학교",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"9597a8e753": {
+"url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n10",
+"n11"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "46b1788a500a8880",
+"title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"351e0b5b99": {
+"url": "https://www.ice.go.kr/upload/ice/na/bbs_1671/2026/02/4ff84e71a1919e5b158b2fb96191e8bd.pdf",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-courses",
+"q-hs-choose",
+"q-naesin",
+"q-sch-joint",
+"q-sch-reenter",
+"r-joint-more"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "c122b02eb6d23097",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"40194407b2": {
+"url": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728477",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n56"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "e6d08a685748b459",
+"title": "",
+"final": "",
+"ctype": "application/octet-stream",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"af1d3b09ae": {
+"url": "https://www.jbe.go.kr/jinro/index.jbe?menuCd=DOM_000001104000000000",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n57"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "3c9f144b70120823",
+"title": "전북특별자치도교육청 진로진학센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"f3affffaed": {
+"url": "https://www.pen.go.kr/main/cm/cntnts/cntntsView.do?mi=31768&cntntsId=549",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hw-overcharge"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "5d6bf16cfb565d17",
+"title": "불법사교육신고안내 \n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t불법사교",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"5e1916b8fa": {
+"url": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n55"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "44ed96a4daa22b76",
+"title": "",
+"final": "",
+"ctype": "application/octet-stream",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"10f88ad88c": {
+"url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000022/board/BO00000124/ctgynone/view0010v.do?board_seq=987",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n00"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "ea7b1bed9b202f32",
+"title": "서울영재교육",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"9a46d8115c": {
+"url": "http://gbit.daegu.ac.kr/board/view/notice1/451",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"n93"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "48ef5e2b98ec8b80",
+"title": "정보 영재교육원 과정 소개 > 공지사항 - 2027학년도 AI 영재교육원 대상자 선발 안내",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"83c1b1cad6": {
+"url": "https://oku.korea.ac.kr/attach/202512/1766737808730_0.pdf",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-univ-rural"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "3ba87964c474f5b9",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"77aa250ee2": {
+"url": "https://oku.korea.ac.kr/attach/202609/1788832925216_0.pdf",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-courses",
+"q-sch-joint",
+"q-sch-reenter",
+"q-univ-blind",
+"r-joint-more"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "e9f810ee20b7f54a",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"37875138d6": {
+"url": "https://eiec.kdi.re.kr/policy//materialView.do?num=262490&device=mob&type=J&depth1=C0000&code=C0200",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-suneung"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "c89916df7b390344",
+"title": "2028학년도 대학수학능력시험 시험 및 점수 체제 안내 | 경제정책자료 |KDI 경제교육·정보센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"789ab5e001": {
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=248741",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-ipgyeol-read"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "c89916df7b390344",
+"title": "차세대 ‘어디가’ 개통, 대입정보 검색부터 상담까지 한 번에 이용한다 | 경제정책자료 |KDI 경제교육·정보센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"d585cfb80b": {
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285864",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-univ-2029-basics",
+"q-univ-plan-when"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "c89916df7b390344",
+"title": "「2029학년도 대학입학전형기본사항」발표 | 경제정책자료 |KDI 경제교육·정보센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"75c13dcd2c": {
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285888",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-med-ldoc",
+"q-med-ldoc-city",
+"q-med-ldoc-zone",
+"q-med-local-move",
+"r-transfer-local"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "c89916df7b390344",
+"title": "둘 이상 진료권에 걸친 학교군의 지역의사선발전형 거주요건 기준 보완 | 경제정책자료 |KDI 경제교육·정보센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"7b40392364": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148928116",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-univ-edu-quota"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "cfc2c9de6de081ce",
+"title": "내년 교대 입학정원 12% 감축…초등교원 양성규모 적정화 추진 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"9ffc8e1102": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148930602",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hw-overcharge"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "b21253adc519b504",
+"title": "학원 운영·광고 어떤 경우에 불법인가요? - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"ebe1121770": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148936321",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hw-taxcredit"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "5d596060ba6ce196",
+"title": "자주 묻는 연말정산 ③ 초등생 학원비도 세액 공제? - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"575a1a8d5c": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148938778",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-suneung"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "90c5dedd10b543a4",
+"title": "2028학년도 수능 '통합·융합형'으로…탐구 과목, 문항 수·시간 늘린다 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"b0b8525ba9": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148957544",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hw-taxcredit"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "edd1b9bac6129004",
+"title": "새해엔 초등 저학년 예체능 학원비 세액공제…청년미래적금도 신설 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"1cf3330efa": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148958661&call_from=rsslink",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-sch-neulbom"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "ca1ce85c74656d95",
+"title": "2026년 교육 분야, 이렇게 달라집니다! - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"4d3a2db1ba": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967122",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-univ-edu-quota"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "5bd80e129230d74a",
+"title": "내년 교사 신규채용, 초등 2700~2900명…중등 4700~5100명 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"b69dc0cf65": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=156363507",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-univ-blind"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "6988e0b294e32764",
+"title": "교육부, 대입제도 공정성 강화 방안 발표 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"9f152fe774": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=156576252",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hs-national-jasa"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "9d74eb992a19610a",
+"title": "공교육 경쟁력 제고방안 발표 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"343f2adcda": {
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=156610957",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hs-national-jasa"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "0b422215cfe93c84",
+"title": "초중등교육법 시행령 일부개정령안 브리핑 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"f0b1d16a97": {
+"url": "https://moe.go.kr/boardCnts/view.do?boardID=295&boardSeq=79149&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020401&opType=N",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-dir-reading"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "5beedfedc552336a",
+"title": "[설명자료]´24학년도 이후에도 정규교육과정 내 비교과 영역의 주요 항목들은 여전히 대입에 반영됩니다.",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"3f9cdcf30c": {
+"url": "https://www.moe.go.kr/boardCnts/listRenew.do?boardID=72782&renew=72782&m=030215&s=moe",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-sch-neulbom"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "496bafadf65ad0fc",
+"title": "교육부 > 정책 > 초·중·고 교육 > 초등돌봄·교육",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"e7332e79d5": {
+"url": "https://www.moe.go.kr/boardCnts/view.do?boardID=294&boardSeq=79119&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-dir-reading"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "beb1533d8930e6a3",
+"title": "교육부, 대입제도 공정성 강화 방안 발표",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"4c0167c234": {
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&lev=0&statusYN=W&s=moe&m=020402&opType=N&boardSeq=105261",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-sch-neulbom"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "574a5c583bccbd6b",
+"title": "교육부 > 교육부 소식 > 보도·설명·반박 > 보도자료",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"34af13860e": {
+"url": "https://www.moe.go.kr/sub/infoRenewal.do?m=011520&page=011520&s=moe",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-hw-overcharge"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "b5d7a8337890df29",
+"title": "교육부 > 국민참여·민원 > 신고·고충처리 > 불법사교육신고센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"5b62f7cc4e": {
+"url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?lsJoLnkSeq=1010072001&chrClsCd=010202&ancYnChk=0",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-hs-autonomous"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "0e1b0fa1d7e745c6",
+"title": "조문정보 | 국가법령정보센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"0b2413e71d": {
+"url": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?lsId=003956&chrClsCd=010202&lsRvsGubun=all",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-hw-taxcredit"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "a3417fabae156a18",
+"title": "국가법령정보센터|전체 제정·개정이유",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"9716f4be1b": {
+"url": "https://www.law.go.kr/LSW/lsRvsRsnListP.do?lsId=005238&lsRvsGubun=all&chrClsCd=010102",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-hs-national-jasa"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "a9ef62a5e2e63987",
+"title": "국가법령정보센터|전체 제정·개정이유",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"c4a65eb914": {
+"url": "https://www.law.go.kr/lsLinkProc.do?lsClsCd=OL&lsNm=%EC%A7%80%EB%B0%A9%EB%8C%80%ED%95%99%EB%B0%8F%EC%A7%80%EC%97%AD%EA%B7%A0%ED%98%95%EC%9D%B8%EC%9E%AC%EC%9C%A1%EC%84%B1%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0%EC%8B%9C%ED%96%89%EB%A0%B9&joNo=001000000&mode=10",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-med-ldoc-capital",
+"q-med-pharm-local",
+"r-med-seoul"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "7fe18e2f6041bd89",
+"title": "조문정보 | 국가법령정보센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"bfa726d15e": {
+"url": "https://gifted.kongju.ac.kr/main/board/read.php?q=a0702b542656f8a4551b37f80f54c276036a36beeb6d7d50e00868f9c53a4992db3382c07c15089bc292e2fc5f8eebc736564ead3f1ed04d11e91296dabe9e40",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n44"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "robots",
+"changeStreak": 0,
+"noisy": null,
+"hash": "8a5314cec81e1cc6",
+"title": "상세내용 | 공지사항  | 커뮤니티 | 국립공주대학교 과학영재교육원",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"35ff73ff10": {
+"url": "https://seigy.knu.ac.kr/student/44",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n79"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "7a9f7e9b3d40511b",
+"title": "[공고]2027학년도  경북대학교 과학영재교육원 초등심화과정(초 5학년 대상) 신입생 선발 모집 요강 > 학생선발 | 경북대학교과학영재교육원",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"b06d468a35": {
+"url": "https://kcue.or.kr/_upload/news/2026/07/31/application_8366fe4b41bdfd2721e0b5596d3a265d.pdf",
+"kind": "공식",
+"cat": "입시 공식 기관",
+"used": [
+"q-reform",
+"q-univ-2029-basics",
+"q-univ-nsu",
+"q-univ-plan-when",
+"qdev102101",
+"qdev102102",
+"qdev102103",
+"qdev102104",
+"qdev102105"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "dec9bf510359b2a7",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"c108dde79f": {
+"url": "https://www.kcue.or.kr/_upload/news/2025/08/28/application_e184daa942fe84363f0a4d34381665f3.pdf",
+"kind": "공식",
+"cat": "입시 공식 기관",
+"used": [
+"q-g2-winter",
+"q-med",
+"q-med-ldoc-capital",
+"q-med-local-move",
+"q-med-pharm-local",
+"q-univ-local-hs",
+"r-capital-ldoc",
+"r-med-seoul",
+"r-transfer-local"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "http-404",
+"failStreak": 2,
+"error": "http-404"
+},
+"cfb8598529": {
+"url": "https://www.kcue.or.kr/_upload/news/2026/08/13/application_aa3671da7ff1e6ece5ab36515949cce1.pdf",
+"kind": "공식",
+"cat": "입시 공식 기관",
+"used": [
+"q-univ-fair"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "0c9df741fca704f5",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"9fc2def620": {
+"url": "https://www.kcue.or.kr/_upload/news/2026/08/25/application_3d656b169c8465daa33716f5bfa548f1.pdf",
+"kind": "공식",
+"cat": "입시 공식 기관",
+"used": [
+"q-ipgyeol-read"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "0ec39095dc65ad37",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"fccbb18946": {
+"url": "https://admission.dg1s.hs.kr/",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n76"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "b2702b88e1c7399e",
+"title": ":::: 2027학년도 대구일과학고 신입생 전형 시스템",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0
+},
+"adbc457113": {
+"url": "https://www.hana.hs.kr/admission/freshmen.do",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n04"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "36653710bb4d352c",
+"title": "하나고등학교",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"9663f84418": {
+"url": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=3b390d00f3f373000b57b66a45c8029d",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n46"
+],
+"cycle": "w",
+"checkedAt": "2026-11-02T05:38+09:00",
+"status": "ok",
+"changeStreak": 1,
+"noisy": null,
+"hash": "bea2bc08ed1af48a",
+"title": "",
+"final": "",
+"ctype": "application-download",
+"lastOk": "2026-11-02T05:38+09:00",
+"failStreak": 0,
+"changedAt": "2026-11-02T05:38+09:00"
+},
+"4bcbda4b22": {
+"url": "https://home.pen.go.kr/talent/main.do",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"pen27ai"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "ab2b90cbf2b1441f",
+"title": "부산광역시교육청AI정보영재교육원",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"7a9e995c26": {
+"url": "https://clik.nanet.go.kr/clikr-collection/policyinfo/202/1010/2025/CLIKC1971683520105534_attach_2.pdf",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-hw-edubenefit"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "18ccfbd1cb91581c",
+"title": "",
+"final": "",
+"ctype": "application/pdf",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"049cd57aaf": {
+"url": "https://m.dailypharm.com/user/news/338076",
+"kind": "기사",
+"cat": "기타",
+"used": [
+"q-med",
+"q-med-ldoc-zone",
+"r-local-doctor"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "562818702174ee8d",
+"title": "[데일리팜]지역의사제, 선발·지원·의무복무 세부 기준 확정",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"7c27ef12e7": {
+"url": "https://opinion.lawmaking.go.kr/nl4li/lsItptEmp/445030",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-med-ldoc",
+"q-med-ldoc-city",
+"q-med-ldoc-zone",
+"r-local-doctor"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "a03445a8c7477453",
+"title": "국민참여입법센터",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"4ac3e0c75e": {
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=103512&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"csat28moe",
+"dy"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "f8556ef417908e6e",
+"title": "교육부 > 교육부 소식 > 보도·설명·반박 > 보도자료",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"13d970be06": {
+"url": "https://admission.ksa.hs.kr/iphak_kor/guidelines_2027.php",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"gs"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "619e860c8b8e4ab7",
+"title": "한국과학영재학교 입학안내",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"4179b6440c": {
+"url": "https://admission.ksa.hs.kr/iphak_kor/guidelines_jang_2027.php",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"gs"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "03e8a621a8cc19a8",
+"title": "한국과학영재학교 입학안내",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
+"failStreak": 0
+},
+"c6331a6f39": {
+"url": "https://gsa.jge.hs.kr/sub/page.php?page_code=guide_03",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"gs"
+],
+"cycle": "m",
+"checkedAt": "2026-10-26T05:29+09:00",
+"status": "ok",
+"changeStreak": 0,
+"noisy": null,
+"hash": "9607d6d616a77a41",
+"title": "입학안내 > 입학전형요강",
+"final": "",
+"ctype": "text/html",
+"lastOk": "2026-10-26T05:29+09:00",
 "failStreak": 0
 }
 }
