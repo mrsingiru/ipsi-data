@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03T06:42:12+09:00",
+ "at": "2026-11-03T07:59:27+09:00",
  "targets": 71,
  "withDates": 47,
  "blockedAll": [
@@ -361,6 +361,21 @@
    "tried": null
   },
   {
+   "id": "n12",
+   "org": "인천 고입",
+   "status": "dates",
+   "lines": 8,
+   "files": 0,
+   "opened": 5,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "dates"
+    }
+   ]
+  },
+  {
    "id": "n15",
    "org": "경기 미래과학교육원 영재원",
    "status": "found-no-dates",
@@ -404,8 +419,8 @@
    "id": "n36",
    "org": "충북과학고",
    "status": "dates",
-   "lines": 5,
-   "files": 0,
+   "lines": 7,
+   "files": 1,
    "opened": 4,
    "route": 1,
    "tried": null
@@ -702,21 +717,6 @@
    "opened": 1,
    "route": 1,
    "tried": null
-  },
-  {
-   "id": "n12",
-   "org": "인천 고입(외고·국제고·광역 자사고·후기 일반고)",
-   "status": "dates",
-   "lines": 8,
-   "files": 0,
-   "opened": 4,
-   "route": 1,
-   "tried": [
-    {
-     "rank": 1,
-     "status": "dates"
-    }
-   ]
   },
   {
    "id": "n30",

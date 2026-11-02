@@ -1,9 +1,13 @@
 {
  "id": "n12",
- "org": "인천 고입(외고·국제고·광역 자사고·후기 일반고)",
- "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-11-03T06:40:04+09:00",
+ "org": "인천 고입",
+ "what": "앞으로 120일 안 일정 7단계",
+ "checkedAt": "2026-11-03T07:44:23+09:00",
  "opened": [
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
+   "status": "ok"
+  },
   {
    "url": "https://www.ice.go.kr/ice/na/ntt/selectNttList.do?mi=10889&bbsId=1618",
    "status": "ok"
@@ -38,6 +42,10 @@
  "ged": [],
  "titles": [
   {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
+   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
+  },
+  {
    "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387628",
    "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
   },
@@ -53,14 +61,14 @@
  "files": [],
  "lines": [
   {
-   "text": "2027학년도 특수지 일반고 신입생 입학전형 요강 | 2026.10.29.",
+   "text": "2027학년도 인천광역시 평준화지역 일반고등학교 입학 전 배정 계획 알림 | 2026.10.23.",
    "dates": [
-    "2026-10-29"
+    "2026-10-23"
    ],
    "words": [
-    "전형"
+    "배정"
    ],
-   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387628"
+   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
   },
   {
    "text": "2. 원서접수: 2027. 2. 1.(월) ~ 2. 4.(목) 4일간, 09:00~17:00",
@@ -96,13 +104,12 @@
    "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
   },
   {
-   "text": "3. 접수처: 인천광역시교육청 신관 지하1층 고입전형본부 | 4. 배정 추첨: 2027. 2. 11.(목) 09:30, 교육청 지정장소",
+   "text": "4. 배정 추첨: 2027. 2. 11.(목) 09:30, 교육청 지정장소",
    "dates": [
     "2027-02-11"
    ],
    "words": [
-    "접수",
-    "전형"
+    "배정"
    ],
    "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
   },
@@ -112,7 +119,8 @@
     "2027-02-11"
    ],
    "words": [
-    "발표"
+    "발표",
+    "배정"
    ],
    "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
   },
@@ -127,14 +135,14 @@
    "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
   },
   {
-   "text": "2027학년도 인천광역시 고등학교 입학전형 실시계획 | 2026.08.28.",
+   "text": "□ 2월 11일(목) 9:30 배정 추첨을 공개하나 결과 확인은 16:00에 문자 발송 예정",
    "dates": [
-    "2026-08-28"
+    "2027-02-11"
    ],
    "words": [
-    "전형"
+    "배정"
    ],
-   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3382895"
+   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3387196"
   }
  ],
  "status": "dates",
