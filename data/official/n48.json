@@ -2,11 +2,11 @@
  "id": "n48",
  "org": "민족사관고",
  "what": "원서 접수 — 강원교육청 2027 고입 기본계획(HWP 첨부, 다른 기관의 공식 글 · 학교 누리집은 robots로 막힘)",
- "checkedAt": "2026-11-02T18:58:38+09:00",
+ "checkedAt": "2026-11-03T06:27:44+09:00",
  "opened": [
   {
    "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513",
-   "status": "robots"
+   "status": "ok"
   },
   {
    "url": "https://www.minjok.hs.kr/",
@@ -34,6 +34,10 @@
  "ged": [],
  "titles": [
   {
+   "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513",
+   "title": "강원특별자치도교육청 - 고입자료실"
+  },
+  {
    "url": "https://www.minjok.hs.kr/board/bbs513/1438",
    "title": "민족사관고등학교"
   },
@@ -43,6 +47,14 @@
   }
  ],
  "files": [
+  {
+   "url": "https://www.gwe.go.kr/cmm/fileDown.do?encKey=MTE4NTY5&type=bbs",
+   "name": "2027학년도 강원특별자치도 고등학교 입학전형 기본계획(공고).hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 219136,
+   "sha1": "b74f96640178"
+  },
   {
    "url": "https://www.minjok.hs.kr/board/bbs513/download/1437/1",
    "name": "2027학년도 민족사관고 신입생 모집요강.pdf",
