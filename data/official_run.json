@@ -1,7 +1,7 @@
 {
- "at": "2026-11-02T08:23:51+09:00",
+ "at": "2026-11-02T19:15:27+09:00",
  "targets": 71,
- "withDates": 44,
+ "withDates": 41,
  "blockedAll": [
   "n80",
   "n31",
@@ -364,7 +364,7 @@
    "org": "민족사관고",
    "status": "dates",
    "lines": 5,
-   "files": 2,
+   "files": 1,
    "opened": 4,
    "route": 1,
    "tried": [
@@ -427,8 +427,8 @@
   {
    "id": "n36",
    "org": "충북과학고",
-   "status": "dates",
-   "lines": 5,
+   "status": "robots",
+   "lines": 0,
    "files": 0,
    "opened": 4,
    "route": 1,
@@ -437,10 +437,10 @@
   {
    "id": "n37",
    "org": "충북 고입",
-   "status": "dates",
-   "lines": 8,
+   "status": "robots",
+   "lines": 0,
    "files": 0,
-   "opened": 5,
+   "opened": 2,
    "route": 1,
    "tried": null
   },
@@ -483,8 +483,8 @@
    "id": "n47",
    "org": "강원 고입",
    "status": "dates",
-   "lines": 12,
-   "files": 6,
+   "lines": 3,
+   "files": 2,
    "opened": 5,
    "route": 1,
    "tried": null
@@ -665,8 +665,8 @@
   {
    "id": "n94",
    "org": "경남 교육청 영재원",
-   "status": "dates",
-   "lines": 6,
+   "status": "robots",
+   "lines": 0,
    "files": 0,
    "opened": 1,
    "route": 1,
@@ -677,8 +677,8 @@
    "org": "경남과학고",
    "status": "dates",
    "lines": 2,
-   "files": 6,
-   "opened": 7,
+   "files": 0,
+   "opened": 2,
    "route": 1,
    "tried": [
     {
@@ -692,8 +692,8 @@
    "org": "창원과학고",
    "status": "dates",
    "lines": 2,
-   "files": 7,
-   "opened": 8,
+   "files": 0,
+   "opened": 2,
    "route": 1,
    "tried": [
     {
