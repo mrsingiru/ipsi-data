@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.96)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.99)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-02",
-"ver": "v28.96",
-"count": 570,
+"ver": "v28.99",
+"count": 569,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -609,7 +609,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -627,7 +627,7 @@
 "id": "997cb8ad04",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
 "host": "home.pen.go.kr",
-"name": "부산광역시교육청 고입포털 후기고(특목고·자사고·학교장전형고) 안내",
+"name": "후기고(특목고, 자사고, 학교장전형고), 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -812,14 +812,16 @@
 "id": "9597a8e753",
 "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
 "host": "ice.go.kr",
-"name": "인천시교육청 2027학년도 고입 요강 공고",
+"name": "인천광역시교육청 공고 제2026-366호 2027학년도 고등학교 입학전형 실시계획 — 주요 일정표",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n10",
-"n11"
+"n11",
+"n12",
+"n13"
 ],
-"dated": "",
+"dated": "2026-08-28",
 "cycle": "w"
 },
 {
@@ -834,19 +836,6 @@
 ],
 "dated": "",
 "cycle": "m"
-},
-{
-"id": "06c88e77f3",
-"url": "https://www.ice.go.kr/upload/ice/na/bbs_1618/2026/03/407bc9f58bdfe02671a0455a3f4ace20.pdf",
-"host": "ice.go.kr",
-"name": "인천광역시교육청 공고 제2026-142호 2027 고입 기본계획(PDF, 열람 불가)",
-"kind": "공식",
-"cat": "교육청",
-"used": [
-"n12"
-],
-"dated": "",
-"cycle": "w"
 },
 {
 "id": "351e0b5b99",
@@ -4428,7 +4417,7 @@
 "id": "33a0f1e786",
 "url": "https://biz.sbs.co.kr/amp/article/20000228825",
 "host": "biz.sbs.co.kr",
-"name": "SBS Biz(교육부 발표: 6월 모의평가 유지, 하반기 모의평가 8월)",
+"name": "SBS Biz: 2027년부터 하반기 수능 모의평가는 8월(교육부 발표)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -5008,7 +4997,7 @@
 "id": "8dc384c2fd",
 "url": "https://www.heraldk.com/article/2026052817450068440",
 "host": "heraldk.com",
-"name": "헤럴드경제, 2027학년도 영재학교 일정",
+"name": "헤럴드경제: 2027학년도 영재학교 일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -6073,8 +6062,6 @@
 "cat": "언론",
 "used": [
 "n03",
-"n10",
-"n11",
 "n12",
 "n21",
 "n30",
@@ -6182,13 +6169,13 @@
 "id": "2fbbc365b2",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=624727",
 "host": "veritas-a.com",
-"name": "베리타스알파 [2027과고경쟁률] 인천 3.31대1",
+"name": "베리타스알파 인천과고 경쟁률·일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
 "n10"
 ],
-"dated": "2026-08-27",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -6315,23 +6302,10 @@
 "cycle": "m"
 },
 {
-"id": "e230fe82c7",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=628798",
-"host": "veritas-a.com",
-"name": "베리타스알파 고입캘린더(26/09/25~)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n12"
-],
-"dated": "2026-09-21",
-"cycle": "m"
-},
-{
 "id": "ebff52a5ad",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
 "host": "veritas-a.com",
-"name": "베리타스알파 '고입캘린더 (26/10/09~)'",
+"name": "베리타스알파: 고입 캘린더(2026-10-05)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -6980,6 +6954,19 @@
 "cycle": "w"
 },
 {
+"id": "3a18135145",
+"url": "https://i-science.icehs.kr",
+"host": "i-science.icehs.kr",
+"name": "인천과학고 2027학년도 신입생 입학전형 요강(2026.5) — 전형 일정",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n10"
+],
+"dated": "",
+"cycle": "w"
+},
+{
 "id": "398d1cac44",
 "url": "https://koreascience.or.kr/article/JAKO202306447812818.pdf",
 "host": "koreascience.or.kr",
@@ -7022,7 +7009,7 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
+"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사 신입생 선발 모집 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
@@ -7226,27 +7213,6 @@
 "cycle": "w"
 },
 {
-"id": "c108dde79f",
-"url": "https://www.kcue.or.kr/_upload/news/2025/08/28/application_e184daa942fe84363f0a4d34381665f3.pdf",
-"host": "kcue.or.kr",
-"name": "대교협 「2028학년도 대학입학전형기본사항」(시행계획 공표 7쪽, 학생부 작성기준일 29쪽)",
-"kind": "공식",
-"cat": "입시 공식 기관",
-"used": [
-"q-g2-winter",
-"q-med",
-"q-med-ldoc-capital",
-"q-med-local-move",
-"q-med-pharm-local",
-"q-univ-local-hs",
-"r-capital-ldoc",
-"r-med-seoul",
-"r-transfer-local"
-],
-"dated": "2025-08-28",
-"cycle": "w"
-},
-{
 "id": "972e766141",
 "url": "https://www.kcue.or.kr/_upload/news/2025/09/25/application_99e507ec36955b195dc504295aed844b.pdf",
 "host": "kcue.or.kr",
@@ -7422,6 +7388,27 @@
 "q-sch-violence"
 ],
 "dated": "2023-08-30",
+"cycle": "w"
+},
+{
+"id": "f509f401ea",
+"url": "https://www.kcue.or.kr/news/sub02/sub01.php?at=view&idx=2764740",
+"host": "kcue.or.kr",
+"name": "대교협 「2028학년도 대학입학전형기본사항」(2026.7.31 개정본 — 시행계획 공표 7쪽, 학생부 작성기준일 30쪽, 게시글 맨 아래 첨부)",
+"kind": "공식",
+"cat": "입시 공식 기관",
+"used": [
+"q-g2-winter",
+"q-med",
+"q-med-ldoc-capital",
+"q-med-local-move",
+"q-med-pharm-local",
+"q-univ-local-hs",
+"r-capital-ldoc",
+"r-med-seoul",
+"r-transfer-local"
+],
+"dated": "2026-07-31",
 "cycle": "w"
 },
 {
