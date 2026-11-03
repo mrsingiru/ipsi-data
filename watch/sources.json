@@ -1,7 +1,7 @@
 {
-"note": "페이지(공개판 v28.106)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.109)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-03",
-"ver": "v28.106",
+"ver": "v28.109",
 "count": 577,
 "sources": [
 {
@@ -220,7 +220,8 @@
 "n21",
 "n22",
 "q-hs-local-list",
-"q-hs-national-jasa"
+"q-hs-national-jasa",
+"q-hs-vocational-apply"
 ],
 "dated": "2026-10-22",
 "cycle": "w"
@@ -623,7 +624,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -4471,7 +4472,7 @@
 "id": "33a0f1e786",
 "url": "https://biz.sbs.co.kr/amp/article/20000228825",
 "host": "biz.sbs.co.kr",
-"name": "SBS Biz(교육부 발표: 6월 모의평가 유지, 하반기 모의평가 8월)",
+"name": "SBS Biz: 2027년부터 하반기 수능 모의평가는 8월(교육부 발표)",
 "kind": "기사",
 "cat": "언론",
 "used": [
