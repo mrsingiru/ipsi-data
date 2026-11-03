@@ -1,10 +1,9 @@
 {
- "at": "2026-11-03T19:06:40+09:00",
- "targets": 71,
- "withDates": 46,
+ "at": "2026-11-03T23:27:35+09:00",
+ "targets": 72,
+ "withDates": 47,
  "blockedAll": [
   "n80",
-  "n31",
   "n33",
   "n62",
   "n63",
@@ -491,6 +490,16 @@
    "tried": null
   },
   {
+   "id": "n52",
+   "org": "전남대 영재원",
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
+   "route": 1,
+   "tried": null
+  },
+  {
    "id": "n54",
    "org": "전북 교육지원청 영재원",
    "status": "dates",
@@ -683,8 +692,8 @@
    "org": "창원과학고",
    "status": "dates",
    "lines": 2,
-   "files": 0,
-   "opened": 2,
+   "files": 7,
+   "opened": 8,
    "route": 1,
    "tried": [
     {
@@ -736,23 +745,15 @@
   {
    "id": "n31",
    "org": "충남대학교 과학영재교육원",
-   "status": "blocked-all",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
+   "status": "dates",
+   "lines": 60,
+   "files": 6,
+   "opened": 4,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "dates"
     }
    ]
   },
@@ -855,7 +856,7 @@
     },
     {
      "rank": 2,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 3,

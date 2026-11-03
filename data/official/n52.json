@@ -1,0 +1,19 @@
+{
+ "id": "n52",
+ "org": "전남대 영재원",
+ "what": "앞으로 120일 안 일정 7단계",
+ "checkedAt": "2026-11-03T23:18:54+09:00",
+ "opened": [
+  {
+   "url": "https://csge.jnu.ac.kr/main/intro.action",
+   "status": "robots"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "robots",
+ "route": 1
+}
