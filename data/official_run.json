@@ -1,7 +1,7 @@
 {
- "at": "2026-11-03T07:59:27+09:00",
+ "at": "2026-11-03T19:06:40+09:00",
  "targets": 71,
- "withDates": 47,
+ "withDates": 46,
  "blockedAll": [
   "n80",
   "n31",
@@ -363,15 +363,15 @@
   {
    "id": "n12",
    "org": "인천 고입",
-   "status": "dates",
-   "lines": 8,
+   "status": "found-no-dates",
+   "lines": 0,
    "files": 0,
    "opened": 5,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "found-no-dates"
     }
    ]
   },
@@ -474,7 +474,7 @@
    "id": "n47",
    "org": "강원 고입",
    "status": "dates",
-   "lines": 12,
+   "lines": 29,
    "files": 6,
    "opened": 5,
    "route": 1,
@@ -516,7 +516,7 @@
    "status": "dates",
    "lines": 60,
    "files": 7,
-   "opened": 6,
+   "opened": 7,
    "route": 1,
    "tried": null
   },
@@ -568,7 +568,7 @@
    "org": "순천대 영재원",
    "status": "dates",
    "lines": 4,
-   "files": 5,
+   "files": 6,
    "opened": 5,
    "route": 1,
    "tried": null
@@ -683,8 +683,8 @@
    "org": "창원과학고",
    "status": "dates",
    "lines": 2,
-   "files": 7,
-   "opened": 8,
+   "files": 0,
+   "opened": 2,
    "route": 1,
    "tried": [
     {

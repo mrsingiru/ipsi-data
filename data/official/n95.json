@@ -2,7 +2,7 @@
  "id": "n95",
  "org": "경남과학고",
  "what": "앞으로 120일 안 일정 2단계",
- "checkedAt": "2026-11-03T07:56:41+09:00",
+ "checkedAt": "2026-11-03T19:03:42+09:00",
  "opened": [
   {
    "url": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do",
@@ -89,12 +89,12 @@
   },
   {
    "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=be87212c5303a8f2b3518357f2b99b4d",
-   "name": "경남고입_원서접수_사용자매뉴얼_과학고지원자용.pdf (다운로드 : 1169회)",
+   "name": "경남고입_원서접수_사용자매뉴얼_과학고지원자용.pdf (다운로드 : 1171회)",
    "status": "robots"
   },
   {
    "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=6f916839f11640c5b45a7f88204a7f00",
-   "name": "경남고입_추천서_추천인매뉴얼_과학고추천인용.pdf (다운로드 : 742회)",
+   "name": "경남고입_추천서_추천인매뉴얼_과학고추천인용.pdf (다운로드 : 745회)",
    "status": "robots"
   },
   {
