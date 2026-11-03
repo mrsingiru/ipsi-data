@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.104)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.106)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-03",
-"ver": "v28.104",
-"count": 571,
+"ver": "v28.106",
+"count": 577,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -223,6 +223,19 @@
 "q-hs-national-jasa"
 ],
 "dated": "2026-10-22",
+"cycle": "w"
+},
+{
+"id": "98f3b9b30c",
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2638/2025/05/1150513b-db50-425a-9e05-872e3027198e.pdf",
+"host": "goe.go.kr",
+"name": "2025 신입생 학부모를 위한 고등학교 안내서, 경기도교육청",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-before-entry"
+],
+"dated": "",
 "cycle": "w"
 },
 {
@@ -610,7 +623,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1750,6 +1763,19 @@
 "cycle": "m"
 },
 {
+"id": "860c464371",
+"url": "https://www.dt.co.kr/article/12067938",
+"host": "dt.co.kr",
+"name": "디지털타임스(2027학년도 수능 6월 모의평가 이의신청 심사 결과)",
+"kind": "기사",
+"cat": "기타",
+"used": [
+"q-csat-answer-objection"
+],
+"dated": "2026-06-16",
+"cycle": "m"
+},
+{
 "id": "4e956c4d44",
 "url": "https://educationendowmentfoundation.org.uk/projects-and-evaluation/projects/magic-breakfast",
 "host": "educationendowmentfoundation.org.uk",
@@ -1867,6 +1893,19 @@
 "cycle": "m"
 },
 {
+"id": "f03d3320bc",
+"url": "https://jnucsge.gidea.co.kr/main/ipsi/handbook.action?q=b0816eeda5709825d348003ddbfa83348d23b503d5159472250816bcee464e97",
+"host": "jnucsge.gidea.co.kr",
+"name": "전남대 과학영재교육원 2027학년도 초등·중등심화 일반전형 신입생 모집 요강 — 3. 선발절차 및 일정(2026-10-15 공고)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"n52"
+],
+"dated": "2026-10-15",
+"cycle": "m"
+},
+{
 "id": "f69a3e3b9c",
 "url": "https://kdca.go.kr/bbs/kdca/42/309411/download.do",
 "host": "kdca.go.kr",
@@ -1954,7 +1993,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -2464,6 +2503,19 @@
 ],
 "dated": "",
 "cycle": "m"
+},
+{
+"id": "33fe8c98ff",
+"url": "https://csge.jnu.ac.kr/main/intro.action",
+"host": "csge.jnu.ac.kr",
+"name": "전남대 과학영재교육원 누리집",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"n52"
+],
+"dated": "",
+"cycle": "w"
 },
 {
 "id": "fdc239cac0",
@@ -4519,7 +4571,7 @@
 "used": [
 "n52"
 ],
-"dated": "2025-10-23",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -6183,13 +6235,13 @@
 "id": "7770744511",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=624729",
 "host": "veritas-a.com",
-"name": "베리타스알파 [2027과고경쟁률] 인천진산 3.39대1",
+"name": "베리타스알파 인천진산 경쟁률·일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
 "n11"
 ],
-"dated": "2026-08-27",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -6306,7 +6358,7 @@
 "id": "ebff52a5ad",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
 "host": "veritas-a.com",
-"name": "베리타스알파 '고입캘린더 (26/10/09~)'",
+"name": "베리타스알파: 고입 캘린더(2026-10-05)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -6648,12 +6700,11 @@
 "id": "c8c6d5787e",
 "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=8",
 "host": "ged.kedi.re.kr",
-"name": "GED 영재선발 공고 목록(2026-10-17 열람, 전남대 공고 없음)",
+"name": "GED 영재선발 공고(공고 존재만 확인, 게시일 미표시)",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
-"n09",
-"n52"
+"n09"
 ],
 "dated": "",
 "cycle": "w"
@@ -7072,6 +7123,7 @@
 "csat27g",
 "dy",
 "kice-guide27",
+"q-csat-answer-objection",
 "q-csat-apply",
 "q-csat-day-rules",
 "q-past"
@@ -7814,6 +7866,32 @@
 ],
 "dated": "",
 "cycle": "m"
+},
+{
+"id": "792eb76835",
+"url": "https://ijss.icehs.kr/UserFiles/ijss/2027%ED%95%99%EB%85%84%EB%8F%84+%EC%9D%B8%EC%B2%9C%EC%A7%84%EC%82%B0%EA%B3%BC%ED%95%99%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90+%EC%8B%A0%EC%9E%85%EC%83%9D+%EC%9E%85%ED%95%99%EC%A0%84%ED%98%95+%EC%9A%94%EA%B0%95.pdf",
+"host": "ijss.icehs.kr",
+"name": "인천진산과학고 2027학년도 입학전형 요강 파일(PDF)",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n11"
+],
+"dated": "",
+"cycle": "w"
+},
+{
+"id": "15d0b5baef",
+"url": "https://ijss.icehs.kr/sub/info.do?m=0802&s=ijss",
+"host": "ijss.icehs.kr",
+"name": "인천진산과학고 2027학년도 신입생 입학전형 요강(2026.5) — 전형 일정",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n11"
+],
+"dated": "2026-11-03",
+"cycle": "w"
 },
 {
 "id": "9663f84418",
