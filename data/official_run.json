@@ -1,9 +1,11 @@
 {
- "at": "2026-11-03T23:27:35+09:00",
+ "at": "2026-11-04T07:19:05+09:00",
  "targets": 72,
- "withDates": 47,
+ "withDates": 46,
  "blockedAll": [
+  "n41",
   "n80",
+  "n31",
   "n33",
   "n62",
   "n63",
@@ -447,15 +449,23 @@
   {
    "id": "n41",
    "org": "충남과학고",
-   "status": "found-no-dates",
+   "status": "blocked-all",
    "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 1,
    "route": 2,
    "tried": [
     {
      "rank": 2,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ]
   },
@@ -745,15 +755,23 @@
   {
    "id": "n31",
    "org": "충남대학교 과학영재교육원",
-   "status": "dates",
-   "lines": 60,
-   "files": 6,
-   "opened": 4,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ]
   },
@@ -856,7 +874,7 @@
     },
     {
      "rank": 2,
-     "status": "robots"
+     "status": "not-found"
     },
     {
      "rank": 3,
