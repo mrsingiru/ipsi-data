@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.99)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-11-02",
-"ver": "v28.99",
-"count": 569,
+"note": "페이지(공개판 v28.104)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-11-03",
+"ver": "v28.104",
+"count": 571,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -441,13 +441,13 @@
 "id": "6d0ab173c0",
 "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513",
 "host": "gwe.go.kr",
-"name": "강원교육청 2027 고입 기본계획",
+"name": "강원특별자치도교육청 공고 제2026-53호 2027학년도 고등학교 입학전형 기본계획 — Ⅳ-5. 고입전형 추진 일정",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n47"
 ],
-"dated": "",
+"dated": "2026-11-03",
 "cycle": "w"
 },
 {
@@ -522,14 +522,15 @@
 "id": "ba26db0da0",
 "url": "https://hischoolgbe.kr/online/board/hsAdmission02",
 "host": "hischoolgbe.kr",
-"name": "경상북도교육청 온라인 고입전형포털 고입전형일정표",
+"name": "경북교육청 고입전형포털 '고입전형일정표'(2027학년도)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n87",
-"n88"
+"n88",
+"n89"
 ],
-"dated": "2026-10-22",
+"dated": "2026-11-03",
 "cycle": "w"
 },
 {
@@ -911,13 +912,14 @@
 "id": "af1d3b09ae",
 "url": "https://www.jbe.go.kr/jinro/index.jbe?menuCd=DOM_000001104000000000",
 "host": "jbe.go.kr",
-"name": "전북교육청 진로진학센터 고입안내(2027학년도 전북 고등학교 입학전형 기본계획)",
+"name": "전북교육청 진로진학센터 '2027학년도 전북특별자치도 고등학교 입학전형 안내' 전형일정표",
 "kind": "공식",
 "cat": "교육청",
 "used": [
+"n56",
 "n57"
 ],
-"dated": "2026-10-22",
+"dated": "2026-11-03",
 "cycle": "w"
 },
 {
@@ -1952,7 +1954,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -4417,7 +4419,7 @@
 "id": "33a0f1e786",
 "url": "https://biz.sbs.co.kr/amp/article/20000228825",
 "host": "biz.sbs.co.kr",
-"name": "SBS Biz: 2027년부터 하반기 수능 모의평가는 8월(교육부 발표)",
+"name": "SBS Biz(교육부 발표: 6월 모의평가 유지, 하반기 모의평가 8월)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4912,7 +4914,7 @@
 "id": "a804194446",
 "url": "https://www.hankyung.com/article/2026081753451",
 "host": "hankyung.com",
-"name": "한국경제(과학고 22곳 1,858명)",
+"name": "한국경제: 과학고 22곳 1,858명",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -4997,7 +4999,7 @@
 "id": "8dc384c2fd",
 "url": "https://www.heraldk.com/article/2026052817450068440",
 "host": "heraldk.com",
-"name": "헤럴드경제: 2027학년도 영재학교 일정",
+"name": "헤럴드경제, 2027학년도 영재학교 일정",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -5190,7 +5192,7 @@
 "used": [
 "n89"
 ],
-"dated": "2026-01-01",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -6118,7 +6120,6 @@
 "kind": "기사",
 "cat": "언론",
 "used": [
-"n56",
 "n62",
 "n63",
 "n69"
@@ -6298,14 +6299,14 @@
 "n22",
 "n90"
 ],
-"dated": "2026-09-07",
+"dated": "",
 "cycle": "m"
 },
 {
 "id": "ebff52a5ad",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
 "host": "veritas-a.com",
-"name": "베리타스알파: 고입 캘린더(2026-10-05)",
+"name": "베리타스알파 '고입캘린더 (26/10/09~)'",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -7009,7 +7010,7 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사 신입생 선발 모집 요강",
+"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
@@ -7776,6 +7777,19 @@
 "cycle": "w"
 },
 {
+"id": "e17a938dfc",
+"url": "https://haneul.icehs.kr/boardCnts/fileDown.do?fileSeq=e8e9bfcf33056d7e980f475c7374a9a0",
+"host": "haneul.icehs.kr",
+"name": "인천하늘고 2027학년도 신입학 입학전형 요강(2026. 8.) — 7. 전형 일정(PDF 13쪽)",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n13"
+],
+"dated": "2026-11-03",
+"cycle": "w"
+},
+{
 "id": "09438a0dbf",
 "url": "https://hansungsh.sen.hs.kr/2238/subMenu.do",
 "host": "hansungsh.sen.hs.kr",
@@ -7825,6 +7839,19 @@
 "n46"
 ],
 "dated": "2026-10-12",
+"cycle": "w"
+},
+{
+"id": "3ecd4bb2bc",
+"url": "https://www.minjok.hs.kr/board/bbs513/download/1437/1",
+"host": "minjok.hs.kr",
+"name": "민족사관고 2027학년도 신입생 모집 요강(2026. 8. 25.) — Ⅰ-2. 전형 일정(PDF 3쪽)",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n48"
+],
+"dated": "2026-11-03",
 "cycle": "w"
 },
 {
