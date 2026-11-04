@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.111)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.113)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-04",
-"ver": "v28.111",
-"count": 579,
+"ver": "v28.113",
+"count": 584,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -71,6 +71,19 @@
 "n37"
 ],
 "dated": "",
+"cycle": "w"
+},
+{
+"id": "149217b34e",
+"url": "https://csh-h.gne.go.kr/csh-h/na/ntt/selectNttInfo.do?nttSn=100271844&mi=503446",
+"host": "csh-h.gne.go.kr",
+"name": "창원과학고 2027학년도 신입생 입학전형 요강(2026.5) — Ⅳ. 전형 일정",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n96"
+],
+"dated": "2026-11-04",
 "cycle": "w"
 },
 {
@@ -426,6 +439,32 @@
 "cycle": "m"
 },
 {
+"id": "aaa0ae9fe9",
+"url": "https://gshs-h.gne.go.kr/gshs-h/cm/cntnts/cntntsView.do?mi=269952&cntntsId=34673",
+"host": "gshs-h.gne.go.kr",
+"name": "경남과학고 누리집 '전형요강' 화면",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n95"
+],
+"dated": "",
+"cycle": "w"
+},
+{
+"id": "09908179df",
+"url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100276118&mi=160978",
+"host": "gshs-h.gne.go.kr",
+"name": "경남과학고 2027학년도 입학전형 요강(안)(2026.5) — 3. 전형 일정",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n95"
+],
+"dated": "2026-11-04",
+"cycle": "w"
+},
+{
 "id": "9ccbc15e68",
 "url": "https://gwcce.gwe.go.kr/sub/info.do?m=051003&s=gwcce",
 "host": "gwcce.gwe.go.kr",
@@ -525,8 +564,6 @@
 "kind": "공식",
 "cat": "교육청",
 "used": [
-"n95",
-"n96",
 "n97"
 ],
 "dated": "2026-11-01",
@@ -596,7 +633,6 @@
 "cat": "교육청",
 "used": [
 "n72",
-"n73",
 "n74",
 "penhs27",
 "q-hs-assign",
@@ -624,7 +660,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1006,6 +1042,20 @@
 "cycle": "w"
 },
 {
+"id": "95ee6eb9b1",
+"url": "https://www.jne.go.kr/upload/main/na/bbs_139/ntt_5172377/doc_2426288a-7b58-4f3f-9aa9-166090cb3f601774a3335b69743.pdf",
+"host": "jne.go.kr",
+"name": "전라남도교육청 2027학년도 고등학교 입학전형 기본계획(2026.3.30 공고) — Ⅷ. 고입 전형 일정",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n62",
+"n63"
+],
+"dated": "2026-11-04",
+"cycle": "w"
+},
+{
 "id": "57732b08c9",
 "url": "https://www.jngjedu.kr/news/articleView.html?idxno=111240",
 "host": "jngjedu.kr",
@@ -1139,16 +1189,16 @@
 "cycle": "w"
 },
 {
-"id": "afd46aefc1",
-"url": "https://school.busanedu.net/bsis-h/cm/cntnts/cntntsView.do?mi=607022&cntntsId=5070",
+"id": "65335e1787",
+"url": "https://school.busanedu.net/bsis-h/cm/cntnts/cntntsView.do?mi=607023&cntntsId=5071",
 "host": "school.busanedu.net",
-"name": "부산일과학고 입학전형요강",
+"name": "부산일과학고 2027학년도 신입생 입학전형 요강(2026.8) — Ⅳ. 전형 일정",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n73"
 ],
-"dated": "",
+"dated": "2026-11-04",
 "cycle": "w"
 },
 {
@@ -1994,7 +2044,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -2806,6 +2856,19 @@
 "q-life-exercise-study"
 ],
 "dated": "2026-10-27",
+"cycle": "w"
+},
+{
+"id": "fd424a71ed",
+"url": "https://www.hongik.ac.kr/kr/admission/notice-admission.do?mode=download&articleNo=151353&attachNo=90076",
+"host": "hongik.ac.kr",
+"name": "홍익대학교 2028학년도 입학전형 시행계획(2026-07-09 수정)",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-univ-art-practical"
+],
+"dated": "2026-07-09",
 "cycle": "w"
 },
 {
@@ -4498,7 +4561,7 @@
 "id": "33a0f1e786",
 "url": "https://biz.sbs.co.kr/amp/article/20000228825",
 "host": "biz.sbs.co.kr",
-"name": "SBS Biz: 2027년부터 하반기 수능 모의평가는 8월(교육부 발표)",
+"name": "SBS Biz(교육부 발표: 6월 모의평가 유지, 하반기 모의평가 8월)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -5125,7 +5188,7 @@
 "used": [
 "n63"
 ],
-"dated": "2026-01-15",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -5416,14 +5479,14 @@
 "id": "c6661095ca",
 "url": "https://www.kyobit.com/news/articleView.html?idxno=634",
 "host": "kyobit.com",
-"name": "교육을 비추다(2026학년도 모집요강 분석)",
+"name": "교육을 비추다 2025-06-10",
 "kind": "기사",
 "cat": "언론",
 "used": [
 "n95",
 "n96"
 ],
-"dated": "2025-06-10",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -5555,13 +5618,13 @@
 "id": "e948cba139",
 "url": "https://www.localnaeil.com/News/View/653770",
 "host": "localnaeil.com",
-"name": "지역내일 고양교육청 영재교육원 선교육 후선발",
+"name": "지역내일(작년 일정)",
 "kind": "기사",
 "cat": "언론",
 "used": [
 "n15"
 ],
-"dated": "2025-12-06",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -6200,7 +6263,6 @@
 "cat": "언론",
 "used": [
 "n62",
-"n63",
 "n69"
 ],
 "dated": "2026-08-10",
@@ -6285,8 +6347,6 @@
 "n82",
 "n87",
 "n88",
-"n95",
-"n96",
 "q-hs-when",
 "sci27",
 "sh",
@@ -6385,7 +6445,7 @@
 "id": "ebff52a5ad",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
 "host": "veritas-a.com",
-"name": "베리타스알파 '고입캘린더 (26/10/09~)'",
+"name": "베리타스알파: 고입 캘린더(2026-10-05)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -6431,13 +6491,13 @@
 "id": "9ad4b0b5ad",
 "url": "https://view.asiae.co.kr/article/2026033015095586853",
 "host": "view.asiae.co.kr",
-"name": "아시아경제 '학폭 가·피해자 분리…전남교육청, 2027 고입전형 확정'",
+"name": "아시아경제 전남교육청 2027 고입전형 확정(2026-03-30)",
 "kind": "기사",
 "cat": "언론",
 "used": [
 "n63"
 ],
-"dated": "2026-03-30",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -7023,13 +7083,13 @@
 "id": "a293a71c24",
 "url": "https://www.gise.kr/gise/na/ntt/selectNttInfo.do?mi=10751&bbsId=6147&nttSn=1200499",
 "host": "gise.kr",
-"name": "경기도교육청미래과학교육원 2027 영재교육대상자 선발 공고 안내",
+"name": "경기도교육청미래과학교육원 2027 영재교육대상자 선발 공고 안내(2026-09-28) — 본문 일정 그림(진로특화·융합탐구 과정)",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
 "n15"
 ],
-"dated": "2026-09-28",
+"dated": "2026-11-04",
 "cycle": "w"
 },
 {
@@ -7354,6 +7414,7 @@
 "q-g2-winter",
 "q-ipgyeol-read",
 "q-susi",
+"q-univ-art-practical",
 "q-univ-last-year",
 "q-univ-plan-when",
 "q-univ-rural"
@@ -7729,13 +7790,13 @@
 "id": "3e7fcdb636",
 "url": "https://www.cnfl.cnehs.kr/sub/info.do?m=0210&s=cnfl",
 "host": "cnfl.cnehs.kr",
-"name": "충남외고 신입생 모집요강 페이지(2023학년도 내용)",
+"name": "충남외고 2027학년도 자기주도학습전형 요강(2026.8) — Ⅶ. 전형 일정(대표가 준 요강 파일)",
 "kind": "공식",
 "cat": "학교",
 "used": [
 "n42"
 ],
-"dated": "",
+"dated": "2026-11-04",
 "cycle": "w"
 },
 {
