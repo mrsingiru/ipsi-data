@@ -1,7 +1,7 @@
 {
- "at": "2026-11-04T21:45:50+09:00",
+ "at": "2026-11-05T08:02:20+09:00",
  "targets": 72,
- "withDates": 46,
+ "withDates": 41,
  "blockedAll": [
   "n80",
   "n31",
@@ -46,7 +46,7 @@
     },
     {
      "rank": 2,
-     "status": "not-found"
+     "status": "robots"
     }
    ]
   },
@@ -223,30 +223,46 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "dates",
-   "lines": 6,
-   "files": 5,
-   "opened": 6,
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "dates",
-   "lines": 6,
-   "files": 2,
-   "opened": 6,
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
@@ -293,15 +309,23 @@
   {
    "id": "n13",
    "org": "인천하늘고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 2,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
     }
    ]
   },
@@ -363,23 +387,31 @@
   {
    "id": "n12",
    "org": "인천 고입",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
    "files": 0,
-   "opened": 5,
+   "opened": 2,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
   {
    "id": "n15",
    "org": "경기 미래과학교육원 영재원",
-   "status": "found-no-dates",
-   "lines": 0,
+   "status": "dates",
+   "lines": 3,
    "files": 5,
    "opened": 2,
    "route": 1,
@@ -418,9 +450,9 @@
   {
    "id": "n36",
    "org": "충북과학고",
-   "status": "dates",
-   "lines": 7,
-   "files": 1,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
    "opened": 4,
    "route": 1,
    "tried": null
@@ -428,10 +460,10 @@
   {
    "id": "n37",
    "org": "충북 고입",
-   "status": "dates",
-   "lines": 8,
+   "status": "robots",
+   "lines": 0,
    "files": 0,
-   "opened": 5,
+   "opened": 2,
    "route": 1,
    "tried": null
   },
@@ -612,9 +644,9 @@
    "id": "n73",
    "org": "부산일과학고",
    "status": "dates",
-   "lines": 3,
-   "files": 3,
-   "opened": 6,
+   "lines": 7,
+   "files": 6,
+   "opened": 2,
    "route": 1,
    "tried": null
   },
@@ -676,30 +708,30 @@
   {
    "id": "n95",
    "org": "경남과학고",
-   "status": "dates",
-   "lines": 2,
-   "files": 6,
-   "opened": 7,
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 8,
+   "opened": 8,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "found-no-dates"
     }
    ]
   },
   {
    "id": "n96",
    "org": "창원과학고",
-   "status": "dates",
-   "lines": 2,
-   "files": 7,
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 11,
    "opened": 8,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "dates"
+     "status": "found-no-dates"
     }
    ]
   },
@@ -834,18 +866,18 @@
    "lines": 0,
    "files": 0,
    "opened": 1,
-   "route": 3,
+   "route": 1,
    "tried": [
-    {
-     "rank": 3,
-     "status": "robots"
-    },
     {
      "rank": 1,
      "status": "robots"
     },
     {
      "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
      "status": "robots"
     }
    ]

@@ -1,11 +1,15 @@
 {
  "id": "n95",
  "org": "경남과학고",
- "what": "앞으로 120일 안 일정 2단계",
- "checkedAt": "2026-11-04T21:43:19+09:00",
+ "what": "앞으로 120일 안 일정 4단계",
+ "checkedAt": "2026-11-05T07:59:19+09:00",
  "opened": [
   {
-   "url": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do",
+   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100276118&mi=160978",
+   "status": "ok"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/gshs-h/cm/cntnts/cntntsView.do?mi=269952&cntntsId=34673",
    "status": "ok"
   },
   {
@@ -30,7 +34,7 @@
   },
   {
    "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100340534&mi=160978",
-   "status": "ok"
+   "status": "limit"
   }
  ],
  "notices": [
@@ -50,8 +54,12 @@
  "ged": [],
  "titles": [
   {
-   "url": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do",
-   "title": "입학전형 일정 - 경상남도교육청 고입포털"
+   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100276118&mi=160978",
+   "title": "공지사항 | 경남과학고등학교"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/gshs-h/cm/cntnts/cntntsView.do?mi=269952&cntntsId=34673",
+   "title": "전형요강 | 경남과학고등학교"
   },
   {
    "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100576436&mi=160978",
@@ -60,13 +68,44 @@
   {
    "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100455545&mi=160978",
    "title": "공지사항 | 경남과학고등학교"
-  },
-  {
-   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100340534&mi=160978",
-   "title": "공지사항 | 경남과학고등학교"
   }
  ],
  "files": [
+  {
+   "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=422c55a327f66a2dda07e96d21d89fff",
+   "name": "2027학년도 경남과학고등학교 입학전형 요강_최종.pdf (다운로드 : 3098회)",
+   "status": "robots"
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 283683,
+   "sha1": "d58cc4a4cc1c",
+   "lines": 0
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 283683,
+   "sha1": "d58cc4a4cc1c",
+   "lines": 0
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/img0204_1.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 513899,
+   "sha1": "edff8de3899c",
+   "lines": 0
+  },
   {
    "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
    "name": "본문 그림",
@@ -89,23 +128,8 @@
   },
   {
    "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=be87212c5303a8f2b3518357f2b99b4d",
-   "name": "경남고입_원서접수_사용자매뉴얼_과학고지원자용.pdf (다운로드 : 1173회)",
+   "name": "경남고입_원서접수_사용자매뉴얼_과학고지원자용.pdf (다운로드 : 1176회)",
    "status": "robots"
-  },
-  {
-   "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=6f916839f11640c5b45a7f88204a7f00",
-   "name": "경남고입_추천서_추천인매뉴얼_과학고추천인용.pdf (다운로드 : 745회)",
-   "status": "robots"
-  },
-  {
-   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 283683,
-   "sha1": "d58cc4a4cc1c",
-   "lines": 0
   },
   {
    "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
@@ -118,34 +142,13 @@
    "lines": 0
   }
  ],
- "lines": [
-  {
-   "text": "합격자 발표 | 2027. 1. 8.(금)",
-   "dates": [
-    "2027-01-08"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do"
-  },
-  {
-   "text": "합격자 배정 발표 | 2027. 1. 15.(금)",
-   "dates": [
-    "2027-01-15"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://highschool.gne.go.kr/s10/hsa/admission/processSchedule.do"
-  }
- ],
- "status": "dates",
+ "lines": [],
+ "status": "found-no-dates",
  "route": 1,
  "tried": [
   {
    "rank": 1,
-   "status": "dates"
+   "status": "found-no-dates"
   }
  ]
 }
