@@ -1,12 +1,13 @@
 {
- "at": "2026-11-04T10:16:15+09:00",
+ "at": "2026-11-04T21:45:50+09:00",
  "targets": 72,
- "withDates": 44,
+ "withDates": 46,
  "blockedAll": [
   "n80",
   "n31",
   "n33",
   "n62",
+  "n63",
   "n83"
  ],
  "items": [
@@ -45,7 +46,7 @@
     },
     {
      "rank": 2,
-     "status": "robots"
+     "status": "not-found"
     }
    ]
   },
@@ -222,46 +223,30 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 3,
+   "status": "dates",
+   "lines": 6,
+   "files": 5,
+   "opened": 6,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "dates"
     }
    ]
   },
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 3,
+   "status": "dates",
+   "lines": 6,
+   "files": 2,
+   "opened": 6,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "dates"
     }
    ]
   },
@@ -308,23 +293,15 @@
   {
    "id": "n13",
    "org": "인천하늘고",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 2,
+   "opened": 4,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "found-no-dates"
     }
    ]
   },
@@ -386,23 +363,15 @@
   {
    "id": "n12",
    "org": "인천 고입",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 2,
+   "opened": 5,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "found-no-dates"
     }
    ]
   },
@@ -574,8 +543,8 @@
   {
    "id": "n58",
    "org": "전북대 영재원",
-   "status": "robots",
-   "lines": 0,
+   "status": "dates",
+   "lines": 2,
    "files": 0,
    "opened": 2,
    "route": 1,
@@ -584,15 +553,23 @@
   {
    "id": "n64",
    "org": "광양제철고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
-   "files": 1,
-   "opened": 2,
-   "route": 1,
+   "files": 0,
+   "opened": 1,
+   "route": 3,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
@@ -853,12 +830,16 @@
   {
    "id": "n63",
    "org": "전남 고입(2027 고입 기본계획)",
-   "status": "dates",
-   "lines": 8,
-   "files": 1,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
    "opened": 1,
    "route": 3,
    "tried": [
+    {
+     "rank": 3,
+     "status": "robots"
+    },
     {
      "rank": 1,
      "status": "robots"
@@ -866,10 +847,6 @@
     {
      "rank": 2,
      "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "dates"
     }
    ]
   },
