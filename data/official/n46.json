@@ -2,7 +2,7 @@
  "id": "n46",
  "org": "강원과학고",
  "what": "2027 신입생 입학전형(요강·출석면담·발표)",
- "checkedAt": "2026-11-05T07:42:00+09:00",
+ "checkedAt": "2026-11-05T10:07:39+09:00",
  "opened": [
   {
    "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/list.do?boardID=23257&m=0201&s=kangwonsh",
@@ -13,11 +13,11 @@
    "status": "ok"
   },
   {
-   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9682071&lev=0&m=0201&s=kangwonsh",
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9713535&lev=0&m=0201&s=kangwonsh",
    "status": "ok"
   },
   {
-   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9636351&lev=0&m=0201&s=kangwonsh",
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9682071&lev=0&m=0201&s=kangwonsh",
    "status": "ok"
   }
  ],
@@ -27,12 +27,12 @@
    "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9544982&lev=0&m=0201&s=kangwonsh"
   },
   {
-   "title": "2027학년도 신입생 입학전형 출석면담 안내",
-   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9682071&lev=0&m=0201&s=kangwonsh"
+   "title": "2027학년도 신입생 입학전형 2단계 평가(소집면접) 안내",
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9713535&lev=0&m=0201&s=kangwonsh"
   },
   {
-   "title": "2027학년도 신입생 입학전형 지원자(경쟁률) 공지(일반/사회통합 전형 경쟁률)",
-   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9636351&lev=0&m=0201&s=kangwonsh"
+   "title": "2027학년도 신입생 입학전형 출석면담 안내",
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9682071&lev=0&m=0201&s=kangwonsh"
   }
  ],
  "ged": [],
@@ -42,11 +42,11 @@
    "title": "강원과학고등학교 홈페이지"
   },
   {
-   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9682071&lev=0&m=0201&s=kangwonsh",
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9713535&lev=0&m=0201&s=kangwonsh",
    "title": "강원과학고등학교 홈페이지"
   },
   {
-   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9636351&lev=0&m=0201&s=kangwonsh",
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/view.do?boardID=23257&boardSeq=9682071&lev=0&m=0201&s=kangwonsh",
    "title": "강원과학고등학교 홈페이지"
   }
  ],
@@ -58,6 +58,22 @@
    "type": "pdf",
    "bytes": 460750,
    "sha1": "a9a9bb24f9f0"
+  },
+  {
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=8338bfd122de3fd749724da53cbf3d1b",
+   "name": "2027학년도 신입생 입학전형 소집면접 유의사항.hwpx",
+   "status": "ok",
+   "type": "hwpx",
+   "bytes": 246631,
+   "sha1": "1e9aea74ff83"
+  },
+  {
+   "url": "https://kangwon-sh.gwe.hs.kr/boardCnts/fileDown.do?m=0201&s=kangwonsh&fileSeq=0cb4c34d753bcf21dd5c893b40507dd4",
+   "name": "소집면접 안내.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 67908,
+   "sha1": "1d106f5dd7ba"
   },
   {
    "url": "https://kangwon-sh.gwe.hs.kr/images/template/40119/sub/s_visual.jpg",
