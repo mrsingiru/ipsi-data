@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.113)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-11-04",
-"ver": "v28.113",
-"count": 584,
+"note": "페이지(공개판 v28.115)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-11-05",
+"ver": "v28.115",
+"count": 591,
 "sources": [
 {
 "id": "300ec34c8e",
@@ -61,6 +61,19 @@
 "cycle": "w"
 },
 {
+"id": "64026cf651",
+"url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1579190",
+"host": "cbe.go.kr",
+"name": "충청북도교육청 2027학년도 고등학교 입학전형 실시 계획(2026. 9.) — 부록-1 세부추진 일정",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n37"
+],
+"dated": "2026-11-05",
+"cycle": "w"
+},
+{
 "id": "9a77a8d2d1",
 "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttList.do?mi=11465&bbsId=1779",
 "host": "cbe.go.kr",
@@ -71,6 +84,19 @@
 "n37"
 ],
 "dated": "",
+"cycle": "w"
+},
+{
+"id": "aad9f9b045",
+"url": "https://www.cne.go.kr/",
+"host": "cne.go.kr",
+"name": "충청남도교육청 2027학년도 충청남도 고등학교 입학전형 기본계획(2026. 3.) — Ⅷ 입학전형 일정",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n42"
+],
+"dated": "2026-11-05",
 "cycle": "w"
 },
 {
@@ -110,6 +136,19 @@
 "n94"
 ],
 "dated": "2026-10-22",
+"cycle": "w"
+},
+{
+"id": "eb65b9db92",
+"url": "https://www.dge.go.kr/main/",
+"host": "dge.go.kr",
+"name": "대구광역시교육청 공고 제2026-252호 2027학년도 고등학교 입학전형 기본 계획(1차 수정) — 덧붙임 2 입학전형 일정",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n77"
+],
+"dated": "2026-07-15",
 "cycle": "w"
 },
 {
@@ -660,7 +699,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -933,6 +972,20 @@
 "cycle": "w"
 },
 {
+"id": "766825aea5",
+"url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1186835",
+"host": "jbe.go.kr",
+"name": "2027학년도 전북특별자치도 고등학교 신입학 전형요강 안내(전북교육청 발간등록번호 전북교육 2026-315) — 1-18 전형 일정(자율형 사립고)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n56",
+"n57"
+],
+"dated": "2026-11-05",
+"cycle": "w"
+},
+{
 "id": "40194407b2",
 "url": "https://www.jbe.go.kr/jinro/board/download.jbe?boardId=BBS_0000201&menuCd=DOM_000001104004000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1172773&command=update&fileSid=728477",
 "host": "jbe.go.kr",
@@ -1032,13 +1085,13 @@
 "id": "df59af1afb",
 "url": "https://www.jje.go.kr/board/view.jje?menuCd=DOM_000000104007002001&boardId=BBS_0000485&dataSid=1478269",
 "host": "jje.go.kr",
-"name": "제주교육청 '2027학년도 제주특별자치도 고등학교 입학전형 세부 계획 확정 공고'(막힘)",
+"name": "제주특별자치도교육청 2027학년도 고등학교 입학전형 세부계획(2026. 8.)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n69"
 ],
-"dated": "",
+"dated": "2026-11-05",
 "cycle": "w"
 },
 {
@@ -1640,6 +1693,19 @@
 "cycle": "w"
 },
 {
+"id": "588ca8dcb7",
+"url": "https://www.sje.go.kr/sje/na/ntt/selectNttList.do?mi=52120&bbsId=104",
+"host": "sje.go.kr",
+"name": "세종특별자치시교육청 공고 제2026-97호 2027학년도 고등학교 입학전형 기본계획(2026. 3. 23.) — Ⅶ 입학전형 일정(예정)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n33"
+],
+"dated": "2026-11-05",
+"cycle": "w"
+},
+{
 "id": "1179c975d3",
 "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000009/board/BO00000122/ctgynone/list0010v.do",
 "host": "ssei.sen.go.kr",
@@ -1710,6 +1776,19 @@
 "cycle": "w"
 },
 {
+"id": "d2fffb2283",
+"url": "https://use.go.kr/jinhak/highSchool/highSchool_2.jsp",
+"host": "use.go.kr",
+"name": "울산광역시교육청 2027학년도 고등학교 입학전형 기본 계획(2026. 3.) — [별첨 1] 입학전형 일정표",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n83"
+],
+"dated": "2026-11-05",
+"cycle": "w"
+},
+{
 "id": "dd5c49d58c",
 "url": "https://www.use.go.kr/",
 "host": "use.go.kr",
@@ -1723,23 +1802,23 @@
 "cycle": "w"
 },
 {
-"id": "69961d3dff",
-"url": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4",
+"id": "6e5899faa2",
+"url": "https://wjgift.gwe.go.kr/boardCnts/list.do?boardID=99694&m=0201&s=kwwjegp",
 "host": "wjgift.gwe.go.kr",
-"name": "2027학년도 원주교육지원청부설영재교육원 교육대상자 선발 요강(첨부)",
+"name": "원주교육지원청 영재교육원 공지사항(2026학년도 심층면접 대상자 공고)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n45"
 ],
-"dated": "2026-10-25",
+"dated": "2026-10-13",
 "cycle": "w"
 },
 {
-"id": "6e5899faa2",
-"url": "https://wjgift.gwe.go.kr/boardCnts/list.do?boardID=99694&m=0201&s=kwwjegp",
+"id": "191c1aed07",
+"url": "https://wjgift.gwe.go.kr/boardCnts/view.do?boardID=99694&boardSeq=7716897&lev=0&m=0201&s=kwwjegp",
 "host": "wjgift.gwe.go.kr",
-"name": "원주교육지원청 영재교육원 공지사항(2026학년도 심층면접 대상자 공고)",
+"name": "2027학년도 원주교육지원청부설영재교육원 교육대상자 최종 선발 요강 — 선발 결과 공고(대표가 올린 HWP)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1837,6 +1916,32 @@
 "q-life-breakfast"
 ],
 "dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "9341dfc905",
+"url": "https://www.edurang.net/",
+"host": "edurang.net",
+"name": "대전외국어고 2027학년도 신입생 입학전형 요강 — Ⅳ 전형일정(대표가 올린 PDF)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"n30"
+],
+"dated": "2026-11-05",
+"cycle": "m"
+},
+{
+"id": "ce09bd7c8d",
+"url": "https://www.edurang.net/course/na/ntt/selectNttInfo.do?mi=41274&bbsId=1611&nttSn=1307337",
+"host": "edurang.net",
+"name": "대전광역시교육청 고시·공고 제2026-353호 2027학년도 일반고 및 자율형 공립고 입학전형 요강",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"n30"
+],
+"dated": "2026-11-05",
 "cycle": "m"
 },
 {
@@ -5056,7 +5161,7 @@
 "id": "a804194446",
 "url": "https://www.hankyung.com/article/2026081753451",
 "host": "hankyung.com",
-"name": "한국경제(과학고 22곳 1,858명)",
+"name": "한국경제: 과학고 22곳 1,858명",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -5263,13 +5368,13 @@
 "id": "d72fece4ec",
 "url": "https://www.iusm.co.kr/news/articleView.html?idxno=1061070",
 "host": "iusm.co.kr",
-"name": "울산매일(2027 고입 기본계획 보도)",
+"name": "울산매일 2026-03-29",
 "kind": "기사",
 "cat": "언론",
 "used": [
 "n83"
 ],
-"dated": "2026-03-29",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -5452,13 +5557,13 @@
 "id": "ee2fe684c7",
 "url": "https://www.kyobit.com/news/articleView.html?idxno=6255",
 "host": "kyobit.com",
-"name": "교육을 비추다(2027 대구 고입 기본계획 1차 수정본 인용)",
+"name": "교육을 비추다 2026-07-18",
 "kind": "기사",
 "cat": "언론",
 "used": [
 "n77"
 ],
-"dated": "2026-07-18",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -6201,7 +6306,7 @@
 "id": "51f35b62b6",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=604064",
 "host": "veritas-a.com",
-"name": "베리타스알파 '2027고입전형 기본계획 공개.. 과고 8월18일, 후기고 12월2일 개막'",
+"name": "베리타스알파 2027고입전형 기본계획 공개(2026-04-01)",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -6220,7 +6325,7 @@
 "n63",
 "n69"
 ],
-"dated": "2026-04-01",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -6258,14 +6363,13 @@
 "id": "5d2005a74c",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=622481",
 "host": "veritas-a.com",
-"name": "베리타스알파 '고입캘린더 (26/08/14~)'",
+"name": "베리타스알파 고입캘린더(26/08/14~)",
 "kind": "기사",
 "cat": "언론",
 "used": [
-"n62",
-"n69"
+"n62"
 ],
-"dated": "2026-08-10",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -6278,7 +6382,7 @@
 "used": [
 "n57"
 ],
-"dated": "2026-08-10",
+"dated": "",
 "cycle": "m"
 },
 {
@@ -6445,7 +6549,7 @@
 "id": "ebff52a5ad",
 "url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
 "host": "veritas-a.com",
-"name": "베리타스알파: 고입 캘린더(2026-10-05)",
+"name": "베리타스알파 '고입캘린더 (26/10/09~)'",
 "kind": "기사",
 "cat": "언론",
 "used": [
@@ -6642,7 +6746,7 @@
 "id": "f64291271c",
 "url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do",
 "host": "ged.kedi.re.kr",
-"name": "GED 영재선발 공고(교육청·대학 부설 영재원 공고 모음)",
+"name": "국립공주대 과학영재교육원 2027학년도 초등부 심화과정 신입생 선발 모집요강 — Ⅲ. 전형 일정(GED 영재선발 공고 첨부)",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
@@ -6657,6 +6761,7 @@
 "n32",
 "n35",
 "n40",
+"n44",
 "n45",
 "n49",
 "q-eo-class",
@@ -6669,7 +6774,7 @@
 "r-once",
 "r-one-center"
 ],
-"dated": "2026-10-18",
+"dated": "2026-11-05",
 "cycle": "w"
 },
 {
@@ -6943,7 +7048,7 @@
 "id": "4b1222b40b",
 "url": "https://gifted.kongju.ac.kr/files/handbook/26585900_1758001332.pdf",
 "host": "gifted.kongju.ac.kr",
-"name": "2026학년도 초등부 심화과정 신입생 선발 모집요강",
+"name": "공주대 과학영재교육원 2026학년도 초등심화 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
@@ -6964,19 +7069,6 @@
 "n44"
 ],
 "dated": "2026-10-13",
-"cycle": "w"
-},
-{
-"id": "bfa726d15e",
-"url": "https://gifted.kongju.ac.kr/main/board/read.php?q=a0702b542656f8a4551b37f80f54c276036a36beeb6d7d50e00868f9c53a4992db3382c07c15089bc292e2fc5f8eebc736564ead3f1ed04d11e91296dabe9e40",
-"host": "gifted.kongju.ac.kr",
-"name": "[공지] 2027학년도 국립공주대학교 과학영재교육원 신입생 모집 안내",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n44"
-],
-"dated": "2026-10-22",
 "cycle": "w"
 },
 {
@@ -7148,7 +7240,7 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
+"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사 신입생 선발 모집 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
