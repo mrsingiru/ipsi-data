@@ -1,12 +1,14 @@
 {
- "at": "2026-11-06T10:31:30+09:00",
+ "at": "2026-11-06T22:24:25+09:00",
  "targets": 72,
- "withDates": 47,
+ "withDates": 45,
  "blockedAll": [
   "n33",
   "n80",
   "n83",
-  "n62"
+  "n31",
+  "n62",
+  "n63"
  ],
  "items": [
   {
@@ -361,15 +363,15 @@
   {
    "id": "n12",
    "org": "인천 고입",
-   "status": "found-no-dates",
-   "lines": 0,
+   "status": "dates",
+   "lines": 1,
    "files": 0,
    "opened": 5,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "dates"
     }
    ]
   },
@@ -574,15 +576,23 @@
   {
    "id": "n64",
    "org": "광양제철고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
-   "files": 1,
-   "opened": 2,
-   "route": 1,
+   "files": 0,
+   "opened": 1,
+   "route": 3,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
@@ -744,12 +754,20 @@
    "org": "창원과학고",
    "status": "found-no-dates",
    "lines": 0,
-   "files": 11,
-   "opened": 8,
-   "route": 1,
+   "files": 0,
+   "opened": 4,
+   "route": 3,
    "tried": [
     {
      "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "not-found"
+    },
+    {
+     "rank": 3,
      "status": "found-no-dates"
     }
    ]
@@ -797,38 +815,46 @@
   {
    "id": "n31",
    "org": "충남대학교 과학영재교육원",
-   "status": "dates",
-   "lines": 60,
-   "files": 6,
-   "opened": 4,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
    "route": 1,
    "tried": [
-    {
-     "rank": 1,
-     "status": "dates"
-    }
-   ]
-  },
-  {
-   "id": "n34",
-   "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
-   "status": "dates",
-   "lines": 60,
-   "files": 3,
-   "opened": 4,
-   "route": 2,
-   "tried": [
-    {
-     "rank": 3,
-     "status": "not-found"
-    },
     {
      "rank": 1,
      "status": "robots"
     },
     {
      "rank": 2,
-     "status": "dates"
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
+    }
+   ]
+  },
+  {
+   "id": "n34",
+   "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
+   "route": 3,
+   "tried": [
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
@@ -858,15 +884,23 @@
   {
    "id": "n63",
    "org": "전남 고입(2027 고입 기본계획)",
-   "status": "dates",
-   "lines": 8,
-   "files": 1,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
    "opened": 1,
    "route": 3,
    "tried": [
     {
      "rank": 3,
-     "status": "dates"
+     "status": "robots"
+    },
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
     }
    ]
   }

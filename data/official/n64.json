@@ -2,44 +2,32 @@
  "id": "n64",
  "org": "광양제철고",
  "what": "앞으로 120일 안 일정 8단계",
- "checkedAt": "2026-11-06T10:26:54+09:00",
+ "checkedAt": "2026-11-06T22:20:54+09:00",
  "opened": [
   {
-   "url": "https://gwangcheol.jge.hs.kr/gwangcheol_hs/cm/cntnts/cntntsView.do?mi=71445&cntntsId=71445",
+   "url": "https://www.posef.or.kr/06_center/01.jsp?bid=1",
    "status": "ok"
-  },
-  {
-   "url": "https://gwangcheol.hs.jne.kr/",
-   "status": "robots"
   }
  ],
  "notices": [],
  "ged": [],
- "titles": [
-  {
-   "url": "https://gwangcheol.jge.hs.kr/gwangcheol_hs/cm/cntnts/cntntsView.do?mi=71445&cntntsId=71445",
-   "title": "광양제철고등학교 > 입학안내 > 전형요강"
-  }
- ],
- "files": [
-  {
-   "url": "https://gwangcheol.jge.hs.kr/images/web/gwangcheol_hs/sub/s_visual.png",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 224302,
-   "sha1": "199402b770e6",
-   "lines": 0
-  }
- ],
+ "titles": [],
+ "files": [],
  "lines": [],
- "status": "found-no-dates",
- "route": 1,
+ "status": "not-found",
+ "route": 3,
  "tried": [
   {
    "rank": 1,
-   "status": "found-no-dates"
+   "status": "robots"
+  },
+  {
+   "rank": 2,
+   "status": "robots"
+  },
+  {
+   "rank": 3,
+   "status": "not-found"
   }
  ]
 }
