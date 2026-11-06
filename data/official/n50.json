@@ -1,15 +1,15 @@
 {
  "id": "n50",
  "org": "광주 교육청 영재교육원(통합 선발)",
- "what": "앞으로 120일 안 일정 3단계",
- "checkedAt": "2026-11-06T22:14:58+09:00",
+ "what": "앞으로 120일 안 일정 2단계",
+ "checkedAt": "2026-11-07T07:47:11+09:00",
  "opened": [
   {
-   "url": "https://gice.gen.go.kr/menu.es?mid=a10403010000",
+   "url": "https://gice.gen.go.kr/board.es?mid=a10403020000&bid=0022&act=view&list_no=17423&tag=&nPage=1",
    "status": "ok"
   },
   {
-   "url": "https://gice.gen.go.kr/board.es?mid=a10403020000&bid=0022&act=view&list_no=17423&tag=&nPage=1",
+   "url": "https://gice.gen.go.kr/menu.es?mid=a10403010000",
    "status": "ok"
   }
  ],
@@ -17,25 +17,25 @@
  "ged": [],
  "titles": [
   {
-   "url": "https://gice.gen.go.kr/menu.es?mid=a10403010000",
-   "title": "영재선발 소개 | 영재선발 | 영재교육 : 전남광주통합특별시교육청광주창의융합교육원"
-  },
-  {
    "url": "https://gice.gen.go.kr/board.es?mid=a10403020000&bid=0022&act=view&list_no=17423&tag=&nPage=1",
    "title": "[공고] 2027학년도 전남광주통합특별시교육청 광주 영재교육원 교육대상자 선발 계획 | 안내사항 | 영재선발 | 영재교육 : 전남광주통합특별시교육청광주창의융합교육원"
+  },
+  {
+   "url": "https://gice.gen.go.kr/menu.es?mid=a10403010000",
+   "title": "영재선발 소개 | 영재선발 | 영재교육 : 전남광주통합특별시교육청광주창의융합교육원"
   }
  ],
  "files": [],
  "lines": [
   {
-   "text": "방법: 단위학교 자체기준 수립하여 추천 | 일자: 2026. 11. 6.(금)까지",
+   "text": "나. 영재성 검사: 2026. 12. 5.(토)",
    "dates": [
-    "2026-11-06"
+    "2026-12-05"
    ],
    "words": [
-    "추천"
+    "검사"
    ],
-   "src": "https://gice.gen.go.kr/menu.es?mid=a10403010000"
+   "src": "https://gice.gen.go.kr/board.es?mid=a10403020000&bid=0022&act=view&list_no=17423&tag=&nPage=1"
   },
   {
    "text": "2차: 영재성 검사(발명영역은 창의역량검사) | 일자: 2026. 12. 5.(토)",
@@ -58,16 +58,6 @@
    "src": "https://gice.gen.go.kr/menu.es?mid=a10403010000"
   },
   {
-   "text": "* 1차 교사관찰추천 | : 2026.11.6.(금)까지",
-   "dates": [
-    "2026-11-06"
-   ],
-   "words": [
-    "추천"
-   ],
-   "src": "https://gice.gen.go.kr/menu.es?mid=a10403010000"
-  },
-  {
    "text": "* 2차 영재성 검사 | : 2026.12.5.(토)",
    "dates": [
     "2026-12-05"
@@ -76,16 +66,6 @@
     "검사"
    ],
    "src": "https://gice.gen.go.kr/menu.es?mid=a10403010000"
-  },
-  {
-   "text": "나. 영재성 검사: 2026. 12. 5.(토)",
-   "dates": [
-    "2026-12-05"
-   ],
-   "words": [
-    "검사"
-   ],
-   "src": "https://gice.gen.go.kr/board.es?mid=a10403020000&bid=0022&act=view&list_no=17423&tag=&nPage=1"
   }
  ],
  "status": "dates",

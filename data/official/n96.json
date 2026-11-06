@@ -1,8 +1,8 @@
 {
  "id": "n96",
  "org": "창원과학고",
- "what": "앞으로 120일 안 일정 5단계",
- "checkedAt": "2026-11-06T22:23:04+09:00",
+ "what": "앞으로 120일 안 일정 4단계",
+ "checkedAt": "2026-11-07T07:54:21+09:00",
  "opened": [
   {
    "url": "https://highschool.gne.go.kr/s10/hsa/archive/notice.do",
@@ -55,14 +55,6 @@
  "status": "found-no-dates",
  "route": 3,
  "tried": [
-  {
-   "rank": 1,
-   "status": "robots"
-  },
-  {
-   "rank": 2,
-   "status": "not-found"
-  },
   {
    "rank": 3,
    "status": "found-no-dates"

@@ -1,12 +1,11 @@
 {
- "at": "2026-11-06T22:24:25+09:00",
+ "at": "2026-11-07T07:56:16+09:00",
  "targets": 72,
- "withDates": 45,
+ "withDates": 47,
  "blockedAll": [
   "n33",
   "n80",
   "n83",
-  "n31",
   "n62",
   "n63"
  ],
@@ -507,7 +506,7 @@
    "id": "n50",
    "org": "광주 교육청 영재교육원(통합 선발)",
    "status": "dates",
-   "lines": 6,
+   "lines": 4,
    "files": 0,
    "opened": 2,
    "route": 1,
@@ -567,7 +566,7 @@
    "id": "n58",
    "org": "전북대 영재원",
    "status": "dates",
-   "lines": 2,
+   "lines": 1,
    "files": 0,
    "opened": 2,
    "route": 1,
@@ -759,14 +758,6 @@
    "route": 3,
    "tried": [
     {
-     "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
      "rank": 3,
      "status": "found-no-dates"
     }
@@ -815,46 +806,34 @@
   {
    "id": "n31",
    "org": "충남대학교 과학영재교육원",
-   "status": "blocked-all",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
+   "status": "dates",
+   "lines": 60,
+   "files": 5,
+   "opened": 4,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "dates"
     }
    ]
   },
   {
    "id": "n34",
    "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
-   "route": 3,
+   "status": "dates",
+   "lines": 60,
+   "files": 4,
+   "opened": 4,
+   "route": 2,
    "tried": [
-    {
-     "rank": 2,
-     "status": "robots"
-    },
     {
      "rank": 1,
      "status": "robots"
     },
     {
-     "rank": 3,
-     "status": "not-found"
+     "rank": 2,
+     "status": "dates"
     }
    ]
   },
@@ -888,18 +867,18 @@
    "lines": 0,
    "files": 0,
    "opened": 1,
-   "route": 3,
+   "route": 1,
    "tried": [
-    {
-     "rank": 3,
-     "status": "robots"
-    },
     {
      "rank": 1,
      "status": "robots"
     },
     {
      "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
      "status": "robots"
     }
    ]
