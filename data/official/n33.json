@@ -1,9 +1,13 @@
 {
  "id": "n33",
- "org": "세종 고입(2027 고입 기본계획)",
- "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-11-05T10:23:23+09:00",
+ "org": "세종 고입",
+ "what": "앞으로 120일 안 일정 7단계",
+ "checkedAt": "2026-11-06T10:20:32+09:00",
  "opened": [
+  {
+   "url": "https://www.sje.go.kr/sje/na/ntt/selectNttList.do?mi=52120&bbsId=104",
+   "status": "robots"
+  },
   {
    "url": "https://www.sje.go.kr/sje/na/ntt/selectNttList.do?mi=52132&bbsId=108",
    "status": "robots"

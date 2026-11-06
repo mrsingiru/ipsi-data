@@ -1,12 +1,12 @@
 {
- "at": "2026-11-05T10:24:25+09:00",
+ "at": "2026-11-06T10:31:30+09:00",
  "targets": 72,
  "withDates": 47,
  "blockedAll": [
-  "n80",
   "n33",
-  "n62",
-  "n83"
+  "n80",
+  "n83",
+  "n62"
  ],
  "items": [
   {
@@ -414,6 +414,29 @@
    "tried": null
   },
   {
+   "id": "n33",
+   "org": "세종 고입",
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 2,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
+    }
+   ]
+  },
+  {
    "id": "n36",
    "org": "충북과학고",
    "status": "dates",
@@ -429,7 +452,7 @@
    "status": "dates",
    "lines": 8,
    "files": 0,
-   "opened": 5,
+   "opened": 6,
    "route": 1,
    "tried": null
   },
@@ -437,9 +460,9 @@
    "id": "n38",
    "org": "청주교대 영재원",
    "status": "dates",
-   "lines": 22,
-   "files": 8,
-   "opened": 4,
+   "lines": 6,
+   "files": 1,
+   "opened": 2,
    "route": 1,
    "tried": null
   },
@@ -464,7 +487,7 @@
    "status": "robots",
    "lines": 0,
    "files": 0,
-   "opened": 1,
+   "opened": 2,
    "route": 1,
    "tried": null
   },
@@ -523,8 +546,8 @@
    "org": "전북 고입",
    "status": "dates",
    "lines": 60,
-   "files": 7,
-   "opened": 7,
+   "files": 4,
+   "opened": 4,
    "route": 1,
    "tried": null
   },
@@ -532,9 +555,9 @@
    "id": "n57",
    "org": "상산고",
    "status": "dates",
-   "lines": 4,
-   "files": 0,
-   "opened": 1,
+   "lines": 46,
+   "files": 1,
+   "opened": 2,
    "route": 1,
    "tried": null
   },
@@ -619,6 +642,21 @@
    "tried": null
   },
   {
+   "id": "n77",
+   "org": "대구 고입",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 2,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "found-no-dates"
+    }
+   ]
+  },
+  {
    "id": "n80",
    "org": "DGIST AI/SW SCHOOL",
    "status": "blocked-all",
@@ -652,6 +690,29 @@
    "opened": 1,
    "route": 1,
    "tried": null
+  },
+  {
+   "id": "n83",
+   "org": "울산 고입",
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
+   "opened": 2,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
+    }
+   ]
   },
   {
    "id": "n94",
@@ -749,39 +810,24 @@
    ]
   },
   {
-   "id": "n33",
-   "org": "세종 고입(2027 고입 기본계획)",
-   "status": "blocked-all",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
-   "route": 1,
+   "id": "n34",
+   "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
+   "status": "dates",
+   "lines": 60,
+   "files": 3,
+   "opened": 4,
+   "route": 2,
    "tried": [
+    {
+     "rank": 3,
+     "status": "not-found"
+    },
     {
      "rank": 1,
      "status": "robots"
     },
     {
      "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
-    }
-   ]
-  },
-  {
-   "id": "n34",
-   "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
-   "status": "dates",
-   "lines": 15,
-   "files": 6,
-   "opened": 3,
-   "route": 3,
-   "tried": [
-    {
-     "rank": 3,
      "status": "dates"
     }
    ]
@@ -819,62 +865,8 @@
    "route": 3,
    "tried": [
     {
-     "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "robots"
-    },
-    {
      "rank": 3,
      "status": "dates"
-    }
-   ]
-  },
-  {
-   "id": "n77",
-   "org": "대구 고입(2027 고입 기본계획)",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
-   "route": 1,
-   "tried": [
-    {
-     "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
-    }
-   ]
-  },
-  {
-   "id": "n83",
-   "org": "울산 고입(2027 고입 기본계획)",
-   "status": "blocked-all",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
-   "route": 1,
-   "tried": [
-    {
-     "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
     }
    ]
   }

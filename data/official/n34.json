@@ -2,239 +2,716 @@
  "id": "n34",
  "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-11-05T10:23:55+09:00",
+ "checkedAt": "2026-11-06T10:30:24+09:00",
  "opened": [
   {
-   "url": "https://cucocr.cje.ac.kr/main/board/list.action?q=b2f6de7a33c99b2d64f087fbd9088c6a15f51ea60a87c4ce426a61f2fcbf712c",
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do",
    "status": "ok"
   },
   {
-   "url": "https://cucocr.cje.ac.kr/main/board/read.action?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970607ea28c5bb3fa6dfc2639bda23a023de37ccd529b5342f35ddc3532a822958ffa",
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=view&articleNo=594580&article.offset=0&articleLimit=10",
    "status": "ok"
   },
   {
-   "url": "https://cucocr.cje.ac.kr/main/board/read.action?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a173697060e0c974989d944294c3595964017ac7ac8eb9583d14ce5e2791c3f9a90b6b1aa9",
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=view&articleNo=600745&article.offset=0&articleLimit=10",
+   "status": "limit"
+  },
+  {
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=view&articleNo=594577&article.offset=0&articleLimit=10",
    "status": "limit"
   }
  ],
  "notices": [
   {
-   "title": "(충청북도교육청 지원) 2027학년도 충청북도교육청 사사과정 모집요강 안내",
-   "url": "https://cucocr.cje.ac.kr/main/board/read.action?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970607ea28c5bb3fa6dfc2639bda23a023de37ccd529b5342f35ddc3532a822958ffa"
+   "title": "충남대학교 과학영재교육원 2027학년도 신입생 선발 공고",
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=view&articleNo=594580&article.offset=0&articleLimit=10"
   },
   {
-   "title": "(한국과학창의재단) 2027학년도 초·중등과정 신입생 선발 모집요강 안내",
-   "url": "https://cucocr.cje.ac.kr/main/board/read.action?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a173697060e0c974989d944294c3595964017ac7ac8eb9583d14ce5e2791c3f9a90b6b1aa9"
+   "title": "2027학년도 학생선발 1차 전형 - 관찰전형 안내",
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=view&articleNo=600745&article.offset=0&articleLimit=10"
+  },
+  {
+   "title": "2027학년도 학생선발 관련 제출서류 서술형 문항 및 서식 안내",
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=view&articleNo=594577&article.offset=0&articleLimit=10"
   }
  ],
  "ged": [],
  "titles": [
   {
-   "url": "https://cucocr.cje.ac.kr/main/board/read.action?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970607ea28c5bb3fa6dfc2639bda23a023de37ccd529b5342f35ddc3532a822958ffa",
-   "title": "상세내용 | 공지사항 | 커뮤니티 | 청주교육대학교부설 과학영재교육원"
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=view&articleNo=594580&article.offset=0&articleLimit=10",
+   "title": "학생선발 게시판읽기 ( 충남대학교 과학영재교육원 2027학년도 신입생 선발 공고 ) | 충남대학교 과학영재교육원"
   }
  ],
  "files": [
   {
-   "url": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684",
-   "name": "(충청북도교육청)2027학년도 청주교육대학교부설 과학영재교육원 수학과학통...",
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137",
+   "name": "(과기부)2027 충남대과학영재교육원 모집요강_심화과정.pdf",
    "status": "ok",
    "type": "pdf",
-   "bytes": 551624,
-   "sha1": "14ba5487a7d1"
+   "bytes": 768610,
+   "sha1": "cd33c7082207"
   },
   {
-   "url": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/10%EC%9B%94 24%EC%9D%BC %EC%84%B8%EC%A2%85 %EC%88%98%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9%EB%B0%98 %EA%B5%90%EC%9C%A1%EC%9D%BC%EC%A0%95 %EC%95%88%EB%82%B4001.jpg?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a17369706095a8a0fe6773b6f5dc2470f342943b7f899b13c926992f278d2a336ce1d11caf",
-   "name": "",
-   "status": "limit"
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138",
+   "name": "(과기부)2027 충남대과학영재교육원 모집요강_사사연구과정.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 789826,
+   "sha1": "36bcfe26f77b"
   },
   {
-   "url": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/10%EC%9B%94 24%EC%9D%BC %EC%B4%88%EB%93%B1 %EA%B8%B0%EC%B4%88 %EB%B0%8F %EC%B4%88%EB%93%B1 %EC%8B%AC%ED%99%94%2C %EC%A4%91%EB%93%B1 %EC%8B%AC%ED%99%94 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EA%B5%90%EC%9C%A1%EC%9D%BC%EC%A0%95 %EC%95%88%EB%82%B4001.jpg?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970603f0ce150100030da983a84bba2a4c09698abbab4a713d3ce036f00b4c2daa5f8",
-   "name": "",
-   "status": "limit"
-  },
-  {
-   "url": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%EC%A0%9C16%ED%9A%8C ASEAN 3 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC %ED%95%99%EC%83%9D%EC%BA%A0%ED%94%84 %ED%95%9C%EA%B5%AD%EB%8C%80%ED%91%9C%EB%8B%A8 %EC%84%A0%EB%B0%9C %EA%B3%B5%EA%B3%A0 %281%29.hwp?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a173697060c000242281b2005fdb1d0fabd3c3516e90375f2e0f8e59842ce65f990d2ec16e",
-   "name": "",
-   "status": "limit"
-  },
-  {
-   "url": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/10%EC%9B%94 10%EC%9D%BC %EC%84%B8%EC%A2%85 %EC%88%98%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9%EB%B0%98 %EA%B5%90%EC%9C%A1%EC%9D%BC%EC%A0%95 %EC%95%88%EB%82%B4001.jpg?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970603f1d0cc6aa999fedf16ead6f57581b02f49a1fa1de3e743fa3f5b0fb09b79342",
-   "name": "",
-   "status": "limit"
-  },
-  {
-   "url": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/10%EC%9B%94 10%EC%9D%BC %EC%B4%88%EB%93%B1 %EA%B8%B0%EC%B4%88 %EB%B0%8F %EC%B4%88%EB%93%B1 %EC%8B%AC%ED%99%94%2C %EC%A4%91%EB%93%B1 %EC%8B%AC%ED%99%94 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EA%B5%90%EC%9C%A1%EC%9D%BC%EC%A0%95 %EC%95%88%EB%82%B4001.jpg?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a17369706069a1623c20b55221fab0650d2ded7d3fe80bc954c627fb231144b57885c8871f",
-   "name": "",
-   "status": "limit"
+   "url": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503139",
+   "name": "(대전시교육청)2027 충남대과학영재교육원 모집요강_심화과정.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 719199,
+   "sha1": "f07a2b26f855"
   }
  ],
  "lines": [
   {
-   "text": "모집요강 공고 | 2026. 9. 14.(월)",
+   "text": "지원자 | 2026. 9. 17.(목) 10:00",
    "dates": [
-    "2026-09-14"
+    "2026-09-17"
    ],
    "words": [
-    "모집"
+    "지원"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
   },
   {
-   "text": "접수 | 2026. 10. 14.(수) 10:00",
+   "text": "- 우편 제출 시, 봉투 표지에 ‘지원 분야, 이름, 소속 학교, 연락처’를 기재하여 우체국 등 | 기우편으로 보내야 함. (제출기한 마지막 일자인 2026. 9. 22.(화) 소인까지만 인정)",
    "dates": [
-    "2026-10-14"
+    "2026-09-22"
    ],
    "words": [
-    "접수"
+    "지원"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
   },
   {
-   "text": "접수 | ~ 10. 26.(월) 18:00",
+   "text": "11. 6.(금) 18:00 ~ 11. 9.(월) 18:00) 내 지원자별 가상계좌에 2차 전형료(50,000",
    "dates": [
-    "2026-10-26"
+    "2026-11-06",
+    "2026-11-09"
    ],
    "words": [
-    "접수"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
-  },
-  {
-   "text": "접수 | ~ 10. 27.(화) 18:00",
-   "dates": [
-    "2026-10-27"
-   ],
-   "words": [
-    "접수"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
-  },
-  {
-   "text": "전형료 납부 | 2026. 10. 14.(수) 10:00",
-   "dates": [
-    "2026-10-14"
-   ],
-   "words": [
+    "지원",
     "전형"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
   },
   {
-   "text": "전형료 납부 | ~ 10. 27.(화) 18:00",
+   "text": "- 1차 전형 합격자 발표: 2026. 11. 6.(금) 18:00 이후",
    "dates": [
-    "2026-10-27"
+    "2026-11-06"
    ],
    "words": [
-    "전형"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
-  },
-  {
-   "text": "심층 면접 평가 2026. 11. 29(일)_중등 Ÿ 고사장은 당일 공지 · 수 험 표 지 참",
-   "dates": [
-    "2026-11-29"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
-  },
-  {
-   "text": "합격자 등록 | 2026. 12. 16.(수) 17:00",
-   "dates": [
-    "2026-12-16"
-   ],
-   "words": [
+    "전형",
+    "발표",
     "합격"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
   },
   {
-   "text": "❍ 접수 기간: 2026. 10. 14.(수) 10:00 ~ 10. 26.(월) 18:00까지",
+   "text": "지원자 | 2026. 9. 17.(목)",
    "dates": [
-    "2026-10-14",
-    "2026-10-26"
+    "2026-09-17"
    ],
    "words": [
-    "접수"
+    "지원"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
   },
   {
-   "text": "면접평가 | 2026. 10. 14.(수) 10:00 ~ 10. 27.(화) 18:00",
+   "text": "지원자 | ~ 9. 22.(화)",
    "dates": [
-    "2026-10-14",
-    "2026-10-27"
+    "2026-09-22"
    ],
    "words": [
-    "면접"
+    "지원"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
   },
   {
-   "text": "원서접수 기간 내 | 2026. 10. 14.(수) ~ 10. 26.(월)",
+   "text": "지원자 | 2026. 11. 6.(금) 18:00",
    "dates": [
-    "2026-10-14",
-    "2026-10-26"
+    "2026-11-06"
    ],
    "words": [
-    "원서",
-    "접수"
+    "지원"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
   },
   {
-   "text": "원서접수 기간 종료 후 2026. 10. 26.(월) 18시 이후 ~ 전형료 환불 불가",
+   "text": "지원자 | ~ 11. 9.(월) 18:00",
    "dates": [
-    "2026-10-26"
+    "2026-11-09"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "- 우편 제출 시, 봉투 표지에 ‘지원 분야, 이름, 연락처’를 기재하여 우체국 등기우편으로 | 보내야 함. (제출기한 마지막 일자인 2026. 9. 22.(화) 소인까지만 인정)",
+   "dates": [
+    "2026-09-22"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "- 온라인 원서 접수기간(1차 전형료 납부기간) : 2026. 9. 17.(목) 10:00 ~ 9. 21.(월) 18:00",
+   "dates": [
+    "2026-09-17",
+    "2026-09-21"
    ],
    "words": [
     "원서",
     "접수",
     "전형"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
   },
   {
-   "text": "4. 심층 면접 평가 안내 | ❍ 일시: 2026. 11. 29.(일)",
+   "text": "- 추천서 접수 기간(1차 전형 접수 취소 기간) : 2026. 9. 17.(목) 10:00 ~ 9. 22.(화) 18:00",
    "dates": [
-    "2026-11-29"
+    "2026-09-17",
+    "2026-09-22"
    ],
    "words": [
+    "접수",
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "- 2차 전형료 납부 기간(2차 전형 접수 취소 기간) : 2026. 11. 6.(금) 18:00 ~ 11. 9.(월) 18:00",
+   "dates": [
+    "2026-11-06",
+    "2026-11-09"
+   ],
+   "words": [
+    "접수",
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "모집요강 공고 | 2026. 8. 14.(금)",
+   "dates": [
+    "2026-08-14"
+   ],
+   "words": [
+    "모집"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "1차 전형료 납부 | 2026. 9. 17.(목) 10:00",
+   "dates": [
+    "2026-09-17"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "1차 전형료 납부 | ~ 2026. 9. 21.(월) 18:00",
+   "dates": [
+    "2026-09-21"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "서류전형 | 2026. 9. 23.(수)",
+   "dates": [
+    "2026-09-23"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "서류전형 | ~ 2026. 11. 5.(목)",
+   "dates": [
+    "2026-11-05"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "관찰전형 | 2026. 10. 24.(토)",
+   "dates": [
+    "2026-10-24"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "(2차 전형 대상자) ➜ | 2026. 11. 6.(금)",
+   "dates": [
+    "2026-11-06"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "2차 전형료 납부 4) | 2026. 11. 6.(금) 18:00",
+   "dates": [
+    "2026-11-06"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "2차 전형료 납부 4) | ~ 2026. 11. 9.(월) 18:00",
+   "dates": [
+    "2026-11-09"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "(면접전형) | 2026. 11. 14.(토)",
+   "dates": [
+    "2026-11-14"
+   ],
+   "words": [
+    "전형",
     "면접"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
   },
   {
-   "text": "❍ 합격자 발표 일시: 2026. 12. 16.(수), 17:00",
+   "text": "합격자 등록 6) | 2026. 11. 27.(금)",
    "dates": [
-    "2026-12-16"
+    "2026-11-27"
    ],
    "words": [
+    "합격"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "1) 각 전형 대상자는 2026년 10월 12일(월) 18시 이후 GED에서 수험번호가 기재된 수험표를 출력하여 전형 시 지참",
+   "dates": [
+    "2026-10-12"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "전형 | ~ 2026. 11. 5.(목)",
+   "dates": [
+    "2026-11-05"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "1차 전형1) | 2026. 10. 24.(토)",
+   "dates": [
+    "2026-10-24"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "2차 전형2) | 2026. 11. 14.(토)",
+   "dates": [
+    "2026-11-14"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "§ 대상: 관찰전형 추가 실시 분야 추후 공지 예정 | (공지예정일 : 2026. 10. 14.(수) 18:00 이후)",
+   "dates": [
+    "2026-10-14"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "- 2차 전형료 납부 기간: 2026. 11. 6.(금) 18:00~ 2026. 11. 9.(월) 18:00",
+   "dates": [
+    "2026-11-06",
+    "2026-11-09"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "수험번호가 기재된 수험표는 2026. 10. 12.(월) 18:00 이후 GED(https://ged.kedi.re.kr) ‘나의 지원보기’에서 출력",
+   "dates": [
+    "2026-10-12"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "- 발표 일정: 2026. 11. 27.(금) 18:00 이후",
+   "dates": [
+    "2026-11-27"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "2. 최종 합격자 등록 | - 등록 기간: 2026. 12. 1.(화) ~ 2026. 12. 3.(목)",
+   "dates": [
+    "2026-12-01",
+    "2026-12-03"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "- 추가 합격자 충원 기간: 2026. 12. 14.(월) ~ 2026. 12. 31.(목)",
+   "dates": [
+    "2026-12-14",
+    "2026-12-31"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "※ 원활한 업무 진행을 위해 반드시 모집요강을 확인한 후 문의하여야 합니다. | 2026. 8. 14.",
+   "dates": [
+    "2026-08-14"
+   ],
+   "words": [
+    "모집"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503137"
+  },
+  {
+   "text": "지원자 | 2026. 9. 17.(목) 10:00",
+   "dates": [
+    "2026-09-17"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "- 우편 제출 시, 봉투 표지에 ‘지원 분야, 이름, 소속 학교, 연락처’를 기재하여 우체국 등 | 기우편으로 보내야 함. (제출기한 마지막 일자인 2026. 9. 22.(화) 소인까지만 인정)",
+   "dates": [
+    "2026-09-22"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "지원자의 | 2026. 9. 17.(목) 10:00",
+   "dates": [
+    "2026-09-17"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "- 온라인 원서 접수기간(전형료 납부기간) : 2026. 9. 17.(목) 10:00 ~ 9. 21.(월) 18:00",
+   "dates": [
+    "2026-09-17",
+    "2026-09-21"
+   ],
+   "words": [
+    "원서",
+    "접수",
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "- 추천서 접수기간(접수 취소기간) : 2026. 9. 17.(목) 10:00 ~ 9. 22.(화) 18:00",
+   "dates": [
+    "2026-09-17",
+    "2026-09-22"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "전형료 납부 | 2026. 9. 17.(목) 10:00",
+   "dates": [
+    "2026-09-17"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "전형료 납부 | ~ 2026. 9. 21.(월) 18:00",
+   "dates": [
+    "2026-09-21"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "특별전형 추천서 제출 1) | 2026. 9. 17.(목) 10:00",
+   "dates": [
+    "2026-09-17"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "서류전형 | 2026. 9. 23.(수)",
+   "dates": [
+    "2026-09-23"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "서류전형 | ~ 2026. 11. 5.(목)",
+   "dates": [
+    "2026-11-05"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "면접전형 4) | 2026. 11. 14.(토)",
+   "dates": [
+    "2026-11-14"
+   ],
+   "words": [
+    "전형",
+    "면접"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "합격자 등록 6) | 2026. 11. 27.(금)",
+   "dates": [
+    "2026-11-27"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "2) 사사연구과정 지원자 전원은 2026년 10월 12일(월) 18시 이후 GED에서 수험번호가 기재된 수험표를 출력하여",
+   "dates": [
+    "2026-10-12"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "4) 면접전형은 모든 사사연구과정 지원자에 해당하며 2026년 11월 6일(금) 18시 이후 과학영재교육원",
+   "dates": [
+    "2026-11-06"
+   ],
+   "words": [
+    "지원",
+    "전형",
+    "면접"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "전형 | 2026. 9. 23.(수)",
+   "dates": [
+    "2026-09-23"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "전형 | 2026. 11. 14.(토)",
+   "dates": [
+    "2026-11-14"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "- 면접전형 안내(공지예정일): 2026. 11. 6.(금) 18:00 이후",
+   "dates": [
+    "2026-11-06"
+   ],
+   "words": [
+    "전형",
+    "면접"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "수험번호가 기재된 수험표는 2026. 10. 12.(월) 18:00 이후 GED(https://ged.kedi.re.kr) ‘나의 지원보기’에서 출력",
+   "dates": [
+    "2026-10-12"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "- 발표 일정: 2026. 11. 27.(금) 18:00 이후",
+   "dates": [
+    "2026-11-27"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "2. 최종 합격자 등록 | - 등록 기간: 2026. 12. 1.(화) ~ 2026. 12. 3.(목)",
+   "dates": [
+    "2026-12-01",
+    "2026-12-03"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "- 추가 합격자 충원 기간: 2026. 12. 14.(월) ~ 2026. 12. 31.(목)",
+   "dates": [
+    "2026-12-14",
+    "2026-12-31"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "※ 원활한 업무 진행을 위해 반드시 모집요강을 확인한 후 문의하여야 합니다. | 2026. 8. 14.",
+   "dates": [
+    "2026-08-14"
+   ],
+   "words": [
+    "모집"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503138"
+  },
+  {
+   "text": "지원자 | 2026. 9. 17.(목) 10:00",
+   "dates": [
+    "2026-09-17"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503139"
+  },
+  {
+   "text": "- 우편 제출 시, 봉투 표지에 ‘지원 분야, 이름, 소속 학교, 연락처’를 기재하여 우체국 등 | 기우편으로 보내야 함. (제출기한 마지막 일자인 2026. 9. 22.(화) 소인까지만 인정)",
+   "dates": [
+    "2026-09-22"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503139"
+  },
+  {
+   "text": "11. 6.(금) 18:00 ~ 11. 9.(월) 18:00) 내 지원자별 가상계좌에 2차 전형료(50,000",
+   "dates": [
+    "2026-11-06",
+    "2026-11-09"
+   ],
+   "words": [
+    "지원",
+    "전형"
+   ],
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503139"
+  },
+  {
+   "text": "- 1차 전형 합격자 발표: 2026. 11. 6.(금) 18:00 이후",
+   "dates": [
+    "2026-11-06"
+   ],
+   "words": [
+    "전형",
     "발표",
     "합격"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
-  },
-  {
-   "text": "6. 합격자 발표 및 등록 | ❍ 최종등록 및 마감: 2026. 12. 16.(수), 17:00 ~ 2026. 12. 23.(수), 17:00까지",
-   "dates": [
-    "2026-12-16",
-    "2026-12-23"
-   ],
-   "words": [
-    "발표",
-    "합격"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/6472036a3a03a3536c5e9a603343f278/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://gifted.cnu.ac.kr/gifted/program/selection.do?mode=download2&articleNo=594580&attachNo=503139"
   }
  ],
  "status": "dates",
- "route": 3,
+ "route": 2,
  "tried": [
   {
    "rank": 3,
+   "status": "not-found"
+  },
+  {
+   "rank": 1,
+   "status": "robots"
+  },
+  {
+   "rank": 2,
    "status": "dates"
   }
  ]

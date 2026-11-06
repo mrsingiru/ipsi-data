@@ -2,8 +2,12 @@
  "id": "n37",
  "org": "충북 고입",
  "what": "앞으로 120일 안 일정 7단계",
- "checkedAt": "2026-11-05T10:15:42+09:00",
+ "checkedAt": "2026-11-06T10:21:15+09:00",
  "opened": [
+  {
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1579190",
+   "status": "ok"
+  },
   {
    "url": "https://school.cbe.go.kr/daeje-m/M01030401/",
    "status": "ok"
@@ -41,6 +45,10 @@
  ],
  "ged": [],
  "titles": [
+  {
+   "url": "https://www.cbe.go.kr/cbe/na/ntt/selectNttInfo.do?mi=11465&bbsId=1779&nttSn=1579190",
+   "title": "고입시"
+  },
   {
    "url": "https://school.cbe.go.kr/daeje-m/M01030401/",
    "title": "2027학년도 고입전형<진학안내<알림마당<대제중학교"

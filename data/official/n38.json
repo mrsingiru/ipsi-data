@@ -2,18 +2,10 @@
  "id": "n38",
  "org": "청주교대 영재원",
  "what": "앞으로 120일 안 일정 3단계",
- "checkedAt": "2026-11-05T10:15:53+09:00",
+ "checkedAt": "2026-11-06T10:21:28+09:00",
  "opened": [
   {
    "url": "https://cucocr.cje.ac.kr/main/board/list.action?q=b2f6de7a33c99b2d64f087fbd9088c6a15f51ea60a87c4ce426a61f2fcbf712c",
-   "status": "ok"
-  },
-  {
-   "url": "https://cucocr.cje.ac.kr/main/board/read.action?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970607ea28c5bb3fa6dfc2639bda23a023de37ccd529b5342f35ddc3532a822958ffa",
-   "status": "ok"
-  },
-  {
-   "url": "https://cucocr.cje.ac.kr/main/board/read.action?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a173697060e0c974989d944294c3595964017ac7ac8eb9583d14ce5e2791c3f9a90b6b1aa9",
    "status": "ok"
   },
   {
@@ -21,26 +13,9 @@
    "status": "ok"
   }
  ],
- "notices": [
-  {
-   "title": "(충청북도교육청 지원) 2027학년도 충청북도교육청 사사과정 모집요강 안내",
-   "url": "https://cucocr.cje.ac.kr/main/board/read.action?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970607ea28c5bb3fa6dfc2639bda23a023de37ccd529b5342f35ddc3532a822958ffa"
-  },
-  {
-   "title": "(한국과학창의재단) 2027학년도 초·중등과정 신입생 선발 모집요강 안내",
-   "url": "https://cucocr.cje.ac.kr/main/board/read.action?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a173697060e0c974989d944294c3595964017ac7ac8eb9583d14ce5e2791c3f9a90b6b1aa9"
-  }
- ],
+ "notices": [],
  "ged": [],
  "titles": [
-  {
-   "url": "https://cucocr.cje.ac.kr/main/board/read.action?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970607ea28c5bb3fa6dfc2639bda23a023de37ccd529b5342f35ddc3532a822958ffa",
-   "title": "상세내용 | 공지사항 | 커뮤니티 | 청주교육대학교부설 과학영재교육원"
-  },
-  {
-   "url": "https://cucocr.cje.ac.kr/main/board/read.action?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a173697060e0c974989d944294c3595964017ac7ac8eb9583d14ce5e2791c3f9a90b6b1aa9",
-   "title": "상세내용 | 공지사항 | 커뮤니티 | 청주교육대학교부설 과학영재교육원"
-  },
   {
    "url": "https://cucocr.cje.ac.kr/main/contents/handbook.action?q=3803d66a807060d334b8cc1e551bf3befae86f6b042072e8b9c3728b866c4cf2",
    "title": "전형요강 | 선발안내 | 청주교육대학교부설 과학영재교육원"
@@ -48,67 +23,7 @@
  ],
  "files": [
   {
-   "url": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684",
-   "name": "(충청북도교육청)2027학년도 청주교육대학교부설 과학영재교육원 수학과학통...",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 551624,
-   "sha1": "14ba5487a7d1"
-  },
-  {
-   "url": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/10%EC%9B%94 24%EC%9D%BC %EC%84%B8%EC%A2%85 %EC%88%98%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9%EB%B0%98 %EA%B5%90%EC%9C%A1%EC%9D%BC%EC%A0%95 %EC%95%88%EB%82%B4001.jpg?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a17369706095a8a0fe6773b6f5dc2470f342943b7f899b13c926992f278d2a336ce1d11caf",
-   "name": "",
-   "status": "ok",
-   "type": "image",
-   "bytes": 174376,
-   "sha1": "030b3903b4d0",
-   "reader": "ocr"
-  },
-  {
-   "url": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/10%EC%9B%94 24%EC%9D%BC %EC%B4%88%EB%93%B1 %EA%B8%B0%EC%B4%88 %EB%B0%8F %EC%B4%88%EB%93%B1 %EC%8B%AC%ED%99%94%2C %EC%A4%91%EB%93%B1 %EC%8B%AC%ED%99%94 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EA%B5%90%EC%9C%A1%EC%9D%BC%EC%A0%95 %EC%95%88%EB%82%B4001.jpg?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970603f0ce150100030da983a84bba2a4c09698abbab4a713d3ce036f00b4c2daa5f8",
-   "name": "",
-   "status": "ok",
-   "type": "image",
-   "bytes": 207472,
-   "sha1": "40b310e16489",
-   "reader": "ocr"
-  },
-  {
-   "url": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/%EC%A0%9C16%ED%9A%8C ASEAN 3 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC %ED%95%99%EC%83%9D%EC%BA%A0%ED%94%84 %ED%95%9C%EA%B5%AD%EB%8C%80%ED%91%9C%EB%8B%A8 %EC%84%A0%EB%B0%9C %EA%B3%B5%EA%B3%A0 %281%29.hwp?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a173697060c000242281b2005fdb1d0fabd3c3516e90375f2e0f8e59842ce65f990d2ec16e",
-   "name": "",
-   "status": "ok",
-   "type": "hwp",
-   "bytes": 80384,
-   "sha1": "3434b1e81a21"
-  },
-  {
-   "url": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/10%EC%9B%94 10%EC%9D%BC %EC%84%B8%EC%A2%85 %EC%88%98%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9%EB%B0%98 %EA%B5%90%EC%9C%A1%EC%9D%BC%EC%A0%95 %EC%95%88%EB%82%B4001.jpg?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970603f1d0cc6aa999fedf16ead6f57581b02f49a1fa1de3e743fa3f5b0fb09b79342",
-   "name": "",
-   "status": "ok",
-   "type": "image",
-   "bytes": 184121,
-   "sha1": "5221f4418b83",
-   "reader": "ocr"
-  },
-  {
-   "url": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/10%EC%9B%94 10%EC%9D%BC %EC%B4%88%EB%93%B1 %EA%B8%B0%EC%B4%88 %EB%B0%8F %EC%B4%88%EB%93%B1 %EC%8B%AC%ED%99%94%2C %EC%A4%91%EB%93%B1 %EC%8B%AC%ED%99%94 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EA%B5%90%EC%9C%A1%EC%9D%BC%EC%A0%95 %EC%95%88%EB%82%B4001.jpg?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a17369706069a1623c20b55221fab0650d2ded7d3fe80bc954c627fb231144b57885c8871f",
-   "name": "",
-   "status": "ok",
-   "type": "image",
-   "bytes": 207202,
-   "sha1": "7426fed1c43c",
-   "reader": "ocr"
-  },
-  {
-   "url": "https://cucocr.cje.ac.kr/main/board/dl.action/c92bfc1b61904cb911e4ca5a98f50dc1/%28%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EC%B0%BD%EC%9D%98%EC%9E%AC%EB%8B%A8%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4%EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a17369706091db707216b357b0539f88bc1e56216df583d41e34c682a19b0350ab60668b9a",
-   "name": "(한국과학창의재단)2027학년도 청주교육대학교부설과학영재교육원 모집요강....",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 557606,
-   "sha1": "133b15d55331"
-  },
-  {
-   "url": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/e684013553031926ca426c25527ff927/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf",
+   "url": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/4ccf01bd47d925d196bb8792f875b51e/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf",
    "name": "전형요강 다운로드",
    "status": "ok",
    "type": "pdf",
@@ -125,7 +40,7 @@
    "words": [
     "면접"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/4ccf01bd47d925d196bb8792f875b51e/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf"
   },
   {
    "text": "합격자 등록 | 2026. 12. 16.(수) 17:00",
@@ -135,7 +50,7 @@
    "words": [
     "등록"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/4ccf01bd47d925d196bb8792f875b51e/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf"
   },
   {
    "text": "면접평가 | 2026. 10. 14.(수) 10:00 ~ 10. 27.(화) 18:00",
@@ -146,7 +61,7 @@
    "words": [
     "면접"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/4ccf01bd47d925d196bb8792f875b51e/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf"
   },
   {
    "text": "4. 심층 면접 평가 안내 | ❍ 일시: 2026. 11. 29.(일)",
@@ -156,7 +71,7 @@
    "words": [
     "면접"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/4ccf01bd47d925d196bb8792f875b51e/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf"
   },
   {
    "text": "❍ 합격자 발표 일시: 2026. 12. 16.(수), 17:00",
@@ -166,7 +81,7 @@
    "words": [
     "발표"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
+   "src": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/4ccf01bd47d925d196bb8792f875b51e/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf"
   },
   {
    "text": "❍ 최종등록 및 마감: 2026. 12. 16.(수), 17:00 ~ 2026. 12. 23.(수), 17:00까지",
@@ -177,172 +92,7 @@
    "words": [
     "등록"
    ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/%28%EC%B6%A9%EC%B2%AD%EB%B6%81%EB%8F%84%EA%B5%90%EC%9C%A1%EC%B2%AD%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a1736970604dda15cc50e3eed48707147bf7be697c94360e687d1a315af942b9abaec65684"
-  },
-  {
-   "text": "참가지원서 등록 | 2026. 10. 26.(월)",
-   "dates": [
-    "2026-10-26"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/%EC%A0%9C16%ED%9A%8C ASEAN 3 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC %ED%95%99%EC%83%9D%EC%BA%A0%ED%94%84 %ED%95%9C%EA%B5%AD%EB%8C%80%ED%91%9C%EB%8B%A8 %EC%84%A0%EB%B0%9C %EA%B3%B5%EA%B3%A0 %281%29.hwp?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a173697060c000242281b2005fdb1d0fabd3c3516e90375f2e0f8e59842ce65f990d2ec16e"
-  },
-  {
-   "text": "1차 서류 심사 결과 발표 및 2차 면접 심사 안내 | 2026. 11. 07.(토)",
-   "dates": [
-    "2026-11-07"
-   ],
-   "words": [
-    "면접",
-    "발표"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/%EC%A0%9C16%ED%9A%8C ASEAN 3 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC %ED%95%99%EC%83%9D%EC%BA%A0%ED%94%84 %ED%95%9C%EA%B5%AD%EB%8C%80%ED%91%9C%EB%8B%A8 %EC%84%A0%EB%B0%9C %EA%B3%B5%EA%B3%A0 %281%29.hwp?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a173697060c000242281b2005fdb1d0fabd3c3516e90375f2e0f8e59842ce65f990d2ec16e"
-  },
-  {
-   "text": "온라인 면접 심사 | 2026. 11. 16.(월)",
-   "dates": [
-    "2026-11-16"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/ad58bed166e8e3c743d78cd675e4d763/%EC%A0%9C16%ED%9A%8C ASEAN 3 %EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC %ED%95%99%EC%83%9D%EC%BA%A0%ED%94%84 %ED%95%9C%EA%B5%AD%EB%8C%80%ED%91%9C%EB%8B%A8 %EC%84%A0%EB%B0%9C %EA%B3%B5%EA%B3%A0 %281%29.hwp?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a173697060c000242281b2005fdb1d0fabd3c3516e90375f2e0f8e59842ce65f990d2ec16e"
-  },
-  {
-   "text": "발표 | 2026. 11. 28.(토)",
-   "dates": [
-    "2026-11-28"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/c92bfc1b61904cb911e4ca5a98f50dc1/%28%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EC%B0%BD%EC%9D%98%EC%9E%AC%EB%8B%A8%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4%EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a17369706091db707216b357b0539f88bc1e56216df583d41e34c682a19b0350ab60668b9a"
-  },
-  {
-   "text": "합격자 등록 | 2026. 12. 16.(수) 17:00",
-   "dates": [
-    "2026-12-16"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/c92bfc1b61904cb911e4ca5a98f50dc1/%28%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EC%B0%BD%EC%9D%98%EC%9E%AC%EB%8B%A8%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4%EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a17369706091db707216b357b0539f88bc1e56216df583d41e34c682a19b0350ab60668b9a"
-  },
-  {
-   "text": "합격자 등록 | ~ 12. 23.(수) 17:00",
-   "dates": [
-    "2026-12-23"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/c92bfc1b61904cb911e4ca5a98f50dc1/%28%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EC%B0%BD%EC%9D%98%EC%9E%AC%EB%8B%A8%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4%EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a17369706091db707216b357b0539f88bc1e56216df583d41e34c682a19b0350ab60668b9a"
-  },
-  {
-   "text": "면접평가 | 2026. 10. 14.(수) 10:00 ~ 10. 27.(화) 18:00",
-   "dates": [
-    "2026-10-14",
-    "2026-10-27"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/c92bfc1b61904cb911e4ca5a98f50dc1/%28%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EC%B0%BD%EC%9D%98%EC%9E%AC%EB%8B%A8%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4%EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a17369706091db707216b357b0539f88bc1e56216df583d41e34c682a19b0350ab60668b9a"
-  },
-  {
-   "text": "4. 심층 면접 평가(지필고사 포함) 안내 | 1) 초등심화, 초등기초사사과정: 2026. 11. 28.(토)",
-   "dates": [
-    "2026-11-28"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/c92bfc1b61904cb911e4ca5a98f50dc1/%28%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EC%B0%BD%EC%9D%98%EC%9E%AC%EB%8B%A8%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4%EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a17369706091db707216b357b0539f88bc1e56216df583d41e34c682a19b0350ab60668b9a"
-  },
-  {
-   "text": "가. 합격자 발표 일시: 2026. 12. 16.(수), 17:00",
-   "dates": [
-    "2026-12-16"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/c92bfc1b61904cb911e4ca5a98f50dc1/%28%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EC%B0%BD%EC%9D%98%EC%9E%AC%EB%8B%A8%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4%EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a17369706091db707216b357b0539f88bc1e56216df583d41e34c682a19b0350ab60668b9a"
-  },
-  {
-   "text": "나. 최종등록 및 마감: 2026. 12. 16.(수), 17:00 ~ 2026. 12. 23.(수), 17:00까지",
-   "dates": [
-    "2026-12-16",
-    "2026-12-23"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://cucocr.cje.ac.kr/main/board/dl.action/c92bfc1b61904cb911e4ca5a98f50dc1/%28%ED%95%9C%EA%B5%AD%EA%B3%BC%ED%95%99%EC%B0%BD%EC%9D%98%EC%9E%AC%EB%8B%A8%292027%ED%95%99%EB%85%84%EB%8F%84 %EC%B2%AD%EC%A3%BC%EA%B5%90%EC%9C%A1%EB%8C%80%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4%EA%B3%BC%ED%95%99%EC%98%81%EC%9E%AC%EA%B5%90%EC%9C%A1%EC%9B%90 %EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf?q=269daca8b5170649fa9c91f3110c80484691e6f6ec8d858f7d7634a17369706091db707216b357b0539f88bc1e56216df583d41e34c682a19b0350ab60668b9a"
-  },
-  {
-   "text": "심층 면접 평가 2026. 11. 29(일)_중등 Ÿ 고사장은 당일 공지 · 수 험 표 지 참",
-   "dates": [
-    "2026-11-29"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/e684013553031926ca426c25527ff927/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf"
-  },
-  {
-   "text": "합격자 등록 | 2026. 12. 16.(수) 17:00",
-   "dates": [
-    "2026-12-16"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/e684013553031926ca426c25527ff927/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf"
-  },
-  {
-   "text": "면접평가 | 2026. 10. 14.(수) 10:00 ~ 10. 27.(화) 18:00",
-   "dates": [
-    "2026-10-14",
-    "2026-10-27"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/e684013553031926ca426c25527ff927/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf"
-  },
-  {
-   "text": "4. 심층 면접 평가 안내 | ❍ 일시: 2026. 11. 29.(일)",
-   "dates": [
-    "2026-11-29"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/e684013553031926ca426c25527ff927/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf"
-  },
-  {
-   "text": "❍ 합격자 발표 일시: 2026. 12. 16.(수), 17:00",
-   "dates": [
-    "2026-12-16"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/e684013553031926ca426c25527ff927/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf"
-  },
-  {
-   "text": "❍ 최종등록 및 마감: 2026. 12. 16.(수), 17:00 ~ 2026. 12. 23.(수), 17:00까지",
-   "dates": [
-    "2026-12-16",
-    "2026-12-23"
-   ],
-   "words": [
-    "등록"
-   ],
-   "src": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/e684013553031926ca426c25527ff927/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf"
+   "src": "https://cucocr.cje.ac.kr/include/dl.action/handbook/673040001789372523.pdf/4ccf01bd47d925d196bb8792f875b51e/2027%ED%95%99%EB%85%84%EB%8F%84 %EC%B6%A9%EB%B6%81%EA%B5%90%EC%9C%A1%EC%B2%AD%EC%A7%80%EC%9B%90 %EC%A4%91%EB%93%B1%EB%B6%80 %EC%88%98%ED%95%99%EA%B3%BC%ED%95%99%ED%86%B5%ED%95%A9 %EC%82%AC%EC%82%AC%EA%B3%BC%EC%A0%95.pdf"
   }
  ],
  "status": "dates",
