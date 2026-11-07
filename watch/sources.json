@@ -1,7 +1,7 @@
 {
-"note": "페이지(공개판 v28.126)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.127)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-07",
-"ver": "v28.126",
+"ver": "v28.127",
 "count": 482,
 "sources": [
 {
@@ -2363,7 +2363,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -4540,7 +4540,7 @@
 "id": "858806c5b5",
 "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148960616",
 "host": "korea.kr",
-"name": "정책브리핑 '지역의사제 시행령 의결'(의대 소재지 또는 인접 지역 중·고교, 2026-03-10)",
+"name": "대한민국 정책브리핑: 지역의사 선발비율·의무복무 기준 마련…'지역의사제' 시행령 의결(보건복지부)",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
