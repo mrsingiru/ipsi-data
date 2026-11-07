@@ -2,7 +2,7 @@
  "id": "n15",
  "org": "경기 미래과학교육원 영재원",
  "what": "앞으로 120일 안 일정 8단계",
- "checkedAt": "2026-11-07T07:41:38+09:00",
+ "checkedAt": "2026-11-07T09:30:12+09:00",
  "opened": [
   {
    "url": "https://www.gise.kr/gise/na/ntt/selectNttInfo.do?mi=10751&bbsId=6147&nttSn=1200499",
@@ -42,7 +42,7 @@
    "url": "https://www.gise.kr/gise/common/nttFileDownload.do?fileKey=e349419253324dcf397ca11afce1bf66",
    "name": "[붙임3] 관련 양식.hwp",
    "status": "error",
-   "error": "HTTPSConnectionPool(host='www.gise.kr', port=443): Read timed out. (read timeout=30)"
+   "error": "3번 받다 끊김: ('Connection broken: IncompleteRead(0 bytes read, 80384 more expected)', IncompleteRead(0 bytes read, 80384 more expected))"
   },
   {
    "url": "https://www.gise.kr/upload/giseadm/editor/cheditor/upload/image_20260928193447.png",
