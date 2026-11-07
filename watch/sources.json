@@ -1,9 +1,22 @@
 {
-"note": "페이지(공개판 v28.121)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-11-06",
-"ver": "v28.121",
-"count": 595,
+"note": "페이지(공개판 v28.125)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-11-07",
+"ver": "v28.125",
+"count": 480,
 "sources": [
+{
+"id": "1084a42981",
+"url": "https://www.academyinfo.go.kr",
+"host": "academyinfo.go.kr",
+"name": "대학알리미(대학정보공시 — 대학별 신입생 현황)",
+"kind": "공식",
+"cat": "공공 데이터·API",
+"used": [
+"r-local-jongbu"
+],
+"dated": "2026-11-07",
+"cycle": "w"
+},
 {
 "id": "300ec34c8e",
 "url": "https://www.academyinfo.go.kr/",
@@ -58,6 +71,22 @@
 "n20"
 ],
 "dated": "2026-10-22",
+"cycle": "w"
+},
+{
+"id": "ec7b1ce5b7",
+"url": "https://bdja-h.goesn.kr/upload/bdja-h/cntntsFile/2026/05/623A8529-BE6B-D8F1-FDF9-360D7DAEA442.pdf",
+"host": "bdja-h.goesn.kr",
+"name": "2027학년도 (가칭)분당중앙과학고등학교 신입생 입학전형요항(PDF) — Ⅳ. 원서접수 및 전형일정",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n20",
+"q-hs-types",
+"r-20sci",
+"sh"
+],
+"dated": "2026-11-07",
 "cycle": "w"
 },
 {
@@ -152,6 +181,35 @@
 "cycle": "w"
 },
 {
+"id": "c54e8681ba",
+"url": "https://enews.sen.go.kr/news/view.do?bbsSn=190882&step1=3&step2=1",
+"host": "enews.sen.go.kr",
+"name": "서울시교육청 보도자료: 3월 고1, 2, 3 전국연합학력평가 실시(2026-03-24 화)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"hakpyeong3",
+"hp3s",
+"hs",
+"q-mock"
+],
+"dated": "2026-03-23",
+"cycle": "w"
+},
+{
+"id": "db1895bb81",
+"url": "https://enews.sen.go.kr/news/view.do?bbsSn=192397&step1=3&step2=1",
+"host": "enews.sen.go.kr",
+"name": "서울시교육청 2027학년도 대학수학능력시험 응시 현황 및 수험생 유의사항 안내",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-csat-day-rules"
+],
+"dated": "",
+"cycle": "w"
+},
+{
 "id": "4a0742cfee",
 "url": "https://friend.sen.go.kr/cop/bbs/selectArticleDetail.do?bbsId=BBSMSTR_000000000001&nttId=1676&menuNo=4010000&pageIndex=1",
 "host": "friend.sen.go.kr",
@@ -194,13 +252,61 @@
 "id": "4fe046c778",
 "url": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8059&cntntsId=1594",
 "host": "gbs-h.goeujb.kr",
-"name": "2027 원서접수 및 전형일정 < 2027년 입학전형요항 | 경기북과학고등학교",
+"name": "경기북과학고 2027 원서접수 및 전형일정(소집면접 11/20·최종 발표 11/26)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
-"n18"
+"n18",
+"sh",
+"sh27g"
 ],
-"dated": "2026-10-22",
+"dated": "2026-11-07 확인",
+"cycle": "w"
+},
+{
+"id": "f1c7d39906",
+"url": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8062&cntntsId=1597",
+"host": "gbs-h.goeujb.kr",
+"name": "경기북과학고 2027 전형별 세부사항(최근 4학기 수학·과학)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"gbsSem",
+"q-hs-when"
+],
+"dated": "2026-11-07",
+"cycle": "w"
+},
+{
+"id": "7a5fb15fa9",
+"url": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8063&cntntsId=1598",
+"host": "gbs-h.goeujb.kr",
+"name": "경기북과학고 2027 입학전형요항 — 제출서류(자기소개서·교사의견서에 쓰면 안 되는 것)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"gbsDocs",
+"q-contest",
+"r-contest"
+],
+"dated": "2026-11-07",
+"cycle": "w"
+},
+{
+"id": "5ceaf79d26",
+"url": "https://gbs-h.goeujb.kr/gbs-h/cm/cntnts/cntntsView.do?mi=8064&cntntsId=1599",
+"host": "gbs-h.goeujb.kr",
+"name": "경기북과학고 2027 입학전형요항 — 기타사항(의약학 계열 진학 시 불이익 동의)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-fail",
+"q-hs-types",
+"q-med-gifted",
+"r-ksa-sci",
+"r-refund"
+],
+"dated": "2026-11-07",
 "cycle": "w"
 },
 {
@@ -226,6 +332,19 @@
 "used": [
 "n50",
 "n53"
+],
+"dated": "",
+"cycle": "w"
+},
+{
+"id": "594a21b795",
+"url": "https://www.gne.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1464&q_bbsDocNo=1500285",
+"host": "gne.go.kr",
+"name": "경남교육청 2023학년도 소속 26개 영재교육원 안내",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n94"
 ],
 "dated": "",
 "cycle": "w"
@@ -348,6 +467,20 @@
 "cycle": "w"
 },
 {
+"id": "70cdb7b748",
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/06/76ed0d83-c6ac-4462-b855-8d4ce310c480.pdf",
+"host": "goe.go.kr",
+"name": "평가원 공고 제2026-85호: 2027학년도 수능 9월 모의평가 시행 공고(9/2, 경기도교육청 게시본)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"hs",
+"mock9g"
+],
+"dated": "2026-06-17",
+"cycle": "m"
+},
+{
 "id": "2f462df1ff",
 "url": "https://www.goe.go.kr/resource/old/BBSMSTR_000000030136/BBS_202408220418082440.pdf",
 "host": "goe.go.kr",
@@ -390,13 +523,14 @@
 "id": "30c3f1f59a",
 "url": "https://www.goebc.kr/bch-h/cm/cntnts/cntntsView.do?mi=13794&cntntsId=2618",
 "host": "goebc.kr",
-"name": "원서접수 및 전형 일정 < 입학전형요항 | 부천고등학교(과학고 입학안내)",
+"name": "부천고등학교 입학전형요항 — 원서접수 및 전형 일정(2027 과학고 전형)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
-"n19"
+"n19",
+"r-20sci"
 ],
-"dated": "2026-10-22",
+"dated": "2026-11-07",
 "cycle": "w"
 },
 {
@@ -465,17 +599,34 @@
 "cycle": "w"
 },
 {
-"id": "34d1f47a98",
-"url": "https://gs-h.goesw.kr/gs-h/na/ntt/selectNttList.do?mi=1323&bbsId=1120",
+"id": "994c33cbc2",
+"url": "https://gs-h.goesw.kr/gs-h/cm/cntnts/cntntsView.do?mi=1313&cntntsId=1057",
 "host": "gs-h.goesw.kr",
-"name": "",
+"name": "경기과학고 2027 입학전형(원서 5/20~5/22·2단계 7/5·캠프 8/8·최종합격예정자 8/21)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
-"gshs"
+"gs",
+"gs27g",
+"q-hs-types"
 ],
-"dated": "",
-"cycle": "m"
+"dated": "2026-11-07 확인",
+"cycle": "w"
+},
+{
+"id": "34d1f47a98",
+"url": "https://gs-h.goesw.kr/gs-h/na/ntt/selectNttList.do?mi=1323&bbsId=1120",
+"host": "gs-h.goesw.kr",
+"name": "경기과학고 기출문항·해설영상 게시판",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"gsPast",
+"gshs",
+"q-hs-prep"
+],
+"dated": "2026-10-17",
+"cycle": "w"
 },
 {
 "id": "aaa0ae9fe9",
@@ -612,7 +763,7 @@
 "id": "ba26db0da0",
 "url": "https://hischoolgbe.kr/online/board/hsAdmission02",
 "host": "hischoolgbe.kr",
-"name": "경북교육청 고입전형포털 '고입전형일정표'(2027학년도)",
+"name": "경상북도교육청 온라인 고입전형포털 고입전형일정표(2027학년도, '과학고' 열)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -620,7 +771,7 @@
 "n88",
 "n89"
 ],
-"dated": "2026-11-03",
+"dated": "2026-11-07",
 "cycle": "w"
 },
 {
@@ -673,12 +824,14 @@
 "used": [
 "n72",
 "n74",
+"penHs27",
 "penhs27",
 "q-hs-assign",
 "q-hs-fail",
-"q-hs-local-list"
+"q-hs-local-list",
+"q-hs-when"
 ],
-"dated": "2026-10-22 확인",
+"dated": "2026-11-07",
 "cycle": "w"
 },
 {
@@ -1029,13 +1182,14 @@
 "id": "100d68d77d",
 "url": "https://jinhak.sen.go.kr/subList/20000000421",
 "host": "jinhak.sen.go.kr",
-"name": "서울진로진학정보센터 전기고 전형",
+"name": "서울진로진학정보센터 전기고등학교 전형",
 "kind": "공식",
 "cat": "교육청",
 "used": [
-"n01"
+"n01",
+"r-prestudy"
 ],
-"dated": "",
+"dated": "2026-11-07",
 "cycle": "w"
 },
 {
@@ -1056,16 +1210,18 @@
 "id": "98bb7381de",
 "url": "https://jinhak.sen.go.kr/subList/20000000430",
 "host": "jinhak.sen.go.kr",
-"name": "서울진로진학정보센터 주요일정(2027 서울 고입 기본계획)",
+"name": "서울진로진학정보센터 주요일정(2027 과학고 원서 8/24~8/26·발표 12/2)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n01",
 "n02",
 "n03",
-"n04"
+"n04",
+"q-hs-when",
+"sh27s"
 ],
-"dated": "",
+"dated": "2026-11-07",
 "cycle": "w"
 },
 {
@@ -1109,19 +1265,6 @@
 "cycle": "w"
 },
 {
-"id": "57732b08c9",
-"url": "https://www.jngjedu.kr/news/articleView.html?idxno=111240",
-"host": "jngjedu.kr",
-"name": "전남광주교육통 전남교육청 2027 고입 기본계획 공고(2026-03-30)",
-"kind": "기사",
-"cat": "교육청",
-"used": [
-"n63"
-],
-"dated": "",
-"cycle": "m"
-},
-{
 "id": "018941d198",
 "url": "https://kwthe.gwe.go.kr/boardCnts/list.do?boardID=2519&m=100801&s=kwthe",
 "host": "kwthe.gwe.go.kr",
@@ -1146,6 +1289,19 @@
 "n08"
 ],
 "dated": "2026-07-23",
+"cycle": "w"
+},
+{
+"id": "3a14dd88a5",
+"url": "https://mped.jne.go.kr/data/attach_data/muan/mped/k2board/na/bbs_10379/ntt_1800756706/doc_78d0v4bea=87vbc=47v1e=a8v5d=b230v0802v8074_v9813.pdf",
+"host": "mped.jne.go.kr",
+"name": "전남 2026학년도 평준화지역(목포·여수·순천) 후기고 입학전형 기본계획(목포교육지원청 게시 PDF)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n63"
+],
+"dated": "",
 "cycle": "w"
 },
 {
@@ -1199,6 +1355,21 @@
 "cat": "교육청",
 "used": [
 "q-hw-overcharge"
+],
+"dated": "",
+"cycle": "w"
+},
+{
+"id": "cf6ef23e6c",
+"url": "https://www.pen.go.kr/upload/dep05/na/bbs_2542/ntt_1173360/doc_2404ve2f3=36v10=46v9c=9av24=0390ve37fvf207_v7851.pdf",
+"host": "pen.go.kr",
+"name": "부산교육청 2026학년도 사교육 경감 대책(대입상담캠프 7/28~29·연중 온라인 대입상담, 19쪽)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"pen365",
+"q-free-help",
+"q-univ-fair"
 ],
 "dated": "",
 "cycle": "w"
@@ -1277,10 +1448,12 @@
 "cat": "교육청",
 "used": [
 "n72",
+"q-med-gifted",
 "r-contest",
 "r-ksa-sci",
 "r-prestudy",
-"r-refund"
+"r-refund",
+"sh"
 ],
 "dated": "",
 "cycle": "w"
@@ -1469,6 +1642,19 @@
 "cycle": "w"
 },
 {
+"id": "e7d80762f4",
+"url": "https://school.jbedu.kr/ejbs/M010402/view/6459411",
+"host": "school.jbedu.kr",
+"name": "전북과학고 2026학년도 신입생 입학전형 최종 경쟁률(2025-09-01, 정원 80명)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n55"
+],
+"dated": "",
+"cycle": "w"
+},
+{
 "id": "651345b269",
 "url": "https://school.jbedu.kr/ejbs/M010402/view/6780389",
 "host": "school.jbedu.kr",
@@ -1599,6 +1785,19 @@
 "cycle": "w"
 },
 {
+"id": "b33c39b487",
+"url": "https://www.seit.kr/sub01_06_02.html",
+"host": "seit.kr",
+"name": "과학영재교육원 공동누리집 명단(영남·제주권)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n80"
+],
+"dated": "",
+"cycle": "w"
+},
+{
 "id": "662a26f1d4",
 "url": "https://www.seit.kr/sub01_06_03.html",
 "host": "seit.kr",
@@ -1679,17 +1878,34 @@
 "cycle": "w"
 },
 {
-"id": "8d08d4079f",
-"url": "https://www.sen.go.kr/user/bbs/BD_selectBbsList.do?q_bbsSn=1036",
+"id": "cba5f55844",
+"url": "https://www.sen.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1100&q_bbsDocNo=20260731090910143",
 "host": "sen.go.kr",
-"name": "서울시교육청 학력평가자료실",
+"name": "서울시교육청 공지: 2026학년도 10월 고3 전국연합학력평가(시험 2026-10-20 화 08:40~17:45)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
+"hakpyeong",
+"hp10s",
+"hs",
+"q-mock"
+],
+"dated": "2026-07-31",
+"cycle": "w"
+},
+{
+"id": "8d08d4079f",
+"url": "https://www.sen.go.kr/user/bbs/BD_selectBbsList.do?q_bbsSn=1036",
+"host": "sen.go.kr",
+"name": "서울시교육청 학력평가자료실(2026년 시험 목록 — 5월 고3 날짜는 주관 교육청 공지로 확인 필요)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"hpList",
 "q-past",
 "sen-hak"
 ],
-"dated": "2026-10-17",
+"dated": "2026-11-07 확인",
 "cycle": "w"
 },
 {
@@ -1880,6 +2096,19 @@
 "cycle": "m"
 },
 {
+"id": "8091f3a2c9",
+"url": "https://www.dgsbe.go.kr/",
+"host": "dgsbe.go.kr",
+"name": "대구서부교육지원청 누리집(2027 영재교육원 모집 요강)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"n75"
+],
+"dated": "",
+"cycle": "m"
+},
+{
 "id": "ebe280245a",
 "url": "https://doaj.org/article/8b3371303a5a4d2c88dd26e236f64089",
 "host": "doaj.org",
@@ -1890,19 +2119,6 @@
 "q-life-school-phone-ban"
 ],
 "dated": "2026-10-27",
-"cycle": "m"
-},
-{
-"id": "860c464371",
-"url": "https://www.dt.co.kr/article/12067938",
-"host": "dt.co.kr",
-"name": "디지털타임스(2027학년도 수능 6월 모의평가 이의신청 심사 결과)",
-"kind": "기사",
-"cat": "기타",
-"used": [
-"q-csat-answer-objection"
-],
-"dated": "2026-06-16",
 "cycle": "m"
 },
 {
@@ -2105,21 +2321,6 @@
 "cycle": "m"
 },
 {
-"id": "049cd57aaf",
-"url": "https://m.dailypharm.com/user/news/338076",
-"host": "m.dailypharm.com",
-"name": "데일리팜(지역의사 선발·지원·의무복무 고시 확정)",
-"kind": "기사",
-"cat": "기타",
-"used": [
-"q-med",
-"q-med-ldoc-zone",
-"r-local-doctor"
-],
-"dated": "2026-04-30",
-"cycle": "m"
-},
-{
 "id": "54635e324d",
 "url": "https://www.mafra.go.kr/bbs/mafra/68/326885/artclView.do",
 "host": "mafra.go.kr",
@@ -2149,7 +2350,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -2183,6 +2384,49 @@
 "q-life-phone-grades"
 ],
 "dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "2456845c25",
+"url": "https://www.ne.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1004&q_bbsDocNo=20260812085513699",
+"host": "ne.go.kr",
+"name": "국가교육위원회 설명자료(현재 대입제도 개편안은 확정된 바 없음)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"necNo",
+"q-reform"
+],
+"dated": "2026-08-12",
+"cycle": "m"
+},
+{
+"id": "ab32b38712",
+"url": "https://www.ne.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1004&q_bbsDocNo=20260907095916359",
+"host": "ne.go.kr",
+"name": "국가교육위원회 설명자료(개별 의제 포함 여부 결정된 바 없음 · 2027년 3월 말까지 확정 계획)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"nec",
+"q-reform",
+"r-fl-abolish"
+],
+"dated": "2026-09-07",
+"cycle": "m"
+},
+{
+"id": "e1ca69a35a",
+"url": "https://noworry.kr/policyarchive/?bmode=view&idx=171492625",
+"host": "noworry.kr",
+"name": "사교육걱정없는세상 2026 사교육 실태 백서 공개(단체 원문 글)",
+"kind": "기타",
+"cat": "기타",
+"used": [
+"noworry26",
+"q-eo-prep"
+],
+"dated": "2026-05-27",
 "cycle": "m"
 },
 {
@@ -2280,24 +2524,11 @@
 "cycle": "m"
 },
 {
-"id": "764637b737",
-"url": "https://www.sciencemediacentre.org/expert-reaction-to-screen-media-use-and-academic-performance/",
-"host": "sciencemediacentre.org",
-"name": "Science Media Centre: 화면 미디어와 학업 성취 연구 전문가 반응(2019-09)",
-"kind": "기사",
-"cat": "기타",
-"used": [
-"q-life-phone-grades"
-],
-"dated": "2026-10-27",
-"cycle": "m"
-},
-{
 "id": "b93ca70a71",
 "url": "https://www.uclahealth.org/news/release/cramming-for-a-test-dont-do-it-say-ucla-researchers",
 "host": "uclahealth.org",
 "name": "UCLA Health 보도자료: Cramming for a test? Don't do it(2012-08-22)",
-"kind": "기사",
+"kind": "기타",
 "cat": "기타",
 "used": [
 "q-life-cram-sleep"
@@ -2527,7 +2758,10 @@
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
-"q-snu"
+"q-snu",
+"q-univ-nsu",
+"q-univ-rural",
+"r-snu-ku-choejeo"
 ],
 "dated": "2026-04-30",
 "cycle": "w"
@@ -2557,6 +2791,7 @@
 "q-courses",
 "q-snu",
 "q-susi",
+"r-snu-ku-choejeo",
 "snu28"
 ],
 "dated": "2026-04-30",
@@ -3153,7 +3388,9 @@
 "used": [
 "ku28",
 "q-susi",
-"q-yk"
+"q-univ-nsu",
+"q-yk",
+"r-snu-ku-choejeo"
 ],
 "dated": "",
 "cycle": "w"
@@ -3208,6 +3445,20 @@
 "n66"
 ],
 "dated": "",
+"cycle": "w"
+},
+{
+"id": "6747ee0e71",
+"url": "https://www.snu.ac.kr/snunow/press?md=v&bbsidx=156226",
+"host": "snu.ac.kr",
+"name": "서울대 보도자료: 2028학년도 서울대학교 전공 연계 과목 선택 안내 발표",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"q-courses",
+"snuCourse"
+],
+"dated": "2025-06-30",
 "cycle": "w"
 },
 {
@@ -3836,6 +4087,20 @@
 "cycle": "w"
 },
 {
+"id": "eb86b9718e",
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=207070",
+"host": "eiec.kdi.re.kr",
+"name": "교육부 영재학교·과학고 입학전형 개선방안(2020-11-17 발표, 2022학년도 입학전형부터, KDI 경제정보센터 게재)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"gs",
+"r-ksa-multi"
+],
+"dated": "2020-11-17",
+"cycle": "w"
+},
+{
 "id": "298db92e2a",
 "url": "https://eiec.kdi.re.kr/policy/materialView.do?num=246533",
 "host": "eiec.kdi.re.kr",
@@ -3847,7 +4112,8 @@
 "q-ipgyeol-read",
 "q-naesin",
 "q-suneung",
-"q-univ-last-year"
+"q-univ-last-year",
+"r-csat5"
 ],
 "dated": "2023-12-27",
 "cycle": "w"
@@ -3907,19 +4173,6 @@
 "q-life-phone-grades"
 ],
 "dated": "2026-10-27",
-"cycle": "w"
-},
-{
-"id": "99f84ed5e1",
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=283473",
-"host": "eiec.kdi.re.kr",
-"name": "교육부, 2026년 6월 대학정보공시 분석 결과 발표(KDI 경제정보센터 게재본)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"r-local-jongbu"
-],
-"dated": "2026-06-29",
 "cycle": "w"
 },
 {
@@ -3998,6 +4251,7 @@
 "q-med-quota",
 "r-capital-ldoc",
 "r-local-doctor",
+"r-med-seoul",
 "r-transfer-local"
 ],
 "dated": "2026-09-03",
@@ -4017,6 +4271,20 @@
 "cycle": "w"
 },
 {
+"id": "5140940d4c",
+"url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148962396",
+"host": "korea.kr",
+"name": "대한민국 정책브리핑 사실은 이렇습니다: 복지부 '지역의사 실제 복무 5년 뿐? 사실과 달라'(수련기간 산입, 고시안)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-med-ldoc-zone",
+"r-local-doctor"
+],
+"dated": "2026-04-09",
+"cycle": "w"
+},
+{
 "id": "71ad9f3c08",
 "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156562362",
 "host": "korea.kr",
@@ -4027,6 +4295,21 @@
 "q-sch-violence"
 ],
 "dated": "2023-04-12",
+"cycle": "w"
+},
+{
+"id": "37ca5842ce",
+"url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156604308",
+"host": "korea.kr",
+"name": "공정거래위원회 브리핑: 9개 입시학원 및 출판사의 부당한 표시광고행위 제재(정책브리핑)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"ftcAd",
+"q-eo-prep",
+"q-univ-prep"
+],
+"dated": "2023-12-10",
 "cycle": "w"
 },
 {
@@ -4043,6 +4326,33 @@
 "cycle": "w"
 },
 {
+"id": "3c1fdf724b",
+"url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156746505",
+"host": "korea.kr",
+"name": "보건복지부 보도자료(지역의사양성법 시행령 재입법예고 — 중·고교 소재 지역은 별표 2)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-med-ldoc-capital",
+"r-capital-ldoc"
+],
+"dated": "2026-02-27",
+"cycle": "w"
+},
+{
+"id": "43b4a4d62f",
+"url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156766806",
+"host": "korea.kr",
+"name": "교육부 보도자료: 2027학년도 수능 6월 모의평가 이의신청 심사 결과 발표(정책브리핑)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-csat-answer-objection"
+],
+"dated": "2026-06-16",
+"cycle": "w"
+},
+{
 "id": "2e495503d3",
 "url": "https://www.korea.kr/news/customizedNewsView.do?newsId=148948842",
 "host": "korea.kr",
@@ -4053,6 +4363,20 @@
 "q-life-school-phone-ban"
 ],
 "dated": "2026-10-27",
+"cycle": "w"
+},
+{
+"id": "118bfd87f7",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148897486",
+"host": "korea.kr",
+"name": "정책브리핑: 2024학년도부터 대학 모집인원 10% 이상 사회적배려 대상자 선발(교육부)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"bal1",
+"q-balance"
+],
+"dated": "2021-12-30",
 "cycle": "w"
 },
 {
@@ -4186,6 +4510,36 @@
 "cycle": "w"
 },
 {
+"id": "f9e9a3232f",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148959405",
+"host": "korea.kr",
+"name": "정책브리핑: 내년부터 5년간 지역·필수·공공의료 의사 연평균 668명 양성(2030년 이후 의대 정원 3,871명 규모)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"medPlan",
+"q-med-quota"
+],
+"dated": "2026-02-11",
+"cycle": "w"
+},
+{
+"id": "858806c5b5",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148960616",
+"host": "korea.kr",
+"name": "정책브리핑 '지역의사제 시행령 의결'(의대 소재지 또는 인접 지역 중·고교, 2026-03-10)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-med-ldoc",
+"q-med-ldoc-city",
+"q-med-ldoc-zone",
+"r-local-doctor"
+],
+"dated": "2026-03-10",
+"cycle": "w"
+},
+{
 "id": "4d3a2db1ba",
 "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967122",
 "host": "korea.kr",
@@ -4235,6 +4589,19 @@
 "q-hs-national-jasa"
 ],
 "dated": "2024-01-16",
+"cycle": "w"
+},
+{
+"id": "224bef5c38",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=156748552",
+"host": "korea.kr",
+"name": "정책브리핑 2025년 초중고 사교육비조사 결과(초등 참여율 84.4%·과목별 수학 27만 원)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-cost"
+],
+"dated": "2026-03-12",
 "cycle": "w"
 },
 {
@@ -4290,6 +4657,20 @@
 "cycle": "w"
 },
 {
+"id": "e3242213da",
+"url": "https://www.moe.go.kr/boardCnts/view.do?boardID=294&boardSeq=82605&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+"host": "moe.go.kr",
+"name": "교육부 보도자료: 영재학교·과학고 입학전형 개선방안 발표",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"gsPlan",
+"q-hs-prep"
+],
+"dated": "2020-11-16",
+"cycle": "w"
+},
+{
 "id": "88d35eb06f",
 "url": "https://www.moe.go.kr/boardCnts/view.do?boardID=294&boardSeq=83631&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
 "host": "moe.go.kr",
@@ -4328,6 +4709,50 @@
 "q-csat-apply"
 ],
 "dated": "2026-03-31",
+"cycle": "w"
+},
+{
+"id": "f0bfdb0714",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=97746&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+"host": "moe.go.kr",
+"name": "교육부 보도자료: 자사(공)고·외고·국제고 존치를 위한 개정령안 국무회의 통과",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"keep",
+"q-hs-types",
+"r-fl-abolish"
+],
+"dated": "2024-01-16",
+"cycle": "w"
+},
+{
+"id": "c7186e987a",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=99218&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
+"host": "moe.go.kr",
+"name": "교육부 보도자료: 2024년 6월 대학정보공시 분석 결과(기회균형선발 입학 9.2%)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"bal2",
+"q-balance"
+],
+"dated": "2024-06-26",
+"cycle": "w"
+},
+{
+"id": "292ad421d9",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&lev=0&statusYN=W&s=moe&m=020402&opType=N&boardSeq=103113",
+"host": "moe.go.kr",
+"name": "교육부 보도자료: 2028학년도 대입, 이렇게 준비하세요(2028학년도부터 하반기 모의평가 9월→8월)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"hs",
+"mock8moe",
+"q-g2-winter"
+],
+"dated": "2025-04-15",
 "cycle": "w"
 },
 {
@@ -4540,6 +4965,20 @@
 "cycle": "w"
 },
 {
+"id": "deb36b8b75",
+"url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=280435",
+"host": "law.go.kr",
+"name": "지역의사의 양성 및 지원 등에 관한 법률 제6조(반환금 — 민법 법정이율 이자)",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-med-ldoc",
+"r-local-doctor"
+],
+"dated": "2026-02-24",
+"cycle": "w"
+},
+{
 "id": "5b62f7cc4e",
 "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?lsJoLnkSeq=1010072001&chrClsCd=010202&ancYnChk=0",
 "host": "law.go.kr",
@@ -4620,6 +5059,19 @@
 "cycle": "w"
 },
 {
+"id": "269a4c6a59",
+"url": "https://www.law.go.kr/법령/학교폭력예방및대책에관한법률",
+"host": "law.go.kr",
+"name": "학교폭력예방 및 대책에 관한 법률 제17조(가해학생에 대한 조치), 국가법령정보센터",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-sch-violence"
+],
+"dated": "2026-11-07",
+"cycle": "w"
+},
+{
 "id": "64d4fd7f29",
 "url": "https://www.nepla.ai/law/공교육-정상화-촉진-및-선행교육-규제에-관한-특별법",
 "host": "nepla.ai",
@@ -4663,1188 +5115,6 @@
 "cycle": "m"
 },
 {
-"id": "f8711a1000",
-"url": "https://www.ajunews.com/view/20260611100711061",
-"host": "ajunews.com",
-"name": "아주경제(2027 지역의사 488명, 종로학원 분석)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"ld488",
-"q-med"
-],
-"dated": "2026-06-11",
-"cycle": "m"
-},
-{
-"id": "9627325238",
-"url": "https://www.ajunews.com/view/20260804171754066",
-"host": "ajunews.com",
-"name": "아주경제(부산교육청 연중 대입상담)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"pen365",
-"q-free-help"
-],
-"dated": "2026-08-04",
-"cycle": "m"
-},
-{
-"id": "33a0f1e786",
-"url": "https://biz.sbs.co.kr/amp/article/20000228825",
-"host": "biz.sbs.co.kr",
-"name": "SBS Biz(교육부 발표: 6월 모의평가 유지, 하반기 모의평가 8월)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"hs",
-"mock8",
-"q-g2-winter"
-],
-"dated": "2025-04-15",
-"cycle": "m"
-},
-{
-"id": "737acf561c",
-"url": "https://www.busan.com/view/busan/view.php?code=2025120118422049528",
-"host": "busan.com",
-"name": "[단독] “가까운 학교 두고 먼 데로” 불만… 중학교 배정 기준 손본다(부산일보)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-sch-assign"
-],
-"dated": "2025-12-01",
-"cycle": "m"
-},
-{
-"id": "b8c73d30bd",
-"url": "https://www.ccdn.co.kr/news/articleView.html?idxno=1095984",
-"host": "ccdn.co.kr",
-"name": "충청매일: 충남대 과학영재교육원 2027 신입생 모집(2026-08-26)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n31",
-"n34"
-],
-"dated": "2026-08-26",
-"cycle": "m"
-},
-{
-"id": "21bd92346c",
-"url": "https://www.cctoday.co.kr/news/articleView.html?idxno=2205019",
-"host": "cctoday.co.kr",
-"name": "충청투데이: 대전동부 영재 100명 선발(2025학년도)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n28"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "d634c09b7e",
-"url": "https://www.cnbnews.com/news/articleView.html?idxno=1018976",
-"host": "cnbnews.com",
-"name": "CNB뉴스: 같은 원서 기간 보도(2026-10-14)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n27"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "6531678bcd",
-"url": "https://www.daejonilbo.com/news/articleView.html?idxno=2186564",
-"host": "daejonilbo.com",
-"name": "대전일보: 세종교육청 2025학년 영재교육기관 원서 접수",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n32"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "18a7d52e56",
-"url": "https://www.daejonilbo.com/news/articleView.html?idxno=2245667",
-"host": "daejonilbo.com",
-"name": "대전일보 2026학년도 자사고·외고 경쟁률",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n30"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "cc68bb9530",
-"url": "https://dhnews.co.kr/news/view/1065573137926158",
-"host": "dhnews.co.kr",
-"name": "대학저널 전남대 과학영재교육원 2026학년도 신입생 모집(2025-10-23)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n52"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "d2adc4ca27",
-"url": "https://dhnews.co.kr/news/view/1065576574769915",
-"host": "dhnews.co.kr",
-"name": "대학저널(2028 지역의사 610명, 진학사 분석)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"ld610",
-"q-med",
-"q-med-ldoc",
-"q-med-quota"
-],
-"dated": "2026-05-13",
-"cycle": "m"
-},
-{
-"id": "c2ea522069",
-"url": "https://dhnews.co.kr/news/view/1065579562228453",
-"host": "dhnews.co.kr",
-"name": "대학저널 국립목포대 과학영재교육원 2026학년도 신입생 모집(2025-10-09)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n65"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "81e1c4a3d3",
-"url": "https://dhnews.co.kr/news/view/1065589466716815",
-"host": "dhnews.co.kr",
-"name": "대학저널(서울대 2028 전공 연계 과목)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-courses",
-"snuCourse"
-],
-"dated": "2025-06-30",
-"cycle": "m"
-},
-{
-"id": "b114f3148f",
-"url": "https://dhnews.co.kr/news/view/179524153246093",
-"host": "dhnews.co.kr",
-"name": "대학저널(기회균형 10% 의무)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"bal1",
-"q-balance"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "c3a0820a1b",
-"url": "https://www.dhnews.co.kr/news/view/1065575688380115",
-"host": "dhnews.co.kr",
-"name": "대학저널 국립군산대 과학영재교육원 2026학년도 신입생 수시모집(2025-09-16)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n59"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "a9cf9e4e8f",
-"url": "https://www.dhnews.co.kr/news/view/1065590185180368",
-"host": "dhnews.co.kr",
-"name": "대학저널(기회균형 입학생 9.2%)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"bal2",
-"q-balance"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "fdce9d4d78",
-"url": "https://www.etoday.co.kr/news/view/2496353",
-"host": "etoday.co.kr",
-"name": "이투데이(영재·과학고 의약학 진학률, 교육부 발표)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gsMed",
-"q-med",
-"q-med-gifted"
-],
-"dated": "2025-08-12",
-"cycle": "m"
-},
-{
-"id": "bce23b0746",
-"url": "https://www.fnnews.com/news/202312271101077771",
-"host": "fnnews.com",
-"name": "파이낸셜뉴스(2028 수능 구조)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"csat28b",
-"q-suneung",
-"r-csat5"
-],
-"dated": "2023-12-27",
-"cycle": "m"
-},
-{
-"id": "e24ce4460f",
-"url": "https://www.fnnews.com/news/202508271426485361",
-"host": "fnnews.com",
-"name": "파이낸셜뉴스: 수업 중 스마트폰 금지법 국회 통과(2025-08-27)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-life-school-phone-ban"
-],
-"dated": "2026-10-27",
-"cycle": "m"
-},
-{
-"id": "f4d2c07c92",
-"url": "https://www.fnnews.com/news/202602221031237101",
-"host": "fnnews.com",
-"name": "파이낸셜뉴스(계약학과 등록 포기)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-semi",
-"semi2"
-],
-"dated": "2026-02-22",
-"cycle": "m"
-},
-{
-"id": "06aaadb022",
-"url": "https://www.fnnews.com/news/202607240919545091",
-"host": "fnnews.com",
-"name": "파이낸셜뉴스(부산교육청 2026 대입상담캠프)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-univ-fair"
-],
-"dated": "2026-07-24",
-"cycle": "m"
-},
-{
-"id": "b850e8b5f5",
-"url": "https://www.fnnews.com/news/202608170604519286",
-"host": "fnnews.com",
-"name": "파이낸셜뉴스 전국 과학고 1858명 선발(2026-08-17)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n55"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "8ce9a8c49a",
-"url": "https://www.fnnews.com/news/202609021811547699",
-"host": "fnnews.com",
-"name": "파이낸셜뉴스(지역의사 지원 길잡이 FAQ 소개)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-med-ldoc",
-"q-med-ldoc-city",
-"q-med-ldoc-zone",
-"q-med-local-move",
-"r-local-doctor",
-"r-transfer-local"
-],
-"dated": "2026-09-03",
-"cycle": "m"
-},
-{
-"id": "14a14c659b",
-"url": "https://gj.newdaily.co.kr/site/data/html/2026/03/24/2026032400379.html",
-"host": "gj.newdaily.co.kr",
-"name": "뉴데일리 광주전남 '광주교육청, 2027학년도 고등학교 입학전형 기본계획 발표'",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n51"
-],
-"dated": "2026-03-24",
-"cycle": "m"
-},
-{
-"id": "50d17adac5",
-"url": "https://www.gnnews.co.kr/news/articleView.html?idxno=625319",
-"host": "gnnews.co.kr",
-"name": "경남일보 2025-12-07",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n94"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "6909328172",
-"url": "https://www.gnnews.co.kr/news/articleView.html?idxno=635408",
-"host": "gnnews.co.kr",
-"name": "경남일보 2026-04-21(기본계획 설명회)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n97"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "f35ec2fa6a",
-"url": "https://www.gnnews.co.kr/news/articleView.html?idxno=645486",
-"host": "gnnews.co.kr",
-"name": "경남일보 2026-09-14",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n97"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "3f46f0be54",
-"url": "https://www.gnnews.co.kr/news/articleView.html?idxno=646365",
-"host": "gnnews.co.kr",
-"name": "경남일보 2026-09-28(영재학교 전환)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n95"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "064cb30b28",
-"url": "https://www.gukjenews.com/news/articleView.html?idxno=3403560",
-"host": "gukjenews.com",
-"name": "국제뉴스 2025-10-17(봉화)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n86"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "24f72cd44c",
-"url": "https://www.gukjenews.com/news/articleView.html?idxno=3683617",
-"host": "gukjenews.com",
-"name": "국제뉴스(부산영재교육진흥원 선발 설명회·영상 공개)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"penBrief",
-"q-eo-prep"
-],
-"dated": "2026-09-03",
-"cycle": "m"
-},
-{
-"id": "1a3803590f",
-"url": "https://www.gwangjuin.com/news/articleView.html?idxno=259574",
-"host": "gwangjuin.com",
-"name": "광주in 전남대 과학영재교육원 2025학년도 모집(2024-10-24)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n52"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "81b7746dc2",
-"url": "https://hangyo.com/mobile/article.html?no=100805",
-"host": "hangyo.com",
-"name": "한국교육신문(외고·자사고 존치 확정)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"keep",
-"q-hs-types",
-"r-fl-abolish"
-],
-"dated": "2024-01-16",
-"cycle": "m"
-},
-{
-"id": "88da632a6d",
-"url": "https://hangyo.com/mobile/article.html?no=104828",
-"host": "hangyo.com",
-"name": "한국교육신문(2025년 6월 대학정보공시 분석)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-hs-autonomous",
-"r-local-jongbu"
-],
-"dated": "2025-06-30",
-"cycle": "m"
-},
-{
-"id": "bc8cde6dbe",
-"url": "https://hangyo.com/news/article.html?no=109590",
-"host": "hangyo.com",
-"name": "한국교육신문(대입 시안 발표 연기 검토, 10/7 국감)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"necDelay",
-"q-reform"
-],
-"dated": "2026-10-07",
-"cycle": "m"
-},
-{
-"id": "a6ec6db330",
-"url": "https://www.hangyo.com/mobile/article.html?no=105345",
-"host": "hangyo.com",
-"name": "한국교육신문, 2028학년도 대입부터 수시 9월 20일 시작",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"dy",
-"dy28b"
-],
-"dated": "2025-09-12",
-"cycle": "m"
-},
-{
-"id": "a25f961134",
-"url": "https://www.hankyung.com/article/202603126272Y",
-"host": "hankyung.com",
-"name": "한국경제(과목별 사교육비)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"cost2",
-"q-cost"
-],
-"dated": "2026-03-12",
-"cycle": "m"
-},
-{
-"id": "f095bed36a",
-"url": "https://www.hankyung.com/article/2026031263617",
-"host": "hankyung.com",
-"name": "한국경제(2025 사교육비 초등)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"cost1",
-"q-cost"
-],
-"dated": "2026-03-12",
-"cycle": "m"
-},
-{
-"id": "431f990e56",
-"url": "https://www.hankyung.com/article/2026051066261",
-"host": "hankyung.com",
-"name": "한국경제(서울대·연세대·고려대 2028 수능 최저 없는 선발 비율)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"r-snu-ku-choejeo"
-],
-"dated": "2026-05-10",
-"cycle": "m"
-},
-{
-"id": "a804194446",
-"url": "https://www.hankyung.com/article/2026081753451",
-"host": "hankyung.com",
-"name": "한국경제: 과학고 22곳 1,858명",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-hs-types",
-"r-20sci",
-"sh",
-"shQuota"
-],
-"dated": "2026-08-17",
-"cycle": "m"
-},
-{
-"id": "88e25b4d4e",
-"url": "https://www.heraldk.com/article/2026011604413107139",
-"host": "heraldk.com",
-"name": "헤럴드경제(2026학년도 수시 학교폭력 반영 현황, 진선미 의원실)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-sch-violence"
-],
-"dated": "2026-01-16",
-"cycle": "m"
-},
-{
-"id": "6d13b34a19",
-"url": "https://www.heraldk.com/article/2026012719000012142",
-"host": "heraldk.com",
-"name": "헤럴드경제(고교학점제 이수 기준 완화)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"credit"
-],
-"dated": "2026-01-27",
-"cycle": "m"
-},
-{
-"id": "31beb7089a",
-"url": "https://www.heraldk.com/article/2026032600273939393",
-"host": "heraldk.com",
-"name": "헤럴드경제(진료권 70%·광역권 30%)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"ldRule",
-"q-med",
-"q-med-quota"
-],
-"dated": "2026-03-26",
-"cycle": "m"
-},
-{
-"id": "0f1d3d49d0",
-"url": "https://www.heraldk.com/article/2026042919000056717",
-"host": "heraldk.com",
-"name": "헤럴드경제(SKY 정시 비율)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"sky"
-],
-"dated": "2026-04-29",
-"cycle": "m"
-},
-{
-"id": "8132bca6c2",
-"url": "https://www.heraldk.com/article/2026050417463957935",
-"host": "heraldk.com",
-"name": "헤럴드경제(영재학교 2027 정원·일정)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gs",
-"gsQuota",
-"q-hs-types"
-],
-"dated": "2026-05-04",
-"cycle": "m"
-},
-{
-"id": "8dc384c2fd",
-"url": "https://www.heraldk.com/article/2026052817450068440",
-"host": "heraldk.com",
-"name": "헤럴드경제, 2027학년도 영재학교 일정",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gs",
-"gs27"
-],
-"dated": "2026-05-28",
-"cycle": "m"
-},
-{
-"id": "99a92dde0d",
-"url": "https://www.heraldk.com/article/2026062919000082154",
-"host": "heraldk.com",
-"name": "헤럴드경제(2027 수능 시행세부계획)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"ans",
-"q-g3-after"
-],
-"dated": "2026-06-29",
-"cycle": "m"
-},
-{
-"id": "fb6d06999c",
-"url": "https://ihopenews.com/news/articleView.html?idxno=252293",
-"host": "ihopenews.com",
-"name": "호남교육신문 광주시교육청 2027 고입전형 확정(2026-03-24)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n51"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "fe72d47b72",
-"url": "https://www.ihopenews.com/news/articleView.html?idxno=251029",
-"host": "ihopenews.com",
-"name": "호남교육신문 전남 2026학년도 평준화지역 고교 배정 추첨식(2026-01-15)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n63"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "9ed507b6f0",
-"url": "https://www.imaeil.com/page/view/2026092909180364775",
-"host": "imaeil.com",
-"name": "매일신문 2026-09-29",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n80"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "95dea75493",
-"url": "https://www.incheontoday.com/news/articleView.html?idxno=317115",
-"host": "incheontoday.com",
-"name": "인천투데이 2027 고입 기본계획",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n12"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "5e3e2c4ca7",
-"url": "https://www.inews24.com/view/1983517",
-"host": "inews24.com",
-"name": "아이뉴스24: 2026년 7월 전국연합학력평가(고3, 인천교육청 주관)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"hp7",
-"hs",
-"q-mock"
-],
-"dated": "2026-07-08",
-"cycle": "m"
-},
-{
-"id": "3a77fce861",
-"url": "https://www.iusm.co.kr/news/articleView.html?idxno=1055332",
-"host": "iusm.co.kr",
-"name": "울산매일 2025-10-24",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n81"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "bae21eed11",
-"url": "https://www.iusm.co.kr/news/articleView.html?idxno=1057094",
-"host": "iusm.co.kr",
-"name": "울산매일 2025-12-11(작년 경쟁률)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n82",
-"n83"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "d72fece4ec",
-"url": "https://www.iusm.co.kr/news/articleView.html?idxno=1061070",
-"host": "iusm.co.kr",
-"name": "울산매일 2026-03-29",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n83"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "28521247e9",
-"url": "https://www.jejusori.net/news/articleView.html?idxno=506706",
-"host": "jejusori.net",
-"name": "제주의소리 2027학년도 평준화 일반고 입학 설명회(2026-09-18)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n69"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "9059266dad",
-"url": "https://kbmaeil.com/article/20260210500792",
-"host": "kbmaeil.com",
-"name": "경북매일(의대 정원 발표)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"medQ"
-],
-"dated": "2026-02-10",
-"cycle": "m"
-},
-{
-"id": "22cbd7d082",
-"url": "https://kbmaeil.com/article/20260928500415",
-"host": "kbmaeil.com",
-"name": "경북매일 2026-10-01",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n93"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "cbe27808a6",
-"url": "https://kbmaeil.com/article/20260929500069",
-"host": "kbmaeil.com",
-"name": "경북매일 2026-09-29",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n80"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "e46764d1b7",
-"url": "https://www.kbmaeil.com/article/20260101500290",
-"host": "kbmaeil.com",
-"name": "경북매일 2026-01-01",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n89"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "e0eb9bff96",
-"url": "https://www.kbmaeil.com/article/20260922500273",
-"host": "kbmaeil.com",
-"name": "경북매일 2026-09-22(AI 영재교육원 승인)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n93"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "1e1f205fa0",
-"url": "https://www.kgnews.co.kr/news/article.html?no=914666",
-"host": "kgnews.co.kr",
-"name": "경기신문: 한양대 ERICA 영재교육원 2027 모집(2026-10-12)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n27"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "c62c36f461",
-"url": "https://www.khan.co.kr/article/202602070600001",
-"host": "khan.co.kr",
-"name": "경향신문(의대 권장과목 미발표 17곳)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"medCourse",
-"q-courses"
-],
-"dated": "2026-02-07",
-"cycle": "m"
-},
-{
-"id": "aa2fd2c2cd",
-"url": "https://www.kukinews.com/article/view/kuk202603230217",
-"host": "kukinews.com",
-"name": "쿠키뉴스: 2026년 3월 전국연합학력평가(고1~3)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"hakpyeong3",
-"hp3",
-"hs",
-"q-mock"
-],
-"dated": "2026-03-23",
-"cycle": "m"
-},
-{
-"id": "692fc569f7",
-"url": "https://www.kyeonggi.com/article/20260507580009",
-"host": "kyeonggi.com",
-"name": "경기일보: 2026년 5월 전국연합학력평가(고3)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"hp5",
-"hs",
-"q-mock"
-],
-"dated": "2026-05-07",
-"cycle": "m"
-},
-{
-"id": "f20830c67b",
-"url": "https://www.kyobit.com/news/articleView.html?idxno=1565",
-"host": "kyobit.com",
-"name": "교육을 비추다(2026학년도 요강 분석)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n84"
-],
-"dated": "2025-09-09",
-"cycle": "m"
-},
-{
-"id": "4b6723d888",
-"url": "https://www.kyobit.com/news/articleView.html?idxno=588",
-"host": "kyobit.com",
-"name": "교육을 비추다 2025-05-28",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n76",
-"n82"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "6c732a8789",
-"url": "https://www.kyobit.com/news/articleView.html?idxno=6083",
-"host": "kyobit.com",
-"name": "교육을 비추다 2026-07-08(설명회)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n90"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "ee2fe684c7",
-"url": "https://www.kyobit.com/news/articleView.html?idxno=6255",
-"host": "kyobit.com",
-"name": "교육을 비추다 2026-07-18",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n77"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "ffe6540234",
-"url": "https://www.kyobit.com/news/articleView.html?idxno=633",
-"host": "kyobit.com",
-"name": "교육을 비추다(2026학년도 입학전형 총정리)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n87",
-"n88"
-],
-"dated": "2025-05-30",
-"cycle": "m"
-},
-{
-"id": "c6661095ca",
-"url": "https://www.kyobit.com/news/articleView.html?idxno=634",
-"host": "kyobit.com",
-"name": "교육을 비추다 2025-06-10",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n95",
-"n96"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "17b6978912",
-"url": "https://www.kyobit.com/news/articleView.html?idxno=6487",
-"host": "kyobit.com",
-"name": "교육을 비추다 2026-08-02",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n91"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "ca5ae7e34e",
-"url": "https://www.kyobit.com/news/articleView.html?idxno=6531",
-"host": "kyobit.com",
-"name": "교육을 비추다 2026-08-06",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n73",
-"n96"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "98d1321e18",
-"url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4082748",
-"host": "kyongbuk.co.kr",
-"name": "경북일보 2026-09-01(대학부설 약 305명 언급)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n75",
-"n79"
-],
-"dated": "2026-09-01",
-"cycle": "m"
-},
-{
-"id": "241e67d902",
-"url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4083734",
-"host": "kyongbuk.co.kr",
-"name": "경북일보 2026-09-09",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n76",
-"n87",
-"n88"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "35f3f7e796",
-"url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4085975",
-"host": "kyongbuk.co.kr",
-"name": "경북일보 2026-10-01(영재학교 전환)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n88"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "6f8a6eadb9",
-"url": "https://www.kyosu.net/news/articleView.html?idxno=143365",
-"host": "kyosu.net",
-"name": "교수신문 가천대 과학영재교육원 2026학년도 신입생 모집",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n23"
-],
-"dated": "2025-09-09",
-"cycle": "m"
-},
-{
-"id": "8b72cbd20a",
-"url": "https://www.localnaeil.com/News/View/644445",
-"host": "localnaeil.com",
-"name": "지역내일(영재학교·과학고 입학전형 개선 방안 정리)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gsPlan",
-"q-hs-prep"
-],
-"dated": "2020-11-26",
-"cycle": "m"
-},
-{
-"id": "1bde410878",
-"url": "https://www.localnaeil.com/News/View/651749",
-"host": "localnaeil.com",
-"name": "내일신문 내일교육(입시 결과 해석 시 '기준' 확인)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-ipgyeol-read"
-],
-"dated": "2024-07-30",
-"cycle": "m"
-},
-{
-"id": "74f5703144",
-"url": "https://www.localnaeil.com/News/View/653573/1",
-"host": "localnaeil.com",
-"name": "내일교육(서울대 2028학년도 입학전형 주요 사항)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-snu",
-"q-univ-nsu",
-"q-univ-rural",
-"r-snu-ku-choejeo"
-],
-"dated": "2025-10-22",
-"cycle": "m"
-},
-{
-"id": "e948cba139",
-"url": "https://www.localnaeil.com/News/View/653770",
-"host": "localnaeil.com",
-"name": "지역내일(작년 일정)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n15"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "ed4aa30f4d",
-"url": "https://www.localnaeil.com/News/View/654075",
-"host": "localnaeil.com",
-"name": "내일교육, 2027학년도 대학 입시 캘린더(대교협 시행계획 인용)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"dy",
-"dy27"
-],
-"dated": "2026-02-26",
-"cycle": "m"
-},
-{
-"id": "ad03b68edc",
-"url": "https://www.localnaeil.com/News/View/654760",
-"host": "localnaeil.com",
-"name": "지역내일 2026-09-01",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n75"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "10d6056149",
-"url": "https://m.seoul.co.kr/news/2023/12/10/20231210500085",
-"host": "m.seoul.co.kr",
-"name": "서울신문(공정위, 입시 학원·출판사 9곳 부당광고 제재)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"ftcAd",
-"q-eo-prep",
-"q-univ-prep"
-],
-"dated": "2023-12-10",
-"cycle": "m"
-},
-{
-"id": "aa0e26f78d",
-"url": "https://m.thesegye.com/news/view/1065566425791630",
-"host": "m.thesegye.com",
-"name": "세계타임즈: 충북자연과학교육원 부설 영재교육원 개강식",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n35"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "1b1f5b7ef1",
-"url": "https://m.thesegye.com/news/view/1065573779737108",
-"host": "m.thesegye.com",
-"name": "세계일보: 10월 학력평가(고1~3, 서울교육청 주관)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"hakpyeong",
-"hp10",
-"hs",
-"q-mock"
-],
-"dated": "2026-08-02",
-"cycle": "m"
-},
-{
-"id": "2d7b14bff3",
-"url": "https://m.thesegye.com/news/view/1065583713953062",
-"host": "m.thesegye.com",
-"name": "세계타임즈: 충남교육청 2027 고입 기본계획 확정",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n42"
-],
-"dated": "",
-"cycle": "m"
-},
-{
 "id": "bd9e110e68",
 "url": "https://mediahub.seoul.go.kr/archives/2018638",
 "host": "mediahub.seoul.go.kr",
@@ -5856,867 +5126,6 @@
 ],
 "dated": "2026-07-02",
 "cycle": "w"
-},
-{
-"id": "02e09bc790",
-"url": "https://www.medigatenews.com/news/1572454916",
-"host": "medigatenews.com",
-"name": "메디게이트(권역 대상 대학)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"kwonMed"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "ae54c56444",
-"url": "https://mobile.newsis.com/view/NISX20250812_0003287777",
-"host": "mobile.newsis.com",
-"name": "뉴시스(영재학교·과학고 의대 진학 제재)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gs",
-"medPenalty",
-"q-hs-types",
-"q-med-gifted",
-"r-refund"
-],
-"dated": "2025-08-12",
-"cycle": "m"
-},
-{
-"id": "d88ce60668",
-"url": "https://mobile.newsis.com/view/NISX20260227_0003529260",
-"host": "mobile.newsis.com",
-"name": "뉴시스(지역의사법 시행령 재입법예고안)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-med-ldoc-capital",
-"q-med-ldoc-city",
-"r-capital-ldoc"
-],
-"dated": "2026-02-27",
-"cycle": "m"
-},
-{
-"id": "9a1530419a",
-"url": "https://www.mt.co.kr/article/2026062409025273762",
-"host": "mt.co.kr",
-"name": "머니투데이(비수도권 의대 지역 선발 비율)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"localRate",
-"q-med",
-"r-med-seoul"
-],
-"dated": "2026-06-24",
-"cycle": "m"
-},
-{
-"id": "03a49d7688",
-"url": "https://www.mt.co.kr/policy/2026/05/29/2026052910161527504",
-"host": "mt.co.kr",
-"name": "머니투데이(영재학교 경쟁률·중복지원 금지)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gs",
-"gsRate",
-"q-hs-types",
-"r-ksa-multi"
-],
-"dated": "2026-05-29",
-"cycle": "m"
-},
-{
-"id": "417ccf5a68",
-"url": "https://www.mt.co.kr/policy/2026/09/11/2026091121522046272",
-"host": "mt.co.kr",
-"name": "머니투데이(계약학과 경쟁률)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-semi",
-"semi1"
-],
-"dated": "2026-09-11",
-"cycle": "m"
-},
-{
-"id": "bfb13f4bd8",
-"url": "https://www.mt.co.kr/policy/2026/10/21/2026102118281547657",
-"host": "mt.co.kr",
-"name": "머니투데이(국교위 시안 발표 연내로 연기, 10/21 회의)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-reform"
-],
-"dated": "2026-10-21",
-"cycle": "m"
-},
-{
-"id": "649b9c250d",
-"url": "https://www.mt.co.kr/tech/2026/03/27/2026032710122977237",
-"host": "mt.co.kr",
-"name": "머니투데이: 스마트폰 사용자 10명 중 2.2명 '과의존'(2026-03-27)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-life-phone-grades"
-],
-"dated": "2026-10-27",
-"cycle": "m"
-},
-{
-"id": "195a5d876e",
-"url": "https://www.namdonews.com/news/articleView.html?idxno=923945",
-"host": "namdonews.com",
-"name": "남도일보 광주창의융합교육원 내년 영재교육 대상자 948명 선발(2026-09-20)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n50"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "13dac20211",
-"url": "https://news.mtn.co.kr/news-detail/2026092110295929013",
-"host": "news.mtn.co.kr",
-"name": "MTN 광주창의융합교육원 영재교육 대상자 948명 뽑는다(2026-09-21)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n50"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "9921e501bb",
-"url": "https://www.newsis.com/view/NISX20231227_0002572627",
-"host": "newsis.com",
-"name": "뉴시스(2028 대입 개편 확정)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"csat28",
-"q-suneung"
-],
-"dated": "2023-12-27",
-"cycle": "m"
-},
-{
-"id": "d544f12649",
-"url": "https://www.newsis.com/view/NISX20240116_0002594432",
-"host": "newsis.com",
-"name": "뉴시스(전국 단위 자사고 지역인재 20%)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-hs-national-jasa"
-],
-"dated": "2024-01-16",
-"cycle": "m"
-},
-{
-"id": "81b3f9c286",
-"url": "https://www.newsis.com/view/NISX20240724_0002824489",
-"host": "newsis.com",
-"name": "중간·기말 안 보는 중1 자유학기…'AI 교과서 쪽지시험' 확대(뉴시스)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-dir-free"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "c73a8b91c1",
-"url": "https://www.newsis.com/view/NISX20260112_0003473163",
-"host": "newsis.com",
-"name": "뉴시스 전북 평준화 고교 배정 공개 추첨(2026-01-12)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n56"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "1109d1a018",
-"url": "https://www.newsis.com/view/NISX20260331_0003570832",
-"host": "newsis.com",
-"name": "뉴시스: 평가원 2027학년도 수능 시행 기본계획(원서·모의평가·성적 통지)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"csat27p",
-"hs"
-],
-"dated": "2026-03-31",
-"cycle": "m"
-},
-{
-"id": "1b2985ab0d",
-"url": "https://www.newsis.com/view/NISX20260612_0003667413",
-"host": "newsis.com",
-"name": "뉴시스(2028 주요대 수시 N수생 지원 제한, 입시업체 분석 인용)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-univ-nsu"
-],
-"dated": "2026-06-14",
-"cycle": "m"
-},
-{
-"id": "e85f578a93",
-"url": "https://www.newsnjeju.com/news/articleView.html?idxno=301618",
-"host": "newsnjeju.com",
-"name": "뉴스N제주 2027학년도 고교체제·고입전형 무엇이 달라지나(2026-10-07)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n69"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "d8223c9ef8",
-"url": "https://www.newspim.com/news/view/20260805000395",
-"host": "newspim.com",
-"name": "뉴스핌(국가교육위원회 중장기 계획)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"nec",
-"q-reform",
-"r-fl-abolish"
-],
-"dated": "2026-08-05",
-"cycle": "m"
-},
-{
-"id": "fc032574f6",
-"url": "https://nocutnews.co.kr/news/6563248",
-"host": "nocutnews.co.kr",
-"name": "노컷뉴스(과학고 출신 KAIST 449명, 종로학원)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n73",
-"n95",
-"q-kp",
-"sciKaist"
-],
-"dated": "2026-08-17",
-"cycle": "m"
-},
-{
-"id": "4a4e7148fd",
-"url": "https://www.nocutnews.co.kr/news/6593540",
-"host": "nocutnews.co.kr",
-"name": "노컷뉴스(교육청 2027학년도 수능 D-30 안내)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-csat-day-rules"
-],
-"dated": "2026-10-19",
-"cycle": "m"
-},
-{
-"id": "79bb5f56cf",
-"url": "https://www.pressian.com/pages/articles/2025102215075660014",
-"host": "pressian.com",
-"name": "프레시안 2025-10-22(같은 일정)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n58"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "7ab2356f17",
-"url": "https://sanedu.com/?p=37214",
-"host": "sanedu.com",
-"name": "산에듀(2026 대학별 고교 유형 신입생, 대학알리미 분석)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"hsType",
-"q-snu"
-],
-"dated": "2026-07-16",
-"cycle": "m"
-},
-{
-"id": "1f761abd16",
-"url": "https://www.segye.com/newsView/20260122517600",
-"host": "segye.com",
-"name": "세계일보(KAIST·GIST·UNIST 학교폭력 감점 지원자 전원 불합격, 황정아 의원실)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-sch-violence"
-],
-"dated": "2026-01-22",
-"cycle": "m"
-},
-{
-"id": "1d08ebd825",
-"url": "https://www.segye.com/newsView/20260903512698",
-"host": "segye.com",
-"name": "세계일보(진료권 359·광역권 131명)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-med-ldoc"
-],
-"dated": "2026-09-03",
-"cycle": "m"
-},
-{
-"id": "f24beb6e49",
-"url": "https://sgsg.hankyung.com/article/2024101180851",
-"host": "sgsg.hankyung.com",
-"name": "생글생글(민사고 3,155만 원)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"cost4",
-"q-cost"
-],
-"dated": "2024-10-11",
-"cycle": "m"
-},
-{
-"id": "edb73007ec",
-"url": "https://sgsg.hankyung.com/article/2025101004841",
-"host": "sgsg.hankyung.com",
-"name": "생글생글(주요대 권장과목 정리)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"courses",
-"q-courses"
-],
-"dated": "2025-10-13",
-"cycle": "m"
-},
-{
-"id": "71ed254ac5",
-"url": "https://sgsg.hankyung.com/article/2026052962091",
-"host": "sgsg.hankyung.com",
-"name": "생글생글·한국경제(2028 의대 수시 수능 최저)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"r-snu-ku-choejeo"
-],
-"dated": "2026-06-01",
-"cycle": "m"
-},
-{
-"id": "7c81d3477f",
-"url": "https://supple.kr/news/cmscopdkq001u13xbpwol3hsi",
-"host": "supple.kr",
-"name": "서플·연합뉴스(국교위 \"확정된 바 없음\")",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"necNo",
-"q-reform"
-],
-"dated": "2026-08-03",
-"cycle": "m"
-},
-{
-"id": "bd433fa452",
-"url": "https://supple.kr/news/cmv9a8cd400i1lxjcjdsr5y7e",
-"host": "supple.kr",
-"name": "한겨레 단독(서플 재게재): 2026학년도 대입 학교폭력 기록 지원 93% 불합격, 강경숙 의원실 교육부 자료",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-sch-violence"
-],
-"dated": "2026-10-15",
-"cycle": "m"
-},
-{
-"id": "423f6281ca",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=540170",
-"host": "veritas-a.com",
-"name": "베리타스알파(서울과고 기출과 합격 재학생 풀이 영상)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-hs-prep",
-"sshVideo"
-],
-"dated": "2025-01-22",
-"cycle": "m"
-},
-{
-"id": "b6a3bc7f36",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=555130",
-"host": "veritas-a.com",
-"name": "베리타스알파(서울 지역 과학고 2026 요강)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-contest",
-"q-hs-fail",
-"q-hs-types",
-"r-contest",
-"r-ksa-sci",
-"r-prestudy",
-"seoulSh"
-],
-"dated": "2025-05-23",
-"cycle": "m"
-},
-{
-"id": "a6ce9e5ec0",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=567022",
-"host": "veritas-a.com",
-"name": "베리타스알파 광양제철고 2026 요강(2025-08-12)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n64"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "2002eb7258",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=588702",
-"host": "veritas-a.com",
-"name": "베리타스알파: 부산외고 경쟁률",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"fl"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "30d8ba4a34",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=590245",
-"host": "veritas-a.com",
-"name": "베리타스알파(2026 외고 경쟁률)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"flRate"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "cb699b8e7c",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=593470",
-"host": "veritas-a.com",
-"name": "베리타스알파(한국과학영재학교 2단계 기출 첫 공개)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"ksaOpen",
-"q-hs-prep"
-],
-"dated": "2026-01-08",
-"cycle": "m"
-},
-{
-"id": "51f35b62b6",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=604064",
-"host": "veritas-a.com",
-"name": "베리타스알파 2027고입전형 기본계획 공개(2026-04-01)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n03",
-"n12",
-"n21",
-"n30",
-"n33",
-"n37",
-"n42",
-"n47",
-"n48",
-"n51",
-"n56",
-"n62",
-"n63",
-"n69"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "10f7b9ac13",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=612371",
-"host": "veritas-a.com",
-"name": "베리타스알파 22개 과고 모집·일정",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n29",
-"n36",
-"n41",
-"n46"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "353ee6160a",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=620067",
-"host": "veritas-a.com",
-"name": "베리타스알파(영재학교 기출 공개 5년째 현황)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"gsOpen",
-"q-hs-prep",
-"q-univ-prep"
-],
-"dated": "2026-07-21",
-"cycle": "m"
-},
-{
-"id": "5d2005a74c",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=622481",
-"host": "veritas-a.com",
-"name": "베리타스알파 고입캘린더(26/08/14~)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n62"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "528b453a27",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=622599",
-"host": "veritas-a.com",
-"name": "베리타스알파 상산고 2027요강 최초공개(2026-08-10, 수정 09-07)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n57"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "7d0a012a26",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=624586",
-"host": "veritas-a.com",
-"name": "베리타스알파 대전동신 경쟁률·일정",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n29"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "ec2f4779cb",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=624722",
-"host": "veritas-a.com",
-"name": "베리타스알파 한성 경쟁률·일정",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n01"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "2fbbc365b2",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=624727",
-"host": "veritas-a.com",
-"name": "베리타스알파 인천과고 경쟁률·일정",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n10"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "7770744511",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=624729",
-"host": "veritas-a.com",
-"name": "베리타스알파 인천진산 경쟁률·일정",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n11"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "a338e4a81f",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=624939",
-"host": "veritas-a.com",
-"name": "베리타스알파 2027고입전형 기본계획 공개(시작일) / [2027과고경쟁률] 세종 4.44대1(마감일)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n02",
-"n46",
-"n76",
-"n82",
-"n87",
-"n88",
-"q-hs-when",
-"sci27",
-"sh",
-"shDate"
-],
-"dated": "2026-08-27",
-"cycle": "m"
-},
-{
-"id": "09ef86827d",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=625115",
-"host": "veritas-a.com",
-"name": "베리타스알파 [2027과고경쟁률] 제주 3.13대1(2026-08-28)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n68"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "6556ffe389",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=625418",
-"host": "veritas-a.com",
-"name": "베리타스알파: 경기 지역 과학고(경기북과학고) 3단계 전형",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n18",
-"n19",
-"n20",
-"sh"
-],
-"dated": "2026-08-31",
-"cycle": "m"
-},
-{
-"id": "0c991f9c92",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=625419",
-"host": "veritas-a.com",
-"name": "베리타스알파 [2027과고경쟁률] 전북 1.89대1(2026-08-31)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n55"
-],
-"dated": "2026-08-31",
-"cycle": "m"
-},
-{
-"id": "9f71671634",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=626158",
-"host": "veritas-a.com",
-"name": "베리타스알파 22개교 경쟁률",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n10",
-"n41",
-"n46"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "98e6824850",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=626283",
-"host": "veritas-a.com",
-"name": "베리타스알파 [2027과고경쟁률] 전남 2.93대1(2026-09-04)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n62"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "9d40389a39",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=626492",
-"host": "veritas-a.com",
-"name": "베리타스알파: 2027 자사고 전형 일정(2026-09-07)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n04",
-"n13",
-"n22",
-"n90"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "ebff52a5ad",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=630540",
-"host": "veritas-a.com",
-"name": "베리타스알파: 고입 캘린더(2026-10-05)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n21",
-"n30",
-"n33",
-"n43",
-"n48",
-"n57",
-"n64",
-"n90"
-],
-"dated": "2026-10-05",
-"cycle": "m"
-},
-{
-"id": "fade35ab93",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=630758",
-"host": "veritas-a.com",
-"name": "베리타스알파 광양제철고 2027 입학설명회(2026-10-06)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n64"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "9c5c2fddbc",
-"url": "https://www.veritas-a.com/news/articleView.html?idxno=632093",
-"host": "veritas-a.com",
-"name": "베리타스알파: 포항제철고 추가 입학설명회(2026-10-16)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n90"
-],
-"dated": "2026-10-16",
-"cycle": "m"
-},
-{
-"id": "9ad4b0b5ad",
-"url": "https://view.asiae.co.kr/article/2026033015095586853",
-"host": "view.asiae.co.kr",
-"name": "아시아경제 전남교육청 2027 고입전형 확정(2026-03-30)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n63"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "b6aaf91b72",
-"url": "https://view.asiae.co.kr/article/2026061210295190080",
-"host": "view.asiae.co.kr",
-"name": "아시아경제(대학부설 27곳)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-eo-when",
-"q-uni-eo",
-"u27"
-],
-"dated": "2026-06-12",
-"cycle": "m"
-},
-{
-"id": "e9d954eded",
-"url": "https://view.asiae.co.kr/article/2026090217564289814",
-"host": "view.asiae.co.kr",
-"name": "아시아경제(지역의사 지원 길잡이)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"localDoc",
-"q-med-ldoc",
-"r-local-doctor",
-"r-med-seoul"
-],
-"dated": "2026-09-02",
-"cycle": "m"
-},
-{
-"id": "1413d0cc8c",
-"url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2336580",
-"host": "webeconomy.co.kr",
-"name": "웹이코노미 2026-10-15",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"n98"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "5d8cc736bb",
-"url": "https://weekly.khan.co.kr/article/202508180600041",
-"host": "weekly.khan.co.kr",
-"name": "주간경향(학교 유형별 학부모 부담)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"cost3",
-"fl",
-"q-cost"
-],
-"dated": "2025-08-18",
-"cycle": "m"
-},
-{
-"id": "ab65ecb8f9",
-"url": "https://weekly.khan.co.kr/article/202606080600021/",
-"host": "weekly.khan.co.kr",
-"name": "주간경향(사교육걱정없는세상 2026 사교육 실태 백서 인용)",
-"kind": "기사",
-"cat": "언론",
-"used": [
-"q-eo-prep",
-"wp26"
-],
-"dated": "2026-06-08",
-"cycle": "m"
 },
 {
 "id": "6f4b064727",
@@ -7281,7 +5690,7 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
+"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사 신입생 선발 모집 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
@@ -7336,16 +5745,18 @@
 "id": "bbe8a0855d",
 "url": "https://csatcdn.kice.re.kr/resources/pdf/guideline.pdf",
 "host": "csatcdn.kice.re.kr",
-"name": "평가원: 2027학년도 대학수학능력시험 실시요강(원서 접수·성적 통지)",
+"name": "평가원 2027학년도 수능 실시요강(이의 신청 11/19~23·정답 확정 12/1 17시·성적 통지 12/11)",
 "kind": "공식",
 "cat": "입시 공식 기관",
 "used": [
+"ans",
 "csat27g",
 "dy",
 "kice-guide27",
 "q-csat-answer-objection",
 "q-csat-apply",
 "q-csat-day-rules",
+"q-g3-after",
 "q-past"
 ],
 "dated": "2026-08",
@@ -7360,6 +5771,7 @@
 "cat": "입시 공식 기관",
 "used": [
 "csat27k",
+"hs",
 "mock6",
 "q-mock",
 "q-retake"
@@ -7849,7 +6261,8 @@
 "q-hs-when",
 "q-med",
 "q-med-gifted",
-"r-contest"
+"r-contest",
+"r-refund"
 ],
 "dated": "",
 "cycle": "w"
@@ -7898,6 +6311,19 @@
 "url": "https://www.bugil.hs.kr/admission/guideline.php",
 "host": "bugil.hs.kr",
 "name": "북일고 입학안내",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n43"
+],
+"dated": "",
+"cycle": "w"
+},
+{
+"id": "bed849cd3e",
+"url": "https://www.bugil.hs.kr/news/notice.php?ptype=view&idx=3787&page=&code=notice&category=101",
+"host": "bugil.hs.kr",
+"name": "북일고 입학공지 '2027학년도 신입생 모집을 위한 설명회 일정 안내'(2026-03-23)",
 "kind": "공식",
 "cat": "학교",
 "used": [
@@ -8157,7 +6583,7 @@
 "id": "f15a1ad844",
 "url": "https://samyook.jge.ms.kr/xboard/board.php?mode=downpost&tbnum=31&sCat=0&page=1&keyset=&searchword=&number=9314&file_num=23366",
 "host": "samyook.jge.ms.kr",
-"name": "'2027학년도 광주광역시 고등학교 신입생 입학전형 주요 일정'(PDF), 베리타스알파 2026-04-01과 같음",
+"name": "'2027학년도 광주광역시 고등학교 신입생 입학전형 주요 일정'(PDF, 열 대응 확인 필요)",
 "kind": "공식",
 "cat": "학교",
 "used": [

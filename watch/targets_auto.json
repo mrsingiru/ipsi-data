@@ -1,7 +1,7 @@
 {
  "note": "자동으로 만든 공식 공고 읽기 대상(tools/build_targets.py, ipsi-site). 페이지를 게시할 때마다 다시 만든다. 손으로 적은 watch/targets.json이 같은 id보다 우선.",
  "made": "2026-11-07",
- "ver": "v28.121",
+ "ver": "v28.125",
  "horizonDays": 120,
  "targets": [
   {
@@ -978,6 +978,10 @@
     {
      "kind": "post",
      "url": "https://www.bugil.hs.kr/admission/guideline.php"
+    },
+    {
+     "kind": "post",
+     "url": "https://www.bugil.hs.kr/news/notice.php?ptype=view&idx=3787&page=&code=notice&category=101"
     }
    ],
    "title": [
@@ -1456,6 +1460,10 @@
     {
      "kind": "post",
      "url": "https://school.jbedu.kr/ejbs/M010402/view/6780389"
+    },
+    {
+     "kind": "post",
+     "url": "https://school.jbedu.kr/ejbs/M010402/view/6459411"
     }
    ],
    "title": [
@@ -2132,6 +2140,10 @@
     {
      "kind": "board",
      "url": "https://www.dgist.ac.kr/bbs/BBSMSTR_000000000712/list.do"
+    },
+    {
+     "kind": "site",
+     "url": "https://www.seit.kr/sub01_06_02.html"
     }
    ],
    "title": [
@@ -2336,6 +2348,94 @@
    "auto": true
   },
   {
+   "id": "n90",
+   "org": "포항제철고",
+   "what": "앞으로 120일 안 일정 5단계",
+   "pages": [
+    {
+     "kind": "board",
+     "url": "https://school.gyo6.net/pocheolhs/na/ntt/selectNttList.do?mi=10205955&bbsId=20000337"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "등록",
+    "면접",
+    "발표",
+    "원서",
+    "접수"
+   ],
+   "expect": [
+    [
+     "2026-12-07",
+     "2026-12-11"
+    ],
+    [
+     "2026-12-15",
+     "2026-12-15"
+    ],
+    [
+     "2026-12-18",
+     "2026-12-18"
+    ],
+    [
+     "2026-12-24",
+     "2026-12-24"
+    ],
+    [
+     "2026-12-24",
+     "2026-12-29"
+    ]
+   ],
+   "auto": true
+  },
+  {
+   "id": "n91",
+   "org": "김천고",
+   "what": "앞으로 120일 안 일정 5단계",
+   "pages": [
+    {
+     "kind": "post",
+     "url": "https://school.gyo6.net/gimcheon/main.do"
+    }
+   ],
+   "title": [
+    "2027"
+   ],
+   "near": [
+    "등록",
+    "면접",
+    "발표",
+    "원서",
+    "접수"
+   ],
+   "expect": [
+    [
+     "2026-12-07",
+     "2026-12-11"
+    ],
+    [
+     "2026-12-15",
+     "2026-12-15"
+    ],
+    [
+     "2026-12-18",
+     "2026-12-18"
+    ],
+    [
+     "2026-12-24",
+     "2026-12-24"
+    ],
+    [
+     "2026-12-24",
+     "2026-12-29"
+    ]
+   ],
+   "auto": true
+  },
+  {
    "id": "n92",
    "org": "경국대 영재원",
    "what": "앞으로 120일 안 일정 2단계",
@@ -2415,6 +2515,10 @@
     {
      "kind": "post",
      "url": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812"
+    },
+    {
+     "kind": "post",
+     "url": "https://www.gne.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1464&q_bbsDocNo=1500285"
     }
    ],
    "title": [
