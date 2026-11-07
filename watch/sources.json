@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.127)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.135)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-07",
-"ver": "v28.127",
-"count": 482,
+"ver": "v28.135",
+"count": 470,
 "sources": [
 {
 "id": "1084a42981",
@@ -870,7 +870,7 @@
 "id": "997cb8ad04",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
 "host": "home.pen.go.kr",
-"name": "후기고(특목고, 자사고, 학교장전형고), 부산광역시교육청 고입포털",
+"name": "부산광역시교육청 고입포털 후기고(특목고·자사고·학교장전형고) 안내",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1288,7 +1288,7 @@
 "used": [
 "n08"
 ],
-"dated": "2026-07-23",
+"dated": "",
 "cycle": "w"
 },
 {
@@ -2363,7 +2363,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -2426,20 +2426,6 @@
 "r-fl-abolish"
 ],
 "dated": "2026-09-07",
-"cycle": "m"
-},
-{
-"id": "e1ca69a35a",
-"url": "https://noworry.kr/policyarchive/?bmode=view&idx=171492625",
-"host": "noworry.kr",
-"name": "사교육걱정없는세상 2026 사교육 실태 백서 공개(단체 원문 글)",
-"kind": "기타",
-"cat": "기타",
-"used": [
-"noworry26",
-"q-eo-prep"
-],
-"dated": "2026-05-27",
 "cycle": "m"
 },
 {
@@ -2534,6 +2520,19 @@
 "q-life-school-phone-ban"
 ],
 "dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "2104549044",
+"url": "https://schoolzone.emac.kr/gis/gis.do",
+"host": "schoolzone.emac.kr",
+"name": "학구도 안내 서비스(한국교육시설안전원) — 고지: 열람용 참고 자료·법적 효력 없음, 정확한 학구는 교육지원청 확인",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-sch-assign"
+],
+"dated": "",
 "cycle": "m"
 },
 {
@@ -3115,6 +3114,19 @@
 "n09"
 ],
 "dated": "",
+"cycle": "w"
+},
+{
+"id": "59fa484dd6",
+"url": "https://gifted.dongguk.edu/",
+"host": "gifted.dongguk.edu",
+"name": "2027학년도 동국대학교 과학영재교육원 신입생 모집요강 — 전형일정(심화과정)",
+"kind": "공식",
+"cat": "대학 입학처",
+"used": [
+"n08"
+],
+"dated": "2026-07-21",
 "cycle": "w"
 },
 {
@@ -4100,20 +4112,6 @@
 "cycle": "w"
 },
 {
-"id": "eb86b9718e",
-"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=207070",
-"host": "eiec.kdi.re.kr",
-"name": "교육부 영재학교·과학고 입학전형 개선방안(2020-11-17 발표, 2022학년도 입학전형부터, KDI 경제정보센터 게재)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"gs",
-"r-ksa-multi"
-],
-"dated": "2020-11-17",
-"cycle": "w"
-},
-{
 "id": "298db92e2a",
 "url": "https://eiec.kdi.re.kr/policy/materialView.do?num=246533",
 "host": "eiec.kdi.re.kr",
@@ -4686,12 +4684,14 @@
 "id": "e3242213da",
 "url": "https://www.moe.go.kr/boardCnts/view.do?boardID=294&boardSeq=82605&lev=0&searchType=null&statusYN=W&page=1&s=moe&m=020402&opType=N",
 "host": "moe.go.kr",
-"name": "교육부 보도자료: 영재학교·과학고 입학전형 개선방안 발표",
+"name": "교육부 보도자료: 영재학교·과학고 입학전형 개선방안(2020-11-17 — 영재학교 1곳만 지원·평가 문항 공개의 시작, 2022학년도 입학전형부터)",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
+"gs",
 "gsPlan",
-"q-hs-prep"
+"q-hs-prep",
+"r-ksa-multi"
 ],
 "dated": "2020-11-16",
 "cycle": "w"
@@ -4903,11 +4903,13 @@
 "id": "422ec90f8f",
 "url": "https://www.law.go.kr/LSW//lsSideInfoP.do?lsiSeq=268711&joNo=0010&joBrNo=00&docCls=jo&urlMode=lsScJoRltInfoR",
 "host": "law.go.kr",
-"name": "같은 법 제10조(대학등의 입학전형 등), 국가법령정보센터",
+"name": "공교육 정상화 촉진 및 선행교육 규제에 관한 특별법 제10조(대학등의 입학전형 등), 국가법령정보센터",
 "kind": "공식",
 "cat": "법령·판례",
 "used": [
-"q-sch-prestudy"
+"preLaw",
+"q-sch-prestudy",
+"q-univ-prep"
 ],
 "dated": "2025-01-31",
 "cycle": "w"
@@ -5098,47 +5100,33 @@
 "cycle": "w"
 },
 {
-"id": "64d4fd7f29",
-"url": "https://www.nepla.ai/law/공교육-정상화-촉진-및-선행교육-규제에-관한-특별법",
-"host": "nepla.ai",
-"name": "공교육정상화법 제10조(법령 정보)",
-"kind": "법령 해설",
-"cat": "법령·판례",
-"used": [
-"preLaw",
-"q-univ-prep"
-],
-"dated": "2026-10-17",
-"cycle": "m"
-},
-{
-"id": "52d3acfc88",
-"url": "https://www.nepla.ai/law/학원의설립·운영및과외교습에관한법률",
-"host": "nepla.ai",
-"name": "학원법(법령 정보)",
-"kind": "법령 해설",
+"id": "02c2acd25e",
+"url": "https://www.law.go.kr/법령/학원의설립·운영및과외교습에관한법률",
+"host": "law.go.kr",
+"name": "학원의 설립·운영 및 과외교습에 관한 법률(학원법), 국가법령정보센터",
+"kind": "공식",
 "cat": "법령·판례",
 "used": [
 "hagwonLaw",
 "q-hagwon"
 ],
-"dated": "2026-10-16",
-"cycle": "m"
+"dated": "",
+"cycle": "w"
 },
 {
-"id": "5fe66454da",
-"url": "https://www.nepla.ai/wiki/교육-문화-언론/평생교육-학원/-유권해석-학원의-설립-운영-및-과외교습에-관한-법률-시행령-별표-4-교습비등-반환기준-제18조제3항-관련-1zp8jj278j43",
-"host": "nepla.ai",
-"name": "교습비 반환기준 유권해석(시행령 별표4)",
-"kind": "법령 해설",
+"id": "276d6fbe33",
+"url": "https://www.law.go.kr/법령/학원의설립·운영및과외교습에관한법률시행령",
+"host": "law.go.kr",
+"name": "학원의 설립·운영 및 과외교습에 관한 법률 시행령 [별표 4] 교습비등 반환기준, 국가법령정보센터",
+"kind": "공식",
 "cat": "법령·판례",
 "used": [
 "q-hagwon",
 "q-refund",
 "refund"
 ],
-"dated": "2026-10-17",
-"cycle": "m"
+"dated": "",
+"cycle": "w"
 },
 {
 "id": "bd9e110e68",
@@ -5154,10 +5142,10 @@
 "cycle": "w"
 },
 {
-"id": "6f4b064727",
-"url": "https://cgesc.ajou.ac.kr/files/tmp/785005001725494491.pdf",
+"id": "f8c1300c8f",
+"url": "https://cgesc.ajou.ac.kr/main/main.action",
 "host": "cgesc.ajou.ac.kr",
-"name": "아주대 과학영재교육원 2025학년도 모집요강(PDF)",
+"name": "2027학년도 아주대학교 과학영재교육원 심화 과정 신입생 모집 안내 — 2 선발일정(신입생 선발 누리집 › 모집요강)",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
@@ -5177,217 +5165,6 @@
 "n29"
 ],
 "dated": "2026-10-26",
-"cycle": "w"
-},
-{
-"id": "9c8176b2ce",
-"url": "https://ged.kedi.re.kr",
-"host": "ged.kedi.re.kr",
-"name": "GED(지원·결과 조회)",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"un"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "5e0683aed0",
-"url": "https://ged.kedi.re.kr/",
-"host": "ged.kedi.re.kr",
-"name": "GED(영재교육 종합 데이터베이스)",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"OFFICIAL_LINKS"
-],
-"dated": "2026-10-18",
-"cycle": "m"
-},
-{
-"id": "302423c27f",
-"url": "https://ged.kedi.re.kr/intro/gedinfo/intro_n_01.do",
-"host": "ged.kedi.re.kr",
-"name": "",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"ged"
-],
-"dated": "",
-"cycle": "m"
-},
-{
-"id": "f64291271c",
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do",
-"host": "ged.kedi.re.kr",
-"name": "국립공주대 과학영재교육원 2027학년도 초등부 심화과정 신입생 선발 모집요강 — Ⅲ. 전형 일정(GED 영재선발 공고 첨부)",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"OFFICIAL_LINKS",
-"eo",
-"ged",
-"n00",
-"n05",
-"n07",
-"n28",
-"n31",
-"n32",
-"n35",
-"n40",
-"n44",
-"n45",
-"n49",
-"q-eo-class",
-"q-eo-prep",
-"q-eo-quit",
-"q-eo-recommend",
-"q-eo-sw",
-"q-eo-when",
-"q-uni-eo",
-"r-once",
-"r-one-center"
-],
-"dated": "2026-11-05",
-"cycle": "w"
-},
-{
-"id": "62552fa459",
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=15",
-"host": "ged.kedi.re.kr",
-"name": "GED 영재선발 공고(경기 항목)",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n16",
-"n17",
-"n27"
-],
-"dated": "",
-"cycle": "w"
-},
-{
-"id": "32fab3097e",
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=18",
-"host": "ged.kedi.re.kr",
-"name": "GED 영재선발 공고(경기 항목)",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n23",
-"n24",
-"n25"
-],
-"dated": "",
-"cycle": "w"
-},
-{
-"id": "7890ad7f4a",
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=3",
-"host": "ged.kedi.re.kr",
-"name": "GED 영재선발 공고",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n05",
-"n07"
-],
-"dated": "",
-"cycle": "w"
-},
-{
-"id": "9c74588d2b",
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=31",
-"host": "ged.kedi.re.kr",
-"name": "GED 영재선발 공고 목록 31쪽 '2027학년도 전주교육대학교 영재교육원 영재교육대상자 모집요강'",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n54",
-"n60"
-],
-"dated": "",
-"cycle": "w"
-},
-{
-"id": "91653952b9",
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=32",
-"host": "ged.kedi.re.kr",
-"name": "GED 영재선발 공고 목록 32~33쪽",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n61"
-],
-"dated": "",
-"cycle": "w"
-},
-{
-"id": "14c73a1a4c",
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=33",
-"host": "ged.kedi.re.kr",
-"name": "GED 영재선발 공고 목록 33쪽",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n61"
-],
-"dated": "",
-"cycle": "w"
-},
-{
-"id": "b8024ef8a8",
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=4",
-"host": "ged.kedi.re.kr",
-"name": "GED 영재선발 공고",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n06"
-],
-"dated": "",
-"cycle": "w"
-},
-{
-"id": "79161c316a",
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=45",
-"host": "ged.kedi.re.kr",
-"name": "GED 영재선발 공고 목록 45쪽 '2027학년도 제주융합과학연구원 영재교육원 영재교육대상자 전형 계획 공고'",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n67",
-"n70"
-],
-"dated": "",
-"cycle": "w"
-},
-{
-"id": "c8c6d5787e",
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=8",
-"host": "ged.kedi.re.kr",
-"name": "GED 영재선발 공고(공고 존재만 확인, 게시일 미표시)",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n09"
-],
-"dated": "",
-"cycle": "w"
-},
-{
-"id": "ae31ade975",
-"url": "https://ged.kedi.re.kr/slct/noti/slctNotiStat.do?pageIndex=9",
-"host": "ged.kedi.re.kr",
-"name": "GED 영재선발 공고 목록(광주는 8~10쪽)",
-"kind": "공식",
-"cat": "영재교육",
-"used": [
-"n50"
-],
-"dated": "",
 "cycle": "w"
 },
 {
@@ -5412,6 +5189,19 @@
 "cat": "영재교육",
 "used": [
 "n39"
+],
+"dated": "",
+"cycle": "w"
+},
+{
+"id": "d5521fb82b",
+"url": "http://gifted.daejin.ac.kr/giftedindex.do",
+"host": "gifted.daejin.ac.kr",
+"name": "2027학년도 대진대학교 과학영재교육원 신입원생 모집 요강 — 3 전형일정",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n24"
 ],
 "dated": "",
 "cycle": "w"
@@ -5451,6 +5241,19 @@
 "cat": "영재교육",
 "used": [
 "n78"
+],
+"dated": "",
+"cycle": "w"
+},
+{
+"id": "222408b3cb",
+"url": "https://gifted.gachon.ac.kr/main/main.action",
+"host": "gifted.gachon.ac.kr",
+"name": "2027학년도 가천대학교 과학영재교육원 초등심화과정·중등심화과정(중1) 신입생 모집 요강 — 1. 선발 일정(두 요강 같은 일정)",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n23"
 ],
 "dated": "",
 "cycle": "w"
@@ -5635,6 +5438,19 @@
 "cycle": "w"
 },
 {
+"id": "b4ebac173c",
+"url": "https://giftededu.yonsei.ac.kr/",
+"host": "giftededu.yonsei.ac.kr",
+"name": "연세대학교 과학영재교육원 2027학년도 신입생 모집요강(입학전형 일정)",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n06"
+],
+"dated": "2026-08-07",
+"cycle": "w"
+},
+{
 "id": "f969f4d57a",
 "url": "https://www.gise.kr/gise/cm/cntnts/cntntsView.do?mi=10775&cntntsId=1612",
 "host": "gise.kr",
@@ -5716,7 +5532,7 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사 신입생 선발 모집 요강",
+"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
@@ -6277,11 +6093,10 @@
 "id": "78d041e705",
 "url": "https://admission.ksa.hs.kr/iphak_kor/files/2024_KSA_application.pdf",
 "host": "admission.ksa.hs.kr",
-"name": "한국과학영재학교 2024학년도 입학요강(참고)",
+"name": "한국과학영재학교 2024학년도 요강",
 "kind": "공식",
 "cat": "학교",
 "used": [
-"gs",
 "ksa24",
 "q-hs-types",
 "q-hs-when",
@@ -6289,19 +6104,6 @@
 "q-med-gifted",
 "r-contest",
 "r-refund"
-],
-"dated": "",
-"cycle": "w"
-},
-{
-"id": "345025bf80",
-"url": "https://admission.ksa.hs.kr/iphak_kor/files/2024_KSA_application_ilban.pdf",
-"host": "admission.ksa.hs.kr",
-"name": "한국과학영재학교 2024학년도 일반전형 요강",
-"kind": "공식",
-"cat": "학교",
-"used": [
-"r-ksa-multi"
 ],
 "dated": "",
 "cycle": "w"
@@ -6453,14 +6255,15 @@
 "id": "c6331a6f39",
 "url": "https://gsa.jge.hs.kr/sub/page.php?page_code=guide_03",
 "host": "gsa.jge.hs.kr",
-"name": "광주과학고 2027학년도 입학전형 요강",
+"name": "광주과학고 2027학년도 입학전형 요강 — 유의사항(영재학교 이중 지원)",
 "kind": "공식",
 "cat": "학교",
 "used": [
-"gs"
+"gs",
+"r-ksa-multi"
 ],
-"dated": "",
-"cycle": "m"
+"dated": "2026-11-07",
+"cycle": "w"
 },
 {
 "id": "84d4466251",
@@ -6656,6 +6459,19 @@
 ],
 "dated": "",
 "cycle": "m"
+},
+{
+"id": "0ba9ca499d",
+"url": "https://younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do",
+"host": "younghoon.ms.kr",
+"name": "2027학년도 영훈국제중학교 신입생 입학 전형 요강(학교 누리집 신입학 자료)",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"q-sch-intl-middle"
+],
+"dated": "",
+"cycle": "w"
 },
 {
 "id": "8d4eef41be",
