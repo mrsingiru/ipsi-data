@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.125)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.126)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-07",
-"ver": "v28.125",
-"count": 480,
+"ver": "v28.126",
+"count": 482,
 "sources": [
 {
 "id": "1084a42981",
@@ -200,13 +200,13 @@
 "id": "db1895bb81",
 "url": "https://enews.sen.go.kr/news/view.do?bbsSn=192397&step1=3&step2=1",
 "host": "enews.sen.go.kr",
-"name": "서울시교육청 2027학년도 대학수학능력시험 응시 현황 및 수험생 유의사항 안내",
+"name": "서울시교육청, 2027학년도 대학수학능력시험 응시 현황 및 수험생 유의사항 안내(2026-11-04)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "q-csat-day-rules"
 ],
-"dated": "",
+"dated": "2026-11-07",
 "cycle": "w"
 },
 {
@@ -852,7 +852,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -2249,6 +2249,19 @@
 "q-life-phone-grades"
 ],
 "dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "aeef486ae3",
+"url": "https://www.jge.go.kr/jgemain/main.do",
+"host": "jge.go.kr",
+"name": "2027학년도 대학수학능력시험 부정행위 예방 관련 안내문, 전남광주통합특별시교육청(누리집 알림창)",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-csat-day-rules"
+],
+"dated": "2026-11-07",
 "cycle": "m"
 },
 {
@@ -4616,6 +4629,19 @@
 ],
 "dated": "",
 "cycle": "m"
+},
+{
+"id": "28cdf96373",
+"url": "https://m.korea.kr/multi/visualNewsView.do?newsId=148974728",
+"host": "m.korea.kr",
+"name": "스마트 안경, 착용만 해도 부정행위일까?, 정책브리핑(교육부)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-csat-day-rules"
+],
+"dated": "2026-11-02",
+"cycle": "w"
 },
 {
 "id": "f0b1d16a97",
