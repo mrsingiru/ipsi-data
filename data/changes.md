@@ -2,6 +2,26 @@
 
 나이스 학교기본정보를 매일 받아 지난번과 비교한 결과입니다. 최신이 위에 있습니다.
 
+## 2026-11-08
+
+- 새로 생김: 부산 강서구 명문중학교 (중학교)
+- 새로 생김: 부산 강서구 부산가람고등학교 (고등학교)
+- 새로 생김: 부산 기장군 정원중학교 (중학교)
+- 새로 생김: 인천 연수구 인천송빛중학교 (중학교)
+- 목록에서 빠짐: 부산 강서구 부산가람고등학교 (고등학교)
+- 목록에서 빠짐: 부산 강서구 명문중학교 (중학교)
+- 목록에서 빠짐: 부산 기장군 정원중학교 (중학교)
+- 바뀜: 전남광주 봉선초등학교 — home: http://bongsun.gen.es.kr → https://bongsun.jge.es.kr
+- 바뀜: 울산 현대중학교 — home: http://hd.ms.kr → https://school.use.go.kr/hd-m/M01
+- 바뀜: 경기 가수초등학교 — home: http://www.gasu.es.kr → https://gasu-e.goehs.kr
+- 바뀜: 경기 정현초등학교 — address: 경기도 화성시 동탄산척로 122 → 경기도 화성시 동탄구 동탄산척로 122
+- 바뀜: 경기 화성동화중학교 — address: 경기도 화성시 봉담읍 동화역말길 12 → 경기도 화성시 효행구 봉담읍 동화역말길 12
+- 바뀜: 강원 인흥초등학교 — home: http://inhung.gwe.es.kr → http://inheung.gwe.es.kr
+- 바뀜: 전북 전일중학교 — home: http://www.jb-ci.ms.kr → https://school.jbedu.kr/jb-ci
+- 바뀜: 전북 진안제일고등학교 — home: http://jajeil.hs.kr → https://school.jbedu.kr/jajeil
+- 바뀜: 전남광주 군외초등학교 — home: http://gunoe.es.jne.kr → http://gunoe.es.jge.kr
+- 바뀜: 전남광주 목포혜인여자중학교 — home: http://mokpohyein.ms.jne.kr/ → https://mokpohyein.jge.ms.kr/
+
 ## 2026-11-02
 
 - 바뀜: 서울 상명초등학교 — home: https://sangmyeong.net/ → https://smcho.sen.es.kr/
