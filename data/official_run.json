@@ -1,11 +1,12 @@
 {
- "at": "2026-11-07T12:58:10+09:00",
+ "at": "2026-11-07T13:27:43+09:00",
  "targets": 74,
  "withDates": 47,
  "blockedAll": [
   "n33",
   "n83",
-  "n62"
+  "n62",
+  "n63"
  ],
  "items": [
   {
@@ -80,9 +81,9 @@
   {
    "id": "n78",
    "org": "대구교대 영재원",
-   "status": "robots",
-   "lines": 0,
-   "files": 0,
+   "status": "dates",
+   "lines": 7,
+   "files": 5,
    "opened": 2,
    "route": 1,
    "tried": null
@@ -573,15 +574,23 @@
   {
    "id": "n64",
    "org": "광양제철고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
-   "files": 1,
-   "opened": 2,
-   "route": 1,
+   "files": 0,
+   "opened": 1,
+   "route": 3,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
@@ -838,10 +847,6 @@
    "route": 2,
    "tried": [
     {
-     "rank": 1,
-     "status": "robots"
-    },
-    {
      "rank": 2,
      "status": "dates"
     }
@@ -873,15 +878,23 @@
   {
    "id": "n63",
    "org": "전남 고입(2027 고입 기본계획)",
-   "status": "dates",
-   "lines": 8,
-   "files": 1,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
    "opened": 1,
    "route": 3,
    "tried": [
     {
      "rank": 3,
-     "status": "dates"
+     "status": "robots"
+    },
+    {
+     "rank": 1,
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
     }
    ]
   }
