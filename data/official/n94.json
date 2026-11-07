@@ -2,10 +2,14 @@
  "id": "n94",
  "org": "경남 교육청 영재원",
  "what": "앞으로 120일 안 일정 1단계",
- "checkedAt": "2026-11-07T09:41:10+09:00",
+ "checkedAt": "2026-11-07T12:55:35+09:00",
  "opened": [
   {
    "url": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.gne.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1464&q_bbsDocNo=1500285",
    "status": "ok"
   }
  ],
@@ -15,9 +19,30 @@
   {
    "url": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812",
    "title": "창원영재교육원 영재선발-전형방법"
+  },
+  {
+   "url": "https://www.gne.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1464&q_bbsDocNo=1500285",
+   "title": "사용자_기본 (u_basic)"
   }
  ],
- "files": [],
+ "files": [
+  {
+   "url": "https://www.gne.go.kr/component/file/ND_fileDownload.do?q_fileSn=181306392&q_fileId=1689734",
+   "name": "2023학년도영재교육대상자선발계획(요약포함)7.1.hwp",
+   "status": "ok",
+   "type": "hwp",
+   "bytes": 540672,
+   "sha1": "c68a1b26f7af"
+  },
+  {
+   "url": "https://www.gne.go.kr/component/file/ND_fileDownload.do?q_fileSn=181306392&q_fileId=1693628",
+   "name": "2023학년도영재교육대상자선발계획(요약포함)7.1(1).hwpx",
+   "status": "ok",
+   "type": "hwpx",
+   "bytes": 177443,
+   "sha1": "3e15f629f1ff"
+  }
+ ],
  "lines": [
   {
    "text": "영재성 검사(일반, 영역별) | 2026. 12. 5.(토) 10:00~11:30",
@@ -78,6 +103,66 @@
     "검사"
    ],
    "src": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812"
+  },
+  {
+   "text": "• 1단계:영재성 검사 도구 | 일시: 2022.12. 3.(토)",
+   "dates": [
+    "2022-12-03"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://www.gne.go.kr/component/file/ND_fileDownload.do?q_fileSn=181306392&q_fileId=1689734"
+  },
+  {
+   "text": "- '영재성 검사 도구'(KEDI)는 단위학교에 보급하지 않음 | □ 심사 및 추천 마감 기간: 2022. 11. 18.(금) 권장사항(각 영재교육원별 다름)",
+   "dates": [
+    "2022-11-18"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://www.gne.go.kr/component/file/ND_fileDownload.do?q_fileSn=181306392&q_fileId=1689734"
+  },
+  {
+   "text": "▶ 1단계: 영재성 검사 도구(전국 동시 시행) | ① 일시:2022.12.3.(토) 10:00~11:30, 전국동시 실시",
+   "dates": [
+    "2022-12-03"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://www.gne.go.kr/component/file/ND_fileDownload.do?q_fileSn=181306392&q_fileId=1689734"
+  },
+  {
+   "text": "• 1단계:영재성 검사 도구 | 일시: 2022.12. 3.(토)",
+   "dates": [
+    "2022-12-03"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://www.gne.go.kr/component/file/ND_fileDownload.do?q_fileSn=181306392&q_fileId=1693628"
+  },
+  {
+   "text": "- '영재성 검사 도구'(KEDI)는 단위학교에 보급하지 않음 | □ 심사 및 추천 마감 기간: 2022. 11. 18.(금) 권장사항(각 영재교육원별 다름)",
+   "dates": [
+    "2022-11-18"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://www.gne.go.kr/component/file/ND_fileDownload.do?q_fileSn=181306392&q_fileId=1693628"
+  },
+  {
+   "text": "▶ 1단계: 영재성 검사 도구(전국 동시 시행) | ① 일시:2022.12.3.(토) 10:00~11:30, 전국동시 실시",
+   "dates": [
+    "2022-12-03"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://www.gne.go.kr/component/file/ND_fileDownload.do?q_fileSn=181306392&q_fileId=1693628"
   }
  ],
  "status": "dates",

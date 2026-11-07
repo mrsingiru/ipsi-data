@@ -1,12 +1,10 @@
 {
- "at": "2026-11-07T09:42:58+09:00",
- "targets": 72,
- "withDates": 43,
+ "at": "2026-11-07T12:58:10+09:00",
+ "targets": 74,
+ "withDates": 47,
  "blockedAll": [
   "n33",
-  "n80",
   "n83",
-  "n31",
   "n62"
  ],
  "items": [
@@ -82,9 +80,9 @@
   {
    "id": "n78",
    "org": "대구교대 영재원",
-   "status": "dates",
-   "lines": 7,
-   "files": 5,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
    "opened": 2,
    "route": 1,
    "tried": null
@@ -222,46 +220,30 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 3,
+   "status": "dates",
+   "lines": 6,
+   "files": 5,
+   "opened": 6,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "dates"
     }
    ]
   },
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 3,
+   "status": "dates",
+   "lines": 6,
+   "files": 2,
+   "opened": 6,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "dates"
     }
    ]
   },
@@ -308,23 +290,15 @@
   {
    "id": "n13",
    "org": "인천하늘고",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 2,
+   "opened": 4,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "found-no-dates"
     }
    ]
   },
@@ -386,23 +360,15 @@
   {
    "id": "n12",
    "org": "인천 고입",
-   "status": "not-found",
-   "lines": 0,
+   "status": "dates",
+   "lines": 1,
    "files": 0,
-   "opened": 2,
+   "opened": 5,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "dates"
     }
    ]
   },
@@ -570,7 +536,7 @@
    "status": "dates",
    "lines": 10,
    "files": 1,
-   "opened": 3,
+   "opened": 4,
    "route": 1,
    "tried": null
   },
@@ -692,15 +658,15 @@
   {
    "id": "n80",
    "org": "DGIST AI/SW SCHOOL",
-   "status": "blocked-all",
+   "status": "not-found",
    "lines": 0,
    "files": 0,
-   "opened": 3,
+   "opened": 7,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "robots"
+     "status": "not-found"
     }
    ]
   },
@@ -748,12 +714,32 @@
    ]
   },
   {
+   "id": "n90",
+   "org": "포항제철고",
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
+   "route": 1,
+   "tried": null
+  },
+  {
+   "id": "n91",
+   "org": "김천고",
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
+   "route": 1,
+   "tried": null
+  },
+  {
    "id": "n94",
    "org": "경남 교육청 영재원",
    "status": "dates",
-   "lines": 6,
-   "files": 0,
-   "opened": 1,
+   "lines": 12,
+   "files": 2,
+   "opened": 2,
    "route": 1,
    "tried": null
   },
@@ -830,46 +816,34 @@
   {
    "id": "n31",
    "org": "충남대학교 과학영재교육원",
-   "status": "blocked-all",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
+   "status": "dates",
+   "lines": 60,
+   "files": 5,
+   "opened": 4,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "dates"
     }
    ]
   },
   {
    "id": "n34",
    "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
-   "route": 3,
+   "status": "dates",
+   "lines": 60,
+   "files": 4,
+   "opened": 4,
+   "route": 2,
    "tried": [
-    {
-     "rank": 2,
-     "status": "robots"
-    },
     {
      "rank": 1,
      "status": "robots"
     },
     {
-     "rank": 3,
-     "status": "not-found"
+     "rank": 2,
+     "status": "dates"
     }
    ]
   },
@@ -905,14 +879,6 @@
    "opened": 1,
    "route": 3,
    "tried": [
-    {
-     "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "robots"
-    },
     {
      "rank": 3,
      "status": "dates"

@@ -2,7 +2,7 @@
  "id": "n55",
  "org": "전북과학고",
  "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-11-07T09:36:45+09:00",
+ "checkedAt": "2026-11-07T12:50:15+09:00",
  "opened": [
   {
    "url": "https://school.jbedu.kr/ejbs/M010402/",
@@ -14,6 +14,10 @@
   },
   {
    "url": "https://school.jbedu.kr/ejbs/M010402/view/6780389",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jbedu.kr/ejbs/M010402/view/6459411",
    "status": "ok"
   }
  ],
@@ -30,6 +34,10 @@
   },
   {
    "url": "https://school.jbedu.kr/ejbs/M010402/view/6780389",
+   "title": "입학안내<입학안내<전북과학고등학교"
+  },
+  {
+   "url": "https://school.jbedu.kr/ejbs/M010402/view/6459411",
    "title": "입학안내<입학안내<전북과학고등학교"
   }
  ],

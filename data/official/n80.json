@@ -2,7 +2,7 @@
  "id": "n80",
  "org": "DGIST AI/SW SCHOOL",
  "what": "앞으로 120일 안 일정 6단계",
- "checkedAt": "2026-11-07T09:41:05+09:00",
+ "checkedAt": "2026-11-07T12:55:22+09:00",
  "opened": [
   {
    "url": "https://dgist.ac.kr/bbs/BBSMSTR_000000000718/B000000112095Gy7bK4.do?mno=sub05_01",
@@ -11,6 +11,22 @@
   {
    "url": "https://www.dgist.ac.kr/bbs/BBSMSTR_000000000712/list.do",
    "status": "robots"
+  },
+  {
+   "url": "https://www.seit.kr/sub01_06_02.html",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.seit.kr/sub07_01.html",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.seit.kr/sub07_01.html",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.seit.kr/sub07_01.html",
+   "status": "ok"
   },
   {
    "url": "https://dgist.ac.kr/kor/?GotoPage=1&mode=V&no=9143ee820022098d7aef3662b8b49f06",
@@ -22,12 +38,12 @@
  "titles": [],
  "files": [],
  "lines": [],
- "status": "blocked-all",
+ "status": "not-found",
  "route": 1,
  "tried": [
   {
    "rank": 1,
-   "status": "robots"
+   "status": "not-found"
   }
  ]
 }
