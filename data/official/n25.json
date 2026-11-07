@@ -1,0 +1,19 @@
+{
+ "id": "n25",
+ "org": "아주대 영재원",
+ "what": "앞으로 120일 안 일정 1단계",
+ "checkedAt": "2026-11-08T07:47:11+09:00",
+ "opened": [
+  {
+   "url": "https://cgesc.ajou.ac.kr/main/main.action",
+   "status": "robots"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "robots",
+ "route": 1
+}

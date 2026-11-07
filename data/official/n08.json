@@ -1,0 +1,85 @@
+{
+ "id": "n08",
+ "org": "동국대 영재원",
+ "what": "앞으로 120일 안 일정 1단계",
+ "checkedAt": "2026-11-08T07:41:56+09:00",
+ "opened": [
+  {
+   "url": "https://gifted.dongguk.edu/",
+   "status": "robots"
+  },
+  {
+   "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000047/html/cont0010v.do",
+   "status": "ok"
+  },
+  {
+   "url": "https://majeong-e.goepj.kr/majeong-e/na/ntt/selectNttList.do?mi=8035&bbsId=5550",
+   "status": "ok"
+  },
+  {
+   "url": "https://majeong-e.goepj.kr/majeong-e/na/ntt/selectNttInfo.do?mi=8035&bbsId=5550&nttSn=1343803",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.dongguk.edu/article/SCHOOLNEWS/detail/26758588",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 동국대학교 과학영재교육원 신입 모집 요강 및 입학설명회 안내",
+   "url": "https://majeong-e.goepj.kr/majeong-e/na/ntt/selectNttInfo.do?mi=8035&bbsId=5550&nttSn=1343803"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000047/html/cont0010v.do",
+   "title": "서울영재교육"
+  },
+  {
+   "url": "https://majeong-e.goepj.kr/majeong-e/na/ntt/selectNttInfo.do?mi=8035&bbsId=5550&nttSn=1343803",
+   "title": "공지사항 < 알림마당 | 마정초등학교"
+  },
+  {
+   "url": "https://www.dongguk.edu/article/SCHOOLNEWS/detail/26758588",
+   "title": "동국대학교 - 동국소식 - 뉴스 - 학교소식"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://ssei.sen.go.kr/sge/uploads/EDITOR/contentMng/2026/4/3/20260403041045846.jpg",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 262193,
+   "sha1": "6838af97ceef",
+   "lines": 0
+  }
+ ],
+ "lines": [
+  {
+   "text": "등록일 | 2026.07.23",
+   "dates": [
+    "2026-07-23"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://majeong-e.goepj.kr/majeong-e/na/ntt/selectNttInfo.do?mi=8035&bbsId=5550&nttSn=1343803"
+  },
+  {
+   "text": "등록일 2025.01.10.",
+   "dates": [
+    "2025-01-10"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.dongguk.edu/article/SCHOOLNEWS/detail/26758588"
+  }
+ ],
+ "status": "dates",
+ "route": 1
+}

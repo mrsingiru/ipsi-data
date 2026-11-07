@@ -1,10 +1,9 @@
 {
- "at": "2026-11-07T14:00:24+09:00",
- "targets": 74,
+ "at": "2026-11-08T07:58:23+09:00",
+ "targets": 79,
  "withDates": 45,
  "blockedAll": [
   "n33",
-  "n69",
   "n83",
   "n31",
   "n62",
@@ -14,10 +13,10 @@
   {
    "id": "n93",
    "org": "대구대 글로벌브릿지 영재원",
-   "status": "dates",
-   "lines": 18,
-   "files": 6,
-   "opened": 9,
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
    "route": 1,
    "tried": null
   },
@@ -361,6 +360,26 @@
    "tried": null
   },
   {
+   "id": "n06",
+   "org": "연세대 영재원",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 1,
+   "opened": 2,
+   "route": 1,
+   "tried": null
+  },
+  {
+   "id": "n08",
+   "org": "동국대 영재원",
+   "status": "dates",
+   "lines": 2,
+   "files": 1,
+   "opened": 5,
+   "route": 1,
+   "tried": null
+  },
+  {
    "id": "n12",
    "org": "인천 고입",
    "status": "dates",
@@ -400,6 +419,36 @@
    "org": "부천과학고",
    "status": "dates",
    "lines": 4,
+   "files": 0,
+   "opened": 1,
+   "route": 1,
+   "tried": null
+  },
+  {
+   "id": "n23",
+   "org": "가천대 영재원",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 2,
+   "route": 1,
+   "tried": null
+  },
+  {
+   "id": "n24",
+   "org": "대진대 영재원",
+   "status": "error",
+   "lines": 0,
+   "files": 0,
+   "opened": 2,
+   "route": 1,
+   "tried": null
+  },
+  {
+   "id": "n25",
+   "org": "아주대 영재원",
+   "status": "robots",
+   "lines": 0,
    "files": 0,
    "opened": 1,
    "route": 1,
@@ -609,23 +658,19 @@
   {
    "id": "n69",
    "org": "제주 고입",
-   "status": "blocked-all",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
-   "opened": 1,
+   "files": 1,
+   "opened": 2,
    "route": 2,
    "tried": [
-    {
-     "rank": 2,
-     "status": "error"
-    },
     {
      "rank": 1,
      "status": "robots"
     },
     {
-     "rank": 3,
-     "status": "error"
+     "rank": 2,
+     "status": "found-no-dates"
     }
    ]
   },
@@ -865,11 +910,11 @@
    "route": 3,
    "tried": [
     {
-     "rank": 2,
+     "rank": 1,
      "status": "robots"
     },
     {
-     "rank": 1,
+     "rank": 2,
      "status": "robots"
     },
     {

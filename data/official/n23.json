@@ -1,0 +1,28 @@
+{
+ "id": "n23",
+ "org": "가천대 영재원",
+ "what": "앞으로 120일 안 일정 6단계",
+ "checkedAt": "2026-11-08T07:46:37+09:00",
+ "opened": [
+  {
+   "url": "https://gifted.gachon.ac.kr/main/main.action",
+   "status": "robots"
+  },
+  {
+   "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000047/html/cont0010v.do",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000047/html/cont0010v.do",
+   "title": "서울영재교육"
+  }
+ ],
+ "files": [],
+ "lines": [],
+ "status": "found-no-dates",
+ "route": 1
+}

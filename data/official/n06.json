@@ -1,0 +1,39 @@
+{
+ "id": "n06",
+ "org": "연세대 영재원",
+ "what": "앞으로 120일 안 일정 1단계",
+ "checkedAt": "2026-11-08T07:41:21+09:00",
+ "opened": [
+  {
+   "url": "https://giftededu.yonsei.ac.kr/",
+   "status": "robots"
+  },
+  {
+   "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000047/html/cont0010v.do",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000047/html/cont0010v.do",
+   "title": "서울영재교육"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://ssei.sen.go.kr/sge/uploads/EDITOR/contentMng/2026/4/3/20260403041045846.jpg",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 262193,
+   "sha1": "6838af97ceef",
+   "lines": 0
+  }
+ ],
+ "lines": [],
+ "status": "found-no-dates",
+ "route": 1
+}
