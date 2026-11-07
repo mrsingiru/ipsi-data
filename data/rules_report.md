@@ -1,25 +1,16 @@
-# 규정 점검 2026-11-06
+# 규정 점검 2026-11-08
 
 규정 60개 · 원문 71곳 중 자동 감시 53곳, 이번에 23곳을 열었습니다 (읽음 23 · 본문 짧아 못 읽음 0 · robots로 안 엶 0 · 못 엶 0).
 
-높음 0 · 보통 4 · 낮음 0 — 높음·보통은 마케팅 주간 예약(일요일 14:42)이 원문을 열어 우리 영향을 판단하고 운영실에 올립니다.
+높음 1 · 보통 0 · 낮음 0 — 높음·보통은 마케팅 주간 예약(일요일 14:42)이 원문을 열어 우리 영향을 판단하고 운영실에 올립니다.
 
-## 높음: 우리가 기대는 사실이 바뀌었을 수 있음 (0)
-
-## 보통: 내용이 바뀐 부분이 있음 (4)
-- Meta Instagram Content Publishing API — 바뀐 부분: (첫 부분)
-  - 주소: https://developers.facebook.com/docs/instagram-platform/content-publishing
-  - 관련 규정 R-IG2: 인스타그램 — 프로페셔널 계정만 API 게시, 24시간 100개(같은 문서에 50개 표기도), API 예약 칸 없음
-- Meta Threads API Posts — 바뀐 부분: (첫 부분)
-  - 주소: https://developers.facebook.com/docs/threads/posts
-  - 관련 규정 R-TH1: 스레드 — API 게시 24시간 250개, 고급 권한 전엔 테스터 계정만, 링크 5개 넘으면 오류
-- YouTube YouTube API 서비스 개발자 정책(III.E.4 저장·파생 지표 금지) — 바뀐 부분: (첫 부분)
+## 높음: 우리가 기대는 사실이 바뀌었을 수 있음 (1)
+- YouTube YouTube API 서비스 개발자 정책(III.E.4 저장·파생 지표 금지) — 수정일 Last updated 2026-11-01 → Last updated 2026-11-06 · 바뀐 부분: YouTube API Services - Developer Policies Stay organized with collections Save a / I. Terminology and style / II. Software Development Principles / B. Maintainability and Deprecation / E. Handling YouTube Data and Content / G. Distribution and Commercial Use
   - 주소: https://developers.google.com/youtube/terms/developer-policies?hl=en
   - 관련 규정 R-YT14: YouTube API — API 자료로 새 지표·파생 지표를 만들거나 비슷한 값을 따로 계산해 바꿔 쓰면 안 됨(III.E.4.h), API 자료는 정해진 기간 안에 새로 고침. 인증받아 읽은 분석·통계는 필요한 만큼 보관 가능하되 30일마다 인증 확인(III.E.4.b), 그 밖 인증 자료는 30일 안에 지우거나 새로 고침(III.E.4.c), 인증 자료는 허락한 사람 말고 보여 주지 않음(III.E.3)
   - 관련 규정 R-YT15: YouTube API — 사용자가 미리 명확히 동의한 것만 자동 업로드(III.I.2), 최종 결정은 사용자·정한 값을 바꾸지 않고 올린 뒤 설명에 덧붙이지 않음(III.C.3·III.C.3.a), 공개 상태 고르는 칸을 보여 주고 동의 없이 바꾸지 않음(III.E.3.f), 업로드 화면에 약관 안내문(API 약관 9.1), 제목 100자·설명 5,000바이트·< > 금지(최소 기능 요건), 프로그램 하나에 프로젝트 하나·열쇠 비밀(III.D.1)
-- YouTube YouTube API 서비스 약관(9.1 업로드 화면 안내문 · 2.3 바뀐 약관은 30일 뒤 효력) — 바뀐 부분: (첫 부분)
-  - 주소: https://developers.google.com/youtube/terms/api-services-terms-of-service?hl=en
-  - 관련 규정 R-YT15: YouTube API — 사용자가 미리 명확히 동의한 것만 자동 업로드(III.I.2), 최종 결정은 사용자·정한 값을 바꾸지 않고 올린 뒤 설명에 덧붙이지 않음(III.C.3·III.C.3.a), 공개 상태 고르는 칸을 보여 주고 동의 없이 바꾸지 않음(III.E.3.f), 업로드 화면에 약관 안내문(API 약관 9.1), 제목 100자·설명 5,000바이트·< > 금지(최소 기능 요건), 프로그램 하나에 프로젝트 하나·열쇠 비밀(III.D.1)
+
+## 보통: 내용이 바뀐 부분이 있음 (0)
 
 ## 낮음: 처음 기록·읽지 못함 (0)
 
