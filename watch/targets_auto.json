@@ -1,7 +1,7 @@
 {
  "note": "자동으로 만든 공식 공고 읽기 대상(tools/build_targets.py, ipsi-site). 페이지를 게시할 때마다 다시 만든다. 손으로 적은 watch/targets.json이 같은 id보다 우선.",
- "made": "2026-11-08",
- "ver": "v28.135",
+ "made": "2026-11-09",
+ "ver": "v28.146",
  "horizonDays": 120,
  "targets": [
   {
@@ -539,6 +539,10 @@
     },
     {
      "kind": "post",
+     "url": "https://www.goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1688584"
+    },
+    {
+     "kind": "post",
      "url": "https://www.goedy.kr/goedy/na/ntt/selectNttInfo.do?nttSn=1688584&mi=10312"
     },
     {
@@ -555,12 +559,12 @@
    ],
    "expect": [
     [
-     "2026-11-09",
-     "2026-11-13"
+     "2026-10-26",
+     "2026-11-18"
     ],
     [
-     "2026-11-23",
-     "2026-11-25"
+     "2026-11-09",
+     "2026-11-13"
     ],
     [
      "2026-12-10",
@@ -2254,15 +2258,15 @@
   {
    "id": "n79",
    "org": "경북대 영재원",
-   "what": "앞으로 120일 안 일정 4단계",
+   "what": "앞으로 120일 안 일정 3단계",
    "pages": [
     {
      "kind": "post",
-     "url": "https://seigy.knu.ac.kr/student/45"
+     "url": "https://seigy.knu.ac.kr/student/46"
     },
     {
      "kind": "post",
-     "url": "https://seigy.knu.ac.kr/student/46"
+     "url": "https://seigy.knu.ac.kr/student/45"
     },
     {
      "kind": "site",
@@ -2281,10 +2285,6 @@
     "평가"
    ],
    "expect": [
-    [
-     "2026-11-08",
-     "2026-11-08"
-    ],
     [
      "2026-12-13",
      "2026-12-13"

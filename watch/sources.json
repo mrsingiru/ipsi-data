@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.135)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-11-07",
-"ver": "v28.135",
-"count": 470,
+"note": "페이지(공개판 v28.146)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-11-08",
+"ver": "v28.146",
+"count": 474,
 "sources": [
 {
 "id": "1084a42981",
@@ -428,6 +428,19 @@
 "cycle": "w"
 },
 {
+"id": "b503ae2688",
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/02/cfa17cad-9007-4d4e-8f52-f104d1f651ce.pdf",
+"host": "goe.go.kr",
+"name": "2026학년도 학교생활기록부 기재요령(초등학교)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"r-record"
+],
+"dated": "",
+"cycle": "w"
+},
+{
 "id": "03bbd54b2e",
 "url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/03/ae54e5b6-3f5b-482f-a553-88d3d8cc74e9.pdf",
 "host": "goe.go.kr",
@@ -544,6 +557,19 @@
 "n16"
 ],
 "dated": "2026-09-14",
+"cycle": "w"
+},
+{
+"id": "b2833ad08f",
+"url": "https://www.goedy.kr/goedy/na/ntt/selectNttInfo.do?mi=10312&bbsId=10220&nttSn=1688584",
+"host": "goedy.kr",
+"name": "동두천양주교육지원청 영재교육원 공지 '선교육 후선발 과정평가 진행 알림'",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n16"
+],
+"dated": "2026-10-26",
 "cycle": "w"
 },
 {
@@ -2363,7 +2389,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -4538,7 +4564,7 @@
 "id": "858806c5b5",
 "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148960616",
 "host": "korea.kr",
-"name": "대한민국 정책브리핑: 지역의사 선발비율·의무복무 기준 마련…'지역의사제' 시행령 의결(보건복지부)",
+"name": "정책브리핑 '지역의사제 시행령 의결'(의대 소재지 또는 인접 지역 중·고교, 2026-03-10)",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
@@ -4858,6 +4884,19 @@
 "q-sch-violence"
 ],
 "dated": "2026-02-12",
+"cycle": "w"
+},
+{
+"id": "1cc1e57be2",
+"url": "https://star.moe.go.kr/web/contents/m30103.do?schM=view&id=100642",
+"host": "star.moe.go.kr",
+"name": "학교생활기록부 종합지원포털(교육부·한국교육학술정보원) 기재 문의 — 영재교육원 이수 내용 기재",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"r-record"
+],
+"dated": "2025-12-10",
 "cycle": "w"
 },
 {
@@ -5953,6 +5992,19 @@
 "cycle": "m"
 },
 {
+"id": "87b3bd4385",
+"url": "https://www.kice.re.kr/boardCnts/fileDown.do?fileSeq=93c3b5527467464998bcc69bb125ba6c",
+"host": "kice.re.kr",
+"name": "한국교육과정평가원 2028학년도 수능 예시문항 안내 — 성적통지표 양식(국어·수학·탐구 표준점수·백분위·등급)",
+"kind": "공식",
+"cat": "입시 공식 기관",
+"used": [
+"r-csat5"
+],
+"dated": "",
+"cycle": "w"
+},
+{
 "id": "dc30a8c672",
 "url": "https://www.kice.re.kr/boardCnts/list.do?boardID=1500208&s=kice&m=030302",
 "host": "kice.re.kr",
@@ -6083,8 +6135,7 @@
 "cat": "학교",
 "used": [
 "ksa23",
-"q-contest",
-"r-gifted-ksa"
+"q-contest"
 ],
 "dated": "",
 "cycle": "w"
@@ -6099,7 +6150,6 @@
 "used": [
 "ksa24",
 "q-hs-types",
-"q-hs-when",
 "q-med",
 "q-med-gifted",
 "r-contest",
@@ -6129,10 +6179,13 @@
 "kind": "공식",
 "cat": "학교",
 "used": [
-"gs"
+"gs",
+"ksaJ27",
+"q-hs-when",
+"r-gifted-ksa"
 ],
-"dated": "",
-"cycle": "m"
+"dated": "2026-11-08",
+"cycle": "w"
 },
 {
 "id": "3db8f310ba",
@@ -6260,9 +6313,11 @@
 "cat": "학교",
 "used": [
 "gs",
+"gsa27",
+"q-hs-when",
 "r-ksa-multi"
 ],
-"dated": "2026-11-07",
+"dated": "2026-11-08",
 "cycle": "w"
 },
 {
