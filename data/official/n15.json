@@ -1,8 +1,8 @@
 {
  "id": "n15",
  "org": "경기 미래과학교육원 영재원",
- "what": "앞으로 120일 안 일정 8단계",
- "checkedAt": "2026-11-09T09:05:59+09:00",
+ "what": "앞으로 120일 안 일정 7단계",
+ "checkedAt": "2026-11-10T07:48:22+09:00",
  "opened": [
   {
    "url": "https://www.gise.kr/gise/na/ntt/selectNttInfo.do?mi=10751&bbsId=6147&nttSn=1200499",
@@ -52,7 +52,7 @@
    "type": "image",
    "bytes": 435246,
    "sha1": "76717a5a3427",
-   "lines": 2
+   "lines": 1
   },
   {
    "url": "https://www.gise.kr/upload/giseadm/editor/cheditor/upload/image_20260928193452.png",
@@ -73,19 +73,7 @@
    ],
    "words": [
     "원서",
-    "접수",
-    "지원"
-   ],
-   "src": "https://www.gise.kr/gise/na/ntt/selectNttInfo.do?mi=10751&bbsId=6147&nttSn=1200499",
-   "via": "ocr"
-  },
-  {
-   "text": "HS 합격 표 2026. 11. 27(글) 1800 GED 시스텔(나의 지원 보기)예서 합격 여부 개별 확인",
-   "dates": [
-    "2026-11-27"
-   ],
-   "words": [
-    "지원"
+    "접수"
    ],
    "src": "https://www.gise.kr/gise/na/ntt/selectNttInfo.do?mi=10751&bbsId=6147&nttSn=1200499",
    "via": "ocr"
@@ -96,22 +84,7 @@
     "2027-01-15"
    ],
    "words": [
-    "발표",
-    "지원"
-   ],
-   "src": "https://www.gise.kr/gise/na/ntt/selectNttInfo.do?mi=10751&bbsId=6147&nttSn=1200499",
-   "via": "ocr"
-  }
- ],
- "ocr_lines": [
-  {
-   "text": "1. 지원자 설명회 안내 | 기간: 2026. 9. 30(+) 9:00 ~ 2026. 10 4. 미 = cl",
-   "dates": [
-    "2026-09-30"
-   ],
-   "words": [
-    "설명회",
-    "지원"
+    "발표"
    ],
    "src": "https://www.gise.kr/gise/na/ntt/selectNttInfo.do?mi=10751&bbsId=6147&nttSn=1200499",
    "via": "ocr"

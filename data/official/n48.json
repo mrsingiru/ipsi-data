@@ -2,7 +2,7 @@
  "id": "n48",
  "org": "민족사관고",
  "what": "원서 접수 — 강원교육청 2027 고입 기본계획(HWP 첨부, 다른 기관의 공식 글 · 학교 누리집은 robots로 막힘)",
- "checkedAt": "2026-11-09T09:04:20+09:00",
+ "checkedAt": "2026-11-10T07:47:05+09:00",
  "opened": [
   {
    "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513",
@@ -10,6 +10,10 @@
   },
   {
    "url": "https://www.minjok.hs.kr/",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.minjok.hs.kr/board/bbs511/1457",
    "status": "ok"
   },
   {
@@ -22,6 +26,10 @@
   }
  ],
  "notices": [
+  {
+   "title": "09 2026.11 GLPS 2027 Winter Assistant 모집 공고 민족사관고등학교 졸업생 여러분 안녕하십니까?본교는 초‧중학생들을 대상으로 방학 중에 영어로 진행하는 Global Leadership 캠프",
+   "url": "https://www.minjok.hs.kr/board/bbs511/1457"
+  },
   {
    "title": "30 2026.09 2027학년도 신입학전형 서류양식 공지 및 유의 사항 2027학년도 신입학전형 서류양식을 공지합니다.■ 공지 서류 목록: 1. 2027학년도 신입학전형 입학원서 2. 2027학년도 신입학전형 자기",
    "url": "https://www.minjok.hs.kr/board/bbs513/1438"
@@ -36,6 +44,10 @@
   {
    "url": "https://www.gwe.go.kr/main/bbs/view.do?bbsSn=50617&key=m2307210603513",
    "title": "강원특별자치도교육청 - 고입자료실"
+  },
+  {
+   "url": "https://www.minjok.hs.kr/board/bbs511/1457",
+   "title": "민족사관고등학교"
   },
   {
    "url": "https://www.minjok.hs.kr/board/bbs513/1438",
@@ -54,6 +66,14 @@
    "type": "hwp",
    "bytes": 219136,
    "sha1": "b74f96640178"
+  },
+  {
+   "url": "https://www.minjok.hs.kr/board/bbs511/download/1457/1",
+   "name": "GLPS45 Assistant 모집공고문.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 62589,
+   "sha1": "8c9361eb618b"
   },
   {
    "url": "https://www.minjok.hs.kr/board/bbs513/download/1437/1",

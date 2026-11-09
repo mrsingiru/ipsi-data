@@ -1,22 +1,22 @@
 {
- "at": "2026-11-09T09:22:00+09:00",
- "targets": 79,
- "withDates": 43,
+ "at": "2026-11-10T08:04:22+09:00",
+ "targets": 76,
+ "withDates": 46,
  "blockedAll": [
   "n33",
-  "n41",
   "n83",
   "n31",
-  "n62"
+  "n62",
+  "n63"
  ],
  "items": [
   {
    "id": "n93",
    "org": "대구대 글로벌브릿지 영재원",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 3,
+   "status": "dates",
+   "lines": 18,
+   "files": 6,
+   "opened": 6,
    "route": 1,
    "tried": null
   },
@@ -222,46 +222,30 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 3,
+   "status": "dates",
+   "lines": 6,
+   "files": 5,
+   "opened": 6,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "dates"
     }
    ]
   },
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 3,
+   "status": "dates",
+   "lines": 6,
+   "files": 2,
+   "opened": 6,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "dates"
     }
    ]
   },
@@ -308,23 +292,15 @@
   {
    "id": "n13",
    "org": "인천하늘고",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 2,
+   "opened": 4,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "found-no-dates"
     }
    ]
   },
@@ -363,8 +339,8 @@
    "org": "민족사관고",
    "status": "dates",
    "lines": 5,
-   "files": 2,
-   "opened": 4,
+   "files": 3,
+   "opened": 5,
    "route": 1,
    "tried": [
     {
@@ -384,16 +360,6 @@
    "tried": null
   },
   {
-   "id": "n06",
-   "org": "연세대 영재원",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 1,
-   "opened": 2,
-   "route": 1,
-   "tried": null
-  },
-  {
    "id": "n08",
    "org": "동국대 영재원",
    "status": "dates",
@@ -406,23 +372,15 @@
   {
    "id": "n12",
    "org": "인천 고입",
-   "status": "not-found",
-   "lines": 0,
+   "status": "dates",
+   "lines": 1,
    "files": 0,
-   "opened": 2,
+   "opened": 5,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "dates"
     }
    ]
   },
@@ -430,7 +388,7 @@
    "id": "n15",
    "org": "경기 미래과학교육원 영재원",
    "status": "dates",
-   "lines": 3,
+   "lines": 2,
    "files": 5,
    "opened": 2,
    "route": 1,
@@ -461,7 +419,7 @@
    "org": "가천대 영재원",
    "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
+   "files": 1,
    "opened": 2,
    "route": 1,
    "tried": null
@@ -469,20 +427,10 @@
   {
    "id": "n24",
    "org": "대진대 영재원",
-   "status": "error",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
    "opened": 2,
-   "route": 1,
-   "tried": null
-  },
-  {
-   "id": "n25",
-   "org": "아주대 영재원",
-   "status": "robots",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
    "route": 1,
    "tried": null
   },
@@ -552,23 +500,15 @@
   {
    "id": "n41",
    "org": "충남과학고",
-   "status": "blocked-all",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
+   "files": 1,
    "opened": 2,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "found-no-dates"
     }
    ]
   },
@@ -665,15 +605,23 @@
   {
    "id": "n64",
    "org": "광양제철고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
-   "files": 1,
-   "opened": 2,
-   "route": 1,
+   "files": 0,
+   "opened": 1,
+   "route": 3,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
@@ -881,16 +829,6 @@
    ]
   },
   {
-   "id": "n98",
-   "org": "경상국립대 영재원",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 2,
-   "opened": 1,
-   "route": 1,
-   "tried": null
-  },
-  {
    "id": "n30",
    "org": "대전 고입(2027 고입 기본계획)",
    "status": "found-no-dates",
@@ -977,12 +915,16 @@
   {
    "id": "n63",
    "org": "전남 고입(2027 고입 기본계획)",
-   "status": "dates",
-   "lines": 8,
-   "files": 1,
+   "status": "blocked-all",
+   "lines": 0,
+   "files": 0,
    "opened": 1,
    "route": 3,
    "tried": [
+    {
+     "rank": 3,
+     "status": "robots"
+    },
     {
      "rank": 1,
      "status": "robots"
@@ -990,10 +932,6 @@
     {
      "rank": 2,
      "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "dates"
     }
    ]
   }
