@@ -1,7 +1,7 @@
 {
  "note": "자동으로 만든 공식 공고 읽기 대상(tools/build_targets.py, ipsi-site). 페이지를 게시할 때마다 다시 만든다. 손으로 적은 watch/targets.json이 같은 id보다 우선.",
- "made": "2026-11-09",
- "ver": "v28.146",
+ "made": "2026-11-10",
+ "ver": "v28.147",
  "horizonDays": 120,
  "targets": [
   {
@@ -239,34 +239,6 @@
    "auto": true
   },
   {
-   "id": "n06",
-   "org": "연세대 영재원",
-   "what": "앞으로 120일 안 일정 1단계",
-   "pages": [
-    {
-     "kind": "site",
-     "url": "https://giftededu.yonsei.ac.kr/"
-    },
-    {
-     "kind": "post",
-     "url": "https://ssei.sen.go.kr/sge/fus/MI000000000000000047/html/cont0010v.do"
-    }
-   ],
-   "title": [
-    "2027"
-   ],
-   "near": [
-    "등록"
-   ],
-   "expect": [
-    [
-     "2026-11-06",
-     "2026-11-09"
-    ]
-   ],
-   "auto": true
-  },
-  {
    "id": "n08",
    "org": "동국대 영재원",
    "what": "앞으로 120일 안 일정 1단계",
@@ -470,7 +442,7 @@
   {
    "id": "n15",
    "org": "경기 미래과학교육원 영재원",
-   "what": "앞으로 120일 안 일정 8단계",
+   "what": "앞으로 120일 안 일정 7단계",
    "pages": [
     {
      "kind": "post",
@@ -486,17 +458,11 @@
    ],
    "near": [
     "발표",
-    "설명회",
     "원서",
     "접수",
-    "지원",
     "평가"
    ],
    "expect": [
-    [
-     "2026-11-09",
-     "2026-11-09"
-    ],
     [
      "2026-11-13",
      "2026-11-13"
@@ -748,30 +714,6 @@
     [
      "2026-11-06",
      "2026-11-12"
-    ]
-   ],
-   "auto": true
-  },
-  {
-   "id": "n25",
-   "org": "아주대 영재원",
-   "what": "앞으로 120일 안 일정 1단계",
-   "pages": [
-    {
-     "kind": "post",
-     "url": "https://cgesc.ajou.ac.kr/main/main.action"
-    }
-   ],
-   "title": [
-    "2027"
-   ],
-   "near": [
-    "등록"
-   ],
-   "expect": [
-    [
-     "2026-11-05",
-     "2026-11-09"
     ]
    ],
    "auto": true
@@ -2827,31 +2769,6 @@
     [
      "2027-01-15",
      "2027-01-15"
-    ]
-   ],
-   "auto": true
-  },
-  {
-   "id": "n98",
-   "org": "경상국립대 영재원",
-   "what": "앞으로 120일 안 일정 1단계",
-   "pages": [
-    {
-     "kind": "post",
-     "url": "https://www.gnu.ac.kr/gifted/na/ntt/selectNttInfo.do?nttSn=8560962&mi=7217"
-    }
-   ],
-   "title": [
-    "2027"
-   ],
-   "near": [
-    "원서",
-    "접수"
-   ],
-   "expect": [
-    [
-     "2026-11-02",
-     "2026-11-09"
     ]
    ],
    "auto": true
