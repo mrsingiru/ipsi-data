@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.147)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-11-09",
-"ver": "v28.147",
-"count": 474,
+"note": "페이지(공개판 v28.150)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-11-10",
+"ver": "v28.150",
+"count": 477,
 "sources": [
 {
 "id": "1084a42981",
@@ -420,6 +420,7 @@
 "used": [
 "q-hs-choose",
 "q-naesin",
+"q-naesin-grade-vs-achieve",
 "q-sch-joint",
 "q-sch-test-ratio",
 "q-univ-last-year"
@@ -504,6 +505,19 @@
 "q-dir-free"
 ],
 "dated": "",
+"cycle": "w"
+},
+{
+"id": "478f051c3e",
+"url": "https://www.goe.go.kr/resource/old/BBSMSTR_000000030136/BBS_202411010914152012.pdf",
+"host": "goe.go.kr",
+"name": "2022 개정 고등학교 교육과정 Q&A 도움 자료집, 경기도교육청",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-course-change"
+],
+"dated": "2024-11-01",
 "cycle": "w"
 },
 {
@@ -2239,6 +2253,19 @@
 "cycle": "m"
 },
 {
+"id": "f8e245bf05",
+"url": "https://www.hscredit.kr/career/design",
+"host": "hscredit.kr",
+"name": "진로·학업 설계 가이드, 고교학점제 지원센터",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"q-hs-course-change"
+],
+"dated": "2026-11-10",
+"cycle": "m"
+},
+{
 "id": "19435813b6",
 "url": "https://ifn.se/en/publications/scientific-articles-in-english/2020/2020-56",
 "host": "ifn.se",
@@ -2389,7 +2416,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -2829,6 +2856,7 @@
 "q-courses",
 "q-snu",
 "q-susi",
+"r-snu-jungsi-naesin",
 "r-snu-ku-choejeo",
 "snu28"
 ],
@@ -2839,12 +2867,15 @@
 "id": "94c389ced8",
 "url": "https://admission.snu.ac.kr/webdata/admission/files/2027jungsi.pdf",
 "host": "admission.snu.ac.kr",
-"name": "서울대 2027학년도 정시모집 안내",
+"name": "서울대 2027학년도 정시모집 안내(교과평가 20·27쪽)",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
 "q-gana",
+"q-naesin-grade-vs-achieve",
 "q-snu",
+"r-naesin5-one2",
+"r-snu-jungsi-naesin",
 "snu27j"
 ],
 "dated": "2026-08-28",
@@ -3567,6 +3598,7 @@
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
+"q-naesin-grade-vs-achieve",
 "q-susi",
 "q-univ-jungsi-record",
 "q-univ-nsu",
@@ -4430,6 +4462,19 @@
 "cycle": "w"
 },
 {
+"id": "bee50c1fbe",
+"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148924193",
+"host": "korea.kr",
+"name": "정책브리핑 정책뉴스(교육부): 올해 중2부터 통합형 수능…내신 5등급 체제로",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"r-naesin5-one2"
+],
+"dated": "2023-12-27",
+"cycle": "w"
+},
+{
 "id": "41a9436098",
 "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148926666",
 "host": "korea.kr",
@@ -4564,7 +4609,7 @@
 "id": "858806c5b5",
 "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148960616",
 "host": "korea.kr",
-"name": "대한민국 정책브리핑: 지역의사 선발비율·의무복무 기준 마련…'지역의사제' 시행령 의결(보건복지부)",
+"name": "정책브리핑 '지역의사제 시행령 의결'(의대 소재지 또는 인접 지역 중·고교, 2026-03-10)",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
@@ -5571,7 +5616,7 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
+"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사 신입생 선발 모집 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
