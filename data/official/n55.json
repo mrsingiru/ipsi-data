@@ -1,8 +1,8 @@
 {
  "id": "n55",
  "org": "전북과학고",
- "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-11-10T12:13:44+09:00",
+ "what": "앞으로 120일 안 일정 3단계",
+ "checkedAt": "2026-11-11T08:00:03+09:00",
  "opened": [
   {
    "url": "https://school.jbedu.kr/ejbs/M010402/",
@@ -93,17 +93,6 @@
    "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
   },
   {
-   "text": "1단계 서류 평가 | 9. 7.(월) ~ 11. 10.(화)",
-   "dates": [
-    "2026-09-07",
-    "2026-11-10"
-   ],
-   "words": [
-    "평가"
-   ],
-   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
-  },
-  {
    "text": "면접 대상자 발표 | 11. 13.(금)",
    "dates": [
     "2026-11-13"
@@ -120,8 +109,7 @@
     "2026-11-20"
    ],
    "words": [
-    "면접",
-    "평가"
+    "면접"
    ],
    "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
   },
@@ -132,17 +120,6 @@
    ],
    "words": [
     "발표"
-   ],
-   "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
-  },
-  {
-   "text": "지원자 면담을 서류 평가 기간에 병행 실시하며, 필요한 경우 지원자 중학교의 | * 소집면담은 11. 4.(수) ~ 11. 6.(금)에 실시 예정이며, 세부 내용은 추후",
-   "dates": [
-    "2026-11-04",
-    "2026-11-06"
-   ],
-   "words": [
-    "평가"
    ],
    "src": "https://school.jbedu.kr/_cmm/fileDownload/ejbs/M010402/5b52c80a208ad539bcbd551cf5ac6a6c"
   },
