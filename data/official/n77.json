@@ -1,9 +1,13 @@
 {
  "id": "n77",
  "org": "대구 고입",
- "what": "앞으로 120일 안 일정 9단계",
- "checkedAt": "2026-11-12T04:16:47+09:00",
+ "what": "대구교육청 시험채용·시행공고 게시판(2027 고입 기본 계획 1차 수정 공고 제2026-252호 — 2026-07-15)",
+ "checkedAt": "2026-11-12T06:42:35+09:00",
  "opened": [
+  {
+   "url": "https://www.dge.go.kr/main/na/ntt/selectNttList.do?bbsId=c9a4a738a108f78efbb03444fd6b4c51",
+   "status": "ok"
+  },
   {
    "url": "https://www.dge.go.kr/main/",
    "status": "ok"
@@ -15,20 +19,23 @@
  ],
  "notices": [],
  "ged": [],
- "titles": [
-  {
-   "url": "https://www.dge.go.kr/main/index.do",
-   "title": "대구광역시교육청"
-  }
- ],
+ "titles": [],
  "files": [],
  "lines": [],
- "status": "found-no-dates",
+ "status": "not-found",
  "route": 1,
  "tried": [
   {
    "rank": 1,
-   "status": "found-no-dates"
+   "status": "not-found"
+  },
+  {
+   "rank": 2,
+   "status": "robots"
+  },
+  {
+   "rank": 3,
+   "status": "robots"
   }
  ]
 }

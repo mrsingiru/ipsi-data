@@ -1,7 +1,7 @@
 {
- "at": "2026-11-12T04:18:32+09:00",
+ "at": "2026-11-12T06:58:45+09:00",
  "targets": 81,
- "withDates": 47,
+ "withDates": 48,
  "blockedAll": [
   "n33",
   "n83",
@@ -275,7 +275,7 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 8,
    "route": 1,
    "tried": null
   },
@@ -285,7 +285,7 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 8,
    "route": 1,
    "tried": null
   },
@@ -388,6 +388,69 @@
    "opened": 6,
    "route": 1,
    "tried": null
+  },
+  {
+   "id": "n99",
+   "org": "영훈국제중",
+   "status": "dates",
+   "lines": 20,
+   "files": 6,
+   "opened": 5,
+   "route": 1,
+   "tried": null
+  },
+  {
+   "id": "n30",
+   "org": "대전 고입(2027 고입 기본계획)",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
+   "route": 2,
+   "tried": [
+    {
+     "rank": 2,
+     "status": "found-no-dates"
+    }
+   ]
+  },
+  {
+   "id": "n77",
+   "org": "대구 고입",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 3,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "not-found"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "robots"
+    }
+   ]
+  },
+  {
+   "id": "n80",
+   "org": "DGIST AI/SW SCHOOL",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 8,
+   "route": 1,
+   "tried": [
+    {
+     "rank": 1,
+     "status": "not-found"
+    }
+   ]
   },
   {
    "id": "n03",
@@ -711,36 +774,6 @@
    "tried": null
   },
   {
-   "id": "n77",
-   "org": "대구 고입",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 0,
-   "opened": 2,
-   "route": 1,
-   "tried": [
-    {
-     "rank": 1,
-     "status": "found-no-dates"
-    }
-   ]
-  },
-  {
-   "id": "n80",
-   "org": "DGIST AI/SW SCHOOL",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 7,
-   "route": 1,
-   "tried": [
-    {
-     "rank": 1,
-     "status": "not-found"
-    }
-   ]
-  },
-  {
    "id": "n81",
    "org": "울산 교육청 영재원",
    "status": "robots",
@@ -859,16 +892,6 @@
    ]
   },
   {
-   "id": "n99",
-   "org": "영훈국제중",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
-   "route": 1,
-   "tried": null
-  },
-  {
    "id": "n101",
    "org": "청심국제중",
    "status": "found-no-dates",
@@ -877,21 +900,6 @@
    "opened": 1,
    "route": 1,
    "tried": null
-  },
-  {
-   "id": "n30",
-   "org": "대전 고입(2027 고입 기본계획)",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 0,
-   "opened": 3,
-   "route": 2,
-   "tried": [
-    {
-     "rank": 2,
-     "status": "found-no-dates"
-    }
-   ]
   },
   {
    "id": "n31",

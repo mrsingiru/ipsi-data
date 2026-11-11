@@ -2,7 +2,7 @@
  "id": "eo-rec",
  "org": "부산교육청 영재원",
  "what": "교육청 영재원 교사 추천·결과(2027) — 부산교육청 영재교육 공지 게시판",
- "checkedAt": "2026-11-12T03:59:45+09:00",
+ "checkedAt": "2026-11-12T06:39:36+09:00",
  "opened": [
   {
    "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttList.do?mi=31184&bbsId=2555",
@@ -19,6 +19,22 @@
   {
    "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttInfo.do?mi=31184&bbsId=2555&nttSn=1179617",
    "status": "ok"
+  },
+  {
+   "url": "https://home.pen.go.kr/dongnae/na/ntt/selectNttList.do?mi=11677&bbsId=3807",
+   "status": "ok"
+  },
+  {
+   "url": "https://home.pen.go.kr/dongnae/na/ntt/selectNttInfo.do?mi=11677&bbsId=3807&nttSn=1014357",
+   "status": "ok"
+  },
+  {
+   "url": "https://home.pen.go.kr/dongnae/na/ntt/selectNttInfo.do?mi=11677&bbsId=3807&nttSn=1014356",
+   "status": "ok"
+  },
+  {
+   "url": "https://home.pen.go.kr/dongnae/na/ntt/selectNttInfo.do?mi=11677&bbsId=3807&nttSn=1012864",
+   "status": "ok"
   }
  ],
  "notices": [
@@ -33,6 +49,18 @@
   {
    "title": "2027학년도 부산광역시교육청 영재교육대상자 선발 모집 요강 및 관련 자료",
    "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttInfo.do?mi=31184&bbsId=2555&nttSn=1179617"
+  },
+  {
+   "title": "2027학년도 부산광역시교육청 영재교육원 영재교육대상자 선발 전형 요강(통합본)",
+   "url": "https://home.pen.go.kr/dongnae/na/ntt/selectNttInfo.do?mi=11677&bbsId=3807&nttSn=1014357"
+  },
+  {
+   "title": "2027학년도 동래영재교육원 영재교육대상자 선발 전형 요강 (중등)",
+   "url": "https://home.pen.go.kr/dongnae/na/ntt/selectNttInfo.do?mi=11677&bbsId=3807&nttSn=1014356"
+  },
+  {
+   "title": "2027학년도 부산광역시교육청 영재교육원 영재교육대상자 선발 추진 계획(요약본)",
+   "url": "https://home.pen.go.kr/dongnae/na/ntt/selectNttInfo.do?mi=11677&bbsId=3807&nttSn=1012864"
   }
  ],
  "ged": [],
@@ -48,6 +76,18 @@
   {
    "url": "https://www.pen.go.kr/dep08/na/ntt/selectNttInfo.do?mi=31184&bbsId=2555&nttSn=1179617",
    "title": "공지사항 상세 < 영재교육 < 디지털미래교육과 < 부산광역시교육청 디지털미래교육과"
+  },
+  {
+   "url": "https://home.pen.go.kr/dongnae/na/ntt/selectNttInfo.do?mi=11677&bbsId=3807&nttSn=1014357",
+   "title": "부산광역시 동래교육지원청 - 학교마당 - 동래영재교육원 - 중등영재교육원 - 자료실"
+  },
+  {
+   "url": "https://home.pen.go.kr/dongnae/na/ntt/selectNttInfo.do?mi=11677&bbsId=3807&nttSn=1014356",
+   "title": "부산광역시 동래교육지원청 - 학교마당 - 동래영재교육원 - 중등영재교육원 - 자료실"
+  },
+  {
+   "url": "https://home.pen.go.kr/dongnae/na/ntt/selectNttInfo.do?mi=11677&bbsId=3807&nttSn=1012864",
+   "title": "부산광역시 동래교육지원청 - 학교마당 - 동래영재교육원 - 중등영재교육원 - 자료실"
   }
  ],
  "files": [],

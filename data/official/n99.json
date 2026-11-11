@@ -1,24 +1,339 @@
 {
  "id": "n99",
  "org": "영훈국제중",
- "what": "앞으로 120일 안 일정 5단계",
- "checkedAt": "2026-11-12T04:17:42+09:00",
+ "what": "2027학년도 전형요강(학교 입학안내 — 요강 PDF) · 2027 신입학 자료 게시판",
+ "checkedAt": "2026-11-12T06:42:05+09:00",
  "opened": [
   {
-   "url": "https://younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do",
+   "url": "https://younghoon.ms.kr/younghoon_m/admission/basic-status02.do",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do?mode=list&article.offset=0",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.younghoon.ms.kr/younghoon_m/admission/basic-status02.do",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do?mode=view&articleNo=64491&article.offset=0&articleLimit=10",
    "status": "ok"
   }
  ],
- "notices": [],
+ "notices": [
+  {
+   "title": "2027학년도 전형요강",
+   "url": "https://www.younghoon.ms.kr/younghoon_m/admission/basic-status02.do"
+  },
+  {
+   "title": "2027학년도 신입학 자료",
+   "url": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do"
+  },
+  {
+   "title": "[서식다운로드] 2027학년도 신입학 관련 서식",
+   "url": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do?mode=view&articleNo=64491&article.offset=0&articleLimit=10"
+  }
+ ],
  "ged": [],
  "titles": [
   {
-   "url": "https://younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do",
+   "url": "https://younghoon.ms.kr/younghoon_m/admission/basic-status02.do",
+   "title": "2027학년도 전형요강"
+  },
+  {
+   "url": "https://www.younghoon.ms.kr/younghoon_m/admission/basic-status02.do",
+   "title": "2027학년도 전형요강"
+  },
+  {
+   "url": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do",
    "title": "2027학년도 신입학자료 | 신입학자료 게시판목록 | 영훈국제중학교"
+  },
+  {
+   "url": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do?mode=view&articleNo=64491&article.offset=0&articleLimit=10",
+   "title": "[2027학년도 신입학자료][서식다운로드] 2027학년도 신입학 관련 서식 | 영훈국제중학교"
   }
  ],
- "files": [],
- "lines": [],
- "status": "found-no-dates",
+ "files": [
+  {
+   "url": "https://younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA",
+   "name": "2027 전형요강 download.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 779666,
+   "sha1": "1af00f4e6bb6"
+  },
+  {
+   "url": "https://www.younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA",
+   "name": "2027 전형요강 download.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 779666,
+   "sha1": "1af00f4e6bb6"
+  },
+  {
+   "url": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do?mode=fileDownload&articleNo=64491&attachNo=44101",
+   "name": "[서식3] (초등학교 제출용)_재학(졸업) 사실 및 지원 자격 확인 신청서.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 616731,
+   "sha1": "a001e808d701",
+   "reader": "ocr"
+  },
+  {
+   "url": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do?mode=fileDownload&articleNo=64491&attachNo=44102",
+   "name": "[서식3] (초등학교 제출용)_재학(졸업) 사실 및 지원 자격 확인 신청서.hwpx",
+   "status": "ok",
+   "type": "hwpx",
+   "bytes": 66563,
+   "sha1": "76190b463282"
+  },
+  {
+   "url": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do?mode=fileDownload&articleNo=64491&attachNo=44103",
+   "name": "[서식4~서식13] 신입학 관련 서식_pdf.zip",
+   "status": "ok",
+   "type": "hwpx",
+   "bytes": 4103851,
+   "sha1": "3d7478484c3c"
+  },
+  {
+   "url": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do?mode=fileDownload&articleNo=64491&attachNo=44104",
+   "name": "[서식4~서식13] 신입학 관련 서식_hwp.zip",
+   "status": "ok",
+   "type": "hwpx",
+   "bytes": 520133,
+   "sha1": "ea04c3f056b3"
+  }
+ ],
+ "lines": [
+  {
+   "text": "증빙 서류 사전 검토 | 2026. 7. 22.(수)",
+   "dates": [
+    "2026-07-22"
+   ],
+   "words": [
+    "서류"
+   ],
+   "src": "https://younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "증빙 서류 접수 | 2026. 10. 28.(수)",
+   "dates": [
+    "2026-10-28"
+   ],
+   "words": [
+    "서류"
+   ],
+   "src": "https://younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "증빙 서류 접수 | ~ 10. 30.(금)",
+   "dates": [
+    "2026-10-30"
+   ],
+   "words": [
+    "서류"
+   ],
+   "src": "https://younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "전산 추첨 및 당첨자 발표 | 2026. 11. 24.(화)",
+   "dates": [
+    "2026-11-24"
+   ],
+   "words": [
+    "추첨",
+    "발표"
+   ],
+   "src": "https://younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "최종 합격자 발표 | 2026. 12. 1.(화)",
+   "dates": [
+    "2026-12-01"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "합격자 등록 | 2026. 12. 3.(목)",
+   "dates": [
+    "2026-12-03"
+   ],
+   "words": [
+    "합격",
+    "등록"
+   ],
+   "src": "https://younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "합격자 등록 | ~ 12. 4.(금)",
+   "dates": [
+    "2026-12-04"
+   ],
+   "words": [
+    "합격",
+    "등록"
+   ],
+   "src": "https://younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "합격자 예비소집 | 2026. 12. 15.(화)",
+   "dates": [
+    "2026-12-15"
+   ],
+   "words": [
+    "합격",
+    "예비소집"
+   ],
+   "src": "https://younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "합격여부와 관계없이 1개교만 지원할 수 있음” | [2027학년도 국제중학교 입학전형 기본계획] (서울특별시성북강북·성동광진교육지원청 행정지원과, 2026.3.27.)",
+   "dates": [
+    "2026-03-27"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "증빙 서류 사전 검토 | 2026. 7. 22.(수)",
+   "dates": [
+    "2026-07-22"
+   ],
+   "words": [
+    "서류"
+   ],
+   "src": "https://www.younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "증빙 서류 접수 | 2026. 10. 28.(수)",
+   "dates": [
+    "2026-10-28"
+   ],
+   "words": [
+    "서류"
+   ],
+   "src": "https://www.younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "증빙 서류 접수 | ~ 10. 30.(금)",
+   "dates": [
+    "2026-10-30"
+   ],
+   "words": [
+    "서류"
+   ],
+   "src": "https://www.younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "전산 추첨 및 당첨자 발표 | 2026. 11. 24.(화)",
+   "dates": [
+    "2026-11-24"
+   ],
+   "words": [
+    "추첨",
+    "발표"
+   ],
+   "src": "https://www.younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "최종 합격자 발표 | 2026. 12. 1.(화)",
+   "dates": [
+    "2026-12-01"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://www.younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "합격자 등록 | 2026. 12. 3.(목)",
+   "dates": [
+    "2026-12-03"
+   ],
+   "words": [
+    "합격",
+    "등록"
+   ],
+   "src": "https://www.younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "합격자 등록 | ~ 12. 4.(금)",
+   "dates": [
+    "2026-12-04"
+   ],
+   "words": [
+    "합격",
+    "등록"
+   ],
+   "src": "https://www.younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "합격자 예비소집 | 2026. 12. 15.(화)",
+   "dates": [
+    "2026-12-15"
+   ],
+   "words": [
+    "합격",
+    "예비소집"
+   ],
+   "src": "https://www.younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "합격여부와 관계없이 1개교만 지원할 수 있음” | [2027학년도 국제중학교 입학전형 기본계획] (서울특별시성북강북·성동광진교육지원청 행정지원과, 2026.3.27.)",
+   "dates": [
+    "2026-03-27"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://www.younghoon.ms.kr/cms/etcResourceDown.do?site=%24cms%24J4ewrgdg5gFiIQPoFsg&key=%24cms%24EwBmHYE0AkEkFkDKA6ADgEwGZA"
+  },
+  {
+   "text": "2027학년도 신입학 추가 자격 서류 사전 검토 안내 | 2026.09.16",
+   "dates": [
+    "2026-09-16"
+   ],
+   "words": [
+    "서류"
+   ],
+   "src": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do"
+  },
+  {
+   "text": "등록일 : | 2026.07.22 13:12",
+   "dates": [
+    "2026-07-22"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do?mode=view&articleNo=64491&article.offset=0&articleLimit=10"
+  }
+ ],
+ "ocr_lines": [
+  {
+   "text": "합격여부와 관계없이 1개교만 지원할 수 있음“ | [2027학년도 국제중학교 입학전형 기본계획] (서울특별시성북강북성동광진교육지원청 행정지원과. 2026.3.27.)",
+   "dates": [
+    "2026-03-27"
+   ],
+   "words": [
+    "합격"
+   ],
+   "src": "https://www.younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do?mode=fileDownload&articleNo=64491&attachNo=44101",
+   "via": "ocr"
+  }
+ ],
+ "status": "dates",
  "route": 1
 }
