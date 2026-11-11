@@ -2,7 +2,7 @@
  "id": "n66",
  "org": "순천대 영재원",
  "what": "앞으로 120일 안 일정 1단계",
- "checkedAt": "2026-11-11T21:40:13+09:00",
+ "checkedAt": "2026-11-11T23:53:50+09:00",
  "opened": [
   {
    "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
@@ -90,26 +90,6 @@
    "type": "hwp",
    "bytes": 98304,
    "sha1": "e5ea38b9b32c"
-  },
-  {
-   "url": "https://www.scnu.ac.kr/editor/x_free/upload/20261103/IMG_101016.png",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 56008,
-   "sha1": "dd8b643b7456",
-   "lines": 0
-  },
-  {
-   "url": "https://www.scnu.ac.kr/editor/x_free/upload/20261024/IMG_121211.png",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 132213,
-   "sha1": "9c4265df0b83",
-   "lines": 0
   }
  ],
  "lines": [

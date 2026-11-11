@@ -1,0 +1,32 @@
+{
+ "id": "n28",
+ "org": "대전 교육청 영재원",
+ "what": "2027 영재교육대상자 선발(교육지원청 글로벌영재교육원·교육정보원·교육과학연구원) — 학교 공지 재게시",
+ "checkedAt": "2026-11-11T23:39:11+09:00",
+ "opened": [
+  {
+   "url": "https://dei.djsch.kr/main.do",
+   "status": "ok"
+  },
+  {
+   "url": "https://dei.djsch.kr/boardCnts/view.do?m=0506&boardID=41490&boardSeq=9833605&lev=0&action=view",
+   "status": "robots"
+  },
+  {
+   "url": "https://dswes.djsch.kr/",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027년 대전교육정보원정보영재교육원 영재교육 대상자 선발 전형 안내",
+   "url": "https://dei.djsch.kr/boardCnts/view.do?m=0506&boardID=41490&boardSeq=9833605&lev=0&action=view"
+  }
+ ],
+ "ged": [],
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "found-no-dates",
+ "route": 1
+}

@@ -1,0 +1,23 @@
+{
+ "id": "n61",
+ "org": "전남 교육청 영재교육원",
+ "what": "2027 교육지원청 영재교육원 영재교육대상자 선발(목포·순천)",
+ "checkedAt": "2026-11-11T23:39:33+09:00",
+ "opened": [
+  {
+   "url": "https://mped.jne.go.kr/mped/main.do?sysId=mped",
+   "status": "robots"
+  },
+  {
+   "url": "https://sced.jne.go.kr/board/list.jne?boardId=BBS_0001190&menuCd=DOM_000000303009001000&contentsSid=975",
+   "status": "robots"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "robots",
+ "route": 1
+}

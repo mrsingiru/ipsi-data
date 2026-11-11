@@ -1,0 +1,146 @@
+{
+ "id": "n67",
+ "org": "제주 교육청 영재교육원",
+ "what": "2027 영재교육대상자 전형 계획(1차 발표·2차 전형·최종 발표) — 학교 공지 재게시",
+ "checkedAt": "2026-11-11T23:40:34+09:00",
+ "opened": [
+  {
+   "url": "https://school.jje.go.kr/jjsiheung/main.do",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jje.go.kr/jjsiheung/na/ntt/selectNttList.do?mi=110888&bbsId=110722",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jje.go.kr/jjsiheung/na/ntt/selectNttList.do?mi=110888&bbsId=110722",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jje.go.kr/jjsiheung/na/ntt/selectNttList.do?mi=110901&bbsId=110730",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttList.do?mi=108132&bbsId=120371",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108132&bbsId=120371&nttSn=40742940",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "2027학년도 제주과학고등학교 영재교육원 영재교육대상자 전형 공고",
+   "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108132&bbsId=120371&nttSn=40742940"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108132&bbsId=120371&nttSn=40742940",
+   "title": "제주과학고등학교 > 영재교육원 > 공지사항 상세"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://school.jje.go.kr/common/nttFileDownload.do?fileKey=a4aaba23f33bc355f21ac7bcbf7d80bb",
+   "name": "2027학년도 제주과학고등학교 영재교육원 영재교육대상자 전형 계획 공고.hwp",
+   "status": "robots"
+  }
+ ],
+ "lines": [
+  {
+   "text": "영재교육대상자 선발 공고 | ~ 8. 18.(화)",
+   "dates": [
+    "2026-08-18"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108132&bbsId=120371&nttSn=40742940"
+  },
+  {
+   "text": "전형신청서 및 지원서 제출 | 9. 18.(금)",
+   "dates": [
+    "2026-09-18"
+   ],
+   "words": [
+    "원서",
+    "지원",
+    "전형"
+   ],
+   "src": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108132&bbsId=120371&nttSn=40742940"
+  },
+  {
+   "text": "전형신청서 및 지원서 제출 | ~ 9. 30.(수)",
+   "dates": [
+    "2026-09-30"
+   ],
+   "words": [
+    "원서",
+    "지원",
+    "전형"
+   ],
+   "src": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108132&bbsId=120371&nttSn=40742940"
+  },
+  {
+   "text": "지원서 접수 | 11. 9.(월)",
+   "dates": [
+    "2026-11-09"
+   ],
+   "words": [
+    "원서",
+    "접수",
+    "지원"
+   ],
+   "src": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108132&bbsId=120371&nttSn=40742940"
+  },
+  {
+   "text": "지원서 접수 | ~ 11. 13.(금)",
+   "dates": [
+    "2026-11-13"
+   ],
+   "words": [
+    "원서",
+    "접수",
+    "지원"
+   ],
+   "src": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108132&bbsId=120371&nttSn=40742940"
+  },
+  {
+   "text": "1차 합격자 발표 | 11. 20.(금)",
+   "dates": [
+    "2026-11-20"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108132&bbsId=120371&nttSn=40742940"
+  },
+  {
+   "text": "2차 전형 | 12. 5.(토)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108132&bbsId=120371&nttSn=40742940"
+  },
+  {
+   "text": "최종 합격자 발표 | 12. 16.(수)",
+   "dates": [
+    "2026-12-16"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108132&bbsId=120371&nttSn=40742940"
+  }
+ ],
+ "status": "dates",
+ "route": 1
+}

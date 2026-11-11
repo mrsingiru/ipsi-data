@@ -2,7 +2,7 @@
  "id": "n101",
  "org": "청심국제중",
  "what": "앞으로 120일 안 일정 2단계",
- "checkedAt": "2026-11-11T21:42:37+09:00",
+ "checkedAt": "2026-11-11T23:55:23+09:00",
  "opened": [
   {
    "url": "https://admission.csia.hs.kr/?act=board.read&code=1611&page=1&num=415&id=418",
@@ -26,16 +26,6 @@
    "bytes": 81253,
    "sha1": "2c7601d8db85",
    "reader": "ocr"
-  },
-  {
-   "url": "https://admission.csia.hs.kr/?act=image_proxy&path=hosts/14058/board/board.-1.1793004606.6600",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 81253,
-   "sha1": "2c7601d8db85",
-   "lines": 0
   }
  ],
  "lines": [],
