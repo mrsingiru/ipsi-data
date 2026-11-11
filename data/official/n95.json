@@ -2,7 +2,7 @@
  "id": "n95",
  "org": "경남과학고",
  "what": "앞으로 120일 안 일정 4단계",
- "checkedAt": "2026-11-11T23:54:57+09:00",
+ "checkedAt": "2026-11-12T04:17:06+09:00",
  "opened": [
   {
    "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100276118&mi=160978",
@@ -34,7 +34,7 @@
   },
   {
    "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100340534&mi=160978",
-   "status": "ok"
+   "status": "limit"
   }
  ],
  "notices": [
@@ -68,10 +68,6 @@
   {
    "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100455545&mi=160978",
    "title": "공지사항 | 경남과학고등학교"
-  },
-  {
-   "url": "https://gshs-h.gne.go.kr/gshs-h/na/ntt/selectNttInfo.do?nttSn=100340534&mi=160978",
-   "title": "공지사항 | 경남과학고등학교"
   }
  ],
  "files": [
@@ -81,14 +77,69 @@
    "status": "robots"
   },
   {
+   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 283683,
+   "sha1": "d58cc4a4cc1c",
+   "lines": 0
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 283683,
+   "sha1": "d58cc4a4cc1c",
+   "lines": 0
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/img0204_1.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 513899,
+   "sha1": "edff8de3899c",
+   "lines": 0
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 283683,
+   "sha1": "d58cc4a4cc1c",
+   "lines": 0
+  },
+  {
+   "url": "https://gshs-h.gne.go.kr/upload_sch/editor/20261014/IMG_154640.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 180799,
+   "sha1": "dd4e5751503e",
+   "lines": 0
+  },
+  {
    "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=be87212c5303a8f2b3518357f2b99b4d",
    "name": "경남고입_원서접수_사용자매뉴얼_과학고지원자용.pdf (다운로드 : 1199회)",
    "status": "robots"
   },
   {
-   "url": "https://gshs-h.gne.go.kr/common/nttFileDownload.do?fileKey=6f916839f11640c5b45a7f88204a7f00",
-   "name": "경남고입_추천서_추천인매뉴얼_과학고추천인용.pdf (다운로드 : 758회)",
-   "status": "robots"
+   "url": "https://gshs-h.gne.go.kr/images/sch/schl/gshs-h/sub/S_visual.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 283683,
+   "sha1": "d58cc4a4cc1c",
+   "lines": 0
   }
  ],
  "lines": [],

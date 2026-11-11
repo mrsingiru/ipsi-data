@@ -2,7 +2,7 @@
  "id": "n24",
  "org": "대진대 영재원",
  "what": "앞으로 120일 안 일정 1단계",
- "checkedAt": "2026-11-11T23:45:35+09:00",
+ "checkedAt": "2026-11-12T04:07:17+09:00",
  "opened": [
   {
    "url": "https://gifted.daejin.ac.kr/giftedindex.do",
@@ -21,7 +21,18 @@
    "title": "서울영재교육"
   }
  ],
- "files": [],
+ "files": [
+  {
+   "url": "https://ssei.sen.go.kr/sge/uploads/EDITOR/contentMng/2026/4/3/20260403041045846.jpg",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 262193,
+   "sha1": "6838af97ceef",
+   "lines": 0
+  }
+ ],
  "lines": [],
  "status": "found-no-dates",
  "route": 1

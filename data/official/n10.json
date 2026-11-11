@@ -2,7 +2,7 @@
  "id": "n10",
  "org": "인천과학고",
  "what": "2027 신입생 입학전형(학교 누리집 입학 공지) · 인천 고입 요강 공고",
- "checkedAt": "2026-11-11T23:37:44+09:00",
+ "checkedAt": "2026-11-12T03:58:52+09:00",
  "opened": [
   {
    "url": "https://i-science.icehs.kr/",
@@ -70,6 +70,16 @@
    "type": "pdf",
    "bytes": 937285,
    "sha1": "08ef0b9b9811"
+  },
+  {
+   "url": "https://i-science.icehs.kr/images/template/10470/sub/s_visual.png?x=1",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 279173,
+   "sha1": "b4bb65af26ca",
+   "lines": 0
   },
   {
    "url": "https://i-science.icehs.kr/boardCnts/fileDown.do?fileSeq=3f7145ef1ef6d8969b2eb42ba2a7bc5d",
