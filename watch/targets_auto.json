@@ -1,13 +1,13 @@
 {
  "note": "자동으로 만든 공식 공고 읽기 대상(tools/build_targets.py, ipsi-site). 페이지를 게시할 때마다 다시 만든다. 손으로 적은 watch/targets.json이 같은 id보다 우선.",
- "made": "2026-11-11",
- "ver": "v28.158",
+ "made": "2026-11-12",
+ "ver": "v28.161",
  "horizonDays": 120,
  "targets": [
   {
    "id": "n00",
    "org": "서울 교육청 영재원",
-   "what": "앞으로 120일 안 일정 2단계",
+   "what": "앞으로 120일 안 일정 1단계",
    "pages": [
     {
      "kind": "post",
@@ -30,15 +30,9 @@
     "2027"
    ],
    "near": [
-    "원서",
-    "지원",
     "평가"
    ],
    "expect": [
-    [
-     "2026-11-04",
-     "2026-11-11"
-    ],
     [
      "2026-12-05",
      "2026-12-05"
@@ -690,7 +684,7 @@
   {
    "id": "n27",
    "org": "한양대 ERICA 영재원",
-   "what": "앞으로 120일 안 일정 4단계",
+   "what": "앞으로 120일 안 일정 3단계",
    "pages": [
     {
      "kind": "site",
@@ -706,10 +700,6 @@
     "발표"
    ],
    "expect": [
-    [
-     "2026-11-11",
-     "2026-11-11"
-    ],
     [
      "2026-11-21",
      "2026-11-21"
@@ -2285,7 +2275,7 @@
   {
    "id": "n81",
    "org": "울산 교육청 영재원",
-   "what": "앞으로 120일 안 일정 3단계",
+   "what": "앞으로 120일 안 일정 2단계",
    "pages": [
     {
      "kind": "site",
@@ -2298,14 +2288,9 @@
    "near": [
     "검사",
     "발표",
-    "지원",
     "평가"
    ],
    "expect": [
-    [
-     "2026-10-30",
-     "2026-11-11"
-    ],
     [
      "2026-12-05",
      "2026-12-05"
@@ -2525,39 +2510,6 @@
     [
      "2026-12-24",
      "2026-12-29"
-    ]
-   ],
-   "auto": true
-  },
-  {
-   "id": "n92",
-   "org": "경국대 영재원",
-   "what": "앞으로 120일 안 일정 2단계",
-   "pages": [
-    {
-     "kind": "post",
-     "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172553"
-    },
-    {
-     "kind": "post",
-     "url": "https://gifted.gknu.ac.kr/module/bbs/view.php?mid=/admission/recruitment&bdno=1270&rdno=172552"
-    },
-    {
-     "kind": "board",
-     "url": "https://gifted.gknu.ac.kr/module/bbs/list.php?mid=/admission/recruitment"
-    }
-   ],
-   "title": [
-    "2027"
-   ],
-   "near": [
-    "원서",
-    "추천"
-   ],
-   "expect": [
-    [
-     "2026-11-05",
-     "2026-11-11"
     ]
    ],
    "auto": true

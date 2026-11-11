@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.158)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.161)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-11",
-"ver": "v28.158",
-"count": 481,
+"ver": "v28.161",
+"count": 480,
 "sources": [
 {
 "id": "1084a42981",
@@ -892,7 +892,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -2455,7 +2455,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -4589,19 +4589,6 @@
 "q-suneung"
 ],
 "dated": "2025-01-20",
-"cycle": "w"
-},
-{
-"id": "3fe67f4a6e",
-"url": "https://www.korea.kr/news/policyNewsView.do?newsId=148953921",
-"host": "korea.kr",
-"name": "'수능, 이것 꼭 기억하세요'…시험장에 모든 전자기기 반입 금지, 정책브리핑(교육부)",
-"kind": "공식",
-"cat": "법령·정부",
-"used": [
-"q-csat-day-rules"
-],
-"dated": "2025-11-04",
 "cycle": "w"
 },
 {
