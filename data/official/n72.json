@@ -2,7 +2,7 @@
  "id": "n72",
  "org": "부산과학고",
  "what": "앞으로 120일 안 일정 5단계",
- "checkedAt": "2026-11-11T08:06:25+09:00",
+ "checkedAt": "2026-11-11T19:23:05+09:00",
  "opened": [
   {
    "url": "https://school.busanedu.net/bss-h/cm/cntnts/cntntsView.do?mi=652752&cntntsId=5503",
@@ -66,40 +66,7 @@
    "title": "부산광역시교육청 고입포털 - 고교입학 - 입학전형일정"
   }
  ],
- "files": [
-  {
-   "url": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=fe2b992f96a309efb7be7881f2e6efd7",
-   "name": "2027학년도 부산과학고등학교 신입생 입학전형 서류제출 안내.pdf (열람/다운로드 : 816회)",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 160315,
-   "sha1": "8e551b33923c"
-  },
-  {
-   "url": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=cf10a1e962ec67231f90339009a84de1",
-   "name": "2027학년도 부산과학고 신입생 입학원서 작성 및 서류 관련 FAQ_재공지.pdf (열람/다운로드 : 700회)",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 81701,
-   "sha1": "50649b5362e9"
-  },
-  {
-   "url": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=63b3e7ad99e027f54742c84bf60e51ab",
-   "name": "2027학년도 부산과학고 신입생 입학전형 입학원서 접수 안내.pdf (열람/다운로드 : 774회)",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 76738,
-   "sha1": "10ed5c3319d6"
-  },
-  {
-   "url": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=0829d3b402dd1629d2b589643832aa98",
-   "name": "2027학년도 부산과학고 신입생 입학원서 작성 및 서류 관련 FAQ_재공지.pdf (열람/다운로드 : 603회)",
-   "status": "ok",
-   "type": "pdf",
-   "bytes": 81701,
-   "sha1": "50649b5362e9"
-  }
- ],
+ "files": [],
  "lines": [
   {
    "text": "1단계 합격자 발표 | 9. 16.(수) 16:00",

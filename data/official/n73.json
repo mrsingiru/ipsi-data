@@ -2,7 +2,7 @@
  "id": "n73",
  "org": "부산일과학고",
  "what": "앞으로 120일 안 일정 5단계",
- "checkedAt": "2026-11-11T08:06:40+09:00",
+ "checkedAt": "2026-11-11T19:23:13+09:00",
  "opened": [
   {
    "url": "https://school.busanedu.net/bsis-h/cm/cntnts/cntntsView.do?mi=607023&cntntsId=5071",
@@ -10,14 +10,47 @@
   },
   {
    "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttList.do?mi=607024&bbsId=1004853",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53247053&mi=607024",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53760708&mi=607024",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53749291&mi=607024",
    "status": "limit"
   }
  ],
- "notices": [],
+ "notices": [
+  {
+   "title": "2027학년도 및 2028학년도 부산일과학고등학교 신입생 입학전형 변경사항 안내",
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53247053&mi=607024"
+  },
+  {
+   "title": "2027학년도 부산일과학고등학교 신입생 입학전형 원서접수 최종 결과 알림",
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53760708&mi=607024"
+  },
+  {
+   "title": "2027학년도 부산일과학고등학교 신입생 입학전형 입학원서 접수안내입니다.",
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53749291&mi=607024"
+  }
+ ],
  "ged": [],
  "titles": [
   {
    "url": "https://school.busanedu.net/bsis-h/cm/cntnts/cntntsView.do?mi=607023&cntntsId=5071",
+   "title": "부산일과학고등학교"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53247053&mi=607024",
+   "title": "부산일과학고등학교"
+  },
+  {
+   "url": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53760708&mi=607024",
    "title": "부산일과학고등학교"
   }
  ],
@@ -65,7 +98,10 @@
   {
    "url": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=854d1d97768062442366a0ccecd188a4",
    "name": "2027입학전형 입학원서",
-   "status": "limit"
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 151627,
+   "sha1": "acfae51c6922"
   }
  ],
  "lines": [
@@ -139,6 +175,87 @@
     "등록"
    ],
    "src": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=107044b75674d04a853eba67e582c137"
+  },
+  {
+   "text": "대상자 발표 | 2026. 9. 16.(수) 16:00",
+   "dates": [
+    "2026-09-16"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=854d1d97768062442366a0ccecd188a4"
+  },
+  {
+   "text": "소집면접 대상자 발표 2026. 11. 16.(월) 16:00",
+   "dates": [
+    "2026-11-16"
+   ],
+   "words": [
+    "면접",
+    "발표"
+   ],
+   "src": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=854d1d97768062442366a0ccecd188a4"
+  },
+  {
+   "text": "소집면접 평가 | 2026. 11. 17.(화) 14:30",
+   "dates": [
+    "2026-11-17"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=854d1d97768062442366a0ccecd188a4"
+  },
+  {
+   "text": "소집면접 평가 | 2026. 11. 23.(월)",
+   "dates": [
+    "2026-11-23"
+   ],
+   "words": [
+    "면접"
+   ],
+   "src": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=854d1d97768062442366a0ccecd188a4"
+  },
+  {
+   "text": "최종합격자 발표 | 2026. 12. 2.(수) 16:00",
+   "dates": [
+    "2026-12-02"
+   ],
+   "words": [
+    "발표"
+   ],
+   "src": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=854d1d97768062442366a0ccecd188a4"
+  },
+  {
+   "text": "최종합격자 소집 및 등록 2026. 12. 9.(수) 14:30",
+   "dates": [
+    "2026-12-09"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://school.busanedu.net/common/nttFileDownload.do?fileKey=854d1d97768062442366a0ccecd188a4"
+  },
+  {
+   "text": "등록일 | 2025.04.28 15:13:48",
+   "dates": [
+    "2025-04-28"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53247053&mi=607024"
+  },
+  {
+   "text": "등록일 | 2026.09.03 17:00:28",
+   "dates": [
+    "2026-09-03"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://school.busanedu.net/bsis-h/na/ntt/selectNttInfo.do?nttSn=53760708&mi=607024"
   }
  ],
  "status": "dates",

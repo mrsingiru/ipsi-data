@@ -2,11 +2,11 @@
  "id": "n41",
  "org": "충남과학고",
  "what": "앞으로 120일 안 일정 2단계",
- "checkedAt": "2026-11-11T07:57:26+09:00",
+ "checkedAt": "2026-11-11T19:15:26+09:00",
  "opened": [
   {
    "url": "http://www.cnsh.cnehs.kr/sub/info.do?m=0206&s=cnsh",
-   "status": "robots"
+   "status": "ok"
   },
   {
    "url": "http://www.cnsh.cnehs.kr/boardCnts/list.do?m=0202&s=cnsh&boardID=125870",
@@ -15,23 +15,31 @@
  ],
  "notices": [],
  "ged": [],
- "titles": [],
- "files": [],
+ "titles": [
+  {
+   "url": "http://www.cnsh.cnehs.kr/sub/info.do?m=0206&s=cnsh",
+   "title": "입학안내 - 입학전형 요강(2027학년도)"
+  }
+ ],
+ "files": [
+  {
+   "url": "http://www.cnsh.cnehs.kr/upload/menuImg/cnsh/1726030606945.png",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 286138,
+   "sha1": "56651a831846",
+   "lines": 0
+  }
+ ],
  "lines": [],
- "status": "blocked-all",
+ "status": "found-no-dates",
  "route": 1,
  "tried": [
   {
    "rank": 1,
-   "status": "robots"
-  },
-  {
-   "rank": 2,
-   "status": "robots"
-  },
-  {
-   "rank": 3,
-   "status": "robots"
+   "status": "found-no-dates"
   }
  ]
 }

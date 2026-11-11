@@ -1,0 +1,44 @@
+{
+ "id": "n101",
+ "org": "청심국제중",
+ "what": "앞으로 120일 안 일정 2단계",
+ "checkedAt": "2026-11-11T19:24:40+09:00",
+ "opened": [
+  {
+   "url": "https://admission.csia.hs.kr/?act=board.read&code=1611&page=1&num=415&id=418",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://admission.csia.hs.kr/?act=board.read&code=1611&page=1&num=415&id=418",
+   "title": "청심국제중고등학교 입학센터"
+  }
+ ],
+ "files": [
+  {
+   "url": "https://admission.csia.hs.kr/?act=file_proxy&path=download/board/14058/1611/418/1/2027%C7%D0%B3%E2%B5%B5+%C1%DF%C0%D4+%B0%E6%C0%EF%B7%FC%28%B8%B6%B0%A8%29.jpg",
+   "name": "2027학년도 중입 경쟁률(마감).jpg",
+   "status": "ok",
+   "type": "image",
+   "bytes": 81253,
+   "sha1": "2c7601d8db85",
+   "reader": "ocr"
+  },
+  {
+   "url": "https://admission.csia.hs.kr/?act=image_proxy&path=hosts/14058/board/board.-1.1793004606.6600",
+   "name": "본문 그림",
+   "status": "ok",
+   "reader": "ocr",
+   "type": "image",
+   "bytes": 81253,
+   "sha1": "2c7601d8db85",
+   "lines": 0
+  }
+ ],
+ "lines": [],
+ "status": "found-no-dates",
+ "route": 1
+}

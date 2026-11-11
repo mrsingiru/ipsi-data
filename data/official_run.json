@@ -1,13 +1,10 @@
 {
- "at": "2026-11-11T08:09:01+09:00",
- "targets": 75,
- "withDates": 45,
+ "at": "2026-11-11T19:26:54+09:00",
+ "targets": 77,
+ "withDates": 47,
  "blockedAll": [
   "n33",
-  "n41",
-  "n69",
   "n83",
-  "n31",
   "n62",
   "n63"
  ],
@@ -124,10 +121,10 @@
   {
    "id": "n68",
    "org": "제주과학고",
-   "status": "robots",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
-   "opened": 1,
+   "files": 3,
+   "opened": 2,
    "route": 1,
    "tried": null
   },
@@ -297,7 +294,7 @@
    "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 6,
    "route": 1,
    "tried": [
     {
@@ -492,23 +489,15 @@
   {
    "id": "n41",
    "org": "충남과학고",
-   "status": "blocked-all",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
+   "files": 1,
    "opened": 2,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "found-no-dates"
     }
    ]
   },
@@ -638,23 +627,19 @@
   {
    "id": "n69",
    "org": "제주 고입",
-   "status": "blocked-all",
+   "status": "found-no-dates",
    "lines": 0,
-   "files": 0,
-   "opened": 1,
+   "files": 1,
+   "opened": 2,
    "route": 2,
    "tried": [
-    {
-     "rank": 2,
-     "status": "robots"
-    },
     {
      "rank": 1,
      "status": "robots"
     },
     {
-     "rank": 3,
-     "status": "robots"
+     "rank": 2,
+     "status": "found-no-dates"
     }
    ]
   },
@@ -663,7 +648,7 @@
    "org": "부산과학고",
    "status": "dates",
    "lines": 8,
-   "files": 4,
+   "files": 0,
    "opened": 6,
    "route": 1,
    "tried": null
@@ -672,9 +657,9 @@
    "id": "n73",
    "org": "부산일과학고",
    "status": "dates",
-   "lines": 7,
+   "lines": 15,
    "files": 6,
-   "opened": 2,
+   "opened": 5,
    "route": 1,
    "tried": null
   },
@@ -837,6 +822,26 @@
    ]
   },
   {
+   "id": "n99",
+   "org": "영훈국제중",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
+   "route": 1,
+   "tried": null
+  },
+  {
+   "id": "n101",
+   "org": "청심국제중",
+   "status": "found-no-dates",
+   "lines": 0,
+   "files": 2,
+   "opened": 1,
+   "route": 1,
+   "tried": null
+  },
+  {
    "id": "n30",
    "org": "대전 고입(2027 고입 기본계획)",
    "status": "found-no-dates",
@@ -854,34 +859,26 @@
   {
    "id": "n31",
    "org": "충남대학교 과학영재교육원",
-   "status": "blocked-all",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
+   "status": "dates",
+   "lines": 60,
+   "files": 5,
+   "opened": 4,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "dates"
     }
    ]
   },
   {
    "id": "n34",
    "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
-   "route": 3,
+   "status": "dates",
+   "lines": 60,
+   "files": 4,
+   "opened": 4,
+   "route": 2,
    "tried": [
     {
      "rank": 1,
@@ -889,11 +886,7 @@
     },
     {
      "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "dates"
     }
    ]
   },
@@ -927,18 +920,18 @@
    "lines": 0,
    "files": 0,
    "opened": 1,
-   "route": 3,
+   "route": 1,
    "tried": [
-    {
-     "rank": 3,
-     "status": "robots"
-    },
     {
      "rank": 1,
      "status": "robots"
     },
     {
      "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
      "status": "robots"
     }
    ]

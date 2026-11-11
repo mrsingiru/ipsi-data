@@ -1,0 +1,24 @@
+{
+ "id": "n99",
+ "org": "영훈국제중",
+ "what": "앞으로 120일 안 일정 5단계",
+ "checkedAt": "2026-11-11T19:24:38+09:00",
+ "opened": [
+  {
+   "url": "https://younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do",
+   "title": "2027학년도 신입학자료 | 신입학자료 게시판목록 | 영훈국제중학교"
+  }
+ ],
+ "files": [],
+ "lines": [],
+ "status": "found-no-dates",
+ "route": 1
+}
