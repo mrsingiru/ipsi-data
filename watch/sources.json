@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.150)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-11-10",
-"ver": "v28.150",
-"count": 477,
+"note": "페이지(공개판 v28.154)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-11-11",
+"ver": "v28.154",
+"count": 482,
 "sources": [
 {
 "id": "1084a42981",
@@ -892,7 +892,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1525,6 +1525,19 @@
 "cycle": "w"
 },
 {
+"id": "472be2f984",
+"url": "https://school.busanedu.net/upload/contents/cntnts/1781763162796_87279655141025903.hwp",
+"host": "school.busanedu.net",
+"name": "2027학년도 부산국제중학교 신입생 입학전형요강(학교 누리집 한글 파일) — Ⅳ 전형 일정",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n102"
+],
+"dated": "2026-11-07",
+"cycle": "w"
+},
+{
 "id": "366e7b7d3f",
 "url": "https://school.cbe.go.kr/cbs-h/M0103/",
 "host": "school.cbe.go.kr",
@@ -2032,6 +2045,19 @@
 "cycle": "w"
 },
 {
+"id": "126f9ba5e6",
+"url": "https://suningukje-m.gne.go.kr/suningukje-m/main.do",
+"host": "suningukje-m.gne.go.kr",
+"name": "2027학년도 선인국제중학교 신입생 입학전형 안내(학교 누리집) — 4·5쪽 모집 요강 안내",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n103"
+],
+"dated": "2026-11-07",
+"cycle": "w"
+},
+{
 "id": "d2fffb2283",
 "url": "https://use.go.kr/jinhak/highSchool/highSchool_2.jsp",
 "host": "use.go.kr",
@@ -2055,6 +2081,19 @@
 "n81"
 ],
 "dated": "2026-10-26",
+"cycle": "w"
+},
+{
+"id": "69961d3dff",
+"url": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4",
+"host": "wjgift.gwe.go.kr",
+"name": "2027학년도 원주교육지원청부설영재교육원 영재교육대상자 선발 전형 운영 계획(공식 파일)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n45"
+],
+"dated": "2026-11-11",
 "cycle": "w"
 },
 {
@@ -2416,7 +2455,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -5330,6 +5369,19 @@
 "cycle": "w"
 },
 {
+"id": "41f94c75a6",
+"url": "https://gifted.dnue.ac.kr/gifted/ajx_json/UploadMgr/downloadRun.do?qcode=Qm9hcmQsMjM0NTYsWQ==",
+"host": "gifted.dnue.ac.kr",
+"name": "2027학년도 대구경북 과학·수학영재 신입생 모집요강(대구교대 과학영재교육원)",
+"kind": "공식",
+"cat": "영재교육",
+"used": [
+"n78"
+],
+"dated": "2026-11-11",
+"cycle": "w"
+},
+{
 "id": "222408b3cb",
 "url": "https://gifted.gachon.ac.kr/main/main.action",
 "host": "gifted.gachon.ac.kr",
@@ -6130,6 +6182,19 @@
 "cycle": "w"
 },
 {
+"id": "c89292c5b8",
+"url": "https://admission.csia.hs.kr/?act=board.read&code=1611&page=1&num=415&id=418",
+"host": "admission.csia.hs.kr",
+"name": "2027학년도 청심국제중학교 신입생 전형요항(입학센터) — 06 전형일정",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n101"
+],
+"dated": "2026-11-07",
+"cycle": "w"
+},
+{
 "id": "fccbb18946",
 "url": "https://admission.dg1s.hs.kr/",
 "host": "admission.dg1s.hs.kr",
@@ -6564,13 +6629,14 @@
 "id": "0ba9ca499d",
 "url": "https://younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do",
 "host": "younghoon.ms.kr",
-"name": "2027학년도 영훈국제중학교 신입생 입학 전형 요강(학교 누리집 신입학 자료)",
+"name": "2027학년도 영훈국제중학교 신입생 입학 전형 요강(학교 누리집 신입학 자료) — Ⅵ 전형 일정",
 "kind": "공식",
 "cat": "학교",
 "used": [
+"n99",
 "q-sch-intl-middle"
 ],
-"dated": "",
+"dated": "2026-11-07",
 "cycle": "w"
 },
 {
