@@ -1,13 +1,13 @@
 {
  "note": "자동으로 만든 공식 공고 읽기 대상(tools/build_targets.py, ipsi-site). 페이지를 게시할 때마다 다시 만든다. 손으로 적은 watch/targets.json이 같은 id보다 우선.",
  "made": "2026-11-11",
- "ver": "v28.154",
+ "ver": "v28.158",
  "horizonDays": 120,
  "targets": [
   {
    "id": "n00",
    "org": "서울 교육청 영재원",
-   "what": "앞으로 120일 안 일정 1단계",
+   "what": "앞으로 120일 안 일정 2단계",
    "pages": [
     {
      "kind": "post",
@@ -31,12 +31,17 @@
    ],
    "near": [
     "원서",
-    "지원"
+    "지원",
+    "평가"
    ],
    "expect": [
     [
      "2026-11-04",
      "2026-11-11"
+    ],
+    [
+     "2026-12-05",
+     "2026-12-05"
     ]
    ],
    "auto": true
@@ -661,7 +666,7 @@
    "pages": [
     {
      "kind": "site",
-     "url": "http://gifted.daejin.ac.kr/giftedindex.do"
+     "url": "https://gifted.daejin.ac.kr/giftedindex.do"
     },
     {
      "kind": "post",
@@ -2564,7 +2569,7 @@
    "pages": [
     {
      "kind": "post",
-     "url": "http://gbit.daegu.ac.kr/board/view/notice1/451"
+     "url": "https://gbit.daegu.ac.kr/board/view/notice1/451"
     }
    ],
    "title": [

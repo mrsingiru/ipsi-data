@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.154)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"note": "페이지(공개판 v28.158)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
 "generated": "2026-11-11",
-"ver": "v28.154",
-"count": 482,
+"ver": "v28.158",
+"count": 481,
 "sources": [
 {
 "id": "1084a42981",
@@ -892,7 +892,7 @@
 "id": "6b547020e6",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12723&cntntsId=1844",
 "host": "home.pen.go.kr",
-"name": "고교입학 안내 - 공통사항, 부산광역시교육청 고입포털",
+"name": "고교입학 안내 — 공통사항, 부산광역시교육청 고입포털",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -2041,7 +2041,7 @@
 "used": [
 "n00"
 ],
-"dated": "2026-10-22",
+"dated": "2026-11-11",
 "cycle": "w"
 },
 {
@@ -2455,7 +2455,7 @@
 "id": "7a67237342",
 "url": "https://mokpo.gidea.co.kr/main/ipsi/handbook.action?q=621b01bcf3940130b6413933d318f597ef9af6c13daf7925667e55342b2c0148",
 "host": "mokpo.gidea.co.kr",
-"name": "국립목포대 과학영재교육원 2027학년도 모집요강(일반전형, 2026-10-01 공고)",
+"name": "국립목포대 과학영재교육원 2027학년도 모집요강(특별전형, 2026-09-28 공고)",
 "kind": "공식",
 "cat": "기타",
 "used": [
@@ -3161,8 +3161,8 @@
 "cycle": "m"
 },
 {
-"id": "9a46d8115c",
-"url": "http://gbit.daegu.ac.kr/board/view/notice1/451",
+"id": "887bd2b1fe",
+"url": "https://gbit.daegu.ac.kr/board/view/notice1/451",
 "host": "gbit.daegu.ac.kr",
 "name": "대구대 글로벌브릿지 2027학년도 AI·융합·외국어 영재교육 대상자 모집 요강(공지 첨부)",
 "kind": "공식",
@@ -5317,8 +5317,8 @@
 "cycle": "w"
 },
 {
-"id": "d5521fb82b",
-"url": "http://gifted.daejin.ac.kr/giftedindex.do",
+"id": "ff0e9a92b0",
+"url": "https://gifted.daejin.ac.kr/giftedindex.do",
 "host": "gifted.daejin.ac.kr",
 "name": "2027학년도 대진대학교 과학영재교육원 신입원생 모집 요강 — 3 전형일정",
 "kind": "공식",
@@ -5668,7 +5668,7 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사 신입생 선발 모집 요강",
+"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
@@ -6637,19 +6637,6 @@
 "q-sch-intl-middle"
 ],
 "dated": "2026-11-07",
-"cycle": "w"
-},
-{
-"id": "8d4eef41be",
-"url": "https://younghoon.ms.kr/younghoon_m/education-intro/admission-current-year.do?mode=fileDownload&articleNo=60487&attachNo=42576",
-"host": "younghoon.ms.kr",
-"name": "2027학년도 국제중학교 입학전형 기본계획(서울, 영훈국제중 게시본)",
-"kind": "공식",
-"cat": "학교",
-"used": [
-"q-sch-intl-middle"
-],
-"dated": "2026-07-22",
 "cycle": "w"
 }
 ]
