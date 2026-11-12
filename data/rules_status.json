@@ -1,5 +1,5 @@
 {
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "registry": {
 "updated": "2026-11-04",
 "rules": 60,
@@ -15,19 +15,42 @@
 "notDue": 30
 },
 "summary": {
-"high": 1,
-"mid": 0,
+"high": 2,
+"mid": 2,
 "low": 0
 },
 "events": [
 {
-"source": "yt-api-policy",
+"source": "yt-api-quota",
 "rules": [
-"R-YT14",
-"R-YT15"
+"R-YT5"
 ],
 "level": "high",
-"what": "수정일 Last updated 2026-11-01 → Last updated 2026-11-06 · 바뀐 부분: YouTube API Services - Developer Policies Stay organized with collections Save a / I. Terminology and style / II. Software Development Principles / B. Maintainability and Deprecation / E. Handling YouTube Data and Content / G. Distribution and Commercial Use"
+"what": "수정일 Last updated 2026-11-03 → Last updated 2026-11-10 · 바뀐 부분: Quota and Compliance Audits Stay organized with collections Save and categorize / Begin an audit / Request an additional quota extension / Appeal a failed audit / Periodic audit / Change of control"
+},
+{
+"source": "yt-api-rev",
+"rules": [
+"R-YT5"
+],
+"level": "high",
+"what": "수정일 Last updated 2026-11-03 → Last updated 2026-11-10 · 바뀐 부분: November 3, 2026 / November 2, 2026 / October 15, 2026 / September 30, 2026 / September 14, 2026 / September 11, 2026"
+},
+{
+"source": "g-status",
+"rules": [
+"R-G3"
+],
+"level": "mid",
+"what": "바뀐 부분: 2026"
+},
+{
+"source": "ig-orig",
+"rules": [
+"R-IG1"
+],
+"level": "mid",
+"what": "새 부분: Follow us · 없어진 부분: Follow @Creators / Go Create"
 }
 ],
 "sources": {
@@ -40,7 +63,7 @@
 "rules": [
 "R-YT1"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube channel monetization policies - YouTube Help",
@@ -142,7 +165,7 @@
 "slideshow": 1,
 "reused content": 11
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -155,7 +178,7 @@
 "rules": [
 "R-YT2"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "Spam Policy - YouTube Help",
@@ -187,7 +210,7 @@
 "automat": 2,
 "strike": 4
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": [],
 "changedAt": "2026-10-24T06:19+09:00",
@@ -206,7 +229,7 @@
 "rules": [
 "R-YT3"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "Disclosing use of GenAI content - Android phone & tablet - YouTube Help",
@@ -271,7 +294,7 @@
 "realistic": 14,
 "voice": 3
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": [
 "altered or synthetic"
@@ -286,7 +309,7 @@
 "rules": [
 "R-YT4"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube Partner Program overview & eligibility - Computer - YouTube Help",
@@ -358,7 +381,7 @@
 "8,000": 0,
 "20 million": 0
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": [
 "8,000",
@@ -466,11 +489,11 @@
 "rules": [
 "R-YT5"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/reference/rest/v3/videos/insert?hl=en",
 "title": "Videos: insert  |  YouTube Data API  |  Google for Developers",
-"updated": "Last updated 2026-11-03",
+"updated": "Last updated 2026-11-10",
 "chars": 15126,
 "hash": "47c1fef7c776",
 "sections": [
@@ -535,7 +558,7 @@
 "unverified": 1,
 "quota": 3
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": [
 "audit"
@@ -550,13 +573,13 @@
 "rules": [
 "R-YT5"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/revision_history?hl=en",
 "title": "Revision History  |  YouTube Data API  |  Google for Developers",
-"updated": "Last updated 2026-11-03",
-"chars": 165035,
-"hash": "6a36f49d36ce",
+"updated": "Last updated 2026-11-10",
+"chars": 163131,
+"hash": "a56ef6028b01",
 "sections": [
 [
 "(첫 부분)",
@@ -568,279 +591,279 @@
 ],
 [
 "November 3, 2026",
-"77e7710a4532"
+"f11104ecd86b"
 ],
 [
 "November 2, 2026",
-"868600cd7a75"
+"e453839d3de0"
 ],
 [
 "October 15, 2026",
-"ad2fbfea3aa1"
+"48285dec1e2a"
 ],
 [
 "September 30, 2026",
-"d92c005e641b"
+"469680722da0"
 ],
 [
 "September 14, 2026",
-"468b448359d1"
+"d8e0f946cec1"
 ],
 [
 "September 11, 2026",
-"efed5c4a7eef"
+"f64a6e26ab4b"
 ],
 [
 "September 1, 2026",
-"067d293680e5"
+"5b06a79bfd61"
 ],
 [
 "August 27, 2026",
-"1153cdaae2bf"
+"a460099d13f1"
 ],
 [
 "August 6, 2026",
-"541643f9835c"
+"48b6f80bc7f5"
 ],
 [
 "July 7, 2026",
-"3838a9a8f2b6"
+"03b2d7490d34"
 ],
 [
 "June 23, 2026",
-"685e95d4e1fc"
+"223a180e4a53"
 ],
 [
 "June 3, 2026",
-"1f8cd1d5415e"
+"1af00fefb35e"
 ],
 [
 "June 1, 2026",
-"f2d34611769b"
+"07156331d79a"
 ],
 [
 "December 4, 2025",
-"a101153d39f3"
+"0f8d0455408a"
 ],
 [
 "July 10, 2025",
-"e4ddeb248ca4"
+"382cde639306"
 ],
 [
 "March 26, 2025",
-"cee03aaa90c5"
+"4e932a27c464"
 ],
 [
 "October 30, 2024",
-"50fb9fb1af6e"
+"ff5062845a5d"
 ],
 [
 "April 30, 2024",
-"9270fd2a38de"
+"a2efae518310"
 ],
 [
 "March 13, 2024",
-"2e6716187994"
+"0335635b5b7a"
 ],
 [
 "March 12, 2024",
-"49584b075ede"
+"8f126eacc194"
 ],
 [
 "March 7, 2024",
-"82f9cfe83f23"
+"1dcbc198ba15"
 ],
 [
 "January 31, 2024",
-"a55bf84a6ba5"
+"2b37639d354f"
 ],
 [
 "November 09, 2023",
-"2e6fff76126d"
+"8b9540b44fcf"
 ],
 [
 "September 12, 2023",
-"a6f730e813c5"
+"61bec19c6a44"
 ],
 [
 "August 22, 2023",
-"433b521a6d56"
+"271901189aff"
 ],
 [
 "August 18, 2023",
-"b372c72a42a3"
+"1313cb54bc47"
 ],
 [
 "August 7, 2023",
-"982182ac3b59"
+"da9f36f60658"
 ],
 [
 "June 28, 2023",
-"47ed4a3904e5"
+"91c2692e6c92"
 ],
 [
 "June 12, 2023",
-"8139034844d2"
+"4c0563ef2ed2"
 ],
 [
 "August 22, 2022",
-"d073a58ca82d"
+"cc8a76d38ade"
 ],
 [
 "August 5, 2022",
-"6f4e9eac3828"
+"cbcfb8fa4239"
 ],
 [
 "July 12, 2022",
-"21a05893645e"
+"df59332aeb39"
 ],
 [
 "April 27, 2022",
-"1d80e43d2e12"
+"9aee624adf2b"
 ],
 [
 "April 8, 2022",
-"4ed08fc9089e"
+"e825ac2f9f6b"
 ],
 [
 "December 15, 2021",
-"f4f2565bf1d4"
+"2bfcbc3ad0e7"
 ],
 [
 "November 18, 2021",
-"b44e376344aa"
+"cd2c5724f239"
 ],
 [
 "July 2, 2021",
-"70433f5f54f6"
+"d3dd6f3273eb"
 ],
 [
 "July 1, 2021",
-"64ca04bbb840"
+"b5b713f94581"
 ],
 [
 "May 12, 2021",
-"88a84d3e0b17"
+"f21e87d43161"
 ],
 [
 "February 9, 2021",
-"b921a02927c6"
+"fa9082a17624"
 ],
 [
 "January 28, 2021",
-"e96b3623b06c"
+"e55a9e56bd29"
 ],
 [
 "October 15, 2020",
-"1290d1ea054c"
+"68d3548d795d"
 ],
 [
 "October 8, 2020",
-"8cc3dc693bba"
+"ed3091ac03ba"
 ],
 [
 "September 9, 2020",
-"365c8f1bee72"
+"e28f13b2600c"
 ],
 [
 "July 29, 2020",
-"85a3efd834d0"
+"d51f5d0640df"
 ],
 [
 "July 28, 2020",
-"2882e592c0e6"
+"cccbfe5fcd08"
 ],
 [
 "July 21, 2020",
-"9f7e715cd666"
+"fd5ef85a71cf"
 ],
 [
 "July 7, 2020",
-"b9bc29c0b217"
+"429f27c9952c"
 ],
 [
 "June 15, 2020",
-"79a8f1410782"
+"09935b258dcf"
 ],
 [
 "June 4, 2020",
-"e17963f1b863"
+"92f731dd9588"
 ],
 [
 "April 17, 2020",
-"090d4cfc92db"
+"bd711192ec2d"
 ],
 [
 "March 31, 2020",
-"80eda06e0403"
+"3a36bb2ebeb3"
 ],
 [
 "January 10, 2020",
-"78269a433622"
+"6d766e8a11b3"
 ],
 [
 "September 10, 2019",
-"c80641720ae1"
+"75ca99d17e8b"
 ],
 [
 "April 4, 2019",
-"3a11199fb7f2"
+"62e99174f8f9"
 ],
 [
 "July 9, 2018",
-"eb815c6523ab"
+"a416fcf3f465"
 ],
 [
 "June 22, 2018",
-"7d615447d85c"
+"963ff9776b89"
 ],
 [
 "November 27, 2017",
-"b5dc762c94fc"
+"e1f0c837031e"
 ],
 [
 "November 16, 2017",
-"c738376f421a"
+"f894d9390225"
 ],
 [
 "October 25, 2017",
-"af77efa10eb8"
+"42e26d8bd525"
 ],
 [
 "August 29, 2017",
-"2946c7908b50"
+"49809011d025"
 ],
 [
 "July 24, 2017",
-"97d7ee1a1206"
+"1364753f775c"
 ],
 [
 "June 1, 2017",
-"983e32dd3a00"
+"437ed3569a39"
 ],
 [
 "May 17, 2017",
-"7b12a40a1579"
+"efa6258a9d39"
 ],
 [
 "April 27, 2017",
-"d17877c5ce12"
+"bd1027221c34"
 ],
 [
 "March 30, 2017",
-"a48ea549e910"
+"01527d155f7c"
 ],
 [
 "February 27, 2017",
-"2c85c98851b3"
+"d06573fc93b7"
 ],
 [
 "November 29, 2016",
-"eab53bf681d6"
+"2be7c75eac0e"
 ],
 [
 "November 10, 2016",
-"1d1a26432613"
+"7b9e6903cb4d"
 ],
 [
 "November 2, 2016",
@@ -848,31 +871,31 @@
 ],
 [
 "September 15, 2016",
-"030b2387af6c"
+"d0c694cbf086"
 ],
 [
 "August 11, 2016",
-"e613391bdcd2"
+"f6f80c2d8956"
 ],
 [
 "June 13, 2016",
-"c068b0017107"
+"f49340b3d528"
 ],
 [
 "May 31, 2016",
-"dea13e576241"
+"d25b415026f9"
 ],
 [
 "May 17, 2016",
-"ef73f0aab03f"
+"1bc437259bde"
 ],
 [
 "April 28, 2016",
-"7cc06ac4b23b"
+"13d8e4535c21"
 ],
 [
 "April 20, 2016",
-"4242a203d17c"
+"f0e38f396711"
 ],
 [
 "March 16, 2016",
@@ -883,25 +906,36 @@
 "videos.insert": 29,
 "private": 19
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": [],
-"changedAt": "2026-11-04T19:58+09:00",
+"changedAt": "2026-11-12T18:06+09:00",
 "changes": {
 "changed": [
-"August 11, 2016"
-],
-"added": [
 "November 3, 2026",
-"November 2, 2026"
-],
-"removed": [
-"December 18, 2015",
-"November 19, 2015"
+"November 2, 2026",
+"October 15, 2026",
+"September 30, 2026",
+"September 14, 2026",
+"September 11, 2026",
+"September 1, 2026",
+"August 27, 2026",
+"August 6, 2026",
+"July 7, 2026",
+"June 23, 2026",
+"June 3, 2026",
+"June 1, 2026",
+"December 4, 2025",
+"July 10, 2025",
+"March 26, 2025",
+"October 30, 2024",
+"April 30, 2024",
+"March 13, 2024",
+"March 12, 2024"
 ],
 "updated": [
-"Last updated 2026-10-15",
-"Last updated 2026-11-03"
+"Last updated 2026-11-03",
+"Last updated 2026-11-10"
 ]
 }
 },
@@ -914,13 +948,13 @@
 "rules": [
 "R-IG1"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "Helping Creators Find New Audiences | Instagram for Creators | Instagram for Creators",
 "updated": "",
-"chars": 8633,
-"hash": "d7638be5465e",
+"chars": 8531,
+"hash": "0f8ab340b5d9",
 "sections": [
 [
 "(첫 부분)",
@@ -931,12 +965,8 @@
 "4446ab627f35"
 ],
 [
-"Follow @Creators",
-"9aa2454c7e19"
-],
-[
-"Go Create",
-"8ac99f1c3d4c"
+"Follow us",
+"a63f883f0d3e"
 ],
 [
 "Express Yourself",
@@ -960,9 +990,19 @@
 "aggregator": 5,
 "watermark": 1
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
-"watchMissing": []
+"watchMissing": [],
+"changedAt": "2026-11-12T18:06+09:00",
+"changes": {
+"added": [
+"Follow us"
+],
+"removed": [
+"Follow @Creators",
+"Go Create"
+]
+}
 },
 "ig-api": {
 "name": "Instagram Content Publishing API",
@@ -973,7 +1013,7 @@
 "rules": [
 "R-IG2"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "https://developers.facebook.com/documentation/instagram-platform/content-publishing",
 "title": "",
@@ -991,7 +1031,7 @@
 "24 hour": 1,
 "is_ai_generated": 3
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": [],
 "changedAt": "2026-11-06T22:06+09:00",
@@ -1010,7 +1050,7 @@
 "rules": [
 "R-TH1"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "https://developers.facebook.com/documentation/threads/posts",
 "title": "",
@@ -1027,7 +1067,7 @@
 "250": 1,
 "tester": 2
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": [],
 "changedAt": "2026-11-06T22:06+09:00",
@@ -1081,7 +1121,7 @@
 "rules": [
 "R-TT1"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "https://developers.tiktok.com/docs/en/content-sharing-guidelines",
 "title": "Content Sharing Guidelines | TikTok for Developers",
@@ -1124,7 +1164,7 @@
 "internal": 1,
 "5 users": 1
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1137,7 +1177,7 @@
 "rules": [
 "R-TT2"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "https://www.tiktok.com/safety/en/policies-and-engagement/integrity-authenticity",
 "title": "Policies & engagement | TikTok",
@@ -1175,7 +1215,7 @@
 "label": 6,
 "unoriginal": 1
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1302,7 +1342,7 @@
 "rules": [
 "R-G1"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "Spam Policies for Google Web Search | Google Search Central  |  Documentation  |  Google for Developers",
@@ -1424,7 +1464,7 @@
 "doorway": 2,
 "site reputation abuse": 0
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": [
 "site reputation abuse"
@@ -1439,7 +1479,7 @@
 "rules": [
 "R-G2"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "Google Search's Guidance on Generative AI Content on Your Website | Google Search Central  |  Documentation  |  Google f",
@@ -1469,7 +1509,7 @@
 "scaled content abuse": 2,
 "metadata": 4
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -1570,13 +1610,13 @@
 "rules": [
 "R-G3"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "History for Ranking | Google Search Status Dashboard",
 "updated": "",
-"chars": 4130,
-"hash": "1f8898f4c3bf",
+"chars": 4206,
+"hash": "ae32582883cd",
 "sections": [
 [
 "(첫 부분)",
@@ -1588,7 +1628,7 @@
 ],
 [
 "2026",
-"e34125cdb87d"
+"bebc59734c31"
 ],
 [
 "2025",
@@ -1613,15 +1653,15 @@
 ],
 "watch": {
 "spam update": 22,
-"core update": 32
+"core update": 34
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": [],
-"changedAt": "2026-11-04T19:58+09:00",
+"changedAt": "2026-11-12T18:06+09:00",
 "changes": {
 "changed": [
-"2021"
+"2026"
 ]
 }
 },
@@ -2838,7 +2878,7 @@
 "R-YT14",
 "R-YT15"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube API Services - Developer Policies  |  Google for Developers",
@@ -2922,7 +2962,7 @@
 "independently calculated": 1,
 "30 days": 7
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": [
 "Last updated"
@@ -2959,11 +2999,11 @@
 "R-YT5",
 "R-YT6"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/reference/rest/v3/videos?hl=en",
 "title": "Videos  |  YouTube Data API  |  Google for Developers",
-"updated": "Last updated 2026-11-03",
+"updated": "Last updated 2026-11-10",
 "chars": 58830,
 "hash": "1298634bae9b",
 "sections": [
@@ -2993,7 +3033,7 @@
 "selfDeclaredMadeForKids": 3,
 "defaults to public": 0
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": [
 "defaults to public"
@@ -3008,7 +3048,7 @@
 "rules": [
 "R-YT15"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "YouTube API Services Terms of Service  |  Google for Developers",
@@ -3132,7 +3172,7 @@
 "watch": {
 "Last updated": 0
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": [
 "Last updated"
@@ -3153,13 +3193,13 @@
 "rules": [
 "R-YT5"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "https://developers.google.com/youtube/data/guides/quota_and_compliance_audits?hl=en",
 "title": "Quota and Compliance Audits  |  YouTube Data API  |  Google for Developers",
-"updated": "Last updated 2026-11-03",
+"updated": "Last updated 2026-11-10",
 "chars": 2026,
-"hash": "64deee4311b0",
+"hash": "71c0df58d205",
 "sections": [
 [
 "(첫 부분)",
@@ -3167,37 +3207,52 @@
 ],
 [
 "Quota and Compliance Audits Stay organized with collections Save and categorize",
-"90b9ad274ab2"
+"b68d24fd9dd1"
 ],
 [
 "Begin an audit",
-"fa995800a7d2"
+"4cf0a31ca24a"
 ],
 [
 "Request an additional quota extension",
-"eec10c154446"
+"3102d821c99c"
 ],
 [
 "Appeal a failed audit",
-"e2221eafb9a5"
+"c172b0c8d96c"
 ],
 [
 "Periodic audit",
-"74de5edb1809"
+"156c1ac05f71"
 ],
 [
 "Change of control",
-"eaf54f972a4a"
+"03b733836376"
 ]
 ],
 "watch": {
 "100 videos.insert": 0
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": [
 "100 videos.insert"
+],
+"changedAt": "2026-11-12T18:06+09:00",
+"changes": {
+"changed": [
+"Quota and Compliance Audits Stay organized with collections Save and categorize",
+"Begin an audit",
+"Request an additional quota extension",
+"Appeal a failed audit",
+"Periodic audit",
+"Change of control"
+],
+"updated": [
+"Last updated 2026-11-03",
+"Last updated 2026-11-10"
 ]
+}
 },
 "yt-audience": {
 "name": "시청자층 설정(채널·영상별 아동용 지정, 영상 설정이 우선)",
@@ -3208,7 +3263,7 @@
 "rules": [
 "R-YT6"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "Set your channel or video’s audience - Computer - YouTube Help",
@@ -3260,7 +3315,7 @@
 "watch": {
 "override the channel setting": 1
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -3273,7 +3328,7 @@
 "rules": [
 "R-YT17"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "Understand three-minute YouTube Shorts - YouTube Help",
@@ -3326,7 +3381,7 @@
 "three minutes": 4,
 "blocked globally": 2
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -3339,7 +3394,7 @@
 "rules": [
 "R-YT16"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "Using OAuth 2.0 to Access Google APIs  |  Authorization  |  Google for Developers",
@@ -3423,7 +3478,7 @@
 "watch": {
 "expiring in 7 days": 1
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -3436,7 +3491,7 @@
 "rules": [
 "R-YT2"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "",
 "title": "Community Guidelines strike basics on YouTube - YouTube Help",
@@ -3485,7 +3540,7 @@
 "warning": 9,
 "90 days": 5
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": []
 },
@@ -3498,7 +3553,7 @@
 "rules": [
 "R-YT3"
 ],
-"checkedAt": "2026-11-08T05:49+09:00",
+"checkedAt": "2026-11-12T18:06+09:00",
 "status": "ok",
 "final": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
 "title": "Improving AI labels for viewers and creators\n            \n          \n           - YouTube Blog",
@@ -3539,7 +3594,7 @@
 "Shorts": 1,
 "label": 9
 },
-"lastOk": "2026-11-08T05:49+09:00",
+"lastOk": "2026-11-12T18:06+09:00",
 "failStreak": 0,
 "watchMissing": []
 },

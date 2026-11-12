@@ -1,20 +1,28 @@
-# 규정 점검 2026-11-08
+# 규정 점검 2026-11-12
 
 규정 60개 · 원문 71곳 중 자동 감시 53곳, 이번에 23곳을 열었습니다 (읽음 23 · 본문 짧아 못 읽음 0 · robots로 안 엶 0 · 못 엶 0).
 
-높음 1 · 보통 0 · 낮음 0 — 높음·보통은 마케팅 주간 예약(일요일 14:42)이 원문을 열어 우리 영향을 판단하고 운영실에 올립니다.
+높음 2 · 보통 2 · 낮음 0 — 높음·보통은 월요일 04:10 자료 점검(v5.11 4i)이 원문을 열어 우리 영향을 판단하고 운영실에 올립니다.
 
-## 높음: 우리가 기대는 사실이 바뀌었을 수 있음 (1)
-- YouTube YouTube API 서비스 개발자 정책(III.E.4 저장·파생 지표 금지) — 수정일 Last updated 2026-11-01 → Last updated 2026-11-06 · 바뀐 부분: YouTube API Services - Developer Policies Stay organized with collections Save a / I. Terminology and style / II. Software Development Principles / B. Maintainability and Deprecation / E. Handling YouTube Data and Content / G. Distribution and Commercial Use
-  - 주소: https://developers.google.com/youtube/terms/developer-policies?hl=en
-  - 관련 규정 R-YT14: YouTube API — API 자료로 새 지표·파생 지표를 만들거나 비슷한 값을 따로 계산해 바꿔 쓰면 안 됨(III.E.4.h), API 자료는 정해진 기간 안에 새로 고침. 인증받아 읽은 분석·통계는 필요한 만큼 보관 가능하되 30일마다 인증 확인(III.E.4.b), 그 밖 인증 자료는 30일 안에 지우거나 새로 고침(III.E.4.c), 인증 자료는 허락한 사람 말고 보여 주지 않음(III.E.3)
-  - 관련 규정 R-YT15: YouTube API — 사용자가 미리 명확히 동의한 것만 자동 업로드(III.I.2), 최종 결정은 사용자·정한 값을 바꾸지 않고 올린 뒤 설명에 덧붙이지 않음(III.C.3·III.C.3.a), 공개 상태 고르는 칸을 보여 주고 동의 없이 바꾸지 않음(III.E.3.f), 업로드 화면에 약관 안내문(API 약관 9.1), 제목 100자·설명 5,000바이트·< > 금지(최소 기능 요건), 프로그램 하나에 프로젝트 하나·열쇠 비밀(III.D.1)
+## 높음: 우리가 기대는 사실이 바뀌었을 수 있음 (2)
+- YouTube Data API 할당량·감사(업로드 하루 100번 · 감사는 한도를 늘릴 때만) — 수정일 Last updated 2026-11-03 → Last updated 2026-11-10 · 바뀐 부분: Quota and Compliance Audits Stay organized with collections Save and categorize / Begin an audit / Request an additional quota extension / Appeal a failed audit / Periodic audit / Change of control
+  - 주소: https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits?hl=en
+  - 관련 규정 R-YT5: 유튜브 — videos.insert는 '동영상 업로드' 따로 한도 — 1번에 1단위·하루 100번(2026-06-01 분리), 그 밖 기능 하루 10,000단위, 기본 한도 안에서는 감사 불필요. 검증 안 된 프로젝트로 올린 영상도 비공개로 잠기지 않음 — 2026-11-02 개정 기록이 2020-07-28 잠금을 거둠(2026-11-06 확인). 공개 상태를 비우면 '공개'가 기본, 예약 공개는 비공개·미공개 영상만
+- YouTube Data API 개정 이력 — 수정일 Last updated 2026-11-03 → Last updated 2026-11-10 · 바뀐 부분: November 3, 2026 / November 2, 2026 / October 15, 2026 / September 30, 2026 / September 14, 2026 / September 11, 2026
+  - 주소: https://developers.google.com/youtube/v3/revision_history?hl=en
+  - 관련 규정 R-YT5: 유튜브 — videos.insert는 '동영상 업로드' 따로 한도 — 1번에 1단위·하루 100번(2026-06-01 분리), 그 밖 기능 하루 10,000단위, 기본 한도 안에서는 감사 불필요. 검증 안 된 프로젝트로 올린 영상도 비공개로 잠기지 않음 — 2026-11-02 개정 기록이 2020-07-28 잠금을 거둠(2026-11-06 확인). 공개 상태를 비우면 '공개'가 기본, 예약 공개는 비공개·미공개 영상만
 
-## 보통: 내용이 바뀐 부분이 있음 (0)
+## 보통: 내용이 바뀐 부분이 있음 (2)
+- Google 검색 Search Status Dashboard 순위 업데이트 이력 — 바뀐 부분: 2026
+  - 주소: https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history
+  - 관련 규정 R-G3: 구글 검색 — 스팸·코어 업데이트가 자주 있음(2026년 스팸 업데이트 3·6·8·9월)
+- Meta Instagram 추천과 원본성 — 새 부분: Follow us · 없어진 부분: Follow @Creators / Go Create
+  - 주소: https://creators.instagram.com/recommendations-and-originality
+  - 관련 규정 R-IG1: 인스타그램 — 똑같은 사본은 원본만 추천, 남의 것 모음·워터마크 있는 영상은 추천 제외
 
 ## 낮음: 처음 기록·읽지 못함 (0)
 
-## 자동으로 보지 않는 규정 (18) — 마케팅 주간이 차례(확인일 + 주기)를 보고 확인
+## 자동으로 보지 않는 규정 (18) — 월요일 자료 점검이 차례(확인일 + 주기)를 보고 확인
 - [대표 확인 · 분기 1회] 네이버 블로그 운영정책(자동화·대량 발행 조항) — 주소 확인 필요: 네이버 고객센터 › 블로그 › 운영정책. 대표가 한 번 열어 주소를 알려 주면 auto로 바꿈
 - [AI 확인 · 월 1회] AI 기본법(2026-01-22 시행)·투명성 가이드라인·계도기간
 - [AI 확인 · 월 1회] 정보통신망법 개정안(게시자 AI 생성물 표시 의무) 진행
