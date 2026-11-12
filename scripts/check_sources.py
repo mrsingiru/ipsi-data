@@ -13,7 +13,7 @@
   세션 값·긴 16진 값 줄을 빼고 잰다. 본문의 날짜 글자(2026.11.12 · 2026-11-12 · 11월 12일 · 11. 12.)만 따로 모은 지문(dhash)도 둔다.
   2주 연속 바뀌었는데 날짜 글자는 그대로면(quietStreak 2) noisy. 지문 방식이 바뀐 첫 주는 비교하지 않고 새 기준만 적는다(fpv).
 """
-import datetime, hashlib, json, os, re, sys, urllib.parse
+import datetime, hashlib, json, os, re, sys, time, urllib.parse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fetch_official as fo
 from bs4 import BeautifulSoup
@@ -112,6 +112,7 @@ def main(reg_path, out_path, report_path):
     F = fo.Fetcher()
     items = {}
     counts = {'checked': 0, 'ok': 0, 'robots': 0, 'failed': 0, 'changed': 0, 'skipped': 0, 'limit': 0}
+    retried = 0
     order = sorted(reg['sources'], key=lambda x: (prev.get(x['id'], {}).get('checkedAt', ''), x['cycle'] != 'w'))
     for it in order:
         p = dict(prev.get(it['id'], {}))
@@ -126,6 +127,12 @@ def main(reg_path, out_path, report_path):
             items[it['id']] = p; counts['skipped'] += 1; continue
         binary = bool(re.search(r'\.(pdf|hwpx?|zip)(\?|$)', it['url'], re.I))
         st, data, final, ctype = F.get(it['url'], binary=binary)
+        # 2026-11-13 대표 '출처 점검이 멈춰 있는데 이유 분석': 울산대 입학처 파일이 두 주 연속 서버 오류(500)로 '끊김'이 됐지만 사람이 열면 열림
+        #  (일요일·월요일 이른 아침 서버 점검 시간 추정) → 서버 쪽 오류·연결 오류는 30초 뒤 한 번만 더 열어 보고 센다(한 실행에 10곳까지).
+        if (st == 'error' or str(st).startswith('http-5')) and retried < 10:
+            retried += 1; time.sleep(30)
+            st, data, final, ctype = F.get(it['url'], binary=binary)
+            p['retried'] = now.isoformat(timespec='minutes')
         if st == 'limit':
             items[it['id']] = p; counts['limit'] += 1; continue
         counts['checked'] += 1
