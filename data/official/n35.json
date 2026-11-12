@@ -2,10 +2,14 @@
  "id": "n35",
  "org": "충북 교육청 영재원",
  "what": "2027 영재교육대상자 선발(교육원·교육지원청 부설) — 학교 공지 재게시",
- "checkedAt": "2026-11-12T07:44:18+09:00",
+ "checkedAt": "2026-11-12T14:06:49+09:00",
  "opened": [
   {
    "url": "https://school.cbe.go.kr/sangjincho-e/M010302/list",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.cbe.go.kr/sangjincho-e/M010302/view/5882570",
    "status": "ok"
   },
   {
@@ -15,13 +19,13 @@
   {
    "url": "https://school.cbe.go.kr/sangjincho-e/M010302/view/5877965",
    "status": "ok"
-  },
-  {
-   "url": "https://school.cbe.go.kr/sangjincho-e/M010302/view/5856383",
-   "status": "ok"
   }
  ],
  "notices": [
+  {
+   "title": "2027 청주교육대학교 부설 AI융합영재교육원 모집요강",
+   "url": "https://school.cbe.go.kr/sangjincho-e/M010302/view/5882570"
+  },
   {
    "title": "2027. 충북교육연구정보원부설영재교육원 영재교육대상자 모집 안내",
    "url": "https://school.cbe.go.kr/sangjincho-e/M010302/view/5880270"
@@ -29,14 +33,14 @@
   {
    "title": "2027. 지역공동 상진초 영재학급 영재교육대상자 선발 안내 가정통신문(재안내)",
    "url": "https://school.cbe.go.kr/sangjincho-e/M010302/view/5877965"
-  },
-  {
-   "title": "2027. 단양교육지원청영재교육원 영재교육대상자 선발전형 공고",
-   "url": "https://school.cbe.go.kr/sangjincho-e/M010302/view/5856383"
   }
  ],
  "ged": [],
  "titles": [
+  {
+   "url": "https://school.cbe.go.kr/sangjincho-e/M010302/view/5882570",
+   "title": "공지사항<학교소식<상진초등학교"
+  },
   {
    "url": "https://school.cbe.go.kr/sangjincho-e/M010302/view/5880270",
    "title": "공지사항<학교소식<상진초등학교"
@@ -44,13 +48,17 @@
   {
    "url": "https://school.cbe.go.kr/sangjincho-e/M010302/view/5877965",
    "title": "공지사항<학교소식<상진초등학교"
-  },
-  {
-   "url": "https://school.cbe.go.kr/sangjincho-e/M010302/view/5856383",
-   "title": "공지사항<학교소식<상진초등학교"
   }
  ],
  "files": [
+  {
+   "url": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/51393d077ddb8b02da81f3b567804a1e",
+   "name": "2027 청주교육대학교 부설 AI융합영재교육원 모집요강.pdf",
+   "status": "ok",
+   "type": "pdf",
+   "bytes": 276141,
+   "sha1": "a0543df90bd2"
+  },
   {
    "url": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/96dfd8ce5520b4e5f454db1787c4c688",
    "name": "2027. 충북교육연구정보원부설영재교육원 영재교육대상자 모집 안내 가정통신문(최종).hwp",
@@ -66,17 +74,60 @@
    "type": "hwp",
    "bytes": 116736,
    "sha1": "29ca6ad0a024"
-  },
-  {
-   "url": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984",
-   "name": "2027. 단양교육지원청영재교육원 영재교육대상자 선발전형 공고.hwpx",
-   "status": "ok",
-   "type": "hwpx",
-   "bytes": 79792,
-   "sha1": "897deb87d163"
   }
  ],
  "lines": [
+  {
+   "text": "육대학교 부설 AI융합영재교육원 영재교육 대상자 선발을 다음과 같이 | 2026년 10월 8일",
+   "dates": [
+    "2026-10-08"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/51393d077ddb8b02da81f3b567804a1e"
+  },
+  {
+   "text": "※ 사회통합 대상자는 전형료를 면제함 | ② 2026.11.23(월) 납부 완료 확인 문자를 학부모 번호로 전송 예정",
+   "dates": [
+    "2026-11-23"
+   ],
+   "words": [
+    "전형"
+   ],
+   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/51393d077ddb8b02da81f3b567804a1e"
+  },
+  {
+   "text": "※ 방문접수 불가, 2026.11.23.(월)까지 우편 제출 (우편발송 소인일 기준에 한함)",
+   "dates": [
+    "2026-11-23"
+   ],
+   "words": [
+    "접수"
+   ],
+   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/51393d077ddb8b02da81f3b567804a1e"
+  },
+  {
+   "text": "가. 선발 시험일 : 2026년 12월 5일(토)",
+   "dates": [
+    "2026-12-05"
+   ],
+   "words": [
+    "선발"
+   ],
+   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/51393d077ddb8b02da81f3b567804a1e"
+  },
+  {
+   "text": "가. 최종합격자 발표 : 2026년 12월 24일(목) GED시스템에 접속하여 개별 확인",
+   "dates": [
+    "2026-12-24"
+   ],
+   "words": [
+    "발표",
+    "합격"
+   ],
+   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/51393d077ddb8b02da81f3b567804a1e"
+  },
   {
    "text": "학생 온라인 지원 | 2026. 11. 9.(월)~11. 13.(금)",
    "dates": [
@@ -194,209 +245,6 @@
     "합격"
    ],
    "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/6e10dd0c9356a15c0226f0067e5cc919"
-  },
-  {
-   "text": "영재교육대상자 선발전형 공고 | 2026년 10월 8일",
-   "dates": [
-    "2026-10-08"
-   ],
-   "words": [
-    "선발",
-    "전형"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "선발 공고 | 2026. 10. 8.(목)",
-   "dates": [
-    "2026-10-08"
-   ],
-   "words": [
-    "선발"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "원서교부 및 접수: | 2026.11.9.(월)",
-   "dates": [
-    "2026-11-09"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "원서교부 및 접수: | ~11.13.(금) 16:00마감",
-   "dates": [
-    "2026-11-13"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "서류전형 및 선발추천: | 2026.11.13.(금)",
-   "dates": [
-    "2026-11-13"
-   ],
-   "words": [
-    "선발",
-    "전형"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "서류전형 및 선발추천: | ~11.20.(금) 16:00마감",
-   "dates": [
-    "2026-11-20"
-   ],
-   "words": [
-    "선발",
-    "전형"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "영재성 검사 | 2026. 12. 5.(토) 10:00~11:30",
-   "dates": [
-    "2026-12-05"
-   ],
-   "words": [
-    "검사"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "심층면접 | 2026. 12. 5.(토) 11:40~13:30",
-   "dates": [
-    "2026-12-05"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "발표 | 2026. 12. 16.(수)",
-   "dates": [
-    "2026-12-16"
-   ],
-   "words": [
-    "발표"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "최종 합격자 | 2026. 12. 16.(수)",
-   "dates": [
-    "2026-12-16"
-   ],
-   "words": [
-    "합격"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "가. 영재교육대상자 선발 전형 공고: 2026. 10. 8.(목)",
-   "dates": [
-    "2026-10-08"
-   ],
-   "words": [
-    "선발",
-    "전형"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "나. 원서교부 및 접수: 2026. 11. 9.(월) ~ 11. 13.(금) 16:00(기한 이후 접수 불가)",
-   "dates": [
-    "2026-11-09",
-    "2026-11-13"
-   ],
-   "words": [
-    "원서",
-    "접수"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "다. 교사추천 및 지원서(증빙서류) 제출: 2026. 11. 13.(금) ~ 11. 20.(금) 16:00(기한 이후 입력 불가)",
-   "dates": [
-    "2026-11-13",
-    "2026-11-20"
-   ],
-   "words": [
-    "원서",
-    "지원"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "5) 사회통합전형대상자 증빙서류는 운영학교(단양중)로 공문 또는 인편 제출 | ※ 제출 기간: 2026. 11. 13.(금) ~ 11. 20.(금) 16:00까지(시간 엄수)",
-   "dates": [
-    "2026-11-13",
-    "2026-11-20"
-   ],
-   "words": [
-    "전형"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "라. 영재성 검사: 2026. 12. 5.(토) 10:00 ~ 11:30",
-   "dates": [
-    "2026-12-05"
-   ],
-   "words": [
-    "검사"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "마. 심층 면접: 2026. 12. 5.(토) 11:40 ~ 13:30",
-   "dates": [
-    "2026-12-05"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "- 심층면접 상세 시각 및 안내사항은 추후 안내 | 바. 영재교육대상자 선정심사위원회 심의: 2026년 12월 11일(금) 예정",
-   "dates": [
-    "2026-12-11"
-   ],
-   "words": [
-    "면접"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "사. 최종 합격자 발표: 2026. 12. 16.(수) 예정",
-   "dates": [
-    "2026-12-16"
-   ],
-   "words": [
-    "발표",
-    "합격"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
-  },
-  {
-   "text": "2) 최종 합격자 온라인 등록기간: 2026. 12. 16.(수) ~ 2026. 12. 23.(수)",
-   "dates": [
-    "2026-12-16",
-    "2026-12-23"
-   ],
-   "words": [
-    "합격"
-   ],
-   "src": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/9d96f1061993261a9d9c4d4519b2a984"
   }
  ],
  "status": "dates",
