@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.161)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-11-11",
-"ver": "v28.161",
-"count": 480,
+"note": "페이지(공개판 v28.170)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-11-12",
+"ver": "v28.170",
+"count": 490,
 "sources": [
 {
 "id": "1084a42981",
@@ -302,6 +302,7 @@
 "used": [
 "q-hs-fail",
 "q-hs-types",
+"q-med",
 "q-med-gifted",
 "r-ksa-sci",
 "r-refund"
@@ -495,6 +496,19 @@
 "cycle": "m"
 },
 {
+"id": "d0130844e8",
+"url": "https://www.goe.go.kr/resource/goe/na/bbs_2675/2026/07/4a580487-f61a-43df-8675-ab378e391777.pdf",
+"host": "goe.go.kr",
+"name": "한국교육과정평가원 — 2027 수능 시행세부계획 공고(경기도교육청 게재본)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-suneung"
+],
+"dated": "2026-07-01",
+"cycle": "w"
+},
+{
 "id": "2f462df1ff",
 "url": "https://www.goe.go.kr/resource/old/BBSMSTR_000000030136/BBS_202408220418082440.pdf",
 "host": "goe.go.kr",
@@ -636,6 +650,23 @@
 "n17"
 ],
 "dated": "",
+"cycle": "w"
+},
+{
+"id": "edc44dfba7",
+"url": "https://gs-h.goesw.kr/dext5editordata/2026/04/20260402_151825822_26726.pdf",
+"host": "gs-h.goesw.kr",
+"name": "경기과학고 2027학년도 입학전형 요항(학교 누리집 첨부 PDF — 중복 지원 6쪽·전형 단계 3쪽·의약학 계열 5~6쪽)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-hs-types",
+"q-med",
+"q-med-gifted",
+"r-contest",
+"r-refund"
+],
+"dated": "2026-04-02",
 "cycle": "w"
 },
 {
@@ -1139,6 +1170,19 @@
 "cycle": "w"
 },
 {
+"id": "f50b3e4ef4",
+"url": "https://ipsi.sen.go.kr/ssenjh/qna/qna2.do",
+"host": "ipsi.sen.go.kr",
+"name": "서울특별시교육청 진학 나침판 — 입시 용어(표준점수·백분위·변환표준점수)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-csat-score-read"
+],
+"dated": "",
+"cycle": "w"
+},
+{
 "id": "f1f65e0dc8",
 "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000004&menuCd=DOM_000000103002000000&searchOperation=AND&dataSid=1026755",
 "host": "jbe.go.kr",
@@ -1397,6 +1441,19 @@
 "q-hw-overcharge"
 ],
 "dated": "",
+"cycle": "w"
+},
+{
+"id": "a6b2044e0c",
+"url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30397&bbsId=2286&nttSn=1179461",
+"host": "pen.go.kr",
+"name": "부산교육청 보도자료: 고2 등급평균 1.00 유지 학생 0.68%로 조사(학력개발원, 붙임 누적 등급평균 분석 자료)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"q-univ-last-year"
+],
+"dated": "2026-09-04",
 "cycle": "w"
 },
 {
@@ -2032,6 +2089,19 @@
 "cycle": "w"
 },
 {
+"id": "427494796a",
+"url": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4034&file_seq=1&alias_name=20260919045052465_1",
+"host": "ssei.sen.go.kr",
+"name": "(동부 초등)2027학년도 동부교육지원청영재교육원 영재교육대상자 모집요강(공고용) — 서울영재교육 영재선발 요강 게시판",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n00"
+],
+"dated": "2026-11-12",
+"cycle": "w"
+},
+{
 "id": "a96aff872c",
 "url": "https://ssei.sen.go.kr/sge/fus/file/down0010f.do?attach_file_id=4035&file_seq=1&alias_name=20260919045136613_1",
 "host": "ssei.sen.go.kr",
@@ -2217,7 +2287,7 @@
 "id": "9341dfc905",
 "url": "https://www.edurang.net/",
 "host": "edurang.net",
-"name": "대전외국어고 2027학년도 신입생 입학전형 요강 — Ⅳ 전형일정(공식 PDF)",
+"name": "대전대성고 2027학년도 신입생 모집 입학 안내 — 전형 일정(공식 PDF)",
 "kind": "기타",
 "cat": "기타",
 "used": [
@@ -2557,7 +2627,8 @@
 "q-med-ldoc",
 "q-med-ldoc-city",
 "q-med-ldoc-zone",
-"r-local-doctor"
+"r-local-doctor",
+"r-transfer-local"
 ],
 "dated": "2026-06-30",
 "cycle": "m"
@@ -4330,15 +4401,11 @@
 "id": "75c13dcd2c",
 "url": "https://eiec.kdi.re.kr/policy/materialView.do?num=285888",
 "host": "eiec.kdi.re.kr",
-"name": "보건복지부 입법예고(둘 이상 진료권에 걸친 학교군의 지역의사선발전형 거주요건 보완, KDI 경제정보센터 게재)",
+"name": "보건복지부 — 학교군 거주요건 보완 입법예고(KDI 경제정보센터 게재)",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
-"q-med-ldoc",
-"q-med-ldoc-city",
-"q-med-ldoc-zone",
-"q-med-local-move",
-"r-transfer-local"
+"q-med-local-move"
 ],
 "dated": "2026-08-27",
 "cycle": "w"
@@ -4382,7 +4449,7 @@
 "id": "5140940d4c",
 "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148962396",
 "host": "korea.kr",
-"name": "대한민국 정책브리핑 사실은 이렇습니다: 복지부 '지역의사 실제 복무 5년 뿐? 사실과 달라'(수련기간 산입, 고시안)",
+"name": "보건복지부 사실은 이렇습니다(지역의사 복무 기간 — 수련 기간 산입, 2026-04-09)",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
@@ -4635,7 +4702,7 @@
 "id": "858806c5b5",
 "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148960616",
 "host": "korea.kr",
-"name": "정책브리핑 '지역의사제 시행령 의결'(의대 소재지 또는 인접 지역 중·고교, 2026-03-10)",
+"name": "대한민국 정책브리핑: 지역의사 선발비율·의무복무 기준 마련…'지역의사제' 시행령 의결(보건복지부)",
 "kind": "공식",
 "cat": "법령·정부",
 "used": [
@@ -4905,6 +4972,19 @@
 "cycle": "w"
 },
 {
+"id": "d5da6eda8c",
+"url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=340&boardSeq=97621&lev=0&m=020201&opType=&page=1&s=moe&searchType=S&statusYN=W",
+"host": "moe.go.kr",
+"name": "교육부 — 카드뉴스 '2028 대학입시제도 개편 Q&A'(수능 수학 출제 과목)",
+"kind": "공식",
+"cat": "법령·정부",
+"used": [
+"q-suneung"
+],
+"dated": "2024-01-03",
+"cycle": "w"
+},
+{
 "id": "eeaca62ca6",
 "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?m=020&s=moe&page=62&boardID=340&boardSeq=97875&lev=0&opType=N",
 "host": "moe.go.kr",
@@ -5117,6 +5197,19 @@
 "cycle": "w"
 },
 {
+"id": "f924d30cfe",
+"url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289281",
+"host": "law.go.kr",
+"name": "국가법령정보센터 — 지역의사법 시행령 제2조제3항·별표 2(중·고교 소재 지역)",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-med-ldoc-capital"
+],
+"dated": "2026-09-04",
+"cycle": "w"
+},
+{
 "id": "5b62f7cc4e",
 "url": "https://www.law.go.kr/LSW/lsLawLinkInfo.do?lsJoLnkSeq=1010072001&chrClsCd=010202&ancYnChk=0",
 "host": "law.go.kr",
@@ -5166,6 +5259,23 @@
 "q-hs-national-jasa"
 ],
 "dated": "2024-01-23",
+"cycle": "w"
+},
+{
+"id": "31581f6722",
+"url": "https://www.law.go.kr/lsInfoP.do?lsiSeq=289281&viewCls=lsRvsDocInfoR",
+"host": "law.go.kr",
+"name": "국가법령정보센터 — 지역의사법 시행령 개정문(대통령령 제36642호)",
+"kind": "공식",
+"cat": "법령·판례",
+"used": [
+"q-med-ldoc",
+"q-med-ldoc-city",
+"q-med-ldoc-zone",
+"q-med-local-move",
+"r-transfer-local"
+],
+"dated": "2026-09-04",
 "cycle": "w"
 },
 {
@@ -5721,6 +5831,7 @@
 "q-csat-answer-objection",
 "q-csat-apply",
 "q-csat-day-rules",
+"q-csat-score-read",
 "q-g3-after",
 "q-past"
 ],
@@ -6245,15 +6356,10 @@
 "kind": "공식",
 "cat": "학교",
 "used": [
-"ksa24",
-"q-hs-types",
-"q-med",
-"q-med-gifted",
-"r-contest",
-"r-refund"
+"ksa24"
 ],
 "dated": "",
-"cycle": "w"
+"cycle": "m"
 },
 {
 "id": "13d970be06",
@@ -6363,6 +6469,19 @@
 "cycle": "w"
 },
 {
+"id": "e59928ac65",
+"url": "https://djflhs.djsch.kr/boardCnts/list.do?boardID=98882&m=0506&s=djflhs",
+"host": "djflhs.djsch.kr",
+"name": "대전외국어고 2027학년도 신입생 입학전형 요강 — Ⅳ 전형일정(공식 PDF)",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n30"
+],
+"dated": "2026-11-05",
+"cycle": "w"
+},
+{
 "id": "d8184a484a",
 "url": "https://djshs.djsch.kr/boardCnts/list.do?boardID=85790&m=0702&s=djshs",
 "host": "djshs.djsch.kr",
@@ -6454,6 +6573,19 @@
 "n04"
 ],
 "dated": "2026-10-22",
+"cycle": "w"
+},
+{
+"id": "6be450d5e3",
+"url": "https://www.hana.hs.kr/assets/brochure/2027학년도_하나고등학교_신입생_입학전형_요강.pdf",
+"host": "hana.hs.kr",
+"name": "2027학년도 하나고등학교 신입생 입학전형 요강(PDF)",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n04"
+],
+"dated": "2026-11-12",
 "cycle": "w"
 },
 {
