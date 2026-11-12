@@ -86,18 +86,35 @@
       "대구",
       "교육청"
      ]
+    },
+    {
+     "kind": "site",
+     "url": "https://dongpyung.dge.es.kr/dongpyunge/main.do?sysId=dongpyunge"
+    },
+    {
+     "kind": "site",
+     "url": "https://hansol.dge.es.kr/hansole/main.do?sysId=hansole"
     }
    ],
    "title": [
-    "2027"
+    "2027",
+    "영재교육대상자"
    ],
    "near": [
     "원서",
     "접수",
     "지원",
+    "추천",
     "선발",
-    "발표"
-   ]
+    "발표",
+    "합격",
+    "면접",
+    "검사",
+    "전형",
+    "평가",
+    "등록"
+   ],
+   "fixNote": "2026-11-13 실행 1 창: GED만 있던 대상에 대구 초등학교 공지(2027학년도 영재교육대상자 모집 안내 — 교육청 공통 안내 재게시) 2곳 더함"
   },
   {
    "id": "n00",
