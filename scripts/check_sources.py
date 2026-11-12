@@ -8,6 +8,10 @@
 - cycle 'w'(공식 원문, 날짜가 걸린 곳)는 매주, 'm'(기사·학습 사이트)은 28일이 지나면 다시 연다.
 - 바뀜: 지문이 지난번과 다르면 changedAt을 적는다. 세 번 연속 바뀌는 곳(조회수·광고로 늘 바뀌는 곳)은 noisy로 두고 알리지 않는다.
 - 끊김: 두 번 연속 못 열면(4xx·5xx·오류) broken.
+- (지문 v2 — 2026-11-12 자료 개선안 2026-11-09-d1, 대표 11/9 승인: 바뀐 공식 원문 59·61개가 매주 거의 다 '바뀜'이었는데 열어 본 5곳 중
+  날짜가 바뀐 곳 0) 지문은 본문 글만: 게시판 목록(링크가 든 줄 5개 넘는 표)은 글 제목 목록만, 그 밖은 본문에서 오늘 날짜·시각·
+  세션 값·긴 16진 값 줄을 빼고 잰다. 본문의 날짜 글자(2026.11.12 · 2026-11-12 · 11월 12일 · 11. 12.)만 따로 모은 지문(dhash)도 둔다.
+  2주 연속 바뀌었는데 날짜 글자는 그대로면(quietStreak 2) noisy. 지문 방식이 바뀐 첫 주는 비교하지 않고 새 기준만 적는다(fpv).
 """
 import datetime, hashlib, json, os, re, sys, urllib.parse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -28,21 +32,67 @@ def host(u):
     h = (urllib.parse.urlsplit(u).hostname or '').lower()
     return h[4:] if h.startswith('www.') else h
 
-def fingerprint(data, ctype, url):
-    """Stable digest of the page's own content (not the counters around it) and its title."""
+FPV = 2   # 지문 방식 번호 — 바뀌면 첫 주는 비교하지 않고 새 기준만 적는다
+DATE_RX = re.compile(r'(20\d\d)\s*[.\-/년]\s*(\d{1,2})\s*[.\-/월]\s*(\d{1,2})|(\d{1,2})\s*월\s*(\d{1,2})\s*일|(?<![\d.])(\d{1,2})\.\s?(\d{1,2})\.(?!\d)')
+TIME_RX = re.compile(r'\b\d{1,2}:\d{2}(:\d{2})?\b')
+SESSION_RX = re.compile(r'(jsessionid|sessionid|phpsessid|csrf|token)[=:;][^\s&"\']+|\b[0-9a-f]{24,}\b', re.I)
+
+
+def _today_forms(today):
+    y, m, d = today.year, today.month, today.day
+    return {'%d.%02d.%02d' % (y, m, d), '%d-%02d-%02d' % (y, m, d), '%d/%02d/%02d' % (y, m, d), '%d.%d.%d' % (y, m, d), '%d년 %d월 %d일' % (y, m, d)}
+
+
+def _board_titles(main):
+    """게시판 목록이면 글 제목(링크 글)만 — 조회수·작성일·번호 칸은 뺌. 링크가 든 줄이 5개 넘는 표가 없으면 None."""
+    for tb in main.find_all('table'):
+        rows = [tr for tr in tb.find_all('tr') if tr.find('a')]
+        if len(rows) > 5:
+            out = []
+            for tr in rows:
+                a = max(tr.find_all('a'), key=lambda x: len(x.get_text(' ', strip=True)))
+                t = re.sub(r'\s+', ' ', a.get_text(' ', strip=True)).strip()
+                if t:
+                    out.append(t)
+            if len(out) > 5:
+                return out
+    return None
+
+
+def date_sig(text):
+    """본문에 적힌 날짜 글자만 모아 정렬한 지문 — 글은 바뀌어도 날짜가 그대로인지 보려고."""
+    ds = set()
+    for m in DATE_RX.finditer(text):
+        g = m.groups()
+        ds.add('%s-%02d-%02d' % (g[0], int(g[1]), int(g[2])) if g[0] else ('%02d-%02d' % (int(g[3]), int(g[4])) if g[3] else '%02d-%02d' % (int(g[5]), int(g[6]))))
+    return hashlib.sha256('\n'.join(sorted(ds)).encode('utf-8')).hexdigest()[:16], len(ds)
+
+
+def fingerprint(data, ctype, url, today=None):
+    """Stable digest of the page's own content (not the counters around it), its title, and a digest of the dates in it.
+    v2(2026-11-12): 게시판 목록은 글 제목만 · 오늘 날짜·시각·세션 값 줄은 뺌."""
     if isinstance(data, bytes):
-        return hashlib.sha256(data).hexdigest()[:16], ''
+        h = hashlib.sha256(data).hexdigest()[:16]
+        return h, '', h
+    today = today or kst_now().date()
     soup = BeautifulSoup(data, 'lxml')
     title = (soup.title.get_text(' ', strip=True) if soup.title else '')[:120]
     for t in soup(['script', 'style', 'noscript', 'iframe', 'header', 'footer', 'nav', 'aside', 'form']):
         t.decompose()
     main = soup.find('article') or soup.find('main') or soup.body or soup
-    lines = []
-    for ln in main.get_text('\n', strip=True).split('\n'):
-        ln = re.sub(r'\s+', ' ', ln).strip()
-        if ln and not NOISE.search(ln):
-            lines.append(ln)
-    return hashlib.sha256('\n'.join(lines).encode('utf-8')).hexdigest()[:16], title
+    tf = _today_forms(today)
+    lines = _board_titles(main)
+    if lines is None:
+        lines = []
+        for ln in main.get_text('\n', strip=True).split('\n'):
+            ln = re.sub(r'\s+', ' ', ln).strip()
+            if not ln or NOISE.search(ln) or any(f in ln for f in tf):
+                continue
+            ln = SESSION_RX.sub('', TIME_RX.sub('', ln)).strip()
+            if ln:
+                lines.append(ln)
+    text = '\n'.join(lines)
+    return hashlib.sha256(text.encode('utf-8')).hexdigest()[:16], title, date_sig(text)[0]
 
 def due(item, prev, today):
     p = prev.get(item['id'])
@@ -86,13 +136,20 @@ def main(reg_path, out_path, report_path):
             p.update({'status': 'login', 'final': final, 'failStreak': 0}); counts['login'] = counts.get('login', 0) + 1
             items[it['id']] = p; continue
         if st == 'ok':
-            h, title = fingerprint(data, ctype, it['url'])
-            changed = bool(p.get('hash')) and p['hash'] != h
+            h, title, dh = fingerprint(data, ctype, it['url'], today)
+            same_fp = p.get('fpv') == FPV   # 지문 방식이 바뀐 첫 주는 비교하지 않음(모두 '바뀜'으로 나오지 않게)
+            changed = same_fp and bool(p.get('hash')) and p['hash'] != h
+            dchanged = changed and bool(p.get('dhash')) and p['dhash'] != dh
             p['changeStreak'] = (p.get('changeStreak', 0) + 1) if changed else 0
-            p['noisy'] = p['changeStreak'] >= 3 or (p.get('noisy') and p['changeStreak'] > 0)
+            p['quietStreak'] = (p.get('quietStreak', 0) + 1) if (changed and not dchanged) else 0   # 바뀌었는데 날짜 글자는 그대로인 주가 이어진 수
+            # 날짜 글자가 바뀐 주는 흔들림으로 숨기지 않는다(그게 우리가 찾는 바뀜)
+            p['noisy'] = (not dchanged) and (p['changeStreak'] >= 3 or p['quietStreak'] >= 2 or bool(p.get('noisy') and changed))
+            p['datesChanged'] = dchanged
             if changed:
                 p['changedAt'] = now.isoformat(timespec='minutes'); counts['changed'] += 1
-            p.update({'hash': h, 'title': title, 'final': final if final != it['url'] else '', 'ctype': (ctype or '').split(';')[0][:40],
+                if dchanged:
+                    counts['datesChanged'] = counts.get('datesChanged', 0) + 1
+            p.update({'hash': h, 'dhash': dh, 'fpv': FPV, 'title': title, 'final': final if final != it['url'] else '', 'ctype': (ctype or '').split(';')[0][:40],
                       'lastOk': now.isoformat(timespec='minutes'), 'failStreak': 0})
             counts['ok'] += 1
         elif st == 'robots':
@@ -103,11 +160,12 @@ def main(reg_path, out_path, report_path):
         items[it['id']] = p
     broken = [(k, v) for k, v in items.items() if v.get('failStreak', 0) >= 2]
     changed = [(k, v) for k, v in items.items() if v.get('changedAt', '')[:10] == today.isoformat() and not v.get('noisy') and v.get('kind') == '공식']
+    changed.sort(key=lambda kv: not kv[1].get('datesChanged'))   # 날짜 글자가 바뀐 곳 먼저
     moved = [(k, v) for k, v in items.items() if v.get('status') == 'ok' and v.get('final') and host(v['final']) != host(v['url'])]
     login = [(k, v) for k, v in items.items() if v.get('status') == 'login']
     terms = sum(1 for v in items.values() if v.get('status') == 'skip-terms')
     doc = {'checkedAt': now.isoformat(timespec='minutes'), 'registry': {'ver': reg.get('ver'), 'generated': reg.get('generated'), 'count': reg.get('count')},
-           'run': counts, 'summary': {'broken': len(broken), 'changedOfficial': len(changed), 'moved': len(moved),
+           'run': counts, 'summary': {'broken': len(broken), 'changedOfficial': len(changed), 'changedDates': sum(1 for k, v in changed if v.get('datesChanged')), 'moved': len(moved),
                                       'robots': sum(1 for v in items.values() if v.get('status') == 'robots'),
                                       'login': len(login), 'skipTerms': terms,
                                       'neverOk': sum(1 for v in items.values() if v.get('checkedAt') and not v.get('lastOk'))},
@@ -120,7 +178,7 @@ def main(reg_path, out_path, report_path):
     def block(title, rows):
         L.append('## ' + title + ' (' + str(len(rows)) + ')')
         for k, v in rows[:60]:
-            L.append('- ' + v['url'] + ' — ' + ', '.join(v.get('used', [])[:6]) + ((' → ' + v['final']) if v.get('final') else '') + ((' · ' + str(v.get('error') or v.get('status'))) if v.get('failStreak') else ''))
+            L.append('- ' + v['url'] + ' — ' + ', '.join(v.get('used', [])[:6]) + ((' → ' + v['final']) if v.get('final') else '') + ((' · ' + str(v.get('error') or v.get('status'))) if v.get('failStreak') else '') + (' · 날짜 글자 바뀜' if v.get('datesChanged') and v.get('changedAt', '')[:10] == today.isoformat() else ''))
         L.append('')
     block('끊김: 두 번 연속 못 엶', broken)
     block('바뀜: 이번 주 내용이 바뀐 공식 원문', changed)
