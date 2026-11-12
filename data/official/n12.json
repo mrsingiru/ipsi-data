@@ -2,7 +2,7 @@
  "id": "n12",
  "org": "인천 고입",
  "what": "앞으로 120일 안 일정 7단계",
- "checkedAt": "2026-11-12T14:10:34+09:00",
+ "checkedAt": "2026-11-13T07:56:01+09:00",
  "opened": [
   {
    "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
@@ -11,27 +11,84 @@
   {
    "url": "https://www.ice.go.kr/ice/na/ntt/selectNttList.do?mi=10889&bbsId=1618",
    "status": "ok"
+  },
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3388539",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3388308",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3388031",
+   "status": "ok"
   }
  ],
- "notices": [],
+ "notices": [
+  {
+   "title": "[특례 유형 1] 2027 고등학교 입학전형 원서 접수 방법",
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3388539"
+  },
+  {
+   "title": "[타시도 전국단위 중학교/각종학교 졸업예정자] 2027 고등학교 입학전형 원서 접수 방법",
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3388308"
+  },
+  {
+   "title": "2027학년도 고등학교 입학 선호도 조사(2차) 결과 알림",
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3388031"
+  }
+ ],
  "ged": [],
- "titles": [],
+ "titles": [
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?nttSn=3372135&mi=10889",
+   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
+  },
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3388539",
+   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
+  },
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3388308",
+   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
+  },
+  {
+   "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3388031",
+   "title": "고등학교입학자료실 < 입학/전입학/편입학안내 < 교육 | 인천광역시교육청"
+  }
+ ],
  "files": [],
- "lines": [],
- "status": "not-found",
+ "lines": [
+  {
+   "text": "[특례 유형 1] 2027 고등학교 입학전형 원서 접수 방법 | 2026.11.10.",
+   "dates": [
+    "2026-11-10"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3388539"
+  },
+  {
+   "text": "[타시도 전국단위 중학교/각종학교 졸업예정자] 2027 고등학교 입학전형 원서 접수 방법 | 2026.11.06.",
+   "dates": [
+    "2026-11-06"
+   ],
+   "words": [
+    "원서",
+    "접수"
+   ],
+   "src": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10889&bbsId=1618&nttSn=3388308"
+  }
+ ],
+ "status": "dates",
  "route": 1,
  "tried": [
   {
    "rank": 1,
-   "status": "not-found"
-  },
-  {
-   "rank": 2,
-   "status": "not-found"
-  },
-  {
-   "rank": 3,
-   "status": "not-found"
+   "status": "dates"
   }
  ]
 }

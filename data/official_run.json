@@ -1,11 +1,10 @@
 {
- "at": "2026-11-12T14:26:00+09:00",
- "targets": 81,
- "withDates": 44,
+ "at": "2026-11-13T08:12:29+09:00",
+ "targets": 80,
+ "withDates": 49,
  "blockedAll": [
   "n33",
   "n83",
-  "n31",
   "n62",
   "n63"
  ],
@@ -45,7 +44,7 @@
     },
     {
      "rank": 2,
-     "status": "robots"
+     "status": "not-found"
     }
    ]
   },
@@ -62,10 +61,10 @@
   {
    "id": "n09",
    "org": "인천 융합영재교육원",
-   "status": "not-found",
-   "lines": 0,
+   "status": "dates",
+   "lines": 1,
    "files": 0,
-   "opened": 1,
+   "opened": 2,
    "route": 1,
    "tried": null
   },
@@ -222,46 +221,30 @@
   {
    "id": "n10",
    "org": "인천과학고",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 3,
+   "status": "dates",
+   "lines": 6,
+   "files": 5,
+   "opened": 6,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "dates"
     }
    ]
   },
   {
    "id": "n11",
    "org": "인천진산과학고",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 3,
+   "status": "dates",
+   "lines": 6,
+   "files": 2,
+   "opened": 6,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "dates"
     }
    ]
   },
@@ -308,23 +291,15 @@
   {
    "id": "n13",
    "org": "인천하늘고",
-   "status": "not-found",
+   "status": "found-no-dates",
    "lines": 0,
    "files": 0,
-   "opened": 2,
+   "opened": 8,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "found-no-dates"
     }
    ]
   },
@@ -453,7 +428,7 @@
     },
     {
      "rank": 2,
-     "status": "not-found"
+     "status": "robots"
     },
     {
      "rank": 3,
@@ -489,23 +464,15 @@
   {
    "id": "n12",
    "org": "인천 고입",
-   "status": "not-found",
-   "lines": 0,
+   "status": "dates",
+   "lines": 2,
    "files": 0,
-   "opened": 2,
+   "opened": 5,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "not-found"
-    },
-    {
-     "rank": 2,
-     "status": "not-found"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "dates"
     }
    ]
   },
@@ -542,16 +509,6 @@
   {
    "id": "n23",
    "org": "가천대 영재원",
-   "status": "found-no-dates",
-   "lines": 0,
-   "files": 1,
-   "opened": 2,
-   "route": 1,
-   "tried": null
-  },
-  {
-   "id": "n24",
-   "org": "대진대 영재원",
    "status": "found-no-dates",
    "lines": 0,
    "files": 1,
@@ -720,8 +677,8 @@
   {
    "id": "n58",
    "org": "전북대 영재원",
-   "status": "dates",
-   "lines": 1,
+   "status": "robots",
+   "lines": 0,
    "files": 0,
    "opened": 2,
    "route": 1,
@@ -936,34 +893,26 @@
   {
    "id": "n31",
    "org": "충남대학교 과학영재교육원",
-   "status": "blocked-all",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
+   "status": "dates",
+   "lines": 60,
+   "files": 5,
+   "opened": 4,
    "route": 1,
    "tried": [
     {
      "rank": 1,
-     "status": "robots"
-    },
-    {
-     "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "robots"
+     "status": "dates"
     }
    ]
   },
   {
    "id": "n34",
    "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
-   "status": "not-found",
-   "lines": 0,
-   "files": 0,
-   "opened": 1,
-   "route": 3,
+   "status": "dates",
+   "lines": 60,
+   "files": 4,
+   "opened": 4,
+   "route": 2,
    "tried": [
     {
      "rank": 1,
@@ -971,11 +920,7 @@
     },
     {
      "rank": 2,
-     "status": "robots"
-    },
-    {
-     "rank": 3,
-     "status": "not-found"
+     "status": "dates"
     }
    ]
   },

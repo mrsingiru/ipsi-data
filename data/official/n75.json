@@ -2,7 +2,7 @@
  "id": "n75",
  "org": "대구 교육청 영재원",
  "what": "GED 원서 접수",
- "checkedAt": "2026-11-12T14:00:19+09:00",
+ "checkedAt": "2026-11-13T07:46:05+09:00",
  "opened": [
   {
    "url": "ged",
@@ -33,7 +33,7 @@
   },
   {
    "rank": 2,
-   "status": "robots"
+   "status": "not-found"
   }
  ]
 }

@@ -2,7 +2,7 @@
  "id": "n77",
  "org": "대구 고입",
  "what": "대구교육청 시험채용·시행공고 게시판(2027 고입 기본 계획 1차 수정 공고 제2026-252호 — 2026-07-15)",
- "checkedAt": "2026-11-12T14:09:35+09:00",
+ "checkedAt": "2026-11-13T07:54:51+09:00",
  "opened": [
   {
    "url": "https://www.dge.go.kr/main/na/ntt/selectNttList.do?bbsId=c9a4a738a108f78efbb03444fd6b4c51",
@@ -31,7 +31,7 @@
   },
   {
    "rank": 2,
-   "status": "not-found"
+   "status": "robots"
   },
   {
    "rank": 3,
