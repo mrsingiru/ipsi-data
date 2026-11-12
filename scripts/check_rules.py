@@ -9,7 +9,7 @@
 - high: 감시 낱말이 지난번엔 있었는데 이번에 없어짐(우리가 기대는 사실이 바뀌었을 수 있음), 또는 페이지 수정일이 바뀌고 부분도 바뀜
 - mid: 부분(제목 아래 내용)이 바뀌거나, 부분이 새로 생기거나 없어짐
 - low: 두 번 연속 못 엶, 본문이 너무 짧아 읽지 못함(자바스크립트로만 보이는 페이지 등), 처음 기록
-method 'ai'·'manual'은 여기서 열지 않는다(마케팅 주간 예약이 차례를 보고 확인한다).
+method 'ai'·'manual'은 여기서 열지 않는다(월요일 04:10 자료 점검이 차례를 보고 확인한다 — 지시문 v5.11 4i, 2026-11-12부터).
 """
 import datetime, hashlib, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -156,7 +156,7 @@ def main(reg_path, out_path, report_path):
                 p.update({'status': 'thin', 'chars': cur['chars'], 'title': cur['title'], 'failStreak': 0})
                 run['thin'] += 1
                 if prevs.get(sid, {}).get('status') != 'thin':
-                    events.append({'source': sid, 'rules': p['rules'], 'level': 'low', 'what': '본문이 짧아 자동으로 읽지 못함(직접 확인·마케팅 주간이 원문 확인)'})
+                    events.append({'source': sid, 'rules': p['rules'], 'level': 'low', 'what': '본문이 짧아 자동으로 읽지 못함(직접 확인·월요일 자료 점검이 원문 확인)'})
                 out[sid] = p; continue
             level, ch = compare(prevs.get(sid), cur)
             p.update({k: cur[k] for k in ('title', 'updated', 'chars', 'hash', 'sections', 'watch')})
@@ -202,7 +202,7 @@ def main(reg_path, out_path, report_path):
          '규정 ' + str(len(reg['rules'])) + '개 · 원문 ' + str(len(reg['sources'])) + '곳 중 자동 감시 ' + str(run['auto']) + '곳, 이번에 ' + str(run['opened']) + '곳을 열었습니다 '
          '(읽음 ' + str(run['ok']) + ' · 본문 짧아 못 읽음 ' + str(run['thin']) + ' · robots로 안 엶 ' + str(run['robots']) + ' · 못 엶 ' + str(run['failed']) + ').', '',
          '높음 ' + str(doc['summary']['high']) + ' · 보통 ' + str(doc['summary']['mid']) + ' · 낮음 ' + str(doc['summary']['low']) +
-         ' — 높음·보통은 마케팅 주간 예약(일요일 14:42)이 원문을 열어 우리 영향을 판단하고 운영실에 올립니다.', '']
+         ' — 높음·보통은 월요일 04:10 자료 점검(v5.11 4i)이 원문을 열어 우리 영향을 판단하고 운영실에 올립니다.', '']
     names = {'high': '높음: 우리가 기대는 사실이 바뀌었을 수 있음', 'mid': '보통: 내용이 바뀐 부분이 있음', 'low': '낮음: 처음 기록·읽지 못함'}
     for lv in ('high', 'mid', 'low'):
         rows = [e for e in events if e['level'] == lv]
@@ -215,7 +215,7 @@ def main(reg_path, out_path, report_path):
                 L.append('  - 관련 규정 ' + rid + ': ' + title.get(rid, ''))
         L.append('')
     manual = [s for s in reg['sources'] if s['method'] in ('ai', 'manual')]
-    L.append('## 자동으로 보지 않는 규정 (' + str(len(manual)) + ') — 마케팅 주간이 차례(확인일 + 주기)를 보고 확인')
+    L.append('## 자동으로 보지 않는 규정 (' + str(len(manual)) + ') — 월요일 자료 점검이 차례(확인일 + 주기)를 보고 확인')
     for s in manual:
         L.append('- [' + ('AI 확인' if s['method'] == 'ai' else '대표 확인') + ' · ' + {'w': '매주', 'm': '월 1회', 'q': '분기 1회', 'y': '해마다'}.get(s.get('cycle'), '') + '] ' + s['name'] + (' — ' + s['note'] if s.get('note') else ''))
     open(report_path, 'w', encoding='utf-8').write('\n'.join(L) + '\n')
