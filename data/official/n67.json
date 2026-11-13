@@ -2,7 +2,7 @@
  "id": "n67",
  "org": "제주 교육청 영재교육원",
  "what": "2027 영재교육대상자 전형 계획(1차 발표·2차 전형·최종 발표) — 학교 공지 재게시",
- "checkedAt": "2026-11-13T07:54:09+09:00",
+ "checkedAt": "2026-11-13T08:50:41+09:00",
  "opened": [
   {
    "url": "https://school.jje.go.kr/jjsiheung/main.do",
@@ -26,6 +26,26 @@
   },
   {
    "url": "https://school.jje.go.kr/jeju-s/na/ntt/selectNttInfo.do?mi=108132&bbsId=120371&nttSn=40742940",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jje.go.kr/jeju-seo/intro.do",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jje.go.kr/changcheon/main.do",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jje.go.kr/changcheon/na/ntt/selectNttList.do?mi=101074&bbsId=113953",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jje.go.kr/changcheon/na/ntt/selectNttList.do?mi=101074&bbsId=113953",
+   "status": "ok"
+  },
+  {
+   "url": "https://school.jje.go.kr/changcheon/na/ntt/selectNttList.do?mi=101082&bbsId=113959",
    "status": "ok"
   }
  ],

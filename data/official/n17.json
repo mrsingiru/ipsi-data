@@ -1,0 +1,63 @@
+{
+ "id": "n17",
+ "org": "경기 교육지원청 영재교육원",
+ "what": "2027 교육지원청 부설 영재교육원 선발 요강(성남 — 교육지원청마다 다름)",
+ "checkedAt": "2026-11-13T08:52:22+09:00",
+ "opened": [
+  {
+   "url": "https://www.goesn.kr/goesn/na/ntt/selectNttInfo.do?mi=23444&nttSn=1724578&bbsId=17768",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.goesn.kr/goesn/na/ntt/selectNttList.do?mi=23589&bbsId=17863",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.goesn.kr/goesn/na/ntt/selectNttInfo.do?mi=23589&bbsId=17863&nttSn=1955054",
+   "status": "ok"
+  }
+ ],
+ "notices": [
+  {
+   "title": "[공고] 2027학년도 경기도성남교육지원청부설 영재교육원 영재교육대상자 선발 요강 공고",
+   "url": "https://www.goesn.kr/goesn/na/ntt/selectNttInfo.do?mi=23589&bbsId=17863&nttSn=1955054"
+  }
+ ],
+ "ged": [],
+ "titles": [
+  {
+   "url": "https://www.goesn.kr/goesn/na/ntt/selectNttInfo.do?mi=23444&nttSn=1724578&bbsId=17768",
+   "title": "시스템안내"
+  },
+  {
+   "url": "https://www.goesn.kr/goesn/na/ntt/selectNttInfo.do?mi=23589&bbsId=17863&nttSn=1955054",
+   "title": "공지사항 < 영재교육원 | 경기도성남교육지원청"
+  }
+ ],
+ "files": [],
+ "lines": [
+  {
+   "text": "등록일 | 2026.09.11",
+   "dates": [
+    "2026-09-11"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.goesn.kr/goesn/na/ntt/selectNttInfo.do?mi=23589&bbsId=17863&nttSn=1955054"
+  },
+  {
+   "text": "2. 학생 지원기간: 2026. 10. 12.(월) ~ 10.16.(금) 18:00까지",
+   "dates": [
+    "2026-10-12",
+    "2026-10-16"
+   ],
+   "words": [
+    "지원"
+   ],
+   "src": "https://www.goesn.kr/goesn/na/ntt/selectNttInfo.do?mi=23589&bbsId=17863&nttSn=1955054"
+  }
+ ],
+ "status": "dates",
+ "route": 1
+}

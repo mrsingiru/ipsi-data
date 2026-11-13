@@ -2,43 +2,26 @@
  "id": "n09",
  "org": "인천 융합영재교육원",
  "what": "일정 단계 날짜 — 인천광역시교육청 영재교육대상자 선발 안내(창의융합교육 알림방, 융합영재교육원 = 인천과학예술영재학교 포함)",
- "checkedAt": "2026-11-13T07:46:46+09:00",
+ "checkedAt": "2026-11-13T08:42:31+09:00",
  "opened": [
   {
    "url": "https://ice.go.kr/ice/na/ntt/selectNttList.do?mi=11765&bbsId=1680",
    "status": "ok"
   },
   {
-   "url": "https://ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=11765&bbsId=1680&nttSn=3387678",
+   "url": "http://dongbu.ice.go.kr/scholarship/genius/notice.jsp",
+   "status": "ok"
+  },
+  {
+   "url": "https://bukbu.ice.go.kr/bbs/data/list.do?menu_idx=133",
    "status": "ok"
   }
  ],
- "notices": [
-  {
-   "title": "2027학년도 인천광역시교육청 영재교육대상자 선발 학부모 설명회 안내자료(GED)",
-   "url": "https://ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=11765&bbsId=1680&nttSn=3387678"
-  }
- ],
+ "notices": [],
  "ged": [],
- "titles": [
-  {
-   "url": "https://ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=11765&bbsId=1680&nttSn=3387678",
-   "title": "알림방 < 창의융합교육 < 교육 < 교육 | 인천광역시교육청"
-  }
- ],
+ "titles": [],
  "files": [],
- "lines": [
-  {
-   "text": "2027학년도 인천광역시교육청 영재교육대상자 선발 학부모 설명회 안내자료(GED) | 2026.10.29.",
-   "dates": [
-    "2026-10-29"
-   ],
-   "words": [
-    "선발"
-   ],
-   "src": "https://ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=11765&bbsId=1680&nttSn=3387678"
-  }
- ],
- "status": "dates",
+ "lines": [],
+ "status": "not-found",
  "route": 1
 }

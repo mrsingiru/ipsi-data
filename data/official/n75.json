@@ -2,7 +2,7 @@
  "id": "n75",
  "org": "대구 교육청 영재원",
  "what": "GED 원서 접수",
- "checkedAt": "2026-11-13T07:46:05+09:00",
+ "checkedAt": "2026-11-13T08:41:36+09:00",
  "opened": [
   {
    "url": "ged",
@@ -15,25 +15,96 @@
    "error": "GED 자동 읽기 멈춤(이용 조건 확인 중)"
   },
   {
+   "url": "https://dongpyung.dge.es.kr/dongpyunge/main.do?sysId=dongpyunge",
+   "status": "ok"
+  },
+  {
+   "url": "https://dongpyung.dge.es.kr/dongpyunge/na/ntt/selectNttList.do?mi=10053881&bbsId=10053881",
+   "status": "ok"
+  },
+  {
+   "url": "https://dongpyung.dge.es.kr/dongpyunge/na/ntt/selectNttInfo.do?mi=10053881&bbsId=10053881&nttSn=41327592",
+   "status": "ok"
+  },
+  {
+   "url": "https://hansol.dge.es.kr/hansole/main.do?sysId=hansole",
+   "status": "ok"
+  },
+  {
+   "url": "https://hansol.dge.es.kr/hansole/na/ntt/selectNttList.do?mi=10099184&bbsId=10099184",
+   "status": "ok"
+  },
+  {
+   "url": "https://hansol.dge.es.kr/hansole/na/ntt/selectNttList.do?mi=10099184&bbsId=10099184",
+   "status": "ok"
+  },
+  {
+   "url": "https://hansol.dge.es.kr/hansole/na/ntt/selectNttList.do?mi=10099243&bbsId=10099243",
+   "status": "ok"
+  },
+  {
    "url": "https://www.dge.go.kr/main/na/ntt/selectNttList.do?mi=1491&bbsId=1046",
    "status": "ok"
   }
  ],
- "notices": [],
+ "notices": [
+  {
+   "title": "2027 대구과학영재교육원 영재교육대상자 선발 지원서 접수 기간 연장 안내",
+   "url": "https://dongpyung.dge.es.kr/dongpyunge/na/ntt/selectNttInfo.do?mi=10053881&bbsId=10053881&nttSn=41327592"
+  }
+ ],
  "ged": [],
- "titles": [],
+ "titles": [
+  {
+   "url": "https://dongpyung.dge.es.kr/dongpyunge/na/ntt/selectNttInfo.do?mi=10053881&bbsId=10053881&nttSn=41327592",
+   "title": "대구동평초등학교 > 소식마당 > 공지사항 상세"
+  }
+ ],
  "files": [],
- "lines": [],
- "status": "not-found",
+ "lines": [
+  {
+   "text": "등록일 | 2026.10.23",
+   "dates": [
+    "2026-10-23"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://dongpyung.dge.es.kr/dongpyunge/na/ntt/selectNttInfo.do?mi=10053881&bbsId=10053881&nttSn=41327592"
+  },
+  {
+   "text": "지원서 접수 기간 | 2026. 10. 1.(목)~10. 23.(금) 23:59까지",
+   "dates": [
+    "2026-10-01",
+    "2026-10-23"
+   ],
+   "words": [
+    "원서",
+    "접수",
+    "지원"
+   ],
+   "src": "https://dongpyung.dge.es.kr/dongpyunge/na/ntt/selectNttInfo.do?mi=10053881&bbsId=10053881&nttSn=41327592"
+  },
+  {
+   "text": "지원서 접수 기간 | 2026. 10. 1.(목)~11. 6.(금) 23:59까지",
+   "dates": [
+    "2026-10-01",
+    "2026-11-06"
+   ],
+   "words": [
+    "원서",
+    "접수",
+    "지원"
+   ],
+   "src": "https://dongpyung.dge.es.kr/dongpyunge/na/ntt/selectNttInfo.do?mi=10053881&bbsId=10053881&nttSn=41327592"
+  }
+ ],
+ "status": "dates",
  "route": 1,
  "tried": [
   {
    "rank": 1,
-   "status": "not-found"
-  },
-  {
-   "rank": 2,
-   "status": "not-found"
+   "status": "dates"
   }
  ]
 }
