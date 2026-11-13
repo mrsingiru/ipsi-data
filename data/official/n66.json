@@ -1,8 +1,8 @@
 {
  "id": "n66",
  "org": "순천대 영재원",
- "what": "앞으로 120일 안 일정 1단계",
- "checkedAt": "2026-11-14T00:20:02+09:00",
+ "what": "앞으로 120일 안 일정 5단계",
+ "checkedAt": "2026-11-14T08:31:24+09:00",
  "opened": [
   {
    "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
@@ -90,36 +90,78 @@
    "type": "hwp",
    "bytes": 98304,
    "sha1": "e5ea38b9b32c"
-  },
-  {
-   "url": "https://www.scnu.ac.kr/editor/x_free/upload/20261103/IMG_101016.png",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 56008,
-   "sha1": "dd8b643b7456",
-   "lines": 0
-  },
-  {
-   "url": "https://www.scnu.ac.kr/editor/x_free/upload/20261024/IMG_121211.png",
-   "name": "본문 그림",
-   "status": "ok",
-   "reader": "ocr",
-   "type": "image",
-   "bytes": 132213,
-   "sha1": "9c4265df0b83",
-   "lines": 0
   }
  ],
  "lines": [
   {
+   "text": "등록일 | 2026.09.15",
+   "dates": [
+    "2026-09-15"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1"
+  },
+  {
+   "text": "서류평가 | 2026. 11. 26(목) ~ 12. 03(목)",
+   "dates": [
+    "2026-11-26",
+    "2026-12-03"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
    "text": "최종합격자 발표 | 2026. 12. 07(월) 11:00",
    "dates": [
     "2026-12-07"
    ],
    "words": [
     "발표"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "최종합격자 등록 | 2026. 12. 07(월) ~ 08(화) 과학영재교육원 홈페이지",
+   "dates": [
+    "2026-12-07"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "관찰평가 | 2026. 11. 12(목) ~ 11. 13(금)",
+   "dates": [
+    "2026-11-12",
+    "2026-11-13"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "관찰평가 | 2026. 11. 14(토) 14:00",
+   "dates": [
+    "2026-11-14"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "관찰평가 2026. 12. 19(토) ~ 20(일)",
+   "dates": [
+    "2026-12-19"
+   ],
+   "words": [
+    "평가"
    ],
    "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
   },
@@ -134,12 +176,105 @@
    "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
   },
   {
+   "text": "최종합격자 등록 2027. 01. 06(수) ~ 01. 07(목) 과학영재교육원 홈페이지",
+   "dates": [
+    "2027-01-06",
+    "2027-01-07"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "문제해결능력검사 | 30,000원 2026. 11. 12(목) ~ 13(금)",
+   "dates": [
+    "2026-11-12"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "관찰평가 | 70,000원 2026. 12. 08(화) ~ 09(수)",
+   "dates": [
+    "2026-12-08"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "등록일 | 2026.09.15",
+   "dates": [
+    "2026-09-15"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1"
+  },
+  {
+   "text": "서류평가 | 2026. 11. 26(목) ~ 12. 03(목)",
+   "dates": [
+    "2026-11-26",
+    "2026-12-03"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
    "text": "최종합격자 발표 | 2026. 12. 07(월) 11:00",
    "dates": [
     "2026-12-07"
    ],
    "words": [
     "발표"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "최종합격자 등록 | 2026. 12. 07(월) ~ 08(화) 과학영재교육원 홈페이지",
+   "dates": [
+    "2026-12-07"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "관찰평가 | 2026. 11. 12(목) ~ 11. 13(금)",
+   "dates": [
+    "2026-11-12",
+    "2026-11-13"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "관찰평가 | 2026. 11. 14(토) 14:00",
+   "dates": [
+    "2026-11-14"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "관찰평가 2026. 12. 19(토) ~ 20(일)",
+   "dates": [
+    "2026-12-19"
+   ],
+   "words": [
+    "평가"
    ],
    "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
   },
@@ -152,6 +287,57 @@
     "발표"
    ],
    "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "최종합격자 등록 2027. 01. 06(수) ~ 01. 07(목) 과학영재교육원 홈페이지",
+   "dates": [
+    "2027-01-06",
+    "2027-01-07"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "문제해결능력검사 | 30,000원 2026. 11. 12(목) ~ 13(금)",
+   "dates": [
+    "2026-11-12"
+   ],
+   "words": [
+    "검사"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "관찰평가 | 70,000원 2026. 12. 08(화) ~ 09(수)",
+   "dates": [
+    "2026-12-08"
+   ],
+   "words": [
+    "평가"
+   ],
+   "src": "https://www.scnu.ac.kr/common/nttFileDownload.do?fileKey=b31ccbfe3fc7341a4fc04df74f45b228"
+  },
+  {
+   "text": "등록일 | 2026.11.03",
+   "dates": [
+    "2026-11-03"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281323556&mi=4659&currPage=1"
+  },
+  {
+   "text": "등록일 | 2026.10.24",
+   "dates": [
+    "2026-10-24"
+   ],
+   "words": [
+    "등록"
+   ],
+   "src": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281322954&mi=4659&currPage=1"
   }
  ],
  "status": "dates",
