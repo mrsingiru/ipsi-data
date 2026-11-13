@@ -1,8 +1,8 @@
 {
-"note": "페이지(공개판 v28.170)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
-"generated": "2026-11-12",
-"ver": "v28.170",
-"count": 490,
+"note": "페이지(공개판 v28.180)가 근거로 쓰는 주소 목록. ipsi-site tools/build_sources.py가 만든다. 주소·이름만 있고 원문 내용은 없다.",
+"generated": "2026-11-13",
+"ver": "v28.180",
+"count": 493,
 "sources": [
 {
 "id": "1084a42981",
@@ -158,13 +158,13 @@
 "id": "4375639158",
 "url": "https://cwedu.gne.go.kr/cwgifted/cm/cntnts/cntntsView.do?mi=802&cntntsId=5812",
 "host": "cwedu.gne.go.kr",
-"name": "창원영재교육원 영재선발-전형방법",
+"name": "창원영재교육원 영재선발 — 전형방법(2027학년도, 창원교육지원청 영재교육원 누리집)",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n94"
 ],
-"dated": "2026-10-22",
+"dated": "2026-11-13",
 "cycle": "w"
 },
 {
@@ -382,7 +382,7 @@
 "id": "13c7bd2412",
 "url": "https://www.goe.go.kr/resource/goe/na/bbs_2430/2026/03/e88abfe2-8daa-494e-9cb8-a2d030225b45.pdf",
 "host": "goe.go.kr",
-"name": "2027학년도 경기도 고등학교 입학전형 기본계획(외고·국제고·자사고 공통)",
+"name": "2027학년도 경기도 고등학교 입학전형 기본계획, 경기도교육청",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -395,7 +395,7 @@
 "q-hs-national-jasa",
 "q-hs-vocational-apply"
 ],
-"dated": "2026-10-22",
+"dated": "",
 "cycle": "w"
 },
 {
@@ -653,6 +653,19 @@
 "cycle": "w"
 },
 {
+"id": "6f1f977cfb",
+"url": "https://www.goesn.kr/goesn/na/ntt/selectNttInfo.do?mi=23589&bbsId=17863&nttSn=1955054",
+"host": "goesn.kr",
+"name": "성남교육지원청 영재교육원 공지사항(2026-09-11 게시 — 2027학년도 선발 요강)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n17"
+],
+"dated": "2026-11-13",
+"cycle": "w"
+},
+{
 "id": "edc44dfba7",
 "url": "https://gs-h.goesw.kr/dext5editordata/2026/04/20260402_151825822_26726.pdf",
 "host": "gs-h.goesw.kr",
@@ -867,10 +880,11 @@
 "cat": "교육청",
 "used": [
 "eo",
-"pen27e"
+"pen27e",
+"r-once"
 ],
 "dated": "2026-09-01",
-"cycle": "m"
+"cycle": "w"
 },
 {
 "id": "21f93f5955",
@@ -941,7 +955,7 @@
 "id": "997cb8ad04",
 "url": "https://home.pen.go.kr/hischool/cm/cntnts/cntntsView.do?mi=12734&cntntsId=1847",
 "host": "home.pen.go.kr",
-"name": "후기고(특목고, 자사고, 학교장전형고), 부산광역시교육청 고입포털",
+"name": "부산광역시교육청 고입포털 후기고(특목고·자사고·학교장전형고) 안내",
 "kind": "공식",
 "cat": "교육청",
 "used": [
@@ -1022,12 +1036,13 @@
 "id": "727b4fd92b",
 "url": "https://home.pen.go.kr/talent/cm/cntnts/cntntsView.do?mi=11299&cntntsId=412",
 "host": "home.pen.go.kr",
-"name": "2027학년도 부산광역시교육청AI정보영재교육원 선발안내(중학교 1학년 과정)",
+"name": "부산교육청 AI정보영재교육원 2027학년도 선발 안내 — 부산교육청 소속 영재교육기관 지원 유의사항",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "q-eo-class",
-"q-eo-sw"
+"q-eo-sw",
+"r-one-center"
 ],
 "dated": "2026-09-01",
 "cycle": "w"
@@ -1068,8 +1083,7 @@
 "used": [
 "q-eo-class",
 "q-eo-quit",
-"q-eo-recommend",
-"r-one-center"
+"q-eo-recommend"
 ],
 "dated": "2024-09-02",
 "cycle": "w"
@@ -1116,8 +1130,7 @@
 "q-eo-prep",
 "q-eo-recommend",
 "q-eo-sw",
-"q-eo-when",
-"r-once"
+"q-eo-when"
 ],
 "dated": "2025-09-01",
 "cycle": "w"
@@ -1592,6 +1605,19 @@
 "n102"
 ],
 "dated": "2026-11-07",
+"cycle": "w"
+},
+{
+"id": "5b4bd2d4c3",
+"url": "https://school.cbe.go.kr/_cmm/fileDownload/sangjincho-e/M010302/96dfd8ce5520b4e5f454db1787c4c688",
+"host": "school.cbe.go.kr",
+"name": "2027. 충북교육연구정보원부설영재교육원 영재교육대상자 모집 안내 가정통신문(상진초등학교 공지 재게시)",
+"kind": "공식",
+"cat": "교육청",
+"used": [
+"n35"
+],
+"dated": "2026-11-13",
 "cycle": "w"
 },
 {
@@ -2157,13 +2183,13 @@
 "id": "69961d3dff",
 "url": "https://wjgift.gwe.go.kr/boardCnts/fileDown.do?m=0201&s=kwwjegp&fileSeq=c763a44e623e554c8df6682a874d3bb4",
 "host": "wjgift.gwe.go.kr",
-"name": "2027학년도 원주교육지원청부설영재교육원 영재교육대상자 선발 전형 운영 계획(공식 파일)",
+"name": "2027학년도 원주교육지원청부설영재교육원 영재교육대상자 선발 전형 운영 계획(원주) — 원주교육지원청 영재교육원 누리집",
 "kind": "공식",
 "cat": "교육청",
 "used": [
 "n45"
 ],
-"dated": "2026-11-11",
+"dated": "2026-11-13",
 "cycle": "w"
 },
 {
@@ -2480,6 +2506,19 @@
 "q-life-phone-grades"
 ],
 "dated": "2026-10-27",
+"cycle": "m"
+},
+{
+"id": "d08519cf6e",
+"url": "https://www.kosaf.go.kr/ko/notice.do?mode=view&seqNo=21272",
+"host": "kosaf.go.kr",
+"name": "한국장학재단 공지: 2027년 지방 국립대 신입생 전액 장학금 지원 안내",
+"kind": "공식",
+"cat": "기타",
+"used": [
+"r-tuition"
+],
+"dated": "2026-09-02",
 "cycle": "m"
 },
 {
@@ -3617,13 +3656,13 @@
 "id": "c1a61026b9",
 "url": "https://www.scnu.ac.kr/secgy/na/ntt/selectNttInfo.do?nttSn=281320681&mi=4659&currPage=1",
 "host": "scnu.ac.kr",
-"name": "[선발] 2027학년도 국립순천대학교 과학영재교육원 신입생 선발 공고",
+"name": "2027학년도 국립순천대학교 과학영재교육원 신입생 선발 공고 — Ⅲ 선발일정 2. 일반 전형(공고 첨부 요강)",
 "kind": "공식",
 "cat": "대학 입학처",
 "used": [
 "n66"
 ],
-"dated": "2026-10-22",
+"dated": "2026-11-13",
 "cycle": "w"
 },
 {
@@ -5765,26 +5804,26 @@
 "id": "339ddc14ee",
 "url": "https://seigy.knu.ac.kr/student/45",
 "host": "seigy.knu.ac.kr",
-"name": "[공고] 2027학년도 경북대 과학영재교육원 중등과정 신입생 선발 모집 요강",
+"name": "2027학년도 경북대 과학영재교육원 중학심화·중학사사연구과정 신입생 선발 모집 요강 — 전형 일정",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
 "n79"
 ],
-"dated": "2026-10-22",
+"dated": "2026-11-13",
 "cycle": "w"
 },
 {
 "id": "7edcda7c12",
 "url": "https://seigy.knu.ac.kr/student/46",
 "host": "seigy.knu.ac.kr",
-"name": "2027학년도 경북대 과학영재교육원 초등기초과정(경북 초4) 신입생 선발 모집 요강",
+"name": "2027학년도 경북대 과학영재교육원 초등기초과정(경북 초4) 입학 전형 계획 — 전형 일정",
 "kind": "공식",
 "cat": "영재교육",
 "used": [
 "n79"
 ],
-"dated": "2026-10-22",
+"dated": "2026-11-13",
 "cycle": "w"
 },
 {
@@ -6319,6 +6358,19 @@
 "cycle": "w"
 },
 {
+"id": "1e0c40cce1",
+"url": "https://admission.hafs.hs.kr/?act=board.read&code=1415&num=85&id=85",
+"host": "admission.hafs.hs.kr",
+"name": "용인한국외국어대학교부설고 2027학년도 신입학전형요항 — 전형일정(입학센터 9/3 공지 첨부)",
+"kind": "공식",
+"cat": "학교",
+"used": [
+"n22"
+],
+"dated": "2026-11-13",
+"cycle": "w"
+},
+{
 "id": "cc7e507361",
 "url": "https://admission.ksa.hs.kr",
 "host": "admission.ksa.hs.kr",
@@ -6347,19 +6399,6 @@
 ],
 "dated": "",
 "cycle": "w"
-},
-{
-"id": "78d041e705",
-"url": "https://admission.ksa.hs.kr/iphak_kor/files/2024_KSA_application.pdf",
-"host": "admission.ksa.hs.kr",
-"name": "한국과학영재학교 2024학년도 요강",
-"kind": "공식",
-"cat": "학교",
-"used": [
-"ksa24"
-],
-"dated": "",
-"cycle": "m"
 },
 {
 "id": "13d970be06",
