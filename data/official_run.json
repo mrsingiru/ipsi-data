@@ -1,7 +1,7 @@
 {
- "at": "2026-11-13T09:08:43+09:00",
- "targets": 81,
- "withDates": 45,
+ "at": "2026-11-14T00:22:23+09:00",
+ "targets": 82,
+ "withDates": 43,
  "blockedAll": [
   "n33",
   "n69",
@@ -383,10 +383,10 @@
   {
    "id": "n35",
    "org": "충북 교육청 영재원",
-   "status": "dates",
-   "lines": 16,
-   "files": 3,
-   "opened": 4,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
+   "opened": 1,
    "route": 1,
    "tried": null
   },
@@ -396,7 +396,7 @@
    "status": "robots",
    "lines": 0,
    "files": 0,
-   "opened": 4,
+   "opened": 6,
    "route": 1,
    "tried": null
   },
@@ -490,6 +490,16 @@
    "lines": 2,
    "files": 0,
    "opened": 3,
+   "route": 1,
+   "tried": null
+  },
+  {
+   "id": "n40",
+   "org": "충남 교육청 영재원",
+   "status": "not-found",
+   "lines": 0,
+   "files": 0,
+   "opened": 4,
    "route": 1,
    "tried": null
   },
@@ -602,9 +612,9 @@
   {
    "id": "n36",
    "org": "충북과학고",
-   "status": "dates",
-   "lines": 7,
-   "files": 1,
+   "status": "robots",
+   "lines": 0,
+   "files": 0,
    "opened": 4,
    "route": 1,
    "tried": null
@@ -612,10 +622,10 @@
   {
    "id": "n37",
    "org": "충북 고입",
-   "status": "dates",
-   "lines": 8,
+   "status": "robots",
+   "lines": 0,
    "files": 0,
-   "opened": 6,
+   "opened": 3,
    "route": 1,
    "tried": null
   },
@@ -727,8 +737,8 @@
   {
    "id": "n58",
    "org": "전북대 영재원",
-   "status": "robots",
-   "lines": 0,
+   "status": "dates",
+   "lines": 1,
    "files": 0,
    "opened": 2,
    "route": 1,
@@ -737,15 +747,23 @@
   {
    "id": "n64",
    "org": "광양제철고",
-   "status": "found-no-dates",
+   "status": "not-found",
    "lines": 0,
-   "files": 1,
-   "opened": 2,
-   "route": 1,
+   "files": 0,
+   "opened": 1,
+   "route": 3,
    "tried": [
     {
      "rank": 1,
-     "status": "found-no-dates"
+     "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "robots"
+    },
+    {
+     "rank": 3,
+     "status": "not-found"
     }
    ]
   },
@@ -765,16 +783,16 @@
    "status": "blocked-all",
    "lines": 0,
    "files": 0,
-   "opened": 1,
-   "route": 2,
+   "opened": 3,
+   "route": 1,
    "tried": [
-    {
-     "rank": 2,
-     "status": "error"
-    },
     {
      "rank": 1,
      "status": "robots"
+    },
+    {
+     "rank": 2,
+     "status": "error"
     },
     {
      "rank": 3,
@@ -963,11 +981,11 @@
    "route": 3,
    "tried": [
     {
-     "rank": 2,
+     "rank": 1,
      "status": "robots"
     },
     {
-     "rank": 1,
+     "rank": 2,
      "status": "robots"
     },
     {

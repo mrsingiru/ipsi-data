@@ -2,7 +2,7 @@
  "id": "n34",
  "org": "세종 인근 대학부설 영재원(세종 학생 지원 가능 기관)",
  "what": "공식 공고(경로 대장)",
- "checkedAt": "2026-11-13T09:08:11+09:00",
+ "checkedAt": "2026-11-14T00:22:21+09:00",
  "opened": [
   {
    "url": "https://cucocr.cje.ac.kr/main/board/list.action?q=b2f6de7a33c99b2d64f087fbd9088c6a15f51ea60a87c4ce426a61f2fcbf712c",
@@ -18,11 +18,11 @@
  "route": 3,
  "tried": [
   {
-   "rank": 2,
+   "rank": 1,
    "status": "robots"
   },
   {
-   "rank": 1,
+   "rank": 2,
    "status": "robots"
   },
   {

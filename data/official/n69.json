@@ -2,11 +2,19 @@
  "id": "n69",
  "org": "제주 고입",
  "what": "앞으로 120일 안 일정 7단계",
- "checkedAt": "2026-11-13T09:05:46+09:00",
+ "checkedAt": "2026-11-14T00:20:26+09:00",
  "opened": [
   {
-   "url": "https://school.jje.go.kr/jejufl/na/ntt/selectNttList.do?mi=109223&bbsId=129168",
-   "status": "limit"
+   "url": "https://www.jje.go.kr/board/view.jje?menuCd=DOM_000000104007002001&boardId=BBS_0000485&dataSid=1478269",
+   "status": "robots"
+  },
+  {
+   "url": "https://www.jje.go.kr/board/view.jje?menuCd=DOM_000000104007002001&boardId=BBS_0000485&dataSid=1463546",
+   "status": "robots"
+  },
+  {
+   "url": "https://www.jje.go.kr/board/view.jje?menuCd=DOM_000000104007002001&boardId=BBS_0000485&dataSid=1478269",
+   "status": "robots"
   }
  ],
  "notices": [],
@@ -15,15 +23,15 @@
  "files": [],
  "lines": [],
  "status": "blocked-all",
- "route": 2,
+ "route": 1,
  "tried": [
-  {
-   "rank": 2,
-   "status": "error"
-  },
   {
    "rank": 1,
    "status": "robots"
+  },
+  {
+   "rank": 2,
+   "status": "error"
   },
   {
    "rank": 3,

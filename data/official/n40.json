@@ -1,0 +1,31 @@
+{
+ "id": "n40",
+ "org": "충남 교육청 영재원",
+ "what": "2027 교육지원청 영재교육원 영재교육대상자 선발(천안 — 교육지원청마다 다름)",
+ "checkedAt": "2026-11-14T00:07:19+09:00",
+ "opened": [
+  {
+   "url": "https://www.cncae.go.kr/main/main.do",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.cncae.go.kr/popup/view.do?poNo=18",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.cncae.go.kr/main/editor/view.do?edNo=15",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.cncae.go.kr/main/board/list.do?baNo=38",
+   "status": "ok"
+  }
+ ],
+ "notices": [],
+ "ged": [],
+ "titles": [],
+ "files": [],
+ "lines": [],
+ "status": "not-found",
+ "route": 1
+}
