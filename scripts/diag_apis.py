@@ -4,6 +4,7 @@ key = os.environ.get('DATA_GO_KR_KEY', '').strip()
 T = [
     ('대학 기본정보 getSchoolInfo 2025', 'https://apis.data.go.kr/B340014/SchoolInfoService/getSchoolInfo', {'pageNo': 1, 'numOfRows': 3, 'svyYr': 2025}),
     ('대학 기본정보 getSchoolInfo 2026', 'https://apis.data.go.kr/B340014/SchoolInfoService/getSchoolInfo', {'pageNo': 1, 'numOfRows': 3, 'svyYr': 2026}),
+    ('학교별 학과 getUniversityMajorCode 2025 가천대', 'https://apis.data.go.kr/B340014/BasicInformationService_1/getUniversityMajorCode', {'pageNo': 1, 'numOfRows': 3, 'svyYr': 2025, 'schlId': '0000063'}),
     ('공휴일 getRestDeInfo 2027', 'https://apis.data.go.kr/B090041/openapi/service/SpcdeInfoService/getRestDeInfo', {'pageNo': 1, 'numOfRows': 50, 'solYear': 2027}),
     ('국경일 getHoliDeInfo 2027', 'https://apis.data.go.kr/B090041/openapi/service/SpcdeInfoService/getHoliDeInfo', {'pageNo': 1, 'numOfRows': 50, 'solYear': 2027}),
 ]
