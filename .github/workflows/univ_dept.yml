@@ -32,7 +32,7 @@ jobs:
         if: github.event.inputs.diag == 'yes'
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
-        run: python scripts/diag_odcloud.py
+        run: python scripts/diag_odcloud.py && python scripts/diag_apis.py
       - name: 학과별 신입생 충원 현황 받기
         if: github.event.inputs.diag != 'yes'
         env:
