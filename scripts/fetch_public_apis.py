@@ -94,7 +94,17 @@ def main():
         run['univInfo'] = {'svyYr': yr, 'schools': len(keep), 'changed': save('data/univ_info.json', {
             'source': {'org': '한국대학교육협의회', 'name': '대학 및 전문대학정보_GW', 'portal': '공공데이터포털', 'id': '15158665', 'license': '이용허락범위 제한 없음'},
             'svyYr': yr, 'rows': keep})}
-    # 2) 학교별 학과 — 4년제만, 학교마다 부름
+    # 2) 공휴일(먼저 — 학과가 오래 걸려도 공휴일은 저장되게) — 올해·내년
+    hol = {}
+    for y in (kst_year(), kst_year() + 1):
+        _, items = all_pages(REST, {'solYear': y}, key, per=100)
+        hol[str(y)] = sorted(({'date': '%s-%s-%s' % (i['locdate'][:4], i['locdate'][4:6], i['locdate'][6:8]), 'name': i.get('dateName'),
+                               'holiday': i.get('isHoliday') == 'Y'} for i in items if i.get('locdate')), key=lambda h: h['date'])
+    run['holidays'] = {y: len(v) for y, v in hol.items()}
+    run['holidays']['changed'] = save('data/holidays.json', {
+        'source': {'org': '한국천문연구원', 'name': '특일 정보(공휴일 정보 조회)', 'portal': '공공데이터포털', 'id': '15012690', 'license': '이용허락범위 제한 없음'},
+        'note': '대체공휴일·임시공휴일은 관보 공포 뒤에 반영(제공기관 안내)', 'years': hol})
+    # 3) 학교별 학과 — 4년제만, 학교마다 부름
     four = [s for s in schools if s.get('schlDivNm') in FOUR_YEAR and s.get('schlId')]
     majors, myr, miss = [], None, []
     for y in ([yr] if yr else []) + ([yr - 1] if yr else []):
@@ -117,16 +127,6 @@ def main():
         run['univMajor'] = {'svyYr': myr, 'schools': len(four), 'majors': len(majors), 'missSchools': len(miss), 'changed': save('data/univ_major.json', {
             'source': {'org': '한국대학교육협의회', 'name': '대학 학과 정보_GW', 'portal': '공공데이터포털', 'id': '15158955', 'license': '이용허락범위 제한 없음'},
             'svyYr': myr, 'note': '4년제(대학·교육대학)만 · 긴 설명 칸(교육목표·교과목 등)은 뺌', 'rows': majors})}
-    # 3) 공휴일 — 올해·내년
-    hol = {}
-    for y in (kst_year(), kst_year() + 1):
-        _, items = all_pages(REST, {'solYear': y}, key, per=100)
-        hol[str(y)] = sorted(({'date': '%s-%s-%s' % (i['locdate'][:4], i['locdate'][4:6], i['locdate'][6:8]), 'name': i.get('dateName'),
-                               'holiday': i.get('isHoliday') == 'Y'} for i in items if i.get('locdate')), key=lambda h: h['date'])
-    run['holidays'] = {y: len(v) for y, v in hol.items()}
-    run['holidays']['changed'] = save('data/holidays.json', {
-        'source': {'org': '한국천문연구원', 'name': '특일 정보(공휴일 정보 조회)', 'portal': '공공데이터포털', 'id': '15012690', 'license': '이용허락범위 제한 없음'},
-        'note': '대체공휴일·임시공휴일은 관보 공포 뒤에 반영(제공기관 안내)', 'years': hol})
     run.update(finishedAt=now_utc(), secs=round(time.time() - t0, 1), problems=bad)
     json.dump(run, open('data/public_apis_run.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(json.dumps(run, ensure_ascii=False))

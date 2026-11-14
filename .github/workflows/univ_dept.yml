@@ -11,6 +11,10 @@ on:
         description: '응답 살펴보기만(yes) — 저장 안 함'
         required: false
         default: 'no'
+      only:
+        description: 'apis = 학과별 충원 현황은 건너뛰고 나머지만'
+        required: false
+        default: 'all'
 
 permissions:
   contents: write
@@ -22,7 +26,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 120   # 11/14 첫 전체 실행이 30분에 끊김(학과별 13분 + 학교 200여 곳 학과)
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -37,7 +41,11 @@ jobs:
         if: github.event.inputs.diag != 'yes'
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
-        run: python scripts/fetch_univ_dept.py
+        run: |
+          # 학과별 충원 현황은 1년에 한 번 바뀜 → 매주 예약에서는 그달 첫 월요일(1~7일)에만, 손으로 누르면 언제나(only=apis면 건너뜀)
+          if [ "${{ github.event.inputs.only }}" = "apis" ]; then echo '건너뜀(only=apis)'; exit 0; fi
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%d)" -gt 7 ]; then echo '이번 주는 건너뜀(그달 첫 월요일만)'; exit 0; fi
+          python scripts/fetch_univ_dept.py
       - name: 대학 기본정보 · 학교별 학과 · 공휴일 받기
         if: always() && github.event.inputs.diag != 'yes'
         env:
