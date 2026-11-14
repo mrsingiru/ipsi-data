@@ -53,6 +53,10 @@ def main():
     t0 = time.time()
     first = get(1, key)
     total = int(first.get('totalCount') or first.get('matchCount') or 0)
+    if not total or not first.get('data'):
+        # 11/14 첫 실행: 0줄이 '성공'으로 저장됨 → 빈 응답은 실패로(키 사용 전 대기·인증 오류 등). 응답의 code·msg만 찍음(키 없음)
+        raise RuntimeError('빈 응답(받은 줄 0) — 칸: %s · code: %s · msg: %s' % (
+            ','.join(sorted(first.keys()))[:120], first.get('code'), str(first.get('msg') or first.get('message') or '')[:120]))
     pages = max(1, -(-total // PER))
     rows = list(first.get('data') or [])
     for p in range(2, pages + 1):
