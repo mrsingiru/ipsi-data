@@ -1,10 +1,10 @@
-name: 학과별 신입생 충원 현황 받기(대학알리미 · 공공데이터포털)
+name: 공공데이터 받기(학과별 충원 현황 · 대학 기본정보 · 학교별 학과 · 공휴일)
 
 # 2026-11-14 대표 '학과별 경쟁률부터' · 17:55 'API 사용하면 자동화 되지 않을까?' — 공공데이터포털 15163924 자동변환 오픈 API.
 # 해마다 한 번 새 해가 올라옴(포털 차기 등록 예정 2027-08-31) → 달마다 확인, 바뀐 것이 없으면 저장하지 않음.
 on:
   schedule:
-    - cron: '41 20 15 * *'   # 매달 16일 05:41(한국 시간) = 15일 20:41(UTC) — 나이스(매일 15:17)·자료 점검(04:10)과 겹치지 않게
+    - cron: '41 20 * * 0'    # 매주 월요일 05:41(한국 시간) = 일요일 20:41(UTC) — 공휴일(임시공휴일)은 자주 보고, 학과·대학 자료는 바뀐 것이 없으면 저장하지 않음. 나이스(매일 15:17)·자료 점검(04:10)과 겹치지 않게
   workflow_dispatch:          # Actions 화면에서 'Run workflow'로 바로 실행
     inputs:
       diag:
@@ -38,16 +38,21 @@ jobs:
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
         run: python scripts/fetch_univ_dept.py
+      - name: 대학 기본정보 · 학교별 학과 · 공휴일 받기
+        if: always() && github.event.inputs.diag != 'yes'
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+        run: python scripts/fetch_public_apis.py
       - name: 바뀐 것이 있으면 저장
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/univ_dept || true
+          git add data || true
           if git diff --cached --quiet; then
             echo "바뀐 것 없음"
           else
-            git commit -m "학과별 신입생 충원 현황 갱신 $(TZ=Asia/Seoul date +%F)"
+            git commit -m "공공데이터 갱신 $(TZ=Asia/Seoul date +%F)"
             git pull --rebase --autostash || true
             git push
           fi

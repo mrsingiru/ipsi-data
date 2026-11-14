@@ -74,6 +74,8 @@
 - 2026-11-14 대표 활용신청 승인(공공데이터포털 15163924 자동변환 오픈 API, 개발계정 하루 10,000건, 만료 2028-11-14). 비밀 값 이름 `DATA_GO_KR_KEY`(일반 인증키 Decoding).
 - `scripts/fetch_univ_dept.py` · `.github/workflows/univ_dept.yml`(매달 16일 05:41 한국 시간 + Run workflow) → `data/univ_dept/latest.json`(최근 기준연도 2개 해, 칸을 줄인 표 — 전형 구분 없음) · `data/univ_dept/run.json`.
 - 출처 표시: 교육부, 「대학알리미_신입생 충원 현황_대학_학과별」, 공공데이터포털 15163924, 공공누리 제1유형.
+- 같은 키로 `scripts/fetch_public_apis.py`가 대학 기본정보(15158665 getSchoolInfo → `data/univ_info.json`) · 학교별 학과(15158955 getUniversityMajorCode, 4년제만 → `data/univ_major.json`) · 공휴일(15012690 getRestDeInfo, 올해·내년 → `data/holidays.json`)도 받음 — 모두 '이용허락범위 제한 없음'. 워크플로는 매주 월요일 05:41(한국 시간).
+- 교육여건 현황(15158679, 기숙사 수용 등)은 2026-11-14 활용신청 — 수집은 베타 서비스 뒤.
 
 ## 지키는 것
 
