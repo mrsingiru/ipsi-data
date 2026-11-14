@@ -18,7 +18,7 @@ import urllib.parse
 import urllib.request
 
 URL = 'https://api.odcloud.kr/api/15163924/v1/uddi:a850d2f9-33fc-491b-943c-a7d34b9151c4'
-PER = 5000
+PER = 1000   # 11/14 첫 실행 5000은 '정상'인데 줄 0 → 살펴보기에서 10은 됨. 1000이면 약 318번(개발계정 하루 10,000건 안)
 OUT = 'data/univ_dept'
 KEEP_YEARS = 2
 COLS = ['공시연도', '기준연도', '학교코드', '학교명', '본분교명', '학교상태', '지역', '단과대학', '학과코드', '학과명',
@@ -51,7 +51,11 @@ def main():
         print('::notice::비밀 값 DATA_GO_KR_KEY가 없어 건너뜁니다.')
         return 0
     t0 = time.time()
+    global PER
     first = get(1, key)
+    while not first.get('data') and PER > 100:   # 한 번에 받는 줄이 너무 많으면 빈 응답이 옴 — 줄여서 다시
+        PER //= 2
+        first = get(1, key)
     total = int(first.get('totalCount') or first.get('matchCount') or 0)
     if not total or not first.get('data'):
         # 11/14 첫 실행: 0줄이 '성공'으로 저장됨 → 빈 응답은 실패로(키 사용 전 대기·인증 오류 등). 응답의 code·msg만 찍음(키 없음)
@@ -88,7 +92,7 @@ def main():
     if changed:
         out['fetchedAt'] = now_utc()
         json.dump(out, open(path, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
-    run = {'workflow': 'univ_dept', 'finishedAt': now_utc(), 'secs': round(time.time() - t0, 1), 'pages': pages,
+    run = {'workflow': 'univ_dept', 'finishedAt': now_utc(), 'secs': round(time.time() - t0, 1), 'pages': pages, 'perPage': PER,
            'totalRows': total, 'rowsByYear': {str(k): v for k, v in sorted(by_year.items(), key=lambda kv: str(kv[0]))},
            'keptYears': years, 'keptRows': len(keep), 'changed': changed}
     json.dump(run, open(os.path.join(OUT, 'run.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
