@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: '41 20 15 * *'   # 매달 16일 05:41(한국 시간) = 15일 20:41(UTC) — 나이스(매일 15:17)·자료 점검(04:10)과 겹치지 않게
   workflow_dispatch:          # Actions 화면에서 'Run workflow'로 바로 실행
+    inputs:
+      diag:
+        description: '응답 살펴보기만(yes) — 저장 안 함'
+        required: false
+        default: 'no'
 
 permissions:
   contents: write
@@ -23,7 +28,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: 응답 살펴보기(diag=yes일 때만, 키는 찍지 않음)
+        if: github.event.inputs.diag == 'yes'
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+        run: python scripts/diag_odcloud.py
       - name: 학과별 신입생 충원 현황 받기
+        if: github.event.inputs.diag != 'yes'
         env:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
         run: python scripts/fetch_univ_dept.py
