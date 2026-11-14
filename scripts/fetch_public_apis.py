@@ -81,17 +81,18 @@ def main():
         return 0
     run, t0, bad = {'workflow': 'public_apis'}, time.time(), []
     # 1) 대학 기본정보 — 올해 조사년도가 아직 없으면 지난해
-    yr, schools = None, []
+    yr, schools, stotal = None, [], None
     for y in (kst_year(), kst_year() - 1, kst_year() - 2):
         total, schools = all_pages(SCHOOL, {'svyYr': y}, key)
         if total and schools:
-            yr = y
+            yr, stotal = y, total
             break
     if not schools:
         bad.append('대학 기본정보 0곳')
     else:
         keep = sorted(schools, key=lambda s: (s.get('schlNm', ''), s.get('psbsDivNm', '')))
-        run['univInfo'] = {'svyYr': yr, 'schools': len(keep), 'changed': save('data/univ_info.json', {
+        # 2026-11-14: API 전체 건수(totalCount)도 남김 — 받은 줄이 정확히 2,000이라 최대치에 걸렸는지 확인용(ipsi-site tools/univ_name_check.py가 읽음)
+        run['univInfo'] = {'svyYr': yr, 'schools': len(keep), 'total': stotal, 'changed': save('data/univ_info.json', {
             'source': {'org': '한국대학교육협의회', 'name': '대학 및 전문대학정보_GW', 'portal': '공공데이터포털', 'id': '15158665', 'license': '이용허락범위 제한 없음'},
             'svyYr': yr, 'rows': keep})}
     # 2) 공휴일(먼저 — 학과가 오래 걸려도 공휴일은 저장되게) — 올해·내년
