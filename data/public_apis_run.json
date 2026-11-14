@@ -1,0 +1,23 @@
+{
+ "workflow": "public_apis",
+ "univInfo": {
+  "svyYr": 2025,
+  "schools": 2000,
+  "changed": true
+ },
+ "holidays": {
+  "2026": 22,
+  "2027": 24,
+  "changed": true
+ },
+ "univMajor": {
+  "svyYr": 2025,
+  "schools": 262,
+  "majors": 27311,
+  "missSchools": 0,
+  "changed": true
+ },
+ "finishedAt": "2026-11-14T10:22:33Z",
+ "secs": 1046.1,
+ "problems": []
+}
